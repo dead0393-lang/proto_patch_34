@@ -44,328 +44,6 @@ public:
      _instance;
 } _PlayerDeathZoneNotify_default_instance_;
 
-namespace protobuf_cmd_2fcmd_5fregional_5fplay_2eproto {
-
-
-namespace {
-
-::google::protobuf::Metadata file_level_metadata[5];
-const ::google::protobuf::EnumDescriptor* file_level_enum_descriptors[3];
-
-}  // namespace
-
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::ParseTableField
-    const TableStruct::entries[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  {0, 0, 0, ::google::protobuf::internal::kInvalidMask, 0, 0},
-};
-
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::AuxillaryParseTableField
-    const TableStruct::aux[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  ::google::protobuf::internal::AuxillaryParseTableField(),
-};
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::ParseTable const
-    TableStruct::schema[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-};
-
-const ::google::protobuf::uint32 TableStruct::offsets[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(RegionalPlayVar, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(RegionalPlayVar, type_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(RegionalPlayVar, max_value_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(RegionalPlayVar, value_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(RegionalPlayVar, base_value_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(RegionalPlayInfoNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(RegionalPlayInfoNotify, var_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(RegionalPlayInfoNotify, play_name_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(RegionalPlayInfoNotify, is_enabled_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(RegionalPlayInfoNotify, play_type_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(RegionalPlayInfoNotify, is_in_region_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DeathZoneInfo, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DeathZoneInfo, is_open_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DeathZoneInfo, id_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DeathZoneInfoNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DeathZoneInfoNotify, death_zone_info_list_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PlayerDeathZoneNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PlayerDeathZoneNotify, cur_death_zone_id_),
-};
-static const ::google::protobuf::internal::MigrationSchema schemas[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  { 0, -1, sizeof(RegionalPlayVar)},
-  { 9, -1, sizeof(RegionalPlayInfoNotify)},
-  { 19, -1, sizeof(DeathZoneInfo)},
-  { 26, -1, sizeof(DeathZoneInfoNotify)},
-  { 32, -1, sizeof(PlayerDeathZoneNotify)},
-};
-
-static ::google::protobuf::Message const * const file_default_instances[] = {
-  reinterpret_cast<const ::google::protobuf::Message*>(&_RegionalPlayVar_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_RegionalPlayInfoNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_DeathZoneInfo_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_DeathZoneInfoNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_PlayerDeathZoneNotify_default_instance_),
-};
-
-namespace {
-
-void protobuf_AssignDescriptors() {
-  AddDescriptors();
-  ::google::protobuf::MessageFactory* factory = NULL;
-  AssignDescriptors(
-      "cmd/cmd_regional_play.proto", schemas, file_default_instances, TableStruct::offsets, factory,
-      file_level_metadata, file_level_enum_descriptors, NULL);
-}
-
-void protobuf_AssignDescriptorsOnce() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &protobuf_AssignDescriptors);
-}
-
-void protobuf_RegisterTypes(const ::std::string&) GOOGLE_ATTRIBUTE_COLD;
-void protobuf_RegisterTypes(const ::std::string&) {
-  protobuf_AssignDescriptorsOnce();
-  ::google::protobuf::internal::RegisterAllTypes(file_level_metadata, 5);
-}
-
-}  // namespace
-void TableStruct::InitDefaultsImpl() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
-
-  ::google::protobuf::internal::InitProtobufDefaults();
-  ::proto::protobuf_define_2eproto::InitDefaults();
-  _RegionalPlayVar_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_RegionalPlayVar_default_instance_);_RegionalPlayInfoNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_RegionalPlayInfoNotify_default_instance_);_DeathZoneInfo_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_DeathZoneInfo_default_instance_);_DeathZoneInfoNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_DeathZoneInfoNotify_default_instance_);_PlayerDeathZoneNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_PlayerDeathZoneNotify_default_instance_);}
-
-void InitDefaults() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &TableStruct::InitDefaultsImpl);
-}
-namespace {
-void AddDescriptorsImpl() {
-  InitDefaults();
-  static const char descriptor[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-      "\n\033cmd/cmd_regional_play.proto\022\005proto\032\014de"
-      "fine.proto\"U\n\017RegionalPlayVar\022\014\n\004type\030\010 "
-      "\001(\r\022\021\n\tmax_value\030\017 \001(\002\022\r\n\005value\030\014 \001(\002\022\022\n"
-      "\nbase_value\030\004 \001(\002\"\341\001\n\026RegionalPlayInfoNo"
-      "tify\022(\n\010var_list\030\013 \003(\0132\026.proto.RegionalP"
-      "layVar\022\021\n\tplay_name\030\010 \001(\t\022\022\n\nis_enabled\030"
-      "\002 \001(\010\022\021\n\tplay_type\030\016 \001(\r\022\024\n\014is_in_region"
-      "\030\007 \001(\010\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\2201\022\023"
-      "\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020"
-      "\001\032\002\020\001\",\n\rDeathZoneInfo\022\017\n\007is_open\030\017 \001(\010\022"
-      "\n\n\002id\030\006 \001(\r\"\230\001\n\023DeathZoneInfoNotify\0222\n\024d"
-      "eath_zone_info_list\030\003 \003(\0132\024.proto.DeathZ"
-      "oneInfo\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\2271\022"
-      "\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE"
-      "\020\001\032\002\020\001\"\201\001\n\025PlayerDeathZoneNotify\022\031\n\021cur_"
-      "death_zone_id\030\013 \001(\r\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013"
-      "\n\006CMD_ID\020\2301\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET"
-      "_IS_RELIABLE\020\001\032\002\020\001B\nZ\010./;protob\006proto3"
-  };
-  ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-      descriptor, 718);
-  ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
-    "cmd/cmd_regional_play.proto", &protobuf_RegisterTypes);
-  ::proto::protobuf_define_2eproto::AddDescriptors();
-}
-} // anonymous namespace
-
-void AddDescriptors() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &AddDescriptorsImpl);
-}
-// Force AddDescriptors() to be called at dynamic initialization time.
-struct StaticDescriptorInitializer {
-  StaticDescriptorInitializer() {
-    AddDescriptors();
-  }
-} static_descriptor_initializer;
-
-}  // namespace protobuf_cmd_2fcmd_5fregional_5fplay_2eproto
-
-const ::google::protobuf::EnumDescriptor* RegionalPlayInfoNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fregional_5fplay_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fregional_5fplay_2eproto::file_level_enum_descriptors[0];
-}
-bool RegionalPlayInfoNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 6288:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const RegionalPlayInfoNotify_CmdId RegionalPlayInfoNotify::NONE;
-const RegionalPlayInfoNotify_CmdId RegionalPlayInfoNotify::CMD_ID;
-const RegionalPlayInfoNotify_CmdId RegionalPlayInfoNotify::ENET_CHANNEL_ID;
-const RegionalPlayInfoNotify_CmdId RegionalPlayInfoNotify::ENET_IS_RELIABLE;
-const RegionalPlayInfoNotify_CmdId RegionalPlayInfoNotify::CmdId_MIN;
-const RegionalPlayInfoNotify_CmdId RegionalPlayInfoNotify::CmdId_MAX;
-const int RegionalPlayInfoNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* DeathZoneInfoNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fregional_5fplay_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fregional_5fplay_2eproto::file_level_enum_descriptors[1];
-}
-bool DeathZoneInfoNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 6295:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const DeathZoneInfoNotify_CmdId DeathZoneInfoNotify::NONE;
-const DeathZoneInfoNotify_CmdId DeathZoneInfoNotify::CMD_ID;
-const DeathZoneInfoNotify_CmdId DeathZoneInfoNotify::ENET_CHANNEL_ID;
-const DeathZoneInfoNotify_CmdId DeathZoneInfoNotify::ENET_IS_RELIABLE;
-const DeathZoneInfoNotify_CmdId DeathZoneInfoNotify::CmdId_MIN;
-const DeathZoneInfoNotify_CmdId DeathZoneInfoNotify::CmdId_MAX;
-const int DeathZoneInfoNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* PlayerDeathZoneNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fregional_5fplay_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fregional_5fplay_2eproto::file_level_enum_descriptors[2];
-}
-bool PlayerDeathZoneNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 6296:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const PlayerDeathZoneNotify_CmdId PlayerDeathZoneNotify::NONE;
-const PlayerDeathZoneNotify_CmdId PlayerDeathZoneNotify::CMD_ID;
-const PlayerDeathZoneNotify_CmdId PlayerDeathZoneNotify::ENET_CHANNEL_ID;
-const PlayerDeathZoneNotify_CmdId PlayerDeathZoneNotify::ENET_IS_RELIABLE;
-const PlayerDeathZoneNotify_CmdId PlayerDeathZoneNotify::CmdId_MIN;
-const PlayerDeathZoneNotify_CmdId PlayerDeathZoneNotify::CmdId_MAX;
-const int PlayerDeathZoneNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int RegionalPlayVar::kTypeFieldNumber;
-const int RegionalPlayVar::kMaxValueFieldNumber;
-const int RegionalPlayVar::kValueFieldNumber;
-const int RegionalPlayVar::kBaseValueFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-RegionalPlayVar::RegionalPlayVar()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fregional_5fplay_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.RegionalPlayVar)
-}
-RegionalPlayVar::RegionalPlayVar(const RegionalPlayVar& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&base_value_, &from.base_value_,
-    static_cast<size_t>(reinterpret_cast<char*>(&max_value_) -
-    reinterpret_cast<char*>(&base_value_)) + sizeof(max_value_));
-  // @@protoc_insertion_point(copy_constructor:proto.RegionalPlayVar)
-}
-
-void RegionalPlayVar::SharedCtor() {
-  ::memset(&base_value_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&max_value_) -
-      reinterpret_cast<char*>(&base_value_)) + sizeof(max_value_));
-  _cached_size_ = 0;
-}
-
-RegionalPlayVar::~RegionalPlayVar() {
-  // @@protoc_insertion_point(destructor:proto.RegionalPlayVar)
-  SharedDtor();
-}
-
-void RegionalPlayVar::SharedDtor() {
-}
-
-void RegionalPlayVar::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* RegionalPlayVar::descriptor() {
-  protobuf_cmd_2fcmd_5fregional_5fplay_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fregional_5fplay_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const RegionalPlayVar& RegionalPlayVar::default_instance() {
-  protobuf_cmd_2fcmd_5fregional_5fplay_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-RegionalPlayVar* RegionalPlayVar::New(::google::protobuf::Arena* arena) const {
-  RegionalPlayVar* n = new RegionalPlayVar;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void RegionalPlayVar::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.RegionalPlayVar)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&base_value_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&max_value_) -
-      reinterpret_cast<char*>(&base_value_)) + sizeof(max_value_));
-  _internal_metadata_.Clear();
-}
-
 bool RegionalPlayVar::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -438,16 +116,18 @@ bool RegionalPlayVar::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.RegionalPlayVar)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.RegionalPlayVar)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -478,9 +158,9 @@ void RegionalPlayVar::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteFloat(15, this->max_value(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.RegionalPlayVar)
 }
@@ -512,9 +192,9 @@ void RegionalPlayVar::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteFloatToArray(15, this->max_value(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.RegionalPlayVar)
   return target;
@@ -524,10 +204,10 @@ size_t RegionalPlayVar::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.RegionalPlayVar)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // float base_value = 4;
   if (this->base_value() != 0) {
@@ -556,228 +236,6 @@ size_t RegionalPlayVar::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void RegionalPlayVar::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.RegionalPlayVar)
-  GOOGLE_DCHECK_NE(&from, this);
-  const RegionalPlayVar* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const RegionalPlayVar>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.RegionalPlayVar)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.RegionalPlayVar)
-    MergeFrom(*source);
-  }
-}
-
-void RegionalPlayVar::MergeFrom(const RegionalPlayVar& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.RegionalPlayVar)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.base_value() != 0) {
-    set_base_value(from.base_value());
-  }
-  if (from.type() != 0) {
-    set_type(from.type());
-  }
-  if (from.value() != 0) {
-    set_value(from.value());
-  }
-  if (from.max_value() != 0) {
-    set_max_value(from.max_value());
-  }
-}
-
-void RegionalPlayVar::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.RegionalPlayVar)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void RegionalPlayVar::CopyFrom(const RegionalPlayVar& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.RegionalPlayVar)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool RegionalPlayVar::IsInitialized() const {
-  return true;
-}
-
-void RegionalPlayVar::Swap(RegionalPlayVar* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void RegionalPlayVar::InternalSwap(RegionalPlayVar* other) {
-  using std::swap;
-  swap(base_value_, other->base_value_);
-  swap(type_, other->type_);
-  swap(value_, other->value_);
-  swap(max_value_, other->max_value_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata RegionalPlayVar::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fregional_5fplay_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fregional_5fplay_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// RegionalPlayVar
-
-// uint32 type = 8;
-void RegionalPlayVar::clear_type() {
-  type_ = 0u;
-}
-::google::protobuf::uint32 RegionalPlayVar::type() const {
-  // @@protoc_insertion_point(field_get:proto.RegionalPlayVar.type)
-  return type_;
-}
-void RegionalPlayVar::set_type(::google::protobuf::uint32 value) {
-  
-  type_ = value;
-  // @@protoc_insertion_point(field_set:proto.RegionalPlayVar.type)
-}
-
-// float max_value = 15;
-void RegionalPlayVar::clear_max_value() {
-  max_value_ = 0;
-}
-float RegionalPlayVar::max_value() const {
-  // @@protoc_insertion_point(field_get:proto.RegionalPlayVar.max_value)
-  return max_value_;
-}
-void RegionalPlayVar::set_max_value(float value) {
-  
-  max_value_ = value;
-  // @@protoc_insertion_point(field_set:proto.RegionalPlayVar.max_value)
-}
-
-// float value = 12;
-void RegionalPlayVar::clear_value() {
-  value_ = 0;
-}
-float RegionalPlayVar::value() const {
-  // @@protoc_insertion_point(field_get:proto.RegionalPlayVar.value)
-  return value_;
-}
-void RegionalPlayVar::set_value(float value) {
-  
-  value_ = value;
-  // @@protoc_insertion_point(field_set:proto.RegionalPlayVar.value)
-}
-
-// float base_value = 4;
-void RegionalPlayVar::clear_base_value() {
-  base_value_ = 0;
-}
-float RegionalPlayVar::base_value() const {
-  // @@protoc_insertion_point(field_get:proto.RegionalPlayVar.base_value)
-  return base_value_;
-}
-void RegionalPlayVar::set_base_value(float value) {
-  
-  base_value_ = value;
-  // @@protoc_insertion_point(field_set:proto.RegionalPlayVar.base_value)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int RegionalPlayInfoNotify::kVarListFieldNumber;
-const int RegionalPlayInfoNotify::kPlayNameFieldNumber;
-const int RegionalPlayInfoNotify::kIsEnabledFieldNumber;
-const int RegionalPlayInfoNotify::kPlayTypeFieldNumber;
-const int RegionalPlayInfoNotify::kIsInRegionFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-RegionalPlayInfoNotify::RegionalPlayInfoNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fregional_5fplay_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.RegionalPlayInfoNotify)
-}
-RegionalPlayInfoNotify::RegionalPlayInfoNotify(const RegionalPlayInfoNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      var_list_(from.var_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  play_name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  if (from.play_name().size() > 0) {
-    play_name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.play_name_);
-  }
-  ::memcpy(&is_enabled_, &from.is_enabled_,
-    static_cast<size_t>(reinterpret_cast<char*>(&play_type_) -
-    reinterpret_cast<char*>(&is_enabled_)) + sizeof(play_type_));
-  // @@protoc_insertion_point(copy_constructor:proto.RegionalPlayInfoNotify)
-}
-
-void RegionalPlayInfoNotify::SharedCtor() {
-  play_name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  ::memset(&is_enabled_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&play_type_) -
-      reinterpret_cast<char*>(&is_enabled_)) + sizeof(play_type_));
-  _cached_size_ = 0;
-}
-
-RegionalPlayInfoNotify::~RegionalPlayInfoNotify() {
-  // @@protoc_insertion_point(destructor:proto.RegionalPlayInfoNotify)
-  SharedDtor();
-}
-
-void RegionalPlayInfoNotify::SharedDtor() {
-  play_name_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-
-void RegionalPlayInfoNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* RegionalPlayInfoNotify::descriptor() {
-  protobuf_cmd_2fcmd_5fregional_5fplay_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fregional_5fplay_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const RegionalPlayInfoNotify& RegionalPlayInfoNotify::default_instance() {
-  protobuf_cmd_2fcmd_5fregional_5fplay_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-RegionalPlayInfoNotify* RegionalPlayInfoNotify::New(::google::protobuf::Arena* arena) const {
-  RegionalPlayInfoNotify* n = new RegionalPlayInfoNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void RegionalPlayInfoNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.RegionalPlayInfoNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  var_list_.Clear();
-  play_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  ::memset(&is_enabled_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&play_type_) -
-      reinterpret_cast<char*>(&is_enabled_)) + sizeof(play_type_));
-  _internal_metadata_.Clear();
 }
 
 bool RegionalPlayInfoNotify::MergePartialFromCodedStream(
@@ -866,16 +324,18 @@ bool RegionalPlayInfoNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.RegionalPlayInfoNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.RegionalPlayInfoNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -918,9 +378,9 @@ void RegionalPlayInfoNotify::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(14, this->play_type(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.RegionalPlayInfoNotify)
 }
@@ -966,9 +426,9 @@ void RegionalPlayInfoNotify::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(14, this->play_type(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.RegionalPlayInfoNotify)
   return target;
@@ -978,10 +438,10 @@ size_t RegionalPlayInfoNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.RegionalPlayInfoNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated .proto.RegionalPlayVar var_list = 11;
   {
@@ -1023,288 +483,6 @@ size_t RegionalPlayInfoNotify::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void RegionalPlayInfoNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.RegionalPlayInfoNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const RegionalPlayInfoNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const RegionalPlayInfoNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.RegionalPlayInfoNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.RegionalPlayInfoNotify)
-    MergeFrom(*source);
-  }
-}
-
-void RegionalPlayInfoNotify::MergeFrom(const RegionalPlayInfoNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.RegionalPlayInfoNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  var_list_.MergeFrom(from.var_list_);
-  if (from.play_name().size() > 0) {
-
-    play_name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.play_name_);
-  }
-  if (from.is_enabled() != 0) {
-    set_is_enabled(from.is_enabled());
-  }
-  if (from.is_in_region() != 0) {
-    set_is_in_region(from.is_in_region());
-  }
-  if (from.play_type() != 0) {
-    set_play_type(from.play_type());
-  }
-}
-
-void RegionalPlayInfoNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.RegionalPlayInfoNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void RegionalPlayInfoNotify::CopyFrom(const RegionalPlayInfoNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.RegionalPlayInfoNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool RegionalPlayInfoNotify::IsInitialized() const {
-  return true;
-}
-
-void RegionalPlayInfoNotify::Swap(RegionalPlayInfoNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void RegionalPlayInfoNotify::InternalSwap(RegionalPlayInfoNotify* other) {
-  using std::swap;
-  var_list_.InternalSwap(&other->var_list_);
-  play_name_.Swap(&other->play_name_);
-  swap(is_enabled_, other->is_enabled_);
-  swap(is_in_region_, other->is_in_region_);
-  swap(play_type_, other->play_type_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata RegionalPlayInfoNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fregional_5fplay_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fregional_5fplay_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// RegionalPlayInfoNotify
-
-// repeated .proto.RegionalPlayVar var_list = 11;
-int RegionalPlayInfoNotify::var_list_size() const {
-  return var_list_.size();
-}
-void RegionalPlayInfoNotify::clear_var_list() {
-  var_list_.Clear();
-}
-const ::proto::RegionalPlayVar& RegionalPlayInfoNotify::var_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.RegionalPlayInfoNotify.var_list)
-  return var_list_.Get(index);
-}
-::proto::RegionalPlayVar* RegionalPlayInfoNotify::mutable_var_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.RegionalPlayInfoNotify.var_list)
-  return var_list_.Mutable(index);
-}
-::proto::RegionalPlayVar* RegionalPlayInfoNotify::add_var_list() {
-  // @@protoc_insertion_point(field_add:proto.RegionalPlayInfoNotify.var_list)
-  return var_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::RegionalPlayVar >*
-RegionalPlayInfoNotify::mutable_var_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.RegionalPlayInfoNotify.var_list)
-  return &var_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::RegionalPlayVar >&
-RegionalPlayInfoNotify::var_list() const {
-  // @@protoc_insertion_point(field_list:proto.RegionalPlayInfoNotify.var_list)
-  return var_list_;
-}
-
-// string play_name = 8;
-void RegionalPlayInfoNotify::clear_play_name() {
-  play_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-const ::std::string& RegionalPlayInfoNotify::play_name() const {
-  // @@protoc_insertion_point(field_get:proto.RegionalPlayInfoNotify.play_name)
-  return play_name_.GetNoArena();
-}
-void RegionalPlayInfoNotify::set_play_name(const ::std::string& value) {
-  
-  play_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
-  // @@protoc_insertion_point(field_set:proto.RegionalPlayInfoNotify.play_name)
-}
-#if LANG_CXX11
-void RegionalPlayInfoNotify::set_play_name(::std::string&& value) {
-  
-  play_name_.SetNoArena(
-    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
-  // @@protoc_insertion_point(field_set_rvalue:proto.RegionalPlayInfoNotify.play_name)
-}
-#endif
-void RegionalPlayInfoNotify::set_play_name(const char* value) {
-  GOOGLE_DCHECK(value != NULL);
-  
-  play_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
-  // @@protoc_insertion_point(field_set_char:proto.RegionalPlayInfoNotify.play_name)
-}
-void RegionalPlayInfoNotify::set_play_name(const char* value, size_t size) {
-  
-  play_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
-      ::std::string(reinterpret_cast<const char*>(value), size));
-  // @@protoc_insertion_point(field_set_pointer:proto.RegionalPlayInfoNotify.play_name)
-}
-::std::string* RegionalPlayInfoNotify::mutable_play_name() {
-  
-  // @@protoc_insertion_point(field_mutable:proto.RegionalPlayInfoNotify.play_name)
-  return play_name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-::std::string* RegionalPlayInfoNotify::release_play_name() {
-  // @@protoc_insertion_point(field_release:proto.RegionalPlayInfoNotify.play_name)
-  
-  return play_name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-void RegionalPlayInfoNotify::set_allocated_play_name(::std::string* play_name) {
-  if (play_name != NULL) {
-    
-  } else {
-    
-  }
-  play_name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), play_name);
-  // @@protoc_insertion_point(field_set_allocated:proto.RegionalPlayInfoNotify.play_name)
-}
-
-// bool is_enabled = 2;
-void RegionalPlayInfoNotify::clear_is_enabled() {
-  is_enabled_ = false;
-}
-bool RegionalPlayInfoNotify::is_enabled() const {
-  // @@protoc_insertion_point(field_get:proto.RegionalPlayInfoNotify.is_enabled)
-  return is_enabled_;
-}
-void RegionalPlayInfoNotify::set_is_enabled(bool value) {
-  
-  is_enabled_ = value;
-  // @@protoc_insertion_point(field_set:proto.RegionalPlayInfoNotify.is_enabled)
-}
-
-// uint32 play_type = 14;
-void RegionalPlayInfoNotify::clear_play_type() {
-  play_type_ = 0u;
-}
-::google::protobuf::uint32 RegionalPlayInfoNotify::play_type() const {
-  // @@protoc_insertion_point(field_get:proto.RegionalPlayInfoNotify.play_type)
-  return play_type_;
-}
-void RegionalPlayInfoNotify::set_play_type(::google::protobuf::uint32 value) {
-  
-  play_type_ = value;
-  // @@protoc_insertion_point(field_set:proto.RegionalPlayInfoNotify.play_type)
-}
-
-// bool is_in_region = 7;
-void RegionalPlayInfoNotify::clear_is_in_region() {
-  is_in_region_ = false;
-}
-bool RegionalPlayInfoNotify::is_in_region() const {
-  // @@protoc_insertion_point(field_get:proto.RegionalPlayInfoNotify.is_in_region)
-  return is_in_region_;
-}
-void RegionalPlayInfoNotify::set_is_in_region(bool value) {
-  
-  is_in_region_ = value;
-  // @@protoc_insertion_point(field_set:proto.RegionalPlayInfoNotify.is_in_region)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int DeathZoneInfo::kIsOpenFieldNumber;
-const int DeathZoneInfo::kIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-DeathZoneInfo::DeathZoneInfo()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fregional_5fplay_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.DeathZoneInfo)
-}
-DeathZoneInfo::DeathZoneInfo(const DeathZoneInfo& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&id_, &from.id_,
-    static_cast<size_t>(reinterpret_cast<char*>(&is_open_) -
-    reinterpret_cast<char*>(&id_)) + sizeof(is_open_));
-  // @@protoc_insertion_point(copy_constructor:proto.DeathZoneInfo)
-}
-
-void DeathZoneInfo::SharedCtor() {
-  ::memset(&id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&is_open_) -
-      reinterpret_cast<char*>(&id_)) + sizeof(is_open_));
-  _cached_size_ = 0;
-}
-
-DeathZoneInfo::~DeathZoneInfo() {
-  // @@protoc_insertion_point(destructor:proto.DeathZoneInfo)
-  SharedDtor();
-}
-
-void DeathZoneInfo::SharedDtor() {
-}
-
-void DeathZoneInfo::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* DeathZoneInfo::descriptor() {
-  protobuf_cmd_2fcmd_5fregional_5fplay_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fregional_5fplay_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const DeathZoneInfo& DeathZoneInfo::default_instance() {
-  protobuf_cmd_2fcmd_5fregional_5fplay_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-DeathZoneInfo* DeathZoneInfo::New(::google::protobuf::Arena* arena) const {
-  DeathZoneInfo* n = new DeathZoneInfo;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void DeathZoneInfo::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.DeathZoneInfo)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&is_open_) -
-      reinterpret_cast<char*>(&id_)) + sizeof(is_open_));
-  _internal_metadata_.Clear();
 }
 
 bool DeathZoneInfo::MergePartialFromCodedStream(
@@ -1351,16 +529,18 @@ bool DeathZoneInfo::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.DeathZoneInfo)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.DeathZoneInfo)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -1381,9 +561,9 @@ void DeathZoneInfo::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteBool(15, this->is_open(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.DeathZoneInfo)
 }
@@ -1405,9 +585,9 @@ void DeathZoneInfo::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteBoolToArray(15, this->is_open(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.DeathZoneInfo)
   return target;
@@ -1417,10 +597,10 @@ size_t DeathZoneInfo::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.DeathZoneInfo)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 id = 6;
   if (this->id() != 0) {
@@ -1439,172 +619,6 @@ size_t DeathZoneInfo::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void DeathZoneInfo::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.DeathZoneInfo)
-  GOOGLE_DCHECK_NE(&from, this);
-  const DeathZoneInfo* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const DeathZoneInfo>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.DeathZoneInfo)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.DeathZoneInfo)
-    MergeFrom(*source);
-  }
-}
-
-void DeathZoneInfo::MergeFrom(const DeathZoneInfo& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.DeathZoneInfo)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.id() != 0) {
-    set_id(from.id());
-  }
-  if (from.is_open() != 0) {
-    set_is_open(from.is_open());
-  }
-}
-
-void DeathZoneInfo::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.DeathZoneInfo)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void DeathZoneInfo::CopyFrom(const DeathZoneInfo& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.DeathZoneInfo)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool DeathZoneInfo::IsInitialized() const {
-  return true;
-}
-
-void DeathZoneInfo::Swap(DeathZoneInfo* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void DeathZoneInfo::InternalSwap(DeathZoneInfo* other) {
-  using std::swap;
-  swap(id_, other->id_);
-  swap(is_open_, other->is_open_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata DeathZoneInfo::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fregional_5fplay_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fregional_5fplay_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// DeathZoneInfo
-
-// bool is_open = 15;
-void DeathZoneInfo::clear_is_open() {
-  is_open_ = false;
-}
-bool DeathZoneInfo::is_open() const {
-  // @@protoc_insertion_point(field_get:proto.DeathZoneInfo.is_open)
-  return is_open_;
-}
-void DeathZoneInfo::set_is_open(bool value) {
-  
-  is_open_ = value;
-  // @@protoc_insertion_point(field_set:proto.DeathZoneInfo.is_open)
-}
-
-// uint32 id = 6;
-void DeathZoneInfo::clear_id() {
-  id_ = 0u;
-}
-::google::protobuf::uint32 DeathZoneInfo::id() const {
-  // @@protoc_insertion_point(field_get:proto.DeathZoneInfo.id)
-  return id_;
-}
-void DeathZoneInfo::set_id(::google::protobuf::uint32 value) {
-  
-  id_ = value;
-  // @@protoc_insertion_point(field_set:proto.DeathZoneInfo.id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int DeathZoneInfoNotify::kDeathZoneInfoListFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-DeathZoneInfoNotify::DeathZoneInfoNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fregional_5fplay_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.DeathZoneInfoNotify)
-}
-DeathZoneInfoNotify::DeathZoneInfoNotify(const DeathZoneInfoNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      death_zone_info_list_(from.death_zone_info_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  // @@protoc_insertion_point(copy_constructor:proto.DeathZoneInfoNotify)
-}
-
-void DeathZoneInfoNotify::SharedCtor() {
-  _cached_size_ = 0;
-}
-
-DeathZoneInfoNotify::~DeathZoneInfoNotify() {
-  // @@protoc_insertion_point(destructor:proto.DeathZoneInfoNotify)
-  SharedDtor();
-}
-
-void DeathZoneInfoNotify::SharedDtor() {
-}
-
-void DeathZoneInfoNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* DeathZoneInfoNotify::descriptor() {
-  protobuf_cmd_2fcmd_5fregional_5fplay_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fregional_5fplay_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const DeathZoneInfoNotify& DeathZoneInfoNotify::default_instance() {
-  protobuf_cmd_2fcmd_5fregional_5fplay_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-DeathZoneInfoNotify* DeathZoneInfoNotify::New(::google::protobuf::Arena* arena) const {
-  DeathZoneInfoNotify* n = new DeathZoneInfoNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void DeathZoneInfoNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.DeathZoneInfoNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  death_zone_info_list_.Clear();
-  _internal_metadata_.Clear();
 }
 
 bool DeathZoneInfoNotify::MergePartialFromCodedStream(
@@ -1635,16 +649,18 @@ bool DeathZoneInfoNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.DeathZoneInfoNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.DeathZoneInfoNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -1662,9 +678,9 @@ void DeathZoneInfoNotify::SerializeWithCachedSizes(
       3, this->death_zone_info_list(static_cast<int>(i)), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.DeathZoneInfoNotify)
 }
@@ -1684,9 +700,9 @@ void DeathZoneInfoNotify::SerializeWithCachedSizes(
         3, this->death_zone_info_list(static_cast<int>(i)), deterministic, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.DeathZoneInfoNotify)
   return target;
@@ -1696,10 +712,10 @@ size_t DeathZoneInfoNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.DeathZoneInfoNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated .proto.DeathZoneInfo death_zone_info_list = 3;
   {
@@ -1717,169 +733,6 @@ size_t DeathZoneInfoNotify::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void DeathZoneInfoNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.DeathZoneInfoNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const DeathZoneInfoNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const DeathZoneInfoNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.DeathZoneInfoNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.DeathZoneInfoNotify)
-    MergeFrom(*source);
-  }
-}
-
-void DeathZoneInfoNotify::MergeFrom(const DeathZoneInfoNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.DeathZoneInfoNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  death_zone_info_list_.MergeFrom(from.death_zone_info_list_);
-}
-
-void DeathZoneInfoNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.DeathZoneInfoNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void DeathZoneInfoNotify::CopyFrom(const DeathZoneInfoNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.DeathZoneInfoNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool DeathZoneInfoNotify::IsInitialized() const {
-  return true;
-}
-
-void DeathZoneInfoNotify::Swap(DeathZoneInfoNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void DeathZoneInfoNotify::InternalSwap(DeathZoneInfoNotify* other) {
-  using std::swap;
-  death_zone_info_list_.InternalSwap(&other->death_zone_info_list_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata DeathZoneInfoNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fregional_5fplay_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fregional_5fplay_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// DeathZoneInfoNotify
-
-// repeated .proto.DeathZoneInfo death_zone_info_list = 3;
-int DeathZoneInfoNotify::death_zone_info_list_size() const {
-  return death_zone_info_list_.size();
-}
-void DeathZoneInfoNotify::clear_death_zone_info_list() {
-  death_zone_info_list_.Clear();
-}
-const ::proto::DeathZoneInfo& DeathZoneInfoNotify::death_zone_info_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.DeathZoneInfoNotify.death_zone_info_list)
-  return death_zone_info_list_.Get(index);
-}
-::proto::DeathZoneInfo* DeathZoneInfoNotify::mutable_death_zone_info_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.DeathZoneInfoNotify.death_zone_info_list)
-  return death_zone_info_list_.Mutable(index);
-}
-::proto::DeathZoneInfo* DeathZoneInfoNotify::add_death_zone_info_list() {
-  // @@protoc_insertion_point(field_add:proto.DeathZoneInfoNotify.death_zone_info_list)
-  return death_zone_info_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::DeathZoneInfo >*
-DeathZoneInfoNotify::mutable_death_zone_info_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.DeathZoneInfoNotify.death_zone_info_list)
-  return &death_zone_info_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::DeathZoneInfo >&
-DeathZoneInfoNotify::death_zone_info_list() const {
-  // @@protoc_insertion_point(field_list:proto.DeathZoneInfoNotify.death_zone_info_list)
-  return death_zone_info_list_;
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int PlayerDeathZoneNotify::kCurDeathZoneIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-PlayerDeathZoneNotify::PlayerDeathZoneNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fregional_5fplay_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.PlayerDeathZoneNotify)
-}
-PlayerDeathZoneNotify::PlayerDeathZoneNotify(const PlayerDeathZoneNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  cur_death_zone_id_ = from.cur_death_zone_id_;
-  // @@protoc_insertion_point(copy_constructor:proto.PlayerDeathZoneNotify)
-}
-
-void PlayerDeathZoneNotify::SharedCtor() {
-  cur_death_zone_id_ = 0u;
-  _cached_size_ = 0;
-}
-
-PlayerDeathZoneNotify::~PlayerDeathZoneNotify() {
-  // @@protoc_insertion_point(destructor:proto.PlayerDeathZoneNotify)
-  SharedDtor();
-}
-
-void PlayerDeathZoneNotify::SharedDtor() {
-}
-
-void PlayerDeathZoneNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* PlayerDeathZoneNotify::descriptor() {
-  protobuf_cmd_2fcmd_5fregional_5fplay_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fregional_5fplay_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const PlayerDeathZoneNotify& PlayerDeathZoneNotify::default_instance() {
-  protobuf_cmd_2fcmd_5fregional_5fplay_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-PlayerDeathZoneNotify* PlayerDeathZoneNotify::New(::google::protobuf::Arena* arena) const {
-  PlayerDeathZoneNotify* n = new PlayerDeathZoneNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void PlayerDeathZoneNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.PlayerDeathZoneNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  cur_death_zone_id_ = 0u;
-  _internal_metadata_.Clear();
 }
 
 bool PlayerDeathZoneNotify::MergePartialFromCodedStream(
@@ -1912,16 +765,18 @@ bool PlayerDeathZoneNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.PlayerDeathZoneNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.PlayerDeathZoneNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -1937,9 +792,9 @@ void PlayerDeathZoneNotify::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(11, this->cur_death_zone_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.PlayerDeathZoneNotify)
 }
@@ -1956,9 +811,9 @@ void PlayerDeathZoneNotify::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(11, this->cur_death_zone_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.PlayerDeathZoneNotify)
   return target;
@@ -1968,10 +823,10 @@ size_t PlayerDeathZoneNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.PlayerDeathZoneNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 cur_death_zone_id = 11;
   if (this->cur_death_zone_id() != 0) {
@@ -1986,86 +841,6 @@ size_t PlayerDeathZoneNotify::ByteSizeLong() const {
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
 }
-
-void PlayerDeathZoneNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.PlayerDeathZoneNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const PlayerDeathZoneNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const PlayerDeathZoneNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.PlayerDeathZoneNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.PlayerDeathZoneNotify)
-    MergeFrom(*source);
-  }
-}
-
-void PlayerDeathZoneNotify::MergeFrom(const PlayerDeathZoneNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.PlayerDeathZoneNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.cur_death_zone_id() != 0) {
-    set_cur_death_zone_id(from.cur_death_zone_id());
-  }
-}
-
-void PlayerDeathZoneNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.PlayerDeathZoneNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void PlayerDeathZoneNotify::CopyFrom(const PlayerDeathZoneNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.PlayerDeathZoneNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool PlayerDeathZoneNotify::IsInitialized() const {
-  return true;
-}
-
-void PlayerDeathZoneNotify::Swap(PlayerDeathZoneNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void PlayerDeathZoneNotify::InternalSwap(PlayerDeathZoneNotify* other) {
-  using std::swap;
-  swap(cur_death_zone_id_, other->cur_death_zone_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata PlayerDeathZoneNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fregional_5fplay_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fregional_5fplay_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// PlayerDeathZoneNotify
-
-// uint32 cur_death_zone_id = 11;
-void PlayerDeathZoneNotify::clear_cur_death_zone_id() {
-  cur_death_zone_id_ = 0u;
-}
-::google::protobuf::uint32 PlayerDeathZoneNotify::cur_death_zone_id() const {
-  // @@protoc_insertion_point(field_get:proto.PlayerDeathZoneNotify.cur_death_zone_id)
-  return cur_death_zone_id_;
-}
-void PlayerDeathZoneNotify::set_cur_death_zone_id(::google::protobuf::uint32 value) {
-  
-  cur_death_zone_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.PlayerDeathZoneNotify.cur_death_zone_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
 
 // @@protoc_insertion_point(namespace_scope)
 

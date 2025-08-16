@@ -39,248 +39,6 @@ public:
      _instance;
 } _AISnapshotInfo_default_instance_;
 
-namespace protobuf_cmd_2fcmd_5fstat_2eproto {
-
-
-namespace {
-
-::google::protobuf::Metadata file_level_metadata[4];
-
-}  // namespace
-
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::ParseTableField
-    const TableStruct::entries[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  {0, 0, 0, ::google::protobuf::internal::kInvalidMask, 0, 0},
-};
-
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::AuxillaryParseTableField
-    const TableStruct::aux[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  ::google::protobuf::internal::AuxillaryParseTableField(),
-};
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::ParseTable const
-    TableStruct::schema[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-};
-
-const ::google::protobuf::uint32 TableStruct::offsets[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AISnapshotEntitySkillCycle, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AISnapshotEntitySkillCycle, failed_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AISnapshotEntitySkillCycle, trydoskill_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AISnapshotEntitySkillCycle, success_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AISnapshotEntitySkillCycle, selected_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AISnapshotEntitySkillCycle, skill_id_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AISnapshotEntityData, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AISnapshotEntityData, tick_time_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AISnapshotEntityData, tactic_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AISnapshotEntityData, finished_skill_cycles_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AISnapshotEntityData, moved_distance_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AISnapshotEntityData, ai_target_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AISnapshotEntityData, threat_target_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AISnapshotEntityData, threat_list_size_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AISnapshotEntityData, entity_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AISnapshotEntityData, hitting_avatars_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AISnapshotEntityData, distance_to_player_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AISnapshotEntityData, attack_target_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AISnapshotEntityData, real_time_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AISnapshotInfo, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AISnapshotInfo, ai_snapshots_),
-};
-static const ::google::protobuf::internal::MigrationSchema schemas[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  { 0, -1, sizeof(AISnapshotEntitySkillCycle)},
-  { 10, -1, sizeof(AISnapshotEntityData)},
-  { 27, -1, sizeof(AISnapshotInfo)},
-};
-
-static ::google::protobuf::Message const * const file_default_instances[] = {
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AISnapshotEntitySkillCycle_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AISnapshotEntityData_HittingAvatarsEntry_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AISnapshotEntityData_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AISnapshotInfo_default_instance_),
-};
-
-namespace {
-
-void protobuf_AssignDescriptors() {
-  AddDescriptors();
-  ::google::protobuf::MessageFactory* factory = NULL;
-  AssignDescriptors(
-      "cmd/cmd_stat.proto", schemas, file_default_instances, TableStruct::offsets, factory,
-      file_level_metadata, NULL, NULL);
-file_level_metadata[1].reflection = AISnapshotEntityData::AISnapshotEntityData_HittingAvatarsEntry::CreateReflection(file_level_metadata[1].descriptor, _AISnapshotEntityData_HittingAvatarsEntry_default_instance_._instance.get_mutable());
-}
-
-void protobuf_AssignDescriptorsOnce() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &protobuf_AssignDescriptors);
-}
-
-void protobuf_RegisterTypes(const ::std::string&) GOOGLE_ATTRIBUTE_COLD;
-void protobuf_RegisterTypes(const ::std::string&) {
-  protobuf_AssignDescriptorsOnce();
-  ::google::protobuf::internal::RegisterAllTypes(file_level_metadata, 4);
-}
-
-}  // namespace
-void TableStruct::InitDefaultsImpl() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
-
-  ::google::protobuf::internal::InitProtobufDefaults();
-  ::proto::protobuf_define_2eproto::InitDefaults();
-  _AISnapshotEntitySkillCycle_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AISnapshotEntitySkillCycle_default_instance_);_AISnapshotEntityData_HittingAvatarsEntry_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AISnapshotEntityData_HittingAvatarsEntry_default_instance_);_AISnapshotEntityData_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AISnapshotEntityData_default_instance_);_AISnapshotInfo_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AISnapshotInfo_default_instance_);_AISnapshotEntityData_HittingAvatarsEntry_default_instance_._instance.get_mutable()->set_default_instance(_AISnapshotEntityData_HittingAvatarsEntry_default_instance_._instance.get_mutable());
-  _AISnapshotEntityData_HittingAvatarsEntry_default_instance_._instance.get_mutable()->InitAsDefaultInstance();
-}
-
-void InitDefaults() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &TableStruct::InitDefaultsImpl);
-}
-namespace {
-void AddDescriptorsImpl() {
-  InitDefaults();
-  static const char descriptor[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-      "\n\022cmd/cmd_stat.proto\022\005proto\032\014define.prot"
-      "o\"u\n\032AISnapshotEntitySkillCycle\022\016\n\006faile"
-      "d\030\003 \001(\010\022\022\n\ntrydoskill\030\014 \001(\010\022\017\n\007success\030\t"
-      " \001(\010\022\020\n\010selected\030\004 \001(\010\022\020\n\010skill_id\030\017 \001(\r"
-      "\"\272\003\n\024AISnapshotEntityData\022\021\n\ttick_time\030\013"
-      " \001(\002\022\016\n\006tactic\030\t \001(\r\022@\n\025finished_skill_c"
-      "ycles\030\001 \003(\0132!.proto.AISnapshotEntitySkil"
-      "lCycle\022\026\n\016moved_distance\030\006 \001(\002\022\024\n\014ai_tar"
-      "get_id\030\004 \001(\r\022\030\n\020threat_target_id\030\007 \001(\r\022\030"
-      "\n\020threat_list_size\030\005 \001(\r\022\021\n\tentity_id\030\002 "
-      "\001(\r\022H\n\017hitting_avatars\030\014 \003(\0132/.proto.AIS"
-      "napshotEntityData.HittingAvatarsEntry\022\032\n"
-      "\022distance_to_player\030\016 \001(\002\022\030\n\020attack_targ"
-      "et_id\030\017 \001(\r\022\021\n\treal_time\030\003 \001(\002\0325\n\023Hittin"
-      "gAvatarsEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001("
-      "\r:\0028\001\"C\n\016AISnapshotInfo\0221\n\014ai_snapshots\030"
-      "\016 \003(\0132\033.proto.AISnapshotEntityDataB\nZ\010./"
-      ";protob\006proto3"
-  };
-  ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-      descriptor, 694);
-  ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
-    "cmd/cmd_stat.proto", &protobuf_RegisterTypes);
-  ::proto::protobuf_define_2eproto::AddDescriptors();
-}
-} // anonymous namespace
-
-void AddDescriptors() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &AddDescriptorsImpl);
-}
-// Force AddDescriptors() to be called at dynamic initialization time.
-struct StaticDescriptorInitializer {
-  StaticDescriptorInitializer() {
-    AddDescriptors();
-  }
-} static_descriptor_initializer;
-
-}  // namespace protobuf_cmd_2fcmd_5fstat_2eproto
-
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AISnapshotEntitySkillCycle::kFailedFieldNumber;
-const int AISnapshotEntitySkillCycle::kTrydoskillFieldNumber;
-const int AISnapshotEntitySkillCycle::kSuccessFieldNumber;
-const int AISnapshotEntitySkillCycle::kSelectedFieldNumber;
-const int AISnapshotEntitySkillCycle::kSkillIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AISnapshotEntitySkillCycle::AISnapshotEntitySkillCycle()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fstat_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AISnapshotEntitySkillCycle)
-}
-AISnapshotEntitySkillCycle::AISnapshotEntitySkillCycle(const AISnapshotEntitySkillCycle& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&failed_, &from.failed_,
-    static_cast<size_t>(reinterpret_cast<char*>(&skill_id_) -
-    reinterpret_cast<char*>(&failed_)) + sizeof(skill_id_));
-  // @@protoc_insertion_point(copy_constructor:proto.AISnapshotEntitySkillCycle)
-}
-
-void AISnapshotEntitySkillCycle::SharedCtor() {
-  ::memset(&failed_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&skill_id_) -
-      reinterpret_cast<char*>(&failed_)) + sizeof(skill_id_));
-  _cached_size_ = 0;
-}
-
-AISnapshotEntitySkillCycle::~AISnapshotEntitySkillCycle() {
-  // @@protoc_insertion_point(destructor:proto.AISnapshotEntitySkillCycle)
-  SharedDtor();
-}
-
-void AISnapshotEntitySkillCycle::SharedDtor() {
-}
-
-void AISnapshotEntitySkillCycle::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AISnapshotEntitySkillCycle::descriptor() {
-  protobuf_cmd_2fcmd_5fstat_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fstat_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AISnapshotEntitySkillCycle& AISnapshotEntitySkillCycle::default_instance() {
-  protobuf_cmd_2fcmd_5fstat_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AISnapshotEntitySkillCycle* AISnapshotEntitySkillCycle::New(::google::protobuf::Arena* arena) const {
-  AISnapshotEntitySkillCycle* n = new AISnapshotEntitySkillCycle;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AISnapshotEntitySkillCycle::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AISnapshotEntitySkillCycle)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&failed_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&skill_id_) -
-      reinterpret_cast<char*>(&failed_)) + sizeof(skill_id_));
-  _internal_metadata_.Clear();
-}
-
 bool AISnapshotEntitySkillCycle::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -367,16 +125,18 @@ bool AISnapshotEntitySkillCycle::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AISnapshotEntitySkillCycle)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AISnapshotEntitySkillCycle)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -412,9 +172,9 @@ void AISnapshotEntitySkillCycle::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(15, this->skill_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AISnapshotEntitySkillCycle)
 }
@@ -451,9 +211,9 @@ void AISnapshotEntitySkillCycle::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(15, this->skill_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AISnapshotEntitySkillCycle)
   return target;
@@ -463,10 +223,10 @@ size_t AISnapshotEntitySkillCycle::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AISnapshotEntitySkillCycle)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // bool failed = 3;
   if (this->failed() != 0) {
@@ -500,267 +260,6 @@ size_t AISnapshotEntitySkillCycle::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AISnapshotEntitySkillCycle::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AISnapshotEntitySkillCycle)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AISnapshotEntitySkillCycle* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AISnapshotEntitySkillCycle>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AISnapshotEntitySkillCycle)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AISnapshotEntitySkillCycle)
-    MergeFrom(*source);
-  }
-}
-
-void AISnapshotEntitySkillCycle::MergeFrom(const AISnapshotEntitySkillCycle& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AISnapshotEntitySkillCycle)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.failed() != 0) {
-    set_failed(from.failed());
-  }
-  if (from.trydoskill() != 0) {
-    set_trydoskill(from.trydoskill());
-  }
-  if (from.success() != 0) {
-    set_success(from.success());
-  }
-  if (from.selected() != 0) {
-    set_selected(from.selected());
-  }
-  if (from.skill_id() != 0) {
-    set_skill_id(from.skill_id());
-  }
-}
-
-void AISnapshotEntitySkillCycle::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AISnapshotEntitySkillCycle)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AISnapshotEntitySkillCycle::CopyFrom(const AISnapshotEntitySkillCycle& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AISnapshotEntitySkillCycle)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AISnapshotEntitySkillCycle::IsInitialized() const {
-  return true;
-}
-
-void AISnapshotEntitySkillCycle::Swap(AISnapshotEntitySkillCycle* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AISnapshotEntitySkillCycle::InternalSwap(AISnapshotEntitySkillCycle* other) {
-  using std::swap;
-  swap(failed_, other->failed_);
-  swap(trydoskill_, other->trydoskill_);
-  swap(success_, other->success_);
-  swap(selected_, other->selected_);
-  swap(skill_id_, other->skill_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AISnapshotEntitySkillCycle::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fstat_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fstat_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AISnapshotEntitySkillCycle
-
-// bool failed = 3;
-void AISnapshotEntitySkillCycle::clear_failed() {
-  failed_ = false;
-}
-bool AISnapshotEntitySkillCycle::failed() const {
-  // @@protoc_insertion_point(field_get:proto.AISnapshotEntitySkillCycle.failed)
-  return failed_;
-}
-void AISnapshotEntitySkillCycle::set_failed(bool value) {
-  
-  failed_ = value;
-  // @@protoc_insertion_point(field_set:proto.AISnapshotEntitySkillCycle.failed)
-}
-
-// bool trydoskill = 12;
-void AISnapshotEntitySkillCycle::clear_trydoskill() {
-  trydoskill_ = false;
-}
-bool AISnapshotEntitySkillCycle::trydoskill() const {
-  // @@protoc_insertion_point(field_get:proto.AISnapshotEntitySkillCycle.trydoskill)
-  return trydoskill_;
-}
-void AISnapshotEntitySkillCycle::set_trydoskill(bool value) {
-  
-  trydoskill_ = value;
-  // @@protoc_insertion_point(field_set:proto.AISnapshotEntitySkillCycle.trydoskill)
-}
-
-// bool success = 9;
-void AISnapshotEntitySkillCycle::clear_success() {
-  success_ = false;
-}
-bool AISnapshotEntitySkillCycle::success() const {
-  // @@protoc_insertion_point(field_get:proto.AISnapshotEntitySkillCycle.success)
-  return success_;
-}
-void AISnapshotEntitySkillCycle::set_success(bool value) {
-  
-  success_ = value;
-  // @@protoc_insertion_point(field_set:proto.AISnapshotEntitySkillCycle.success)
-}
-
-// bool selected = 4;
-void AISnapshotEntitySkillCycle::clear_selected() {
-  selected_ = false;
-}
-bool AISnapshotEntitySkillCycle::selected() const {
-  // @@protoc_insertion_point(field_get:proto.AISnapshotEntitySkillCycle.selected)
-  return selected_;
-}
-void AISnapshotEntitySkillCycle::set_selected(bool value) {
-  
-  selected_ = value;
-  // @@protoc_insertion_point(field_set:proto.AISnapshotEntitySkillCycle.selected)
-}
-
-// uint32 skill_id = 15;
-void AISnapshotEntitySkillCycle::clear_skill_id() {
-  skill_id_ = 0u;
-}
-::google::protobuf::uint32 AISnapshotEntitySkillCycle::skill_id() const {
-  // @@protoc_insertion_point(field_get:proto.AISnapshotEntitySkillCycle.skill_id)
-  return skill_id_;
-}
-void AISnapshotEntitySkillCycle::set_skill_id(::google::protobuf::uint32 value) {
-  
-  skill_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.AISnapshotEntitySkillCycle.skill_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-AISnapshotEntityData::AISnapshotEntityData_HittingAvatarsEntry::AISnapshotEntityData_HittingAvatarsEntry() {}
-AISnapshotEntityData::AISnapshotEntityData_HittingAvatarsEntry::AISnapshotEntityData_HittingAvatarsEntry(::google::protobuf::Arena* arena) : SuperType(arena) {}
-::google::protobuf::Metadata AISnapshotEntityData::AISnapshotEntityData_HittingAvatarsEntry::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fstat_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fstat_2eproto::file_level_metadata[1];
-}
-void AISnapshotEntityData::AISnapshotEntityData_HittingAvatarsEntry::MergeFrom(
-    const ::google::protobuf::Message& other) {
-  ::google::protobuf::Message::MergeFrom(other);
-}
-void AISnapshotEntityData::AISnapshotEntityData_HittingAvatarsEntry::MergeFrom(const AISnapshotEntityData_HittingAvatarsEntry& other) {
-  MergeFromInternal(other);
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AISnapshotEntityData::kTickTimeFieldNumber;
-const int AISnapshotEntityData::kTacticFieldNumber;
-const int AISnapshotEntityData::kFinishedSkillCyclesFieldNumber;
-const int AISnapshotEntityData::kMovedDistanceFieldNumber;
-const int AISnapshotEntityData::kAiTargetIdFieldNumber;
-const int AISnapshotEntityData::kThreatTargetIdFieldNumber;
-const int AISnapshotEntityData::kThreatListSizeFieldNumber;
-const int AISnapshotEntityData::kEntityIdFieldNumber;
-const int AISnapshotEntityData::kHittingAvatarsFieldNumber;
-const int AISnapshotEntityData::kDistanceToPlayerFieldNumber;
-const int AISnapshotEntityData::kAttackTargetIdFieldNumber;
-const int AISnapshotEntityData::kRealTimeFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AISnapshotEntityData::AISnapshotEntityData()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fstat_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AISnapshotEntityData)
-}
-AISnapshotEntityData::AISnapshotEntityData(const AISnapshotEntityData& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      finished_skill_cycles_(from.finished_skill_cycles_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  hitting_avatars_.MergeFrom(from.hitting_avatars_);
-  ::memcpy(&entity_id_, &from.entity_id_,
-    static_cast<size_t>(reinterpret_cast<char*>(&attack_target_id_) -
-    reinterpret_cast<char*>(&entity_id_)) + sizeof(attack_target_id_));
-  // @@protoc_insertion_point(copy_constructor:proto.AISnapshotEntityData)
-}
-
-void AISnapshotEntityData::SharedCtor() {
-  ::memset(&entity_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&attack_target_id_) -
-      reinterpret_cast<char*>(&entity_id_)) + sizeof(attack_target_id_));
-  _cached_size_ = 0;
-}
-
-AISnapshotEntityData::~AISnapshotEntityData() {
-  // @@protoc_insertion_point(destructor:proto.AISnapshotEntityData)
-  SharedDtor();
-}
-
-void AISnapshotEntityData::SharedDtor() {
-}
-
-void AISnapshotEntityData::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AISnapshotEntityData::descriptor() {
-  protobuf_cmd_2fcmd_5fstat_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fstat_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AISnapshotEntityData& AISnapshotEntityData::default_instance() {
-  protobuf_cmd_2fcmd_5fstat_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AISnapshotEntityData* AISnapshotEntityData::New(::google::protobuf::Arena* arena) const {
-  AISnapshotEntityData* n = new AISnapshotEntityData;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AISnapshotEntityData::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AISnapshotEntityData)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  finished_skill_cycles_.Clear();
-  hitting_avatars_.Clear();
-  ::memset(&entity_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&attack_target_id_) -
-      reinterpret_cast<char*>(&entity_id_)) + sizeof(attack_target_id_));
-  _internal_metadata_.Clear();
 }
 
 bool AISnapshotEntityData::MergePartialFromCodedStream(
@@ -950,16 +449,18 @@ bool AISnapshotEntityData::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AISnapshotEntityData)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AISnapshotEntityData)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -1066,9 +567,9 @@ void AISnapshotEntityData::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(15, this->attack_target_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AISnapshotEntityData)
 }
@@ -1181,9 +682,9 @@ void AISnapshotEntityData::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(15, this->attack_target_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AISnapshotEntityData)
   return target;
@@ -1193,10 +694,10 @@ size_t AISnapshotEntityData::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AISnapshotEntityData)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated .proto.AISnapshotEntitySkillCycle finished_skill_cycles = 1;
   {
@@ -1292,368 +793,6 @@ size_t AISnapshotEntityData::ByteSizeLong() const {
   return total_size;
 }
 
-void AISnapshotEntityData::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AISnapshotEntityData)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AISnapshotEntityData* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AISnapshotEntityData>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AISnapshotEntityData)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AISnapshotEntityData)
-    MergeFrom(*source);
-  }
-}
-
-void AISnapshotEntityData::MergeFrom(const AISnapshotEntityData& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AISnapshotEntityData)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  finished_skill_cycles_.MergeFrom(from.finished_skill_cycles_);
-  hitting_avatars_.MergeFrom(from.hitting_avatars_);
-  if (from.entity_id() != 0) {
-    set_entity_id(from.entity_id());
-  }
-  if (from.real_time() != 0) {
-    set_real_time(from.real_time());
-  }
-  if (from.ai_target_id() != 0) {
-    set_ai_target_id(from.ai_target_id());
-  }
-  if (from.threat_list_size() != 0) {
-    set_threat_list_size(from.threat_list_size());
-  }
-  if (from.moved_distance() != 0) {
-    set_moved_distance(from.moved_distance());
-  }
-  if (from.threat_target_id() != 0) {
-    set_threat_target_id(from.threat_target_id());
-  }
-  if (from.tactic() != 0) {
-    set_tactic(from.tactic());
-  }
-  if (from.tick_time() != 0) {
-    set_tick_time(from.tick_time());
-  }
-  if (from.distance_to_player() != 0) {
-    set_distance_to_player(from.distance_to_player());
-  }
-  if (from.attack_target_id() != 0) {
-    set_attack_target_id(from.attack_target_id());
-  }
-}
-
-void AISnapshotEntityData::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AISnapshotEntityData)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AISnapshotEntityData::CopyFrom(const AISnapshotEntityData& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AISnapshotEntityData)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AISnapshotEntityData::IsInitialized() const {
-  return true;
-}
-
-void AISnapshotEntityData::Swap(AISnapshotEntityData* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AISnapshotEntityData::InternalSwap(AISnapshotEntityData* other) {
-  using std::swap;
-  finished_skill_cycles_.InternalSwap(&other->finished_skill_cycles_);
-  hitting_avatars_.Swap(&other->hitting_avatars_);
-  swap(entity_id_, other->entity_id_);
-  swap(real_time_, other->real_time_);
-  swap(ai_target_id_, other->ai_target_id_);
-  swap(threat_list_size_, other->threat_list_size_);
-  swap(moved_distance_, other->moved_distance_);
-  swap(threat_target_id_, other->threat_target_id_);
-  swap(tactic_, other->tactic_);
-  swap(tick_time_, other->tick_time_);
-  swap(distance_to_player_, other->distance_to_player_);
-  swap(attack_target_id_, other->attack_target_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AISnapshotEntityData::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fstat_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fstat_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AISnapshotEntityData
-
-// float tick_time = 11;
-void AISnapshotEntityData::clear_tick_time() {
-  tick_time_ = 0;
-}
-float AISnapshotEntityData::tick_time() const {
-  // @@protoc_insertion_point(field_get:proto.AISnapshotEntityData.tick_time)
-  return tick_time_;
-}
-void AISnapshotEntityData::set_tick_time(float value) {
-  
-  tick_time_ = value;
-  // @@protoc_insertion_point(field_set:proto.AISnapshotEntityData.tick_time)
-}
-
-// uint32 tactic = 9;
-void AISnapshotEntityData::clear_tactic() {
-  tactic_ = 0u;
-}
-::google::protobuf::uint32 AISnapshotEntityData::tactic() const {
-  // @@protoc_insertion_point(field_get:proto.AISnapshotEntityData.tactic)
-  return tactic_;
-}
-void AISnapshotEntityData::set_tactic(::google::protobuf::uint32 value) {
-  
-  tactic_ = value;
-  // @@protoc_insertion_point(field_set:proto.AISnapshotEntityData.tactic)
-}
-
-// repeated .proto.AISnapshotEntitySkillCycle finished_skill_cycles = 1;
-int AISnapshotEntityData::finished_skill_cycles_size() const {
-  return finished_skill_cycles_.size();
-}
-void AISnapshotEntityData::clear_finished_skill_cycles() {
-  finished_skill_cycles_.Clear();
-}
-const ::proto::AISnapshotEntitySkillCycle& AISnapshotEntityData::finished_skill_cycles(int index) const {
-  // @@protoc_insertion_point(field_get:proto.AISnapshotEntityData.finished_skill_cycles)
-  return finished_skill_cycles_.Get(index);
-}
-::proto::AISnapshotEntitySkillCycle* AISnapshotEntityData::mutable_finished_skill_cycles(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.AISnapshotEntityData.finished_skill_cycles)
-  return finished_skill_cycles_.Mutable(index);
-}
-::proto::AISnapshotEntitySkillCycle* AISnapshotEntityData::add_finished_skill_cycles() {
-  // @@protoc_insertion_point(field_add:proto.AISnapshotEntityData.finished_skill_cycles)
-  return finished_skill_cycles_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::AISnapshotEntitySkillCycle >*
-AISnapshotEntityData::mutable_finished_skill_cycles() {
-  // @@protoc_insertion_point(field_mutable_list:proto.AISnapshotEntityData.finished_skill_cycles)
-  return &finished_skill_cycles_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::AISnapshotEntitySkillCycle >&
-AISnapshotEntityData::finished_skill_cycles() const {
-  // @@protoc_insertion_point(field_list:proto.AISnapshotEntityData.finished_skill_cycles)
-  return finished_skill_cycles_;
-}
-
-// float moved_distance = 6;
-void AISnapshotEntityData::clear_moved_distance() {
-  moved_distance_ = 0;
-}
-float AISnapshotEntityData::moved_distance() const {
-  // @@protoc_insertion_point(field_get:proto.AISnapshotEntityData.moved_distance)
-  return moved_distance_;
-}
-void AISnapshotEntityData::set_moved_distance(float value) {
-  
-  moved_distance_ = value;
-  // @@protoc_insertion_point(field_set:proto.AISnapshotEntityData.moved_distance)
-}
-
-// uint32 ai_target_id = 4;
-void AISnapshotEntityData::clear_ai_target_id() {
-  ai_target_id_ = 0u;
-}
-::google::protobuf::uint32 AISnapshotEntityData::ai_target_id() const {
-  // @@protoc_insertion_point(field_get:proto.AISnapshotEntityData.ai_target_id)
-  return ai_target_id_;
-}
-void AISnapshotEntityData::set_ai_target_id(::google::protobuf::uint32 value) {
-  
-  ai_target_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.AISnapshotEntityData.ai_target_id)
-}
-
-// uint32 threat_target_id = 7;
-void AISnapshotEntityData::clear_threat_target_id() {
-  threat_target_id_ = 0u;
-}
-::google::protobuf::uint32 AISnapshotEntityData::threat_target_id() const {
-  // @@protoc_insertion_point(field_get:proto.AISnapshotEntityData.threat_target_id)
-  return threat_target_id_;
-}
-void AISnapshotEntityData::set_threat_target_id(::google::protobuf::uint32 value) {
-  
-  threat_target_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.AISnapshotEntityData.threat_target_id)
-}
-
-// uint32 threat_list_size = 5;
-void AISnapshotEntityData::clear_threat_list_size() {
-  threat_list_size_ = 0u;
-}
-::google::protobuf::uint32 AISnapshotEntityData::threat_list_size() const {
-  // @@protoc_insertion_point(field_get:proto.AISnapshotEntityData.threat_list_size)
-  return threat_list_size_;
-}
-void AISnapshotEntityData::set_threat_list_size(::google::protobuf::uint32 value) {
-  
-  threat_list_size_ = value;
-  // @@protoc_insertion_point(field_set:proto.AISnapshotEntityData.threat_list_size)
-}
-
-// uint32 entity_id = 2;
-void AISnapshotEntityData::clear_entity_id() {
-  entity_id_ = 0u;
-}
-::google::protobuf::uint32 AISnapshotEntityData::entity_id() const {
-  // @@protoc_insertion_point(field_get:proto.AISnapshotEntityData.entity_id)
-  return entity_id_;
-}
-void AISnapshotEntityData::set_entity_id(::google::protobuf::uint32 value) {
-  
-  entity_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.AISnapshotEntityData.entity_id)
-}
-
-// map<uint32, uint32> hitting_avatars = 12;
-int AISnapshotEntityData::hitting_avatars_size() const {
-  return hitting_avatars_.size();
-}
-void AISnapshotEntityData::clear_hitting_avatars() {
-  hitting_avatars_.Clear();
-}
- const ::google::protobuf::Map< ::google::protobuf::uint32, ::google::protobuf::uint32 >&
-AISnapshotEntityData::hitting_avatars() const {
-  // @@protoc_insertion_point(field_map:proto.AISnapshotEntityData.hitting_avatars)
-  return hitting_avatars_.GetMap();
-}
- ::google::protobuf::Map< ::google::protobuf::uint32, ::google::protobuf::uint32 >*
-AISnapshotEntityData::mutable_hitting_avatars() {
-  // @@protoc_insertion_point(field_mutable_map:proto.AISnapshotEntityData.hitting_avatars)
-  return hitting_avatars_.MutableMap();
-}
-
-// float distance_to_player = 14;
-void AISnapshotEntityData::clear_distance_to_player() {
-  distance_to_player_ = 0;
-}
-float AISnapshotEntityData::distance_to_player() const {
-  // @@protoc_insertion_point(field_get:proto.AISnapshotEntityData.distance_to_player)
-  return distance_to_player_;
-}
-void AISnapshotEntityData::set_distance_to_player(float value) {
-  
-  distance_to_player_ = value;
-  // @@protoc_insertion_point(field_set:proto.AISnapshotEntityData.distance_to_player)
-}
-
-// uint32 attack_target_id = 15;
-void AISnapshotEntityData::clear_attack_target_id() {
-  attack_target_id_ = 0u;
-}
-::google::protobuf::uint32 AISnapshotEntityData::attack_target_id() const {
-  // @@protoc_insertion_point(field_get:proto.AISnapshotEntityData.attack_target_id)
-  return attack_target_id_;
-}
-void AISnapshotEntityData::set_attack_target_id(::google::protobuf::uint32 value) {
-  
-  attack_target_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.AISnapshotEntityData.attack_target_id)
-}
-
-// float real_time = 3;
-void AISnapshotEntityData::clear_real_time() {
-  real_time_ = 0;
-}
-float AISnapshotEntityData::real_time() const {
-  // @@protoc_insertion_point(field_get:proto.AISnapshotEntityData.real_time)
-  return real_time_;
-}
-void AISnapshotEntityData::set_real_time(float value) {
-  
-  real_time_ = value;
-  // @@protoc_insertion_point(field_set:proto.AISnapshotEntityData.real_time)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AISnapshotInfo::kAiSnapshotsFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AISnapshotInfo::AISnapshotInfo()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fstat_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AISnapshotInfo)
-}
-AISnapshotInfo::AISnapshotInfo(const AISnapshotInfo& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      ai_snapshots_(from.ai_snapshots_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  // @@protoc_insertion_point(copy_constructor:proto.AISnapshotInfo)
-}
-
-void AISnapshotInfo::SharedCtor() {
-  _cached_size_ = 0;
-}
-
-AISnapshotInfo::~AISnapshotInfo() {
-  // @@protoc_insertion_point(destructor:proto.AISnapshotInfo)
-  SharedDtor();
-}
-
-void AISnapshotInfo::SharedDtor() {
-}
-
-void AISnapshotInfo::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AISnapshotInfo::descriptor() {
-  protobuf_cmd_2fcmd_5fstat_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fstat_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AISnapshotInfo& AISnapshotInfo::default_instance() {
-  protobuf_cmd_2fcmd_5fstat_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AISnapshotInfo* AISnapshotInfo::New(::google::protobuf::Arena* arena) const {
-  AISnapshotInfo* n = new AISnapshotInfo;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AISnapshotInfo::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AISnapshotInfo)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ai_snapshots_.Clear();
-  _internal_metadata_.Clear();
-}
-
 bool AISnapshotInfo::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -1682,16 +821,18 @@ bool AISnapshotInfo::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AISnapshotInfo)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AISnapshotInfo)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -1709,9 +850,9 @@ void AISnapshotInfo::SerializeWithCachedSizes(
       14, this->ai_snapshots(static_cast<int>(i)), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AISnapshotInfo)
 }
@@ -1731,9 +872,9 @@ void AISnapshotInfo::SerializeWithCachedSizes(
         14, this->ai_snapshots(static_cast<int>(i)), deterministic, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AISnapshotInfo)
   return target;
@@ -1743,10 +884,10 @@ size_t AISnapshotInfo::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AISnapshotInfo)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated .proto.AISnapshotEntityData ai_snapshots = 14;
   {
@@ -1765,100 +906,6 @@ size_t AISnapshotInfo::ByteSizeLong() const {
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
 }
-
-void AISnapshotInfo::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AISnapshotInfo)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AISnapshotInfo* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AISnapshotInfo>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AISnapshotInfo)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AISnapshotInfo)
-    MergeFrom(*source);
-  }
-}
-
-void AISnapshotInfo::MergeFrom(const AISnapshotInfo& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AISnapshotInfo)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  ai_snapshots_.MergeFrom(from.ai_snapshots_);
-}
-
-void AISnapshotInfo::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AISnapshotInfo)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AISnapshotInfo::CopyFrom(const AISnapshotInfo& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AISnapshotInfo)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AISnapshotInfo::IsInitialized() const {
-  return true;
-}
-
-void AISnapshotInfo::Swap(AISnapshotInfo* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AISnapshotInfo::InternalSwap(AISnapshotInfo* other) {
-  using std::swap;
-  ai_snapshots_.InternalSwap(&other->ai_snapshots_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AISnapshotInfo::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fstat_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fstat_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AISnapshotInfo
-
-// repeated .proto.AISnapshotEntityData ai_snapshots = 14;
-int AISnapshotInfo::ai_snapshots_size() const {
-  return ai_snapshots_.size();
-}
-void AISnapshotInfo::clear_ai_snapshots() {
-  ai_snapshots_.Clear();
-}
-const ::proto::AISnapshotEntityData& AISnapshotInfo::ai_snapshots(int index) const {
-  // @@protoc_insertion_point(field_get:proto.AISnapshotInfo.ai_snapshots)
-  return ai_snapshots_.Get(index);
-}
-::proto::AISnapshotEntityData* AISnapshotInfo::mutable_ai_snapshots(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.AISnapshotInfo.ai_snapshots)
-  return ai_snapshots_.Mutable(index);
-}
-::proto::AISnapshotEntityData* AISnapshotInfo::add_ai_snapshots() {
-  // @@protoc_insertion_point(field_add:proto.AISnapshotInfo.ai_snapshots)
-  return ai_snapshots_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::AISnapshotEntityData >*
-AISnapshotInfo::mutable_ai_snapshots() {
-  // @@protoc_insertion_point(field_mutable_list:proto.AISnapshotInfo.ai_snapshots)
-  return &ai_snapshots_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::AISnapshotEntityData >&
-AISnapshotInfo::ai_snapshots() const {
-  // @@protoc_insertion_point(field_list:proto.AISnapshotInfo.ai_snapshots)
-  return ai_snapshots_;
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
 
 // @@protoc_insertion_point(namespace_scope)
 

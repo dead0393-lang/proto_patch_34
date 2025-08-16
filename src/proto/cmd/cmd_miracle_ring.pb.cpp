@@ -64,603 +64,6 @@ public:
      _instance;
 } _MiracleRingDestroyNotify_default_instance_;
 
-namespace protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto {
-
-
-namespace {
-
-::google::protobuf::Metadata file_level_metadata[9];
-const ::google::protobuf::EnumDescriptor* file_level_enum_descriptors[10];
-
-}  // namespace
-
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::ParseTableField
-    const TableStruct::entries[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  {0, 0, 0, ::google::protobuf::internal::kInvalidMask, 0, 0},
-};
-
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::AuxillaryParseTableField
-    const TableStruct::aux[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  ::google::protobuf::internal::AuxillaryParseTableField(),
-};
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::ParseTable const
-    TableStruct::schema[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-};
-
-const ::google::protobuf::uint32 TableStruct::offsets[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(UseMiracleRingReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(UseMiracleRingReq, miracle_ring_op_type_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(UseMiracleRingReq, pos_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(UseMiracleRingReq, rot_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(UseMiracleRingRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(UseMiracleRingRsp, retcode_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(UseMiracleRingRsp, miracle_ring_op_type_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(MiracleRingDataNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(MiracleRingDataNotify, is_gadget_created_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(MiracleRingDataNotify, last_take_reward_time_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(MiracleRingDataNotify, gadget_entity_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(MiracleRingDataNotify, last_deliver_item_time_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(MiracleRingDataNotify, miracle_ring_cd_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(MiracleRingTakeRewardReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(MiracleRingTakeRewardReq, gadget_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(MiracleRingTakeRewardReq, gadget_entity_id_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(MiracleRingTakeRewardRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(MiracleRingTakeRewardRsp, retcode_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(MiracleRingDropResultNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(MiracleRingDropResultNotify, last_take_reward_time_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(MiracleRingDropResultNotify, drop_result_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(MiracleRingDeliverItemReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(MiracleRingDeliverItemReq, op_type_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(MiracleRingDeliverItemReq, item_param_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(MiracleRingDeliverItemReq, food_weapon_guid_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(MiracleRingDeliverItemReq, gadget_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(MiracleRingDeliverItemReq, gadget_entity_id_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(MiracleRingDeliverItemRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(MiracleRingDeliverItemRsp, interact_type_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(MiracleRingDeliverItemRsp, retcode_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(MiracleRingDeliverItemRsp, op_type_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(MiracleRingDeliverItemRsp, gadget_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(MiracleRingDeliverItemRsp, gadget_entity_id_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(MiracleRingDestroyNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(MiracleRingDestroyNotify, entity_id_),
-};
-static const ::google::protobuf::internal::MigrationSchema schemas[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  { 0, -1, sizeof(UseMiracleRingReq)},
-  { 8, -1, sizeof(UseMiracleRingRsp)},
-  { 15, -1, sizeof(MiracleRingDataNotify)},
-  { 25, -1, sizeof(MiracleRingTakeRewardReq)},
-  { 32, -1, sizeof(MiracleRingTakeRewardRsp)},
-  { 38, -1, sizeof(MiracleRingDropResultNotify)},
-  { 45, -1, sizeof(MiracleRingDeliverItemReq)},
-  { 55, -1, sizeof(MiracleRingDeliverItemRsp)},
-  { 65, -1, sizeof(MiracleRingDestroyNotify)},
-};
-
-static ::google::protobuf::Message const * const file_default_instances[] = {
-  reinterpret_cast<const ::google::protobuf::Message*>(&_UseMiracleRingReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_UseMiracleRingRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_MiracleRingDataNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_MiracleRingTakeRewardReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_MiracleRingTakeRewardRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_MiracleRingDropResultNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_MiracleRingDeliverItemReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_MiracleRingDeliverItemRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_MiracleRingDestroyNotify_default_instance_),
-};
-
-namespace {
-
-void protobuf_AssignDescriptors() {
-  AddDescriptors();
-  ::google::protobuf::MessageFactory* factory = NULL;
-  AssignDescriptors(
-      "cmd/cmd_miracle_ring.proto", schemas, file_default_instances, TableStruct::offsets, factory,
-      file_level_metadata, file_level_enum_descriptors, NULL);
-}
-
-void protobuf_AssignDescriptorsOnce() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &protobuf_AssignDescriptors);
-}
-
-void protobuf_RegisterTypes(const ::std::string&) GOOGLE_ATTRIBUTE_COLD;
-void protobuf_RegisterTypes(const ::std::string&) {
-  protobuf_AssignDescriptorsOnce();
-  ::google::protobuf::internal::RegisterAllTypes(file_level_metadata, 9);
-}
-
-}  // namespace
-void TableStruct::InitDefaultsImpl() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
-
-  ::google::protobuf::internal::InitProtobufDefaults();
-  ::proto::protobuf_define_2eproto::InitDefaults();
-  ::proto::protobuf_cmd_2fcmd_5fgadget_2eproto::InitDefaults();
-  _UseMiracleRingReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_UseMiracleRingReq_default_instance_);_UseMiracleRingRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_UseMiracleRingRsp_default_instance_);_MiracleRingDataNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_MiracleRingDataNotify_default_instance_);_MiracleRingTakeRewardReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_MiracleRingTakeRewardReq_default_instance_);_MiracleRingTakeRewardRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_MiracleRingTakeRewardRsp_default_instance_);_MiracleRingDropResultNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_MiracleRingDropResultNotify_default_instance_);_MiracleRingDeliverItemReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_MiracleRingDeliverItemReq_default_instance_);_MiracleRingDeliverItemRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_MiracleRingDeliverItemRsp_default_instance_);_MiracleRingDestroyNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_MiracleRingDestroyNotify_default_instance_);_UseMiracleRingReq_default_instance_._instance.get_mutable()->pos_ = const_cast< ::proto::Vector*>(
-      ::proto::Vector::internal_default_instance());
-  _UseMiracleRingReq_default_instance_._instance.get_mutable()->rot_ = const_cast< ::proto::Vector*>(
-      ::proto::Vector::internal_default_instance());
-}
-
-void InitDefaults() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &TableStruct::InitDefaultsImpl);
-}
-namespace {
-void AddDescriptorsImpl() {
-  InitDefaults();
-  static const char descriptor[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-      "\n\032cmd/cmd_miracle_ring.proto\022\005proto\032\014def"
-      "ine.proto\032\024cmd/cmd_gadget.proto\"\264\002\n\021UseM"
-      "iracleRingReq\022\034\n\024miracle_ring_op_type\030\001 "
-      "\001(\r\022\032\n\003pos\030\007 \001(\0132\r.proto.Vector\022\032\n\003rot\030\002"
-      " \001(\0132\r.proto.Vector\"b\n\005CmdId\022\010\n\004NONE\020\000\022\013"
-      "\n\006CMD_ID\020\366(\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET"
-      "_IS_RELIABLE\020\001\022\023\n\017IS_ALLOW_CLIENT\020\001\032\002\020\001\""
-      "e\n\021MiracleRingOpType\022\030\n\024MIRACLE_RING_OP_"
-      "NONE\020\000\022\031\n\025MIRACLE_RING_OP_PLACE\020\001\022\033\n\027MIR"
-      "ACLE_RING_OP_RETRACT\020\002\"\221\001\n\021UseMiracleRin"
-      "gRsp\022\017\n\007retcode\030\010 \001(\005\022\034\n\024miracle_ring_op"
-      "_type\030\t \001(\r\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID"
-      "\020\375(\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELI"
-      "ABLE\020\001\032\002\020\001\"\363\001\n\025MiracleRingDataNotify\022\031\n\021"
-      "is_gadget_created\030\002 \001(\010\022\035\n\025last_take_rew"
-      "ard_time\030\r \001(\r\022\030\n\020gadget_entity_id\030\006 \001(\r"
-      "\022\036\n\026last_deliver_item_time\030\004 \001(\r\022\027\n\017mira"
-      "cle_ring_cd\030\010 \001(\r\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006"
-      "CMD_ID\020\376(\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_I"
-      "S_RELIABLE\020\001\032\002\020\001\"\253\001\n\030MiracleRingTakeRewa"
-      "rdReq\022\021\n\tgadget_id\030\013 \001(\r\022\030\n\020gadget_entit"
-      "y_id\030\001 \001(\r\"b\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020"
-      "\371(\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIA"
-      "BLE\020\001\022\023\n\017IS_ALLOW_CLIENT\020\001\032\002\020\001\"z\n\030Miracl"
-      "eRingTakeRewardRsp\022\017\n\007retcode\030\003 \001(\005\"M\n\005C"
-      "mdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\343(\022\023\n\017ENET_CHAN"
-      "NEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001\"\240\001\n\033M"
-      "iracleRingDropResultNotify\022\035\n\025last_take_"
-      "reward_time\030\t \001(\005\022\023\n\013drop_result\030\006 \001(\005\"M"
-      "\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\373(\022\023\n\017ENET_C"
-      "HANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001\"\233\002"
-      "\n\031MiracleRingDeliverItemReq\022#\n\007op_type\030\002"
-      " \001(\0162\022.proto.InterOpType\022)\n\017item_param_l"
-      "ist\030\005 \003(\0132\020.proto.ItemParam\022\035\n\025food_weap"
-      "on_guid_list\030\003 \003(\004\022\021\n\tgadget_id\030\016 \001(\r\022\030\n"
-      "\020gadget_entity_id\030\006 \001(\r\"b\n\005CmdId\022\010\n\004NONE"
-      "\020\000\022\013\n\006CMD_ID\020\357(\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020"
-      "ENET_IS_RELIABLE\020\001\022\023\n\017IS_ALLOW_CLIENT\020\001\032"
-      "\002\020\001\"\371\001\n\031MiracleRingDeliverItemRsp\022*\n\rint"
-      "eract_type\030\007 \001(\0162\023.proto.InteractType\022\017\n"
-      "\007retcode\030\005 \001(\005\022#\n\007op_type\030\017 \001(\0162\022.proto."
-      "InterOpType\022\021\n\tgadget_id\030\004 \001(\r\022\030\n\020gadget"
-      "_entity_id\030\016 \001(\r\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006C"
-      "MD_ID\020\363(\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS"
-      "_RELIABLE\020\001\032\002\020\001\"|\n\030MiracleRingDestroyNot"
-      "ify\022\021\n\tentity_id\030\007 \001(\r\"M\n\005CmdId\022\010\n\004NONE\020"
-      "\000\022\013\n\006CMD_ID\020\340(\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020E"
-      "NET_IS_RELIABLE\020\001\032\002\020\001B\nZ\010./;protob\006proto"
-      "3"
-  };
-  ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-      descriptor, 1921);
-  ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
-    "cmd/cmd_miracle_ring.proto", &protobuf_RegisterTypes);
-  ::proto::protobuf_define_2eproto::AddDescriptors();
-  ::proto::protobuf_cmd_2fcmd_5fgadget_2eproto::AddDescriptors();
-}
-} // anonymous namespace
-
-void AddDescriptors() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &AddDescriptorsImpl);
-}
-// Force AddDescriptors() to be called at dynamic initialization time.
-struct StaticDescriptorInitializer {
-  StaticDescriptorInitializer() {
-    AddDescriptors();
-  }
-} static_descriptor_initializer;
-
-}  // namespace protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto
-
-const ::google::protobuf::EnumDescriptor* UseMiracleRingReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::file_level_enum_descriptors[0];
-}
-bool UseMiracleRingReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 5238:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const UseMiracleRingReq_CmdId UseMiracleRingReq::NONE;
-const UseMiracleRingReq_CmdId UseMiracleRingReq::CMD_ID;
-const UseMiracleRingReq_CmdId UseMiracleRingReq::ENET_CHANNEL_ID;
-const UseMiracleRingReq_CmdId UseMiracleRingReq::ENET_IS_RELIABLE;
-const UseMiracleRingReq_CmdId UseMiracleRingReq::IS_ALLOW_CLIENT;
-const UseMiracleRingReq_CmdId UseMiracleRingReq::CmdId_MIN;
-const UseMiracleRingReq_CmdId UseMiracleRingReq::CmdId_MAX;
-const int UseMiracleRingReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* UseMiracleRingReq_MiracleRingOpType_descriptor() {
-  protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::file_level_enum_descriptors[1];
-}
-bool UseMiracleRingReq_MiracleRingOpType_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 2:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const UseMiracleRingReq_MiracleRingOpType UseMiracleRingReq::MIRACLE_RING_OP_NONE;
-const UseMiracleRingReq_MiracleRingOpType UseMiracleRingReq::MIRACLE_RING_OP_PLACE;
-const UseMiracleRingReq_MiracleRingOpType UseMiracleRingReq::MIRACLE_RING_OP_RETRACT;
-const UseMiracleRingReq_MiracleRingOpType UseMiracleRingReq::MiracleRingOpType_MIN;
-const UseMiracleRingReq_MiracleRingOpType UseMiracleRingReq::MiracleRingOpType_MAX;
-const int UseMiracleRingReq::MiracleRingOpType_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* UseMiracleRingRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::file_level_enum_descriptors[2];
-}
-bool UseMiracleRingRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 5245:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const UseMiracleRingRsp_CmdId UseMiracleRingRsp::NONE;
-const UseMiracleRingRsp_CmdId UseMiracleRingRsp::CMD_ID;
-const UseMiracleRingRsp_CmdId UseMiracleRingRsp::ENET_CHANNEL_ID;
-const UseMiracleRingRsp_CmdId UseMiracleRingRsp::ENET_IS_RELIABLE;
-const UseMiracleRingRsp_CmdId UseMiracleRingRsp::CmdId_MIN;
-const UseMiracleRingRsp_CmdId UseMiracleRingRsp::CmdId_MAX;
-const int UseMiracleRingRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* MiracleRingDataNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::file_level_enum_descriptors[3];
-}
-bool MiracleRingDataNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 5246:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const MiracleRingDataNotify_CmdId MiracleRingDataNotify::NONE;
-const MiracleRingDataNotify_CmdId MiracleRingDataNotify::CMD_ID;
-const MiracleRingDataNotify_CmdId MiracleRingDataNotify::ENET_CHANNEL_ID;
-const MiracleRingDataNotify_CmdId MiracleRingDataNotify::ENET_IS_RELIABLE;
-const MiracleRingDataNotify_CmdId MiracleRingDataNotify::CmdId_MIN;
-const MiracleRingDataNotify_CmdId MiracleRingDataNotify::CmdId_MAX;
-const int MiracleRingDataNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* MiracleRingTakeRewardReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::file_level_enum_descriptors[4];
-}
-bool MiracleRingTakeRewardReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 5241:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const MiracleRingTakeRewardReq_CmdId MiracleRingTakeRewardReq::NONE;
-const MiracleRingTakeRewardReq_CmdId MiracleRingTakeRewardReq::CMD_ID;
-const MiracleRingTakeRewardReq_CmdId MiracleRingTakeRewardReq::ENET_CHANNEL_ID;
-const MiracleRingTakeRewardReq_CmdId MiracleRingTakeRewardReq::ENET_IS_RELIABLE;
-const MiracleRingTakeRewardReq_CmdId MiracleRingTakeRewardReq::IS_ALLOW_CLIENT;
-const MiracleRingTakeRewardReq_CmdId MiracleRingTakeRewardReq::CmdId_MIN;
-const MiracleRingTakeRewardReq_CmdId MiracleRingTakeRewardReq::CmdId_MAX;
-const int MiracleRingTakeRewardReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* MiracleRingTakeRewardRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::file_level_enum_descriptors[5];
-}
-bool MiracleRingTakeRewardRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 5219:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const MiracleRingTakeRewardRsp_CmdId MiracleRingTakeRewardRsp::NONE;
-const MiracleRingTakeRewardRsp_CmdId MiracleRingTakeRewardRsp::CMD_ID;
-const MiracleRingTakeRewardRsp_CmdId MiracleRingTakeRewardRsp::ENET_CHANNEL_ID;
-const MiracleRingTakeRewardRsp_CmdId MiracleRingTakeRewardRsp::ENET_IS_RELIABLE;
-const MiracleRingTakeRewardRsp_CmdId MiracleRingTakeRewardRsp::CmdId_MIN;
-const MiracleRingTakeRewardRsp_CmdId MiracleRingTakeRewardRsp::CmdId_MAX;
-const int MiracleRingTakeRewardRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* MiracleRingDropResultNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::file_level_enum_descriptors[6];
-}
-bool MiracleRingDropResultNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 5243:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const MiracleRingDropResultNotify_CmdId MiracleRingDropResultNotify::NONE;
-const MiracleRingDropResultNotify_CmdId MiracleRingDropResultNotify::CMD_ID;
-const MiracleRingDropResultNotify_CmdId MiracleRingDropResultNotify::ENET_CHANNEL_ID;
-const MiracleRingDropResultNotify_CmdId MiracleRingDropResultNotify::ENET_IS_RELIABLE;
-const MiracleRingDropResultNotify_CmdId MiracleRingDropResultNotify::CmdId_MIN;
-const MiracleRingDropResultNotify_CmdId MiracleRingDropResultNotify::CmdId_MAX;
-const int MiracleRingDropResultNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* MiracleRingDeliverItemReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::file_level_enum_descriptors[7];
-}
-bool MiracleRingDeliverItemReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 5231:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const MiracleRingDeliverItemReq_CmdId MiracleRingDeliverItemReq::NONE;
-const MiracleRingDeliverItemReq_CmdId MiracleRingDeliverItemReq::CMD_ID;
-const MiracleRingDeliverItemReq_CmdId MiracleRingDeliverItemReq::ENET_CHANNEL_ID;
-const MiracleRingDeliverItemReq_CmdId MiracleRingDeliverItemReq::ENET_IS_RELIABLE;
-const MiracleRingDeliverItemReq_CmdId MiracleRingDeliverItemReq::IS_ALLOW_CLIENT;
-const MiracleRingDeliverItemReq_CmdId MiracleRingDeliverItemReq::CmdId_MIN;
-const MiracleRingDeliverItemReq_CmdId MiracleRingDeliverItemReq::CmdId_MAX;
-const int MiracleRingDeliverItemReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* MiracleRingDeliverItemRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::file_level_enum_descriptors[8];
-}
-bool MiracleRingDeliverItemRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 5235:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const MiracleRingDeliverItemRsp_CmdId MiracleRingDeliverItemRsp::NONE;
-const MiracleRingDeliverItemRsp_CmdId MiracleRingDeliverItemRsp::CMD_ID;
-const MiracleRingDeliverItemRsp_CmdId MiracleRingDeliverItemRsp::ENET_CHANNEL_ID;
-const MiracleRingDeliverItemRsp_CmdId MiracleRingDeliverItemRsp::ENET_IS_RELIABLE;
-const MiracleRingDeliverItemRsp_CmdId MiracleRingDeliverItemRsp::CmdId_MIN;
-const MiracleRingDeliverItemRsp_CmdId MiracleRingDeliverItemRsp::CmdId_MAX;
-const int MiracleRingDeliverItemRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* MiracleRingDestroyNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::file_level_enum_descriptors[9];
-}
-bool MiracleRingDestroyNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 5216:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const MiracleRingDestroyNotify_CmdId MiracleRingDestroyNotify::NONE;
-const MiracleRingDestroyNotify_CmdId MiracleRingDestroyNotify::CMD_ID;
-const MiracleRingDestroyNotify_CmdId MiracleRingDestroyNotify::ENET_CHANNEL_ID;
-const MiracleRingDestroyNotify_CmdId MiracleRingDestroyNotify::ENET_IS_RELIABLE;
-const MiracleRingDestroyNotify_CmdId MiracleRingDestroyNotify::CmdId_MIN;
-const MiracleRingDestroyNotify_CmdId MiracleRingDestroyNotify::CmdId_MAX;
-const int MiracleRingDestroyNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int UseMiracleRingReq::kMiracleRingOpTypeFieldNumber;
-const int UseMiracleRingReq::kPosFieldNumber;
-const int UseMiracleRingReq::kRotFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-UseMiracleRingReq::UseMiracleRingReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.UseMiracleRingReq)
-}
-UseMiracleRingReq::UseMiracleRingReq(const UseMiracleRingReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  if (from.has_rot()) {
-    rot_ = new ::proto::Vector(*from.rot_);
-  } else {
-    rot_ = NULL;
-  }
-  if (from.has_pos()) {
-    pos_ = new ::proto::Vector(*from.pos_);
-  } else {
-    pos_ = NULL;
-  }
-  miracle_ring_op_type_ = from.miracle_ring_op_type_;
-  // @@protoc_insertion_point(copy_constructor:proto.UseMiracleRingReq)
-}
-
-void UseMiracleRingReq::SharedCtor() {
-  ::memset(&rot_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&miracle_ring_op_type_) -
-      reinterpret_cast<char*>(&rot_)) + sizeof(miracle_ring_op_type_));
-  _cached_size_ = 0;
-}
-
-UseMiracleRingReq::~UseMiracleRingReq() {
-  // @@protoc_insertion_point(destructor:proto.UseMiracleRingReq)
-  SharedDtor();
-}
-
-void UseMiracleRingReq::SharedDtor() {
-  if (this != internal_default_instance()) delete rot_;
-  if (this != internal_default_instance()) delete pos_;
-}
-
-void UseMiracleRingReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* UseMiracleRingReq::descriptor() {
-  protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const UseMiracleRingReq& UseMiracleRingReq::default_instance() {
-  protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-UseMiracleRingReq* UseMiracleRingReq::New(::google::protobuf::Arena* arena) const {
-  UseMiracleRingReq* n = new UseMiracleRingReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void UseMiracleRingReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.UseMiracleRingReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  if (GetArenaNoVirtual() == NULL && rot_ != NULL) {
-    delete rot_;
-  }
-  rot_ = NULL;
-  if (GetArenaNoVirtual() == NULL && pos_ != NULL) {
-    delete pos_;
-  }
-  pos_ = NULL;
-  miracle_ring_op_type_ = 0u;
-  _internal_metadata_.Clear();
-}
-
 bool UseMiracleRingReq::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -715,16 +118,18 @@ bool UseMiracleRingReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.UseMiracleRingReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.UseMiracleRingReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -752,9 +157,9 @@ void UseMiracleRingReq::SerializeWithCachedSizes(
       7, *this->pos_, output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.UseMiracleRingReq)
 }
@@ -785,9 +190,9 @@ void UseMiracleRingReq::SerializeWithCachedSizes(
         7, *this->pos_, deterministic, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.UseMiracleRingReq)
   return target;
@@ -797,10 +202,10 @@ size_t UseMiracleRingReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.UseMiracleRingReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // .proto.Vector rot = 2;
   if (this->has_rot()) {
@@ -828,250 +233,6 @@ size_t UseMiracleRingReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void UseMiracleRingReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.UseMiracleRingReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const UseMiracleRingReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const UseMiracleRingReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.UseMiracleRingReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.UseMiracleRingReq)
-    MergeFrom(*source);
-  }
-}
-
-void UseMiracleRingReq::MergeFrom(const UseMiracleRingReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.UseMiracleRingReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.has_rot()) {
-    mutable_rot()->::proto::Vector::MergeFrom(from.rot());
-  }
-  if (from.has_pos()) {
-    mutable_pos()->::proto::Vector::MergeFrom(from.pos());
-  }
-  if (from.miracle_ring_op_type() != 0) {
-    set_miracle_ring_op_type(from.miracle_ring_op_type());
-  }
-}
-
-void UseMiracleRingReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.UseMiracleRingReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void UseMiracleRingReq::CopyFrom(const UseMiracleRingReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.UseMiracleRingReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool UseMiracleRingReq::IsInitialized() const {
-  return true;
-}
-
-void UseMiracleRingReq::Swap(UseMiracleRingReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void UseMiracleRingReq::InternalSwap(UseMiracleRingReq* other) {
-  using std::swap;
-  swap(rot_, other->rot_);
-  swap(pos_, other->pos_);
-  swap(miracle_ring_op_type_, other->miracle_ring_op_type_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata UseMiracleRingReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// UseMiracleRingReq
-
-// uint32 miracle_ring_op_type = 1;
-void UseMiracleRingReq::clear_miracle_ring_op_type() {
-  miracle_ring_op_type_ = 0u;
-}
-::google::protobuf::uint32 UseMiracleRingReq::miracle_ring_op_type() const {
-  // @@protoc_insertion_point(field_get:proto.UseMiracleRingReq.miracle_ring_op_type)
-  return miracle_ring_op_type_;
-}
-void UseMiracleRingReq::set_miracle_ring_op_type(::google::protobuf::uint32 value) {
-  
-  miracle_ring_op_type_ = value;
-  // @@protoc_insertion_point(field_set:proto.UseMiracleRingReq.miracle_ring_op_type)
-}
-
-// .proto.Vector pos = 7;
-bool UseMiracleRingReq::has_pos() const {
-  return this != internal_default_instance() && pos_ != NULL;
-}
-void UseMiracleRingReq::clear_pos() {
-  if (GetArenaNoVirtual() == NULL && pos_ != NULL) delete pos_;
-  pos_ = NULL;
-}
-const ::proto::Vector& UseMiracleRingReq::pos() const {
-  const ::proto::Vector* p = pos_;
-  // @@protoc_insertion_point(field_get:proto.UseMiracleRingReq.pos)
-  return p != NULL ? *p : *reinterpret_cast<const ::proto::Vector*>(
-      &::proto::_Vector_default_instance_);
-}
-::proto::Vector* UseMiracleRingReq::mutable_pos() {
-  
-  if (pos_ == NULL) {
-    pos_ = new ::proto::Vector;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.UseMiracleRingReq.pos)
-  return pos_;
-}
-::proto::Vector* UseMiracleRingReq::release_pos() {
-  // @@protoc_insertion_point(field_release:proto.UseMiracleRingReq.pos)
-  
-  ::proto::Vector* temp = pos_;
-  pos_ = NULL;
-  return temp;
-}
-void UseMiracleRingReq::set_allocated_pos(::proto::Vector* pos) {
-  delete pos_;
-  pos_ = pos;
-  if (pos) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.UseMiracleRingReq.pos)
-}
-
-// .proto.Vector rot = 2;
-bool UseMiracleRingReq::has_rot() const {
-  return this != internal_default_instance() && rot_ != NULL;
-}
-void UseMiracleRingReq::clear_rot() {
-  if (GetArenaNoVirtual() == NULL && rot_ != NULL) delete rot_;
-  rot_ = NULL;
-}
-const ::proto::Vector& UseMiracleRingReq::rot() const {
-  const ::proto::Vector* p = rot_;
-  // @@protoc_insertion_point(field_get:proto.UseMiracleRingReq.rot)
-  return p != NULL ? *p : *reinterpret_cast<const ::proto::Vector*>(
-      &::proto::_Vector_default_instance_);
-}
-::proto::Vector* UseMiracleRingReq::mutable_rot() {
-  
-  if (rot_ == NULL) {
-    rot_ = new ::proto::Vector;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.UseMiracleRingReq.rot)
-  return rot_;
-}
-::proto::Vector* UseMiracleRingReq::release_rot() {
-  // @@protoc_insertion_point(field_release:proto.UseMiracleRingReq.rot)
-  
-  ::proto::Vector* temp = rot_;
-  rot_ = NULL;
-  return temp;
-}
-void UseMiracleRingReq::set_allocated_rot(::proto::Vector* rot) {
-  delete rot_;
-  rot_ = rot;
-  if (rot) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.UseMiracleRingReq.rot)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int UseMiracleRingRsp::kRetcodeFieldNumber;
-const int UseMiracleRingRsp::kMiracleRingOpTypeFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-UseMiracleRingRsp::UseMiracleRingRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.UseMiracleRingRsp)
-}
-UseMiracleRingRsp::UseMiracleRingRsp(const UseMiracleRingRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&retcode_, &from.retcode_,
-    static_cast<size_t>(reinterpret_cast<char*>(&miracle_ring_op_type_) -
-    reinterpret_cast<char*>(&retcode_)) + sizeof(miracle_ring_op_type_));
-  // @@protoc_insertion_point(copy_constructor:proto.UseMiracleRingRsp)
-}
-
-void UseMiracleRingRsp::SharedCtor() {
-  ::memset(&retcode_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&miracle_ring_op_type_) -
-      reinterpret_cast<char*>(&retcode_)) + sizeof(miracle_ring_op_type_));
-  _cached_size_ = 0;
-}
-
-UseMiracleRingRsp::~UseMiracleRingRsp() {
-  // @@protoc_insertion_point(destructor:proto.UseMiracleRingRsp)
-  SharedDtor();
-}
-
-void UseMiracleRingRsp::SharedDtor() {
-}
-
-void UseMiracleRingRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* UseMiracleRingRsp::descriptor() {
-  protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const UseMiracleRingRsp& UseMiracleRingRsp::default_instance() {
-  protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-UseMiracleRingRsp* UseMiracleRingRsp::New(::google::protobuf::Arena* arena) const {
-  UseMiracleRingRsp* n = new UseMiracleRingRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void UseMiracleRingRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.UseMiracleRingRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&retcode_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&miracle_ring_op_type_) -
-      reinterpret_cast<char*>(&retcode_)) + sizeof(miracle_ring_op_type_));
-  _internal_metadata_.Clear();
 }
 
 bool UseMiracleRingRsp::MergePartialFromCodedStream(
@@ -1118,16 +279,18 @@ bool UseMiracleRingRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.UseMiracleRingRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.UseMiracleRingRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -1148,9 +311,9 @@ void UseMiracleRingRsp::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(9, this->miracle_ring_op_type(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.UseMiracleRingRsp)
 }
@@ -1172,9 +335,9 @@ void UseMiracleRingRsp::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(9, this->miracle_ring_op_type(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.UseMiracleRingRsp)
   return target;
@@ -1184,10 +347,10 @@ size_t UseMiracleRingRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.UseMiracleRingRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // int32 retcode = 8;
   if (this->retcode() != 0) {
@@ -1208,183 +371,6 @@ size_t UseMiracleRingRsp::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void UseMiracleRingRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.UseMiracleRingRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const UseMiracleRingRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const UseMiracleRingRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.UseMiracleRingRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.UseMiracleRingRsp)
-    MergeFrom(*source);
-  }
-}
-
-void UseMiracleRingRsp::MergeFrom(const UseMiracleRingRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.UseMiracleRingRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-  if (from.miracle_ring_op_type() != 0) {
-    set_miracle_ring_op_type(from.miracle_ring_op_type());
-  }
-}
-
-void UseMiracleRingRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.UseMiracleRingRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void UseMiracleRingRsp::CopyFrom(const UseMiracleRingRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.UseMiracleRingRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool UseMiracleRingRsp::IsInitialized() const {
-  return true;
-}
-
-void UseMiracleRingRsp::Swap(UseMiracleRingRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void UseMiracleRingRsp::InternalSwap(UseMiracleRingRsp* other) {
-  using std::swap;
-  swap(retcode_, other->retcode_);
-  swap(miracle_ring_op_type_, other->miracle_ring_op_type_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata UseMiracleRingRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// UseMiracleRingRsp
-
-// int32 retcode = 8;
-void UseMiracleRingRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 UseMiracleRingRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.UseMiracleRingRsp.retcode)
-  return retcode_;
-}
-void UseMiracleRingRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.UseMiracleRingRsp.retcode)
-}
-
-// uint32 miracle_ring_op_type = 9;
-void UseMiracleRingRsp::clear_miracle_ring_op_type() {
-  miracle_ring_op_type_ = 0u;
-}
-::google::protobuf::uint32 UseMiracleRingRsp::miracle_ring_op_type() const {
-  // @@protoc_insertion_point(field_get:proto.UseMiracleRingRsp.miracle_ring_op_type)
-  return miracle_ring_op_type_;
-}
-void UseMiracleRingRsp::set_miracle_ring_op_type(::google::protobuf::uint32 value) {
-  
-  miracle_ring_op_type_ = value;
-  // @@protoc_insertion_point(field_set:proto.UseMiracleRingRsp.miracle_ring_op_type)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int MiracleRingDataNotify::kIsGadgetCreatedFieldNumber;
-const int MiracleRingDataNotify::kLastTakeRewardTimeFieldNumber;
-const int MiracleRingDataNotify::kGadgetEntityIdFieldNumber;
-const int MiracleRingDataNotify::kLastDeliverItemTimeFieldNumber;
-const int MiracleRingDataNotify::kMiracleRingCdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-MiracleRingDataNotify::MiracleRingDataNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.MiracleRingDataNotify)
-}
-MiracleRingDataNotify::MiracleRingDataNotify(const MiracleRingDataNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&is_gadget_created_, &from.is_gadget_created_,
-    static_cast<size_t>(reinterpret_cast<char*>(&miracle_ring_cd_) -
-    reinterpret_cast<char*>(&is_gadget_created_)) + sizeof(miracle_ring_cd_));
-  // @@protoc_insertion_point(copy_constructor:proto.MiracleRingDataNotify)
-}
-
-void MiracleRingDataNotify::SharedCtor() {
-  ::memset(&is_gadget_created_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&miracle_ring_cd_) -
-      reinterpret_cast<char*>(&is_gadget_created_)) + sizeof(miracle_ring_cd_));
-  _cached_size_ = 0;
-}
-
-MiracleRingDataNotify::~MiracleRingDataNotify() {
-  // @@protoc_insertion_point(destructor:proto.MiracleRingDataNotify)
-  SharedDtor();
-}
-
-void MiracleRingDataNotify::SharedDtor() {
-}
-
-void MiracleRingDataNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* MiracleRingDataNotify::descriptor() {
-  protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const MiracleRingDataNotify& MiracleRingDataNotify::default_instance() {
-  protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-MiracleRingDataNotify* MiracleRingDataNotify::New(::google::protobuf::Arena* arena) const {
-  MiracleRingDataNotify* n = new MiracleRingDataNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void MiracleRingDataNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.MiracleRingDataNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&is_gadget_created_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&miracle_ring_cd_) -
-      reinterpret_cast<char*>(&is_gadget_created_)) + sizeof(miracle_ring_cd_));
-  _internal_metadata_.Clear();
 }
 
 bool MiracleRingDataNotify::MergePartialFromCodedStream(
@@ -1473,16 +459,18 @@ bool MiracleRingDataNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.MiracleRingDataNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.MiracleRingDataNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -1518,9 +506,9 @@ void MiracleRingDataNotify::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(13, this->last_take_reward_time(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.MiracleRingDataNotify)
 }
@@ -1557,9 +545,9 @@ void MiracleRingDataNotify::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(13, this->last_take_reward_time(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.MiracleRingDataNotify)
   return target;
@@ -1569,10 +557,10 @@ size_t MiracleRingDataNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.MiracleRingDataNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // bool is_gadget_created = 2;
   if (this->is_gadget_created() != 0) {
@@ -1612,234 +600,6 @@ size_t MiracleRingDataNotify::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void MiracleRingDataNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.MiracleRingDataNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const MiracleRingDataNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const MiracleRingDataNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.MiracleRingDataNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.MiracleRingDataNotify)
-    MergeFrom(*source);
-  }
-}
-
-void MiracleRingDataNotify::MergeFrom(const MiracleRingDataNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.MiracleRingDataNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.is_gadget_created() != 0) {
-    set_is_gadget_created(from.is_gadget_created());
-  }
-  if (from.last_deliver_item_time() != 0) {
-    set_last_deliver_item_time(from.last_deliver_item_time());
-  }
-  if (from.last_take_reward_time() != 0) {
-    set_last_take_reward_time(from.last_take_reward_time());
-  }
-  if (from.gadget_entity_id() != 0) {
-    set_gadget_entity_id(from.gadget_entity_id());
-  }
-  if (from.miracle_ring_cd() != 0) {
-    set_miracle_ring_cd(from.miracle_ring_cd());
-  }
-}
-
-void MiracleRingDataNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.MiracleRingDataNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void MiracleRingDataNotify::CopyFrom(const MiracleRingDataNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.MiracleRingDataNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool MiracleRingDataNotify::IsInitialized() const {
-  return true;
-}
-
-void MiracleRingDataNotify::Swap(MiracleRingDataNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void MiracleRingDataNotify::InternalSwap(MiracleRingDataNotify* other) {
-  using std::swap;
-  swap(is_gadget_created_, other->is_gadget_created_);
-  swap(last_deliver_item_time_, other->last_deliver_item_time_);
-  swap(last_take_reward_time_, other->last_take_reward_time_);
-  swap(gadget_entity_id_, other->gadget_entity_id_);
-  swap(miracle_ring_cd_, other->miracle_ring_cd_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata MiracleRingDataNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// MiracleRingDataNotify
-
-// bool is_gadget_created = 2;
-void MiracleRingDataNotify::clear_is_gadget_created() {
-  is_gadget_created_ = false;
-}
-bool MiracleRingDataNotify::is_gadget_created() const {
-  // @@protoc_insertion_point(field_get:proto.MiracleRingDataNotify.is_gadget_created)
-  return is_gadget_created_;
-}
-void MiracleRingDataNotify::set_is_gadget_created(bool value) {
-  
-  is_gadget_created_ = value;
-  // @@protoc_insertion_point(field_set:proto.MiracleRingDataNotify.is_gadget_created)
-}
-
-// uint32 last_take_reward_time = 13;
-void MiracleRingDataNotify::clear_last_take_reward_time() {
-  last_take_reward_time_ = 0u;
-}
-::google::protobuf::uint32 MiracleRingDataNotify::last_take_reward_time() const {
-  // @@protoc_insertion_point(field_get:proto.MiracleRingDataNotify.last_take_reward_time)
-  return last_take_reward_time_;
-}
-void MiracleRingDataNotify::set_last_take_reward_time(::google::protobuf::uint32 value) {
-  
-  last_take_reward_time_ = value;
-  // @@protoc_insertion_point(field_set:proto.MiracleRingDataNotify.last_take_reward_time)
-}
-
-// uint32 gadget_entity_id = 6;
-void MiracleRingDataNotify::clear_gadget_entity_id() {
-  gadget_entity_id_ = 0u;
-}
-::google::protobuf::uint32 MiracleRingDataNotify::gadget_entity_id() const {
-  // @@protoc_insertion_point(field_get:proto.MiracleRingDataNotify.gadget_entity_id)
-  return gadget_entity_id_;
-}
-void MiracleRingDataNotify::set_gadget_entity_id(::google::protobuf::uint32 value) {
-  
-  gadget_entity_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.MiracleRingDataNotify.gadget_entity_id)
-}
-
-// uint32 last_deliver_item_time = 4;
-void MiracleRingDataNotify::clear_last_deliver_item_time() {
-  last_deliver_item_time_ = 0u;
-}
-::google::protobuf::uint32 MiracleRingDataNotify::last_deliver_item_time() const {
-  // @@protoc_insertion_point(field_get:proto.MiracleRingDataNotify.last_deliver_item_time)
-  return last_deliver_item_time_;
-}
-void MiracleRingDataNotify::set_last_deliver_item_time(::google::protobuf::uint32 value) {
-  
-  last_deliver_item_time_ = value;
-  // @@protoc_insertion_point(field_set:proto.MiracleRingDataNotify.last_deliver_item_time)
-}
-
-// uint32 miracle_ring_cd = 8;
-void MiracleRingDataNotify::clear_miracle_ring_cd() {
-  miracle_ring_cd_ = 0u;
-}
-::google::protobuf::uint32 MiracleRingDataNotify::miracle_ring_cd() const {
-  // @@protoc_insertion_point(field_get:proto.MiracleRingDataNotify.miracle_ring_cd)
-  return miracle_ring_cd_;
-}
-void MiracleRingDataNotify::set_miracle_ring_cd(::google::protobuf::uint32 value) {
-  
-  miracle_ring_cd_ = value;
-  // @@protoc_insertion_point(field_set:proto.MiracleRingDataNotify.miracle_ring_cd)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int MiracleRingTakeRewardReq::kGadgetIdFieldNumber;
-const int MiracleRingTakeRewardReq::kGadgetEntityIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-MiracleRingTakeRewardReq::MiracleRingTakeRewardReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.MiracleRingTakeRewardReq)
-}
-MiracleRingTakeRewardReq::MiracleRingTakeRewardReq(const MiracleRingTakeRewardReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&gadget_entity_id_, &from.gadget_entity_id_,
-    static_cast<size_t>(reinterpret_cast<char*>(&gadget_id_) -
-    reinterpret_cast<char*>(&gadget_entity_id_)) + sizeof(gadget_id_));
-  // @@protoc_insertion_point(copy_constructor:proto.MiracleRingTakeRewardReq)
-}
-
-void MiracleRingTakeRewardReq::SharedCtor() {
-  ::memset(&gadget_entity_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&gadget_id_) -
-      reinterpret_cast<char*>(&gadget_entity_id_)) + sizeof(gadget_id_));
-  _cached_size_ = 0;
-}
-
-MiracleRingTakeRewardReq::~MiracleRingTakeRewardReq() {
-  // @@protoc_insertion_point(destructor:proto.MiracleRingTakeRewardReq)
-  SharedDtor();
-}
-
-void MiracleRingTakeRewardReq::SharedDtor() {
-}
-
-void MiracleRingTakeRewardReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* MiracleRingTakeRewardReq::descriptor() {
-  protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const MiracleRingTakeRewardReq& MiracleRingTakeRewardReq::default_instance() {
-  protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-MiracleRingTakeRewardReq* MiracleRingTakeRewardReq::New(::google::protobuf::Arena* arena) const {
-  MiracleRingTakeRewardReq* n = new MiracleRingTakeRewardReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void MiracleRingTakeRewardReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.MiracleRingTakeRewardReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&gadget_entity_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&gadget_id_) -
-      reinterpret_cast<char*>(&gadget_entity_id_)) + sizeof(gadget_id_));
-  _internal_metadata_.Clear();
 }
 
 bool MiracleRingTakeRewardReq::MergePartialFromCodedStream(
@@ -1886,16 +646,18 @@ bool MiracleRingTakeRewardReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.MiracleRingTakeRewardReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.MiracleRingTakeRewardReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -1916,9 +678,9 @@ void MiracleRingTakeRewardReq::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(11, this->gadget_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.MiracleRingTakeRewardReq)
 }
@@ -1940,9 +702,9 @@ void MiracleRingTakeRewardReq::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(11, this->gadget_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.MiracleRingTakeRewardReq)
   return target;
@@ -1952,10 +714,10 @@ size_t MiracleRingTakeRewardReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.MiracleRingTakeRewardReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 gadget_entity_id = 1;
   if (this->gadget_entity_id() != 0) {
@@ -1976,173 +738,6 @@ size_t MiracleRingTakeRewardReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void MiracleRingTakeRewardReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.MiracleRingTakeRewardReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const MiracleRingTakeRewardReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const MiracleRingTakeRewardReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.MiracleRingTakeRewardReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.MiracleRingTakeRewardReq)
-    MergeFrom(*source);
-  }
-}
-
-void MiracleRingTakeRewardReq::MergeFrom(const MiracleRingTakeRewardReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.MiracleRingTakeRewardReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.gadget_entity_id() != 0) {
-    set_gadget_entity_id(from.gadget_entity_id());
-  }
-  if (from.gadget_id() != 0) {
-    set_gadget_id(from.gadget_id());
-  }
-}
-
-void MiracleRingTakeRewardReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.MiracleRingTakeRewardReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void MiracleRingTakeRewardReq::CopyFrom(const MiracleRingTakeRewardReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.MiracleRingTakeRewardReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool MiracleRingTakeRewardReq::IsInitialized() const {
-  return true;
-}
-
-void MiracleRingTakeRewardReq::Swap(MiracleRingTakeRewardReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void MiracleRingTakeRewardReq::InternalSwap(MiracleRingTakeRewardReq* other) {
-  using std::swap;
-  swap(gadget_entity_id_, other->gadget_entity_id_);
-  swap(gadget_id_, other->gadget_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata MiracleRingTakeRewardReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// MiracleRingTakeRewardReq
-
-// uint32 gadget_id = 11;
-void MiracleRingTakeRewardReq::clear_gadget_id() {
-  gadget_id_ = 0u;
-}
-::google::protobuf::uint32 MiracleRingTakeRewardReq::gadget_id() const {
-  // @@protoc_insertion_point(field_get:proto.MiracleRingTakeRewardReq.gadget_id)
-  return gadget_id_;
-}
-void MiracleRingTakeRewardReq::set_gadget_id(::google::protobuf::uint32 value) {
-  
-  gadget_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.MiracleRingTakeRewardReq.gadget_id)
-}
-
-// uint32 gadget_entity_id = 1;
-void MiracleRingTakeRewardReq::clear_gadget_entity_id() {
-  gadget_entity_id_ = 0u;
-}
-::google::protobuf::uint32 MiracleRingTakeRewardReq::gadget_entity_id() const {
-  // @@protoc_insertion_point(field_get:proto.MiracleRingTakeRewardReq.gadget_entity_id)
-  return gadget_entity_id_;
-}
-void MiracleRingTakeRewardReq::set_gadget_entity_id(::google::protobuf::uint32 value) {
-  
-  gadget_entity_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.MiracleRingTakeRewardReq.gadget_entity_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int MiracleRingTakeRewardRsp::kRetcodeFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-MiracleRingTakeRewardRsp::MiracleRingTakeRewardRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.MiracleRingTakeRewardRsp)
-}
-MiracleRingTakeRewardRsp::MiracleRingTakeRewardRsp(const MiracleRingTakeRewardRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  retcode_ = from.retcode_;
-  // @@protoc_insertion_point(copy_constructor:proto.MiracleRingTakeRewardRsp)
-}
-
-void MiracleRingTakeRewardRsp::SharedCtor() {
-  retcode_ = 0;
-  _cached_size_ = 0;
-}
-
-MiracleRingTakeRewardRsp::~MiracleRingTakeRewardRsp() {
-  // @@protoc_insertion_point(destructor:proto.MiracleRingTakeRewardRsp)
-  SharedDtor();
-}
-
-void MiracleRingTakeRewardRsp::SharedDtor() {
-}
-
-void MiracleRingTakeRewardRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* MiracleRingTakeRewardRsp::descriptor() {
-  protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const MiracleRingTakeRewardRsp& MiracleRingTakeRewardRsp::default_instance() {
-  protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-MiracleRingTakeRewardRsp* MiracleRingTakeRewardRsp::New(::google::protobuf::Arena* arena) const {
-  MiracleRingTakeRewardRsp* n = new MiracleRingTakeRewardRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void MiracleRingTakeRewardRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.MiracleRingTakeRewardRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  retcode_ = 0;
-  _internal_metadata_.Clear();
 }
 
 bool MiracleRingTakeRewardRsp::MergePartialFromCodedStream(
@@ -2175,16 +770,18 @@ bool MiracleRingTakeRewardRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.MiracleRingTakeRewardRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.MiracleRingTakeRewardRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -2200,9 +797,9 @@ void MiracleRingTakeRewardRsp::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteInt32(3, this->retcode(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.MiracleRingTakeRewardRsp)
 }
@@ -2219,9 +816,9 @@ void MiracleRingTakeRewardRsp::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(3, this->retcode(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.MiracleRingTakeRewardRsp)
   return target;
@@ -2231,10 +828,10 @@ size_t MiracleRingTakeRewardRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.MiracleRingTakeRewardRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // int32 retcode = 3;
   if (this->retcode() != 0) {
@@ -2248,162 +845,6 @@ size_t MiracleRingTakeRewardRsp::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void MiracleRingTakeRewardRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.MiracleRingTakeRewardRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const MiracleRingTakeRewardRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const MiracleRingTakeRewardRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.MiracleRingTakeRewardRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.MiracleRingTakeRewardRsp)
-    MergeFrom(*source);
-  }
-}
-
-void MiracleRingTakeRewardRsp::MergeFrom(const MiracleRingTakeRewardRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.MiracleRingTakeRewardRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-}
-
-void MiracleRingTakeRewardRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.MiracleRingTakeRewardRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void MiracleRingTakeRewardRsp::CopyFrom(const MiracleRingTakeRewardRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.MiracleRingTakeRewardRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool MiracleRingTakeRewardRsp::IsInitialized() const {
-  return true;
-}
-
-void MiracleRingTakeRewardRsp::Swap(MiracleRingTakeRewardRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void MiracleRingTakeRewardRsp::InternalSwap(MiracleRingTakeRewardRsp* other) {
-  using std::swap;
-  swap(retcode_, other->retcode_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata MiracleRingTakeRewardRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// MiracleRingTakeRewardRsp
-
-// int32 retcode = 3;
-void MiracleRingTakeRewardRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 MiracleRingTakeRewardRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.MiracleRingTakeRewardRsp.retcode)
-  return retcode_;
-}
-void MiracleRingTakeRewardRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.MiracleRingTakeRewardRsp.retcode)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int MiracleRingDropResultNotify::kLastTakeRewardTimeFieldNumber;
-const int MiracleRingDropResultNotify::kDropResultFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-MiracleRingDropResultNotify::MiracleRingDropResultNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.MiracleRingDropResultNotify)
-}
-MiracleRingDropResultNotify::MiracleRingDropResultNotify(const MiracleRingDropResultNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&drop_result_, &from.drop_result_,
-    static_cast<size_t>(reinterpret_cast<char*>(&last_take_reward_time_) -
-    reinterpret_cast<char*>(&drop_result_)) + sizeof(last_take_reward_time_));
-  // @@protoc_insertion_point(copy_constructor:proto.MiracleRingDropResultNotify)
-}
-
-void MiracleRingDropResultNotify::SharedCtor() {
-  ::memset(&drop_result_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&last_take_reward_time_) -
-      reinterpret_cast<char*>(&drop_result_)) + sizeof(last_take_reward_time_));
-  _cached_size_ = 0;
-}
-
-MiracleRingDropResultNotify::~MiracleRingDropResultNotify() {
-  // @@protoc_insertion_point(destructor:proto.MiracleRingDropResultNotify)
-  SharedDtor();
-}
-
-void MiracleRingDropResultNotify::SharedDtor() {
-}
-
-void MiracleRingDropResultNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* MiracleRingDropResultNotify::descriptor() {
-  protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const MiracleRingDropResultNotify& MiracleRingDropResultNotify::default_instance() {
-  protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-MiracleRingDropResultNotify* MiracleRingDropResultNotify::New(::google::protobuf::Arena* arena) const {
-  MiracleRingDropResultNotify* n = new MiracleRingDropResultNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void MiracleRingDropResultNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.MiracleRingDropResultNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&drop_result_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&last_take_reward_time_) -
-      reinterpret_cast<char*>(&drop_result_)) + sizeof(last_take_reward_time_));
-  _internal_metadata_.Clear();
 }
 
 bool MiracleRingDropResultNotify::MergePartialFromCodedStream(
@@ -2450,16 +891,18 @@ bool MiracleRingDropResultNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.MiracleRingDropResultNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.MiracleRingDropResultNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -2480,9 +923,9 @@ void MiracleRingDropResultNotify::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteInt32(9, this->last_take_reward_time(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.MiracleRingDropResultNotify)
 }
@@ -2504,9 +947,9 @@ void MiracleRingDropResultNotify::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(9, this->last_take_reward_time(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.MiracleRingDropResultNotify)
   return target;
@@ -2516,10 +959,10 @@ size_t MiracleRingDropResultNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.MiracleRingDropResultNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // int32 drop_result = 6;
   if (this->drop_result() != 0) {
@@ -2540,187 +983,6 @@ size_t MiracleRingDropResultNotify::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void MiracleRingDropResultNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.MiracleRingDropResultNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const MiracleRingDropResultNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const MiracleRingDropResultNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.MiracleRingDropResultNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.MiracleRingDropResultNotify)
-    MergeFrom(*source);
-  }
-}
-
-void MiracleRingDropResultNotify::MergeFrom(const MiracleRingDropResultNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.MiracleRingDropResultNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.drop_result() != 0) {
-    set_drop_result(from.drop_result());
-  }
-  if (from.last_take_reward_time() != 0) {
-    set_last_take_reward_time(from.last_take_reward_time());
-  }
-}
-
-void MiracleRingDropResultNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.MiracleRingDropResultNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void MiracleRingDropResultNotify::CopyFrom(const MiracleRingDropResultNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.MiracleRingDropResultNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool MiracleRingDropResultNotify::IsInitialized() const {
-  return true;
-}
-
-void MiracleRingDropResultNotify::Swap(MiracleRingDropResultNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void MiracleRingDropResultNotify::InternalSwap(MiracleRingDropResultNotify* other) {
-  using std::swap;
-  swap(drop_result_, other->drop_result_);
-  swap(last_take_reward_time_, other->last_take_reward_time_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata MiracleRingDropResultNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// MiracleRingDropResultNotify
-
-// int32 last_take_reward_time = 9;
-void MiracleRingDropResultNotify::clear_last_take_reward_time() {
-  last_take_reward_time_ = 0;
-}
-::google::protobuf::int32 MiracleRingDropResultNotify::last_take_reward_time() const {
-  // @@protoc_insertion_point(field_get:proto.MiracleRingDropResultNotify.last_take_reward_time)
-  return last_take_reward_time_;
-}
-void MiracleRingDropResultNotify::set_last_take_reward_time(::google::protobuf::int32 value) {
-  
-  last_take_reward_time_ = value;
-  // @@protoc_insertion_point(field_set:proto.MiracleRingDropResultNotify.last_take_reward_time)
-}
-
-// int32 drop_result = 6;
-void MiracleRingDropResultNotify::clear_drop_result() {
-  drop_result_ = 0;
-}
-::google::protobuf::int32 MiracleRingDropResultNotify::drop_result() const {
-  // @@protoc_insertion_point(field_get:proto.MiracleRingDropResultNotify.drop_result)
-  return drop_result_;
-}
-void MiracleRingDropResultNotify::set_drop_result(::google::protobuf::int32 value) {
-  
-  drop_result_ = value;
-  // @@protoc_insertion_point(field_set:proto.MiracleRingDropResultNotify.drop_result)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int MiracleRingDeliverItemReq::kOpTypeFieldNumber;
-const int MiracleRingDeliverItemReq::kItemParamListFieldNumber;
-const int MiracleRingDeliverItemReq::kFoodWeaponGuidListFieldNumber;
-const int MiracleRingDeliverItemReq::kGadgetIdFieldNumber;
-const int MiracleRingDeliverItemReq::kGadgetEntityIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-MiracleRingDeliverItemReq::MiracleRingDeliverItemReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.MiracleRingDeliverItemReq)
-}
-MiracleRingDeliverItemReq::MiracleRingDeliverItemReq(const MiracleRingDeliverItemReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      food_weapon_guid_list_(from.food_weapon_guid_list_),
-      item_param_list_(from.item_param_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&op_type_, &from.op_type_,
-    static_cast<size_t>(reinterpret_cast<char*>(&gadget_id_) -
-    reinterpret_cast<char*>(&op_type_)) + sizeof(gadget_id_));
-  // @@protoc_insertion_point(copy_constructor:proto.MiracleRingDeliverItemReq)
-}
-
-void MiracleRingDeliverItemReq::SharedCtor() {
-  ::memset(&op_type_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&gadget_id_) -
-      reinterpret_cast<char*>(&op_type_)) + sizeof(gadget_id_));
-  _cached_size_ = 0;
-}
-
-MiracleRingDeliverItemReq::~MiracleRingDeliverItemReq() {
-  // @@protoc_insertion_point(destructor:proto.MiracleRingDeliverItemReq)
-  SharedDtor();
-}
-
-void MiracleRingDeliverItemReq::SharedDtor() {
-}
-
-void MiracleRingDeliverItemReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* MiracleRingDeliverItemReq::descriptor() {
-  protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const MiracleRingDeliverItemReq& MiracleRingDeliverItemReq::default_instance() {
-  protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-MiracleRingDeliverItemReq* MiracleRingDeliverItemReq::New(::google::protobuf::Arena* arena) const {
-  MiracleRingDeliverItemReq* n = new MiracleRingDeliverItemReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void MiracleRingDeliverItemReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.MiracleRingDeliverItemReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  food_weapon_guid_list_.Clear();
-  item_param_list_.Clear();
-  ::memset(&op_type_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&gadget_id_) -
-      reinterpret_cast<char*>(&op_type_)) + sizeof(gadget_id_));
-  _internal_metadata_.Clear();
 }
 
 bool MiracleRingDeliverItemReq::MergePartialFromCodedStream(
@@ -2813,16 +1075,18 @@ bool MiracleRingDeliverItemReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.MiracleRingDeliverItemReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.MiracleRingDeliverItemReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -2867,9 +1131,9 @@ void MiracleRingDeliverItemReq::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(14, this->gadget_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.MiracleRingDeliverItemReq)
 }
@@ -2918,9 +1182,9 @@ void MiracleRingDeliverItemReq::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(14, this->gadget_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.MiracleRingDeliverItemReq)
   return target;
@@ -2930,10 +1194,10 @@ size_t MiracleRingDeliverItemReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.MiracleRingDeliverItemReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated uint64 food_weapon_guid_list = 3;
   {
@@ -2987,265 +1251,6 @@ size_t MiracleRingDeliverItemReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void MiracleRingDeliverItemReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.MiracleRingDeliverItemReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const MiracleRingDeliverItemReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const MiracleRingDeliverItemReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.MiracleRingDeliverItemReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.MiracleRingDeliverItemReq)
-    MergeFrom(*source);
-  }
-}
-
-void MiracleRingDeliverItemReq::MergeFrom(const MiracleRingDeliverItemReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.MiracleRingDeliverItemReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  food_weapon_guid_list_.MergeFrom(from.food_weapon_guid_list_);
-  item_param_list_.MergeFrom(from.item_param_list_);
-  if (from.op_type() != 0) {
-    set_op_type(from.op_type());
-  }
-  if (from.gadget_entity_id() != 0) {
-    set_gadget_entity_id(from.gadget_entity_id());
-  }
-  if (from.gadget_id() != 0) {
-    set_gadget_id(from.gadget_id());
-  }
-}
-
-void MiracleRingDeliverItemReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.MiracleRingDeliverItemReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void MiracleRingDeliverItemReq::CopyFrom(const MiracleRingDeliverItemReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.MiracleRingDeliverItemReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool MiracleRingDeliverItemReq::IsInitialized() const {
-  return true;
-}
-
-void MiracleRingDeliverItemReq::Swap(MiracleRingDeliverItemReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void MiracleRingDeliverItemReq::InternalSwap(MiracleRingDeliverItemReq* other) {
-  using std::swap;
-  food_weapon_guid_list_.InternalSwap(&other->food_weapon_guid_list_);
-  item_param_list_.InternalSwap(&other->item_param_list_);
-  swap(op_type_, other->op_type_);
-  swap(gadget_entity_id_, other->gadget_entity_id_);
-  swap(gadget_id_, other->gadget_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata MiracleRingDeliverItemReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// MiracleRingDeliverItemReq
-
-// .proto.InterOpType op_type = 2;
-void MiracleRingDeliverItemReq::clear_op_type() {
-  op_type_ = 0;
-}
-::proto::InterOpType MiracleRingDeliverItemReq::op_type() const {
-  // @@protoc_insertion_point(field_get:proto.MiracleRingDeliverItemReq.op_type)
-  return static_cast< ::proto::InterOpType >(op_type_);
-}
-void MiracleRingDeliverItemReq::set_op_type(::proto::InterOpType value) {
-  
-  op_type_ = value;
-  // @@protoc_insertion_point(field_set:proto.MiracleRingDeliverItemReq.op_type)
-}
-
-// repeated .proto.ItemParam item_param_list = 5;
-int MiracleRingDeliverItemReq::item_param_list_size() const {
-  return item_param_list_.size();
-}
-void MiracleRingDeliverItemReq::clear_item_param_list() {
-  item_param_list_.Clear();
-}
-const ::proto::ItemParam& MiracleRingDeliverItemReq::item_param_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.MiracleRingDeliverItemReq.item_param_list)
-  return item_param_list_.Get(index);
-}
-::proto::ItemParam* MiracleRingDeliverItemReq::mutable_item_param_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.MiracleRingDeliverItemReq.item_param_list)
-  return item_param_list_.Mutable(index);
-}
-::proto::ItemParam* MiracleRingDeliverItemReq::add_item_param_list() {
-  // @@protoc_insertion_point(field_add:proto.MiracleRingDeliverItemReq.item_param_list)
-  return item_param_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::ItemParam >*
-MiracleRingDeliverItemReq::mutable_item_param_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.MiracleRingDeliverItemReq.item_param_list)
-  return &item_param_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::ItemParam >&
-MiracleRingDeliverItemReq::item_param_list() const {
-  // @@protoc_insertion_point(field_list:proto.MiracleRingDeliverItemReq.item_param_list)
-  return item_param_list_;
-}
-
-// repeated uint64 food_weapon_guid_list = 3;
-int MiracleRingDeliverItemReq::food_weapon_guid_list_size() const {
-  return food_weapon_guid_list_.size();
-}
-void MiracleRingDeliverItemReq::clear_food_weapon_guid_list() {
-  food_weapon_guid_list_.Clear();
-}
-::google::protobuf::uint64 MiracleRingDeliverItemReq::food_weapon_guid_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.MiracleRingDeliverItemReq.food_weapon_guid_list)
-  return food_weapon_guid_list_.Get(index);
-}
-void MiracleRingDeliverItemReq::set_food_weapon_guid_list(int index, ::google::protobuf::uint64 value) {
-  food_weapon_guid_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.MiracleRingDeliverItemReq.food_weapon_guid_list)
-}
-void MiracleRingDeliverItemReq::add_food_weapon_guid_list(::google::protobuf::uint64 value) {
-  food_weapon_guid_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.MiracleRingDeliverItemReq.food_weapon_guid_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint64 >&
-MiracleRingDeliverItemReq::food_weapon_guid_list() const {
-  // @@protoc_insertion_point(field_list:proto.MiracleRingDeliverItemReq.food_weapon_guid_list)
-  return food_weapon_guid_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint64 >*
-MiracleRingDeliverItemReq::mutable_food_weapon_guid_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.MiracleRingDeliverItemReq.food_weapon_guid_list)
-  return &food_weapon_guid_list_;
-}
-
-// uint32 gadget_id = 14;
-void MiracleRingDeliverItemReq::clear_gadget_id() {
-  gadget_id_ = 0u;
-}
-::google::protobuf::uint32 MiracleRingDeliverItemReq::gadget_id() const {
-  // @@protoc_insertion_point(field_get:proto.MiracleRingDeliverItemReq.gadget_id)
-  return gadget_id_;
-}
-void MiracleRingDeliverItemReq::set_gadget_id(::google::protobuf::uint32 value) {
-  
-  gadget_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.MiracleRingDeliverItemReq.gadget_id)
-}
-
-// uint32 gadget_entity_id = 6;
-void MiracleRingDeliverItemReq::clear_gadget_entity_id() {
-  gadget_entity_id_ = 0u;
-}
-::google::protobuf::uint32 MiracleRingDeliverItemReq::gadget_entity_id() const {
-  // @@protoc_insertion_point(field_get:proto.MiracleRingDeliverItemReq.gadget_entity_id)
-  return gadget_entity_id_;
-}
-void MiracleRingDeliverItemReq::set_gadget_entity_id(::google::protobuf::uint32 value) {
-  
-  gadget_entity_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.MiracleRingDeliverItemReq.gadget_entity_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int MiracleRingDeliverItemRsp::kInteractTypeFieldNumber;
-const int MiracleRingDeliverItemRsp::kRetcodeFieldNumber;
-const int MiracleRingDeliverItemRsp::kOpTypeFieldNumber;
-const int MiracleRingDeliverItemRsp::kGadgetIdFieldNumber;
-const int MiracleRingDeliverItemRsp::kGadgetEntityIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-MiracleRingDeliverItemRsp::MiracleRingDeliverItemRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.MiracleRingDeliverItemRsp)
-}
-MiracleRingDeliverItemRsp::MiracleRingDeliverItemRsp(const MiracleRingDeliverItemRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&gadget_id_, &from.gadget_id_,
-    static_cast<size_t>(reinterpret_cast<char*>(&gadget_entity_id_) -
-    reinterpret_cast<char*>(&gadget_id_)) + sizeof(gadget_entity_id_));
-  // @@protoc_insertion_point(copy_constructor:proto.MiracleRingDeliverItemRsp)
-}
-
-void MiracleRingDeliverItemRsp::SharedCtor() {
-  ::memset(&gadget_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&gadget_entity_id_) -
-      reinterpret_cast<char*>(&gadget_id_)) + sizeof(gadget_entity_id_));
-  _cached_size_ = 0;
-}
-
-MiracleRingDeliverItemRsp::~MiracleRingDeliverItemRsp() {
-  // @@protoc_insertion_point(destructor:proto.MiracleRingDeliverItemRsp)
-  SharedDtor();
-}
-
-void MiracleRingDeliverItemRsp::SharedDtor() {
-}
-
-void MiracleRingDeliverItemRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* MiracleRingDeliverItemRsp::descriptor() {
-  protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const MiracleRingDeliverItemRsp& MiracleRingDeliverItemRsp::default_instance() {
-  protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-MiracleRingDeliverItemRsp* MiracleRingDeliverItemRsp::New(::google::protobuf::Arena* arena) const {
-  MiracleRingDeliverItemRsp* n = new MiracleRingDeliverItemRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void MiracleRingDeliverItemRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.MiracleRingDeliverItemRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&gadget_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&gadget_entity_id_) -
-      reinterpret_cast<char*>(&gadget_id_)) + sizeof(gadget_entity_id_));
-  _internal_metadata_.Clear();
 }
 
 bool MiracleRingDeliverItemRsp::MergePartialFromCodedStream(
@@ -3336,16 +1341,18 @@ bool MiracleRingDeliverItemRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.MiracleRingDeliverItemRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.MiracleRingDeliverItemRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -3383,9 +1390,9 @@ void MiracleRingDeliverItemRsp::SerializeWithCachedSizes(
       15, this->op_type(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.MiracleRingDeliverItemRsp)
 }
@@ -3424,9 +1431,9 @@ void MiracleRingDeliverItemRsp::SerializeWithCachedSizes(
       15, this->op_type(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.MiracleRingDeliverItemRsp)
   return target;
@@ -3436,10 +1443,10 @@ size_t MiracleRingDeliverItemRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.MiracleRingDeliverItemRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 gadget_id = 4;
   if (this->gadget_id() != 0) {
@@ -3481,227 +1488,6 @@ size_t MiracleRingDeliverItemRsp::ByteSizeLong() const {
   return total_size;
 }
 
-void MiracleRingDeliverItemRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.MiracleRingDeliverItemRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const MiracleRingDeliverItemRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const MiracleRingDeliverItemRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.MiracleRingDeliverItemRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.MiracleRingDeliverItemRsp)
-    MergeFrom(*source);
-  }
-}
-
-void MiracleRingDeliverItemRsp::MergeFrom(const MiracleRingDeliverItemRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.MiracleRingDeliverItemRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.gadget_id() != 0) {
-    set_gadget_id(from.gadget_id());
-  }
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-  if (from.op_type() != 0) {
-    set_op_type(from.op_type());
-  }
-  if (from.interact_type() != 0) {
-    set_interact_type(from.interact_type());
-  }
-  if (from.gadget_entity_id() != 0) {
-    set_gadget_entity_id(from.gadget_entity_id());
-  }
-}
-
-void MiracleRingDeliverItemRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.MiracleRingDeliverItemRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void MiracleRingDeliverItemRsp::CopyFrom(const MiracleRingDeliverItemRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.MiracleRingDeliverItemRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool MiracleRingDeliverItemRsp::IsInitialized() const {
-  return true;
-}
-
-void MiracleRingDeliverItemRsp::Swap(MiracleRingDeliverItemRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void MiracleRingDeliverItemRsp::InternalSwap(MiracleRingDeliverItemRsp* other) {
-  using std::swap;
-  swap(gadget_id_, other->gadget_id_);
-  swap(retcode_, other->retcode_);
-  swap(op_type_, other->op_type_);
-  swap(interact_type_, other->interact_type_);
-  swap(gadget_entity_id_, other->gadget_entity_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata MiracleRingDeliverItemRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// MiracleRingDeliverItemRsp
-
-// .proto.InteractType interact_type = 7;
-void MiracleRingDeliverItemRsp::clear_interact_type() {
-  interact_type_ = 0;
-}
-::proto::InteractType MiracleRingDeliverItemRsp::interact_type() const {
-  // @@protoc_insertion_point(field_get:proto.MiracleRingDeliverItemRsp.interact_type)
-  return static_cast< ::proto::InteractType >(interact_type_);
-}
-void MiracleRingDeliverItemRsp::set_interact_type(::proto::InteractType value) {
-  
-  interact_type_ = value;
-  // @@protoc_insertion_point(field_set:proto.MiracleRingDeliverItemRsp.interact_type)
-}
-
-// int32 retcode = 5;
-void MiracleRingDeliverItemRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 MiracleRingDeliverItemRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.MiracleRingDeliverItemRsp.retcode)
-  return retcode_;
-}
-void MiracleRingDeliverItemRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.MiracleRingDeliverItemRsp.retcode)
-}
-
-// .proto.InterOpType op_type = 15;
-void MiracleRingDeliverItemRsp::clear_op_type() {
-  op_type_ = 0;
-}
-::proto::InterOpType MiracleRingDeliverItemRsp::op_type() const {
-  // @@protoc_insertion_point(field_get:proto.MiracleRingDeliverItemRsp.op_type)
-  return static_cast< ::proto::InterOpType >(op_type_);
-}
-void MiracleRingDeliverItemRsp::set_op_type(::proto::InterOpType value) {
-  
-  op_type_ = value;
-  // @@protoc_insertion_point(field_set:proto.MiracleRingDeliverItemRsp.op_type)
-}
-
-// uint32 gadget_id = 4;
-void MiracleRingDeliverItemRsp::clear_gadget_id() {
-  gadget_id_ = 0u;
-}
-::google::protobuf::uint32 MiracleRingDeliverItemRsp::gadget_id() const {
-  // @@protoc_insertion_point(field_get:proto.MiracleRingDeliverItemRsp.gadget_id)
-  return gadget_id_;
-}
-void MiracleRingDeliverItemRsp::set_gadget_id(::google::protobuf::uint32 value) {
-  
-  gadget_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.MiracleRingDeliverItemRsp.gadget_id)
-}
-
-// uint32 gadget_entity_id = 14;
-void MiracleRingDeliverItemRsp::clear_gadget_entity_id() {
-  gadget_entity_id_ = 0u;
-}
-::google::protobuf::uint32 MiracleRingDeliverItemRsp::gadget_entity_id() const {
-  // @@protoc_insertion_point(field_get:proto.MiracleRingDeliverItemRsp.gadget_entity_id)
-  return gadget_entity_id_;
-}
-void MiracleRingDeliverItemRsp::set_gadget_entity_id(::google::protobuf::uint32 value) {
-  
-  gadget_entity_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.MiracleRingDeliverItemRsp.gadget_entity_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int MiracleRingDestroyNotify::kEntityIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-MiracleRingDestroyNotify::MiracleRingDestroyNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.MiracleRingDestroyNotify)
-}
-MiracleRingDestroyNotify::MiracleRingDestroyNotify(const MiracleRingDestroyNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  entity_id_ = from.entity_id_;
-  // @@protoc_insertion_point(copy_constructor:proto.MiracleRingDestroyNotify)
-}
-
-void MiracleRingDestroyNotify::SharedCtor() {
-  entity_id_ = 0u;
-  _cached_size_ = 0;
-}
-
-MiracleRingDestroyNotify::~MiracleRingDestroyNotify() {
-  // @@protoc_insertion_point(destructor:proto.MiracleRingDestroyNotify)
-  SharedDtor();
-}
-
-void MiracleRingDestroyNotify::SharedDtor() {
-}
-
-void MiracleRingDestroyNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* MiracleRingDestroyNotify::descriptor() {
-  protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const MiracleRingDestroyNotify& MiracleRingDestroyNotify::default_instance() {
-  protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-MiracleRingDestroyNotify* MiracleRingDestroyNotify::New(::google::protobuf::Arena* arena) const {
-  MiracleRingDestroyNotify* n = new MiracleRingDestroyNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void MiracleRingDestroyNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.MiracleRingDestroyNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  entity_id_ = 0u;
-  _internal_metadata_.Clear();
-}
-
 bool MiracleRingDestroyNotify::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -3732,16 +1518,18 @@ bool MiracleRingDestroyNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.MiracleRingDestroyNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.MiracleRingDestroyNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -3757,9 +1545,9 @@ void MiracleRingDestroyNotify::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(7, this->entity_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.MiracleRingDestroyNotify)
 }
@@ -3776,9 +1564,9 @@ void MiracleRingDestroyNotify::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(7, this->entity_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.MiracleRingDestroyNotify)
   return target;
@@ -3788,10 +1576,10 @@ size_t MiracleRingDestroyNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.MiracleRingDestroyNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 entity_id = 7;
   if (this->entity_id() != 0) {
@@ -3806,86 +1594,6 @@ size_t MiracleRingDestroyNotify::ByteSizeLong() const {
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
 }
-
-void MiracleRingDestroyNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.MiracleRingDestroyNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const MiracleRingDestroyNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const MiracleRingDestroyNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.MiracleRingDestroyNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.MiracleRingDestroyNotify)
-    MergeFrom(*source);
-  }
-}
-
-void MiracleRingDestroyNotify::MergeFrom(const MiracleRingDestroyNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.MiracleRingDestroyNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.entity_id() != 0) {
-    set_entity_id(from.entity_id());
-  }
-}
-
-void MiracleRingDestroyNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.MiracleRingDestroyNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void MiracleRingDestroyNotify::CopyFrom(const MiracleRingDestroyNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.MiracleRingDestroyNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool MiracleRingDestroyNotify::IsInitialized() const {
-  return true;
-}
-
-void MiracleRingDestroyNotify::Swap(MiracleRingDestroyNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void MiracleRingDestroyNotify::InternalSwap(MiracleRingDestroyNotify* other) {
-  using std::swap;
-  swap(entity_id_, other->entity_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata MiracleRingDestroyNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fmiracle_5fring_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// MiracleRingDestroyNotify
-
-// uint32 entity_id = 7;
-void MiracleRingDestroyNotify::clear_entity_id() {
-  entity_id_ = 0u;
-}
-::google::protobuf::uint32 MiracleRingDestroyNotify::entity_id() const {
-  // @@protoc_insertion_point(field_get:proto.MiracleRingDestroyNotify.entity_id)
-  return entity_id_;
-}
-void MiracleRingDestroyNotify::set_entity_id(::google::protobuf::uint32 value) {
-  
-  entity_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.MiracleRingDestroyNotify.entity_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
 
 // @@protoc_insertion_point(namespace_scope)
 

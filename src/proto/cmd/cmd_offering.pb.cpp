@@ -59,488 +59,6 @@ public:
      _instance;
 } _OfferingInteractRsp_default_instance_;
 
-namespace protobuf_cmd_2fcmd_5foffering_2eproto {
-
-
-namespace {
-
-::google::protobuf::Metadata file_level_metadata[8];
-const ::google::protobuf::EnumDescriptor* file_level_enum_descriptors[7];
-
-}  // namespace
-
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::ParseTableField
-    const TableStruct::entries[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  {0, 0, 0, ::google::protobuf::internal::kInvalidMask, 0, 0},
-};
-
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::AuxillaryParseTableField
-    const TableStruct::aux[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  ::google::protobuf::internal::AuxillaryParseTableField(),
-};
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::ParseTable const
-    TableStruct::schema[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-};
-
-const ::google::protobuf::uint32 TableStruct::offsets[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PlayerOfferingData, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PlayerOfferingData, offering_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PlayerOfferingData, is_first_interact_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PlayerOfferingData, level_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PlayerOfferingData, taken_level_reward_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PlayerOfferingData, is_new_max_level_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PlayerOfferingDataNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PlayerOfferingDataNotify, offering_data_list_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PlayerOfferingReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PlayerOfferingReq, offering_id_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PlayerOfferingRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PlayerOfferingRsp, item_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PlayerOfferingRsp, retcode_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PlayerOfferingRsp, offering_data_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TakeOfferingLevelRewardReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TakeOfferingLevelRewardReq, level_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TakeOfferingLevelRewardReq, offering_id_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TakeOfferingLevelRewardRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TakeOfferingLevelRewardRsp, offering_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TakeOfferingLevelRewardRsp, take_level_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TakeOfferingLevelRewardRsp, retcode_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TakeOfferingLevelRewardRsp, item_list_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(OfferingInteractReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(OfferingInteractReq, offering_id_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(OfferingInteractRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(OfferingInteractRsp, offering_data_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(OfferingInteractRsp, retcode_),
-};
-static const ::google::protobuf::internal::MigrationSchema schemas[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  { 0, -1, sizeof(PlayerOfferingData)},
-  { 10, -1, sizeof(PlayerOfferingDataNotify)},
-  { 16, -1, sizeof(PlayerOfferingReq)},
-  { 22, -1, sizeof(PlayerOfferingRsp)},
-  { 30, -1, sizeof(TakeOfferingLevelRewardReq)},
-  { 37, -1, sizeof(TakeOfferingLevelRewardRsp)},
-  { 46, -1, sizeof(OfferingInteractReq)},
-  { 52, -1, sizeof(OfferingInteractRsp)},
-};
-
-static ::google::protobuf::Message const * const file_default_instances[] = {
-  reinterpret_cast<const ::google::protobuf::Message*>(&_PlayerOfferingData_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_PlayerOfferingDataNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_PlayerOfferingReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_PlayerOfferingRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_TakeOfferingLevelRewardReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_TakeOfferingLevelRewardRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_OfferingInteractReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_OfferingInteractRsp_default_instance_),
-};
-
-namespace {
-
-void protobuf_AssignDescriptors() {
-  AddDescriptors();
-  ::google::protobuf::MessageFactory* factory = NULL;
-  AssignDescriptors(
-      "cmd/cmd_offering.proto", schemas, file_default_instances, TableStruct::offsets, factory,
-      file_level_metadata, file_level_enum_descriptors, NULL);
-}
-
-void protobuf_AssignDescriptorsOnce() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &protobuf_AssignDescriptors);
-}
-
-void protobuf_RegisterTypes(const ::std::string&) GOOGLE_ATTRIBUTE_COLD;
-void protobuf_RegisterTypes(const ::std::string&) {
-  protobuf_AssignDescriptorsOnce();
-  ::google::protobuf::internal::RegisterAllTypes(file_level_metadata, 8);
-}
-
-}  // namespace
-void TableStruct::InitDefaultsImpl() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
-
-  ::google::protobuf::internal::InitProtobufDefaults();
-  ::proto::protobuf_define_2eproto::InitDefaults();
-  _PlayerOfferingData_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_PlayerOfferingData_default_instance_);_PlayerOfferingDataNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_PlayerOfferingDataNotify_default_instance_);_PlayerOfferingReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_PlayerOfferingReq_default_instance_);_PlayerOfferingRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_PlayerOfferingRsp_default_instance_);_TakeOfferingLevelRewardReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_TakeOfferingLevelRewardReq_default_instance_);_TakeOfferingLevelRewardRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_TakeOfferingLevelRewardRsp_default_instance_);_OfferingInteractReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_OfferingInteractReq_default_instance_);_OfferingInteractRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_OfferingInteractRsp_default_instance_);_PlayerOfferingRsp_default_instance_._instance.get_mutable()->offering_data_ = const_cast< ::proto::PlayerOfferingData*>(
-      ::proto::PlayerOfferingData::internal_default_instance());
-  _OfferingInteractRsp_default_instance_._instance.get_mutable()->offering_data_ = const_cast< ::proto::PlayerOfferingData*>(
-      ::proto::PlayerOfferingData::internal_default_instance());
-}
-
-void InitDefaults() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &TableStruct::InitDefaultsImpl);
-}
-namespace {
-void AddDescriptorsImpl() {
-  InitDefaults();
-  static const char descriptor[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-      "\n\026cmd/cmd_offering.proto\022\005proto\032\014define."
-      "proto\"\216\001\n\022PlayerOfferingData\022\023\n\013offering"
-      "_id\030\010 \001(\r\022\031\n\021is_first_interact\030\004 \001(\010\022\r\n\005"
-      "level\030\001 \001(\r\022\037\n\027taken_level_reward_list\030\007"
-      " \003(\r\022\030\n\020is_new_max_level\030\013 \001(\010\"\240\001\n\030Playe"
-      "rOfferingDataNotify\0225\n\022offering_data_lis"
-      "t\030\010 \003(\0132\031.proto.PlayerOfferingData\"M\n\005Cm"
-      "dId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\343\026\022\023\n\017ENET_CHANN"
-      "EL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001\"\214\001\n\021Pl"
-      "ayerOfferingReq\022\023\n\013offering_id\030\t \001(\r\"b\n\005"
-      "CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\334\026\022\023\n\017ENET_CHA"
-      "NNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\022\023\n\017IS_AL"
-      "LOW_CLIENT\020\001\032\002\020\001\"\312\001\n\021PlayerOfferingRsp\022#"
-      "\n\titem_list\030\016 \003(\0132\020.proto.ItemParam\022\017\n\007r"
-      "etcode\030\001 \001(\005\0220\n\roffering_data\030\017 \001(\0132\031.pr"
-      "oto.PlayerOfferingData\"M\n\005CmdId\022\010\n\004NONE\020"
-      "\000\022\013\n\006CMD_ID\020\344\026\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020E"
-      "NET_IS_RELIABLE\020\001\032\002\020\001\"\244\001\n\032TakeOfferingLe"
-      "velRewardReq\022\r\n\005level\030\002 \001(\r\022\023\n\013offering_"
-      "id\030\010 \001(\r\"b\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\335\026"
-      "\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABL"
-      "E\020\001\022\023\n\017IS_ALLOW_CLIENT\020\001\032\002\020\001\"\312\001\n\032TakeOff"
-      "eringLevelRewardRsp\022\023\n\013offering_id\030\016 \001(\r"
-      "\022\022\n\ntake_level\030\001 \001(\r\022\017\n\007retcode\030\007 \001(\005\022#\n"
-      "\titem_list\030\n \003(\0132\020.proto.ItemParam\"M\n\005Cm"
-      "dId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\333\026\022\023\n\017ENET_CHANN"
-      "EL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001\"\216\001\n\023Of"
-      "feringInteractReq\022\023\n\013offering_id\030\013 \001(\r\"b"
-      "\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\345\026\022\023\n\017ENET_C"
-      "HANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\022\023\n\017IS_"
-      "ALLOW_CLIENT\020\001\032\002\020\001\"\247\001\n\023OfferingInteractR"
-      "sp\0220\n\roffering_data\030\016 \001(\0132\031.proto.Player"
-      "OfferingData\022\017\n\007retcode\030\n \001(\005\"M\n\005CmdId\022\010"
-      "\n\004NONE\020\000\022\013\n\006CMD_ID\020\352\026\022\023\n\017ENET_CHANNEL_ID"
-      "\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001B\nZ\010./;proto"
-      "b\006proto3"
-  };
-  ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-      descriptor, 1408);
-  ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
-    "cmd/cmd_offering.proto", &protobuf_RegisterTypes);
-  ::proto::protobuf_define_2eproto::AddDescriptors();
-}
-} // anonymous namespace
-
-void AddDescriptors() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &AddDescriptorsImpl);
-}
-// Force AddDescriptors() to be called at dynamic initialization time.
-struct StaticDescriptorInitializer {
-  StaticDescriptorInitializer() {
-    AddDescriptors();
-  }
-} static_descriptor_initializer;
-
-}  // namespace protobuf_cmd_2fcmd_5foffering_2eproto
-
-const ::google::protobuf::EnumDescriptor* PlayerOfferingDataNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5foffering_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5foffering_2eproto::file_level_enum_descriptors[0];
-}
-bool PlayerOfferingDataNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 2915:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const PlayerOfferingDataNotify_CmdId PlayerOfferingDataNotify::NONE;
-const PlayerOfferingDataNotify_CmdId PlayerOfferingDataNotify::CMD_ID;
-const PlayerOfferingDataNotify_CmdId PlayerOfferingDataNotify::ENET_CHANNEL_ID;
-const PlayerOfferingDataNotify_CmdId PlayerOfferingDataNotify::ENET_IS_RELIABLE;
-const PlayerOfferingDataNotify_CmdId PlayerOfferingDataNotify::CmdId_MIN;
-const PlayerOfferingDataNotify_CmdId PlayerOfferingDataNotify::CmdId_MAX;
-const int PlayerOfferingDataNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* PlayerOfferingReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5foffering_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5foffering_2eproto::file_level_enum_descriptors[1];
-}
-bool PlayerOfferingReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 2908:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const PlayerOfferingReq_CmdId PlayerOfferingReq::NONE;
-const PlayerOfferingReq_CmdId PlayerOfferingReq::CMD_ID;
-const PlayerOfferingReq_CmdId PlayerOfferingReq::ENET_CHANNEL_ID;
-const PlayerOfferingReq_CmdId PlayerOfferingReq::ENET_IS_RELIABLE;
-const PlayerOfferingReq_CmdId PlayerOfferingReq::IS_ALLOW_CLIENT;
-const PlayerOfferingReq_CmdId PlayerOfferingReq::CmdId_MIN;
-const PlayerOfferingReq_CmdId PlayerOfferingReq::CmdId_MAX;
-const int PlayerOfferingReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* PlayerOfferingRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5foffering_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5foffering_2eproto::file_level_enum_descriptors[2];
-}
-bool PlayerOfferingRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 2916:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const PlayerOfferingRsp_CmdId PlayerOfferingRsp::NONE;
-const PlayerOfferingRsp_CmdId PlayerOfferingRsp::CMD_ID;
-const PlayerOfferingRsp_CmdId PlayerOfferingRsp::ENET_CHANNEL_ID;
-const PlayerOfferingRsp_CmdId PlayerOfferingRsp::ENET_IS_RELIABLE;
-const PlayerOfferingRsp_CmdId PlayerOfferingRsp::CmdId_MIN;
-const PlayerOfferingRsp_CmdId PlayerOfferingRsp::CmdId_MAX;
-const int PlayerOfferingRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* TakeOfferingLevelRewardReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5foffering_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5foffering_2eproto::file_level_enum_descriptors[3];
-}
-bool TakeOfferingLevelRewardReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 2909:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const TakeOfferingLevelRewardReq_CmdId TakeOfferingLevelRewardReq::NONE;
-const TakeOfferingLevelRewardReq_CmdId TakeOfferingLevelRewardReq::CMD_ID;
-const TakeOfferingLevelRewardReq_CmdId TakeOfferingLevelRewardReq::ENET_CHANNEL_ID;
-const TakeOfferingLevelRewardReq_CmdId TakeOfferingLevelRewardReq::ENET_IS_RELIABLE;
-const TakeOfferingLevelRewardReq_CmdId TakeOfferingLevelRewardReq::IS_ALLOW_CLIENT;
-const TakeOfferingLevelRewardReq_CmdId TakeOfferingLevelRewardReq::CmdId_MIN;
-const TakeOfferingLevelRewardReq_CmdId TakeOfferingLevelRewardReq::CmdId_MAX;
-const int TakeOfferingLevelRewardReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* TakeOfferingLevelRewardRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5foffering_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5foffering_2eproto::file_level_enum_descriptors[4];
-}
-bool TakeOfferingLevelRewardRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 2907:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const TakeOfferingLevelRewardRsp_CmdId TakeOfferingLevelRewardRsp::NONE;
-const TakeOfferingLevelRewardRsp_CmdId TakeOfferingLevelRewardRsp::CMD_ID;
-const TakeOfferingLevelRewardRsp_CmdId TakeOfferingLevelRewardRsp::ENET_CHANNEL_ID;
-const TakeOfferingLevelRewardRsp_CmdId TakeOfferingLevelRewardRsp::ENET_IS_RELIABLE;
-const TakeOfferingLevelRewardRsp_CmdId TakeOfferingLevelRewardRsp::CmdId_MIN;
-const TakeOfferingLevelRewardRsp_CmdId TakeOfferingLevelRewardRsp::CmdId_MAX;
-const int TakeOfferingLevelRewardRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* OfferingInteractReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5foffering_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5foffering_2eproto::file_level_enum_descriptors[5];
-}
-bool OfferingInteractReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 2917:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const OfferingInteractReq_CmdId OfferingInteractReq::NONE;
-const OfferingInteractReq_CmdId OfferingInteractReq::CMD_ID;
-const OfferingInteractReq_CmdId OfferingInteractReq::ENET_CHANNEL_ID;
-const OfferingInteractReq_CmdId OfferingInteractReq::ENET_IS_RELIABLE;
-const OfferingInteractReq_CmdId OfferingInteractReq::IS_ALLOW_CLIENT;
-const OfferingInteractReq_CmdId OfferingInteractReq::CmdId_MIN;
-const OfferingInteractReq_CmdId OfferingInteractReq::CmdId_MAX;
-const int OfferingInteractReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* OfferingInteractRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5foffering_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5foffering_2eproto::file_level_enum_descriptors[6];
-}
-bool OfferingInteractRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 2922:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const OfferingInteractRsp_CmdId OfferingInteractRsp::NONE;
-const OfferingInteractRsp_CmdId OfferingInteractRsp::CMD_ID;
-const OfferingInteractRsp_CmdId OfferingInteractRsp::ENET_CHANNEL_ID;
-const OfferingInteractRsp_CmdId OfferingInteractRsp::ENET_IS_RELIABLE;
-const OfferingInteractRsp_CmdId OfferingInteractRsp::CmdId_MIN;
-const OfferingInteractRsp_CmdId OfferingInteractRsp::CmdId_MAX;
-const int OfferingInteractRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int PlayerOfferingData::kOfferingIdFieldNumber;
-const int PlayerOfferingData::kIsFirstInteractFieldNumber;
-const int PlayerOfferingData::kLevelFieldNumber;
-const int PlayerOfferingData::kTakenLevelRewardListFieldNumber;
-const int PlayerOfferingData::kIsNewMaxLevelFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-PlayerOfferingData::PlayerOfferingData()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5foffering_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.PlayerOfferingData)
-}
-PlayerOfferingData::PlayerOfferingData(const PlayerOfferingData& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      taken_level_reward_list_(from.taken_level_reward_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&level_, &from.level_,
-    static_cast<size_t>(reinterpret_cast<char*>(&offering_id_) -
-    reinterpret_cast<char*>(&level_)) + sizeof(offering_id_));
-  // @@protoc_insertion_point(copy_constructor:proto.PlayerOfferingData)
-}
-
-void PlayerOfferingData::SharedCtor() {
-  ::memset(&level_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&offering_id_) -
-      reinterpret_cast<char*>(&level_)) + sizeof(offering_id_));
-  _cached_size_ = 0;
-}
-
-PlayerOfferingData::~PlayerOfferingData() {
-  // @@protoc_insertion_point(destructor:proto.PlayerOfferingData)
-  SharedDtor();
-}
-
-void PlayerOfferingData::SharedDtor() {
-}
-
-void PlayerOfferingData::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* PlayerOfferingData::descriptor() {
-  protobuf_cmd_2fcmd_5foffering_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5foffering_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const PlayerOfferingData& PlayerOfferingData::default_instance() {
-  protobuf_cmd_2fcmd_5foffering_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-PlayerOfferingData* PlayerOfferingData::New(::google::protobuf::Arena* arena) const {
-  PlayerOfferingData* n = new PlayerOfferingData;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void PlayerOfferingData::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.PlayerOfferingData)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  taken_level_reward_list_.Clear();
-  ::memset(&level_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&offering_id_) -
-      reinterpret_cast<char*>(&level_)) + sizeof(offering_id_));
-  _internal_metadata_.Clear();
-}
-
 bool PlayerOfferingData::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -632,16 +150,18 @@ bool PlayerOfferingData::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.PlayerOfferingData)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.PlayerOfferingData)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -683,9 +203,9 @@ void PlayerOfferingData::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteBool(11, this->is_new_max_level(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.PlayerOfferingData)
 }
@@ -730,9 +250,9 @@ void PlayerOfferingData::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteBoolToArray(11, this->is_new_max_level(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.PlayerOfferingData)
   return target;
@@ -742,10 +262,10 @@ size_t PlayerOfferingData::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.PlayerOfferingData)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated uint32 taken_level_reward_list = 7;
   {
@@ -794,240 +314,6 @@ size_t PlayerOfferingData::ByteSizeLong() const {
   return total_size;
 }
 
-void PlayerOfferingData::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.PlayerOfferingData)
-  GOOGLE_DCHECK_NE(&from, this);
-  const PlayerOfferingData* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const PlayerOfferingData>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.PlayerOfferingData)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.PlayerOfferingData)
-    MergeFrom(*source);
-  }
-}
-
-void PlayerOfferingData::MergeFrom(const PlayerOfferingData& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.PlayerOfferingData)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  taken_level_reward_list_.MergeFrom(from.taken_level_reward_list_);
-  if (from.level() != 0) {
-    set_level(from.level());
-  }
-  if (from.is_first_interact() != 0) {
-    set_is_first_interact(from.is_first_interact());
-  }
-  if (from.is_new_max_level() != 0) {
-    set_is_new_max_level(from.is_new_max_level());
-  }
-  if (from.offering_id() != 0) {
-    set_offering_id(from.offering_id());
-  }
-}
-
-void PlayerOfferingData::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.PlayerOfferingData)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void PlayerOfferingData::CopyFrom(const PlayerOfferingData& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.PlayerOfferingData)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool PlayerOfferingData::IsInitialized() const {
-  return true;
-}
-
-void PlayerOfferingData::Swap(PlayerOfferingData* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void PlayerOfferingData::InternalSwap(PlayerOfferingData* other) {
-  using std::swap;
-  taken_level_reward_list_.InternalSwap(&other->taken_level_reward_list_);
-  swap(level_, other->level_);
-  swap(is_first_interact_, other->is_first_interact_);
-  swap(is_new_max_level_, other->is_new_max_level_);
-  swap(offering_id_, other->offering_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata PlayerOfferingData::GetMetadata() const {
-  protobuf_cmd_2fcmd_5foffering_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5foffering_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// PlayerOfferingData
-
-// uint32 offering_id = 8;
-void PlayerOfferingData::clear_offering_id() {
-  offering_id_ = 0u;
-}
-::google::protobuf::uint32 PlayerOfferingData::offering_id() const {
-  // @@protoc_insertion_point(field_get:proto.PlayerOfferingData.offering_id)
-  return offering_id_;
-}
-void PlayerOfferingData::set_offering_id(::google::protobuf::uint32 value) {
-  
-  offering_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.PlayerOfferingData.offering_id)
-}
-
-// bool is_first_interact = 4;
-void PlayerOfferingData::clear_is_first_interact() {
-  is_first_interact_ = false;
-}
-bool PlayerOfferingData::is_first_interact() const {
-  // @@protoc_insertion_point(field_get:proto.PlayerOfferingData.is_first_interact)
-  return is_first_interact_;
-}
-void PlayerOfferingData::set_is_first_interact(bool value) {
-  
-  is_first_interact_ = value;
-  // @@protoc_insertion_point(field_set:proto.PlayerOfferingData.is_first_interact)
-}
-
-// uint32 level = 1;
-void PlayerOfferingData::clear_level() {
-  level_ = 0u;
-}
-::google::protobuf::uint32 PlayerOfferingData::level() const {
-  // @@protoc_insertion_point(field_get:proto.PlayerOfferingData.level)
-  return level_;
-}
-void PlayerOfferingData::set_level(::google::protobuf::uint32 value) {
-  
-  level_ = value;
-  // @@protoc_insertion_point(field_set:proto.PlayerOfferingData.level)
-}
-
-// repeated uint32 taken_level_reward_list = 7;
-int PlayerOfferingData::taken_level_reward_list_size() const {
-  return taken_level_reward_list_.size();
-}
-void PlayerOfferingData::clear_taken_level_reward_list() {
-  taken_level_reward_list_.Clear();
-}
-::google::protobuf::uint32 PlayerOfferingData::taken_level_reward_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.PlayerOfferingData.taken_level_reward_list)
-  return taken_level_reward_list_.Get(index);
-}
-void PlayerOfferingData::set_taken_level_reward_list(int index, ::google::protobuf::uint32 value) {
-  taken_level_reward_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.PlayerOfferingData.taken_level_reward_list)
-}
-void PlayerOfferingData::add_taken_level_reward_list(::google::protobuf::uint32 value) {
-  taken_level_reward_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.PlayerOfferingData.taken_level_reward_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint32 >&
-PlayerOfferingData::taken_level_reward_list() const {
-  // @@protoc_insertion_point(field_list:proto.PlayerOfferingData.taken_level_reward_list)
-  return taken_level_reward_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint32 >*
-PlayerOfferingData::mutable_taken_level_reward_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.PlayerOfferingData.taken_level_reward_list)
-  return &taken_level_reward_list_;
-}
-
-// bool is_new_max_level = 11;
-void PlayerOfferingData::clear_is_new_max_level() {
-  is_new_max_level_ = false;
-}
-bool PlayerOfferingData::is_new_max_level() const {
-  // @@protoc_insertion_point(field_get:proto.PlayerOfferingData.is_new_max_level)
-  return is_new_max_level_;
-}
-void PlayerOfferingData::set_is_new_max_level(bool value) {
-  
-  is_new_max_level_ = value;
-  // @@protoc_insertion_point(field_set:proto.PlayerOfferingData.is_new_max_level)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int PlayerOfferingDataNotify::kOfferingDataListFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-PlayerOfferingDataNotify::PlayerOfferingDataNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5foffering_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.PlayerOfferingDataNotify)
-}
-PlayerOfferingDataNotify::PlayerOfferingDataNotify(const PlayerOfferingDataNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      offering_data_list_(from.offering_data_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  // @@protoc_insertion_point(copy_constructor:proto.PlayerOfferingDataNotify)
-}
-
-void PlayerOfferingDataNotify::SharedCtor() {
-  _cached_size_ = 0;
-}
-
-PlayerOfferingDataNotify::~PlayerOfferingDataNotify() {
-  // @@protoc_insertion_point(destructor:proto.PlayerOfferingDataNotify)
-  SharedDtor();
-}
-
-void PlayerOfferingDataNotify::SharedDtor() {
-}
-
-void PlayerOfferingDataNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* PlayerOfferingDataNotify::descriptor() {
-  protobuf_cmd_2fcmd_5foffering_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5foffering_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const PlayerOfferingDataNotify& PlayerOfferingDataNotify::default_instance() {
-  protobuf_cmd_2fcmd_5foffering_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-PlayerOfferingDataNotify* PlayerOfferingDataNotify::New(::google::protobuf::Arena* arena) const {
-  PlayerOfferingDataNotify* n = new PlayerOfferingDataNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void PlayerOfferingDataNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.PlayerOfferingDataNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  offering_data_list_.Clear();
-  _internal_metadata_.Clear();
-}
-
 bool PlayerOfferingDataNotify::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -1056,16 +342,18 @@ bool PlayerOfferingDataNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.PlayerOfferingDataNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.PlayerOfferingDataNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -1083,9 +371,9 @@ void PlayerOfferingDataNotify::SerializeWithCachedSizes(
       8, this->offering_data_list(static_cast<int>(i)), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.PlayerOfferingDataNotify)
 }
@@ -1105,9 +393,9 @@ void PlayerOfferingDataNotify::SerializeWithCachedSizes(
         8, this->offering_data_list(static_cast<int>(i)), deterministic, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.PlayerOfferingDataNotify)
   return target;
@@ -1117,10 +405,10 @@ size_t PlayerOfferingDataNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.PlayerOfferingDataNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated .proto.PlayerOfferingData offering_data_list = 8;
   {
@@ -1138,169 +426,6 @@ size_t PlayerOfferingDataNotify::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void PlayerOfferingDataNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.PlayerOfferingDataNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const PlayerOfferingDataNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const PlayerOfferingDataNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.PlayerOfferingDataNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.PlayerOfferingDataNotify)
-    MergeFrom(*source);
-  }
-}
-
-void PlayerOfferingDataNotify::MergeFrom(const PlayerOfferingDataNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.PlayerOfferingDataNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  offering_data_list_.MergeFrom(from.offering_data_list_);
-}
-
-void PlayerOfferingDataNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.PlayerOfferingDataNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void PlayerOfferingDataNotify::CopyFrom(const PlayerOfferingDataNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.PlayerOfferingDataNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool PlayerOfferingDataNotify::IsInitialized() const {
-  return true;
-}
-
-void PlayerOfferingDataNotify::Swap(PlayerOfferingDataNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void PlayerOfferingDataNotify::InternalSwap(PlayerOfferingDataNotify* other) {
-  using std::swap;
-  offering_data_list_.InternalSwap(&other->offering_data_list_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata PlayerOfferingDataNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5foffering_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5foffering_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// PlayerOfferingDataNotify
-
-// repeated .proto.PlayerOfferingData offering_data_list = 8;
-int PlayerOfferingDataNotify::offering_data_list_size() const {
-  return offering_data_list_.size();
-}
-void PlayerOfferingDataNotify::clear_offering_data_list() {
-  offering_data_list_.Clear();
-}
-const ::proto::PlayerOfferingData& PlayerOfferingDataNotify::offering_data_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.PlayerOfferingDataNotify.offering_data_list)
-  return offering_data_list_.Get(index);
-}
-::proto::PlayerOfferingData* PlayerOfferingDataNotify::mutable_offering_data_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.PlayerOfferingDataNotify.offering_data_list)
-  return offering_data_list_.Mutable(index);
-}
-::proto::PlayerOfferingData* PlayerOfferingDataNotify::add_offering_data_list() {
-  // @@protoc_insertion_point(field_add:proto.PlayerOfferingDataNotify.offering_data_list)
-  return offering_data_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::PlayerOfferingData >*
-PlayerOfferingDataNotify::mutable_offering_data_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.PlayerOfferingDataNotify.offering_data_list)
-  return &offering_data_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::PlayerOfferingData >&
-PlayerOfferingDataNotify::offering_data_list() const {
-  // @@protoc_insertion_point(field_list:proto.PlayerOfferingDataNotify.offering_data_list)
-  return offering_data_list_;
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int PlayerOfferingReq::kOfferingIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-PlayerOfferingReq::PlayerOfferingReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5foffering_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.PlayerOfferingReq)
-}
-PlayerOfferingReq::PlayerOfferingReq(const PlayerOfferingReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  offering_id_ = from.offering_id_;
-  // @@protoc_insertion_point(copy_constructor:proto.PlayerOfferingReq)
-}
-
-void PlayerOfferingReq::SharedCtor() {
-  offering_id_ = 0u;
-  _cached_size_ = 0;
-}
-
-PlayerOfferingReq::~PlayerOfferingReq() {
-  // @@protoc_insertion_point(destructor:proto.PlayerOfferingReq)
-  SharedDtor();
-}
-
-void PlayerOfferingReq::SharedDtor() {
-}
-
-void PlayerOfferingReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* PlayerOfferingReq::descriptor() {
-  protobuf_cmd_2fcmd_5foffering_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5foffering_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const PlayerOfferingReq& PlayerOfferingReq::default_instance() {
-  protobuf_cmd_2fcmd_5foffering_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-PlayerOfferingReq* PlayerOfferingReq::New(::google::protobuf::Arena* arena) const {
-  PlayerOfferingReq* n = new PlayerOfferingReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void PlayerOfferingReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.PlayerOfferingReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  offering_id_ = 0u;
-  _internal_metadata_.Clear();
 }
 
 bool PlayerOfferingReq::MergePartialFromCodedStream(
@@ -1333,16 +458,18 @@ bool PlayerOfferingReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.PlayerOfferingReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.PlayerOfferingReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -1358,9 +485,9 @@ void PlayerOfferingReq::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(9, this->offering_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.PlayerOfferingReq)
 }
@@ -1377,9 +504,9 @@ void PlayerOfferingReq::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(9, this->offering_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.PlayerOfferingReq)
   return target;
@@ -1389,10 +516,10 @@ size_t PlayerOfferingReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.PlayerOfferingReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 offering_id = 9;
   if (this->offering_id() != 0) {
@@ -1406,171 +533,6 @@ size_t PlayerOfferingReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void PlayerOfferingReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.PlayerOfferingReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const PlayerOfferingReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const PlayerOfferingReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.PlayerOfferingReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.PlayerOfferingReq)
-    MergeFrom(*source);
-  }
-}
-
-void PlayerOfferingReq::MergeFrom(const PlayerOfferingReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.PlayerOfferingReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.offering_id() != 0) {
-    set_offering_id(from.offering_id());
-  }
-}
-
-void PlayerOfferingReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.PlayerOfferingReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void PlayerOfferingReq::CopyFrom(const PlayerOfferingReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.PlayerOfferingReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool PlayerOfferingReq::IsInitialized() const {
-  return true;
-}
-
-void PlayerOfferingReq::Swap(PlayerOfferingReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void PlayerOfferingReq::InternalSwap(PlayerOfferingReq* other) {
-  using std::swap;
-  swap(offering_id_, other->offering_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata PlayerOfferingReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5foffering_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5foffering_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// PlayerOfferingReq
-
-// uint32 offering_id = 9;
-void PlayerOfferingReq::clear_offering_id() {
-  offering_id_ = 0u;
-}
-::google::protobuf::uint32 PlayerOfferingReq::offering_id() const {
-  // @@protoc_insertion_point(field_get:proto.PlayerOfferingReq.offering_id)
-  return offering_id_;
-}
-void PlayerOfferingReq::set_offering_id(::google::protobuf::uint32 value) {
-  
-  offering_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.PlayerOfferingReq.offering_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int PlayerOfferingRsp::kItemListFieldNumber;
-const int PlayerOfferingRsp::kRetcodeFieldNumber;
-const int PlayerOfferingRsp::kOfferingDataFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-PlayerOfferingRsp::PlayerOfferingRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5foffering_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.PlayerOfferingRsp)
-}
-PlayerOfferingRsp::PlayerOfferingRsp(const PlayerOfferingRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      item_list_(from.item_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  if (from.has_offering_data()) {
-    offering_data_ = new ::proto::PlayerOfferingData(*from.offering_data_);
-  } else {
-    offering_data_ = NULL;
-  }
-  retcode_ = from.retcode_;
-  // @@protoc_insertion_point(copy_constructor:proto.PlayerOfferingRsp)
-}
-
-void PlayerOfferingRsp::SharedCtor() {
-  ::memset(&offering_data_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&retcode_) -
-      reinterpret_cast<char*>(&offering_data_)) + sizeof(retcode_));
-  _cached_size_ = 0;
-}
-
-PlayerOfferingRsp::~PlayerOfferingRsp() {
-  // @@protoc_insertion_point(destructor:proto.PlayerOfferingRsp)
-  SharedDtor();
-}
-
-void PlayerOfferingRsp::SharedDtor() {
-  if (this != internal_default_instance()) delete offering_data_;
-}
-
-void PlayerOfferingRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* PlayerOfferingRsp::descriptor() {
-  protobuf_cmd_2fcmd_5foffering_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5foffering_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const PlayerOfferingRsp& PlayerOfferingRsp::default_instance() {
-  protobuf_cmd_2fcmd_5foffering_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-PlayerOfferingRsp* PlayerOfferingRsp::New(::google::protobuf::Arena* arena) const {
-  PlayerOfferingRsp* n = new PlayerOfferingRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void PlayerOfferingRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.PlayerOfferingRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  item_list_.Clear();
-  if (GetArenaNoVirtual() == NULL && offering_data_ != NULL) {
-    delete offering_data_;
-  }
-  offering_data_ = NULL;
-  retcode_ = 0;
-  _internal_metadata_.Clear();
 }
 
 bool PlayerOfferingRsp::MergePartialFromCodedStream(
@@ -1627,16 +589,18 @@ bool PlayerOfferingRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.PlayerOfferingRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.PlayerOfferingRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -1665,9 +629,9 @@ void PlayerOfferingRsp::SerializeWithCachedSizes(
       15, *this->offering_data_, output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.PlayerOfferingRsp)
 }
@@ -1699,9 +663,9 @@ void PlayerOfferingRsp::SerializeWithCachedSizes(
         15, *this->offering_data_, deterministic, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.PlayerOfferingRsp)
   return target;
@@ -1711,10 +675,10 @@ size_t PlayerOfferingRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.PlayerOfferingRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated .proto.ItemParam item_list = 14;
   {
@@ -1746,238 +710,6 @@ size_t PlayerOfferingRsp::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void PlayerOfferingRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.PlayerOfferingRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const PlayerOfferingRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const PlayerOfferingRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.PlayerOfferingRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.PlayerOfferingRsp)
-    MergeFrom(*source);
-  }
-}
-
-void PlayerOfferingRsp::MergeFrom(const PlayerOfferingRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.PlayerOfferingRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  item_list_.MergeFrom(from.item_list_);
-  if (from.has_offering_data()) {
-    mutable_offering_data()->::proto::PlayerOfferingData::MergeFrom(from.offering_data());
-  }
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-}
-
-void PlayerOfferingRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.PlayerOfferingRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void PlayerOfferingRsp::CopyFrom(const PlayerOfferingRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.PlayerOfferingRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool PlayerOfferingRsp::IsInitialized() const {
-  return true;
-}
-
-void PlayerOfferingRsp::Swap(PlayerOfferingRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void PlayerOfferingRsp::InternalSwap(PlayerOfferingRsp* other) {
-  using std::swap;
-  item_list_.InternalSwap(&other->item_list_);
-  swap(offering_data_, other->offering_data_);
-  swap(retcode_, other->retcode_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata PlayerOfferingRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5foffering_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5foffering_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// PlayerOfferingRsp
-
-// repeated .proto.ItemParam item_list = 14;
-int PlayerOfferingRsp::item_list_size() const {
-  return item_list_.size();
-}
-void PlayerOfferingRsp::clear_item_list() {
-  item_list_.Clear();
-}
-const ::proto::ItemParam& PlayerOfferingRsp::item_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.PlayerOfferingRsp.item_list)
-  return item_list_.Get(index);
-}
-::proto::ItemParam* PlayerOfferingRsp::mutable_item_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.PlayerOfferingRsp.item_list)
-  return item_list_.Mutable(index);
-}
-::proto::ItemParam* PlayerOfferingRsp::add_item_list() {
-  // @@protoc_insertion_point(field_add:proto.PlayerOfferingRsp.item_list)
-  return item_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::ItemParam >*
-PlayerOfferingRsp::mutable_item_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.PlayerOfferingRsp.item_list)
-  return &item_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::ItemParam >&
-PlayerOfferingRsp::item_list() const {
-  // @@protoc_insertion_point(field_list:proto.PlayerOfferingRsp.item_list)
-  return item_list_;
-}
-
-// int32 retcode = 1;
-void PlayerOfferingRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 PlayerOfferingRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.PlayerOfferingRsp.retcode)
-  return retcode_;
-}
-void PlayerOfferingRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.PlayerOfferingRsp.retcode)
-}
-
-// .proto.PlayerOfferingData offering_data = 15;
-bool PlayerOfferingRsp::has_offering_data() const {
-  return this != internal_default_instance() && offering_data_ != NULL;
-}
-void PlayerOfferingRsp::clear_offering_data() {
-  if (GetArenaNoVirtual() == NULL && offering_data_ != NULL) delete offering_data_;
-  offering_data_ = NULL;
-}
-const ::proto::PlayerOfferingData& PlayerOfferingRsp::offering_data() const {
-  const ::proto::PlayerOfferingData* p = offering_data_;
-  // @@protoc_insertion_point(field_get:proto.PlayerOfferingRsp.offering_data)
-  return p != NULL ? *p : *reinterpret_cast<const ::proto::PlayerOfferingData*>(
-      &::proto::_PlayerOfferingData_default_instance_);
-}
-::proto::PlayerOfferingData* PlayerOfferingRsp::mutable_offering_data() {
-  
-  if (offering_data_ == NULL) {
-    offering_data_ = new ::proto::PlayerOfferingData;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.PlayerOfferingRsp.offering_data)
-  return offering_data_;
-}
-::proto::PlayerOfferingData* PlayerOfferingRsp::release_offering_data() {
-  // @@protoc_insertion_point(field_release:proto.PlayerOfferingRsp.offering_data)
-  
-  ::proto::PlayerOfferingData* temp = offering_data_;
-  offering_data_ = NULL;
-  return temp;
-}
-void PlayerOfferingRsp::set_allocated_offering_data(::proto::PlayerOfferingData* offering_data) {
-  delete offering_data_;
-  offering_data_ = offering_data;
-  if (offering_data) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.PlayerOfferingRsp.offering_data)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int TakeOfferingLevelRewardReq::kLevelFieldNumber;
-const int TakeOfferingLevelRewardReq::kOfferingIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-TakeOfferingLevelRewardReq::TakeOfferingLevelRewardReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5foffering_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.TakeOfferingLevelRewardReq)
-}
-TakeOfferingLevelRewardReq::TakeOfferingLevelRewardReq(const TakeOfferingLevelRewardReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&level_, &from.level_,
-    static_cast<size_t>(reinterpret_cast<char*>(&offering_id_) -
-    reinterpret_cast<char*>(&level_)) + sizeof(offering_id_));
-  // @@protoc_insertion_point(copy_constructor:proto.TakeOfferingLevelRewardReq)
-}
-
-void TakeOfferingLevelRewardReq::SharedCtor() {
-  ::memset(&level_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&offering_id_) -
-      reinterpret_cast<char*>(&level_)) + sizeof(offering_id_));
-  _cached_size_ = 0;
-}
-
-TakeOfferingLevelRewardReq::~TakeOfferingLevelRewardReq() {
-  // @@protoc_insertion_point(destructor:proto.TakeOfferingLevelRewardReq)
-  SharedDtor();
-}
-
-void TakeOfferingLevelRewardReq::SharedDtor() {
-}
-
-void TakeOfferingLevelRewardReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* TakeOfferingLevelRewardReq::descriptor() {
-  protobuf_cmd_2fcmd_5foffering_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5foffering_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const TakeOfferingLevelRewardReq& TakeOfferingLevelRewardReq::default_instance() {
-  protobuf_cmd_2fcmd_5foffering_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-TakeOfferingLevelRewardReq* TakeOfferingLevelRewardReq::New(::google::protobuf::Arena* arena) const {
-  TakeOfferingLevelRewardReq* n = new TakeOfferingLevelRewardReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void TakeOfferingLevelRewardReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.TakeOfferingLevelRewardReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&level_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&offering_id_) -
-      reinterpret_cast<char*>(&level_)) + sizeof(offering_id_));
-  _internal_metadata_.Clear();
 }
 
 bool TakeOfferingLevelRewardReq::MergePartialFromCodedStream(
@@ -2024,16 +756,18 @@ bool TakeOfferingLevelRewardReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.TakeOfferingLevelRewardReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.TakeOfferingLevelRewardReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -2054,9 +788,9 @@ void TakeOfferingLevelRewardReq::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(8, this->offering_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.TakeOfferingLevelRewardReq)
 }
@@ -2078,9 +812,9 @@ void TakeOfferingLevelRewardReq::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(8, this->offering_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.TakeOfferingLevelRewardReq)
   return target;
@@ -2090,10 +824,10 @@ size_t TakeOfferingLevelRewardReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.TakeOfferingLevelRewardReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 level = 2;
   if (this->level() != 0) {
@@ -2114,184 +848,6 @@ size_t TakeOfferingLevelRewardReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void TakeOfferingLevelRewardReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.TakeOfferingLevelRewardReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const TakeOfferingLevelRewardReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const TakeOfferingLevelRewardReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.TakeOfferingLevelRewardReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.TakeOfferingLevelRewardReq)
-    MergeFrom(*source);
-  }
-}
-
-void TakeOfferingLevelRewardReq::MergeFrom(const TakeOfferingLevelRewardReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.TakeOfferingLevelRewardReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.level() != 0) {
-    set_level(from.level());
-  }
-  if (from.offering_id() != 0) {
-    set_offering_id(from.offering_id());
-  }
-}
-
-void TakeOfferingLevelRewardReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.TakeOfferingLevelRewardReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void TakeOfferingLevelRewardReq::CopyFrom(const TakeOfferingLevelRewardReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.TakeOfferingLevelRewardReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool TakeOfferingLevelRewardReq::IsInitialized() const {
-  return true;
-}
-
-void TakeOfferingLevelRewardReq::Swap(TakeOfferingLevelRewardReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void TakeOfferingLevelRewardReq::InternalSwap(TakeOfferingLevelRewardReq* other) {
-  using std::swap;
-  swap(level_, other->level_);
-  swap(offering_id_, other->offering_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata TakeOfferingLevelRewardReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5foffering_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5foffering_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// TakeOfferingLevelRewardReq
-
-// uint32 level = 2;
-void TakeOfferingLevelRewardReq::clear_level() {
-  level_ = 0u;
-}
-::google::protobuf::uint32 TakeOfferingLevelRewardReq::level() const {
-  // @@protoc_insertion_point(field_get:proto.TakeOfferingLevelRewardReq.level)
-  return level_;
-}
-void TakeOfferingLevelRewardReq::set_level(::google::protobuf::uint32 value) {
-  
-  level_ = value;
-  // @@protoc_insertion_point(field_set:proto.TakeOfferingLevelRewardReq.level)
-}
-
-// uint32 offering_id = 8;
-void TakeOfferingLevelRewardReq::clear_offering_id() {
-  offering_id_ = 0u;
-}
-::google::protobuf::uint32 TakeOfferingLevelRewardReq::offering_id() const {
-  // @@protoc_insertion_point(field_get:proto.TakeOfferingLevelRewardReq.offering_id)
-  return offering_id_;
-}
-void TakeOfferingLevelRewardReq::set_offering_id(::google::protobuf::uint32 value) {
-  
-  offering_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.TakeOfferingLevelRewardReq.offering_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int TakeOfferingLevelRewardRsp::kOfferingIdFieldNumber;
-const int TakeOfferingLevelRewardRsp::kTakeLevelFieldNumber;
-const int TakeOfferingLevelRewardRsp::kRetcodeFieldNumber;
-const int TakeOfferingLevelRewardRsp::kItemListFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-TakeOfferingLevelRewardRsp::TakeOfferingLevelRewardRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5foffering_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.TakeOfferingLevelRewardRsp)
-}
-TakeOfferingLevelRewardRsp::TakeOfferingLevelRewardRsp(const TakeOfferingLevelRewardRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      item_list_(from.item_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&take_level_, &from.take_level_,
-    static_cast<size_t>(reinterpret_cast<char*>(&offering_id_) -
-    reinterpret_cast<char*>(&take_level_)) + sizeof(offering_id_));
-  // @@protoc_insertion_point(copy_constructor:proto.TakeOfferingLevelRewardRsp)
-}
-
-void TakeOfferingLevelRewardRsp::SharedCtor() {
-  ::memset(&take_level_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&offering_id_) -
-      reinterpret_cast<char*>(&take_level_)) + sizeof(offering_id_));
-  _cached_size_ = 0;
-}
-
-TakeOfferingLevelRewardRsp::~TakeOfferingLevelRewardRsp() {
-  // @@protoc_insertion_point(destructor:proto.TakeOfferingLevelRewardRsp)
-  SharedDtor();
-}
-
-void TakeOfferingLevelRewardRsp::SharedDtor() {
-}
-
-void TakeOfferingLevelRewardRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* TakeOfferingLevelRewardRsp::descriptor() {
-  protobuf_cmd_2fcmd_5foffering_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5foffering_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const TakeOfferingLevelRewardRsp& TakeOfferingLevelRewardRsp::default_instance() {
-  protobuf_cmd_2fcmd_5foffering_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-TakeOfferingLevelRewardRsp* TakeOfferingLevelRewardRsp::New(::google::protobuf::Arena* arena) const {
-  TakeOfferingLevelRewardRsp* n = new TakeOfferingLevelRewardRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void TakeOfferingLevelRewardRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.TakeOfferingLevelRewardRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  item_list_.Clear();
-  ::memset(&take_level_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&offering_id_) -
-      reinterpret_cast<char*>(&take_level_)) + sizeof(offering_id_));
-  _internal_metadata_.Clear();
 }
 
 bool TakeOfferingLevelRewardRsp::MergePartialFromCodedStream(
@@ -2364,16 +920,18 @@ bool TakeOfferingLevelRewardRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.TakeOfferingLevelRewardRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.TakeOfferingLevelRewardRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -2406,9 +964,9 @@ void TakeOfferingLevelRewardRsp::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(14, this->offering_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.TakeOfferingLevelRewardRsp)
 }
@@ -2443,9 +1001,9 @@ void TakeOfferingLevelRewardRsp::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(14, this->offering_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.TakeOfferingLevelRewardRsp)
   return target;
@@ -2455,10 +1013,10 @@ size_t TakeOfferingLevelRewardRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.TakeOfferingLevelRewardRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated .proto.ItemParam item_list = 10;
   {
@@ -2499,223 +1057,6 @@ size_t TakeOfferingLevelRewardRsp::ByteSizeLong() const {
   return total_size;
 }
 
-void TakeOfferingLevelRewardRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.TakeOfferingLevelRewardRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const TakeOfferingLevelRewardRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const TakeOfferingLevelRewardRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.TakeOfferingLevelRewardRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.TakeOfferingLevelRewardRsp)
-    MergeFrom(*source);
-  }
-}
-
-void TakeOfferingLevelRewardRsp::MergeFrom(const TakeOfferingLevelRewardRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.TakeOfferingLevelRewardRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  item_list_.MergeFrom(from.item_list_);
-  if (from.take_level() != 0) {
-    set_take_level(from.take_level());
-  }
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-  if (from.offering_id() != 0) {
-    set_offering_id(from.offering_id());
-  }
-}
-
-void TakeOfferingLevelRewardRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.TakeOfferingLevelRewardRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void TakeOfferingLevelRewardRsp::CopyFrom(const TakeOfferingLevelRewardRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.TakeOfferingLevelRewardRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool TakeOfferingLevelRewardRsp::IsInitialized() const {
-  return true;
-}
-
-void TakeOfferingLevelRewardRsp::Swap(TakeOfferingLevelRewardRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void TakeOfferingLevelRewardRsp::InternalSwap(TakeOfferingLevelRewardRsp* other) {
-  using std::swap;
-  item_list_.InternalSwap(&other->item_list_);
-  swap(take_level_, other->take_level_);
-  swap(retcode_, other->retcode_);
-  swap(offering_id_, other->offering_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata TakeOfferingLevelRewardRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5foffering_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5foffering_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// TakeOfferingLevelRewardRsp
-
-// uint32 offering_id = 14;
-void TakeOfferingLevelRewardRsp::clear_offering_id() {
-  offering_id_ = 0u;
-}
-::google::protobuf::uint32 TakeOfferingLevelRewardRsp::offering_id() const {
-  // @@protoc_insertion_point(field_get:proto.TakeOfferingLevelRewardRsp.offering_id)
-  return offering_id_;
-}
-void TakeOfferingLevelRewardRsp::set_offering_id(::google::protobuf::uint32 value) {
-  
-  offering_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.TakeOfferingLevelRewardRsp.offering_id)
-}
-
-// uint32 take_level = 1;
-void TakeOfferingLevelRewardRsp::clear_take_level() {
-  take_level_ = 0u;
-}
-::google::protobuf::uint32 TakeOfferingLevelRewardRsp::take_level() const {
-  // @@protoc_insertion_point(field_get:proto.TakeOfferingLevelRewardRsp.take_level)
-  return take_level_;
-}
-void TakeOfferingLevelRewardRsp::set_take_level(::google::protobuf::uint32 value) {
-  
-  take_level_ = value;
-  // @@protoc_insertion_point(field_set:proto.TakeOfferingLevelRewardRsp.take_level)
-}
-
-// int32 retcode = 7;
-void TakeOfferingLevelRewardRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 TakeOfferingLevelRewardRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.TakeOfferingLevelRewardRsp.retcode)
-  return retcode_;
-}
-void TakeOfferingLevelRewardRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.TakeOfferingLevelRewardRsp.retcode)
-}
-
-// repeated .proto.ItemParam item_list = 10;
-int TakeOfferingLevelRewardRsp::item_list_size() const {
-  return item_list_.size();
-}
-void TakeOfferingLevelRewardRsp::clear_item_list() {
-  item_list_.Clear();
-}
-const ::proto::ItemParam& TakeOfferingLevelRewardRsp::item_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.TakeOfferingLevelRewardRsp.item_list)
-  return item_list_.Get(index);
-}
-::proto::ItemParam* TakeOfferingLevelRewardRsp::mutable_item_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.TakeOfferingLevelRewardRsp.item_list)
-  return item_list_.Mutable(index);
-}
-::proto::ItemParam* TakeOfferingLevelRewardRsp::add_item_list() {
-  // @@protoc_insertion_point(field_add:proto.TakeOfferingLevelRewardRsp.item_list)
-  return item_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::ItemParam >*
-TakeOfferingLevelRewardRsp::mutable_item_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.TakeOfferingLevelRewardRsp.item_list)
-  return &item_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::ItemParam >&
-TakeOfferingLevelRewardRsp::item_list() const {
-  // @@protoc_insertion_point(field_list:proto.TakeOfferingLevelRewardRsp.item_list)
-  return item_list_;
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int OfferingInteractReq::kOfferingIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-OfferingInteractReq::OfferingInteractReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5foffering_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.OfferingInteractReq)
-}
-OfferingInteractReq::OfferingInteractReq(const OfferingInteractReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  offering_id_ = from.offering_id_;
-  // @@protoc_insertion_point(copy_constructor:proto.OfferingInteractReq)
-}
-
-void OfferingInteractReq::SharedCtor() {
-  offering_id_ = 0u;
-  _cached_size_ = 0;
-}
-
-OfferingInteractReq::~OfferingInteractReq() {
-  // @@protoc_insertion_point(destructor:proto.OfferingInteractReq)
-  SharedDtor();
-}
-
-void OfferingInteractReq::SharedDtor() {
-}
-
-void OfferingInteractReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* OfferingInteractReq::descriptor() {
-  protobuf_cmd_2fcmd_5foffering_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5foffering_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const OfferingInteractReq& OfferingInteractReq::default_instance() {
-  protobuf_cmd_2fcmd_5foffering_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-OfferingInteractReq* OfferingInteractReq::New(::google::protobuf::Arena* arena) const {
-  OfferingInteractReq* n = new OfferingInteractReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void OfferingInteractReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.OfferingInteractReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  offering_id_ = 0u;
-  _internal_metadata_.Clear();
-}
-
 bool OfferingInteractReq::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -2746,16 +1087,18 @@ bool OfferingInteractReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.OfferingInteractReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.OfferingInteractReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -2771,9 +1114,9 @@ void OfferingInteractReq::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(11, this->offering_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.OfferingInteractReq)
 }
@@ -2790,9 +1133,9 @@ void OfferingInteractReq::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(11, this->offering_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.OfferingInteractReq)
   return target;
@@ -2802,10 +1145,10 @@ size_t OfferingInteractReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.OfferingInteractReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 offering_id = 11;
   if (this->offering_id() != 0) {
@@ -2819,168 +1162,6 @@ size_t OfferingInteractReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void OfferingInteractReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.OfferingInteractReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const OfferingInteractReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const OfferingInteractReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.OfferingInteractReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.OfferingInteractReq)
-    MergeFrom(*source);
-  }
-}
-
-void OfferingInteractReq::MergeFrom(const OfferingInteractReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.OfferingInteractReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.offering_id() != 0) {
-    set_offering_id(from.offering_id());
-  }
-}
-
-void OfferingInteractReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.OfferingInteractReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void OfferingInteractReq::CopyFrom(const OfferingInteractReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.OfferingInteractReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool OfferingInteractReq::IsInitialized() const {
-  return true;
-}
-
-void OfferingInteractReq::Swap(OfferingInteractReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void OfferingInteractReq::InternalSwap(OfferingInteractReq* other) {
-  using std::swap;
-  swap(offering_id_, other->offering_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata OfferingInteractReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5foffering_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5foffering_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// OfferingInteractReq
-
-// uint32 offering_id = 11;
-void OfferingInteractReq::clear_offering_id() {
-  offering_id_ = 0u;
-}
-::google::protobuf::uint32 OfferingInteractReq::offering_id() const {
-  // @@protoc_insertion_point(field_get:proto.OfferingInteractReq.offering_id)
-  return offering_id_;
-}
-void OfferingInteractReq::set_offering_id(::google::protobuf::uint32 value) {
-  
-  offering_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.OfferingInteractReq.offering_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int OfferingInteractRsp::kOfferingDataFieldNumber;
-const int OfferingInteractRsp::kRetcodeFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-OfferingInteractRsp::OfferingInteractRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5foffering_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.OfferingInteractRsp)
-}
-OfferingInteractRsp::OfferingInteractRsp(const OfferingInteractRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  if (from.has_offering_data()) {
-    offering_data_ = new ::proto::PlayerOfferingData(*from.offering_data_);
-  } else {
-    offering_data_ = NULL;
-  }
-  retcode_ = from.retcode_;
-  // @@protoc_insertion_point(copy_constructor:proto.OfferingInteractRsp)
-}
-
-void OfferingInteractRsp::SharedCtor() {
-  ::memset(&offering_data_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&retcode_) -
-      reinterpret_cast<char*>(&offering_data_)) + sizeof(retcode_));
-  _cached_size_ = 0;
-}
-
-OfferingInteractRsp::~OfferingInteractRsp() {
-  // @@protoc_insertion_point(destructor:proto.OfferingInteractRsp)
-  SharedDtor();
-}
-
-void OfferingInteractRsp::SharedDtor() {
-  if (this != internal_default_instance()) delete offering_data_;
-}
-
-void OfferingInteractRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* OfferingInteractRsp::descriptor() {
-  protobuf_cmd_2fcmd_5foffering_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5foffering_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const OfferingInteractRsp& OfferingInteractRsp::default_instance() {
-  protobuf_cmd_2fcmd_5foffering_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-OfferingInteractRsp* OfferingInteractRsp::New(::google::protobuf::Arena* arena) const {
-  OfferingInteractRsp* n = new OfferingInteractRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void OfferingInteractRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.OfferingInteractRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  if (GetArenaNoVirtual() == NULL && offering_data_ != NULL) {
-    delete offering_data_;
-  }
-  offering_data_ = NULL;
-  retcode_ = 0;
-  _internal_metadata_.Clear();
 }
 
 bool OfferingInteractRsp::MergePartialFromCodedStream(
@@ -3025,16 +1206,18 @@ bool OfferingInteractRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.OfferingInteractRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.OfferingInteractRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -3056,9 +1239,9 @@ void OfferingInteractRsp::SerializeWithCachedSizes(
       14, *this->offering_data_, output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.OfferingInteractRsp)
 }
@@ -3082,9 +1265,9 @@ void OfferingInteractRsp::SerializeWithCachedSizes(
         14, *this->offering_data_, deterministic, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.OfferingInteractRsp)
   return target;
@@ -3094,10 +1277,10 @@ size_t OfferingInteractRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.OfferingInteractRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // .proto.PlayerOfferingData offering_data = 14;
   if (this->has_offering_data()) {
@@ -3119,130 +1302,6 @@ size_t OfferingInteractRsp::ByteSizeLong() const {
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
 }
-
-void OfferingInteractRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.OfferingInteractRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const OfferingInteractRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const OfferingInteractRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.OfferingInteractRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.OfferingInteractRsp)
-    MergeFrom(*source);
-  }
-}
-
-void OfferingInteractRsp::MergeFrom(const OfferingInteractRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.OfferingInteractRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.has_offering_data()) {
-    mutable_offering_data()->::proto::PlayerOfferingData::MergeFrom(from.offering_data());
-  }
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-}
-
-void OfferingInteractRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.OfferingInteractRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void OfferingInteractRsp::CopyFrom(const OfferingInteractRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.OfferingInteractRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool OfferingInteractRsp::IsInitialized() const {
-  return true;
-}
-
-void OfferingInteractRsp::Swap(OfferingInteractRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void OfferingInteractRsp::InternalSwap(OfferingInteractRsp* other) {
-  using std::swap;
-  swap(offering_data_, other->offering_data_);
-  swap(retcode_, other->retcode_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata OfferingInteractRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5foffering_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5foffering_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// OfferingInteractRsp
-
-// .proto.PlayerOfferingData offering_data = 14;
-bool OfferingInteractRsp::has_offering_data() const {
-  return this != internal_default_instance() && offering_data_ != NULL;
-}
-void OfferingInteractRsp::clear_offering_data() {
-  if (GetArenaNoVirtual() == NULL && offering_data_ != NULL) delete offering_data_;
-  offering_data_ = NULL;
-}
-const ::proto::PlayerOfferingData& OfferingInteractRsp::offering_data() const {
-  const ::proto::PlayerOfferingData* p = offering_data_;
-  // @@protoc_insertion_point(field_get:proto.OfferingInteractRsp.offering_data)
-  return p != NULL ? *p : *reinterpret_cast<const ::proto::PlayerOfferingData*>(
-      &::proto::_PlayerOfferingData_default_instance_);
-}
-::proto::PlayerOfferingData* OfferingInteractRsp::mutable_offering_data() {
-  
-  if (offering_data_ == NULL) {
-    offering_data_ = new ::proto::PlayerOfferingData;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.OfferingInteractRsp.offering_data)
-  return offering_data_;
-}
-::proto::PlayerOfferingData* OfferingInteractRsp::release_offering_data() {
-  // @@protoc_insertion_point(field_release:proto.OfferingInteractRsp.offering_data)
-  
-  ::proto::PlayerOfferingData* temp = offering_data_;
-  offering_data_ = NULL;
-  return temp;
-}
-void OfferingInteractRsp::set_allocated_offering_data(::proto::PlayerOfferingData* offering_data) {
-  delete offering_data_;
-  offering_data_ = offering_data;
-  if (offering_data) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.OfferingInteractRsp.offering_data)
-}
-
-// int32 retcode = 10;
-void OfferingInteractRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 OfferingInteractRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.OfferingInteractRsp.retcode)
-  return retcode_;
-}
-void OfferingInteractRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.OfferingInteractRsp.retcode)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
 
 // @@protoc_insertion_point(namespace_scope)
 

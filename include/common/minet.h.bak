@@ -1,61 +1,158 @@
-#include "proto/packet_head.pb.h"
-#include <string.h>
-#include <vector>
-#include <map>
-#include <atomic>
-#include <thread>
-namespace common {
+#pragma once
 
-  namespace minet {
-      struct KcpSession;
-    struct KcpConnRateLimiter;
-    struct KcpServerMgrBase;
-    enum Status {
-      STATUS_NONE_0 = 0x0,
-      STATUS_INIT_4 = 0x1,
-      STATUS_RUNNING = 0x2,
-      STATUS_STOPPED = 0x3,
-      STATUS_ERROR_2 = 0x4,
-    };
-    struct KcpConnMgrBase{
-      
-      int (**_vptr_KcpConnMgrBase)(...);
-      uint32_t listen_port_;
-      uint32_t recv_buf_len_;
-      uint32_t send_buf_len_;
-      uint32_t timeout_sec_;
-      uint32_t mtu_;
-      uint32_t wnd_size_;
-      uint32_t kcp_log_mask_;
-      std::atomic<double> connect_limit_per_second_per_ip_;
-      std::atomic<unsigned int> max_conn_num_;
-      uint32_t wait_snd_check_interval_;
-      uint32_t wait_snd_max_;
-      std::weak_ptr<KcpServerMgrBase> kcp_server_mgr_wtr_;
-      std::atomic<Status> state_;
-      boost::asio::io_context ioc_;
-      boost::asio::ip::udp::socket udp_socket_;
-      boost::asio::ip::udp::endpoint udp_remote_endpoint_;
-      char udp_data_[1048576];
-      boost::asio::deadline_timer kcp_timer_;
-      std::map<unsigned int,std::shared_ptr<common::minet::KcpSession>,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,std::shared_ptr<common::minet::KcpSession> > > > session_map_;
-      std::thread network_thread_;
-    };
-      typedef std::shared_ptr<google::protobuf::Message> MessagePtr;
-  
-      struct Packet{
-          int (**_vptr_Packet)(...);
-          uint16_t cmd_id;
-          char a1;
-          char a2;
-          char a3;
-          char a4;
-          char a5;
-          char a6;
-          proto::PacketHead head_;
-          std::string recv_str;
-          MessagePtr proto_ptr;
-      };
-  }
+#include <cstdint>
+#include <string>
+#include <memory>
+#include "proto/packet_head.pb.h"
+
+namespace common {
+namespace minet {
+
+class Message; // 前向声明
+using MessagePtr = std::shared_ptr<Message>;
+using ConstMessagePtr = std::shared_ptr<const Message>;
+using ConstMessage = const Message;
+
+class Packet {
+private:
+    uint16_t cmd_id_;
+    proto::PacketHead head_;
+    std::string recv_str_;
+    MessagePtr proto_ptr_;
+
+public:
+    static const uint16_t const_head_magic;
+    static const uint16_t const_tail_magic;
+
+private:
+    static const uint32_t max_parse_fail_log_len;
+
+public:
+    Packet();
+    ~Packet();
+
+    int32_t clear();
+    uint16_t getCmdId() const;
+    uint32_t getBodyLen() const;
+    uint32_t getPacketLen() const;
+    static uint32_t getPacketLen(const char*, uint32_t);
+    int32_t serializeToString(std::string&) const;
+    int32_t serializeToArray(char*, uint32_t) const;
+    int32_t parseFromString(const std::string&);
+    int32_t parseFromArray(const char*, uint32_t);
+    int32_t copyHead(const Packet&);
+    int32_t copyHead(const proto::PacketHead&);
+    int32_t copyHeadAndStr(const Packet&);
+    int32_t setCmdIdAndRecvStr(uint32_t, std::string&&);
+    int32_t clearHeadForClient();
+    int32_t setMessage(uint32_t, ConstMessage&);
+    MessagePtr getProto();
+    int32_t setMessagePtr(uint32_t, ConstMessagePtr);
+    ConstMessagePtr getConstMessage();
+    std::string getHeadDebugString() const;
+    std::string getProtoDebugString() const;
+    static std::string encodeShortStringToBase64(const std::string&);
+    uint32_t getHeadLen() const;
+    uint32_t getSendOffset();
+    uint32_t getThreadOffset();
+    void tamperMessage();
+    const proto::PacketHead& getHead() const;
+    void setHead(const proto::PacketHead&);
+    uint32_t getPacketId() const;
+    void setPacketId(uint32_t);
+    uint32_t getRpcId() const;
+    void setRpcId(uint32_t);
+    uint64_t getClientSequenceId() const;
+    void setClientSequenceId(uint64_t);
+    uint32_t getEnetChannelId() const;
+    void setEnetChannelId(uint32_t);
+    uint32_t getEnetIsReliable() const;
+    void setEnetIsReliable(uint32_t);
+    uint64_t getSentMs() const;
+    void setSentMs(uint64_t);
+    uint32_t getUserId() const;
+    void setUserId(uint32_t);
+    uint32_t getUserIp() const;
+    void setUserIp(uint32_t);
+    uint32_t getUserSessionId() const;
+    void setUserSessionId(uint32_t);
+    uint32_t getHomeUserId() const;
+    void setHomeUserId(uint32_t);
+    uint64_t getRecvTimeMs() const;
+    void setRecvTimeMs(uint64_t);
+    uint32_t getRpcBeginTimeMs() const;
+    void setRpcBeginTimeMs(uint32_t);
+    uint32_t getSenderAppId() const;
+    void setSenderAppId(uint32_t);
+    uint32_t getSenderLoad() const;
+    void setSenderLoad(uint32_t);
+    std::string getSpanContextStr() const;
+    void setSpanContextStr(std::string);
+    void setExt(uint32_t, uint32_t);
+    uint32_t getExt(uint32_t);
+    uint32_t getSourceService() const;
+    void setSourceService(uint32_t);
+    uint32_t getTargetService() const;
+    void setTargetService(uint32_t);
+    void setServiceAppId(uint32_t, uint32_t);
+    uint32_t getServiceAppId(uint32_t);
+    void setSource(uint32_t, uint32_t);
+    uint32_t getSourceAppId();
+    void setTarget(uint32_t, uint32_t);
+    uint32_t getTargetAppId();
+    void setGameThreadIndex(uint32_t);
+    int32_t getGameThreadIndex();
+    void setMultiThreadIndex(uint32_t);
+    int32_t getMultiThreadIndex();
+
+private:
+    const std::string& getRecvStr() const;
+    int32_t doSerializeToArray(char*, uint32_t) const;
+
+public:
+    static bool isPacketBegin(const char*, uint32_t);
+    static uint32_t getMinPacketLen();
+
+    // 模板函数声明
+    template<typename T>
+    std::shared_ptr<const T> getConstProto();
+
+    template<typename T>
+    int32_t setProto(const T& proto);
+
+    template<typename T>
+    std::shared_ptr<T> getProto();
+
+    template<typename T>
+    int32_t getProto(T& proto);
+};
+
+// 模板函数实现（必须在头文件中）
+template<typename T>
+std::shared_ptr<const T> Packet::getConstProto() {
+    return std::static_pointer_cast<const T>(proto_ptr_);
 }
 
+template<typename T>
+int32_t Packet::setProto(const T& proto) {
+    // 实际实现根据项目需求
+    proto_ptr_ = std::make_shared<T>(proto);
+    return 0;
+}
+
+template<typename T>
+std::shared_ptr<T> Packet::getProto() {
+    return std::dynamic_pointer_cast<T>(proto_ptr_);
+}
+
+template<typename T>
+int32_t Packet::getProto(T& proto) {
+    if (auto p = std::dynamic_pointer_cast<T>(proto_ptr_)) {
+        proto = *p;
+        return 0;
+    }
+    return -1;
+}
+
+} // namespace minet
+} // namespace common

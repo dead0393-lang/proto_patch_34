@@ -89,755 +89,6 @@ public:
      _instance;
 } _BatchBuyGoodsRsp_default_instance_;
 
-namespace protobuf_cmd_2fcmd_5fshop_2eproto {
-
-
-namespace {
-
-::google::protobuf::Metadata file_level_metadata[14];
-const ::google::protobuf::EnumDescriptor* file_level_enum_descriptors[11];
-
-}  // namespace
-
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::ParseTableField
-    const TableStruct::entries[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  {0, 0, 0, ::google::protobuf::internal::kInvalidMask, 0, 0},
-};
-
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::AuxillaryParseTableField
-    const TableStruct::aux[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  ::google::protobuf::internal::AuxillaryParseTableField(),
-};
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::ParseTable const
-    TableStruct::schema[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-};
-
-const ::google::protobuf::uint32 TableStruct::offsets[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ShopGoods, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ShopGoods, discount_end_time_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ShopGoods, min_level_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ShopGoods, end_time_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ShopGoods, cost_item_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ShopGoods, secondary_sheet_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ShopGoods, hcoin_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ShopGoods, mcoin_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ShopGoods, discount_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ShopGoods, single_limit_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ShopGoods, goods_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ShopGoods, next_refresh_time_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ShopGoods, max_level_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ShopGoods, disable_type_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ShopGoods, discount_begin_time_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ShopGoods, pre_goods_id_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ShopGoods, begin_time_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ShopGoods, scoin_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ShopGoods, bought_num_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ShopGoods, buy_limit_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ShopGoods, goods_item_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Shop, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Shop, concert_product_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Shop, goods_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Shop, city_reputation_level_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Shop, card_product_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Shop, mcoin_product_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Shop, next_refresh_time_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Shop, city_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Shop, shop_type_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GetShopReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GetShopReq, shop_type_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GetShopRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GetShopRsp, shop_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GetShopRsp, retcode_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(BuyGoodsReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(BuyGoodsReq, buy_count_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(BuyGoodsReq, goods_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(BuyGoodsReq, shop_type_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(BuyGoodsRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(BuyGoodsRsp, buy_count_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(BuyGoodsRsp, goods_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(BuyGoodsRsp, shop_type_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(BuyGoodsRsp, retcode_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(BuyGoodsRsp, goods_list_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GetShopmallDataReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GetShopmallDataRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GetShopmallDataRsp, shop_type_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GetShopmallDataRsp, retcode_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ActivityShopSheetInfo, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ActivityShopSheetInfo, end_time_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ActivityShopSheetInfo, begin_time_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ActivityShopSheetInfo, sheet_id_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GetActivityShopSheetInfoReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GetActivityShopSheetInfoReq, shop_type_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GetActivityShopSheetInfoRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GetActivityShopSheetInfoRsp, sheet_info_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GetActivityShopSheetInfoRsp, shop_type_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GetActivityShopSheetInfoRsp, retcode_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(BuyGoodsParam, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(BuyGoodsParam, buy_count_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(BuyGoodsParam, goods_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(BatchBuyGoodsReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(BatchBuyGoodsReq, shop_type_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(BatchBuyGoodsReq, buy_goods_list_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(BatchBuyGoodsRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(BatchBuyGoodsRsp, goods_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(BatchBuyGoodsRsp, retcode_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(BatchBuyGoodsRsp, buy_goods_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(BatchBuyGoodsRsp, shop_type_),
-};
-static const ::google::protobuf::internal::MigrationSchema schemas[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  { 0, -1, sizeof(ShopGoods)},
-  { 25, -1, sizeof(Shop)},
-  { 38, -1, sizeof(GetShopReq)},
-  { 44, -1, sizeof(GetShopRsp)},
-  { 51, -1, sizeof(BuyGoodsReq)},
-  { 59, -1, sizeof(BuyGoodsRsp)},
-  { 69, -1, sizeof(GetShopmallDataReq)},
-  { 74, -1, sizeof(GetShopmallDataRsp)},
-  { 81, -1, sizeof(ActivityShopSheetInfo)},
-  { 89, -1, sizeof(GetActivityShopSheetInfoReq)},
-  { 95, -1, sizeof(GetActivityShopSheetInfoRsp)},
-  { 103, -1, sizeof(BuyGoodsParam)},
-  { 110, -1, sizeof(BatchBuyGoodsReq)},
-  { 117, -1, sizeof(BatchBuyGoodsRsp)},
-};
-
-static ::google::protobuf::Message const * const file_default_instances[] = {
-  reinterpret_cast<const ::google::protobuf::Message*>(&_ShopGoods_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_Shop_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_GetShopReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_GetShopRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_BuyGoodsReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_BuyGoodsRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_GetShopmallDataReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_GetShopmallDataRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_ActivityShopSheetInfo_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_GetActivityShopSheetInfoReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_GetActivityShopSheetInfoRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_BuyGoodsParam_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_BatchBuyGoodsReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_BatchBuyGoodsRsp_default_instance_),
-};
-
-namespace {
-
-void protobuf_AssignDescriptors() {
-  AddDescriptors();
-  ::google::protobuf::MessageFactory* factory = NULL;
-  AssignDescriptors(
-      "cmd/cmd_shop.proto", schemas, file_default_instances, TableStruct::offsets, factory,
-      file_level_metadata, file_level_enum_descriptors, NULL);
-}
-
-void protobuf_AssignDescriptorsOnce() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &protobuf_AssignDescriptors);
-}
-
-void protobuf_RegisterTypes(const ::std::string&) GOOGLE_ATTRIBUTE_COLD;
-void protobuf_RegisterTypes(const ::std::string&) {
-  protobuf_AssignDescriptorsOnce();
-  ::google::protobuf::internal::RegisterAllTypes(file_level_metadata, 14);
-}
-
-}  // namespace
-void TableStruct::InitDefaultsImpl() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
-
-  ::google::protobuf::internal::InitProtobufDefaults();
-  ::proto::protobuf_define_2eproto::InitDefaults();
-  _ShopGoods_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_ShopGoods_default_instance_);_Shop_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_Shop_default_instance_);_GetShopReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_GetShopReq_default_instance_);_GetShopRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_GetShopRsp_default_instance_);_BuyGoodsReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_BuyGoodsReq_default_instance_);_BuyGoodsRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_BuyGoodsRsp_default_instance_);_GetShopmallDataReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_GetShopmallDataReq_default_instance_);_GetShopmallDataRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_GetShopmallDataRsp_default_instance_);_ActivityShopSheetInfo_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_ActivityShopSheetInfo_default_instance_);_GetActivityShopSheetInfoReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_GetActivityShopSheetInfoReq_default_instance_);_GetActivityShopSheetInfoRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_GetActivityShopSheetInfoRsp_default_instance_);_BuyGoodsParam_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_BuyGoodsParam_default_instance_);_BatchBuyGoodsReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_BatchBuyGoodsReq_default_instance_);_BatchBuyGoodsRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_BatchBuyGoodsRsp_default_instance_);_ShopGoods_default_instance_._instance.get_mutable()->goods_item_ = const_cast< ::proto::ItemParam*>(
-      ::proto::ItemParam::internal_default_instance());
-  _GetShopRsp_default_instance_._instance.get_mutable()->shop_ = const_cast< ::proto::Shop*>(
-      ::proto::Shop::internal_default_instance());
-  _BuyGoodsReq_default_instance_._instance.get_mutable()->goods_ = const_cast< ::proto::ShopGoods*>(
-      ::proto::ShopGoods::internal_default_instance());
-  _BuyGoodsRsp_default_instance_._instance.get_mutable()->goods_ = const_cast< ::proto::ShopGoods*>(
-      ::proto::ShopGoods::internal_default_instance());
-  _BuyGoodsParam_default_instance_._instance.get_mutable()->goods_ = const_cast< ::proto::ShopGoods*>(
-      ::proto::ShopGoods::internal_default_instance());
-}
-
-void InitDefaults() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &TableStruct::InitDefaultsImpl);
-}
-namespace {
-void AddDescriptorsImpl() {
-  InitDefaults();
-  static const char descriptor[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-      "\n\022cmd/cmd_shop.proto\022\005proto\032\014define.prot"
-      "o\"\335\003\n\tShopGoods\022\032\n\021discount_end_time\030\217\005 "
-      "\001(\r\022\021\n\tmin_level\030\016 \001(\r\022\020\n\010end_time\030\017 \001(\r"
-      "\022(\n\016cost_item_list\030\007 \003(\0132\020.proto.ItemPar"
-      "am\022\033\n\022secondary_sheet_id\030\353\002 \001(\r\022\r\n\005hcoin"
-      "\030\r \001(\r\022\r\n\005mcoin\030\005 \001(\r\022\024\n\013discount_id\030\266\001 "
-      "\001(\r\022\025\n\014single_limit\030\250\003 \001(\r\022\020\n\010goods_id\030\002"
-      " \001(\r\022\031\n\021next_refresh_time\030\001 \001(\r\022\021\n\tmax_l"
-      "evel\030\003 \001(\r\022\024\n\014disable_type\030\t \001(\r\022\034\n\023disc"
-      "ount_begin_time\030\374\004 \001(\r\022\031\n\021pre_goods_id_l"
-      "ist\030\014 \003(\r\022\022\n\nbegin_time\030\010 \001(\r\022\r\n\005scoin\030\013"
-      " \001(\r\022\022\n\nbought_num\030\004 \001(\r\022\021\n\tbuy_limit\030\n "
-      "\001(\r\022$\n\ngoods_item\030\006 \001(\0132\020.proto.ItemPara"
-      "m\"\253\002\n\004Shop\0227\n\024concert_product_list\030\r \003(\013"
-      "2\031.proto.ShopConcertProduct\022$\n\ngoods_lis"
-      "t\030\017 \003(\0132\020.proto.ShopGoods\022\035\n\025city_reputa"
-      "tion_level\030\004 \001(\r\0221\n\021card_product_list\030\t "
-      "\003(\0132\026.proto.ShopCardProduct\0223\n\022mcoin_pro"
-      "duct_list\030\006 \003(\0132\027.proto.ShopMcoinProduct"
-      "\022\031\n\021next_refresh_time\030\016 \001(\r\022\017\n\007city_id\030\n"
-      " \001(\r\022\021\n\tshop_type\030\005 \001(\r\"\203\001\n\nGetShopReq\022\021"
-      "\n\tshop_type\030\005 \001(\r\"b\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006"
-      "CMD_ID\020\301\005\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_I"
-      "S_RELIABLE\020\001\022\023\n\017IS_ALLOW_CLIENT\020\001\032\002\020\001\"\207\001"
-      "\n\nGetShopRsp\022\031\n\004shop\030\n \001(\0132\013.proto.Shop\022"
-      "\017\n\007retcode\030\r \001(\005\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006C"
-      "MD_ID\020\363\005\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS"
-      "_RELIABLE\020\001\032\002\020\001\"\270\001\n\013BuyGoodsReq\022\021\n\tbuy_c"
-      "ount\030\016 \001(\r\022\037\n\005goods\030\003 \001(\0132\020.proto.ShopGo"
-      "ods\022\021\n\tshop_type\030\005 \001(\r\"b\n\005CmdId\022\010\n\004NONE\020"
-      "\000\022\013\n\006CMD_ID\020\223\006\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020E"
-      "NET_IS_RELIABLE\020\001\022\023\n\017IS_ALLOW_CLIENT\020\001\032\002"
-      "\020\001\"\332\001\n\013BuyGoodsRsp\022\021\n\tbuy_count\030\002 \001(\r\022\037\n"
-      "\005goods\030\001 \001(\0132\020.proto.ShopGoods\022\021\n\tshop_t"
-      "ype\030\016 \001(\r\022\017\n\007retcode\030\005 \001(\005\022$\n\ngoods_list"
-      "\030\007 \003(\0132\020.proto.ShopGoods\"M\n\005CmdId\022\010\n\004NON"
-      "E\020\000\022\013\n\006CMD_ID\020\236\006\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n"
-      "\020ENET_IS_RELIABLE\020\001\032\002\020\001\"x\n\022GetShopmallDa"
-      "taReq\"b\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\320\005\022\023\n"
-      "\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001"
-      "\022\023\n\017IS_ALLOW_CLIENT\020\001\032\002\020\001\"\214\001\n\022GetShopmal"
-      "lDataRsp\022\026\n\016shop_type_list\030\n \003(\r\022\017\n\007retc"
-      "ode\030\003 \001(\005\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\206"
-      "\006\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIAB"
-      "LE\020\001\032\002\020\001\"O\n\025ActivityShopSheetInfo\022\020\n\010end"
-      "_time\030\014 \001(\r\022\022\n\nbegin_time\030\005 \001(\r\022\020\n\010sheet"
-      "_id\030\016 \001(\r\"\224\001\n\033GetActivityShopSheetInfoRe"
-      "q\022\021\n\tshop_type\030\016 \001(\r\"b\n\005CmdId\022\010\n\004NONE\020\000\022"
-      "\013\n\006CMD_ID\020\214\006\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENE"
-      "T_IS_RELIABLE\020\001\022\023\n\017IS_ALLOW_CLIENT\020\001\032\002\020\001"
-      "\"\307\001\n\033GetActivityShopSheetInfoRsp\0225\n\017shee"
-      "t_info_list\030\n \003(\0132\034.proto.ActivityShopSh"
-      "eetInfo\022\021\n\tshop_type\030\007 \001(\r\022\017\n\007retcode\030\005 "
-      "\001(\005\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\202\006\022\023\n\017E"
-      "NET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002"
-      "\020\001\"C\n\rBuyGoodsParam\022\021\n\tbuy_count\030\003 \001(\r\022\037"
-      "\n\005goods\030\010 \001(\0132\020.proto.ShopGoods\"\267\001\n\020Batc"
-      "hBuyGoodsReq\022\021\n\tshop_type\030\003 \001(\r\022,\n\016buy_g"
-      "oods_list\030\005 \003(\0132\024.proto.BuyGoodsParam\"b\n"
-      "\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\372\005\022\023\n\017ENET_CH"
-      "ANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\022\023\n\017IS_A"
-      "LLOW_CLIENT\020\001\032\002\020\001\"\331\001\n\020BatchBuyGoodsRsp\022$"
-      "\n\ngoods_list\030\013 \003(\0132\020.proto.ShopGoods\022\017\n\007"
-      "retcode\030\005 \001(\005\022,\n\016buy_goods_list\030\003 \003(\0132\024."
-      "proto.BuyGoodsParam\022\021\n\tshop_type\030\016 \001(\r\"M"
-      "\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\312\005\022\023\n\017ENET_C"
-      "HANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001*\211\003"
-      "\n\024ShopGoodsDisableType\022\033\n\027SHOP_GOODS_DIS"
-      "ABLE_NONE\020\000\022\"\n\036SHOP_GOODS_DISABLE_TALENT"
-      "_FULL\020\001\0221\n-SHOP_GOODS_DISABLE_FURNITURE_"
-      "FORMULA_UNLOCKED\020\002\022\'\n#SHOP_GOODS_DISABLE"
-      "_COSTUME_UNLOCKED\020\003\022#\n\037SHOP_GOODS_DISABL"
-      "E_BGM_UNLOCKED\020\004\022&\n\"SHOP_GOODS_DISABLE_G"
-      "CG_CARD_EXCEED\020\005\022-\n)SHOP_GOODS_DISABLE_G"
-      "CG_CARD_FACE_UNLOCKED\020\006\022-\n)SHOP_GOODS_DI"
-      "SABLE_GCG_CARD_BACK_UNLOCKED\020\007\022)\n%SHOP_G"
-      "OODS_DISABLE_GCG_FIELD_UNLOCKED\020\010B\nZ\010./;"
-      "protob\006proto3"
-  };
-  ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-      descriptor, 3093);
-  ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
-    "cmd/cmd_shop.proto", &protobuf_RegisterTypes);
-  ::proto::protobuf_define_2eproto::AddDescriptors();
-}
-} // anonymous namespace
-
-void AddDescriptors() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &AddDescriptorsImpl);
-}
-// Force AddDescriptors() to be called at dynamic initialization time.
-struct StaticDescriptorInitializer {
-  StaticDescriptorInitializer() {
-    AddDescriptors();
-  }
-} static_descriptor_initializer;
-
-}  // namespace protobuf_cmd_2fcmd_5fshop_2eproto
-
-const ::google::protobuf::EnumDescriptor* GetShopReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fshop_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fshop_2eproto::file_level_enum_descriptors[0];
-}
-bool GetShopReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 705:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const GetShopReq_CmdId GetShopReq::NONE;
-const GetShopReq_CmdId GetShopReq::CMD_ID;
-const GetShopReq_CmdId GetShopReq::ENET_CHANNEL_ID;
-const GetShopReq_CmdId GetShopReq::ENET_IS_RELIABLE;
-const GetShopReq_CmdId GetShopReq::IS_ALLOW_CLIENT;
-const GetShopReq_CmdId GetShopReq::CmdId_MIN;
-const GetShopReq_CmdId GetShopReq::CmdId_MAX;
-const int GetShopReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* GetShopRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fshop_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fshop_2eproto::file_level_enum_descriptors[1];
-}
-bool GetShopRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 755:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const GetShopRsp_CmdId GetShopRsp::NONE;
-const GetShopRsp_CmdId GetShopRsp::CMD_ID;
-const GetShopRsp_CmdId GetShopRsp::ENET_CHANNEL_ID;
-const GetShopRsp_CmdId GetShopRsp::ENET_IS_RELIABLE;
-const GetShopRsp_CmdId GetShopRsp::CmdId_MIN;
-const GetShopRsp_CmdId GetShopRsp::CmdId_MAX;
-const int GetShopRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* BuyGoodsReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fshop_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fshop_2eproto::file_level_enum_descriptors[2];
-}
-bool BuyGoodsReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 787:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const BuyGoodsReq_CmdId BuyGoodsReq::NONE;
-const BuyGoodsReq_CmdId BuyGoodsReq::CMD_ID;
-const BuyGoodsReq_CmdId BuyGoodsReq::ENET_CHANNEL_ID;
-const BuyGoodsReq_CmdId BuyGoodsReq::ENET_IS_RELIABLE;
-const BuyGoodsReq_CmdId BuyGoodsReq::IS_ALLOW_CLIENT;
-const BuyGoodsReq_CmdId BuyGoodsReq::CmdId_MIN;
-const BuyGoodsReq_CmdId BuyGoodsReq::CmdId_MAX;
-const int BuyGoodsReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* BuyGoodsRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fshop_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fshop_2eproto::file_level_enum_descriptors[3];
-}
-bool BuyGoodsRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 798:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const BuyGoodsRsp_CmdId BuyGoodsRsp::NONE;
-const BuyGoodsRsp_CmdId BuyGoodsRsp::CMD_ID;
-const BuyGoodsRsp_CmdId BuyGoodsRsp::ENET_CHANNEL_ID;
-const BuyGoodsRsp_CmdId BuyGoodsRsp::ENET_IS_RELIABLE;
-const BuyGoodsRsp_CmdId BuyGoodsRsp::CmdId_MIN;
-const BuyGoodsRsp_CmdId BuyGoodsRsp::CmdId_MAX;
-const int BuyGoodsRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* GetShopmallDataReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fshop_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fshop_2eproto::file_level_enum_descriptors[4];
-}
-bool GetShopmallDataReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 720:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const GetShopmallDataReq_CmdId GetShopmallDataReq::NONE;
-const GetShopmallDataReq_CmdId GetShopmallDataReq::CMD_ID;
-const GetShopmallDataReq_CmdId GetShopmallDataReq::ENET_CHANNEL_ID;
-const GetShopmallDataReq_CmdId GetShopmallDataReq::ENET_IS_RELIABLE;
-const GetShopmallDataReq_CmdId GetShopmallDataReq::IS_ALLOW_CLIENT;
-const GetShopmallDataReq_CmdId GetShopmallDataReq::CmdId_MIN;
-const GetShopmallDataReq_CmdId GetShopmallDataReq::CmdId_MAX;
-const int GetShopmallDataReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* GetShopmallDataRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fshop_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fshop_2eproto::file_level_enum_descriptors[5];
-}
-bool GetShopmallDataRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 774:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const GetShopmallDataRsp_CmdId GetShopmallDataRsp::NONE;
-const GetShopmallDataRsp_CmdId GetShopmallDataRsp::CMD_ID;
-const GetShopmallDataRsp_CmdId GetShopmallDataRsp::ENET_CHANNEL_ID;
-const GetShopmallDataRsp_CmdId GetShopmallDataRsp::ENET_IS_RELIABLE;
-const GetShopmallDataRsp_CmdId GetShopmallDataRsp::CmdId_MIN;
-const GetShopmallDataRsp_CmdId GetShopmallDataRsp::CmdId_MAX;
-const int GetShopmallDataRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* GetActivityShopSheetInfoReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fshop_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fshop_2eproto::file_level_enum_descriptors[6];
-}
-bool GetActivityShopSheetInfoReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 780:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const GetActivityShopSheetInfoReq_CmdId GetActivityShopSheetInfoReq::NONE;
-const GetActivityShopSheetInfoReq_CmdId GetActivityShopSheetInfoReq::CMD_ID;
-const GetActivityShopSheetInfoReq_CmdId GetActivityShopSheetInfoReq::ENET_CHANNEL_ID;
-const GetActivityShopSheetInfoReq_CmdId GetActivityShopSheetInfoReq::ENET_IS_RELIABLE;
-const GetActivityShopSheetInfoReq_CmdId GetActivityShopSheetInfoReq::IS_ALLOW_CLIENT;
-const GetActivityShopSheetInfoReq_CmdId GetActivityShopSheetInfoReq::CmdId_MIN;
-const GetActivityShopSheetInfoReq_CmdId GetActivityShopSheetInfoReq::CmdId_MAX;
-const int GetActivityShopSheetInfoReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* GetActivityShopSheetInfoRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fshop_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fshop_2eproto::file_level_enum_descriptors[7];
-}
-bool GetActivityShopSheetInfoRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 770:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const GetActivityShopSheetInfoRsp_CmdId GetActivityShopSheetInfoRsp::NONE;
-const GetActivityShopSheetInfoRsp_CmdId GetActivityShopSheetInfoRsp::CMD_ID;
-const GetActivityShopSheetInfoRsp_CmdId GetActivityShopSheetInfoRsp::ENET_CHANNEL_ID;
-const GetActivityShopSheetInfoRsp_CmdId GetActivityShopSheetInfoRsp::ENET_IS_RELIABLE;
-const GetActivityShopSheetInfoRsp_CmdId GetActivityShopSheetInfoRsp::CmdId_MIN;
-const GetActivityShopSheetInfoRsp_CmdId GetActivityShopSheetInfoRsp::CmdId_MAX;
-const int GetActivityShopSheetInfoRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* BatchBuyGoodsReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fshop_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fshop_2eproto::file_level_enum_descriptors[8];
-}
-bool BatchBuyGoodsReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 762:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const BatchBuyGoodsReq_CmdId BatchBuyGoodsReq::NONE;
-const BatchBuyGoodsReq_CmdId BatchBuyGoodsReq::CMD_ID;
-const BatchBuyGoodsReq_CmdId BatchBuyGoodsReq::ENET_CHANNEL_ID;
-const BatchBuyGoodsReq_CmdId BatchBuyGoodsReq::ENET_IS_RELIABLE;
-const BatchBuyGoodsReq_CmdId BatchBuyGoodsReq::IS_ALLOW_CLIENT;
-const BatchBuyGoodsReq_CmdId BatchBuyGoodsReq::CmdId_MIN;
-const BatchBuyGoodsReq_CmdId BatchBuyGoodsReq::CmdId_MAX;
-const int BatchBuyGoodsReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* BatchBuyGoodsRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fshop_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fshop_2eproto::file_level_enum_descriptors[9];
-}
-bool BatchBuyGoodsRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 714:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const BatchBuyGoodsRsp_CmdId BatchBuyGoodsRsp::NONE;
-const BatchBuyGoodsRsp_CmdId BatchBuyGoodsRsp::CMD_ID;
-const BatchBuyGoodsRsp_CmdId BatchBuyGoodsRsp::ENET_CHANNEL_ID;
-const BatchBuyGoodsRsp_CmdId BatchBuyGoodsRsp::ENET_IS_RELIABLE;
-const BatchBuyGoodsRsp_CmdId BatchBuyGoodsRsp::CmdId_MIN;
-const BatchBuyGoodsRsp_CmdId BatchBuyGoodsRsp::CmdId_MAX;
-const int BatchBuyGoodsRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* ShopGoodsDisableType_descriptor() {
-  protobuf_cmd_2fcmd_5fshop_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fshop_2eproto::file_level_enum_descriptors[10];
-}
-bool ShopGoodsDisableType_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 2:
-    case 3:
-    case 4:
-    case 5:
-    case 6:
-    case 7:
-    case 8:
-      return true;
-    default:
-      return false;
-  }
-}
-
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int ShopGoods::kDiscountEndTimeFieldNumber;
-const int ShopGoods::kMinLevelFieldNumber;
-const int ShopGoods::kEndTimeFieldNumber;
-const int ShopGoods::kCostItemListFieldNumber;
-const int ShopGoods::kSecondarySheetIdFieldNumber;
-const int ShopGoods::kHcoinFieldNumber;
-const int ShopGoods::kMcoinFieldNumber;
-const int ShopGoods::kDiscountIdFieldNumber;
-const int ShopGoods::kSingleLimitFieldNumber;
-const int ShopGoods::kGoodsIdFieldNumber;
-const int ShopGoods::kNextRefreshTimeFieldNumber;
-const int ShopGoods::kMaxLevelFieldNumber;
-const int ShopGoods::kDisableTypeFieldNumber;
-const int ShopGoods::kDiscountBeginTimeFieldNumber;
-const int ShopGoods::kPreGoodsIdListFieldNumber;
-const int ShopGoods::kBeginTimeFieldNumber;
-const int ShopGoods::kScoinFieldNumber;
-const int ShopGoods::kBoughtNumFieldNumber;
-const int ShopGoods::kBuyLimitFieldNumber;
-const int ShopGoods::kGoodsItemFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-ShopGoods::ShopGoods()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fshop_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.ShopGoods)
-}
-ShopGoods::ShopGoods(const ShopGoods& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      cost_item_list_(from.cost_item_list_),
-      pre_goods_id_list_(from.pre_goods_id_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  if (from.has_goods_item()) {
-    goods_item_ = new ::proto::ItemParam(*from.goods_item_);
-  } else {
-    goods_item_ = NULL;
-  }
-  ::memcpy(&next_refresh_time_, &from.next_refresh_time_,
-    static_cast<size_t>(reinterpret_cast<char*>(&discount_begin_time_) -
-    reinterpret_cast<char*>(&next_refresh_time_)) + sizeof(discount_begin_time_));
-  // @@protoc_insertion_point(copy_constructor:proto.ShopGoods)
-}
-
-void ShopGoods::SharedCtor() {
-  ::memset(&goods_item_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&discount_begin_time_) -
-      reinterpret_cast<char*>(&goods_item_)) + sizeof(discount_begin_time_));
-  _cached_size_ = 0;
-}
-
-ShopGoods::~ShopGoods() {
-  // @@protoc_insertion_point(destructor:proto.ShopGoods)
-  SharedDtor();
-}
-
-void ShopGoods::SharedDtor() {
-  if (this != internal_default_instance()) delete goods_item_;
-}
-
-void ShopGoods::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* ShopGoods::descriptor() {
-  protobuf_cmd_2fcmd_5fshop_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fshop_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const ShopGoods& ShopGoods::default_instance() {
-  protobuf_cmd_2fcmd_5fshop_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-ShopGoods* ShopGoods::New(::google::protobuf::Arena* arena) const {
-  ShopGoods* n = new ShopGoods;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void ShopGoods::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.ShopGoods)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  cost_item_list_.Clear();
-  pre_goods_id_list_.Clear();
-  if (GetArenaNoVirtual() == NULL && goods_item_ != NULL) {
-    delete goods_item_;
-  }
-  goods_item_ = NULL;
-  ::memset(&next_refresh_time_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&discount_begin_time_) -
-      reinterpret_cast<char*>(&next_refresh_time_)) + sizeof(discount_begin_time_));
-  _internal_metadata_.Clear();
-}
-
 bool ShopGoods::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -1135,16 +386,18 @@ bool ShopGoods::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.ShopGoods)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.ShopGoods)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -1264,9 +517,9 @@ void ShopGoods::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(655, this->discount_end_time(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.ShopGoods)
 }
@@ -1391,9 +644,9 @@ void ShopGoods::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(655, this->discount_end_time(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.ShopGoods)
   return target;
@@ -1403,10 +656,10 @@ size_t ShopGoods::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.ShopGoods)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated .proto.ItemParam cost_item_list = 7;
   {
@@ -1568,572 +821,6 @@ size_t ShopGoods::ByteSizeLong() const {
   return total_size;
 }
 
-void ShopGoods::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.ShopGoods)
-  GOOGLE_DCHECK_NE(&from, this);
-  const ShopGoods* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const ShopGoods>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.ShopGoods)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.ShopGoods)
-    MergeFrom(*source);
-  }
-}
-
-void ShopGoods::MergeFrom(const ShopGoods& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.ShopGoods)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  cost_item_list_.MergeFrom(from.cost_item_list_);
-  pre_goods_id_list_.MergeFrom(from.pre_goods_id_list_);
-  if (from.has_goods_item()) {
-    mutable_goods_item()->::proto::ItemParam::MergeFrom(from.goods_item());
-  }
-  if (from.next_refresh_time() != 0) {
-    set_next_refresh_time(from.next_refresh_time());
-  }
-  if (from.goods_id() != 0) {
-    set_goods_id(from.goods_id());
-  }
-  if (from.max_level() != 0) {
-    set_max_level(from.max_level());
-  }
-  if (from.bought_num() != 0) {
-    set_bought_num(from.bought_num());
-  }
-  if (from.mcoin() != 0) {
-    set_mcoin(from.mcoin());
-  }
-  if (from.begin_time() != 0) {
-    set_begin_time(from.begin_time());
-  }
-  if (from.disable_type() != 0) {
-    set_disable_type(from.disable_type());
-  }
-  if (from.buy_limit() != 0) {
-    set_buy_limit(from.buy_limit());
-  }
-  if (from.scoin() != 0) {
-    set_scoin(from.scoin());
-  }
-  if (from.hcoin() != 0) {
-    set_hcoin(from.hcoin());
-  }
-  if (from.min_level() != 0) {
-    set_min_level(from.min_level());
-  }
-  if (from.end_time() != 0) {
-    set_end_time(from.end_time());
-  }
-  if (from.discount_end_time() != 0) {
-    set_discount_end_time(from.discount_end_time());
-  }
-  if (from.discount_id() != 0) {
-    set_discount_id(from.discount_id());
-  }
-  if (from.secondary_sheet_id() != 0) {
-    set_secondary_sheet_id(from.secondary_sheet_id());
-  }
-  if (from.single_limit() != 0) {
-    set_single_limit(from.single_limit());
-  }
-  if (from.discount_begin_time() != 0) {
-    set_discount_begin_time(from.discount_begin_time());
-  }
-}
-
-void ShopGoods::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.ShopGoods)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void ShopGoods::CopyFrom(const ShopGoods& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.ShopGoods)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool ShopGoods::IsInitialized() const {
-  return true;
-}
-
-void ShopGoods::Swap(ShopGoods* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void ShopGoods::InternalSwap(ShopGoods* other) {
-  using std::swap;
-  cost_item_list_.InternalSwap(&other->cost_item_list_);
-  pre_goods_id_list_.InternalSwap(&other->pre_goods_id_list_);
-  swap(goods_item_, other->goods_item_);
-  swap(next_refresh_time_, other->next_refresh_time_);
-  swap(goods_id_, other->goods_id_);
-  swap(max_level_, other->max_level_);
-  swap(bought_num_, other->bought_num_);
-  swap(mcoin_, other->mcoin_);
-  swap(begin_time_, other->begin_time_);
-  swap(disable_type_, other->disable_type_);
-  swap(buy_limit_, other->buy_limit_);
-  swap(scoin_, other->scoin_);
-  swap(hcoin_, other->hcoin_);
-  swap(min_level_, other->min_level_);
-  swap(end_time_, other->end_time_);
-  swap(discount_end_time_, other->discount_end_time_);
-  swap(discount_id_, other->discount_id_);
-  swap(secondary_sheet_id_, other->secondary_sheet_id_);
-  swap(single_limit_, other->single_limit_);
-  swap(discount_begin_time_, other->discount_begin_time_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata ShopGoods::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fshop_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fshop_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// ShopGoods
-
-// uint32 discount_end_time = 655;
-void ShopGoods::clear_discount_end_time() {
-  discount_end_time_ = 0u;
-}
-::google::protobuf::uint32 ShopGoods::discount_end_time() const {
-  // @@protoc_insertion_point(field_get:proto.ShopGoods.discount_end_time)
-  return discount_end_time_;
-}
-void ShopGoods::set_discount_end_time(::google::protobuf::uint32 value) {
-  
-  discount_end_time_ = value;
-  // @@protoc_insertion_point(field_set:proto.ShopGoods.discount_end_time)
-}
-
-// uint32 min_level = 14;
-void ShopGoods::clear_min_level() {
-  min_level_ = 0u;
-}
-::google::protobuf::uint32 ShopGoods::min_level() const {
-  // @@protoc_insertion_point(field_get:proto.ShopGoods.min_level)
-  return min_level_;
-}
-void ShopGoods::set_min_level(::google::protobuf::uint32 value) {
-  
-  min_level_ = value;
-  // @@protoc_insertion_point(field_set:proto.ShopGoods.min_level)
-}
-
-// uint32 end_time = 15;
-void ShopGoods::clear_end_time() {
-  end_time_ = 0u;
-}
-::google::protobuf::uint32 ShopGoods::end_time() const {
-  // @@protoc_insertion_point(field_get:proto.ShopGoods.end_time)
-  return end_time_;
-}
-void ShopGoods::set_end_time(::google::protobuf::uint32 value) {
-  
-  end_time_ = value;
-  // @@protoc_insertion_point(field_set:proto.ShopGoods.end_time)
-}
-
-// repeated .proto.ItemParam cost_item_list = 7;
-int ShopGoods::cost_item_list_size() const {
-  return cost_item_list_.size();
-}
-void ShopGoods::clear_cost_item_list() {
-  cost_item_list_.Clear();
-}
-const ::proto::ItemParam& ShopGoods::cost_item_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.ShopGoods.cost_item_list)
-  return cost_item_list_.Get(index);
-}
-::proto::ItemParam* ShopGoods::mutable_cost_item_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.ShopGoods.cost_item_list)
-  return cost_item_list_.Mutable(index);
-}
-::proto::ItemParam* ShopGoods::add_cost_item_list() {
-  // @@protoc_insertion_point(field_add:proto.ShopGoods.cost_item_list)
-  return cost_item_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::ItemParam >*
-ShopGoods::mutable_cost_item_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.ShopGoods.cost_item_list)
-  return &cost_item_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::ItemParam >&
-ShopGoods::cost_item_list() const {
-  // @@protoc_insertion_point(field_list:proto.ShopGoods.cost_item_list)
-  return cost_item_list_;
-}
-
-// uint32 secondary_sheet_id = 363;
-void ShopGoods::clear_secondary_sheet_id() {
-  secondary_sheet_id_ = 0u;
-}
-::google::protobuf::uint32 ShopGoods::secondary_sheet_id() const {
-  // @@protoc_insertion_point(field_get:proto.ShopGoods.secondary_sheet_id)
-  return secondary_sheet_id_;
-}
-void ShopGoods::set_secondary_sheet_id(::google::protobuf::uint32 value) {
-  
-  secondary_sheet_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.ShopGoods.secondary_sheet_id)
-}
-
-// uint32 hcoin = 13;
-void ShopGoods::clear_hcoin() {
-  hcoin_ = 0u;
-}
-::google::protobuf::uint32 ShopGoods::hcoin() const {
-  // @@protoc_insertion_point(field_get:proto.ShopGoods.hcoin)
-  return hcoin_;
-}
-void ShopGoods::set_hcoin(::google::protobuf::uint32 value) {
-  
-  hcoin_ = value;
-  // @@protoc_insertion_point(field_set:proto.ShopGoods.hcoin)
-}
-
-// uint32 mcoin = 5;
-void ShopGoods::clear_mcoin() {
-  mcoin_ = 0u;
-}
-::google::protobuf::uint32 ShopGoods::mcoin() const {
-  // @@protoc_insertion_point(field_get:proto.ShopGoods.mcoin)
-  return mcoin_;
-}
-void ShopGoods::set_mcoin(::google::protobuf::uint32 value) {
-  
-  mcoin_ = value;
-  // @@protoc_insertion_point(field_set:proto.ShopGoods.mcoin)
-}
-
-// uint32 discount_id = 182;
-void ShopGoods::clear_discount_id() {
-  discount_id_ = 0u;
-}
-::google::protobuf::uint32 ShopGoods::discount_id() const {
-  // @@protoc_insertion_point(field_get:proto.ShopGoods.discount_id)
-  return discount_id_;
-}
-void ShopGoods::set_discount_id(::google::protobuf::uint32 value) {
-  
-  discount_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.ShopGoods.discount_id)
-}
-
-// uint32 single_limit = 424;
-void ShopGoods::clear_single_limit() {
-  single_limit_ = 0u;
-}
-::google::protobuf::uint32 ShopGoods::single_limit() const {
-  // @@protoc_insertion_point(field_get:proto.ShopGoods.single_limit)
-  return single_limit_;
-}
-void ShopGoods::set_single_limit(::google::protobuf::uint32 value) {
-  
-  single_limit_ = value;
-  // @@protoc_insertion_point(field_set:proto.ShopGoods.single_limit)
-}
-
-// uint32 goods_id = 2;
-void ShopGoods::clear_goods_id() {
-  goods_id_ = 0u;
-}
-::google::protobuf::uint32 ShopGoods::goods_id() const {
-  // @@protoc_insertion_point(field_get:proto.ShopGoods.goods_id)
-  return goods_id_;
-}
-void ShopGoods::set_goods_id(::google::protobuf::uint32 value) {
-  
-  goods_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.ShopGoods.goods_id)
-}
-
-// uint32 next_refresh_time = 1;
-void ShopGoods::clear_next_refresh_time() {
-  next_refresh_time_ = 0u;
-}
-::google::protobuf::uint32 ShopGoods::next_refresh_time() const {
-  // @@protoc_insertion_point(field_get:proto.ShopGoods.next_refresh_time)
-  return next_refresh_time_;
-}
-void ShopGoods::set_next_refresh_time(::google::protobuf::uint32 value) {
-  
-  next_refresh_time_ = value;
-  // @@protoc_insertion_point(field_set:proto.ShopGoods.next_refresh_time)
-}
-
-// uint32 max_level = 3;
-void ShopGoods::clear_max_level() {
-  max_level_ = 0u;
-}
-::google::protobuf::uint32 ShopGoods::max_level() const {
-  // @@protoc_insertion_point(field_get:proto.ShopGoods.max_level)
-  return max_level_;
-}
-void ShopGoods::set_max_level(::google::protobuf::uint32 value) {
-  
-  max_level_ = value;
-  // @@protoc_insertion_point(field_set:proto.ShopGoods.max_level)
-}
-
-// uint32 disable_type = 9;
-void ShopGoods::clear_disable_type() {
-  disable_type_ = 0u;
-}
-::google::protobuf::uint32 ShopGoods::disable_type() const {
-  // @@protoc_insertion_point(field_get:proto.ShopGoods.disable_type)
-  return disable_type_;
-}
-void ShopGoods::set_disable_type(::google::protobuf::uint32 value) {
-  
-  disable_type_ = value;
-  // @@protoc_insertion_point(field_set:proto.ShopGoods.disable_type)
-}
-
-// uint32 discount_begin_time = 636;
-void ShopGoods::clear_discount_begin_time() {
-  discount_begin_time_ = 0u;
-}
-::google::protobuf::uint32 ShopGoods::discount_begin_time() const {
-  // @@protoc_insertion_point(field_get:proto.ShopGoods.discount_begin_time)
-  return discount_begin_time_;
-}
-void ShopGoods::set_discount_begin_time(::google::protobuf::uint32 value) {
-  
-  discount_begin_time_ = value;
-  // @@protoc_insertion_point(field_set:proto.ShopGoods.discount_begin_time)
-}
-
-// repeated uint32 pre_goods_id_list = 12;
-int ShopGoods::pre_goods_id_list_size() const {
-  return pre_goods_id_list_.size();
-}
-void ShopGoods::clear_pre_goods_id_list() {
-  pre_goods_id_list_.Clear();
-}
-::google::protobuf::uint32 ShopGoods::pre_goods_id_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.ShopGoods.pre_goods_id_list)
-  return pre_goods_id_list_.Get(index);
-}
-void ShopGoods::set_pre_goods_id_list(int index, ::google::protobuf::uint32 value) {
-  pre_goods_id_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.ShopGoods.pre_goods_id_list)
-}
-void ShopGoods::add_pre_goods_id_list(::google::protobuf::uint32 value) {
-  pre_goods_id_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.ShopGoods.pre_goods_id_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint32 >&
-ShopGoods::pre_goods_id_list() const {
-  // @@protoc_insertion_point(field_list:proto.ShopGoods.pre_goods_id_list)
-  return pre_goods_id_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint32 >*
-ShopGoods::mutable_pre_goods_id_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.ShopGoods.pre_goods_id_list)
-  return &pre_goods_id_list_;
-}
-
-// uint32 begin_time = 8;
-void ShopGoods::clear_begin_time() {
-  begin_time_ = 0u;
-}
-::google::protobuf::uint32 ShopGoods::begin_time() const {
-  // @@protoc_insertion_point(field_get:proto.ShopGoods.begin_time)
-  return begin_time_;
-}
-void ShopGoods::set_begin_time(::google::protobuf::uint32 value) {
-  
-  begin_time_ = value;
-  // @@protoc_insertion_point(field_set:proto.ShopGoods.begin_time)
-}
-
-// uint32 scoin = 11;
-void ShopGoods::clear_scoin() {
-  scoin_ = 0u;
-}
-::google::protobuf::uint32 ShopGoods::scoin() const {
-  // @@protoc_insertion_point(field_get:proto.ShopGoods.scoin)
-  return scoin_;
-}
-void ShopGoods::set_scoin(::google::protobuf::uint32 value) {
-  
-  scoin_ = value;
-  // @@protoc_insertion_point(field_set:proto.ShopGoods.scoin)
-}
-
-// uint32 bought_num = 4;
-void ShopGoods::clear_bought_num() {
-  bought_num_ = 0u;
-}
-::google::protobuf::uint32 ShopGoods::bought_num() const {
-  // @@protoc_insertion_point(field_get:proto.ShopGoods.bought_num)
-  return bought_num_;
-}
-void ShopGoods::set_bought_num(::google::protobuf::uint32 value) {
-  
-  bought_num_ = value;
-  // @@protoc_insertion_point(field_set:proto.ShopGoods.bought_num)
-}
-
-// uint32 buy_limit = 10;
-void ShopGoods::clear_buy_limit() {
-  buy_limit_ = 0u;
-}
-::google::protobuf::uint32 ShopGoods::buy_limit() const {
-  // @@protoc_insertion_point(field_get:proto.ShopGoods.buy_limit)
-  return buy_limit_;
-}
-void ShopGoods::set_buy_limit(::google::protobuf::uint32 value) {
-  
-  buy_limit_ = value;
-  // @@protoc_insertion_point(field_set:proto.ShopGoods.buy_limit)
-}
-
-// .proto.ItemParam goods_item = 6;
-bool ShopGoods::has_goods_item() const {
-  return this != internal_default_instance() && goods_item_ != NULL;
-}
-void ShopGoods::clear_goods_item() {
-  if (GetArenaNoVirtual() == NULL && goods_item_ != NULL) delete goods_item_;
-  goods_item_ = NULL;
-}
-const ::proto::ItemParam& ShopGoods::goods_item() const {
-  const ::proto::ItemParam* p = goods_item_;
-  // @@protoc_insertion_point(field_get:proto.ShopGoods.goods_item)
-  return p != NULL ? *p : *reinterpret_cast<const ::proto::ItemParam*>(
-      &::proto::_ItemParam_default_instance_);
-}
-::proto::ItemParam* ShopGoods::mutable_goods_item() {
-  
-  if (goods_item_ == NULL) {
-    goods_item_ = new ::proto::ItemParam;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.ShopGoods.goods_item)
-  return goods_item_;
-}
-::proto::ItemParam* ShopGoods::release_goods_item() {
-  // @@protoc_insertion_point(field_release:proto.ShopGoods.goods_item)
-  
-  ::proto::ItemParam* temp = goods_item_;
-  goods_item_ = NULL;
-  return temp;
-}
-void ShopGoods::set_allocated_goods_item(::proto::ItemParam* goods_item) {
-  delete goods_item_;
-  goods_item_ = goods_item;
-  if (goods_item) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.ShopGoods.goods_item)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int Shop::kConcertProductListFieldNumber;
-const int Shop::kGoodsListFieldNumber;
-const int Shop::kCityReputationLevelFieldNumber;
-const int Shop::kCardProductListFieldNumber;
-const int Shop::kMcoinProductListFieldNumber;
-const int Shop::kNextRefreshTimeFieldNumber;
-const int Shop::kCityIdFieldNumber;
-const int Shop::kShopTypeFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-Shop::Shop()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fshop_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.Shop)
-}
-Shop::Shop(const Shop& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      mcoin_product_list_(from.mcoin_product_list_),
-      card_product_list_(from.card_product_list_),
-      concert_product_list_(from.concert_product_list_),
-      goods_list_(from.goods_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&city_reputation_level_, &from.city_reputation_level_,
-    static_cast<size_t>(reinterpret_cast<char*>(&next_refresh_time_) -
-    reinterpret_cast<char*>(&city_reputation_level_)) + sizeof(next_refresh_time_));
-  // @@protoc_insertion_point(copy_constructor:proto.Shop)
-}
-
-void Shop::SharedCtor() {
-  ::memset(&city_reputation_level_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&next_refresh_time_) -
-      reinterpret_cast<char*>(&city_reputation_level_)) + sizeof(next_refresh_time_));
-  _cached_size_ = 0;
-}
-
-Shop::~Shop() {
-  // @@protoc_insertion_point(destructor:proto.Shop)
-  SharedDtor();
-}
-
-void Shop::SharedDtor() {
-}
-
-void Shop::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* Shop::descriptor() {
-  protobuf_cmd_2fcmd_5fshop_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fshop_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const Shop& Shop::default_instance() {
-  protobuf_cmd_2fcmd_5fshop_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-Shop* Shop::New(::google::protobuf::Arena* arena) const {
-  Shop* n = new Shop;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void Shop::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.Shop)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  mcoin_product_list_.Clear();
-  card_product_list_.Clear();
-  concert_product_list_.Clear();
-  goods_list_.Clear();
-  ::memset(&city_reputation_level_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&next_refresh_time_) -
-      reinterpret_cast<char*>(&city_reputation_level_)) + sizeof(next_refresh_time_));
-  _internal_metadata_.Clear();
-}
-
 bool Shop::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -2254,16 +941,18 @@ bool Shop::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.Shop)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.Shop)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -2322,9 +1011,9 @@ void Shop::SerializeWithCachedSizes(
       15, this->goods_list(static_cast<int>(i)), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.Shop)
 }
@@ -2388,9 +1077,9 @@ void Shop::SerializeWithCachedSizes(
         15, this->goods_list(static_cast<int>(i)), deterministic, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.Shop)
   return target;
@@ -2400,10 +1089,10 @@ size_t Shop::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.Shop)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated .proto.ShopMcoinProduct mcoin_product_list = 6;
   {
@@ -2484,337 +1173,6 @@ size_t Shop::ByteSizeLong() const {
   return total_size;
 }
 
-void Shop::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.Shop)
-  GOOGLE_DCHECK_NE(&from, this);
-  const Shop* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const Shop>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.Shop)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.Shop)
-    MergeFrom(*source);
-  }
-}
-
-void Shop::MergeFrom(const Shop& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.Shop)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  mcoin_product_list_.MergeFrom(from.mcoin_product_list_);
-  card_product_list_.MergeFrom(from.card_product_list_);
-  concert_product_list_.MergeFrom(from.concert_product_list_);
-  goods_list_.MergeFrom(from.goods_list_);
-  if (from.city_reputation_level() != 0) {
-    set_city_reputation_level(from.city_reputation_level());
-  }
-  if (from.shop_type() != 0) {
-    set_shop_type(from.shop_type());
-  }
-  if (from.city_id() != 0) {
-    set_city_id(from.city_id());
-  }
-  if (from.next_refresh_time() != 0) {
-    set_next_refresh_time(from.next_refresh_time());
-  }
-}
-
-void Shop::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.Shop)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void Shop::CopyFrom(const Shop& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.Shop)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool Shop::IsInitialized() const {
-  return true;
-}
-
-void Shop::Swap(Shop* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void Shop::InternalSwap(Shop* other) {
-  using std::swap;
-  mcoin_product_list_.InternalSwap(&other->mcoin_product_list_);
-  card_product_list_.InternalSwap(&other->card_product_list_);
-  concert_product_list_.InternalSwap(&other->concert_product_list_);
-  goods_list_.InternalSwap(&other->goods_list_);
-  swap(city_reputation_level_, other->city_reputation_level_);
-  swap(shop_type_, other->shop_type_);
-  swap(city_id_, other->city_id_);
-  swap(next_refresh_time_, other->next_refresh_time_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata Shop::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fshop_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fshop_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// Shop
-
-// repeated .proto.ShopConcertProduct concert_product_list = 13;
-int Shop::concert_product_list_size() const {
-  return concert_product_list_.size();
-}
-void Shop::clear_concert_product_list() {
-  concert_product_list_.Clear();
-}
-const ::proto::ShopConcertProduct& Shop::concert_product_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.Shop.concert_product_list)
-  return concert_product_list_.Get(index);
-}
-::proto::ShopConcertProduct* Shop::mutable_concert_product_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.Shop.concert_product_list)
-  return concert_product_list_.Mutable(index);
-}
-::proto::ShopConcertProduct* Shop::add_concert_product_list() {
-  // @@protoc_insertion_point(field_add:proto.Shop.concert_product_list)
-  return concert_product_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::ShopConcertProduct >*
-Shop::mutable_concert_product_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.Shop.concert_product_list)
-  return &concert_product_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::ShopConcertProduct >&
-Shop::concert_product_list() const {
-  // @@protoc_insertion_point(field_list:proto.Shop.concert_product_list)
-  return concert_product_list_;
-}
-
-// repeated .proto.ShopGoods goods_list = 15;
-int Shop::goods_list_size() const {
-  return goods_list_.size();
-}
-void Shop::clear_goods_list() {
-  goods_list_.Clear();
-}
-const ::proto::ShopGoods& Shop::goods_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.Shop.goods_list)
-  return goods_list_.Get(index);
-}
-::proto::ShopGoods* Shop::mutable_goods_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.Shop.goods_list)
-  return goods_list_.Mutable(index);
-}
-::proto::ShopGoods* Shop::add_goods_list() {
-  // @@protoc_insertion_point(field_add:proto.Shop.goods_list)
-  return goods_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::ShopGoods >*
-Shop::mutable_goods_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.Shop.goods_list)
-  return &goods_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::ShopGoods >&
-Shop::goods_list() const {
-  // @@protoc_insertion_point(field_list:proto.Shop.goods_list)
-  return goods_list_;
-}
-
-// uint32 city_reputation_level = 4;
-void Shop::clear_city_reputation_level() {
-  city_reputation_level_ = 0u;
-}
-::google::protobuf::uint32 Shop::city_reputation_level() const {
-  // @@protoc_insertion_point(field_get:proto.Shop.city_reputation_level)
-  return city_reputation_level_;
-}
-void Shop::set_city_reputation_level(::google::protobuf::uint32 value) {
-  
-  city_reputation_level_ = value;
-  // @@protoc_insertion_point(field_set:proto.Shop.city_reputation_level)
-}
-
-// repeated .proto.ShopCardProduct card_product_list = 9;
-int Shop::card_product_list_size() const {
-  return card_product_list_.size();
-}
-void Shop::clear_card_product_list() {
-  card_product_list_.Clear();
-}
-const ::proto::ShopCardProduct& Shop::card_product_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.Shop.card_product_list)
-  return card_product_list_.Get(index);
-}
-::proto::ShopCardProduct* Shop::mutable_card_product_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.Shop.card_product_list)
-  return card_product_list_.Mutable(index);
-}
-::proto::ShopCardProduct* Shop::add_card_product_list() {
-  // @@protoc_insertion_point(field_add:proto.Shop.card_product_list)
-  return card_product_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::ShopCardProduct >*
-Shop::mutable_card_product_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.Shop.card_product_list)
-  return &card_product_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::ShopCardProduct >&
-Shop::card_product_list() const {
-  // @@protoc_insertion_point(field_list:proto.Shop.card_product_list)
-  return card_product_list_;
-}
-
-// repeated .proto.ShopMcoinProduct mcoin_product_list = 6;
-int Shop::mcoin_product_list_size() const {
-  return mcoin_product_list_.size();
-}
-void Shop::clear_mcoin_product_list() {
-  mcoin_product_list_.Clear();
-}
-const ::proto::ShopMcoinProduct& Shop::mcoin_product_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.Shop.mcoin_product_list)
-  return mcoin_product_list_.Get(index);
-}
-::proto::ShopMcoinProduct* Shop::mutable_mcoin_product_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.Shop.mcoin_product_list)
-  return mcoin_product_list_.Mutable(index);
-}
-::proto::ShopMcoinProduct* Shop::add_mcoin_product_list() {
-  // @@protoc_insertion_point(field_add:proto.Shop.mcoin_product_list)
-  return mcoin_product_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::ShopMcoinProduct >*
-Shop::mutable_mcoin_product_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.Shop.mcoin_product_list)
-  return &mcoin_product_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::ShopMcoinProduct >&
-Shop::mcoin_product_list() const {
-  // @@protoc_insertion_point(field_list:proto.Shop.mcoin_product_list)
-  return mcoin_product_list_;
-}
-
-// uint32 next_refresh_time = 14;
-void Shop::clear_next_refresh_time() {
-  next_refresh_time_ = 0u;
-}
-::google::protobuf::uint32 Shop::next_refresh_time() const {
-  // @@protoc_insertion_point(field_get:proto.Shop.next_refresh_time)
-  return next_refresh_time_;
-}
-void Shop::set_next_refresh_time(::google::protobuf::uint32 value) {
-  
-  next_refresh_time_ = value;
-  // @@protoc_insertion_point(field_set:proto.Shop.next_refresh_time)
-}
-
-// uint32 city_id = 10;
-void Shop::clear_city_id() {
-  city_id_ = 0u;
-}
-::google::protobuf::uint32 Shop::city_id() const {
-  // @@protoc_insertion_point(field_get:proto.Shop.city_id)
-  return city_id_;
-}
-void Shop::set_city_id(::google::protobuf::uint32 value) {
-  
-  city_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.Shop.city_id)
-}
-
-// uint32 shop_type = 5;
-void Shop::clear_shop_type() {
-  shop_type_ = 0u;
-}
-::google::protobuf::uint32 Shop::shop_type() const {
-  // @@protoc_insertion_point(field_get:proto.Shop.shop_type)
-  return shop_type_;
-}
-void Shop::set_shop_type(::google::protobuf::uint32 value) {
-  
-  shop_type_ = value;
-  // @@protoc_insertion_point(field_set:proto.Shop.shop_type)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int GetShopReq::kShopTypeFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-GetShopReq::GetShopReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fshop_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.GetShopReq)
-}
-GetShopReq::GetShopReq(const GetShopReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  shop_type_ = from.shop_type_;
-  // @@protoc_insertion_point(copy_constructor:proto.GetShopReq)
-}
-
-void GetShopReq::SharedCtor() {
-  shop_type_ = 0u;
-  _cached_size_ = 0;
-}
-
-GetShopReq::~GetShopReq() {
-  // @@protoc_insertion_point(destructor:proto.GetShopReq)
-  SharedDtor();
-}
-
-void GetShopReq::SharedDtor() {
-}
-
-void GetShopReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* GetShopReq::descriptor() {
-  protobuf_cmd_2fcmd_5fshop_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fshop_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const GetShopReq& GetShopReq::default_instance() {
-  protobuf_cmd_2fcmd_5fshop_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-GetShopReq* GetShopReq::New(::google::protobuf::Arena* arena) const {
-  GetShopReq* n = new GetShopReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void GetShopReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.GetShopReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  shop_type_ = 0u;
-  _internal_metadata_.Clear();
-}
-
 bool GetShopReq::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -2845,16 +1203,18 @@ bool GetShopReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.GetShopReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.GetShopReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -2870,9 +1230,9 @@ void GetShopReq::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(5, this->shop_type(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.GetShopReq)
 }
@@ -2889,9 +1249,9 @@ void GetShopReq::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(5, this->shop_type(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.GetShopReq)
   return target;
@@ -2901,10 +1261,10 @@ size_t GetShopReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.GetShopReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 shop_type = 5;
   if (this->shop_type() != 0) {
@@ -2918,168 +1278,6 @@ size_t GetShopReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void GetShopReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.GetShopReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const GetShopReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const GetShopReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.GetShopReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.GetShopReq)
-    MergeFrom(*source);
-  }
-}
-
-void GetShopReq::MergeFrom(const GetShopReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.GetShopReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.shop_type() != 0) {
-    set_shop_type(from.shop_type());
-  }
-}
-
-void GetShopReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.GetShopReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void GetShopReq::CopyFrom(const GetShopReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.GetShopReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool GetShopReq::IsInitialized() const {
-  return true;
-}
-
-void GetShopReq::Swap(GetShopReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void GetShopReq::InternalSwap(GetShopReq* other) {
-  using std::swap;
-  swap(shop_type_, other->shop_type_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata GetShopReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fshop_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fshop_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// GetShopReq
-
-// uint32 shop_type = 5;
-void GetShopReq::clear_shop_type() {
-  shop_type_ = 0u;
-}
-::google::protobuf::uint32 GetShopReq::shop_type() const {
-  // @@protoc_insertion_point(field_get:proto.GetShopReq.shop_type)
-  return shop_type_;
-}
-void GetShopReq::set_shop_type(::google::protobuf::uint32 value) {
-  
-  shop_type_ = value;
-  // @@protoc_insertion_point(field_set:proto.GetShopReq.shop_type)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int GetShopRsp::kShopFieldNumber;
-const int GetShopRsp::kRetcodeFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-GetShopRsp::GetShopRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fshop_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.GetShopRsp)
-}
-GetShopRsp::GetShopRsp(const GetShopRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  if (from.has_shop()) {
-    shop_ = new ::proto::Shop(*from.shop_);
-  } else {
-    shop_ = NULL;
-  }
-  retcode_ = from.retcode_;
-  // @@protoc_insertion_point(copy_constructor:proto.GetShopRsp)
-}
-
-void GetShopRsp::SharedCtor() {
-  ::memset(&shop_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&retcode_) -
-      reinterpret_cast<char*>(&shop_)) + sizeof(retcode_));
-  _cached_size_ = 0;
-}
-
-GetShopRsp::~GetShopRsp() {
-  // @@protoc_insertion_point(destructor:proto.GetShopRsp)
-  SharedDtor();
-}
-
-void GetShopRsp::SharedDtor() {
-  if (this != internal_default_instance()) delete shop_;
-}
-
-void GetShopRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* GetShopRsp::descriptor() {
-  protobuf_cmd_2fcmd_5fshop_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fshop_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const GetShopRsp& GetShopRsp::default_instance() {
-  protobuf_cmd_2fcmd_5fshop_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-GetShopRsp* GetShopRsp::New(::google::protobuf::Arena* arena) const {
-  GetShopRsp* n = new GetShopRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void GetShopRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.GetShopRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  if (GetArenaNoVirtual() == NULL && shop_ != NULL) {
-    delete shop_;
-  }
-  shop_ = NULL;
-  retcode_ = 0;
-  _internal_metadata_.Clear();
 }
 
 bool GetShopRsp::MergePartialFromCodedStream(
@@ -3124,16 +1322,18 @@ bool GetShopRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.GetShopRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.GetShopRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -3155,9 +1355,9 @@ void GetShopRsp::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteInt32(13, this->retcode(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.GetShopRsp)
 }
@@ -3181,9 +1381,9 @@ void GetShopRsp::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(13, this->retcode(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.GetShopRsp)
   return target;
@@ -3193,10 +1393,10 @@ size_t GetShopRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.GetShopRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // .proto.Shop shop = 10;
   if (this->has_shop()) {
@@ -3217,217 +1417,6 @@ size_t GetShopRsp::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void GetShopRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.GetShopRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const GetShopRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const GetShopRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.GetShopRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.GetShopRsp)
-    MergeFrom(*source);
-  }
-}
-
-void GetShopRsp::MergeFrom(const GetShopRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.GetShopRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.has_shop()) {
-    mutable_shop()->::proto::Shop::MergeFrom(from.shop());
-  }
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-}
-
-void GetShopRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.GetShopRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void GetShopRsp::CopyFrom(const GetShopRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.GetShopRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool GetShopRsp::IsInitialized() const {
-  return true;
-}
-
-void GetShopRsp::Swap(GetShopRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void GetShopRsp::InternalSwap(GetShopRsp* other) {
-  using std::swap;
-  swap(shop_, other->shop_);
-  swap(retcode_, other->retcode_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata GetShopRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fshop_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fshop_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// GetShopRsp
-
-// .proto.Shop shop = 10;
-bool GetShopRsp::has_shop() const {
-  return this != internal_default_instance() && shop_ != NULL;
-}
-void GetShopRsp::clear_shop() {
-  if (GetArenaNoVirtual() == NULL && shop_ != NULL) delete shop_;
-  shop_ = NULL;
-}
-const ::proto::Shop& GetShopRsp::shop() const {
-  const ::proto::Shop* p = shop_;
-  // @@protoc_insertion_point(field_get:proto.GetShopRsp.shop)
-  return p != NULL ? *p : *reinterpret_cast<const ::proto::Shop*>(
-      &::proto::_Shop_default_instance_);
-}
-::proto::Shop* GetShopRsp::mutable_shop() {
-  
-  if (shop_ == NULL) {
-    shop_ = new ::proto::Shop;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.GetShopRsp.shop)
-  return shop_;
-}
-::proto::Shop* GetShopRsp::release_shop() {
-  // @@protoc_insertion_point(field_release:proto.GetShopRsp.shop)
-  
-  ::proto::Shop* temp = shop_;
-  shop_ = NULL;
-  return temp;
-}
-void GetShopRsp::set_allocated_shop(::proto::Shop* shop) {
-  delete shop_;
-  shop_ = shop;
-  if (shop) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.GetShopRsp.shop)
-}
-
-// int32 retcode = 13;
-void GetShopRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 GetShopRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.GetShopRsp.retcode)
-  return retcode_;
-}
-void GetShopRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.GetShopRsp.retcode)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int BuyGoodsReq::kBuyCountFieldNumber;
-const int BuyGoodsReq::kGoodsFieldNumber;
-const int BuyGoodsReq::kShopTypeFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-BuyGoodsReq::BuyGoodsReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fshop_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.BuyGoodsReq)
-}
-BuyGoodsReq::BuyGoodsReq(const BuyGoodsReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  if (from.has_goods()) {
-    goods_ = new ::proto::ShopGoods(*from.goods_);
-  } else {
-    goods_ = NULL;
-  }
-  ::memcpy(&shop_type_, &from.shop_type_,
-    static_cast<size_t>(reinterpret_cast<char*>(&buy_count_) -
-    reinterpret_cast<char*>(&shop_type_)) + sizeof(buy_count_));
-  // @@protoc_insertion_point(copy_constructor:proto.BuyGoodsReq)
-}
-
-void BuyGoodsReq::SharedCtor() {
-  ::memset(&goods_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&buy_count_) -
-      reinterpret_cast<char*>(&goods_)) + sizeof(buy_count_));
-  _cached_size_ = 0;
-}
-
-BuyGoodsReq::~BuyGoodsReq() {
-  // @@protoc_insertion_point(destructor:proto.BuyGoodsReq)
-  SharedDtor();
-}
-
-void BuyGoodsReq::SharedDtor() {
-  if (this != internal_default_instance()) delete goods_;
-}
-
-void BuyGoodsReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* BuyGoodsReq::descriptor() {
-  protobuf_cmd_2fcmd_5fshop_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fshop_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const BuyGoodsReq& BuyGoodsReq::default_instance() {
-  protobuf_cmd_2fcmd_5fshop_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-BuyGoodsReq* BuyGoodsReq::New(::google::protobuf::Arena* arena) const {
-  BuyGoodsReq* n = new BuyGoodsReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void BuyGoodsReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.BuyGoodsReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  if (GetArenaNoVirtual() == NULL && goods_ != NULL) {
-    delete goods_;
-  }
-  goods_ = NULL;
-  ::memset(&shop_type_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&buy_count_) -
-      reinterpret_cast<char*>(&shop_type_)) + sizeof(buy_count_));
-  _internal_metadata_.Clear();
 }
 
 bool BuyGoodsReq::MergePartialFromCodedStream(
@@ -3486,16 +1475,18 @@ bool BuyGoodsReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.BuyGoodsReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.BuyGoodsReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -3522,9 +1513,9 @@ void BuyGoodsReq::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(14, this->buy_count(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.BuyGoodsReq)
 }
@@ -3553,9 +1544,9 @@ void BuyGoodsReq::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(14, this->buy_count(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.BuyGoodsReq)
   return target;
@@ -3565,10 +1556,10 @@ size_t BuyGoodsReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.BuyGoodsReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // .proto.ShopGoods goods = 3;
   if (this->has_goods()) {
@@ -3596,239 +1587,6 @@ size_t BuyGoodsReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void BuyGoodsReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.BuyGoodsReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const BuyGoodsReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const BuyGoodsReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.BuyGoodsReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.BuyGoodsReq)
-    MergeFrom(*source);
-  }
-}
-
-void BuyGoodsReq::MergeFrom(const BuyGoodsReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.BuyGoodsReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.has_goods()) {
-    mutable_goods()->::proto::ShopGoods::MergeFrom(from.goods());
-  }
-  if (from.shop_type() != 0) {
-    set_shop_type(from.shop_type());
-  }
-  if (from.buy_count() != 0) {
-    set_buy_count(from.buy_count());
-  }
-}
-
-void BuyGoodsReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.BuyGoodsReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void BuyGoodsReq::CopyFrom(const BuyGoodsReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.BuyGoodsReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool BuyGoodsReq::IsInitialized() const {
-  return true;
-}
-
-void BuyGoodsReq::Swap(BuyGoodsReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void BuyGoodsReq::InternalSwap(BuyGoodsReq* other) {
-  using std::swap;
-  swap(goods_, other->goods_);
-  swap(shop_type_, other->shop_type_);
-  swap(buy_count_, other->buy_count_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata BuyGoodsReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fshop_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fshop_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// BuyGoodsReq
-
-// uint32 buy_count = 14;
-void BuyGoodsReq::clear_buy_count() {
-  buy_count_ = 0u;
-}
-::google::protobuf::uint32 BuyGoodsReq::buy_count() const {
-  // @@protoc_insertion_point(field_get:proto.BuyGoodsReq.buy_count)
-  return buy_count_;
-}
-void BuyGoodsReq::set_buy_count(::google::protobuf::uint32 value) {
-  
-  buy_count_ = value;
-  // @@protoc_insertion_point(field_set:proto.BuyGoodsReq.buy_count)
-}
-
-// .proto.ShopGoods goods = 3;
-bool BuyGoodsReq::has_goods() const {
-  return this != internal_default_instance() && goods_ != NULL;
-}
-void BuyGoodsReq::clear_goods() {
-  if (GetArenaNoVirtual() == NULL && goods_ != NULL) delete goods_;
-  goods_ = NULL;
-}
-const ::proto::ShopGoods& BuyGoodsReq::goods() const {
-  const ::proto::ShopGoods* p = goods_;
-  // @@protoc_insertion_point(field_get:proto.BuyGoodsReq.goods)
-  return p != NULL ? *p : *reinterpret_cast<const ::proto::ShopGoods*>(
-      &::proto::_ShopGoods_default_instance_);
-}
-::proto::ShopGoods* BuyGoodsReq::mutable_goods() {
-  
-  if (goods_ == NULL) {
-    goods_ = new ::proto::ShopGoods;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.BuyGoodsReq.goods)
-  return goods_;
-}
-::proto::ShopGoods* BuyGoodsReq::release_goods() {
-  // @@protoc_insertion_point(field_release:proto.BuyGoodsReq.goods)
-  
-  ::proto::ShopGoods* temp = goods_;
-  goods_ = NULL;
-  return temp;
-}
-void BuyGoodsReq::set_allocated_goods(::proto::ShopGoods* goods) {
-  delete goods_;
-  goods_ = goods;
-  if (goods) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.BuyGoodsReq.goods)
-}
-
-// uint32 shop_type = 5;
-void BuyGoodsReq::clear_shop_type() {
-  shop_type_ = 0u;
-}
-::google::protobuf::uint32 BuyGoodsReq::shop_type() const {
-  // @@protoc_insertion_point(field_get:proto.BuyGoodsReq.shop_type)
-  return shop_type_;
-}
-void BuyGoodsReq::set_shop_type(::google::protobuf::uint32 value) {
-  
-  shop_type_ = value;
-  // @@protoc_insertion_point(field_set:proto.BuyGoodsReq.shop_type)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int BuyGoodsRsp::kBuyCountFieldNumber;
-const int BuyGoodsRsp::kGoodsFieldNumber;
-const int BuyGoodsRsp::kShopTypeFieldNumber;
-const int BuyGoodsRsp::kRetcodeFieldNumber;
-const int BuyGoodsRsp::kGoodsListFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-BuyGoodsRsp::BuyGoodsRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fshop_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.BuyGoodsRsp)
-}
-BuyGoodsRsp::BuyGoodsRsp(const BuyGoodsRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      goods_list_(from.goods_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  if (from.has_goods()) {
-    goods_ = new ::proto::ShopGoods(*from.goods_);
-  } else {
-    goods_ = NULL;
-  }
-  ::memcpy(&buy_count_, &from.buy_count_,
-    static_cast<size_t>(reinterpret_cast<char*>(&shop_type_) -
-    reinterpret_cast<char*>(&buy_count_)) + sizeof(shop_type_));
-  // @@protoc_insertion_point(copy_constructor:proto.BuyGoodsRsp)
-}
-
-void BuyGoodsRsp::SharedCtor() {
-  ::memset(&goods_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&shop_type_) -
-      reinterpret_cast<char*>(&goods_)) + sizeof(shop_type_));
-  _cached_size_ = 0;
-}
-
-BuyGoodsRsp::~BuyGoodsRsp() {
-  // @@protoc_insertion_point(destructor:proto.BuyGoodsRsp)
-  SharedDtor();
-}
-
-void BuyGoodsRsp::SharedDtor() {
-  if (this != internal_default_instance()) delete goods_;
-}
-
-void BuyGoodsRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* BuyGoodsRsp::descriptor() {
-  protobuf_cmd_2fcmd_5fshop_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fshop_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const BuyGoodsRsp& BuyGoodsRsp::default_instance() {
-  protobuf_cmd_2fcmd_5fshop_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-BuyGoodsRsp* BuyGoodsRsp::New(::google::protobuf::Arena* arena) const {
-  BuyGoodsRsp* n = new BuyGoodsRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void BuyGoodsRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.BuyGoodsRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  goods_list_.Clear();
-  if (GetArenaNoVirtual() == NULL && goods_ != NULL) {
-    delete goods_;
-  }
-  goods_ = NULL;
-  ::memset(&buy_count_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&shop_type_) -
-      reinterpret_cast<char*>(&buy_count_)) + sizeof(shop_type_));
-  _internal_metadata_.Clear();
 }
 
 bool BuyGoodsRsp::MergePartialFromCodedStream(
@@ -3913,16 +1671,18 @@ bool BuyGoodsRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.BuyGoodsRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.BuyGoodsRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -3961,9 +1721,9 @@ void BuyGoodsRsp::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(14, this->shop_type(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.BuyGoodsRsp)
 }
@@ -4005,9 +1765,9 @@ void BuyGoodsRsp::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(14, this->shop_type(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.BuyGoodsRsp)
   return target;
@@ -4017,10 +1777,10 @@ size_t BuyGoodsRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.BuyGoodsRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated .proto.ShopGoods goods_list = 7;
   {
@@ -4068,263 +1828,6 @@ size_t BuyGoodsRsp::ByteSizeLong() const {
   return total_size;
 }
 
-void BuyGoodsRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.BuyGoodsRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const BuyGoodsRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const BuyGoodsRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.BuyGoodsRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.BuyGoodsRsp)
-    MergeFrom(*source);
-  }
-}
-
-void BuyGoodsRsp::MergeFrom(const BuyGoodsRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.BuyGoodsRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  goods_list_.MergeFrom(from.goods_list_);
-  if (from.has_goods()) {
-    mutable_goods()->::proto::ShopGoods::MergeFrom(from.goods());
-  }
-  if (from.buy_count() != 0) {
-    set_buy_count(from.buy_count());
-  }
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-  if (from.shop_type() != 0) {
-    set_shop_type(from.shop_type());
-  }
-}
-
-void BuyGoodsRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.BuyGoodsRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void BuyGoodsRsp::CopyFrom(const BuyGoodsRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.BuyGoodsRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool BuyGoodsRsp::IsInitialized() const {
-  return true;
-}
-
-void BuyGoodsRsp::Swap(BuyGoodsRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void BuyGoodsRsp::InternalSwap(BuyGoodsRsp* other) {
-  using std::swap;
-  goods_list_.InternalSwap(&other->goods_list_);
-  swap(goods_, other->goods_);
-  swap(buy_count_, other->buy_count_);
-  swap(retcode_, other->retcode_);
-  swap(shop_type_, other->shop_type_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata BuyGoodsRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fshop_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fshop_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// BuyGoodsRsp
-
-// uint32 buy_count = 2;
-void BuyGoodsRsp::clear_buy_count() {
-  buy_count_ = 0u;
-}
-::google::protobuf::uint32 BuyGoodsRsp::buy_count() const {
-  // @@protoc_insertion_point(field_get:proto.BuyGoodsRsp.buy_count)
-  return buy_count_;
-}
-void BuyGoodsRsp::set_buy_count(::google::protobuf::uint32 value) {
-  
-  buy_count_ = value;
-  // @@protoc_insertion_point(field_set:proto.BuyGoodsRsp.buy_count)
-}
-
-// .proto.ShopGoods goods = 1;
-bool BuyGoodsRsp::has_goods() const {
-  return this != internal_default_instance() && goods_ != NULL;
-}
-void BuyGoodsRsp::clear_goods() {
-  if (GetArenaNoVirtual() == NULL && goods_ != NULL) delete goods_;
-  goods_ = NULL;
-}
-const ::proto::ShopGoods& BuyGoodsRsp::goods() const {
-  const ::proto::ShopGoods* p = goods_;
-  // @@protoc_insertion_point(field_get:proto.BuyGoodsRsp.goods)
-  return p != NULL ? *p : *reinterpret_cast<const ::proto::ShopGoods*>(
-      &::proto::_ShopGoods_default_instance_);
-}
-::proto::ShopGoods* BuyGoodsRsp::mutable_goods() {
-  
-  if (goods_ == NULL) {
-    goods_ = new ::proto::ShopGoods;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.BuyGoodsRsp.goods)
-  return goods_;
-}
-::proto::ShopGoods* BuyGoodsRsp::release_goods() {
-  // @@protoc_insertion_point(field_release:proto.BuyGoodsRsp.goods)
-  
-  ::proto::ShopGoods* temp = goods_;
-  goods_ = NULL;
-  return temp;
-}
-void BuyGoodsRsp::set_allocated_goods(::proto::ShopGoods* goods) {
-  delete goods_;
-  goods_ = goods;
-  if (goods) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.BuyGoodsRsp.goods)
-}
-
-// uint32 shop_type = 14;
-void BuyGoodsRsp::clear_shop_type() {
-  shop_type_ = 0u;
-}
-::google::protobuf::uint32 BuyGoodsRsp::shop_type() const {
-  // @@protoc_insertion_point(field_get:proto.BuyGoodsRsp.shop_type)
-  return shop_type_;
-}
-void BuyGoodsRsp::set_shop_type(::google::protobuf::uint32 value) {
-  
-  shop_type_ = value;
-  // @@protoc_insertion_point(field_set:proto.BuyGoodsRsp.shop_type)
-}
-
-// int32 retcode = 5;
-void BuyGoodsRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 BuyGoodsRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.BuyGoodsRsp.retcode)
-  return retcode_;
-}
-void BuyGoodsRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.BuyGoodsRsp.retcode)
-}
-
-// repeated .proto.ShopGoods goods_list = 7;
-int BuyGoodsRsp::goods_list_size() const {
-  return goods_list_.size();
-}
-void BuyGoodsRsp::clear_goods_list() {
-  goods_list_.Clear();
-}
-const ::proto::ShopGoods& BuyGoodsRsp::goods_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.BuyGoodsRsp.goods_list)
-  return goods_list_.Get(index);
-}
-::proto::ShopGoods* BuyGoodsRsp::mutable_goods_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.BuyGoodsRsp.goods_list)
-  return goods_list_.Mutable(index);
-}
-::proto::ShopGoods* BuyGoodsRsp::add_goods_list() {
-  // @@protoc_insertion_point(field_add:proto.BuyGoodsRsp.goods_list)
-  return goods_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::ShopGoods >*
-BuyGoodsRsp::mutable_goods_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.BuyGoodsRsp.goods_list)
-  return &goods_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::ShopGoods >&
-BuyGoodsRsp::goods_list() const {
-  // @@protoc_insertion_point(field_list:proto.BuyGoodsRsp.goods_list)
-  return goods_list_;
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-GetShopmallDataReq::GetShopmallDataReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fshop_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.GetShopmallDataReq)
-}
-GetShopmallDataReq::GetShopmallDataReq(const GetShopmallDataReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  // @@protoc_insertion_point(copy_constructor:proto.GetShopmallDataReq)
-}
-
-void GetShopmallDataReq::SharedCtor() {
-  _cached_size_ = 0;
-}
-
-GetShopmallDataReq::~GetShopmallDataReq() {
-  // @@protoc_insertion_point(destructor:proto.GetShopmallDataReq)
-  SharedDtor();
-}
-
-void GetShopmallDataReq::SharedDtor() {
-}
-
-void GetShopmallDataReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* GetShopmallDataReq::descriptor() {
-  protobuf_cmd_2fcmd_5fshop_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fshop_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const GetShopmallDataReq& GetShopmallDataReq::default_instance() {
-  protobuf_cmd_2fcmd_5fshop_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-GetShopmallDataReq* GetShopmallDataReq::New(::google::protobuf::Arena* arena) const {
-  GetShopmallDataReq* n = new GetShopmallDataReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void GetShopmallDataReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.GetShopmallDataReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  _internal_metadata_.Clear();
-}
-
 bool GetShopmallDataReq::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -4339,13 +1842,15 @@ bool GetShopmallDataReq::MergePartialFromCodedStream(
       goto success;
     }
     DO_(::google::protobuf::internal::WireFormat::SkipField(
-          input, tag, _internal_metadata_.mutable_unknown_fields()));
+          input, tag, nullptr));
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.GetShopmallDataReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.GetShopmallDataReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -4356,9 +1861,9 @@ void GetShopmallDataReq::SerializeWithCachedSizes(
   ::google::protobuf::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.GetShopmallDataReq)
 }
@@ -4370,9 +1875,9 @@ void GetShopmallDataReq::SerializeWithCachedSizes(
   ::google::protobuf::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.GetShopmallDataReq)
   return target;
@@ -4382,150 +1887,16 @@ size_t GetShopmallDataReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.GetShopmallDataReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
   GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void GetShopmallDataReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.GetShopmallDataReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const GetShopmallDataReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const GetShopmallDataReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.GetShopmallDataReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.GetShopmallDataReq)
-    MergeFrom(*source);
-  }
-}
-
-void GetShopmallDataReq::MergeFrom(const GetShopmallDataReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.GetShopmallDataReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-}
-
-void GetShopmallDataReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.GetShopmallDataReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void GetShopmallDataReq::CopyFrom(const GetShopmallDataReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.GetShopmallDataReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool GetShopmallDataReq::IsInitialized() const {
-  return true;
-}
-
-void GetShopmallDataReq::Swap(GetShopmallDataReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void GetShopmallDataReq::InternalSwap(GetShopmallDataReq* other) {
-  using std::swap;
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata GetShopmallDataReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fshop_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fshop_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// GetShopmallDataReq
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int GetShopmallDataRsp::kShopTypeListFieldNumber;
-const int GetShopmallDataRsp::kRetcodeFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-GetShopmallDataRsp::GetShopmallDataRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fshop_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.GetShopmallDataRsp)
-}
-GetShopmallDataRsp::GetShopmallDataRsp(const GetShopmallDataRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      shop_type_list_(from.shop_type_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  retcode_ = from.retcode_;
-  // @@protoc_insertion_point(copy_constructor:proto.GetShopmallDataRsp)
-}
-
-void GetShopmallDataRsp::SharedCtor() {
-  retcode_ = 0;
-  _cached_size_ = 0;
-}
-
-GetShopmallDataRsp::~GetShopmallDataRsp() {
-  // @@protoc_insertion_point(destructor:proto.GetShopmallDataRsp)
-  SharedDtor();
-}
-
-void GetShopmallDataRsp::SharedDtor() {
-}
-
-void GetShopmallDataRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* GetShopmallDataRsp::descriptor() {
-  protobuf_cmd_2fcmd_5fshop_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fshop_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const GetShopmallDataRsp& GetShopmallDataRsp::default_instance() {
-  protobuf_cmd_2fcmd_5fshop_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-GetShopmallDataRsp* GetShopmallDataRsp::New(::google::protobuf::Arena* arena) const {
-  GetShopmallDataRsp* n = new GetShopmallDataRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void GetShopmallDataRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.GetShopmallDataRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  shop_type_list_.Clear();
-  retcode_ = 0;
-  _internal_metadata_.Clear();
 }
 
 bool GetShopmallDataRsp::MergePartialFromCodedStream(
@@ -4577,16 +1948,18 @@ bool GetShopmallDataRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.GetShopmallDataRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.GetShopmallDataRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -4613,9 +1986,9 @@ void GetShopmallDataRsp::SerializeWithCachedSizes(
       this->shop_type_list(i), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.GetShopmallDataRsp)
 }
@@ -4645,9 +2018,9 @@ void GetShopmallDataRsp::SerializeWithCachedSizes(
       WriteUInt32NoTagToArray(this->shop_type_list_, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.GetShopmallDataRsp)
   return target;
@@ -4657,10 +2030,10 @@ size_t GetShopmallDataRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.GetShopmallDataRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated uint32 shop_type_list = 10;
   {
@@ -4690,195 +2063,6 @@ size_t GetShopmallDataRsp::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void GetShopmallDataRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.GetShopmallDataRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const GetShopmallDataRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const GetShopmallDataRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.GetShopmallDataRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.GetShopmallDataRsp)
-    MergeFrom(*source);
-  }
-}
-
-void GetShopmallDataRsp::MergeFrom(const GetShopmallDataRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.GetShopmallDataRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  shop_type_list_.MergeFrom(from.shop_type_list_);
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-}
-
-void GetShopmallDataRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.GetShopmallDataRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void GetShopmallDataRsp::CopyFrom(const GetShopmallDataRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.GetShopmallDataRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool GetShopmallDataRsp::IsInitialized() const {
-  return true;
-}
-
-void GetShopmallDataRsp::Swap(GetShopmallDataRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void GetShopmallDataRsp::InternalSwap(GetShopmallDataRsp* other) {
-  using std::swap;
-  shop_type_list_.InternalSwap(&other->shop_type_list_);
-  swap(retcode_, other->retcode_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata GetShopmallDataRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fshop_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fshop_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// GetShopmallDataRsp
-
-// repeated uint32 shop_type_list = 10;
-int GetShopmallDataRsp::shop_type_list_size() const {
-  return shop_type_list_.size();
-}
-void GetShopmallDataRsp::clear_shop_type_list() {
-  shop_type_list_.Clear();
-}
-::google::protobuf::uint32 GetShopmallDataRsp::shop_type_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.GetShopmallDataRsp.shop_type_list)
-  return shop_type_list_.Get(index);
-}
-void GetShopmallDataRsp::set_shop_type_list(int index, ::google::protobuf::uint32 value) {
-  shop_type_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.GetShopmallDataRsp.shop_type_list)
-}
-void GetShopmallDataRsp::add_shop_type_list(::google::protobuf::uint32 value) {
-  shop_type_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.GetShopmallDataRsp.shop_type_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint32 >&
-GetShopmallDataRsp::shop_type_list() const {
-  // @@protoc_insertion_point(field_list:proto.GetShopmallDataRsp.shop_type_list)
-  return shop_type_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint32 >*
-GetShopmallDataRsp::mutable_shop_type_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.GetShopmallDataRsp.shop_type_list)
-  return &shop_type_list_;
-}
-
-// int32 retcode = 3;
-void GetShopmallDataRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 GetShopmallDataRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.GetShopmallDataRsp.retcode)
-  return retcode_;
-}
-void GetShopmallDataRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.GetShopmallDataRsp.retcode)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int ActivityShopSheetInfo::kEndTimeFieldNumber;
-const int ActivityShopSheetInfo::kBeginTimeFieldNumber;
-const int ActivityShopSheetInfo::kSheetIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-ActivityShopSheetInfo::ActivityShopSheetInfo()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fshop_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.ActivityShopSheetInfo)
-}
-ActivityShopSheetInfo::ActivityShopSheetInfo(const ActivityShopSheetInfo& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&sheet_id_, &from.sheet_id_,
-    static_cast<size_t>(reinterpret_cast<char*>(&end_time_) -
-    reinterpret_cast<char*>(&sheet_id_)) + sizeof(end_time_));
-  // @@protoc_insertion_point(copy_constructor:proto.ActivityShopSheetInfo)
-}
-
-void ActivityShopSheetInfo::SharedCtor() {
-  ::memset(&sheet_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&end_time_) -
-      reinterpret_cast<char*>(&sheet_id_)) + sizeof(end_time_));
-  _cached_size_ = 0;
-}
-
-ActivityShopSheetInfo::~ActivityShopSheetInfo() {
-  // @@protoc_insertion_point(destructor:proto.ActivityShopSheetInfo)
-  SharedDtor();
-}
-
-void ActivityShopSheetInfo::SharedDtor() {
-}
-
-void ActivityShopSheetInfo::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* ActivityShopSheetInfo::descriptor() {
-  protobuf_cmd_2fcmd_5fshop_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fshop_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const ActivityShopSheetInfo& ActivityShopSheetInfo::default_instance() {
-  protobuf_cmd_2fcmd_5fshop_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-ActivityShopSheetInfo* ActivityShopSheetInfo::New(::google::protobuf::Arena* arena) const {
-  ActivityShopSheetInfo* n = new ActivityShopSheetInfo;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void ActivityShopSheetInfo::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.ActivityShopSheetInfo)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&sheet_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&end_time_) -
-      reinterpret_cast<char*>(&sheet_id_)) + sizeof(end_time_));
-  _internal_metadata_.Clear();
 }
 
 bool ActivityShopSheetInfo::MergePartialFromCodedStream(
@@ -4939,16 +2123,18 @@ bool ActivityShopSheetInfo::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.ActivityShopSheetInfo)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.ActivityShopSheetInfo)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -4974,9 +2160,9 @@ void ActivityShopSheetInfo::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(14, this->sheet_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.ActivityShopSheetInfo)
 }
@@ -5003,9 +2189,9 @@ void ActivityShopSheetInfo::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(14, this->sheet_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.ActivityShopSheetInfo)
   return target;
@@ -5015,10 +2201,10 @@ size_t ActivityShopSheetInfo::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.ActivityShopSheetInfo)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 sheet_id = 14;
   if (this->sheet_id() != 0) {
@@ -5046,191 +2232,6 @@ size_t ActivityShopSheetInfo::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void ActivityShopSheetInfo::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.ActivityShopSheetInfo)
-  GOOGLE_DCHECK_NE(&from, this);
-  const ActivityShopSheetInfo* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const ActivityShopSheetInfo>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.ActivityShopSheetInfo)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.ActivityShopSheetInfo)
-    MergeFrom(*source);
-  }
-}
-
-void ActivityShopSheetInfo::MergeFrom(const ActivityShopSheetInfo& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.ActivityShopSheetInfo)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.sheet_id() != 0) {
-    set_sheet_id(from.sheet_id());
-  }
-  if (from.begin_time() != 0) {
-    set_begin_time(from.begin_time());
-  }
-  if (from.end_time() != 0) {
-    set_end_time(from.end_time());
-  }
-}
-
-void ActivityShopSheetInfo::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.ActivityShopSheetInfo)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void ActivityShopSheetInfo::CopyFrom(const ActivityShopSheetInfo& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.ActivityShopSheetInfo)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool ActivityShopSheetInfo::IsInitialized() const {
-  return true;
-}
-
-void ActivityShopSheetInfo::Swap(ActivityShopSheetInfo* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void ActivityShopSheetInfo::InternalSwap(ActivityShopSheetInfo* other) {
-  using std::swap;
-  swap(sheet_id_, other->sheet_id_);
-  swap(begin_time_, other->begin_time_);
-  swap(end_time_, other->end_time_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata ActivityShopSheetInfo::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fshop_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fshop_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// ActivityShopSheetInfo
-
-// uint32 end_time = 12;
-void ActivityShopSheetInfo::clear_end_time() {
-  end_time_ = 0u;
-}
-::google::protobuf::uint32 ActivityShopSheetInfo::end_time() const {
-  // @@protoc_insertion_point(field_get:proto.ActivityShopSheetInfo.end_time)
-  return end_time_;
-}
-void ActivityShopSheetInfo::set_end_time(::google::protobuf::uint32 value) {
-  
-  end_time_ = value;
-  // @@protoc_insertion_point(field_set:proto.ActivityShopSheetInfo.end_time)
-}
-
-// uint32 begin_time = 5;
-void ActivityShopSheetInfo::clear_begin_time() {
-  begin_time_ = 0u;
-}
-::google::protobuf::uint32 ActivityShopSheetInfo::begin_time() const {
-  // @@protoc_insertion_point(field_get:proto.ActivityShopSheetInfo.begin_time)
-  return begin_time_;
-}
-void ActivityShopSheetInfo::set_begin_time(::google::protobuf::uint32 value) {
-  
-  begin_time_ = value;
-  // @@protoc_insertion_point(field_set:proto.ActivityShopSheetInfo.begin_time)
-}
-
-// uint32 sheet_id = 14;
-void ActivityShopSheetInfo::clear_sheet_id() {
-  sheet_id_ = 0u;
-}
-::google::protobuf::uint32 ActivityShopSheetInfo::sheet_id() const {
-  // @@protoc_insertion_point(field_get:proto.ActivityShopSheetInfo.sheet_id)
-  return sheet_id_;
-}
-void ActivityShopSheetInfo::set_sheet_id(::google::protobuf::uint32 value) {
-  
-  sheet_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.ActivityShopSheetInfo.sheet_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int GetActivityShopSheetInfoReq::kShopTypeFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-GetActivityShopSheetInfoReq::GetActivityShopSheetInfoReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fshop_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.GetActivityShopSheetInfoReq)
-}
-GetActivityShopSheetInfoReq::GetActivityShopSheetInfoReq(const GetActivityShopSheetInfoReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  shop_type_ = from.shop_type_;
-  // @@protoc_insertion_point(copy_constructor:proto.GetActivityShopSheetInfoReq)
-}
-
-void GetActivityShopSheetInfoReq::SharedCtor() {
-  shop_type_ = 0u;
-  _cached_size_ = 0;
-}
-
-GetActivityShopSheetInfoReq::~GetActivityShopSheetInfoReq() {
-  // @@protoc_insertion_point(destructor:proto.GetActivityShopSheetInfoReq)
-  SharedDtor();
-}
-
-void GetActivityShopSheetInfoReq::SharedDtor() {
-}
-
-void GetActivityShopSheetInfoReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* GetActivityShopSheetInfoReq::descriptor() {
-  protobuf_cmd_2fcmd_5fshop_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fshop_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const GetActivityShopSheetInfoReq& GetActivityShopSheetInfoReq::default_instance() {
-  protobuf_cmd_2fcmd_5fshop_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-GetActivityShopSheetInfoReq* GetActivityShopSheetInfoReq::New(::google::protobuf::Arena* arena) const {
-  GetActivityShopSheetInfoReq* n = new GetActivityShopSheetInfoReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void GetActivityShopSheetInfoReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.GetActivityShopSheetInfoReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  shop_type_ = 0u;
-  _internal_metadata_.Clear();
 }
 
 bool GetActivityShopSheetInfoReq::MergePartialFromCodedStream(
@@ -5263,16 +2264,18 @@ bool GetActivityShopSheetInfoReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.GetActivityShopSheetInfoReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.GetActivityShopSheetInfoReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -5288,9 +2291,9 @@ void GetActivityShopSheetInfoReq::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(14, this->shop_type(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.GetActivityShopSheetInfoReq)
 }
@@ -5307,9 +2310,9 @@ void GetActivityShopSheetInfoReq::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(14, this->shop_type(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.GetActivityShopSheetInfoReq)
   return target;
@@ -5319,10 +2322,10 @@ size_t GetActivityShopSheetInfoReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.GetActivityShopSheetInfoReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 shop_type = 14;
   if (this->shop_type() != 0) {
@@ -5336,165 +2339,6 @@ size_t GetActivityShopSheetInfoReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void GetActivityShopSheetInfoReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.GetActivityShopSheetInfoReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const GetActivityShopSheetInfoReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const GetActivityShopSheetInfoReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.GetActivityShopSheetInfoReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.GetActivityShopSheetInfoReq)
-    MergeFrom(*source);
-  }
-}
-
-void GetActivityShopSheetInfoReq::MergeFrom(const GetActivityShopSheetInfoReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.GetActivityShopSheetInfoReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.shop_type() != 0) {
-    set_shop_type(from.shop_type());
-  }
-}
-
-void GetActivityShopSheetInfoReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.GetActivityShopSheetInfoReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void GetActivityShopSheetInfoReq::CopyFrom(const GetActivityShopSheetInfoReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.GetActivityShopSheetInfoReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool GetActivityShopSheetInfoReq::IsInitialized() const {
-  return true;
-}
-
-void GetActivityShopSheetInfoReq::Swap(GetActivityShopSheetInfoReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void GetActivityShopSheetInfoReq::InternalSwap(GetActivityShopSheetInfoReq* other) {
-  using std::swap;
-  swap(shop_type_, other->shop_type_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata GetActivityShopSheetInfoReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fshop_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fshop_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// GetActivityShopSheetInfoReq
-
-// uint32 shop_type = 14;
-void GetActivityShopSheetInfoReq::clear_shop_type() {
-  shop_type_ = 0u;
-}
-::google::protobuf::uint32 GetActivityShopSheetInfoReq::shop_type() const {
-  // @@protoc_insertion_point(field_get:proto.GetActivityShopSheetInfoReq.shop_type)
-  return shop_type_;
-}
-void GetActivityShopSheetInfoReq::set_shop_type(::google::protobuf::uint32 value) {
-  
-  shop_type_ = value;
-  // @@protoc_insertion_point(field_set:proto.GetActivityShopSheetInfoReq.shop_type)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int GetActivityShopSheetInfoRsp::kSheetInfoListFieldNumber;
-const int GetActivityShopSheetInfoRsp::kShopTypeFieldNumber;
-const int GetActivityShopSheetInfoRsp::kRetcodeFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-GetActivityShopSheetInfoRsp::GetActivityShopSheetInfoRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fshop_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.GetActivityShopSheetInfoRsp)
-}
-GetActivityShopSheetInfoRsp::GetActivityShopSheetInfoRsp(const GetActivityShopSheetInfoRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      sheet_info_list_(from.sheet_info_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&retcode_, &from.retcode_,
-    static_cast<size_t>(reinterpret_cast<char*>(&shop_type_) -
-    reinterpret_cast<char*>(&retcode_)) + sizeof(shop_type_));
-  // @@protoc_insertion_point(copy_constructor:proto.GetActivityShopSheetInfoRsp)
-}
-
-void GetActivityShopSheetInfoRsp::SharedCtor() {
-  ::memset(&retcode_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&shop_type_) -
-      reinterpret_cast<char*>(&retcode_)) + sizeof(shop_type_));
-  _cached_size_ = 0;
-}
-
-GetActivityShopSheetInfoRsp::~GetActivityShopSheetInfoRsp() {
-  // @@protoc_insertion_point(destructor:proto.GetActivityShopSheetInfoRsp)
-  SharedDtor();
-}
-
-void GetActivityShopSheetInfoRsp::SharedDtor() {
-}
-
-void GetActivityShopSheetInfoRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* GetActivityShopSheetInfoRsp::descriptor() {
-  protobuf_cmd_2fcmd_5fshop_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fshop_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const GetActivityShopSheetInfoRsp& GetActivityShopSheetInfoRsp::default_instance() {
-  protobuf_cmd_2fcmd_5fshop_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-GetActivityShopSheetInfoRsp* GetActivityShopSheetInfoRsp::New(::google::protobuf::Arena* arena) const {
-  GetActivityShopSheetInfoRsp* n = new GetActivityShopSheetInfoRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void GetActivityShopSheetInfoRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.GetActivityShopSheetInfoRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  sheet_info_list_.Clear();
-  ::memset(&retcode_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&shop_type_) -
-      reinterpret_cast<char*>(&retcode_)) + sizeof(shop_type_));
-  _internal_metadata_.Clear();
 }
 
 bool GetActivityShopSheetInfoRsp::MergePartialFromCodedStream(
@@ -5553,16 +2397,18 @@ bool GetActivityShopSheetInfoRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.GetActivityShopSheetInfoRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.GetActivityShopSheetInfoRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -5590,9 +2436,9 @@ void GetActivityShopSheetInfoRsp::SerializeWithCachedSizes(
       10, this->sheet_info_list(static_cast<int>(i)), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.GetActivityShopSheetInfoRsp)
 }
@@ -5622,9 +2468,9 @@ void GetActivityShopSheetInfoRsp::SerializeWithCachedSizes(
         10, this->sheet_info_list(static_cast<int>(i)), deterministic, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.GetActivityShopSheetInfoRsp)
   return target;
@@ -5634,10 +2480,10 @@ size_t GetActivityShopSheetInfoRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.GetActivityShopSheetInfoRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated .proto.ActivityShopSheetInfo sheet_info_list = 10;
   {
@@ -5669,218 +2515,6 @@ size_t GetActivityShopSheetInfoRsp::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void GetActivityShopSheetInfoRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.GetActivityShopSheetInfoRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const GetActivityShopSheetInfoRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const GetActivityShopSheetInfoRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.GetActivityShopSheetInfoRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.GetActivityShopSheetInfoRsp)
-    MergeFrom(*source);
-  }
-}
-
-void GetActivityShopSheetInfoRsp::MergeFrom(const GetActivityShopSheetInfoRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.GetActivityShopSheetInfoRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  sheet_info_list_.MergeFrom(from.sheet_info_list_);
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-  if (from.shop_type() != 0) {
-    set_shop_type(from.shop_type());
-  }
-}
-
-void GetActivityShopSheetInfoRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.GetActivityShopSheetInfoRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void GetActivityShopSheetInfoRsp::CopyFrom(const GetActivityShopSheetInfoRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.GetActivityShopSheetInfoRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool GetActivityShopSheetInfoRsp::IsInitialized() const {
-  return true;
-}
-
-void GetActivityShopSheetInfoRsp::Swap(GetActivityShopSheetInfoRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void GetActivityShopSheetInfoRsp::InternalSwap(GetActivityShopSheetInfoRsp* other) {
-  using std::swap;
-  sheet_info_list_.InternalSwap(&other->sheet_info_list_);
-  swap(retcode_, other->retcode_);
-  swap(shop_type_, other->shop_type_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata GetActivityShopSheetInfoRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fshop_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fshop_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// GetActivityShopSheetInfoRsp
-
-// repeated .proto.ActivityShopSheetInfo sheet_info_list = 10;
-int GetActivityShopSheetInfoRsp::sheet_info_list_size() const {
-  return sheet_info_list_.size();
-}
-void GetActivityShopSheetInfoRsp::clear_sheet_info_list() {
-  sheet_info_list_.Clear();
-}
-const ::proto::ActivityShopSheetInfo& GetActivityShopSheetInfoRsp::sheet_info_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.GetActivityShopSheetInfoRsp.sheet_info_list)
-  return sheet_info_list_.Get(index);
-}
-::proto::ActivityShopSheetInfo* GetActivityShopSheetInfoRsp::mutable_sheet_info_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.GetActivityShopSheetInfoRsp.sheet_info_list)
-  return sheet_info_list_.Mutable(index);
-}
-::proto::ActivityShopSheetInfo* GetActivityShopSheetInfoRsp::add_sheet_info_list() {
-  // @@protoc_insertion_point(field_add:proto.GetActivityShopSheetInfoRsp.sheet_info_list)
-  return sheet_info_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::ActivityShopSheetInfo >*
-GetActivityShopSheetInfoRsp::mutable_sheet_info_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.GetActivityShopSheetInfoRsp.sheet_info_list)
-  return &sheet_info_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::ActivityShopSheetInfo >&
-GetActivityShopSheetInfoRsp::sheet_info_list() const {
-  // @@protoc_insertion_point(field_list:proto.GetActivityShopSheetInfoRsp.sheet_info_list)
-  return sheet_info_list_;
-}
-
-// uint32 shop_type = 7;
-void GetActivityShopSheetInfoRsp::clear_shop_type() {
-  shop_type_ = 0u;
-}
-::google::protobuf::uint32 GetActivityShopSheetInfoRsp::shop_type() const {
-  // @@protoc_insertion_point(field_get:proto.GetActivityShopSheetInfoRsp.shop_type)
-  return shop_type_;
-}
-void GetActivityShopSheetInfoRsp::set_shop_type(::google::protobuf::uint32 value) {
-  
-  shop_type_ = value;
-  // @@protoc_insertion_point(field_set:proto.GetActivityShopSheetInfoRsp.shop_type)
-}
-
-// int32 retcode = 5;
-void GetActivityShopSheetInfoRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 GetActivityShopSheetInfoRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.GetActivityShopSheetInfoRsp.retcode)
-  return retcode_;
-}
-void GetActivityShopSheetInfoRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.GetActivityShopSheetInfoRsp.retcode)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int BuyGoodsParam::kBuyCountFieldNumber;
-const int BuyGoodsParam::kGoodsFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-BuyGoodsParam::BuyGoodsParam()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fshop_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.BuyGoodsParam)
-}
-BuyGoodsParam::BuyGoodsParam(const BuyGoodsParam& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  if (from.has_goods()) {
-    goods_ = new ::proto::ShopGoods(*from.goods_);
-  } else {
-    goods_ = NULL;
-  }
-  buy_count_ = from.buy_count_;
-  // @@protoc_insertion_point(copy_constructor:proto.BuyGoodsParam)
-}
-
-void BuyGoodsParam::SharedCtor() {
-  ::memset(&goods_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&buy_count_) -
-      reinterpret_cast<char*>(&goods_)) + sizeof(buy_count_));
-  _cached_size_ = 0;
-}
-
-BuyGoodsParam::~BuyGoodsParam() {
-  // @@protoc_insertion_point(destructor:proto.BuyGoodsParam)
-  SharedDtor();
-}
-
-void BuyGoodsParam::SharedDtor() {
-  if (this != internal_default_instance()) delete goods_;
-}
-
-void BuyGoodsParam::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* BuyGoodsParam::descriptor() {
-  protobuf_cmd_2fcmd_5fshop_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fshop_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const BuyGoodsParam& BuyGoodsParam::default_instance() {
-  protobuf_cmd_2fcmd_5fshop_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-BuyGoodsParam* BuyGoodsParam::New(::google::protobuf::Arena* arena) const {
-  BuyGoodsParam* n = new BuyGoodsParam;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void BuyGoodsParam::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.BuyGoodsParam)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  if (GetArenaNoVirtual() == NULL && goods_ != NULL) {
-    delete goods_;
-  }
-  goods_ = NULL;
-  buy_count_ = 0u;
-  _internal_metadata_.Clear();
 }
 
 bool BuyGoodsParam::MergePartialFromCodedStream(
@@ -5925,16 +2559,18 @@ bool BuyGoodsParam::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.BuyGoodsParam)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.BuyGoodsParam)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -5956,9 +2592,9 @@ void BuyGoodsParam::SerializeWithCachedSizes(
       8, *this->goods_, output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.BuyGoodsParam)
 }
@@ -5982,9 +2618,9 @@ void BuyGoodsParam::SerializeWithCachedSizes(
         8, *this->goods_, deterministic, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.BuyGoodsParam)
   return target;
@@ -5994,10 +2630,10 @@ size_t BuyGoodsParam::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.BuyGoodsParam)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // .proto.ShopGoods goods = 8;
   if (this->has_goods()) {
@@ -6018,202 +2654,6 @@ size_t BuyGoodsParam::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void BuyGoodsParam::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.BuyGoodsParam)
-  GOOGLE_DCHECK_NE(&from, this);
-  const BuyGoodsParam* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const BuyGoodsParam>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.BuyGoodsParam)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.BuyGoodsParam)
-    MergeFrom(*source);
-  }
-}
-
-void BuyGoodsParam::MergeFrom(const BuyGoodsParam& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.BuyGoodsParam)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.has_goods()) {
-    mutable_goods()->::proto::ShopGoods::MergeFrom(from.goods());
-  }
-  if (from.buy_count() != 0) {
-    set_buy_count(from.buy_count());
-  }
-}
-
-void BuyGoodsParam::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.BuyGoodsParam)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void BuyGoodsParam::CopyFrom(const BuyGoodsParam& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.BuyGoodsParam)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool BuyGoodsParam::IsInitialized() const {
-  return true;
-}
-
-void BuyGoodsParam::Swap(BuyGoodsParam* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void BuyGoodsParam::InternalSwap(BuyGoodsParam* other) {
-  using std::swap;
-  swap(goods_, other->goods_);
-  swap(buy_count_, other->buy_count_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata BuyGoodsParam::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fshop_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fshop_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// BuyGoodsParam
-
-// uint32 buy_count = 3;
-void BuyGoodsParam::clear_buy_count() {
-  buy_count_ = 0u;
-}
-::google::protobuf::uint32 BuyGoodsParam::buy_count() const {
-  // @@protoc_insertion_point(field_get:proto.BuyGoodsParam.buy_count)
-  return buy_count_;
-}
-void BuyGoodsParam::set_buy_count(::google::protobuf::uint32 value) {
-  
-  buy_count_ = value;
-  // @@protoc_insertion_point(field_set:proto.BuyGoodsParam.buy_count)
-}
-
-// .proto.ShopGoods goods = 8;
-bool BuyGoodsParam::has_goods() const {
-  return this != internal_default_instance() && goods_ != NULL;
-}
-void BuyGoodsParam::clear_goods() {
-  if (GetArenaNoVirtual() == NULL && goods_ != NULL) delete goods_;
-  goods_ = NULL;
-}
-const ::proto::ShopGoods& BuyGoodsParam::goods() const {
-  const ::proto::ShopGoods* p = goods_;
-  // @@protoc_insertion_point(field_get:proto.BuyGoodsParam.goods)
-  return p != NULL ? *p : *reinterpret_cast<const ::proto::ShopGoods*>(
-      &::proto::_ShopGoods_default_instance_);
-}
-::proto::ShopGoods* BuyGoodsParam::mutable_goods() {
-  
-  if (goods_ == NULL) {
-    goods_ = new ::proto::ShopGoods;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.BuyGoodsParam.goods)
-  return goods_;
-}
-::proto::ShopGoods* BuyGoodsParam::release_goods() {
-  // @@protoc_insertion_point(field_release:proto.BuyGoodsParam.goods)
-  
-  ::proto::ShopGoods* temp = goods_;
-  goods_ = NULL;
-  return temp;
-}
-void BuyGoodsParam::set_allocated_goods(::proto::ShopGoods* goods) {
-  delete goods_;
-  goods_ = goods;
-  if (goods) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.BuyGoodsParam.goods)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int BatchBuyGoodsReq::kShopTypeFieldNumber;
-const int BatchBuyGoodsReq::kBuyGoodsListFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-BatchBuyGoodsReq::BatchBuyGoodsReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fshop_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.BatchBuyGoodsReq)
-}
-BatchBuyGoodsReq::BatchBuyGoodsReq(const BatchBuyGoodsReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      buy_goods_list_(from.buy_goods_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  shop_type_ = from.shop_type_;
-  // @@protoc_insertion_point(copy_constructor:proto.BatchBuyGoodsReq)
-}
-
-void BatchBuyGoodsReq::SharedCtor() {
-  shop_type_ = 0u;
-  _cached_size_ = 0;
-}
-
-BatchBuyGoodsReq::~BatchBuyGoodsReq() {
-  // @@protoc_insertion_point(destructor:proto.BatchBuyGoodsReq)
-  SharedDtor();
-}
-
-void BatchBuyGoodsReq::SharedDtor() {
-}
-
-void BatchBuyGoodsReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* BatchBuyGoodsReq::descriptor() {
-  protobuf_cmd_2fcmd_5fshop_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fshop_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const BatchBuyGoodsReq& BatchBuyGoodsReq::default_instance() {
-  protobuf_cmd_2fcmd_5fshop_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-BatchBuyGoodsReq* BatchBuyGoodsReq::New(::google::protobuf::Arena* arena) const {
-  BatchBuyGoodsReq* n = new BatchBuyGoodsReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void BatchBuyGoodsReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.BatchBuyGoodsReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  buy_goods_list_.Clear();
-  shop_type_ = 0u;
-  _internal_metadata_.Clear();
 }
 
 bool BatchBuyGoodsReq::MergePartialFromCodedStream(
@@ -6258,16 +2698,18 @@ bool BatchBuyGoodsReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.BatchBuyGoodsReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.BatchBuyGoodsReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -6290,9 +2732,9 @@ void BatchBuyGoodsReq::SerializeWithCachedSizes(
       5, this->buy_goods_list(static_cast<int>(i)), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.BatchBuyGoodsReq)
 }
@@ -6317,9 +2759,9 @@ void BatchBuyGoodsReq::SerializeWithCachedSizes(
         5, this->buy_goods_list(static_cast<int>(i)), deterministic, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.BatchBuyGoodsReq)
   return target;
@@ -6329,10 +2771,10 @@ size_t BatchBuyGoodsReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.BatchBuyGoodsReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated .proto.BuyGoodsParam buy_goods_list = 5;
   {
@@ -6357,200 +2799,6 @@ size_t BatchBuyGoodsReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void BatchBuyGoodsReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.BatchBuyGoodsReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const BatchBuyGoodsReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const BatchBuyGoodsReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.BatchBuyGoodsReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.BatchBuyGoodsReq)
-    MergeFrom(*source);
-  }
-}
-
-void BatchBuyGoodsReq::MergeFrom(const BatchBuyGoodsReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.BatchBuyGoodsReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  buy_goods_list_.MergeFrom(from.buy_goods_list_);
-  if (from.shop_type() != 0) {
-    set_shop_type(from.shop_type());
-  }
-}
-
-void BatchBuyGoodsReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.BatchBuyGoodsReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void BatchBuyGoodsReq::CopyFrom(const BatchBuyGoodsReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.BatchBuyGoodsReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool BatchBuyGoodsReq::IsInitialized() const {
-  return true;
-}
-
-void BatchBuyGoodsReq::Swap(BatchBuyGoodsReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void BatchBuyGoodsReq::InternalSwap(BatchBuyGoodsReq* other) {
-  using std::swap;
-  buy_goods_list_.InternalSwap(&other->buy_goods_list_);
-  swap(shop_type_, other->shop_type_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata BatchBuyGoodsReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fshop_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fshop_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// BatchBuyGoodsReq
-
-// uint32 shop_type = 3;
-void BatchBuyGoodsReq::clear_shop_type() {
-  shop_type_ = 0u;
-}
-::google::protobuf::uint32 BatchBuyGoodsReq::shop_type() const {
-  // @@protoc_insertion_point(field_get:proto.BatchBuyGoodsReq.shop_type)
-  return shop_type_;
-}
-void BatchBuyGoodsReq::set_shop_type(::google::protobuf::uint32 value) {
-  
-  shop_type_ = value;
-  // @@protoc_insertion_point(field_set:proto.BatchBuyGoodsReq.shop_type)
-}
-
-// repeated .proto.BuyGoodsParam buy_goods_list = 5;
-int BatchBuyGoodsReq::buy_goods_list_size() const {
-  return buy_goods_list_.size();
-}
-void BatchBuyGoodsReq::clear_buy_goods_list() {
-  buy_goods_list_.Clear();
-}
-const ::proto::BuyGoodsParam& BatchBuyGoodsReq::buy_goods_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.BatchBuyGoodsReq.buy_goods_list)
-  return buy_goods_list_.Get(index);
-}
-::proto::BuyGoodsParam* BatchBuyGoodsReq::mutable_buy_goods_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.BatchBuyGoodsReq.buy_goods_list)
-  return buy_goods_list_.Mutable(index);
-}
-::proto::BuyGoodsParam* BatchBuyGoodsReq::add_buy_goods_list() {
-  // @@protoc_insertion_point(field_add:proto.BatchBuyGoodsReq.buy_goods_list)
-  return buy_goods_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::BuyGoodsParam >*
-BatchBuyGoodsReq::mutable_buy_goods_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.BatchBuyGoodsReq.buy_goods_list)
-  return &buy_goods_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::BuyGoodsParam >&
-BatchBuyGoodsReq::buy_goods_list() const {
-  // @@protoc_insertion_point(field_list:proto.BatchBuyGoodsReq.buy_goods_list)
-  return buy_goods_list_;
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int BatchBuyGoodsRsp::kGoodsListFieldNumber;
-const int BatchBuyGoodsRsp::kRetcodeFieldNumber;
-const int BatchBuyGoodsRsp::kBuyGoodsListFieldNumber;
-const int BatchBuyGoodsRsp::kShopTypeFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-BatchBuyGoodsRsp::BatchBuyGoodsRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fshop_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.BatchBuyGoodsRsp)
-}
-BatchBuyGoodsRsp::BatchBuyGoodsRsp(const BatchBuyGoodsRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      buy_goods_list_(from.buy_goods_list_),
-      goods_list_(from.goods_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&retcode_, &from.retcode_,
-    static_cast<size_t>(reinterpret_cast<char*>(&shop_type_) -
-    reinterpret_cast<char*>(&retcode_)) + sizeof(shop_type_));
-  // @@protoc_insertion_point(copy_constructor:proto.BatchBuyGoodsRsp)
-}
-
-void BatchBuyGoodsRsp::SharedCtor() {
-  ::memset(&retcode_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&shop_type_) -
-      reinterpret_cast<char*>(&retcode_)) + sizeof(shop_type_));
-  _cached_size_ = 0;
-}
-
-BatchBuyGoodsRsp::~BatchBuyGoodsRsp() {
-  // @@protoc_insertion_point(destructor:proto.BatchBuyGoodsRsp)
-  SharedDtor();
-}
-
-void BatchBuyGoodsRsp::SharedDtor() {
-}
-
-void BatchBuyGoodsRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* BatchBuyGoodsRsp::descriptor() {
-  protobuf_cmd_2fcmd_5fshop_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fshop_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const BatchBuyGoodsRsp& BatchBuyGoodsRsp::default_instance() {
-  protobuf_cmd_2fcmd_5fshop_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-BatchBuyGoodsRsp* BatchBuyGoodsRsp::New(::google::protobuf::Arena* arena) const {
-  BatchBuyGoodsRsp* n = new BatchBuyGoodsRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void BatchBuyGoodsRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.BatchBuyGoodsRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  buy_goods_list_.Clear();
-  goods_list_.Clear();
-  ::memset(&retcode_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&shop_type_) -
-      reinterpret_cast<char*>(&retcode_)) + sizeof(shop_type_));
-  _internal_metadata_.Clear();
 }
 
 bool BatchBuyGoodsRsp::MergePartialFromCodedStream(
@@ -6621,16 +2869,18 @@ bool BatchBuyGoodsRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.BatchBuyGoodsRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.BatchBuyGoodsRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -6665,9 +2915,9 @@ void BatchBuyGoodsRsp::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(14, this->shop_type(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.BatchBuyGoodsRsp)
 }
@@ -6705,9 +2955,9 @@ void BatchBuyGoodsRsp::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(14, this->shop_type(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.BatchBuyGoodsRsp)
   return target;
@@ -6717,10 +2967,10 @@ size_t BatchBuyGoodsRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.BatchBuyGoodsRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated .proto.BuyGoodsParam buy_goods_list = 3;
   {
@@ -6764,168 +3014,6 @@ size_t BatchBuyGoodsRsp::ByteSizeLong() const {
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
 }
-
-void BatchBuyGoodsRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.BatchBuyGoodsRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const BatchBuyGoodsRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const BatchBuyGoodsRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.BatchBuyGoodsRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.BatchBuyGoodsRsp)
-    MergeFrom(*source);
-  }
-}
-
-void BatchBuyGoodsRsp::MergeFrom(const BatchBuyGoodsRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.BatchBuyGoodsRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  buy_goods_list_.MergeFrom(from.buy_goods_list_);
-  goods_list_.MergeFrom(from.goods_list_);
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-  if (from.shop_type() != 0) {
-    set_shop_type(from.shop_type());
-  }
-}
-
-void BatchBuyGoodsRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.BatchBuyGoodsRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void BatchBuyGoodsRsp::CopyFrom(const BatchBuyGoodsRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.BatchBuyGoodsRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool BatchBuyGoodsRsp::IsInitialized() const {
-  return true;
-}
-
-void BatchBuyGoodsRsp::Swap(BatchBuyGoodsRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void BatchBuyGoodsRsp::InternalSwap(BatchBuyGoodsRsp* other) {
-  using std::swap;
-  buy_goods_list_.InternalSwap(&other->buy_goods_list_);
-  goods_list_.InternalSwap(&other->goods_list_);
-  swap(retcode_, other->retcode_);
-  swap(shop_type_, other->shop_type_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata BatchBuyGoodsRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fshop_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fshop_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// BatchBuyGoodsRsp
-
-// repeated .proto.ShopGoods goods_list = 11;
-int BatchBuyGoodsRsp::goods_list_size() const {
-  return goods_list_.size();
-}
-void BatchBuyGoodsRsp::clear_goods_list() {
-  goods_list_.Clear();
-}
-const ::proto::ShopGoods& BatchBuyGoodsRsp::goods_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.BatchBuyGoodsRsp.goods_list)
-  return goods_list_.Get(index);
-}
-::proto::ShopGoods* BatchBuyGoodsRsp::mutable_goods_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.BatchBuyGoodsRsp.goods_list)
-  return goods_list_.Mutable(index);
-}
-::proto::ShopGoods* BatchBuyGoodsRsp::add_goods_list() {
-  // @@protoc_insertion_point(field_add:proto.BatchBuyGoodsRsp.goods_list)
-  return goods_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::ShopGoods >*
-BatchBuyGoodsRsp::mutable_goods_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.BatchBuyGoodsRsp.goods_list)
-  return &goods_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::ShopGoods >&
-BatchBuyGoodsRsp::goods_list() const {
-  // @@protoc_insertion_point(field_list:proto.BatchBuyGoodsRsp.goods_list)
-  return goods_list_;
-}
-
-// int32 retcode = 5;
-void BatchBuyGoodsRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 BatchBuyGoodsRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.BatchBuyGoodsRsp.retcode)
-  return retcode_;
-}
-void BatchBuyGoodsRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.BatchBuyGoodsRsp.retcode)
-}
-
-// repeated .proto.BuyGoodsParam buy_goods_list = 3;
-int BatchBuyGoodsRsp::buy_goods_list_size() const {
-  return buy_goods_list_.size();
-}
-void BatchBuyGoodsRsp::clear_buy_goods_list() {
-  buy_goods_list_.Clear();
-}
-const ::proto::BuyGoodsParam& BatchBuyGoodsRsp::buy_goods_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.BatchBuyGoodsRsp.buy_goods_list)
-  return buy_goods_list_.Get(index);
-}
-::proto::BuyGoodsParam* BatchBuyGoodsRsp::mutable_buy_goods_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.BatchBuyGoodsRsp.buy_goods_list)
-  return buy_goods_list_.Mutable(index);
-}
-::proto::BuyGoodsParam* BatchBuyGoodsRsp::add_buy_goods_list() {
-  // @@protoc_insertion_point(field_add:proto.BatchBuyGoodsRsp.buy_goods_list)
-  return buy_goods_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::BuyGoodsParam >*
-BatchBuyGoodsRsp::mutable_buy_goods_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.BatchBuyGoodsRsp.buy_goods_list)
-  return &buy_goods_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::BuyGoodsParam >&
-BatchBuyGoodsRsp::buy_goods_list() const {
-  // @@protoc_insertion_point(field_list:proto.BatchBuyGoodsRsp.buy_goods_list)
-  return buy_goods_list_;
-}
-
-// uint32 shop_type = 14;
-void BatchBuyGoodsRsp::clear_shop_type() {
-  shop_type_ = 0u;
-}
-::google::protobuf::uint32 BatchBuyGoodsRsp::shop_type() const {
-  // @@protoc_insertion_point(field_get:proto.BatchBuyGoodsRsp.shop_type)
-  return shop_type_;
-}
-void BatchBuyGoodsRsp::set_shop_type(::google::protobuf::uint32 value) {
-  
-  shop_type_ = value;
-  // @@protoc_insertion_point(field_set:proto.BatchBuyGoodsRsp.shop_type)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
 
 // @@protoc_insertion_point(namespace_scope)
 

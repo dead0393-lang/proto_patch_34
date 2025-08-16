@@ -44,369 +44,6 @@ public:
      _instance;
 } _GroupLinkMarkUpdateNotify_default_instance_;
 
-namespace protobuf_cmd_2fcmd_5fgroup_5flink_2eproto {
-
-
-namespace {
-
-::google::protobuf::Metadata file_level_metadata[5];
-const ::google::protobuf::EnumDescriptor* file_level_enum_descriptors[4];
-
-}  // namespace
-
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::ParseTableField
-    const TableStruct::entries[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  {0, 0, 0, ::google::protobuf::internal::kInvalidMask, 0, 0},
-};
-
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::AuxillaryParseTableField
-    const TableStruct::aux[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  ::google::protobuf::internal::AuxillaryParseTableField(),
-};
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::ParseTable const
-    TableStruct::schema[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-};
-
-const ::google::protobuf::uint32 TableStruct::offsets[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GroupLinkBundle, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GroupLinkBundle, center_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GroupLinkBundle, is_activated_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GroupLinkBundle, bundle_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GroupLinkBundle, is_show_mark_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GroupLinkBundle, scene_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GroupLinkBundle, radius_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GroupLinkAllNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GroupLinkAllNotify, bundle_list_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GroupLinkChangeNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GroupLinkChangeNotify, bundle_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GroupLinkDeleteNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GroupLinkDeleteNotify, bundle_id_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GroupLinkMarkUpdateNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GroupLinkMarkUpdateNotify, bundle_),
-};
-static const ::google::protobuf::internal::MigrationSchema schemas[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  { 0, -1, sizeof(GroupLinkBundle)},
-  { 11, -1, sizeof(GroupLinkAllNotify)},
-  { 17, -1, sizeof(GroupLinkChangeNotify)},
-  { 23, -1, sizeof(GroupLinkDeleteNotify)},
-  { 29, -1, sizeof(GroupLinkMarkUpdateNotify)},
-};
-
-static ::google::protobuf::Message const * const file_default_instances[] = {
-  reinterpret_cast<const ::google::protobuf::Message*>(&_GroupLinkBundle_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_GroupLinkAllNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_GroupLinkChangeNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_GroupLinkDeleteNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_GroupLinkMarkUpdateNotify_default_instance_),
-};
-
-namespace {
-
-void protobuf_AssignDescriptors() {
-  AddDescriptors();
-  ::google::protobuf::MessageFactory* factory = NULL;
-  AssignDescriptors(
-      "cmd/cmd_group_link.proto", schemas, file_default_instances, TableStruct::offsets, factory,
-      file_level_metadata, file_level_enum_descriptors, NULL);
-}
-
-void protobuf_AssignDescriptorsOnce() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &protobuf_AssignDescriptors);
-}
-
-void protobuf_RegisterTypes(const ::std::string&) GOOGLE_ATTRIBUTE_COLD;
-void protobuf_RegisterTypes(const ::std::string&) {
-  protobuf_AssignDescriptorsOnce();
-  ::google::protobuf::internal::RegisterAllTypes(file_level_metadata, 5);
-}
-
-}  // namespace
-void TableStruct::InitDefaultsImpl() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
-
-  ::google::protobuf::internal::InitProtobufDefaults();
-  ::proto::protobuf_define_2eproto::InitDefaults();
-  _GroupLinkBundle_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_GroupLinkBundle_default_instance_);_GroupLinkAllNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_GroupLinkAllNotify_default_instance_);_GroupLinkChangeNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_GroupLinkChangeNotify_default_instance_);_GroupLinkDeleteNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_GroupLinkDeleteNotify_default_instance_);_GroupLinkMarkUpdateNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_GroupLinkMarkUpdateNotify_default_instance_);_GroupLinkBundle_default_instance_._instance.get_mutable()->center_ = const_cast< ::proto::Vector*>(
-      ::proto::Vector::internal_default_instance());
-  _GroupLinkChangeNotify_default_instance_._instance.get_mutable()->bundle_ = const_cast< ::proto::GroupLinkBundle*>(
-      ::proto::GroupLinkBundle::internal_default_instance());
-  _GroupLinkMarkUpdateNotify_default_instance_._instance.get_mutable()->bundle_ = const_cast< ::proto::GroupLinkBundle*>(
-      ::proto::GroupLinkBundle::internal_default_instance());
-}
-
-void InitDefaults() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &TableStruct::InitDefaultsImpl);
-}
-namespace {
-void AddDescriptorsImpl() {
-  InitDefaults();
-  static const char descriptor[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-      "\n\030cmd/cmd_group_link.proto\022\005proto\032\014defin"
-      "e.proto\"\221\001\n\017GroupLinkBundle\022\035\n\006center\030\006 "
-      "\001(\0132\r.proto.Vector\022\024\n\014is_activated\030\007 \001(\010"
-      "\022\021\n\tbundle_id\030\t \001(\r\022\024\n\014is_show_mark\030\014 \001("
-      "\010\022\020\n\010scene_id\030\010 \001(\r\022\016\n\006radius\030\r \001(\r\"\220\001\n\022"
-      "GroupLinkAllNotify\022+\n\013bundle_list\030\017 \003(\0132"
-      "\026.proto.GroupLinkBundle\"M\n\005CmdId\022\010\n\004NONE"
-      "\020\000\022\013\n\006CMD_ID\020\234-\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020"
-      "ENET_IS_RELIABLE\020\001\032\002\020\001\"\216\001\n\025GroupLinkChan"
-      "geNotify\022&\n\006bundle\030\002 \001(\0132\026.proto.GroupLi"
-      "nkBundle\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\243-"
-      "\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABL"
-      "E\020\001\032\002\020\001\"y\n\025GroupLinkDeleteNotify\022\021\n\tbund"
-      "le_id\030\r \001(\r\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID"
-      "\020\244-\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELI"
-      "ABLE\020\001\032\002\020\001\"\222\001\n\031GroupLinkMarkUpdateNotify"
-      "\022&\n\006bundle\030\007 \001(\0132\026.proto.GroupLinkBundle"
-      "\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\237-\022\023\n\017ENET"
-      "_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001B"
-      "\nZ\010./;protob\006proto3"
-  };
-  ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-      descriptor, 779);
-  ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
-    "cmd/cmd_group_link.proto", &protobuf_RegisterTypes);
-  ::proto::protobuf_define_2eproto::AddDescriptors();
-}
-} // anonymous namespace
-
-void AddDescriptors() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &AddDescriptorsImpl);
-}
-// Force AddDescriptors() to be called at dynamic initialization time.
-struct StaticDescriptorInitializer {
-  StaticDescriptorInitializer() {
-    AddDescriptors();
-  }
-} static_descriptor_initializer;
-
-}  // namespace protobuf_cmd_2fcmd_5fgroup_5flink_2eproto
-
-const ::google::protobuf::EnumDescriptor* GroupLinkAllNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fgroup_5flink_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fgroup_5flink_2eproto::file_level_enum_descriptors[0];
-}
-bool GroupLinkAllNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 5788:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const GroupLinkAllNotify_CmdId GroupLinkAllNotify::NONE;
-const GroupLinkAllNotify_CmdId GroupLinkAllNotify::CMD_ID;
-const GroupLinkAllNotify_CmdId GroupLinkAllNotify::ENET_CHANNEL_ID;
-const GroupLinkAllNotify_CmdId GroupLinkAllNotify::ENET_IS_RELIABLE;
-const GroupLinkAllNotify_CmdId GroupLinkAllNotify::CmdId_MIN;
-const GroupLinkAllNotify_CmdId GroupLinkAllNotify::CmdId_MAX;
-const int GroupLinkAllNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* GroupLinkChangeNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fgroup_5flink_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fgroup_5flink_2eproto::file_level_enum_descriptors[1];
-}
-bool GroupLinkChangeNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 5795:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const GroupLinkChangeNotify_CmdId GroupLinkChangeNotify::NONE;
-const GroupLinkChangeNotify_CmdId GroupLinkChangeNotify::CMD_ID;
-const GroupLinkChangeNotify_CmdId GroupLinkChangeNotify::ENET_CHANNEL_ID;
-const GroupLinkChangeNotify_CmdId GroupLinkChangeNotify::ENET_IS_RELIABLE;
-const GroupLinkChangeNotify_CmdId GroupLinkChangeNotify::CmdId_MIN;
-const GroupLinkChangeNotify_CmdId GroupLinkChangeNotify::CmdId_MAX;
-const int GroupLinkChangeNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* GroupLinkDeleteNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fgroup_5flink_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fgroup_5flink_2eproto::file_level_enum_descriptors[2];
-}
-bool GroupLinkDeleteNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 5796:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const GroupLinkDeleteNotify_CmdId GroupLinkDeleteNotify::NONE;
-const GroupLinkDeleteNotify_CmdId GroupLinkDeleteNotify::CMD_ID;
-const GroupLinkDeleteNotify_CmdId GroupLinkDeleteNotify::ENET_CHANNEL_ID;
-const GroupLinkDeleteNotify_CmdId GroupLinkDeleteNotify::ENET_IS_RELIABLE;
-const GroupLinkDeleteNotify_CmdId GroupLinkDeleteNotify::CmdId_MIN;
-const GroupLinkDeleteNotify_CmdId GroupLinkDeleteNotify::CmdId_MAX;
-const int GroupLinkDeleteNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* GroupLinkMarkUpdateNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fgroup_5flink_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fgroup_5flink_2eproto::file_level_enum_descriptors[3];
-}
-bool GroupLinkMarkUpdateNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 5791:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const GroupLinkMarkUpdateNotify_CmdId GroupLinkMarkUpdateNotify::NONE;
-const GroupLinkMarkUpdateNotify_CmdId GroupLinkMarkUpdateNotify::CMD_ID;
-const GroupLinkMarkUpdateNotify_CmdId GroupLinkMarkUpdateNotify::ENET_CHANNEL_ID;
-const GroupLinkMarkUpdateNotify_CmdId GroupLinkMarkUpdateNotify::ENET_IS_RELIABLE;
-const GroupLinkMarkUpdateNotify_CmdId GroupLinkMarkUpdateNotify::CmdId_MIN;
-const GroupLinkMarkUpdateNotify_CmdId GroupLinkMarkUpdateNotify::CmdId_MAX;
-const int GroupLinkMarkUpdateNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int GroupLinkBundle::kCenterFieldNumber;
-const int GroupLinkBundle::kIsActivatedFieldNumber;
-const int GroupLinkBundle::kBundleIdFieldNumber;
-const int GroupLinkBundle::kIsShowMarkFieldNumber;
-const int GroupLinkBundle::kSceneIdFieldNumber;
-const int GroupLinkBundle::kRadiusFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-GroupLinkBundle::GroupLinkBundle()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fgroup_5flink_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.GroupLinkBundle)
-}
-GroupLinkBundle::GroupLinkBundle(const GroupLinkBundle& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  if (from.has_center()) {
-    center_ = new ::proto::Vector(*from.center_);
-  } else {
-    center_ = NULL;
-  }
-  ::memcpy(&scene_id_, &from.scene_id_,
-    static_cast<size_t>(reinterpret_cast<char*>(&radius_) -
-    reinterpret_cast<char*>(&scene_id_)) + sizeof(radius_));
-  // @@protoc_insertion_point(copy_constructor:proto.GroupLinkBundle)
-}
-
-void GroupLinkBundle::SharedCtor() {
-  ::memset(&center_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&radius_) -
-      reinterpret_cast<char*>(&center_)) + sizeof(radius_));
-  _cached_size_ = 0;
-}
-
-GroupLinkBundle::~GroupLinkBundle() {
-  // @@protoc_insertion_point(destructor:proto.GroupLinkBundle)
-  SharedDtor();
-}
-
-void GroupLinkBundle::SharedDtor() {
-  if (this != internal_default_instance()) delete center_;
-}
-
-void GroupLinkBundle::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* GroupLinkBundle::descriptor() {
-  protobuf_cmd_2fcmd_5fgroup_5flink_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fgroup_5flink_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const GroupLinkBundle& GroupLinkBundle::default_instance() {
-  protobuf_cmd_2fcmd_5fgroup_5flink_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-GroupLinkBundle* GroupLinkBundle::New(::google::protobuf::Arena* arena) const {
-  GroupLinkBundle* n = new GroupLinkBundle;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void GroupLinkBundle::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.GroupLinkBundle)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  if (GetArenaNoVirtual() == NULL && center_ != NULL) {
-    delete center_;
-  }
-  center_ = NULL;
-  ::memset(&scene_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&radius_) -
-      reinterpret_cast<char*>(&scene_id_)) + sizeof(radius_));
-  _internal_metadata_.Clear();
-}
-
 bool GroupLinkBundle::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -505,16 +142,18 @@ bool GroupLinkBundle::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.GroupLinkBundle)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.GroupLinkBundle)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -556,9 +195,9 @@ void GroupLinkBundle::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(13, this->radius(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.GroupLinkBundle)
 }
@@ -602,9 +241,9 @@ void GroupLinkBundle::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(13, this->radius(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.GroupLinkBundle)
   return target;
@@ -614,10 +253,10 @@ size_t GroupLinkBundle::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.GroupLinkBundle)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // .proto.Vector center = 6;
   if (this->has_center()) {
@@ -664,270 +303,6 @@ size_t GroupLinkBundle::ByteSizeLong() const {
   return total_size;
 }
 
-void GroupLinkBundle::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.GroupLinkBundle)
-  GOOGLE_DCHECK_NE(&from, this);
-  const GroupLinkBundle* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const GroupLinkBundle>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.GroupLinkBundle)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.GroupLinkBundle)
-    MergeFrom(*source);
-  }
-}
-
-void GroupLinkBundle::MergeFrom(const GroupLinkBundle& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.GroupLinkBundle)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.has_center()) {
-    mutable_center()->::proto::Vector::MergeFrom(from.center());
-  }
-  if (from.scene_id() != 0) {
-    set_scene_id(from.scene_id());
-  }
-  if (from.bundle_id() != 0) {
-    set_bundle_id(from.bundle_id());
-  }
-  if (from.is_activated() != 0) {
-    set_is_activated(from.is_activated());
-  }
-  if (from.is_show_mark() != 0) {
-    set_is_show_mark(from.is_show_mark());
-  }
-  if (from.radius() != 0) {
-    set_radius(from.radius());
-  }
-}
-
-void GroupLinkBundle::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.GroupLinkBundle)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void GroupLinkBundle::CopyFrom(const GroupLinkBundle& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.GroupLinkBundle)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool GroupLinkBundle::IsInitialized() const {
-  return true;
-}
-
-void GroupLinkBundle::Swap(GroupLinkBundle* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void GroupLinkBundle::InternalSwap(GroupLinkBundle* other) {
-  using std::swap;
-  swap(center_, other->center_);
-  swap(scene_id_, other->scene_id_);
-  swap(bundle_id_, other->bundle_id_);
-  swap(is_activated_, other->is_activated_);
-  swap(is_show_mark_, other->is_show_mark_);
-  swap(radius_, other->radius_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata GroupLinkBundle::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fgroup_5flink_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fgroup_5flink_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// GroupLinkBundle
-
-// .proto.Vector center = 6;
-bool GroupLinkBundle::has_center() const {
-  return this != internal_default_instance() && center_ != NULL;
-}
-void GroupLinkBundle::clear_center() {
-  if (GetArenaNoVirtual() == NULL && center_ != NULL) delete center_;
-  center_ = NULL;
-}
-const ::proto::Vector& GroupLinkBundle::center() const {
-  const ::proto::Vector* p = center_;
-  // @@protoc_insertion_point(field_get:proto.GroupLinkBundle.center)
-  return p != NULL ? *p : *reinterpret_cast<const ::proto::Vector*>(
-      &::proto::_Vector_default_instance_);
-}
-::proto::Vector* GroupLinkBundle::mutable_center() {
-  
-  if (center_ == NULL) {
-    center_ = new ::proto::Vector;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.GroupLinkBundle.center)
-  return center_;
-}
-::proto::Vector* GroupLinkBundle::release_center() {
-  // @@protoc_insertion_point(field_release:proto.GroupLinkBundle.center)
-  
-  ::proto::Vector* temp = center_;
-  center_ = NULL;
-  return temp;
-}
-void GroupLinkBundle::set_allocated_center(::proto::Vector* center) {
-  delete center_;
-  center_ = center;
-  if (center) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.GroupLinkBundle.center)
-}
-
-// bool is_activated = 7;
-void GroupLinkBundle::clear_is_activated() {
-  is_activated_ = false;
-}
-bool GroupLinkBundle::is_activated() const {
-  // @@protoc_insertion_point(field_get:proto.GroupLinkBundle.is_activated)
-  return is_activated_;
-}
-void GroupLinkBundle::set_is_activated(bool value) {
-  
-  is_activated_ = value;
-  // @@protoc_insertion_point(field_set:proto.GroupLinkBundle.is_activated)
-}
-
-// uint32 bundle_id = 9;
-void GroupLinkBundle::clear_bundle_id() {
-  bundle_id_ = 0u;
-}
-::google::protobuf::uint32 GroupLinkBundle::bundle_id() const {
-  // @@protoc_insertion_point(field_get:proto.GroupLinkBundle.bundle_id)
-  return bundle_id_;
-}
-void GroupLinkBundle::set_bundle_id(::google::protobuf::uint32 value) {
-  
-  bundle_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.GroupLinkBundle.bundle_id)
-}
-
-// bool is_show_mark = 12;
-void GroupLinkBundle::clear_is_show_mark() {
-  is_show_mark_ = false;
-}
-bool GroupLinkBundle::is_show_mark() const {
-  // @@protoc_insertion_point(field_get:proto.GroupLinkBundle.is_show_mark)
-  return is_show_mark_;
-}
-void GroupLinkBundle::set_is_show_mark(bool value) {
-  
-  is_show_mark_ = value;
-  // @@protoc_insertion_point(field_set:proto.GroupLinkBundle.is_show_mark)
-}
-
-// uint32 scene_id = 8;
-void GroupLinkBundle::clear_scene_id() {
-  scene_id_ = 0u;
-}
-::google::protobuf::uint32 GroupLinkBundle::scene_id() const {
-  // @@protoc_insertion_point(field_get:proto.GroupLinkBundle.scene_id)
-  return scene_id_;
-}
-void GroupLinkBundle::set_scene_id(::google::protobuf::uint32 value) {
-  
-  scene_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.GroupLinkBundle.scene_id)
-}
-
-// uint32 radius = 13;
-void GroupLinkBundle::clear_radius() {
-  radius_ = 0u;
-}
-::google::protobuf::uint32 GroupLinkBundle::radius() const {
-  // @@protoc_insertion_point(field_get:proto.GroupLinkBundle.radius)
-  return radius_;
-}
-void GroupLinkBundle::set_radius(::google::protobuf::uint32 value) {
-  
-  radius_ = value;
-  // @@protoc_insertion_point(field_set:proto.GroupLinkBundle.radius)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int GroupLinkAllNotify::kBundleListFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-GroupLinkAllNotify::GroupLinkAllNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fgroup_5flink_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.GroupLinkAllNotify)
-}
-GroupLinkAllNotify::GroupLinkAllNotify(const GroupLinkAllNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      bundle_list_(from.bundle_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  // @@protoc_insertion_point(copy_constructor:proto.GroupLinkAllNotify)
-}
-
-void GroupLinkAllNotify::SharedCtor() {
-  _cached_size_ = 0;
-}
-
-GroupLinkAllNotify::~GroupLinkAllNotify() {
-  // @@protoc_insertion_point(destructor:proto.GroupLinkAllNotify)
-  SharedDtor();
-}
-
-void GroupLinkAllNotify::SharedDtor() {
-}
-
-void GroupLinkAllNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* GroupLinkAllNotify::descriptor() {
-  protobuf_cmd_2fcmd_5fgroup_5flink_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fgroup_5flink_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const GroupLinkAllNotify& GroupLinkAllNotify::default_instance() {
-  protobuf_cmd_2fcmd_5fgroup_5flink_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-GroupLinkAllNotify* GroupLinkAllNotify::New(::google::protobuf::Arena* arena) const {
-  GroupLinkAllNotify* n = new GroupLinkAllNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void GroupLinkAllNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.GroupLinkAllNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  bundle_list_.Clear();
-  _internal_metadata_.Clear();
-}
-
 bool GroupLinkAllNotify::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -956,16 +331,18 @@ bool GroupLinkAllNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.GroupLinkAllNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.GroupLinkAllNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -983,9 +360,9 @@ void GroupLinkAllNotify::SerializeWithCachedSizes(
       15, this->bundle_list(static_cast<int>(i)), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.GroupLinkAllNotify)
 }
@@ -1005,9 +382,9 @@ void GroupLinkAllNotify::SerializeWithCachedSizes(
         15, this->bundle_list(static_cast<int>(i)), deterministic, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.GroupLinkAllNotify)
   return target;
@@ -1017,10 +394,10 @@ size_t GroupLinkAllNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.GroupLinkAllNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated .proto.GroupLinkBundle bundle_list = 15;
   {
@@ -1038,177 +415,6 @@ size_t GroupLinkAllNotify::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void GroupLinkAllNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.GroupLinkAllNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const GroupLinkAllNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const GroupLinkAllNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.GroupLinkAllNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.GroupLinkAllNotify)
-    MergeFrom(*source);
-  }
-}
-
-void GroupLinkAllNotify::MergeFrom(const GroupLinkAllNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.GroupLinkAllNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  bundle_list_.MergeFrom(from.bundle_list_);
-}
-
-void GroupLinkAllNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.GroupLinkAllNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void GroupLinkAllNotify::CopyFrom(const GroupLinkAllNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.GroupLinkAllNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool GroupLinkAllNotify::IsInitialized() const {
-  return true;
-}
-
-void GroupLinkAllNotify::Swap(GroupLinkAllNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void GroupLinkAllNotify::InternalSwap(GroupLinkAllNotify* other) {
-  using std::swap;
-  bundle_list_.InternalSwap(&other->bundle_list_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata GroupLinkAllNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fgroup_5flink_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fgroup_5flink_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// GroupLinkAllNotify
-
-// repeated .proto.GroupLinkBundle bundle_list = 15;
-int GroupLinkAllNotify::bundle_list_size() const {
-  return bundle_list_.size();
-}
-void GroupLinkAllNotify::clear_bundle_list() {
-  bundle_list_.Clear();
-}
-const ::proto::GroupLinkBundle& GroupLinkAllNotify::bundle_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.GroupLinkAllNotify.bundle_list)
-  return bundle_list_.Get(index);
-}
-::proto::GroupLinkBundle* GroupLinkAllNotify::mutable_bundle_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.GroupLinkAllNotify.bundle_list)
-  return bundle_list_.Mutable(index);
-}
-::proto::GroupLinkBundle* GroupLinkAllNotify::add_bundle_list() {
-  // @@protoc_insertion_point(field_add:proto.GroupLinkAllNotify.bundle_list)
-  return bundle_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::GroupLinkBundle >*
-GroupLinkAllNotify::mutable_bundle_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.GroupLinkAllNotify.bundle_list)
-  return &bundle_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::GroupLinkBundle >&
-GroupLinkAllNotify::bundle_list() const {
-  // @@protoc_insertion_point(field_list:proto.GroupLinkAllNotify.bundle_list)
-  return bundle_list_;
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int GroupLinkChangeNotify::kBundleFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-GroupLinkChangeNotify::GroupLinkChangeNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fgroup_5flink_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.GroupLinkChangeNotify)
-}
-GroupLinkChangeNotify::GroupLinkChangeNotify(const GroupLinkChangeNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  if (from.has_bundle()) {
-    bundle_ = new ::proto::GroupLinkBundle(*from.bundle_);
-  } else {
-    bundle_ = NULL;
-  }
-  // @@protoc_insertion_point(copy_constructor:proto.GroupLinkChangeNotify)
-}
-
-void GroupLinkChangeNotify::SharedCtor() {
-  bundle_ = NULL;
-  _cached_size_ = 0;
-}
-
-GroupLinkChangeNotify::~GroupLinkChangeNotify() {
-  // @@protoc_insertion_point(destructor:proto.GroupLinkChangeNotify)
-  SharedDtor();
-}
-
-void GroupLinkChangeNotify::SharedDtor() {
-  if (this != internal_default_instance()) delete bundle_;
-}
-
-void GroupLinkChangeNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* GroupLinkChangeNotify::descriptor() {
-  protobuf_cmd_2fcmd_5fgroup_5flink_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fgroup_5flink_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const GroupLinkChangeNotify& GroupLinkChangeNotify::default_instance() {
-  protobuf_cmd_2fcmd_5fgroup_5flink_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-GroupLinkChangeNotify* GroupLinkChangeNotify::New(::google::protobuf::Arena* arena) const {
-  GroupLinkChangeNotify* n = new GroupLinkChangeNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void GroupLinkChangeNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.GroupLinkChangeNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  if (GetArenaNoVirtual() == NULL && bundle_ != NULL) {
-    delete bundle_;
-  }
-  bundle_ = NULL;
-  _internal_metadata_.Clear();
 }
 
 bool GroupLinkChangeNotify::MergePartialFromCodedStream(
@@ -1239,16 +445,18 @@ bool GroupLinkChangeNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.GroupLinkChangeNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.GroupLinkChangeNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -1265,9 +473,9 @@ void GroupLinkChangeNotify::SerializeWithCachedSizes(
       2, *this->bundle_, output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.GroupLinkChangeNotify)
 }
@@ -1286,9 +494,9 @@ void GroupLinkChangeNotify::SerializeWithCachedSizes(
         2, *this->bundle_, deterministic, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.GroupLinkChangeNotify)
   return target;
@@ -1298,10 +506,10 @@ size_t GroupLinkChangeNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.GroupLinkChangeNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // .proto.GroupLinkBundle bundle = 2;
   if (this->has_bundle()) {
@@ -1315,181 +523,6 @@ size_t GroupLinkChangeNotify::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void GroupLinkChangeNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.GroupLinkChangeNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const GroupLinkChangeNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const GroupLinkChangeNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.GroupLinkChangeNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.GroupLinkChangeNotify)
-    MergeFrom(*source);
-  }
-}
-
-void GroupLinkChangeNotify::MergeFrom(const GroupLinkChangeNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.GroupLinkChangeNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.has_bundle()) {
-    mutable_bundle()->::proto::GroupLinkBundle::MergeFrom(from.bundle());
-  }
-}
-
-void GroupLinkChangeNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.GroupLinkChangeNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void GroupLinkChangeNotify::CopyFrom(const GroupLinkChangeNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.GroupLinkChangeNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool GroupLinkChangeNotify::IsInitialized() const {
-  return true;
-}
-
-void GroupLinkChangeNotify::Swap(GroupLinkChangeNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void GroupLinkChangeNotify::InternalSwap(GroupLinkChangeNotify* other) {
-  using std::swap;
-  swap(bundle_, other->bundle_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata GroupLinkChangeNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fgroup_5flink_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fgroup_5flink_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// GroupLinkChangeNotify
-
-// .proto.GroupLinkBundle bundle = 2;
-bool GroupLinkChangeNotify::has_bundle() const {
-  return this != internal_default_instance() && bundle_ != NULL;
-}
-void GroupLinkChangeNotify::clear_bundle() {
-  if (GetArenaNoVirtual() == NULL && bundle_ != NULL) delete bundle_;
-  bundle_ = NULL;
-}
-const ::proto::GroupLinkBundle& GroupLinkChangeNotify::bundle() const {
-  const ::proto::GroupLinkBundle* p = bundle_;
-  // @@protoc_insertion_point(field_get:proto.GroupLinkChangeNotify.bundle)
-  return p != NULL ? *p : *reinterpret_cast<const ::proto::GroupLinkBundle*>(
-      &::proto::_GroupLinkBundle_default_instance_);
-}
-::proto::GroupLinkBundle* GroupLinkChangeNotify::mutable_bundle() {
-  
-  if (bundle_ == NULL) {
-    bundle_ = new ::proto::GroupLinkBundle;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.GroupLinkChangeNotify.bundle)
-  return bundle_;
-}
-::proto::GroupLinkBundle* GroupLinkChangeNotify::release_bundle() {
-  // @@protoc_insertion_point(field_release:proto.GroupLinkChangeNotify.bundle)
-  
-  ::proto::GroupLinkBundle* temp = bundle_;
-  bundle_ = NULL;
-  return temp;
-}
-void GroupLinkChangeNotify::set_allocated_bundle(::proto::GroupLinkBundle* bundle) {
-  delete bundle_;
-  bundle_ = bundle;
-  if (bundle) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.GroupLinkChangeNotify.bundle)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int GroupLinkDeleteNotify::kBundleIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-GroupLinkDeleteNotify::GroupLinkDeleteNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fgroup_5flink_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.GroupLinkDeleteNotify)
-}
-GroupLinkDeleteNotify::GroupLinkDeleteNotify(const GroupLinkDeleteNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  bundle_id_ = from.bundle_id_;
-  // @@protoc_insertion_point(copy_constructor:proto.GroupLinkDeleteNotify)
-}
-
-void GroupLinkDeleteNotify::SharedCtor() {
-  bundle_id_ = 0u;
-  _cached_size_ = 0;
-}
-
-GroupLinkDeleteNotify::~GroupLinkDeleteNotify() {
-  // @@protoc_insertion_point(destructor:proto.GroupLinkDeleteNotify)
-  SharedDtor();
-}
-
-void GroupLinkDeleteNotify::SharedDtor() {
-}
-
-void GroupLinkDeleteNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* GroupLinkDeleteNotify::descriptor() {
-  protobuf_cmd_2fcmd_5fgroup_5flink_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fgroup_5flink_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const GroupLinkDeleteNotify& GroupLinkDeleteNotify::default_instance() {
-  protobuf_cmd_2fcmd_5fgroup_5flink_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-GroupLinkDeleteNotify* GroupLinkDeleteNotify::New(::google::protobuf::Arena* arena) const {
-  GroupLinkDeleteNotify* n = new GroupLinkDeleteNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void GroupLinkDeleteNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.GroupLinkDeleteNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  bundle_id_ = 0u;
-  _internal_metadata_.Clear();
 }
 
 bool GroupLinkDeleteNotify::MergePartialFromCodedStream(
@@ -1522,16 +555,18 @@ bool GroupLinkDeleteNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.GroupLinkDeleteNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.GroupLinkDeleteNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -1547,9 +582,9 @@ void GroupLinkDeleteNotify::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(13, this->bundle_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.GroupLinkDeleteNotify)
 }
@@ -1566,9 +601,9 @@ void GroupLinkDeleteNotify::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(13, this->bundle_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.GroupLinkDeleteNotify)
   return target;
@@ -1578,10 +613,10 @@ size_t GroupLinkDeleteNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.GroupLinkDeleteNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 bundle_id = 13;
   if (this->bundle_id() != 0) {
@@ -1595,163 +630,6 @@ size_t GroupLinkDeleteNotify::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void GroupLinkDeleteNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.GroupLinkDeleteNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const GroupLinkDeleteNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const GroupLinkDeleteNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.GroupLinkDeleteNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.GroupLinkDeleteNotify)
-    MergeFrom(*source);
-  }
-}
-
-void GroupLinkDeleteNotify::MergeFrom(const GroupLinkDeleteNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.GroupLinkDeleteNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.bundle_id() != 0) {
-    set_bundle_id(from.bundle_id());
-  }
-}
-
-void GroupLinkDeleteNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.GroupLinkDeleteNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void GroupLinkDeleteNotify::CopyFrom(const GroupLinkDeleteNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.GroupLinkDeleteNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool GroupLinkDeleteNotify::IsInitialized() const {
-  return true;
-}
-
-void GroupLinkDeleteNotify::Swap(GroupLinkDeleteNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void GroupLinkDeleteNotify::InternalSwap(GroupLinkDeleteNotify* other) {
-  using std::swap;
-  swap(bundle_id_, other->bundle_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata GroupLinkDeleteNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fgroup_5flink_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fgroup_5flink_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// GroupLinkDeleteNotify
-
-// uint32 bundle_id = 13;
-void GroupLinkDeleteNotify::clear_bundle_id() {
-  bundle_id_ = 0u;
-}
-::google::protobuf::uint32 GroupLinkDeleteNotify::bundle_id() const {
-  // @@protoc_insertion_point(field_get:proto.GroupLinkDeleteNotify.bundle_id)
-  return bundle_id_;
-}
-void GroupLinkDeleteNotify::set_bundle_id(::google::protobuf::uint32 value) {
-  
-  bundle_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.GroupLinkDeleteNotify.bundle_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int GroupLinkMarkUpdateNotify::kBundleFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-GroupLinkMarkUpdateNotify::GroupLinkMarkUpdateNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fgroup_5flink_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.GroupLinkMarkUpdateNotify)
-}
-GroupLinkMarkUpdateNotify::GroupLinkMarkUpdateNotify(const GroupLinkMarkUpdateNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  if (from.has_bundle()) {
-    bundle_ = new ::proto::GroupLinkBundle(*from.bundle_);
-  } else {
-    bundle_ = NULL;
-  }
-  // @@protoc_insertion_point(copy_constructor:proto.GroupLinkMarkUpdateNotify)
-}
-
-void GroupLinkMarkUpdateNotify::SharedCtor() {
-  bundle_ = NULL;
-  _cached_size_ = 0;
-}
-
-GroupLinkMarkUpdateNotify::~GroupLinkMarkUpdateNotify() {
-  // @@protoc_insertion_point(destructor:proto.GroupLinkMarkUpdateNotify)
-  SharedDtor();
-}
-
-void GroupLinkMarkUpdateNotify::SharedDtor() {
-  if (this != internal_default_instance()) delete bundle_;
-}
-
-void GroupLinkMarkUpdateNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* GroupLinkMarkUpdateNotify::descriptor() {
-  protobuf_cmd_2fcmd_5fgroup_5flink_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fgroup_5flink_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const GroupLinkMarkUpdateNotify& GroupLinkMarkUpdateNotify::default_instance() {
-  protobuf_cmd_2fcmd_5fgroup_5flink_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-GroupLinkMarkUpdateNotify* GroupLinkMarkUpdateNotify::New(::google::protobuf::Arena* arena) const {
-  GroupLinkMarkUpdateNotify* n = new GroupLinkMarkUpdateNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void GroupLinkMarkUpdateNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.GroupLinkMarkUpdateNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  if (GetArenaNoVirtual() == NULL && bundle_ != NULL) {
-    delete bundle_;
-  }
-  bundle_ = NULL;
-  _internal_metadata_.Clear();
 }
 
 bool GroupLinkMarkUpdateNotify::MergePartialFromCodedStream(
@@ -1782,16 +660,18 @@ bool GroupLinkMarkUpdateNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.GroupLinkMarkUpdateNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.GroupLinkMarkUpdateNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -1808,9 +688,9 @@ void GroupLinkMarkUpdateNotify::SerializeWithCachedSizes(
       7, *this->bundle_, output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.GroupLinkMarkUpdateNotify)
 }
@@ -1829,9 +709,9 @@ void GroupLinkMarkUpdateNotify::SerializeWithCachedSizes(
         7, *this->bundle_, deterministic, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.GroupLinkMarkUpdateNotify)
   return target;
@@ -1841,10 +721,10 @@ size_t GroupLinkMarkUpdateNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.GroupLinkMarkUpdateNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // .proto.GroupLinkBundle bundle = 7;
   if (this->has_bundle()) {
@@ -1859,112 +739,6 @@ size_t GroupLinkMarkUpdateNotify::ByteSizeLong() const {
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
 }
-
-void GroupLinkMarkUpdateNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.GroupLinkMarkUpdateNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const GroupLinkMarkUpdateNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const GroupLinkMarkUpdateNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.GroupLinkMarkUpdateNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.GroupLinkMarkUpdateNotify)
-    MergeFrom(*source);
-  }
-}
-
-void GroupLinkMarkUpdateNotify::MergeFrom(const GroupLinkMarkUpdateNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.GroupLinkMarkUpdateNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.has_bundle()) {
-    mutable_bundle()->::proto::GroupLinkBundle::MergeFrom(from.bundle());
-  }
-}
-
-void GroupLinkMarkUpdateNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.GroupLinkMarkUpdateNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void GroupLinkMarkUpdateNotify::CopyFrom(const GroupLinkMarkUpdateNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.GroupLinkMarkUpdateNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool GroupLinkMarkUpdateNotify::IsInitialized() const {
-  return true;
-}
-
-void GroupLinkMarkUpdateNotify::Swap(GroupLinkMarkUpdateNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void GroupLinkMarkUpdateNotify::InternalSwap(GroupLinkMarkUpdateNotify* other) {
-  using std::swap;
-  swap(bundle_, other->bundle_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata GroupLinkMarkUpdateNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fgroup_5flink_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fgroup_5flink_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// GroupLinkMarkUpdateNotify
-
-// .proto.GroupLinkBundle bundle = 7;
-bool GroupLinkMarkUpdateNotify::has_bundle() const {
-  return this != internal_default_instance() && bundle_ != NULL;
-}
-void GroupLinkMarkUpdateNotify::clear_bundle() {
-  if (GetArenaNoVirtual() == NULL && bundle_ != NULL) delete bundle_;
-  bundle_ = NULL;
-}
-const ::proto::GroupLinkBundle& GroupLinkMarkUpdateNotify::bundle() const {
-  const ::proto::GroupLinkBundle* p = bundle_;
-  // @@protoc_insertion_point(field_get:proto.GroupLinkMarkUpdateNotify.bundle)
-  return p != NULL ? *p : *reinterpret_cast<const ::proto::GroupLinkBundle*>(
-      &::proto::_GroupLinkBundle_default_instance_);
-}
-::proto::GroupLinkBundle* GroupLinkMarkUpdateNotify::mutable_bundle() {
-  
-  if (bundle_ == NULL) {
-    bundle_ = new ::proto::GroupLinkBundle;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.GroupLinkMarkUpdateNotify.bundle)
-  return bundle_;
-}
-::proto::GroupLinkBundle* GroupLinkMarkUpdateNotify::release_bundle() {
-  // @@protoc_insertion_point(field_release:proto.GroupLinkMarkUpdateNotify.bundle)
-  
-  ::proto::GroupLinkBundle* temp = bundle_;
-  bundle_ = NULL;
-  return temp;
-}
-void GroupLinkMarkUpdateNotify::set_allocated_bundle(::proto::GroupLinkBundle* bundle) {
-  delete bundle_;
-  bundle_ = bundle;
-  if (bundle) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.GroupLinkMarkUpdateNotify.bundle)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
 
 // @@protoc_insertion_point(namespace_scope)
 

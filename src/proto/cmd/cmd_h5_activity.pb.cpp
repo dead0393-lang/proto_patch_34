@@ -54,423 +54,6 @@ public:
      _instance;
 } _SetH5ActivityRedDotTimestampRsp_default_instance_;
 
-namespace protobuf_cmd_2fcmd_5fh5_5factivity_2eproto {
-
-
-namespace {
-
-::google::protobuf::Metadata file_level_metadata[7];
-const ::google::protobuf::EnumDescriptor* file_level_enum_descriptors[5];
-
-}  // namespace
-
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::ParseTableField
-    const TableStruct::entries[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  {0, 0, 0, ::google::protobuf::internal::kInvalidMask, 0, 0},
-};
-
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::AuxillaryParseTableField
-    const TableStruct::aux[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  ::google::protobuf::internal::AuxillaryParseTableField(),
-};
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::ParseTable const
-    TableStruct::schema[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-};
-
-const ::google::protobuf::uint32 TableStruct::offsets[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(H5ActivityInfo, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(H5ActivityInfo, h5_activity_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(H5ActivityInfo, url_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(H5ActivityInfo, is_entrance_open_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(H5ActivityInfo, h5_schedule_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(H5ActivityInfo, end_time_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(H5ActivityInfo, prefab_path_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(H5ActivityInfo, content_close_time_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(H5ActivityInfo, begin_time_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GetAllH5ActivityInfoReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GetAllH5ActivityInfoRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GetAllH5ActivityInfoRsp, h5_activity_info_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GetAllH5ActivityInfoRsp, retcode_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GetAllH5ActivityInfoRsp, client_red_dot_timestamp_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(H5ActivityIdsNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(H5ActivityIdsNotify, client_red_dot_timestamp_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(H5ActivityIdsNotify, h5_activity_map_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SetH5ActivityRedDotTimestampReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SetH5ActivityRedDotTimestampReq, client_red_dot_timestamp_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SetH5ActivityRedDotTimestampRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SetH5ActivityRedDotTimestampRsp, retcode_),
-};
-static const ::google::protobuf::internal::MigrationSchema schemas[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  { 0, -1, sizeof(H5ActivityInfo)},
-  { 13, -1, sizeof(GetAllH5ActivityInfoReq)},
-  { 18, -1, sizeof(GetAllH5ActivityInfoRsp)},
-  { 26, -1, sizeof(H5ActivityIdsNotify)},
-  { 33, -1, sizeof(SetH5ActivityRedDotTimestampReq)},
-  { 39, -1, sizeof(SetH5ActivityRedDotTimestampRsp)},
-};
-
-static ::google::protobuf::Message const * const file_default_instances[] = {
-  reinterpret_cast<const ::google::protobuf::Message*>(&_H5ActivityInfo_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_GetAllH5ActivityInfoReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_GetAllH5ActivityInfoRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_H5ActivityIdsNotify_H5ActivityMapEntry_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_H5ActivityIdsNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_SetH5ActivityRedDotTimestampReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_SetH5ActivityRedDotTimestampRsp_default_instance_),
-};
-
-namespace {
-
-void protobuf_AssignDescriptors() {
-  AddDescriptors();
-  ::google::protobuf::MessageFactory* factory = NULL;
-  AssignDescriptors(
-      "cmd/cmd_h5_activity.proto", schemas, file_default_instances, TableStruct::offsets, factory,
-      file_level_metadata, file_level_enum_descriptors, NULL);
-file_level_metadata[3].reflection = H5ActivityIdsNotify::H5ActivityIdsNotify_H5ActivityMapEntry::CreateReflection(file_level_metadata[3].descriptor, _H5ActivityIdsNotify_H5ActivityMapEntry_default_instance_._instance.get_mutable());
-}
-
-void protobuf_AssignDescriptorsOnce() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &protobuf_AssignDescriptors);
-}
-
-void protobuf_RegisterTypes(const ::std::string&) GOOGLE_ATTRIBUTE_COLD;
-void protobuf_RegisterTypes(const ::std::string&) {
-  protobuf_AssignDescriptorsOnce();
-  ::google::protobuf::internal::RegisterAllTypes(file_level_metadata, 7);
-}
-
-}  // namespace
-void TableStruct::InitDefaultsImpl() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
-
-  ::google::protobuf::internal::InitProtobufDefaults();
-  _H5ActivityInfo_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_H5ActivityInfo_default_instance_);_GetAllH5ActivityInfoReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_GetAllH5ActivityInfoReq_default_instance_);_GetAllH5ActivityInfoRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_GetAllH5ActivityInfoRsp_default_instance_);_H5ActivityIdsNotify_H5ActivityMapEntry_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_H5ActivityIdsNotify_H5ActivityMapEntry_default_instance_);_H5ActivityIdsNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_H5ActivityIdsNotify_default_instance_);_SetH5ActivityRedDotTimestampReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_SetH5ActivityRedDotTimestampReq_default_instance_);_SetH5ActivityRedDotTimestampRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_SetH5ActivityRedDotTimestampRsp_default_instance_);_H5ActivityIdsNotify_H5ActivityMapEntry_default_instance_._instance.get_mutable()->set_default_instance(_H5ActivityIdsNotify_H5ActivityMapEntry_default_instance_._instance.get_mutable());
-  _H5ActivityIdsNotify_H5ActivityMapEntry_default_instance_._instance.get_mutable()->InitAsDefaultInstance();
-}
-
-void InitDefaults() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &TableStruct::InitDefaultsImpl);
-}
-namespace {
-void AddDescriptorsImpl() {
-  InitDefaults();
-  static const char descriptor[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-      "\n\031cmd/cmd_h5_activity.proto\022\005proto\"\276\001\n\016H"
-      "5ActivityInfo\022\026\n\016h5_activity_id\030\004 \001(\r\022\013\n"
-      "\003url\030\003 \001(\t\022\030\n\020is_entrance_open\030\006 \001(\010\022\026\n\016"
-      "h5_schedule_id\030\t \001(\r\022\020\n\010end_time\030\013 \001(\r\022\023"
-      "\n\013prefab_path\030\r \001(\t\022\032\n\022content_close_tim"
-      "e\030\001 \001(\r\022\022\n\nbegin_time\030\010 \001(\r\"}\n\027GetAllH5A"
-      "ctivityInfoReq\"b\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD"
-      "_ID\020\277,\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_R"
-      "ELIABLE\020\001\022\023\n\017IS_ALLOW_CLIENT\020\001\032\002\020\001\"\321\001\n\027G"
-      "etAllH5ActivityInfoRsp\0224\n\025h5_activity_in"
-      "fo_list\030\006 \003(\0132\025.proto.H5ActivityInfo\022\017\n\007"
-      "retcode\030\016 \001(\005\022 \n\030client_red_dot_timestam"
-      "p\030\005 \001(\r\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\270,\022"
-      "\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE"
-      "\020\001\032\002\020\001\"\204\002\n\023H5ActivityIdsNotify\022 \n\030client"
-      "_red_dot_timestamp\030\001 \001(\r\022F\n\017h5_activity_"
-      "map\030\017 \003(\0132-.proto.H5ActivityIdsNotify.H5"
-      "ActivityMapEntry\0324\n\022H5ActivityMapEntry\022\013"
-      "\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001\"M\n\005CmdId\022"
-      "\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\300,\022\023\n\017ENET_CHANNEL_I"
-      "D\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001\"\222\001\n\037SetH5A"
-      "ctivityRedDotTimestampReq\022 \n\030client_red_"
-      "dot_timestamp\030\n \001(\r\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013"
-      "\n\006CMD_ID\020\273,\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET"
-      "_IS_RELIABLE\020\001\032\002\020\001\"\201\001\n\037SetH5ActivityRedD"
-      "otTimestampRsp\022\017\n\007retcode\030\004 \001(\005\"M\n\005CmdId"
-      "\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\245,\022\023\n\017ENET_CHANNEL_"
-      "ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001B\nZ\010./;pro"
-      "tob\006proto3"
-  };
-  ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-      descriptor, 1130);
-  ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
-    "cmd/cmd_h5_activity.proto", &protobuf_RegisterTypes);
-}
-} // anonymous namespace
-
-void AddDescriptors() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &AddDescriptorsImpl);
-}
-// Force AddDescriptors() to be called at dynamic initialization time.
-struct StaticDescriptorInitializer {
-  StaticDescriptorInitializer() {
-    AddDescriptors();
-  }
-} static_descriptor_initializer;
-
-}  // namespace protobuf_cmd_2fcmd_5fh5_5factivity_2eproto
-
-const ::google::protobuf::EnumDescriptor* GetAllH5ActivityInfoReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::file_level_enum_descriptors[0];
-}
-bool GetAllH5ActivityInfoReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 5695:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const GetAllH5ActivityInfoReq_CmdId GetAllH5ActivityInfoReq::NONE;
-const GetAllH5ActivityInfoReq_CmdId GetAllH5ActivityInfoReq::CMD_ID;
-const GetAllH5ActivityInfoReq_CmdId GetAllH5ActivityInfoReq::ENET_CHANNEL_ID;
-const GetAllH5ActivityInfoReq_CmdId GetAllH5ActivityInfoReq::ENET_IS_RELIABLE;
-const GetAllH5ActivityInfoReq_CmdId GetAllH5ActivityInfoReq::IS_ALLOW_CLIENT;
-const GetAllH5ActivityInfoReq_CmdId GetAllH5ActivityInfoReq::CmdId_MIN;
-const GetAllH5ActivityInfoReq_CmdId GetAllH5ActivityInfoReq::CmdId_MAX;
-const int GetAllH5ActivityInfoReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* GetAllH5ActivityInfoRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::file_level_enum_descriptors[1];
-}
-bool GetAllH5ActivityInfoRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 5688:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const GetAllH5ActivityInfoRsp_CmdId GetAllH5ActivityInfoRsp::NONE;
-const GetAllH5ActivityInfoRsp_CmdId GetAllH5ActivityInfoRsp::CMD_ID;
-const GetAllH5ActivityInfoRsp_CmdId GetAllH5ActivityInfoRsp::ENET_CHANNEL_ID;
-const GetAllH5ActivityInfoRsp_CmdId GetAllH5ActivityInfoRsp::ENET_IS_RELIABLE;
-const GetAllH5ActivityInfoRsp_CmdId GetAllH5ActivityInfoRsp::CmdId_MIN;
-const GetAllH5ActivityInfoRsp_CmdId GetAllH5ActivityInfoRsp::CmdId_MAX;
-const int GetAllH5ActivityInfoRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* H5ActivityIdsNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::file_level_enum_descriptors[2];
-}
-bool H5ActivityIdsNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 5696:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const H5ActivityIdsNotify_CmdId H5ActivityIdsNotify::NONE;
-const H5ActivityIdsNotify_CmdId H5ActivityIdsNotify::CMD_ID;
-const H5ActivityIdsNotify_CmdId H5ActivityIdsNotify::ENET_CHANNEL_ID;
-const H5ActivityIdsNotify_CmdId H5ActivityIdsNotify::ENET_IS_RELIABLE;
-const H5ActivityIdsNotify_CmdId H5ActivityIdsNotify::CmdId_MIN;
-const H5ActivityIdsNotify_CmdId H5ActivityIdsNotify::CmdId_MAX;
-const int H5ActivityIdsNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* SetH5ActivityRedDotTimestampReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::file_level_enum_descriptors[3];
-}
-bool SetH5ActivityRedDotTimestampReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 5691:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const SetH5ActivityRedDotTimestampReq_CmdId SetH5ActivityRedDotTimestampReq::NONE;
-const SetH5ActivityRedDotTimestampReq_CmdId SetH5ActivityRedDotTimestampReq::CMD_ID;
-const SetH5ActivityRedDotTimestampReq_CmdId SetH5ActivityRedDotTimestampReq::ENET_CHANNEL_ID;
-const SetH5ActivityRedDotTimestampReq_CmdId SetH5ActivityRedDotTimestampReq::ENET_IS_RELIABLE;
-const SetH5ActivityRedDotTimestampReq_CmdId SetH5ActivityRedDotTimestampReq::CmdId_MIN;
-const SetH5ActivityRedDotTimestampReq_CmdId SetH5ActivityRedDotTimestampReq::CmdId_MAX;
-const int SetH5ActivityRedDotTimestampReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* SetH5ActivityRedDotTimestampRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::file_level_enum_descriptors[4];
-}
-bool SetH5ActivityRedDotTimestampRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 5669:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const SetH5ActivityRedDotTimestampRsp_CmdId SetH5ActivityRedDotTimestampRsp::NONE;
-const SetH5ActivityRedDotTimestampRsp_CmdId SetH5ActivityRedDotTimestampRsp::CMD_ID;
-const SetH5ActivityRedDotTimestampRsp_CmdId SetH5ActivityRedDotTimestampRsp::ENET_CHANNEL_ID;
-const SetH5ActivityRedDotTimestampRsp_CmdId SetH5ActivityRedDotTimestampRsp::ENET_IS_RELIABLE;
-const SetH5ActivityRedDotTimestampRsp_CmdId SetH5ActivityRedDotTimestampRsp::CmdId_MIN;
-const SetH5ActivityRedDotTimestampRsp_CmdId SetH5ActivityRedDotTimestampRsp::CmdId_MAX;
-const int SetH5ActivityRedDotTimestampRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int H5ActivityInfo::kH5ActivityIdFieldNumber;
-const int H5ActivityInfo::kUrlFieldNumber;
-const int H5ActivityInfo::kIsEntranceOpenFieldNumber;
-const int H5ActivityInfo::kH5ScheduleIdFieldNumber;
-const int H5ActivityInfo::kEndTimeFieldNumber;
-const int H5ActivityInfo::kPrefabPathFieldNumber;
-const int H5ActivityInfo::kContentCloseTimeFieldNumber;
-const int H5ActivityInfo::kBeginTimeFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-H5ActivityInfo::H5ActivityInfo()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.H5ActivityInfo)
-}
-H5ActivityInfo::H5ActivityInfo(const H5ActivityInfo& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  url_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  if (from.url().size() > 0) {
-    url_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.url_);
-  }
-  prefab_path_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  if (from.prefab_path().size() > 0) {
-    prefab_path_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.prefab_path_);
-  }
-  ::memcpy(&content_close_time_, &from.content_close_time_,
-    static_cast<size_t>(reinterpret_cast<char*>(&end_time_) -
-    reinterpret_cast<char*>(&content_close_time_)) + sizeof(end_time_));
-  // @@protoc_insertion_point(copy_constructor:proto.H5ActivityInfo)
-}
-
-void H5ActivityInfo::SharedCtor() {
-  url_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  prefab_path_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  ::memset(&content_close_time_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&end_time_) -
-      reinterpret_cast<char*>(&content_close_time_)) + sizeof(end_time_));
-  _cached_size_ = 0;
-}
-
-H5ActivityInfo::~H5ActivityInfo() {
-  // @@protoc_insertion_point(destructor:proto.H5ActivityInfo)
-  SharedDtor();
-}
-
-void H5ActivityInfo::SharedDtor() {
-  url_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  prefab_path_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-
-void H5ActivityInfo::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* H5ActivityInfo::descriptor() {
-  protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const H5ActivityInfo& H5ActivityInfo::default_instance() {
-  protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-H5ActivityInfo* H5ActivityInfo::New(::google::protobuf::Arena* arena) const {
-  H5ActivityInfo* n = new H5ActivityInfo;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void H5ActivityInfo::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.H5ActivityInfo)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  url_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  prefab_path_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  ::memset(&content_close_time_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&end_time_) -
-      reinterpret_cast<char*>(&content_close_time_)) + sizeof(end_time_));
-  _internal_metadata_.Clear();
-}
-
 bool H5ActivityInfo::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -603,16 +186,18 @@ bool H5ActivityInfo::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.H5ActivityInfo)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.H5ActivityInfo)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -673,9 +258,9 @@ void H5ActivityInfo::SerializeWithCachedSizes(
       13, this->prefab_path(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.H5ActivityInfo)
 }
@@ -739,9 +324,9 @@ void H5ActivityInfo::SerializeWithCachedSizes(
         13, this->prefab_path(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.H5ActivityInfo)
   return target;
@@ -751,10 +336,10 @@ size_t H5ActivityInfo::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.H5ActivityInfo)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // string url = 3;
   if (this->url().size() > 0) {
@@ -817,357 +402,6 @@ size_t H5ActivityInfo::ByteSizeLong() const {
   return total_size;
 }
 
-void H5ActivityInfo::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.H5ActivityInfo)
-  GOOGLE_DCHECK_NE(&from, this);
-  const H5ActivityInfo* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const H5ActivityInfo>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.H5ActivityInfo)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.H5ActivityInfo)
-    MergeFrom(*source);
-  }
-}
-
-void H5ActivityInfo::MergeFrom(const H5ActivityInfo& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.H5ActivityInfo)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.url().size() > 0) {
-
-    url_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.url_);
-  }
-  if (from.prefab_path().size() > 0) {
-
-    prefab_path_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.prefab_path_);
-  }
-  if (from.content_close_time() != 0) {
-    set_content_close_time(from.content_close_time());
-  }
-  if (from.h5_activity_id() != 0) {
-    set_h5_activity_id(from.h5_activity_id());
-  }
-  if (from.is_entrance_open() != 0) {
-    set_is_entrance_open(from.is_entrance_open());
-  }
-  if (from.begin_time() != 0) {
-    set_begin_time(from.begin_time());
-  }
-  if (from.h5_schedule_id() != 0) {
-    set_h5_schedule_id(from.h5_schedule_id());
-  }
-  if (from.end_time() != 0) {
-    set_end_time(from.end_time());
-  }
-}
-
-void H5ActivityInfo::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.H5ActivityInfo)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void H5ActivityInfo::CopyFrom(const H5ActivityInfo& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.H5ActivityInfo)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool H5ActivityInfo::IsInitialized() const {
-  return true;
-}
-
-void H5ActivityInfo::Swap(H5ActivityInfo* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void H5ActivityInfo::InternalSwap(H5ActivityInfo* other) {
-  using std::swap;
-  url_.Swap(&other->url_);
-  prefab_path_.Swap(&other->prefab_path_);
-  swap(content_close_time_, other->content_close_time_);
-  swap(h5_activity_id_, other->h5_activity_id_);
-  swap(is_entrance_open_, other->is_entrance_open_);
-  swap(begin_time_, other->begin_time_);
-  swap(h5_schedule_id_, other->h5_schedule_id_);
-  swap(end_time_, other->end_time_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata H5ActivityInfo::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// H5ActivityInfo
-
-// uint32 h5_activity_id = 4;
-void H5ActivityInfo::clear_h5_activity_id() {
-  h5_activity_id_ = 0u;
-}
-::google::protobuf::uint32 H5ActivityInfo::h5_activity_id() const {
-  // @@protoc_insertion_point(field_get:proto.H5ActivityInfo.h5_activity_id)
-  return h5_activity_id_;
-}
-void H5ActivityInfo::set_h5_activity_id(::google::protobuf::uint32 value) {
-  
-  h5_activity_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.H5ActivityInfo.h5_activity_id)
-}
-
-// string url = 3;
-void H5ActivityInfo::clear_url() {
-  url_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-const ::std::string& H5ActivityInfo::url() const {
-  // @@protoc_insertion_point(field_get:proto.H5ActivityInfo.url)
-  return url_.GetNoArena();
-}
-void H5ActivityInfo::set_url(const ::std::string& value) {
-  
-  url_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
-  // @@protoc_insertion_point(field_set:proto.H5ActivityInfo.url)
-}
-#if LANG_CXX11
-void H5ActivityInfo::set_url(::std::string&& value) {
-  
-  url_.SetNoArena(
-    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
-  // @@protoc_insertion_point(field_set_rvalue:proto.H5ActivityInfo.url)
-}
-#endif
-void H5ActivityInfo::set_url(const char* value) {
-  GOOGLE_DCHECK(value != NULL);
-  
-  url_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
-  // @@protoc_insertion_point(field_set_char:proto.H5ActivityInfo.url)
-}
-void H5ActivityInfo::set_url(const char* value, size_t size) {
-  
-  url_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
-      ::std::string(reinterpret_cast<const char*>(value), size));
-  // @@protoc_insertion_point(field_set_pointer:proto.H5ActivityInfo.url)
-}
-::std::string* H5ActivityInfo::mutable_url() {
-  
-  // @@protoc_insertion_point(field_mutable:proto.H5ActivityInfo.url)
-  return url_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-::std::string* H5ActivityInfo::release_url() {
-  // @@protoc_insertion_point(field_release:proto.H5ActivityInfo.url)
-  
-  return url_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-void H5ActivityInfo::set_allocated_url(::std::string* url) {
-  if (url != NULL) {
-    
-  } else {
-    
-  }
-  url_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), url);
-  // @@protoc_insertion_point(field_set_allocated:proto.H5ActivityInfo.url)
-}
-
-// bool is_entrance_open = 6;
-void H5ActivityInfo::clear_is_entrance_open() {
-  is_entrance_open_ = false;
-}
-bool H5ActivityInfo::is_entrance_open() const {
-  // @@protoc_insertion_point(field_get:proto.H5ActivityInfo.is_entrance_open)
-  return is_entrance_open_;
-}
-void H5ActivityInfo::set_is_entrance_open(bool value) {
-  
-  is_entrance_open_ = value;
-  // @@protoc_insertion_point(field_set:proto.H5ActivityInfo.is_entrance_open)
-}
-
-// uint32 h5_schedule_id = 9;
-void H5ActivityInfo::clear_h5_schedule_id() {
-  h5_schedule_id_ = 0u;
-}
-::google::protobuf::uint32 H5ActivityInfo::h5_schedule_id() const {
-  // @@protoc_insertion_point(field_get:proto.H5ActivityInfo.h5_schedule_id)
-  return h5_schedule_id_;
-}
-void H5ActivityInfo::set_h5_schedule_id(::google::protobuf::uint32 value) {
-  
-  h5_schedule_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.H5ActivityInfo.h5_schedule_id)
-}
-
-// uint32 end_time = 11;
-void H5ActivityInfo::clear_end_time() {
-  end_time_ = 0u;
-}
-::google::protobuf::uint32 H5ActivityInfo::end_time() const {
-  // @@protoc_insertion_point(field_get:proto.H5ActivityInfo.end_time)
-  return end_time_;
-}
-void H5ActivityInfo::set_end_time(::google::protobuf::uint32 value) {
-  
-  end_time_ = value;
-  // @@protoc_insertion_point(field_set:proto.H5ActivityInfo.end_time)
-}
-
-// string prefab_path = 13;
-void H5ActivityInfo::clear_prefab_path() {
-  prefab_path_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-const ::std::string& H5ActivityInfo::prefab_path() const {
-  // @@protoc_insertion_point(field_get:proto.H5ActivityInfo.prefab_path)
-  return prefab_path_.GetNoArena();
-}
-void H5ActivityInfo::set_prefab_path(const ::std::string& value) {
-  
-  prefab_path_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
-  // @@protoc_insertion_point(field_set:proto.H5ActivityInfo.prefab_path)
-}
-#if LANG_CXX11
-void H5ActivityInfo::set_prefab_path(::std::string&& value) {
-  
-  prefab_path_.SetNoArena(
-    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
-  // @@protoc_insertion_point(field_set_rvalue:proto.H5ActivityInfo.prefab_path)
-}
-#endif
-void H5ActivityInfo::set_prefab_path(const char* value) {
-  GOOGLE_DCHECK(value != NULL);
-  
-  prefab_path_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
-  // @@protoc_insertion_point(field_set_char:proto.H5ActivityInfo.prefab_path)
-}
-void H5ActivityInfo::set_prefab_path(const char* value, size_t size) {
-  
-  prefab_path_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
-      ::std::string(reinterpret_cast<const char*>(value), size));
-  // @@protoc_insertion_point(field_set_pointer:proto.H5ActivityInfo.prefab_path)
-}
-::std::string* H5ActivityInfo::mutable_prefab_path() {
-  
-  // @@protoc_insertion_point(field_mutable:proto.H5ActivityInfo.prefab_path)
-  return prefab_path_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-::std::string* H5ActivityInfo::release_prefab_path() {
-  // @@protoc_insertion_point(field_release:proto.H5ActivityInfo.prefab_path)
-  
-  return prefab_path_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-void H5ActivityInfo::set_allocated_prefab_path(::std::string* prefab_path) {
-  if (prefab_path != NULL) {
-    
-  } else {
-    
-  }
-  prefab_path_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), prefab_path);
-  // @@protoc_insertion_point(field_set_allocated:proto.H5ActivityInfo.prefab_path)
-}
-
-// uint32 content_close_time = 1;
-void H5ActivityInfo::clear_content_close_time() {
-  content_close_time_ = 0u;
-}
-::google::protobuf::uint32 H5ActivityInfo::content_close_time() const {
-  // @@protoc_insertion_point(field_get:proto.H5ActivityInfo.content_close_time)
-  return content_close_time_;
-}
-void H5ActivityInfo::set_content_close_time(::google::protobuf::uint32 value) {
-  
-  content_close_time_ = value;
-  // @@protoc_insertion_point(field_set:proto.H5ActivityInfo.content_close_time)
-}
-
-// uint32 begin_time = 8;
-void H5ActivityInfo::clear_begin_time() {
-  begin_time_ = 0u;
-}
-::google::protobuf::uint32 H5ActivityInfo::begin_time() const {
-  // @@protoc_insertion_point(field_get:proto.H5ActivityInfo.begin_time)
-  return begin_time_;
-}
-void H5ActivityInfo::set_begin_time(::google::protobuf::uint32 value) {
-  
-  begin_time_ = value;
-  // @@protoc_insertion_point(field_set:proto.H5ActivityInfo.begin_time)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-GetAllH5ActivityInfoReq::GetAllH5ActivityInfoReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.GetAllH5ActivityInfoReq)
-}
-GetAllH5ActivityInfoReq::GetAllH5ActivityInfoReq(const GetAllH5ActivityInfoReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  // @@protoc_insertion_point(copy_constructor:proto.GetAllH5ActivityInfoReq)
-}
-
-void GetAllH5ActivityInfoReq::SharedCtor() {
-  _cached_size_ = 0;
-}
-
-GetAllH5ActivityInfoReq::~GetAllH5ActivityInfoReq() {
-  // @@protoc_insertion_point(destructor:proto.GetAllH5ActivityInfoReq)
-  SharedDtor();
-}
-
-void GetAllH5ActivityInfoReq::SharedDtor() {
-}
-
-void GetAllH5ActivityInfoReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* GetAllH5ActivityInfoReq::descriptor() {
-  protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const GetAllH5ActivityInfoReq& GetAllH5ActivityInfoReq::default_instance() {
-  protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-GetAllH5ActivityInfoReq* GetAllH5ActivityInfoReq::New(::google::protobuf::Arena* arena) const {
-  GetAllH5ActivityInfoReq* n = new GetAllH5ActivityInfoReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void GetAllH5ActivityInfoReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.GetAllH5ActivityInfoReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  _internal_metadata_.Clear();
-}
-
 bool GetAllH5ActivityInfoReq::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -1182,13 +416,15 @@ bool GetAllH5ActivityInfoReq::MergePartialFromCodedStream(
       goto success;
     }
     DO_(::google::protobuf::internal::WireFormat::SkipField(
-          input, tag, _internal_metadata_.mutable_unknown_fields()));
+          input, tag, nullptr));
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.GetAllH5ActivityInfoReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.GetAllH5ActivityInfoReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -1199,9 +435,9 @@ void GetAllH5ActivityInfoReq::SerializeWithCachedSizes(
   ::google::protobuf::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.GetAllH5ActivityInfoReq)
 }
@@ -1213,9 +449,9 @@ void GetAllH5ActivityInfoReq::SerializeWithCachedSizes(
   ::google::protobuf::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.GetAllH5ActivityInfoReq)
   return target;
@@ -1225,157 +461,16 @@ size_t GetAllH5ActivityInfoReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.GetAllH5ActivityInfoReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
   GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void GetAllH5ActivityInfoReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.GetAllH5ActivityInfoReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const GetAllH5ActivityInfoReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const GetAllH5ActivityInfoReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.GetAllH5ActivityInfoReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.GetAllH5ActivityInfoReq)
-    MergeFrom(*source);
-  }
-}
-
-void GetAllH5ActivityInfoReq::MergeFrom(const GetAllH5ActivityInfoReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.GetAllH5ActivityInfoReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-}
-
-void GetAllH5ActivityInfoReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.GetAllH5ActivityInfoReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void GetAllH5ActivityInfoReq::CopyFrom(const GetAllH5ActivityInfoReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.GetAllH5ActivityInfoReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool GetAllH5ActivityInfoReq::IsInitialized() const {
-  return true;
-}
-
-void GetAllH5ActivityInfoReq::Swap(GetAllH5ActivityInfoReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void GetAllH5ActivityInfoReq::InternalSwap(GetAllH5ActivityInfoReq* other) {
-  using std::swap;
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata GetAllH5ActivityInfoReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// GetAllH5ActivityInfoReq
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int GetAllH5ActivityInfoRsp::kH5ActivityInfoListFieldNumber;
-const int GetAllH5ActivityInfoRsp::kRetcodeFieldNumber;
-const int GetAllH5ActivityInfoRsp::kClientRedDotTimestampFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-GetAllH5ActivityInfoRsp::GetAllH5ActivityInfoRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.GetAllH5ActivityInfoRsp)
-}
-GetAllH5ActivityInfoRsp::GetAllH5ActivityInfoRsp(const GetAllH5ActivityInfoRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      h5_activity_info_list_(from.h5_activity_info_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&client_red_dot_timestamp_, &from.client_red_dot_timestamp_,
-    static_cast<size_t>(reinterpret_cast<char*>(&retcode_) -
-    reinterpret_cast<char*>(&client_red_dot_timestamp_)) + sizeof(retcode_));
-  // @@protoc_insertion_point(copy_constructor:proto.GetAllH5ActivityInfoRsp)
-}
-
-void GetAllH5ActivityInfoRsp::SharedCtor() {
-  ::memset(&client_red_dot_timestamp_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&retcode_) -
-      reinterpret_cast<char*>(&client_red_dot_timestamp_)) + sizeof(retcode_));
-  _cached_size_ = 0;
-}
-
-GetAllH5ActivityInfoRsp::~GetAllH5ActivityInfoRsp() {
-  // @@protoc_insertion_point(destructor:proto.GetAllH5ActivityInfoRsp)
-  SharedDtor();
-}
-
-void GetAllH5ActivityInfoRsp::SharedDtor() {
-}
-
-void GetAllH5ActivityInfoRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* GetAllH5ActivityInfoRsp::descriptor() {
-  protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const GetAllH5ActivityInfoRsp& GetAllH5ActivityInfoRsp::default_instance() {
-  protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-GetAllH5ActivityInfoRsp* GetAllH5ActivityInfoRsp::New(::google::protobuf::Arena* arena) const {
-  GetAllH5ActivityInfoRsp* n = new GetAllH5ActivityInfoRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void GetAllH5ActivityInfoRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.GetAllH5ActivityInfoRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  h5_activity_info_list_.Clear();
-  ::memset(&client_red_dot_timestamp_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&retcode_) -
-      reinterpret_cast<char*>(&client_red_dot_timestamp_)) + sizeof(retcode_));
-  _internal_metadata_.Clear();
 }
 
 bool GetAllH5ActivityInfoRsp::MergePartialFromCodedStream(
@@ -1434,16 +529,18 @@ bool GetAllH5ActivityInfoRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.GetAllH5ActivityInfoRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.GetAllH5ActivityInfoRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -1471,9 +568,9 @@ void GetAllH5ActivityInfoRsp::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteInt32(14, this->retcode(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.GetAllH5ActivityInfoRsp)
 }
@@ -1503,9 +600,9 @@ void GetAllH5ActivityInfoRsp::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(14, this->retcode(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.GetAllH5ActivityInfoRsp)
   return target;
@@ -1515,10 +612,10 @@ size_t GetAllH5ActivityInfoRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.GetAllH5ActivityInfoRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated .proto.H5ActivityInfo h5_activity_info_list = 6;
   {
@@ -1550,227 +647,6 @@ size_t GetAllH5ActivityInfoRsp::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void GetAllH5ActivityInfoRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.GetAllH5ActivityInfoRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const GetAllH5ActivityInfoRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const GetAllH5ActivityInfoRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.GetAllH5ActivityInfoRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.GetAllH5ActivityInfoRsp)
-    MergeFrom(*source);
-  }
-}
-
-void GetAllH5ActivityInfoRsp::MergeFrom(const GetAllH5ActivityInfoRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.GetAllH5ActivityInfoRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  h5_activity_info_list_.MergeFrom(from.h5_activity_info_list_);
-  if (from.client_red_dot_timestamp() != 0) {
-    set_client_red_dot_timestamp(from.client_red_dot_timestamp());
-  }
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-}
-
-void GetAllH5ActivityInfoRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.GetAllH5ActivityInfoRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void GetAllH5ActivityInfoRsp::CopyFrom(const GetAllH5ActivityInfoRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.GetAllH5ActivityInfoRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool GetAllH5ActivityInfoRsp::IsInitialized() const {
-  return true;
-}
-
-void GetAllH5ActivityInfoRsp::Swap(GetAllH5ActivityInfoRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void GetAllH5ActivityInfoRsp::InternalSwap(GetAllH5ActivityInfoRsp* other) {
-  using std::swap;
-  h5_activity_info_list_.InternalSwap(&other->h5_activity_info_list_);
-  swap(client_red_dot_timestamp_, other->client_red_dot_timestamp_);
-  swap(retcode_, other->retcode_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata GetAllH5ActivityInfoRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// GetAllH5ActivityInfoRsp
-
-// repeated .proto.H5ActivityInfo h5_activity_info_list = 6;
-int GetAllH5ActivityInfoRsp::h5_activity_info_list_size() const {
-  return h5_activity_info_list_.size();
-}
-void GetAllH5ActivityInfoRsp::clear_h5_activity_info_list() {
-  h5_activity_info_list_.Clear();
-}
-const ::proto::H5ActivityInfo& GetAllH5ActivityInfoRsp::h5_activity_info_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.GetAllH5ActivityInfoRsp.h5_activity_info_list)
-  return h5_activity_info_list_.Get(index);
-}
-::proto::H5ActivityInfo* GetAllH5ActivityInfoRsp::mutable_h5_activity_info_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.GetAllH5ActivityInfoRsp.h5_activity_info_list)
-  return h5_activity_info_list_.Mutable(index);
-}
-::proto::H5ActivityInfo* GetAllH5ActivityInfoRsp::add_h5_activity_info_list() {
-  // @@protoc_insertion_point(field_add:proto.GetAllH5ActivityInfoRsp.h5_activity_info_list)
-  return h5_activity_info_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::H5ActivityInfo >*
-GetAllH5ActivityInfoRsp::mutable_h5_activity_info_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.GetAllH5ActivityInfoRsp.h5_activity_info_list)
-  return &h5_activity_info_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::H5ActivityInfo >&
-GetAllH5ActivityInfoRsp::h5_activity_info_list() const {
-  // @@protoc_insertion_point(field_list:proto.GetAllH5ActivityInfoRsp.h5_activity_info_list)
-  return h5_activity_info_list_;
-}
-
-// int32 retcode = 14;
-void GetAllH5ActivityInfoRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 GetAllH5ActivityInfoRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.GetAllH5ActivityInfoRsp.retcode)
-  return retcode_;
-}
-void GetAllH5ActivityInfoRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.GetAllH5ActivityInfoRsp.retcode)
-}
-
-// uint32 client_red_dot_timestamp = 5;
-void GetAllH5ActivityInfoRsp::clear_client_red_dot_timestamp() {
-  client_red_dot_timestamp_ = 0u;
-}
-::google::protobuf::uint32 GetAllH5ActivityInfoRsp::client_red_dot_timestamp() const {
-  // @@protoc_insertion_point(field_get:proto.GetAllH5ActivityInfoRsp.client_red_dot_timestamp)
-  return client_red_dot_timestamp_;
-}
-void GetAllH5ActivityInfoRsp::set_client_red_dot_timestamp(::google::protobuf::uint32 value) {
-  
-  client_red_dot_timestamp_ = value;
-  // @@protoc_insertion_point(field_set:proto.GetAllH5ActivityInfoRsp.client_red_dot_timestamp)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-H5ActivityIdsNotify::H5ActivityIdsNotify_H5ActivityMapEntry::H5ActivityIdsNotify_H5ActivityMapEntry() {}
-H5ActivityIdsNotify::H5ActivityIdsNotify_H5ActivityMapEntry::H5ActivityIdsNotify_H5ActivityMapEntry(::google::protobuf::Arena* arena) : SuperType(arena) {}
-::google::protobuf::Metadata H5ActivityIdsNotify::H5ActivityIdsNotify_H5ActivityMapEntry::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::file_level_metadata[3];
-}
-void H5ActivityIdsNotify::H5ActivityIdsNotify_H5ActivityMapEntry::MergeFrom(
-    const ::google::protobuf::Message& other) {
-  ::google::protobuf::Message::MergeFrom(other);
-}
-void H5ActivityIdsNotify::H5ActivityIdsNotify_H5ActivityMapEntry::MergeFrom(const H5ActivityIdsNotify_H5ActivityMapEntry& other) {
-  MergeFromInternal(other);
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int H5ActivityIdsNotify::kClientRedDotTimestampFieldNumber;
-const int H5ActivityIdsNotify::kH5ActivityMapFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-H5ActivityIdsNotify::H5ActivityIdsNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.H5ActivityIdsNotify)
-}
-H5ActivityIdsNotify::H5ActivityIdsNotify(const H5ActivityIdsNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  h5_activity_map_.MergeFrom(from.h5_activity_map_);
-  client_red_dot_timestamp_ = from.client_red_dot_timestamp_;
-  // @@protoc_insertion_point(copy_constructor:proto.H5ActivityIdsNotify)
-}
-
-void H5ActivityIdsNotify::SharedCtor() {
-  client_red_dot_timestamp_ = 0u;
-  _cached_size_ = 0;
-}
-
-H5ActivityIdsNotify::~H5ActivityIdsNotify() {
-  // @@protoc_insertion_point(destructor:proto.H5ActivityIdsNotify)
-  SharedDtor();
-}
-
-void H5ActivityIdsNotify::SharedDtor() {
-}
-
-void H5ActivityIdsNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* H5ActivityIdsNotify::descriptor() {
-  protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const H5ActivityIdsNotify& H5ActivityIdsNotify::default_instance() {
-  protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-H5ActivityIdsNotify* H5ActivityIdsNotify::New(::google::protobuf::Arena* arena) const {
-  H5ActivityIdsNotify* n = new H5ActivityIdsNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void H5ActivityIdsNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.H5ActivityIdsNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  h5_activity_map_.Clear();
-  client_red_dot_timestamp_ = 0u;
-  _internal_metadata_.Clear();
 }
 
 bool H5ActivityIdsNotify::MergePartialFromCodedStream(
@@ -1822,16 +698,18 @@ bool H5ActivityIdsNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.H5ActivityIdsNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.H5ActivityIdsNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -1886,9 +764,9 @@ void H5ActivityIdsNotify::SerializeWithCachedSizes(
     }
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.H5ActivityIdsNotify)
 }
@@ -1948,9 +826,9 @@ void H5ActivityIdsNotify::SerializeWithCachedSizes(
     }
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.H5ActivityIdsNotify)
   return target;
@@ -1960,10 +838,10 @@ size_t H5ActivityIdsNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.H5ActivityIdsNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // map<uint32, uint32> h5_activity_map = 15;
   total_size += 1 *
@@ -1991,175 +869,6 @@ size_t H5ActivityIdsNotify::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void H5ActivityIdsNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.H5ActivityIdsNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const H5ActivityIdsNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const H5ActivityIdsNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.H5ActivityIdsNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.H5ActivityIdsNotify)
-    MergeFrom(*source);
-  }
-}
-
-void H5ActivityIdsNotify::MergeFrom(const H5ActivityIdsNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.H5ActivityIdsNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  h5_activity_map_.MergeFrom(from.h5_activity_map_);
-  if (from.client_red_dot_timestamp() != 0) {
-    set_client_red_dot_timestamp(from.client_red_dot_timestamp());
-  }
-}
-
-void H5ActivityIdsNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.H5ActivityIdsNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void H5ActivityIdsNotify::CopyFrom(const H5ActivityIdsNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.H5ActivityIdsNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool H5ActivityIdsNotify::IsInitialized() const {
-  return true;
-}
-
-void H5ActivityIdsNotify::Swap(H5ActivityIdsNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void H5ActivityIdsNotify::InternalSwap(H5ActivityIdsNotify* other) {
-  using std::swap;
-  h5_activity_map_.Swap(&other->h5_activity_map_);
-  swap(client_red_dot_timestamp_, other->client_red_dot_timestamp_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata H5ActivityIdsNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// H5ActivityIdsNotify
-
-// uint32 client_red_dot_timestamp = 1;
-void H5ActivityIdsNotify::clear_client_red_dot_timestamp() {
-  client_red_dot_timestamp_ = 0u;
-}
-::google::protobuf::uint32 H5ActivityIdsNotify::client_red_dot_timestamp() const {
-  // @@protoc_insertion_point(field_get:proto.H5ActivityIdsNotify.client_red_dot_timestamp)
-  return client_red_dot_timestamp_;
-}
-void H5ActivityIdsNotify::set_client_red_dot_timestamp(::google::protobuf::uint32 value) {
-  
-  client_red_dot_timestamp_ = value;
-  // @@protoc_insertion_point(field_set:proto.H5ActivityIdsNotify.client_red_dot_timestamp)
-}
-
-// map<uint32, uint32> h5_activity_map = 15;
-int H5ActivityIdsNotify::h5_activity_map_size() const {
-  return h5_activity_map_.size();
-}
-void H5ActivityIdsNotify::clear_h5_activity_map() {
-  h5_activity_map_.Clear();
-}
- const ::google::protobuf::Map< ::google::protobuf::uint32, ::google::protobuf::uint32 >&
-H5ActivityIdsNotify::h5_activity_map() const {
-  // @@protoc_insertion_point(field_map:proto.H5ActivityIdsNotify.h5_activity_map)
-  return h5_activity_map_.GetMap();
-}
- ::google::protobuf::Map< ::google::protobuf::uint32, ::google::protobuf::uint32 >*
-H5ActivityIdsNotify::mutable_h5_activity_map() {
-  // @@protoc_insertion_point(field_mutable_map:proto.H5ActivityIdsNotify.h5_activity_map)
-  return h5_activity_map_.MutableMap();
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int SetH5ActivityRedDotTimestampReq::kClientRedDotTimestampFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-SetH5ActivityRedDotTimestampReq::SetH5ActivityRedDotTimestampReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.SetH5ActivityRedDotTimestampReq)
-}
-SetH5ActivityRedDotTimestampReq::SetH5ActivityRedDotTimestampReq(const SetH5ActivityRedDotTimestampReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  client_red_dot_timestamp_ = from.client_red_dot_timestamp_;
-  // @@protoc_insertion_point(copy_constructor:proto.SetH5ActivityRedDotTimestampReq)
-}
-
-void SetH5ActivityRedDotTimestampReq::SharedCtor() {
-  client_red_dot_timestamp_ = 0u;
-  _cached_size_ = 0;
-}
-
-SetH5ActivityRedDotTimestampReq::~SetH5ActivityRedDotTimestampReq() {
-  // @@protoc_insertion_point(destructor:proto.SetH5ActivityRedDotTimestampReq)
-  SharedDtor();
-}
-
-void SetH5ActivityRedDotTimestampReq::SharedDtor() {
-}
-
-void SetH5ActivityRedDotTimestampReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* SetH5ActivityRedDotTimestampReq::descriptor() {
-  protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const SetH5ActivityRedDotTimestampReq& SetH5ActivityRedDotTimestampReq::default_instance() {
-  protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-SetH5ActivityRedDotTimestampReq* SetH5ActivityRedDotTimestampReq::New(::google::protobuf::Arena* arena) const {
-  SetH5ActivityRedDotTimestampReq* n = new SetH5ActivityRedDotTimestampReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void SetH5ActivityRedDotTimestampReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.SetH5ActivityRedDotTimestampReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  client_red_dot_timestamp_ = 0u;
-  _internal_metadata_.Clear();
 }
 
 bool SetH5ActivityRedDotTimestampReq::MergePartialFromCodedStream(
@@ -2192,16 +901,18 @@ bool SetH5ActivityRedDotTimestampReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.SetH5ActivityRedDotTimestampReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.SetH5ActivityRedDotTimestampReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -2217,9 +928,9 @@ void SetH5ActivityRedDotTimestampReq::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(10, this->client_red_dot_timestamp(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.SetH5ActivityRedDotTimestampReq)
 }
@@ -2236,9 +947,9 @@ void SetH5ActivityRedDotTimestampReq::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(10, this->client_red_dot_timestamp(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.SetH5ActivityRedDotTimestampReq)
   return target;
@@ -2248,10 +959,10 @@ size_t SetH5ActivityRedDotTimestampReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.SetH5ActivityRedDotTimestampReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 client_red_dot_timestamp = 10;
   if (this->client_red_dot_timestamp() != 0) {
@@ -2265,155 +976,6 @@ size_t SetH5ActivityRedDotTimestampReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void SetH5ActivityRedDotTimestampReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.SetH5ActivityRedDotTimestampReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const SetH5ActivityRedDotTimestampReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const SetH5ActivityRedDotTimestampReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.SetH5ActivityRedDotTimestampReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.SetH5ActivityRedDotTimestampReq)
-    MergeFrom(*source);
-  }
-}
-
-void SetH5ActivityRedDotTimestampReq::MergeFrom(const SetH5ActivityRedDotTimestampReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.SetH5ActivityRedDotTimestampReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.client_red_dot_timestamp() != 0) {
-    set_client_red_dot_timestamp(from.client_red_dot_timestamp());
-  }
-}
-
-void SetH5ActivityRedDotTimestampReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.SetH5ActivityRedDotTimestampReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void SetH5ActivityRedDotTimestampReq::CopyFrom(const SetH5ActivityRedDotTimestampReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.SetH5ActivityRedDotTimestampReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool SetH5ActivityRedDotTimestampReq::IsInitialized() const {
-  return true;
-}
-
-void SetH5ActivityRedDotTimestampReq::Swap(SetH5ActivityRedDotTimestampReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void SetH5ActivityRedDotTimestampReq::InternalSwap(SetH5ActivityRedDotTimestampReq* other) {
-  using std::swap;
-  swap(client_red_dot_timestamp_, other->client_red_dot_timestamp_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata SetH5ActivityRedDotTimestampReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// SetH5ActivityRedDotTimestampReq
-
-// uint32 client_red_dot_timestamp = 10;
-void SetH5ActivityRedDotTimestampReq::clear_client_red_dot_timestamp() {
-  client_red_dot_timestamp_ = 0u;
-}
-::google::protobuf::uint32 SetH5ActivityRedDotTimestampReq::client_red_dot_timestamp() const {
-  // @@protoc_insertion_point(field_get:proto.SetH5ActivityRedDotTimestampReq.client_red_dot_timestamp)
-  return client_red_dot_timestamp_;
-}
-void SetH5ActivityRedDotTimestampReq::set_client_red_dot_timestamp(::google::protobuf::uint32 value) {
-  
-  client_red_dot_timestamp_ = value;
-  // @@protoc_insertion_point(field_set:proto.SetH5ActivityRedDotTimestampReq.client_red_dot_timestamp)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int SetH5ActivityRedDotTimestampRsp::kRetcodeFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-SetH5ActivityRedDotTimestampRsp::SetH5ActivityRedDotTimestampRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.SetH5ActivityRedDotTimestampRsp)
-}
-SetH5ActivityRedDotTimestampRsp::SetH5ActivityRedDotTimestampRsp(const SetH5ActivityRedDotTimestampRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  retcode_ = from.retcode_;
-  // @@protoc_insertion_point(copy_constructor:proto.SetH5ActivityRedDotTimestampRsp)
-}
-
-void SetH5ActivityRedDotTimestampRsp::SharedCtor() {
-  retcode_ = 0;
-  _cached_size_ = 0;
-}
-
-SetH5ActivityRedDotTimestampRsp::~SetH5ActivityRedDotTimestampRsp() {
-  // @@protoc_insertion_point(destructor:proto.SetH5ActivityRedDotTimestampRsp)
-  SharedDtor();
-}
-
-void SetH5ActivityRedDotTimestampRsp::SharedDtor() {
-}
-
-void SetH5ActivityRedDotTimestampRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* SetH5ActivityRedDotTimestampRsp::descriptor() {
-  protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const SetH5ActivityRedDotTimestampRsp& SetH5ActivityRedDotTimestampRsp::default_instance() {
-  protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-SetH5ActivityRedDotTimestampRsp* SetH5ActivityRedDotTimestampRsp::New(::google::protobuf::Arena* arena) const {
-  SetH5ActivityRedDotTimestampRsp* n = new SetH5ActivityRedDotTimestampRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void SetH5ActivityRedDotTimestampRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.SetH5ActivityRedDotTimestampRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  retcode_ = 0;
-  _internal_metadata_.Clear();
 }
 
 bool SetH5ActivityRedDotTimestampRsp::MergePartialFromCodedStream(
@@ -2446,16 +1008,18 @@ bool SetH5ActivityRedDotTimestampRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.SetH5ActivityRedDotTimestampRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.SetH5ActivityRedDotTimestampRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -2471,9 +1035,9 @@ void SetH5ActivityRedDotTimestampRsp::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteInt32(4, this->retcode(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.SetH5ActivityRedDotTimestampRsp)
 }
@@ -2490,9 +1054,9 @@ void SetH5ActivityRedDotTimestampRsp::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(4, this->retcode(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.SetH5ActivityRedDotTimestampRsp)
   return target;
@@ -2502,10 +1066,10 @@ size_t SetH5ActivityRedDotTimestampRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.SetH5ActivityRedDotTimestampRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // int32 retcode = 4;
   if (this->retcode() != 0) {
@@ -2520,86 +1084,6 @@ size_t SetH5ActivityRedDotTimestampRsp::ByteSizeLong() const {
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
 }
-
-void SetH5ActivityRedDotTimestampRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.SetH5ActivityRedDotTimestampRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const SetH5ActivityRedDotTimestampRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const SetH5ActivityRedDotTimestampRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.SetH5ActivityRedDotTimestampRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.SetH5ActivityRedDotTimestampRsp)
-    MergeFrom(*source);
-  }
-}
-
-void SetH5ActivityRedDotTimestampRsp::MergeFrom(const SetH5ActivityRedDotTimestampRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.SetH5ActivityRedDotTimestampRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-}
-
-void SetH5ActivityRedDotTimestampRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.SetH5ActivityRedDotTimestampRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void SetH5ActivityRedDotTimestampRsp::CopyFrom(const SetH5ActivityRedDotTimestampRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.SetH5ActivityRedDotTimestampRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool SetH5ActivityRedDotTimestampRsp::IsInitialized() const {
-  return true;
-}
-
-void SetH5ActivityRedDotTimestampRsp::Swap(SetH5ActivityRedDotTimestampRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void SetH5ActivityRedDotTimestampRsp::InternalSwap(SetH5ActivityRedDotTimestampRsp* other) {
-  using std::swap;
-  swap(retcode_, other->retcode_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata SetH5ActivityRedDotTimestampRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fh5_5factivity_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// SetH5ActivityRedDotTimestampRsp
-
-// int32 retcode = 4;
-void SetH5ActivityRedDotTimestampRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 SetH5ActivityRedDotTimestampRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.SetH5ActivityRedDotTimestampRsp.retcode)
-  return retcode_;
-}
-void SetH5ActivityRedDotTimestampRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.SetH5ActivityRedDotTimestampRsp.retcode)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
 
 // @@protoc_insertion_point(namespace_scope)
 

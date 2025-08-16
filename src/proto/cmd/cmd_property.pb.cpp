@@ -109,829 +109,6 @@ public:
      _instance;
 } _MarkNewNotify_default_instance_;
 
-namespace protobuf_cmd_2fcmd_5fproperty_2eproto {
-
-
-namespace {
-
-::google::protobuf::Metadata file_level_metadata[18];
-const ::google::protobuf::EnumDescriptor* file_level_enum_descriptors[15];
-
-}  // namespace
-
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::ParseTableField
-    const TableStruct::entries[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  {0, 0, 0, ::google::protobuf::internal::kInvalidMask, 0, 0},
-};
-
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::AuxillaryParseTableField
-    const TableStruct::aux[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  ::google::protobuf::internal::AuxillaryParseTableField(),
-};
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::ParseTable const
-    TableStruct::schema[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-};
-
-const ::google::protobuf::uint32 TableStruct::offsets[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(EntityPropNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(EntityPropNotify, prop_map_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(EntityPropNotify, entity_id_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(LifeStateChangeNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(LifeStateChangeNotify, entity_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(LifeStateChangeNotify, server_buff_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(LifeStateChangeNotify, attack_tag_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(LifeStateChangeNotify, move_reliable_seq_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(LifeStateChangeNotify, die_type_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(LifeStateChangeNotify, life_state_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(LifeStateChangeNotify, source_entity_id_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(EntityFightPropNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(EntityFightPropNotify, entity_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(EntityFightPropNotify, fight_prop_map_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(EntityFightPropUpdateNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(EntityFightPropUpdateNotify, fight_prop_map_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(EntityFightPropUpdateNotify, entity_id_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarFightPropNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarFightPropNotify, fight_prop_map_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarFightPropNotify, avatar_guid_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarFightPropUpdateNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarFightPropUpdateNotify, fight_prop_map_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarFightPropUpdateNotify, avatar_guid_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(EntityFightPropChangeReasonNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(EntityFightPropChangeReasonNotify, param_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(EntityFightPropChangeReasonNotify, prop_delta_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(EntityFightPropChangeReasonNotify, change_hp_reason_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(EntityFightPropChangeReasonNotify, reason_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(EntityFightPropChangeReasonNotify, entity_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(EntityFightPropChangeReasonNotify, change_energy_reson_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(EntityFightPropChangeReasonNotify, prop_type_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarLifeStateChangeNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarLifeStateChangeNotify, life_state_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarLifeStateChangeNotify, attack_tag_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarLifeStateChangeNotify, die_type_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarLifeStateChangeNotify, server_buff_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarLifeStateChangeNotify, move_reliable_seq_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarLifeStateChangeNotify, source_entity_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarLifeStateChangeNotify, avatar_guid_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarPropChangeReasonNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarPropChangeReasonNotify, old_value_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarPropChangeReasonNotify, reason_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarPropChangeReasonNotify, prop_type_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarPropChangeReasonNotify, avatar_guid_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarPropChangeReasonNotify, cur_value_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PlayerPropChangeReasonNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PlayerPropChangeReasonNotify, prop_type_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PlayerPropChangeReasonNotify, old_value_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PlayerPropChangeReasonNotify, reason_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PlayerPropChangeReasonNotify, cur_value_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarPropNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarPropNotify, prop_map_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarPropNotify, avatar_guid_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(MarkNewNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(MarkNewNotify, id_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(MarkNewNotify, mark_new_type_),
-};
-static const ::google::protobuf::internal::MigrationSchema schemas[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  { 0, -1, sizeof(EntityPropNotify)},
-  { 7, -1, sizeof(LifeStateChangeNotify)},
-  { 19, -1, sizeof(EntityFightPropNotify)},
-  { 26, -1, sizeof(EntityFightPropUpdateNotify)},
-  { 33, -1, sizeof(AvatarFightPropNotify)},
-  { 40, -1, sizeof(AvatarFightPropUpdateNotify)},
-  { 47, -1, sizeof(EntityFightPropChangeReasonNotify)},
-  { 59, -1, sizeof(AvatarLifeStateChangeNotify)},
-  { 71, -1, sizeof(AvatarPropChangeReasonNotify)},
-  { 81, -1, sizeof(PlayerPropChangeReasonNotify)},
-  { 90, -1, sizeof(AvatarPropNotify)},
-  { 97, -1, sizeof(MarkNewNotify)},
-};
-
-static ::google::protobuf::Message const * const file_default_instances[] = {
-  reinterpret_cast<const ::google::protobuf::Message*>(&_EntityPropNotify_PropMapEntry_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_EntityPropNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_LifeStateChangeNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_EntityFightPropNotify_FightPropMapEntry_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_EntityFightPropNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_EntityFightPropUpdateNotify_FightPropMapEntry_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_EntityFightPropUpdateNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarFightPropNotify_FightPropMapEntry_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarFightPropNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarFightPropUpdateNotify_FightPropMapEntry_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarFightPropUpdateNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_EntityFightPropChangeReasonNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarLifeStateChangeNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarPropChangeReasonNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_PlayerPropChangeReasonNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarPropNotify_PropMapEntry_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarPropNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_MarkNewNotify_default_instance_),
-};
-
-namespace {
-
-void protobuf_AssignDescriptors() {
-  AddDescriptors();
-  ::google::protobuf::MessageFactory* factory = NULL;
-  AssignDescriptors(
-      "cmd/cmd_property.proto", schemas, file_default_instances, TableStruct::offsets, factory,
-      file_level_metadata, file_level_enum_descriptors, NULL);
-file_level_metadata[0].reflection = EntityPropNotify::EntityPropNotify_PropMapEntry::CreateReflection(file_level_metadata[0].descriptor, _EntityPropNotify_PropMapEntry_default_instance_._instance.get_mutable());
-file_level_metadata[3].reflection = EntityFightPropNotify::EntityFightPropNotify_FightPropMapEntry::CreateReflection(file_level_metadata[3].descriptor, _EntityFightPropNotify_FightPropMapEntry_default_instance_._instance.get_mutable());
-file_level_metadata[5].reflection = EntityFightPropUpdateNotify::EntityFightPropUpdateNotify_FightPropMapEntry::CreateReflection(file_level_metadata[5].descriptor, _EntityFightPropUpdateNotify_FightPropMapEntry_default_instance_._instance.get_mutable());
-file_level_metadata[7].reflection = AvatarFightPropNotify::AvatarFightPropNotify_FightPropMapEntry::CreateReflection(file_level_metadata[7].descriptor, _AvatarFightPropNotify_FightPropMapEntry_default_instance_._instance.get_mutable());
-file_level_metadata[9].reflection = AvatarFightPropUpdateNotify::AvatarFightPropUpdateNotify_FightPropMapEntry::CreateReflection(file_level_metadata[9].descriptor, _AvatarFightPropUpdateNotify_FightPropMapEntry_default_instance_._instance.get_mutable());
-file_level_metadata[15].reflection = AvatarPropNotify::AvatarPropNotify_PropMapEntry::CreateReflection(file_level_metadata[15].descriptor, _AvatarPropNotify_PropMapEntry_default_instance_._instance.get_mutable());
-}
-
-void protobuf_AssignDescriptorsOnce() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &protobuf_AssignDescriptors);
-}
-
-void protobuf_RegisterTypes(const ::std::string&) GOOGLE_ATTRIBUTE_COLD;
-void protobuf_RegisterTypes(const ::std::string&) {
-  protobuf_AssignDescriptorsOnce();
-  ::google::protobuf::internal::RegisterAllTypes(file_level_metadata, 18);
-}
-
-}  // namespace
-void TableStruct::InitDefaultsImpl() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
-
-  ::google::protobuf::internal::InitProtobufDefaults();
-  ::proto::protobuf_define_2eproto::InitDefaults();
-  _EntityPropNotify_PropMapEntry_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_EntityPropNotify_PropMapEntry_default_instance_);_EntityPropNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_EntityPropNotify_default_instance_);_LifeStateChangeNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_LifeStateChangeNotify_default_instance_);_EntityFightPropNotify_FightPropMapEntry_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_EntityFightPropNotify_FightPropMapEntry_default_instance_);_EntityFightPropNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_EntityFightPropNotify_default_instance_);_EntityFightPropUpdateNotify_FightPropMapEntry_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_EntityFightPropUpdateNotify_FightPropMapEntry_default_instance_);_EntityFightPropUpdateNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_EntityFightPropUpdateNotify_default_instance_);_AvatarFightPropNotify_FightPropMapEntry_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarFightPropNotify_FightPropMapEntry_default_instance_);_AvatarFightPropNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarFightPropNotify_default_instance_);_AvatarFightPropUpdateNotify_FightPropMapEntry_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarFightPropUpdateNotify_FightPropMapEntry_default_instance_);_AvatarFightPropUpdateNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarFightPropUpdateNotify_default_instance_);_EntityFightPropChangeReasonNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_EntityFightPropChangeReasonNotify_default_instance_);_AvatarLifeStateChangeNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarLifeStateChangeNotify_default_instance_);_AvatarPropChangeReasonNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarPropChangeReasonNotify_default_instance_);_PlayerPropChangeReasonNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_PlayerPropChangeReasonNotify_default_instance_);_AvatarPropNotify_PropMapEntry_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarPropNotify_PropMapEntry_default_instance_);_AvatarPropNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarPropNotify_default_instance_);_MarkNewNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_MarkNewNotify_default_instance_);_EntityPropNotify_PropMapEntry_default_instance_._instance.get_mutable()->set_default_instance(_EntityPropNotify_PropMapEntry_default_instance_._instance.get_mutable());
-  _EntityPropNotify_PropMapEntry_default_instance_._instance.get_mutable()->InitAsDefaultInstance();
-  _EntityFightPropNotify_FightPropMapEntry_default_instance_._instance.get_mutable()->set_default_instance(_EntityFightPropNotify_FightPropMapEntry_default_instance_._instance.get_mutable());
-  _EntityFightPropNotify_FightPropMapEntry_default_instance_._instance.get_mutable()->InitAsDefaultInstance();
-  _EntityFightPropUpdateNotify_FightPropMapEntry_default_instance_._instance.get_mutable()->set_default_instance(_EntityFightPropUpdateNotify_FightPropMapEntry_default_instance_._instance.get_mutable());
-  _EntityFightPropUpdateNotify_FightPropMapEntry_default_instance_._instance.get_mutable()->InitAsDefaultInstance();
-  _AvatarFightPropNotify_FightPropMapEntry_default_instance_._instance.get_mutable()->set_default_instance(_AvatarFightPropNotify_FightPropMapEntry_default_instance_._instance.get_mutable());
-  _AvatarFightPropNotify_FightPropMapEntry_default_instance_._instance.get_mutable()->InitAsDefaultInstance();
-  _AvatarFightPropUpdateNotify_FightPropMapEntry_default_instance_._instance.get_mutable()->set_default_instance(_AvatarFightPropUpdateNotify_FightPropMapEntry_default_instance_._instance.get_mutable());
-  _AvatarFightPropUpdateNotify_FightPropMapEntry_default_instance_._instance.get_mutable()->InitAsDefaultInstance();
-  _AvatarPropNotify_PropMapEntry_default_instance_._instance.get_mutable()->set_default_instance(_AvatarPropNotify_PropMapEntry_default_instance_._instance.get_mutable());
-  _AvatarPropNotify_PropMapEntry_default_instance_._instance.get_mutable()->InitAsDefaultInstance();
-}
-
-void InitDefaults() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &TableStruct::InitDefaultsImpl);
-}
-namespace {
-void AddDescriptorsImpl() {
-  InitDefaults();
-  static const char descriptor[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-      "\n\026cmd/cmd_property.proto\022\005proto\032\014define."
-      "proto\"\356\001\n\020EntityPropNotify\0226\n\010prop_map\030\006"
-      " \003(\0132$.proto.EntityPropNotify.PropMapEnt"
-      "ry\022\021\n\tentity_id\030\t \001(\r\032@\n\014PropMapEntry\022\013\n"
-      "\003key\030\001 \001(\r\022\037\n\005value\030\002 \001(\0132\020.proto.PropVa"
-      "lue:\0028\001\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\265\t\022"
-      "\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE"
-      "\020\001\032\002\020\001\"\253\002\n\025LifeStateChangeNotify\022\021\n\tenti"
-      "ty_id\030\007 \001(\r\022+\n\020server_buff_list\030\002 \003(\0132\021."
-      "proto.ServerBuff\022\022\n\nattack_tag\030\r \001(\t\022\031\n\021"
-      "move_reliable_seq\030\005 \001(\r\022&\n\010die_type\030\006 \001("
-      "\0162\024.proto.PlayerDieType\022\022\n\nlife_state\030\t "
-      "\001(\r\022\030\n\020source_entity_id\030\017 \001(\r\"M\n\005CmdId\022\010"
-      "\n\004NONE\020\000\022\013\n\006CMD_ID\020\347\t\022\023\n\017ENET_CHANNEL_ID"
-      "\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001\"\366\001\n\025EntityF"
-      "ightPropNotify\022\021\n\tentity_id\030\007 \001(\r\022F\n\016fig"
-      "ht_prop_map\030\017 \003(\0132..proto.EntityFightPro"
-      "pNotify.FightPropMapEntry\0323\n\021FightPropMa"
-      "pEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\002:\0028\001\"M"
-      "\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\207\n\022\023\n\017ENET_C"
-      "HANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001\"\202\002"
-      "\n\033EntityFightPropUpdateNotify\022L\n\016fight_p"
-      "rop_map\030\013 \003(\01324.proto.EntityFightPropUpd"
-      "ateNotify.FightPropMapEntry\022\021\n\tentity_id"
-      "\030\007 \001(\r\0323\n\021FightPropMapEntry\022\013\n\003key\030\001 \001(\r"
-      "\022\r\n\005value\030\002 \001(\002:\0028\001\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013"
-      "\n\006CMD_ID\020\222\n\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET"
-      "_IS_RELIABLE\020\001\032\002\020\001\"\370\001\n\025AvatarFightPropNo"
-      "tify\022F\n\016fight_prop_map\030\r \003(\0132..proto.Ava"
-      "tarFightPropNotify.FightPropMapEntry\022\023\n\013"
-      "avatar_guid\030\014 \001(\004\0323\n\021FightPropMapEntry\022\013"
-      "\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\002:\0028\001\"M\n\005CmdId\022"
-      "\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\304\t\022\023\n\017ENET_CHANNEL_I"
-      "D\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001\"\204\002\n\033Avatar"
-      "FightPropUpdateNotify\022L\n\016fight_prop_map\030"
-      "\n \003(\01324.proto.AvatarFightPropUpdateNotif"
-      "y.FightPropMapEntry\022\023\n\013avatar_guid\030\010 \001(\004"
-      "\0323\n\021FightPropMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005va"
-      "lue\030\002 \001(\002:\0028\001\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_"
-      "ID\020\372\t\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RE"
-      "LIABLE\020\001\032\002\020\001\"\321\002\n!EntityFightPropChangeRe"
-      "asonNotify\022\022\n\nparam_list\030\001 \003(\r\022\022\n\nprop_d"
-      "elta\030\004 \001(\002\022.\n\020change_hp_reason\030\006 \001(\0162\024.p"
-      "roto.ChangHpReason\022\'\n\006reason\030\r \001(\0162\027.pro"
-      "to.PropChangeReason\022\021\n\tentity_id\030\014 \001(\r\0226"
-      "\n\023change_energy_reson\030\003 \001(\0162\031.proto.Chan"
-      "geEnergyReason\022\021\n\tprop_type\030\016 \001(\r\"M\n\005Cmd"
-      "Id\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\200\n\022\023\n\017ENET_CHANNE"
-      "L_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001\"\263\002\n\033Ava"
-      "tarLifeStateChangeNotify\022\022\n\nlife_state\030\010"
-      " \001(\r\022\022\n\nattack_tag\030\006 \001(\t\022&\n\010die_type\030\001 \001"
-      "(\0162\024.proto.PlayerDieType\022+\n\020server_buff_"
-      "list\030\004 \003(\0132\021.proto.ServerBuff\022\031\n\021move_re"
-      "liable_seq\030\n \001(\r\022\030\n\020source_entity_id\030\005 \001"
-      "(\r\022\023\n\013avatar_guid\030\003 \001(\004\"M\n\005CmdId\022\010\n\004NONE"
-      "\020\000\022\013\n\006CMD_ID\020\366\t\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020"
-      "ENET_IS_RELIABLE\020\001\032\002\020\001\"\344\001\n\034AvatarPropCha"
-      "ngeReasonNotify\022\021\n\told_value\030\004 \001(\002\022\'\n\006re"
-      "ason\030\005 \001(\0162\027.proto.PropChangeReason\022\021\n\tp"
-      "rop_type\030\n \001(\r\022\023\n\013avatar_guid\030\014 \001(\004\022\021\n\tc"
-      "ur_value\030\002 \001(\002\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD"
-      "_ID\020\356\t\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_R"
-      "ELIABLE\020\001\032\002\020\001\"\317\001\n\034PlayerPropChangeReason"
-      "Notify\022\021\n\tprop_type\030\006 \001(\r\022\021\n\told_value\030\014"
-      " \001(\002\022\'\n\006reason\030\001 \001(\0162\027.proto.PropChangeR"
-      "eason\022\021\n\tcur_value\030\t \001(\002\"M\n\005CmdId\022\010\n\004NON"
-      "E\020\000\022\013\n\006CMD_ID\020\276\t\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n"
-      "\020ENET_IS_RELIABLE\020\001\032\002\020\001\"\336\001\n\020AvatarPropNo"
-      "tify\0226\n\010prop_map\030\013 \003(\0132$.proto.AvatarPro"
-      "pNotify.PropMapEntry\022\023\n\013avatar_guid\030\017 \001("
-      "\004\032.\n\014PropMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030"
-      "\002 \001(\003:\0028\001\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\310"
-      "\t\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIAB"
-      "LE\020\001\032\002\020\001\"\206\001\n\rMarkNewNotify\022\017\n\007id_list\030\001 "
-      "\003(\r\022\025\n\rmark_new_type\030\017 \001(\r\"M\n\005CmdId\022\010\n\004N"
-      "ONE\020\000\022\013\n\006CMD_ID\020\315\t\022\023\n\017ENET_CHANNEL_ID\020\000\022"
-      "\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001*\245\003\n\020PropChange"
-      "Reason\022\024\n\020PROP_CHANGE_NONE\020\000\022\036\n\032PROP_CHA"
-      "NGE_STATUE_RECOVER\020\001\022\033\n\027PROP_CHANGE_ENER"
-      "GY_BALL\020\002\022\027\n\023PROP_CHANGE_ABILITY\020\003\022\027\n\023PR"
-      "OP_CHANGE_LEVELUP\020\004\022\024\n\020PROP_CHANGE_ITEM\020"
-      "\005\022\033\n\027PROP_CHANGE_AVATAR_CARD\020\006\022\034\n\030PROP_C"
-      "HANGE_CITY_LEVELUP\020\007\022\036\n\032PROP_CHANGE_AVAT"
-      "AR_UPGRADE\020\010\022\036\n\032PROP_CHANGE_AVATAR_PROMO"
-      "TE\020\t\022\036\n\032PROP_CHANGE_PLAYER_ADD_EXP\020\n\022\034\n\030"
-      "PROP_CHANGE_FINISH_QUEST\020\013\022\022\n\016PROP_CHANG"
-      "E_GM\020\014\022)\n%PROP_CHANGE_MANUAL_ADJUST_WORL"
-      "D_LEVEL\020\r*K\n\022ChangeEnergyReason\022\026\n\022CHANG"
-      "E_ENERGY_NONE\020\000\022\035\n\031CHANGE_ENERGY_SKILL_S"
-      "TART\020\001*Y\n\013MarkNewType\022\026\n\022MARK_NEW_TYPE_N"
-      "ONE\020\000\022\031\n\025MARK_NEW_TYPE_COMBINE\020\001\022\027\n\023MARK"
-      "_NEW_TYPE_FORGE\020\002B\nZ\010./;protob\006proto3"
-  };
-  ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-      descriptor, 3677);
-  ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
-    "cmd/cmd_property.proto", &protobuf_RegisterTypes);
-  ::proto::protobuf_define_2eproto::AddDescriptors();
-}
-} // anonymous namespace
-
-void AddDescriptors() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &AddDescriptorsImpl);
-}
-// Force AddDescriptors() to be called at dynamic initialization time.
-struct StaticDescriptorInitializer {
-  StaticDescriptorInitializer() {
-    AddDescriptors();
-  }
-} static_descriptor_initializer;
-
-}  // namespace protobuf_cmd_2fcmd_5fproperty_2eproto
-
-const ::google::protobuf::EnumDescriptor* EntityPropNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_enum_descriptors[0];
-}
-bool EntityPropNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1205:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const EntityPropNotify_CmdId EntityPropNotify::NONE;
-const EntityPropNotify_CmdId EntityPropNotify::CMD_ID;
-const EntityPropNotify_CmdId EntityPropNotify::ENET_CHANNEL_ID;
-const EntityPropNotify_CmdId EntityPropNotify::ENET_IS_RELIABLE;
-const EntityPropNotify_CmdId EntityPropNotify::CmdId_MIN;
-const EntityPropNotify_CmdId EntityPropNotify::CmdId_MAX;
-const int EntityPropNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* LifeStateChangeNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_enum_descriptors[1];
-}
-bool LifeStateChangeNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1255:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const LifeStateChangeNotify_CmdId LifeStateChangeNotify::NONE;
-const LifeStateChangeNotify_CmdId LifeStateChangeNotify::CMD_ID;
-const LifeStateChangeNotify_CmdId LifeStateChangeNotify::ENET_CHANNEL_ID;
-const LifeStateChangeNotify_CmdId LifeStateChangeNotify::ENET_IS_RELIABLE;
-const LifeStateChangeNotify_CmdId LifeStateChangeNotify::CmdId_MIN;
-const LifeStateChangeNotify_CmdId LifeStateChangeNotify::CmdId_MAX;
-const int LifeStateChangeNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* EntityFightPropNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_enum_descriptors[2];
-}
-bool EntityFightPropNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1287:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const EntityFightPropNotify_CmdId EntityFightPropNotify::NONE;
-const EntityFightPropNotify_CmdId EntityFightPropNotify::CMD_ID;
-const EntityFightPropNotify_CmdId EntityFightPropNotify::ENET_CHANNEL_ID;
-const EntityFightPropNotify_CmdId EntityFightPropNotify::ENET_IS_RELIABLE;
-const EntityFightPropNotify_CmdId EntityFightPropNotify::CmdId_MIN;
-const EntityFightPropNotify_CmdId EntityFightPropNotify::CmdId_MAX;
-const int EntityFightPropNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* EntityFightPropUpdateNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_enum_descriptors[3];
-}
-bool EntityFightPropUpdateNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1298:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const EntityFightPropUpdateNotify_CmdId EntityFightPropUpdateNotify::NONE;
-const EntityFightPropUpdateNotify_CmdId EntityFightPropUpdateNotify::CMD_ID;
-const EntityFightPropUpdateNotify_CmdId EntityFightPropUpdateNotify::ENET_CHANNEL_ID;
-const EntityFightPropUpdateNotify_CmdId EntityFightPropUpdateNotify::ENET_IS_RELIABLE;
-const EntityFightPropUpdateNotify_CmdId EntityFightPropUpdateNotify::CmdId_MIN;
-const EntityFightPropUpdateNotify_CmdId EntityFightPropUpdateNotify::CmdId_MAX;
-const int EntityFightPropUpdateNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarFightPropNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_enum_descriptors[4];
-}
-bool AvatarFightPropNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1220:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarFightPropNotify_CmdId AvatarFightPropNotify::NONE;
-const AvatarFightPropNotify_CmdId AvatarFightPropNotify::CMD_ID;
-const AvatarFightPropNotify_CmdId AvatarFightPropNotify::ENET_CHANNEL_ID;
-const AvatarFightPropNotify_CmdId AvatarFightPropNotify::ENET_IS_RELIABLE;
-const AvatarFightPropNotify_CmdId AvatarFightPropNotify::CmdId_MIN;
-const AvatarFightPropNotify_CmdId AvatarFightPropNotify::CmdId_MAX;
-const int AvatarFightPropNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarFightPropUpdateNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_enum_descriptors[5];
-}
-bool AvatarFightPropUpdateNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1274:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarFightPropUpdateNotify_CmdId AvatarFightPropUpdateNotify::NONE;
-const AvatarFightPropUpdateNotify_CmdId AvatarFightPropUpdateNotify::CMD_ID;
-const AvatarFightPropUpdateNotify_CmdId AvatarFightPropUpdateNotify::ENET_CHANNEL_ID;
-const AvatarFightPropUpdateNotify_CmdId AvatarFightPropUpdateNotify::ENET_IS_RELIABLE;
-const AvatarFightPropUpdateNotify_CmdId AvatarFightPropUpdateNotify::CmdId_MIN;
-const AvatarFightPropUpdateNotify_CmdId AvatarFightPropUpdateNotify::CmdId_MAX;
-const int AvatarFightPropUpdateNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* EntityFightPropChangeReasonNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_enum_descriptors[6];
-}
-bool EntityFightPropChangeReasonNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1280:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const EntityFightPropChangeReasonNotify_CmdId EntityFightPropChangeReasonNotify::NONE;
-const EntityFightPropChangeReasonNotify_CmdId EntityFightPropChangeReasonNotify::CMD_ID;
-const EntityFightPropChangeReasonNotify_CmdId EntityFightPropChangeReasonNotify::ENET_CHANNEL_ID;
-const EntityFightPropChangeReasonNotify_CmdId EntityFightPropChangeReasonNotify::ENET_IS_RELIABLE;
-const EntityFightPropChangeReasonNotify_CmdId EntityFightPropChangeReasonNotify::CmdId_MIN;
-const EntityFightPropChangeReasonNotify_CmdId EntityFightPropChangeReasonNotify::CmdId_MAX;
-const int EntityFightPropChangeReasonNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarLifeStateChangeNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_enum_descriptors[7];
-}
-bool AvatarLifeStateChangeNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1270:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarLifeStateChangeNotify_CmdId AvatarLifeStateChangeNotify::NONE;
-const AvatarLifeStateChangeNotify_CmdId AvatarLifeStateChangeNotify::CMD_ID;
-const AvatarLifeStateChangeNotify_CmdId AvatarLifeStateChangeNotify::ENET_CHANNEL_ID;
-const AvatarLifeStateChangeNotify_CmdId AvatarLifeStateChangeNotify::ENET_IS_RELIABLE;
-const AvatarLifeStateChangeNotify_CmdId AvatarLifeStateChangeNotify::CmdId_MIN;
-const AvatarLifeStateChangeNotify_CmdId AvatarLifeStateChangeNotify::CmdId_MAX;
-const int AvatarLifeStateChangeNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarPropChangeReasonNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_enum_descriptors[8];
-}
-bool AvatarPropChangeReasonNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1262:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarPropChangeReasonNotify_CmdId AvatarPropChangeReasonNotify::NONE;
-const AvatarPropChangeReasonNotify_CmdId AvatarPropChangeReasonNotify::CMD_ID;
-const AvatarPropChangeReasonNotify_CmdId AvatarPropChangeReasonNotify::ENET_CHANNEL_ID;
-const AvatarPropChangeReasonNotify_CmdId AvatarPropChangeReasonNotify::ENET_IS_RELIABLE;
-const AvatarPropChangeReasonNotify_CmdId AvatarPropChangeReasonNotify::CmdId_MIN;
-const AvatarPropChangeReasonNotify_CmdId AvatarPropChangeReasonNotify::CmdId_MAX;
-const int AvatarPropChangeReasonNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* PlayerPropChangeReasonNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_enum_descriptors[9];
-}
-bool PlayerPropChangeReasonNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1214:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const PlayerPropChangeReasonNotify_CmdId PlayerPropChangeReasonNotify::NONE;
-const PlayerPropChangeReasonNotify_CmdId PlayerPropChangeReasonNotify::CMD_ID;
-const PlayerPropChangeReasonNotify_CmdId PlayerPropChangeReasonNotify::ENET_CHANNEL_ID;
-const PlayerPropChangeReasonNotify_CmdId PlayerPropChangeReasonNotify::ENET_IS_RELIABLE;
-const PlayerPropChangeReasonNotify_CmdId PlayerPropChangeReasonNotify::CmdId_MIN;
-const PlayerPropChangeReasonNotify_CmdId PlayerPropChangeReasonNotify::CmdId_MAX;
-const int PlayerPropChangeReasonNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarPropNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_enum_descriptors[10];
-}
-bool AvatarPropNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1224:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarPropNotify_CmdId AvatarPropNotify::NONE;
-const AvatarPropNotify_CmdId AvatarPropNotify::CMD_ID;
-const AvatarPropNotify_CmdId AvatarPropNotify::ENET_CHANNEL_ID;
-const AvatarPropNotify_CmdId AvatarPropNotify::ENET_IS_RELIABLE;
-const AvatarPropNotify_CmdId AvatarPropNotify::CmdId_MIN;
-const AvatarPropNotify_CmdId AvatarPropNotify::CmdId_MAX;
-const int AvatarPropNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* MarkNewNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_enum_descriptors[11];
-}
-bool MarkNewNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1229:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const MarkNewNotify_CmdId MarkNewNotify::NONE;
-const MarkNewNotify_CmdId MarkNewNotify::CMD_ID;
-const MarkNewNotify_CmdId MarkNewNotify::ENET_CHANNEL_ID;
-const MarkNewNotify_CmdId MarkNewNotify::ENET_IS_RELIABLE;
-const MarkNewNotify_CmdId MarkNewNotify::CmdId_MIN;
-const MarkNewNotify_CmdId MarkNewNotify::CmdId_MAX;
-const int MarkNewNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* PropChangeReason_descriptor() {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_enum_descriptors[12];
-}
-bool PropChangeReason_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 2:
-    case 3:
-    case 4:
-    case 5:
-    case 6:
-    case 7:
-    case 8:
-    case 9:
-    case 10:
-    case 11:
-    case 12:
-    case 13:
-      return true;
-    default:
-      return false;
-  }
-}
-
-const ::google::protobuf::EnumDescriptor* ChangeEnergyReason_descriptor() {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_enum_descriptors[13];
-}
-bool ChangeEnergyReason_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-      return true;
-    default:
-      return false;
-  }
-}
-
-const ::google::protobuf::EnumDescriptor* MarkNewType_descriptor() {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_enum_descriptors[14];
-}
-bool MarkNewType_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 2:
-      return true;
-    default:
-      return false;
-  }
-}
-
-
-// ===================================================================
-
-EntityPropNotify::EntityPropNotify_PropMapEntry::EntityPropNotify_PropMapEntry() {}
-EntityPropNotify::EntityPropNotify_PropMapEntry::EntityPropNotify_PropMapEntry(::google::protobuf::Arena* arena) : SuperType(arena) {}
-::google::protobuf::Metadata EntityPropNotify::EntityPropNotify_PropMapEntry::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_metadata[0];
-}
-void EntityPropNotify::EntityPropNotify_PropMapEntry::MergeFrom(
-    const ::google::protobuf::Message& other) {
-  ::google::protobuf::Message::MergeFrom(other);
-}
-void EntityPropNotify::EntityPropNotify_PropMapEntry::MergeFrom(const EntityPropNotify_PropMapEntry& other) {
-  MergeFromInternal(other);
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int EntityPropNotify::kPropMapFieldNumber;
-const int EntityPropNotify::kEntityIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-EntityPropNotify::EntityPropNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fproperty_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.EntityPropNotify)
-}
-EntityPropNotify::EntityPropNotify(const EntityPropNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  prop_map_.MergeFrom(from.prop_map_);
-  entity_id_ = from.entity_id_;
-  // @@protoc_insertion_point(copy_constructor:proto.EntityPropNotify)
-}
-
-void EntityPropNotify::SharedCtor() {
-  entity_id_ = 0u;
-  _cached_size_ = 0;
-}
-
-EntityPropNotify::~EntityPropNotify() {
-  // @@protoc_insertion_point(destructor:proto.EntityPropNotify)
-  SharedDtor();
-}
-
-void EntityPropNotify::SharedDtor() {
-}
-
-void EntityPropNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* EntityPropNotify::descriptor() {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const EntityPropNotify& EntityPropNotify::default_instance() {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-EntityPropNotify* EntityPropNotify::New(::google::protobuf::Arena* arena) const {
-  EntityPropNotify* n = new EntityPropNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void EntityPropNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.EntityPropNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  prop_map_.Clear();
-  entity_id_ = 0u;
-  _internal_metadata_.Clear();
-}
-
 bool EntityPropNotify::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -981,16 +158,18 @@ bool EntityPropNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.EntityPropNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.EntityPropNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -1045,9 +224,9 @@ void EntityPropNotify::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(9, this->entity_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.EntityPropNotify)
 }
@@ -1107,9 +286,9 @@ void EntityPropNotify::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(9, this->entity_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.EntityPropNotify)
   return target;
@@ -1119,10 +298,10 @@ size_t EntityPropNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.EntityPropNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // map<uint32, .proto.PropValue> prop_map = 6;
   total_size += 1 *
@@ -1150,196 +329,6 @@ size_t EntityPropNotify::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void EntityPropNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.EntityPropNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const EntityPropNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const EntityPropNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.EntityPropNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.EntityPropNotify)
-    MergeFrom(*source);
-  }
-}
-
-void EntityPropNotify::MergeFrom(const EntityPropNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.EntityPropNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  prop_map_.MergeFrom(from.prop_map_);
-  if (from.entity_id() != 0) {
-    set_entity_id(from.entity_id());
-  }
-}
-
-void EntityPropNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.EntityPropNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void EntityPropNotify::CopyFrom(const EntityPropNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.EntityPropNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool EntityPropNotify::IsInitialized() const {
-  return true;
-}
-
-void EntityPropNotify::Swap(EntityPropNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void EntityPropNotify::InternalSwap(EntityPropNotify* other) {
-  using std::swap;
-  prop_map_.Swap(&other->prop_map_);
-  swap(entity_id_, other->entity_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata EntityPropNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// EntityPropNotify
-
-// map<uint32, .proto.PropValue> prop_map = 6;
-int EntityPropNotify::prop_map_size() const {
-  return prop_map_.size();
-}
-void EntityPropNotify::clear_prop_map() {
-  prop_map_.Clear();
-}
- const ::google::protobuf::Map< ::google::protobuf::uint32, ::proto::PropValue >&
-EntityPropNotify::prop_map() const {
-  // @@protoc_insertion_point(field_map:proto.EntityPropNotify.prop_map)
-  return prop_map_.GetMap();
-}
- ::google::protobuf::Map< ::google::protobuf::uint32, ::proto::PropValue >*
-EntityPropNotify::mutable_prop_map() {
-  // @@protoc_insertion_point(field_mutable_map:proto.EntityPropNotify.prop_map)
-  return prop_map_.MutableMap();
-}
-
-// uint32 entity_id = 9;
-void EntityPropNotify::clear_entity_id() {
-  entity_id_ = 0u;
-}
-::google::protobuf::uint32 EntityPropNotify::entity_id() const {
-  // @@protoc_insertion_point(field_get:proto.EntityPropNotify.entity_id)
-  return entity_id_;
-}
-void EntityPropNotify::set_entity_id(::google::protobuf::uint32 value) {
-  
-  entity_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.EntityPropNotify.entity_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int LifeStateChangeNotify::kEntityIdFieldNumber;
-const int LifeStateChangeNotify::kServerBuffListFieldNumber;
-const int LifeStateChangeNotify::kAttackTagFieldNumber;
-const int LifeStateChangeNotify::kMoveReliableSeqFieldNumber;
-const int LifeStateChangeNotify::kDieTypeFieldNumber;
-const int LifeStateChangeNotify::kLifeStateFieldNumber;
-const int LifeStateChangeNotify::kSourceEntityIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-LifeStateChangeNotify::LifeStateChangeNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fproperty_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.LifeStateChangeNotify)
-}
-LifeStateChangeNotify::LifeStateChangeNotify(const LifeStateChangeNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      server_buff_list_(from.server_buff_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  attack_tag_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  if (from.attack_tag().size() > 0) {
-    attack_tag_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.attack_tag_);
-  }
-  ::memcpy(&move_reliable_seq_, &from.move_reliable_seq_,
-    static_cast<size_t>(reinterpret_cast<char*>(&source_entity_id_) -
-    reinterpret_cast<char*>(&move_reliable_seq_)) + sizeof(source_entity_id_));
-  // @@protoc_insertion_point(copy_constructor:proto.LifeStateChangeNotify)
-}
-
-void LifeStateChangeNotify::SharedCtor() {
-  attack_tag_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  ::memset(&move_reliable_seq_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&source_entity_id_) -
-      reinterpret_cast<char*>(&move_reliable_seq_)) + sizeof(source_entity_id_));
-  _cached_size_ = 0;
-}
-
-LifeStateChangeNotify::~LifeStateChangeNotify() {
-  // @@protoc_insertion_point(destructor:proto.LifeStateChangeNotify)
-  SharedDtor();
-}
-
-void LifeStateChangeNotify::SharedDtor() {
-  attack_tag_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-
-void LifeStateChangeNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* LifeStateChangeNotify::descriptor() {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const LifeStateChangeNotify& LifeStateChangeNotify::default_instance() {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-LifeStateChangeNotify* LifeStateChangeNotify::New(::google::protobuf::Arena* arena) const {
-  LifeStateChangeNotify* n = new LifeStateChangeNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void LifeStateChangeNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.LifeStateChangeNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  server_buff_list_.Clear();
-  attack_tag_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  ::memset(&move_reliable_seq_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&source_entity_id_) -
-      reinterpret_cast<char*>(&move_reliable_seq_)) + sizeof(source_entity_id_));
-  _internal_metadata_.Clear();
 }
 
 bool LifeStateChangeNotify::MergePartialFromCodedStream(
@@ -1457,16 +446,18 @@ bool LifeStateChangeNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.LifeStateChangeNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.LifeStateChangeNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -1520,9 +511,9 @@ void LifeStateChangeNotify::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(15, this->source_entity_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.LifeStateChangeNotify)
 }
@@ -1579,9 +570,9 @@ void LifeStateChangeNotify::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(15, this->source_entity_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.LifeStateChangeNotify)
   return target;
@@ -1591,10 +582,10 @@ size_t LifeStateChangeNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.LifeStateChangeNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated .proto.ServerBuff server_buff_list = 2;
   {
@@ -1655,339 +646,6 @@ size_t LifeStateChangeNotify::ByteSizeLong() const {
   return total_size;
 }
 
-void LifeStateChangeNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.LifeStateChangeNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const LifeStateChangeNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const LifeStateChangeNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.LifeStateChangeNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.LifeStateChangeNotify)
-    MergeFrom(*source);
-  }
-}
-
-void LifeStateChangeNotify::MergeFrom(const LifeStateChangeNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.LifeStateChangeNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  server_buff_list_.MergeFrom(from.server_buff_list_);
-  if (from.attack_tag().size() > 0) {
-
-    attack_tag_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.attack_tag_);
-  }
-  if (from.move_reliable_seq() != 0) {
-    set_move_reliable_seq(from.move_reliable_seq());
-  }
-  if (from.die_type() != 0) {
-    set_die_type(from.die_type());
-  }
-  if (from.entity_id() != 0) {
-    set_entity_id(from.entity_id());
-  }
-  if (from.life_state() != 0) {
-    set_life_state(from.life_state());
-  }
-  if (from.source_entity_id() != 0) {
-    set_source_entity_id(from.source_entity_id());
-  }
-}
-
-void LifeStateChangeNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.LifeStateChangeNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void LifeStateChangeNotify::CopyFrom(const LifeStateChangeNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.LifeStateChangeNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool LifeStateChangeNotify::IsInitialized() const {
-  return true;
-}
-
-void LifeStateChangeNotify::Swap(LifeStateChangeNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void LifeStateChangeNotify::InternalSwap(LifeStateChangeNotify* other) {
-  using std::swap;
-  server_buff_list_.InternalSwap(&other->server_buff_list_);
-  attack_tag_.Swap(&other->attack_tag_);
-  swap(move_reliable_seq_, other->move_reliable_seq_);
-  swap(die_type_, other->die_type_);
-  swap(entity_id_, other->entity_id_);
-  swap(life_state_, other->life_state_);
-  swap(source_entity_id_, other->source_entity_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata LifeStateChangeNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// LifeStateChangeNotify
-
-// uint32 entity_id = 7;
-void LifeStateChangeNotify::clear_entity_id() {
-  entity_id_ = 0u;
-}
-::google::protobuf::uint32 LifeStateChangeNotify::entity_id() const {
-  // @@protoc_insertion_point(field_get:proto.LifeStateChangeNotify.entity_id)
-  return entity_id_;
-}
-void LifeStateChangeNotify::set_entity_id(::google::protobuf::uint32 value) {
-  
-  entity_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.LifeStateChangeNotify.entity_id)
-}
-
-// repeated .proto.ServerBuff server_buff_list = 2;
-int LifeStateChangeNotify::server_buff_list_size() const {
-  return server_buff_list_.size();
-}
-void LifeStateChangeNotify::clear_server_buff_list() {
-  server_buff_list_.Clear();
-}
-const ::proto::ServerBuff& LifeStateChangeNotify::server_buff_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.LifeStateChangeNotify.server_buff_list)
-  return server_buff_list_.Get(index);
-}
-::proto::ServerBuff* LifeStateChangeNotify::mutable_server_buff_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.LifeStateChangeNotify.server_buff_list)
-  return server_buff_list_.Mutable(index);
-}
-::proto::ServerBuff* LifeStateChangeNotify::add_server_buff_list() {
-  // @@protoc_insertion_point(field_add:proto.LifeStateChangeNotify.server_buff_list)
-  return server_buff_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::ServerBuff >*
-LifeStateChangeNotify::mutable_server_buff_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.LifeStateChangeNotify.server_buff_list)
-  return &server_buff_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::ServerBuff >&
-LifeStateChangeNotify::server_buff_list() const {
-  // @@protoc_insertion_point(field_list:proto.LifeStateChangeNotify.server_buff_list)
-  return server_buff_list_;
-}
-
-// string attack_tag = 13;
-void LifeStateChangeNotify::clear_attack_tag() {
-  attack_tag_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-const ::std::string& LifeStateChangeNotify::attack_tag() const {
-  // @@protoc_insertion_point(field_get:proto.LifeStateChangeNotify.attack_tag)
-  return attack_tag_.GetNoArena();
-}
-void LifeStateChangeNotify::set_attack_tag(const ::std::string& value) {
-  
-  attack_tag_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
-  // @@protoc_insertion_point(field_set:proto.LifeStateChangeNotify.attack_tag)
-}
-#if LANG_CXX11
-void LifeStateChangeNotify::set_attack_tag(::std::string&& value) {
-  
-  attack_tag_.SetNoArena(
-    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
-  // @@protoc_insertion_point(field_set_rvalue:proto.LifeStateChangeNotify.attack_tag)
-}
-#endif
-void LifeStateChangeNotify::set_attack_tag(const char* value) {
-  GOOGLE_DCHECK(value != NULL);
-  
-  attack_tag_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
-  // @@protoc_insertion_point(field_set_char:proto.LifeStateChangeNotify.attack_tag)
-}
-void LifeStateChangeNotify::set_attack_tag(const char* value, size_t size) {
-  
-  attack_tag_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
-      ::std::string(reinterpret_cast<const char*>(value), size));
-  // @@protoc_insertion_point(field_set_pointer:proto.LifeStateChangeNotify.attack_tag)
-}
-::std::string* LifeStateChangeNotify::mutable_attack_tag() {
-  
-  // @@protoc_insertion_point(field_mutable:proto.LifeStateChangeNotify.attack_tag)
-  return attack_tag_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-::std::string* LifeStateChangeNotify::release_attack_tag() {
-  // @@protoc_insertion_point(field_release:proto.LifeStateChangeNotify.attack_tag)
-  
-  return attack_tag_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-void LifeStateChangeNotify::set_allocated_attack_tag(::std::string* attack_tag) {
-  if (attack_tag != NULL) {
-    
-  } else {
-    
-  }
-  attack_tag_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), attack_tag);
-  // @@protoc_insertion_point(field_set_allocated:proto.LifeStateChangeNotify.attack_tag)
-}
-
-// uint32 move_reliable_seq = 5;
-void LifeStateChangeNotify::clear_move_reliable_seq() {
-  move_reliable_seq_ = 0u;
-}
-::google::protobuf::uint32 LifeStateChangeNotify::move_reliable_seq() const {
-  // @@protoc_insertion_point(field_get:proto.LifeStateChangeNotify.move_reliable_seq)
-  return move_reliable_seq_;
-}
-void LifeStateChangeNotify::set_move_reliable_seq(::google::protobuf::uint32 value) {
-  
-  move_reliable_seq_ = value;
-  // @@protoc_insertion_point(field_set:proto.LifeStateChangeNotify.move_reliable_seq)
-}
-
-// .proto.PlayerDieType die_type = 6;
-void LifeStateChangeNotify::clear_die_type() {
-  die_type_ = 0;
-}
-::proto::PlayerDieType LifeStateChangeNotify::die_type() const {
-  // @@protoc_insertion_point(field_get:proto.LifeStateChangeNotify.die_type)
-  return static_cast< ::proto::PlayerDieType >(die_type_);
-}
-void LifeStateChangeNotify::set_die_type(::proto::PlayerDieType value) {
-  
-  die_type_ = value;
-  // @@protoc_insertion_point(field_set:proto.LifeStateChangeNotify.die_type)
-}
-
-// uint32 life_state = 9;
-void LifeStateChangeNotify::clear_life_state() {
-  life_state_ = 0u;
-}
-::google::protobuf::uint32 LifeStateChangeNotify::life_state() const {
-  // @@protoc_insertion_point(field_get:proto.LifeStateChangeNotify.life_state)
-  return life_state_;
-}
-void LifeStateChangeNotify::set_life_state(::google::protobuf::uint32 value) {
-  
-  life_state_ = value;
-  // @@protoc_insertion_point(field_set:proto.LifeStateChangeNotify.life_state)
-}
-
-// uint32 source_entity_id = 15;
-void LifeStateChangeNotify::clear_source_entity_id() {
-  source_entity_id_ = 0u;
-}
-::google::protobuf::uint32 LifeStateChangeNotify::source_entity_id() const {
-  // @@protoc_insertion_point(field_get:proto.LifeStateChangeNotify.source_entity_id)
-  return source_entity_id_;
-}
-void LifeStateChangeNotify::set_source_entity_id(::google::protobuf::uint32 value) {
-  
-  source_entity_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.LifeStateChangeNotify.source_entity_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-EntityFightPropNotify::EntityFightPropNotify_FightPropMapEntry::EntityFightPropNotify_FightPropMapEntry() {}
-EntityFightPropNotify::EntityFightPropNotify_FightPropMapEntry::EntityFightPropNotify_FightPropMapEntry(::google::protobuf::Arena* arena) : SuperType(arena) {}
-::google::protobuf::Metadata EntityFightPropNotify::EntityFightPropNotify_FightPropMapEntry::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_metadata[3];
-}
-void EntityFightPropNotify::EntityFightPropNotify_FightPropMapEntry::MergeFrom(
-    const ::google::protobuf::Message& other) {
-  ::google::protobuf::Message::MergeFrom(other);
-}
-void EntityFightPropNotify::EntityFightPropNotify_FightPropMapEntry::MergeFrom(const EntityFightPropNotify_FightPropMapEntry& other) {
-  MergeFromInternal(other);
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int EntityFightPropNotify::kEntityIdFieldNumber;
-const int EntityFightPropNotify::kFightPropMapFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-EntityFightPropNotify::EntityFightPropNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fproperty_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.EntityFightPropNotify)
-}
-EntityFightPropNotify::EntityFightPropNotify(const EntityFightPropNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  fight_prop_map_.MergeFrom(from.fight_prop_map_);
-  entity_id_ = from.entity_id_;
-  // @@protoc_insertion_point(copy_constructor:proto.EntityFightPropNotify)
-}
-
-void EntityFightPropNotify::SharedCtor() {
-  entity_id_ = 0u;
-  _cached_size_ = 0;
-}
-
-EntityFightPropNotify::~EntityFightPropNotify() {
-  // @@protoc_insertion_point(destructor:proto.EntityFightPropNotify)
-  SharedDtor();
-}
-
-void EntityFightPropNotify::SharedDtor() {
-}
-
-void EntityFightPropNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* EntityFightPropNotify::descriptor() {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const EntityFightPropNotify& EntityFightPropNotify::default_instance() {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-EntityFightPropNotify* EntityFightPropNotify::New(::google::protobuf::Arena* arena) const {
-  EntityFightPropNotify* n = new EntityFightPropNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void EntityFightPropNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.EntityFightPropNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  fight_prop_map_.Clear();
-  entity_id_ = 0u;
-  _internal_metadata_.Clear();
-}
-
 bool EntityFightPropNotify::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -2037,16 +695,18 @@ bool EntityFightPropNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.EntityFightPropNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.EntityFightPropNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -2101,9 +761,9 @@ void EntityFightPropNotify::SerializeWithCachedSizes(
     }
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.EntityFightPropNotify)
 }
@@ -2163,9 +823,9 @@ void EntityFightPropNotify::SerializeWithCachedSizes(
     }
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.EntityFightPropNotify)
   return target;
@@ -2175,10 +835,10 @@ size_t EntityFightPropNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.EntityFightPropNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // map<uint32, float> fight_prop_map = 15;
   total_size += 1 *
@@ -2206,197 +866,6 @@ size_t EntityFightPropNotify::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void EntityFightPropNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.EntityFightPropNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const EntityFightPropNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const EntityFightPropNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.EntityFightPropNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.EntityFightPropNotify)
-    MergeFrom(*source);
-  }
-}
-
-void EntityFightPropNotify::MergeFrom(const EntityFightPropNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.EntityFightPropNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  fight_prop_map_.MergeFrom(from.fight_prop_map_);
-  if (from.entity_id() != 0) {
-    set_entity_id(from.entity_id());
-  }
-}
-
-void EntityFightPropNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.EntityFightPropNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void EntityFightPropNotify::CopyFrom(const EntityFightPropNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.EntityFightPropNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool EntityFightPropNotify::IsInitialized() const {
-  return true;
-}
-
-void EntityFightPropNotify::Swap(EntityFightPropNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void EntityFightPropNotify::InternalSwap(EntityFightPropNotify* other) {
-  using std::swap;
-  fight_prop_map_.Swap(&other->fight_prop_map_);
-  swap(entity_id_, other->entity_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata EntityFightPropNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// EntityFightPropNotify
-
-// uint32 entity_id = 7;
-void EntityFightPropNotify::clear_entity_id() {
-  entity_id_ = 0u;
-}
-::google::protobuf::uint32 EntityFightPropNotify::entity_id() const {
-  // @@protoc_insertion_point(field_get:proto.EntityFightPropNotify.entity_id)
-  return entity_id_;
-}
-void EntityFightPropNotify::set_entity_id(::google::protobuf::uint32 value) {
-  
-  entity_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.EntityFightPropNotify.entity_id)
-}
-
-// map<uint32, float> fight_prop_map = 15;
-int EntityFightPropNotify::fight_prop_map_size() const {
-  return fight_prop_map_.size();
-}
-void EntityFightPropNotify::clear_fight_prop_map() {
-  fight_prop_map_.Clear();
-}
- const ::google::protobuf::Map< ::google::protobuf::uint32, float >&
-EntityFightPropNotify::fight_prop_map() const {
-  // @@protoc_insertion_point(field_map:proto.EntityFightPropNotify.fight_prop_map)
-  return fight_prop_map_.GetMap();
-}
- ::google::protobuf::Map< ::google::protobuf::uint32, float >*
-EntityFightPropNotify::mutable_fight_prop_map() {
-  // @@protoc_insertion_point(field_mutable_map:proto.EntityFightPropNotify.fight_prop_map)
-  return fight_prop_map_.MutableMap();
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-EntityFightPropUpdateNotify::EntityFightPropUpdateNotify_FightPropMapEntry::EntityFightPropUpdateNotify_FightPropMapEntry() {}
-EntityFightPropUpdateNotify::EntityFightPropUpdateNotify_FightPropMapEntry::EntityFightPropUpdateNotify_FightPropMapEntry(::google::protobuf::Arena* arena) : SuperType(arena) {}
-::google::protobuf::Metadata EntityFightPropUpdateNotify::EntityFightPropUpdateNotify_FightPropMapEntry::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_metadata[5];
-}
-void EntityFightPropUpdateNotify::EntityFightPropUpdateNotify_FightPropMapEntry::MergeFrom(
-    const ::google::protobuf::Message& other) {
-  ::google::protobuf::Message::MergeFrom(other);
-}
-void EntityFightPropUpdateNotify::EntityFightPropUpdateNotify_FightPropMapEntry::MergeFrom(const EntityFightPropUpdateNotify_FightPropMapEntry& other) {
-  MergeFromInternal(other);
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int EntityFightPropUpdateNotify::kFightPropMapFieldNumber;
-const int EntityFightPropUpdateNotify::kEntityIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-EntityFightPropUpdateNotify::EntityFightPropUpdateNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fproperty_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.EntityFightPropUpdateNotify)
-}
-EntityFightPropUpdateNotify::EntityFightPropUpdateNotify(const EntityFightPropUpdateNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  fight_prop_map_.MergeFrom(from.fight_prop_map_);
-  entity_id_ = from.entity_id_;
-  // @@protoc_insertion_point(copy_constructor:proto.EntityFightPropUpdateNotify)
-}
-
-void EntityFightPropUpdateNotify::SharedCtor() {
-  entity_id_ = 0u;
-  _cached_size_ = 0;
-}
-
-EntityFightPropUpdateNotify::~EntityFightPropUpdateNotify() {
-  // @@protoc_insertion_point(destructor:proto.EntityFightPropUpdateNotify)
-  SharedDtor();
-}
-
-void EntityFightPropUpdateNotify::SharedDtor() {
-}
-
-void EntityFightPropUpdateNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* EntityFightPropUpdateNotify::descriptor() {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const EntityFightPropUpdateNotify& EntityFightPropUpdateNotify::default_instance() {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-EntityFightPropUpdateNotify* EntityFightPropUpdateNotify::New(::google::protobuf::Arena* arena) const {
-  EntityFightPropUpdateNotify* n = new EntityFightPropUpdateNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void EntityFightPropUpdateNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.EntityFightPropUpdateNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  fight_prop_map_.Clear();
-  entity_id_ = 0u;
-  _internal_metadata_.Clear();
 }
 
 bool EntityFightPropUpdateNotify::MergePartialFromCodedStream(
@@ -2448,16 +917,18 @@ bool EntityFightPropUpdateNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.EntityFightPropUpdateNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.EntityFightPropUpdateNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -2512,9 +983,9 @@ void EntityFightPropUpdateNotify::SerializeWithCachedSizes(
     }
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.EntityFightPropUpdateNotify)
 }
@@ -2574,9 +1045,9 @@ void EntityFightPropUpdateNotify::SerializeWithCachedSizes(
     }
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.EntityFightPropUpdateNotify)
   return target;
@@ -2586,10 +1057,10 @@ size_t EntityFightPropUpdateNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.EntityFightPropUpdateNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // map<uint32, float> fight_prop_map = 11;
   total_size += 1 *
@@ -2617,197 +1088,6 @@ size_t EntityFightPropUpdateNotify::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void EntityFightPropUpdateNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.EntityFightPropUpdateNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const EntityFightPropUpdateNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const EntityFightPropUpdateNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.EntityFightPropUpdateNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.EntityFightPropUpdateNotify)
-    MergeFrom(*source);
-  }
-}
-
-void EntityFightPropUpdateNotify::MergeFrom(const EntityFightPropUpdateNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.EntityFightPropUpdateNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  fight_prop_map_.MergeFrom(from.fight_prop_map_);
-  if (from.entity_id() != 0) {
-    set_entity_id(from.entity_id());
-  }
-}
-
-void EntityFightPropUpdateNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.EntityFightPropUpdateNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void EntityFightPropUpdateNotify::CopyFrom(const EntityFightPropUpdateNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.EntityFightPropUpdateNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool EntityFightPropUpdateNotify::IsInitialized() const {
-  return true;
-}
-
-void EntityFightPropUpdateNotify::Swap(EntityFightPropUpdateNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void EntityFightPropUpdateNotify::InternalSwap(EntityFightPropUpdateNotify* other) {
-  using std::swap;
-  fight_prop_map_.Swap(&other->fight_prop_map_);
-  swap(entity_id_, other->entity_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata EntityFightPropUpdateNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// EntityFightPropUpdateNotify
-
-// map<uint32, float> fight_prop_map = 11;
-int EntityFightPropUpdateNotify::fight_prop_map_size() const {
-  return fight_prop_map_.size();
-}
-void EntityFightPropUpdateNotify::clear_fight_prop_map() {
-  fight_prop_map_.Clear();
-}
- const ::google::protobuf::Map< ::google::protobuf::uint32, float >&
-EntityFightPropUpdateNotify::fight_prop_map() const {
-  // @@protoc_insertion_point(field_map:proto.EntityFightPropUpdateNotify.fight_prop_map)
-  return fight_prop_map_.GetMap();
-}
- ::google::protobuf::Map< ::google::protobuf::uint32, float >*
-EntityFightPropUpdateNotify::mutable_fight_prop_map() {
-  // @@protoc_insertion_point(field_mutable_map:proto.EntityFightPropUpdateNotify.fight_prop_map)
-  return fight_prop_map_.MutableMap();
-}
-
-// uint32 entity_id = 7;
-void EntityFightPropUpdateNotify::clear_entity_id() {
-  entity_id_ = 0u;
-}
-::google::protobuf::uint32 EntityFightPropUpdateNotify::entity_id() const {
-  // @@protoc_insertion_point(field_get:proto.EntityFightPropUpdateNotify.entity_id)
-  return entity_id_;
-}
-void EntityFightPropUpdateNotify::set_entity_id(::google::protobuf::uint32 value) {
-  
-  entity_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.EntityFightPropUpdateNotify.entity_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-AvatarFightPropNotify::AvatarFightPropNotify_FightPropMapEntry::AvatarFightPropNotify_FightPropMapEntry() {}
-AvatarFightPropNotify::AvatarFightPropNotify_FightPropMapEntry::AvatarFightPropNotify_FightPropMapEntry(::google::protobuf::Arena* arena) : SuperType(arena) {}
-::google::protobuf::Metadata AvatarFightPropNotify::AvatarFightPropNotify_FightPropMapEntry::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_metadata[7];
-}
-void AvatarFightPropNotify::AvatarFightPropNotify_FightPropMapEntry::MergeFrom(
-    const ::google::protobuf::Message& other) {
-  ::google::protobuf::Message::MergeFrom(other);
-}
-void AvatarFightPropNotify::AvatarFightPropNotify_FightPropMapEntry::MergeFrom(const AvatarFightPropNotify_FightPropMapEntry& other) {
-  MergeFromInternal(other);
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarFightPropNotify::kFightPropMapFieldNumber;
-const int AvatarFightPropNotify::kAvatarGuidFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarFightPropNotify::AvatarFightPropNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fproperty_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarFightPropNotify)
-}
-AvatarFightPropNotify::AvatarFightPropNotify(const AvatarFightPropNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  fight_prop_map_.MergeFrom(from.fight_prop_map_);
-  avatar_guid_ = from.avatar_guid_;
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarFightPropNotify)
-}
-
-void AvatarFightPropNotify::SharedCtor() {
-  avatar_guid_ = GOOGLE_ULONGLONG(0);
-  _cached_size_ = 0;
-}
-
-AvatarFightPropNotify::~AvatarFightPropNotify() {
-  // @@protoc_insertion_point(destructor:proto.AvatarFightPropNotify)
-  SharedDtor();
-}
-
-void AvatarFightPropNotify::SharedDtor() {
-}
-
-void AvatarFightPropNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarFightPropNotify::descriptor() {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarFightPropNotify& AvatarFightPropNotify::default_instance() {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarFightPropNotify* AvatarFightPropNotify::New(::google::protobuf::Arena* arena) const {
-  AvatarFightPropNotify* n = new AvatarFightPropNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarFightPropNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarFightPropNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  fight_prop_map_.Clear();
-  avatar_guid_ = GOOGLE_ULONGLONG(0);
-  _internal_metadata_.Clear();
 }
 
 bool AvatarFightPropNotify::MergePartialFromCodedStream(
@@ -2859,16 +1139,18 @@ bool AvatarFightPropNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarFightPropNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarFightPropNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -2923,9 +1205,9 @@ void AvatarFightPropNotify::SerializeWithCachedSizes(
     }
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarFightPropNotify)
 }
@@ -2985,9 +1267,9 @@ void AvatarFightPropNotify::SerializeWithCachedSizes(
     }
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarFightPropNotify)
   return target;
@@ -2997,10 +1279,10 @@ size_t AvatarFightPropNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarFightPropNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // map<uint32, float> fight_prop_map = 13;
   total_size += 1 *
@@ -3028,197 +1310,6 @@ size_t AvatarFightPropNotify::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarFightPropNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarFightPropNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarFightPropNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarFightPropNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarFightPropNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarFightPropNotify)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarFightPropNotify::MergeFrom(const AvatarFightPropNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarFightPropNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  fight_prop_map_.MergeFrom(from.fight_prop_map_);
-  if (from.avatar_guid() != 0) {
-    set_avatar_guid(from.avatar_guid());
-  }
-}
-
-void AvatarFightPropNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarFightPropNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarFightPropNotify::CopyFrom(const AvatarFightPropNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarFightPropNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarFightPropNotify::IsInitialized() const {
-  return true;
-}
-
-void AvatarFightPropNotify::Swap(AvatarFightPropNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarFightPropNotify::InternalSwap(AvatarFightPropNotify* other) {
-  using std::swap;
-  fight_prop_map_.Swap(&other->fight_prop_map_);
-  swap(avatar_guid_, other->avatar_guid_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarFightPropNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarFightPropNotify
-
-// map<uint32, float> fight_prop_map = 13;
-int AvatarFightPropNotify::fight_prop_map_size() const {
-  return fight_prop_map_.size();
-}
-void AvatarFightPropNotify::clear_fight_prop_map() {
-  fight_prop_map_.Clear();
-}
- const ::google::protobuf::Map< ::google::protobuf::uint32, float >&
-AvatarFightPropNotify::fight_prop_map() const {
-  // @@protoc_insertion_point(field_map:proto.AvatarFightPropNotify.fight_prop_map)
-  return fight_prop_map_.GetMap();
-}
- ::google::protobuf::Map< ::google::protobuf::uint32, float >*
-AvatarFightPropNotify::mutable_fight_prop_map() {
-  // @@protoc_insertion_point(field_mutable_map:proto.AvatarFightPropNotify.fight_prop_map)
-  return fight_prop_map_.MutableMap();
-}
-
-// uint64 avatar_guid = 12;
-void AvatarFightPropNotify::clear_avatar_guid() {
-  avatar_guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 AvatarFightPropNotify::avatar_guid() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarFightPropNotify.avatar_guid)
-  return avatar_guid_;
-}
-void AvatarFightPropNotify::set_avatar_guid(::google::protobuf::uint64 value) {
-  
-  avatar_guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarFightPropNotify.avatar_guid)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-AvatarFightPropUpdateNotify::AvatarFightPropUpdateNotify_FightPropMapEntry::AvatarFightPropUpdateNotify_FightPropMapEntry() {}
-AvatarFightPropUpdateNotify::AvatarFightPropUpdateNotify_FightPropMapEntry::AvatarFightPropUpdateNotify_FightPropMapEntry(::google::protobuf::Arena* arena) : SuperType(arena) {}
-::google::protobuf::Metadata AvatarFightPropUpdateNotify::AvatarFightPropUpdateNotify_FightPropMapEntry::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_metadata[9];
-}
-void AvatarFightPropUpdateNotify::AvatarFightPropUpdateNotify_FightPropMapEntry::MergeFrom(
-    const ::google::protobuf::Message& other) {
-  ::google::protobuf::Message::MergeFrom(other);
-}
-void AvatarFightPropUpdateNotify::AvatarFightPropUpdateNotify_FightPropMapEntry::MergeFrom(const AvatarFightPropUpdateNotify_FightPropMapEntry& other) {
-  MergeFromInternal(other);
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarFightPropUpdateNotify::kFightPropMapFieldNumber;
-const int AvatarFightPropUpdateNotify::kAvatarGuidFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarFightPropUpdateNotify::AvatarFightPropUpdateNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fproperty_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarFightPropUpdateNotify)
-}
-AvatarFightPropUpdateNotify::AvatarFightPropUpdateNotify(const AvatarFightPropUpdateNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  fight_prop_map_.MergeFrom(from.fight_prop_map_);
-  avatar_guid_ = from.avatar_guid_;
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarFightPropUpdateNotify)
-}
-
-void AvatarFightPropUpdateNotify::SharedCtor() {
-  avatar_guid_ = GOOGLE_ULONGLONG(0);
-  _cached_size_ = 0;
-}
-
-AvatarFightPropUpdateNotify::~AvatarFightPropUpdateNotify() {
-  // @@protoc_insertion_point(destructor:proto.AvatarFightPropUpdateNotify)
-  SharedDtor();
-}
-
-void AvatarFightPropUpdateNotify::SharedDtor() {
-}
-
-void AvatarFightPropUpdateNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarFightPropUpdateNotify::descriptor() {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarFightPropUpdateNotify& AvatarFightPropUpdateNotify::default_instance() {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarFightPropUpdateNotify* AvatarFightPropUpdateNotify::New(::google::protobuf::Arena* arena) const {
-  AvatarFightPropUpdateNotify* n = new AvatarFightPropUpdateNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarFightPropUpdateNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarFightPropUpdateNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  fight_prop_map_.Clear();
-  avatar_guid_ = GOOGLE_ULONGLONG(0);
-  _internal_metadata_.Clear();
 }
 
 bool AvatarFightPropUpdateNotify::MergePartialFromCodedStream(
@@ -3270,16 +1361,18 @@ bool AvatarFightPropUpdateNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarFightPropUpdateNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarFightPropUpdateNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -3334,9 +1427,9 @@ void AvatarFightPropUpdateNotify::SerializeWithCachedSizes(
     }
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarFightPropUpdateNotify)
 }
@@ -3396,9 +1489,9 @@ void AvatarFightPropUpdateNotify::SerializeWithCachedSizes(
     }
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarFightPropUpdateNotify)
   return target;
@@ -3408,10 +1501,10 @@ size_t AvatarFightPropUpdateNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarFightPropUpdateNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // map<uint32, float> fight_prop_map = 10;
   total_size += 1 *
@@ -3439,189 +1532,6 @@ size_t AvatarFightPropUpdateNotify::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarFightPropUpdateNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarFightPropUpdateNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarFightPropUpdateNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarFightPropUpdateNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarFightPropUpdateNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarFightPropUpdateNotify)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarFightPropUpdateNotify::MergeFrom(const AvatarFightPropUpdateNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarFightPropUpdateNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  fight_prop_map_.MergeFrom(from.fight_prop_map_);
-  if (from.avatar_guid() != 0) {
-    set_avatar_guid(from.avatar_guid());
-  }
-}
-
-void AvatarFightPropUpdateNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarFightPropUpdateNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarFightPropUpdateNotify::CopyFrom(const AvatarFightPropUpdateNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarFightPropUpdateNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarFightPropUpdateNotify::IsInitialized() const {
-  return true;
-}
-
-void AvatarFightPropUpdateNotify::Swap(AvatarFightPropUpdateNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarFightPropUpdateNotify::InternalSwap(AvatarFightPropUpdateNotify* other) {
-  using std::swap;
-  fight_prop_map_.Swap(&other->fight_prop_map_);
-  swap(avatar_guid_, other->avatar_guid_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarFightPropUpdateNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarFightPropUpdateNotify
-
-// map<uint32, float> fight_prop_map = 10;
-int AvatarFightPropUpdateNotify::fight_prop_map_size() const {
-  return fight_prop_map_.size();
-}
-void AvatarFightPropUpdateNotify::clear_fight_prop_map() {
-  fight_prop_map_.Clear();
-}
- const ::google::protobuf::Map< ::google::protobuf::uint32, float >&
-AvatarFightPropUpdateNotify::fight_prop_map() const {
-  // @@protoc_insertion_point(field_map:proto.AvatarFightPropUpdateNotify.fight_prop_map)
-  return fight_prop_map_.GetMap();
-}
- ::google::protobuf::Map< ::google::protobuf::uint32, float >*
-AvatarFightPropUpdateNotify::mutable_fight_prop_map() {
-  // @@protoc_insertion_point(field_mutable_map:proto.AvatarFightPropUpdateNotify.fight_prop_map)
-  return fight_prop_map_.MutableMap();
-}
-
-// uint64 avatar_guid = 8;
-void AvatarFightPropUpdateNotify::clear_avatar_guid() {
-  avatar_guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 AvatarFightPropUpdateNotify::avatar_guid() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarFightPropUpdateNotify.avatar_guid)
-  return avatar_guid_;
-}
-void AvatarFightPropUpdateNotify::set_avatar_guid(::google::protobuf::uint64 value) {
-  
-  avatar_guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarFightPropUpdateNotify.avatar_guid)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int EntityFightPropChangeReasonNotify::kParamListFieldNumber;
-const int EntityFightPropChangeReasonNotify::kPropDeltaFieldNumber;
-const int EntityFightPropChangeReasonNotify::kChangeHpReasonFieldNumber;
-const int EntityFightPropChangeReasonNotify::kReasonFieldNumber;
-const int EntityFightPropChangeReasonNotify::kEntityIdFieldNumber;
-const int EntityFightPropChangeReasonNotify::kChangeEnergyResonFieldNumber;
-const int EntityFightPropChangeReasonNotify::kPropTypeFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-EntityFightPropChangeReasonNotify::EntityFightPropChangeReasonNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fproperty_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.EntityFightPropChangeReasonNotify)
-}
-EntityFightPropChangeReasonNotify::EntityFightPropChangeReasonNotify(const EntityFightPropChangeReasonNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      param_list_(from.param_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&change_energy_reson_, &from.change_energy_reson_,
-    static_cast<size_t>(reinterpret_cast<char*>(&prop_type_) -
-    reinterpret_cast<char*>(&change_energy_reson_)) + sizeof(prop_type_));
-  // @@protoc_insertion_point(copy_constructor:proto.EntityFightPropChangeReasonNotify)
-}
-
-void EntityFightPropChangeReasonNotify::SharedCtor() {
-  ::memset(&change_energy_reson_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&prop_type_) -
-      reinterpret_cast<char*>(&change_energy_reson_)) + sizeof(prop_type_));
-  _cached_size_ = 0;
-}
-
-EntityFightPropChangeReasonNotify::~EntityFightPropChangeReasonNotify() {
-  // @@protoc_insertion_point(destructor:proto.EntityFightPropChangeReasonNotify)
-  SharedDtor();
-}
-
-void EntityFightPropChangeReasonNotify::SharedDtor() {
-}
-
-void EntityFightPropChangeReasonNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* EntityFightPropChangeReasonNotify::descriptor() {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const EntityFightPropChangeReasonNotify& EntityFightPropChangeReasonNotify::default_instance() {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-EntityFightPropChangeReasonNotify* EntityFightPropChangeReasonNotify::New(::google::protobuf::Arena* arena) const {
-  EntityFightPropChangeReasonNotify* n = new EntityFightPropChangeReasonNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void EntityFightPropChangeReasonNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.EntityFightPropChangeReasonNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  param_list_.Clear();
-  ::memset(&change_energy_reson_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&prop_type_) -
-      reinterpret_cast<char*>(&change_energy_reson_)) + sizeof(prop_type_));
-  _internal_metadata_.Clear();
 }
 
 bool EntityFightPropChangeReasonNotify::MergePartialFromCodedStream(
@@ -3746,16 +1656,18 @@ bool EntityFightPropChangeReasonNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.EntityFightPropChangeReasonNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.EntityFightPropChangeReasonNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -3810,9 +1722,9 @@ void EntityFightPropChangeReasonNotify::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(14, this->prop_type(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.EntityFightPropChangeReasonNotify)
 }
@@ -3870,9 +1782,9 @@ void EntityFightPropChangeReasonNotify::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(14, this->prop_type(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.EntityFightPropChangeReasonNotify)
   return target;
@@ -3882,10 +1794,10 @@ size_t EntityFightPropChangeReasonNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.EntityFightPropChangeReasonNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated uint32 param_list = 1;
   {
@@ -3945,298 +1857,6 @@ size_t EntityFightPropChangeReasonNotify::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void EntityFightPropChangeReasonNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.EntityFightPropChangeReasonNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const EntityFightPropChangeReasonNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const EntityFightPropChangeReasonNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.EntityFightPropChangeReasonNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.EntityFightPropChangeReasonNotify)
-    MergeFrom(*source);
-  }
-}
-
-void EntityFightPropChangeReasonNotify::MergeFrom(const EntityFightPropChangeReasonNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.EntityFightPropChangeReasonNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  param_list_.MergeFrom(from.param_list_);
-  if (from.change_energy_reson() != 0) {
-    set_change_energy_reson(from.change_energy_reson());
-  }
-  if (from.prop_delta() != 0) {
-    set_prop_delta(from.prop_delta());
-  }
-  if (from.change_hp_reason() != 0) {
-    set_change_hp_reason(from.change_hp_reason());
-  }
-  if (from.entity_id() != 0) {
-    set_entity_id(from.entity_id());
-  }
-  if (from.reason() != 0) {
-    set_reason(from.reason());
-  }
-  if (from.prop_type() != 0) {
-    set_prop_type(from.prop_type());
-  }
-}
-
-void EntityFightPropChangeReasonNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.EntityFightPropChangeReasonNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void EntityFightPropChangeReasonNotify::CopyFrom(const EntityFightPropChangeReasonNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.EntityFightPropChangeReasonNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool EntityFightPropChangeReasonNotify::IsInitialized() const {
-  return true;
-}
-
-void EntityFightPropChangeReasonNotify::Swap(EntityFightPropChangeReasonNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void EntityFightPropChangeReasonNotify::InternalSwap(EntityFightPropChangeReasonNotify* other) {
-  using std::swap;
-  param_list_.InternalSwap(&other->param_list_);
-  swap(change_energy_reson_, other->change_energy_reson_);
-  swap(prop_delta_, other->prop_delta_);
-  swap(change_hp_reason_, other->change_hp_reason_);
-  swap(entity_id_, other->entity_id_);
-  swap(reason_, other->reason_);
-  swap(prop_type_, other->prop_type_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata EntityFightPropChangeReasonNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// EntityFightPropChangeReasonNotify
-
-// repeated uint32 param_list = 1;
-int EntityFightPropChangeReasonNotify::param_list_size() const {
-  return param_list_.size();
-}
-void EntityFightPropChangeReasonNotify::clear_param_list() {
-  param_list_.Clear();
-}
-::google::protobuf::uint32 EntityFightPropChangeReasonNotify::param_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.EntityFightPropChangeReasonNotify.param_list)
-  return param_list_.Get(index);
-}
-void EntityFightPropChangeReasonNotify::set_param_list(int index, ::google::protobuf::uint32 value) {
-  param_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.EntityFightPropChangeReasonNotify.param_list)
-}
-void EntityFightPropChangeReasonNotify::add_param_list(::google::protobuf::uint32 value) {
-  param_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.EntityFightPropChangeReasonNotify.param_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint32 >&
-EntityFightPropChangeReasonNotify::param_list() const {
-  // @@protoc_insertion_point(field_list:proto.EntityFightPropChangeReasonNotify.param_list)
-  return param_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint32 >*
-EntityFightPropChangeReasonNotify::mutable_param_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.EntityFightPropChangeReasonNotify.param_list)
-  return &param_list_;
-}
-
-// float prop_delta = 4;
-void EntityFightPropChangeReasonNotify::clear_prop_delta() {
-  prop_delta_ = 0;
-}
-float EntityFightPropChangeReasonNotify::prop_delta() const {
-  // @@protoc_insertion_point(field_get:proto.EntityFightPropChangeReasonNotify.prop_delta)
-  return prop_delta_;
-}
-void EntityFightPropChangeReasonNotify::set_prop_delta(float value) {
-  
-  prop_delta_ = value;
-  // @@protoc_insertion_point(field_set:proto.EntityFightPropChangeReasonNotify.prop_delta)
-}
-
-// .proto.ChangHpReason change_hp_reason = 6;
-void EntityFightPropChangeReasonNotify::clear_change_hp_reason() {
-  change_hp_reason_ = 0;
-}
-::proto::ChangHpReason EntityFightPropChangeReasonNotify::change_hp_reason() const {
-  // @@protoc_insertion_point(field_get:proto.EntityFightPropChangeReasonNotify.change_hp_reason)
-  return static_cast< ::proto::ChangHpReason >(change_hp_reason_);
-}
-void EntityFightPropChangeReasonNotify::set_change_hp_reason(::proto::ChangHpReason value) {
-  
-  change_hp_reason_ = value;
-  // @@protoc_insertion_point(field_set:proto.EntityFightPropChangeReasonNotify.change_hp_reason)
-}
-
-// .proto.PropChangeReason reason = 13;
-void EntityFightPropChangeReasonNotify::clear_reason() {
-  reason_ = 0;
-}
-::proto::PropChangeReason EntityFightPropChangeReasonNotify::reason() const {
-  // @@protoc_insertion_point(field_get:proto.EntityFightPropChangeReasonNotify.reason)
-  return static_cast< ::proto::PropChangeReason >(reason_);
-}
-void EntityFightPropChangeReasonNotify::set_reason(::proto::PropChangeReason value) {
-  
-  reason_ = value;
-  // @@protoc_insertion_point(field_set:proto.EntityFightPropChangeReasonNotify.reason)
-}
-
-// uint32 entity_id = 12;
-void EntityFightPropChangeReasonNotify::clear_entity_id() {
-  entity_id_ = 0u;
-}
-::google::protobuf::uint32 EntityFightPropChangeReasonNotify::entity_id() const {
-  // @@protoc_insertion_point(field_get:proto.EntityFightPropChangeReasonNotify.entity_id)
-  return entity_id_;
-}
-void EntityFightPropChangeReasonNotify::set_entity_id(::google::protobuf::uint32 value) {
-  
-  entity_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.EntityFightPropChangeReasonNotify.entity_id)
-}
-
-// .proto.ChangeEnergyReason change_energy_reson = 3;
-void EntityFightPropChangeReasonNotify::clear_change_energy_reson() {
-  change_energy_reson_ = 0;
-}
-::proto::ChangeEnergyReason EntityFightPropChangeReasonNotify::change_energy_reson() const {
-  // @@protoc_insertion_point(field_get:proto.EntityFightPropChangeReasonNotify.change_energy_reson)
-  return static_cast< ::proto::ChangeEnergyReason >(change_energy_reson_);
-}
-void EntityFightPropChangeReasonNotify::set_change_energy_reson(::proto::ChangeEnergyReason value) {
-  
-  change_energy_reson_ = value;
-  // @@protoc_insertion_point(field_set:proto.EntityFightPropChangeReasonNotify.change_energy_reson)
-}
-
-// uint32 prop_type = 14;
-void EntityFightPropChangeReasonNotify::clear_prop_type() {
-  prop_type_ = 0u;
-}
-::google::protobuf::uint32 EntityFightPropChangeReasonNotify::prop_type() const {
-  // @@protoc_insertion_point(field_get:proto.EntityFightPropChangeReasonNotify.prop_type)
-  return prop_type_;
-}
-void EntityFightPropChangeReasonNotify::set_prop_type(::google::protobuf::uint32 value) {
-  
-  prop_type_ = value;
-  // @@protoc_insertion_point(field_set:proto.EntityFightPropChangeReasonNotify.prop_type)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarLifeStateChangeNotify::kLifeStateFieldNumber;
-const int AvatarLifeStateChangeNotify::kAttackTagFieldNumber;
-const int AvatarLifeStateChangeNotify::kDieTypeFieldNumber;
-const int AvatarLifeStateChangeNotify::kServerBuffListFieldNumber;
-const int AvatarLifeStateChangeNotify::kMoveReliableSeqFieldNumber;
-const int AvatarLifeStateChangeNotify::kSourceEntityIdFieldNumber;
-const int AvatarLifeStateChangeNotify::kAvatarGuidFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarLifeStateChangeNotify::AvatarLifeStateChangeNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fproperty_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarLifeStateChangeNotify)
-}
-AvatarLifeStateChangeNotify::AvatarLifeStateChangeNotify(const AvatarLifeStateChangeNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      server_buff_list_(from.server_buff_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  attack_tag_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  if (from.attack_tag().size() > 0) {
-    attack_tag_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.attack_tag_);
-  }
-  ::memcpy(&avatar_guid_, &from.avatar_guid_,
-    static_cast<size_t>(reinterpret_cast<char*>(&move_reliable_seq_) -
-    reinterpret_cast<char*>(&avatar_guid_)) + sizeof(move_reliable_seq_));
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarLifeStateChangeNotify)
-}
-
-void AvatarLifeStateChangeNotify::SharedCtor() {
-  attack_tag_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  ::memset(&avatar_guid_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&move_reliable_seq_) -
-      reinterpret_cast<char*>(&avatar_guid_)) + sizeof(move_reliable_seq_));
-  _cached_size_ = 0;
-}
-
-AvatarLifeStateChangeNotify::~AvatarLifeStateChangeNotify() {
-  // @@protoc_insertion_point(destructor:proto.AvatarLifeStateChangeNotify)
-  SharedDtor();
-}
-
-void AvatarLifeStateChangeNotify::SharedDtor() {
-  attack_tag_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-
-void AvatarLifeStateChangeNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarLifeStateChangeNotify::descriptor() {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarLifeStateChangeNotify& AvatarLifeStateChangeNotify::default_instance() {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarLifeStateChangeNotify* AvatarLifeStateChangeNotify::New(::google::protobuf::Arena* arena) const {
-  AvatarLifeStateChangeNotify* n = new AvatarLifeStateChangeNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarLifeStateChangeNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarLifeStateChangeNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  server_buff_list_.Clear();
-  attack_tag_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  ::memset(&avatar_guid_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&move_reliable_seq_) -
-      reinterpret_cast<char*>(&avatar_guid_)) + sizeof(move_reliable_seq_));
-  _internal_metadata_.Clear();
 }
 
 bool AvatarLifeStateChangeNotify::MergePartialFromCodedStream(
@@ -4354,16 +1974,18 @@ bool AvatarLifeStateChangeNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarLifeStateChangeNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarLifeStateChangeNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -4417,9 +2039,9 @@ void AvatarLifeStateChangeNotify::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(10, this->move_reliable_seq(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarLifeStateChangeNotify)
 }
@@ -4476,9 +2098,9 @@ void AvatarLifeStateChangeNotify::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(10, this->move_reliable_seq(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarLifeStateChangeNotify)
   return target;
@@ -4488,10 +2110,10 @@ size_t AvatarLifeStateChangeNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarLifeStateChangeNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated .proto.ServerBuff server_buff_list = 4;
   {
@@ -4550,327 +2172,6 @@ size_t AvatarLifeStateChangeNotify::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarLifeStateChangeNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarLifeStateChangeNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarLifeStateChangeNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarLifeStateChangeNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarLifeStateChangeNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarLifeStateChangeNotify)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarLifeStateChangeNotify::MergeFrom(const AvatarLifeStateChangeNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarLifeStateChangeNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  server_buff_list_.MergeFrom(from.server_buff_list_);
-  if (from.attack_tag().size() > 0) {
-
-    attack_tag_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.attack_tag_);
-  }
-  if (from.avatar_guid() != 0) {
-    set_avatar_guid(from.avatar_guid());
-  }
-  if (from.die_type() != 0) {
-    set_die_type(from.die_type());
-  }
-  if (from.source_entity_id() != 0) {
-    set_source_entity_id(from.source_entity_id());
-  }
-  if (from.life_state() != 0) {
-    set_life_state(from.life_state());
-  }
-  if (from.move_reliable_seq() != 0) {
-    set_move_reliable_seq(from.move_reliable_seq());
-  }
-}
-
-void AvatarLifeStateChangeNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarLifeStateChangeNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarLifeStateChangeNotify::CopyFrom(const AvatarLifeStateChangeNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarLifeStateChangeNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarLifeStateChangeNotify::IsInitialized() const {
-  return true;
-}
-
-void AvatarLifeStateChangeNotify::Swap(AvatarLifeStateChangeNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarLifeStateChangeNotify::InternalSwap(AvatarLifeStateChangeNotify* other) {
-  using std::swap;
-  server_buff_list_.InternalSwap(&other->server_buff_list_);
-  attack_tag_.Swap(&other->attack_tag_);
-  swap(avatar_guid_, other->avatar_guid_);
-  swap(die_type_, other->die_type_);
-  swap(source_entity_id_, other->source_entity_id_);
-  swap(life_state_, other->life_state_);
-  swap(move_reliable_seq_, other->move_reliable_seq_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarLifeStateChangeNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarLifeStateChangeNotify
-
-// uint32 life_state = 8;
-void AvatarLifeStateChangeNotify::clear_life_state() {
-  life_state_ = 0u;
-}
-::google::protobuf::uint32 AvatarLifeStateChangeNotify::life_state() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarLifeStateChangeNotify.life_state)
-  return life_state_;
-}
-void AvatarLifeStateChangeNotify::set_life_state(::google::protobuf::uint32 value) {
-  
-  life_state_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarLifeStateChangeNotify.life_state)
-}
-
-// string attack_tag = 6;
-void AvatarLifeStateChangeNotify::clear_attack_tag() {
-  attack_tag_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-const ::std::string& AvatarLifeStateChangeNotify::attack_tag() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarLifeStateChangeNotify.attack_tag)
-  return attack_tag_.GetNoArena();
-}
-void AvatarLifeStateChangeNotify::set_attack_tag(const ::std::string& value) {
-  
-  attack_tag_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
-  // @@protoc_insertion_point(field_set:proto.AvatarLifeStateChangeNotify.attack_tag)
-}
-#if LANG_CXX11
-void AvatarLifeStateChangeNotify::set_attack_tag(::std::string&& value) {
-  
-  attack_tag_.SetNoArena(
-    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
-  // @@protoc_insertion_point(field_set_rvalue:proto.AvatarLifeStateChangeNotify.attack_tag)
-}
-#endif
-void AvatarLifeStateChangeNotify::set_attack_tag(const char* value) {
-  GOOGLE_DCHECK(value != NULL);
-  
-  attack_tag_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
-  // @@protoc_insertion_point(field_set_char:proto.AvatarLifeStateChangeNotify.attack_tag)
-}
-void AvatarLifeStateChangeNotify::set_attack_tag(const char* value, size_t size) {
-  
-  attack_tag_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
-      ::std::string(reinterpret_cast<const char*>(value), size));
-  // @@protoc_insertion_point(field_set_pointer:proto.AvatarLifeStateChangeNotify.attack_tag)
-}
-::std::string* AvatarLifeStateChangeNotify::mutable_attack_tag() {
-  
-  // @@protoc_insertion_point(field_mutable:proto.AvatarLifeStateChangeNotify.attack_tag)
-  return attack_tag_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-::std::string* AvatarLifeStateChangeNotify::release_attack_tag() {
-  // @@protoc_insertion_point(field_release:proto.AvatarLifeStateChangeNotify.attack_tag)
-  
-  return attack_tag_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-void AvatarLifeStateChangeNotify::set_allocated_attack_tag(::std::string* attack_tag) {
-  if (attack_tag != NULL) {
-    
-  } else {
-    
-  }
-  attack_tag_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), attack_tag);
-  // @@protoc_insertion_point(field_set_allocated:proto.AvatarLifeStateChangeNotify.attack_tag)
-}
-
-// .proto.PlayerDieType die_type = 1;
-void AvatarLifeStateChangeNotify::clear_die_type() {
-  die_type_ = 0;
-}
-::proto::PlayerDieType AvatarLifeStateChangeNotify::die_type() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarLifeStateChangeNotify.die_type)
-  return static_cast< ::proto::PlayerDieType >(die_type_);
-}
-void AvatarLifeStateChangeNotify::set_die_type(::proto::PlayerDieType value) {
-  
-  die_type_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarLifeStateChangeNotify.die_type)
-}
-
-// repeated .proto.ServerBuff server_buff_list = 4;
-int AvatarLifeStateChangeNotify::server_buff_list_size() const {
-  return server_buff_list_.size();
-}
-void AvatarLifeStateChangeNotify::clear_server_buff_list() {
-  server_buff_list_.Clear();
-}
-const ::proto::ServerBuff& AvatarLifeStateChangeNotify::server_buff_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.AvatarLifeStateChangeNotify.server_buff_list)
-  return server_buff_list_.Get(index);
-}
-::proto::ServerBuff* AvatarLifeStateChangeNotify::mutable_server_buff_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.AvatarLifeStateChangeNotify.server_buff_list)
-  return server_buff_list_.Mutable(index);
-}
-::proto::ServerBuff* AvatarLifeStateChangeNotify::add_server_buff_list() {
-  // @@protoc_insertion_point(field_add:proto.AvatarLifeStateChangeNotify.server_buff_list)
-  return server_buff_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::ServerBuff >*
-AvatarLifeStateChangeNotify::mutable_server_buff_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.AvatarLifeStateChangeNotify.server_buff_list)
-  return &server_buff_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::ServerBuff >&
-AvatarLifeStateChangeNotify::server_buff_list() const {
-  // @@protoc_insertion_point(field_list:proto.AvatarLifeStateChangeNotify.server_buff_list)
-  return server_buff_list_;
-}
-
-// uint32 move_reliable_seq = 10;
-void AvatarLifeStateChangeNotify::clear_move_reliable_seq() {
-  move_reliable_seq_ = 0u;
-}
-::google::protobuf::uint32 AvatarLifeStateChangeNotify::move_reliable_seq() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarLifeStateChangeNotify.move_reliable_seq)
-  return move_reliable_seq_;
-}
-void AvatarLifeStateChangeNotify::set_move_reliable_seq(::google::protobuf::uint32 value) {
-  
-  move_reliable_seq_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarLifeStateChangeNotify.move_reliable_seq)
-}
-
-// uint32 source_entity_id = 5;
-void AvatarLifeStateChangeNotify::clear_source_entity_id() {
-  source_entity_id_ = 0u;
-}
-::google::protobuf::uint32 AvatarLifeStateChangeNotify::source_entity_id() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarLifeStateChangeNotify.source_entity_id)
-  return source_entity_id_;
-}
-void AvatarLifeStateChangeNotify::set_source_entity_id(::google::protobuf::uint32 value) {
-  
-  source_entity_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarLifeStateChangeNotify.source_entity_id)
-}
-
-// uint64 avatar_guid = 3;
-void AvatarLifeStateChangeNotify::clear_avatar_guid() {
-  avatar_guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 AvatarLifeStateChangeNotify::avatar_guid() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarLifeStateChangeNotify.avatar_guid)
-  return avatar_guid_;
-}
-void AvatarLifeStateChangeNotify::set_avatar_guid(::google::protobuf::uint64 value) {
-  
-  avatar_guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarLifeStateChangeNotify.avatar_guid)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarPropChangeReasonNotify::kOldValueFieldNumber;
-const int AvatarPropChangeReasonNotify::kReasonFieldNumber;
-const int AvatarPropChangeReasonNotify::kPropTypeFieldNumber;
-const int AvatarPropChangeReasonNotify::kAvatarGuidFieldNumber;
-const int AvatarPropChangeReasonNotify::kCurValueFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarPropChangeReasonNotify::AvatarPropChangeReasonNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fproperty_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarPropChangeReasonNotify)
-}
-AvatarPropChangeReasonNotify::AvatarPropChangeReasonNotify(const AvatarPropChangeReasonNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&cur_value_, &from.cur_value_,
-    static_cast<size_t>(reinterpret_cast<char*>(&avatar_guid_) -
-    reinterpret_cast<char*>(&cur_value_)) + sizeof(avatar_guid_));
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarPropChangeReasonNotify)
-}
-
-void AvatarPropChangeReasonNotify::SharedCtor() {
-  ::memset(&cur_value_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&avatar_guid_) -
-      reinterpret_cast<char*>(&cur_value_)) + sizeof(avatar_guid_));
-  _cached_size_ = 0;
-}
-
-AvatarPropChangeReasonNotify::~AvatarPropChangeReasonNotify() {
-  // @@protoc_insertion_point(destructor:proto.AvatarPropChangeReasonNotify)
-  SharedDtor();
-}
-
-void AvatarPropChangeReasonNotify::SharedDtor() {
-}
-
-void AvatarPropChangeReasonNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarPropChangeReasonNotify::descriptor() {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarPropChangeReasonNotify& AvatarPropChangeReasonNotify::default_instance() {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarPropChangeReasonNotify* AvatarPropChangeReasonNotify::New(::google::protobuf::Arena* arena) const {
-  AvatarPropChangeReasonNotify* n = new AvatarPropChangeReasonNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarPropChangeReasonNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarPropChangeReasonNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&cur_value_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&avatar_guid_) -
-      reinterpret_cast<char*>(&cur_value_)) + sizeof(avatar_guid_));
-  _internal_metadata_.Clear();
 }
 
 bool AvatarPropChangeReasonNotify::MergePartialFromCodedStream(
@@ -4960,16 +2261,18 @@ bool AvatarPropChangeReasonNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarPropChangeReasonNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarPropChangeReasonNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -5006,9 +2309,9 @@ void AvatarPropChangeReasonNotify::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt64(12, this->avatar_guid(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarPropChangeReasonNotify)
 }
@@ -5046,9 +2349,9 @@ void AvatarPropChangeReasonNotify::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt64ToArray(12, this->avatar_guid(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarPropChangeReasonNotify)
   return target;
@@ -5058,10 +2361,10 @@ size_t AvatarPropChangeReasonNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarPropChangeReasonNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // float cur_value = 2;
   if (this->cur_value() != 0) {
@@ -5098,236 +2401,6 @@ size_t AvatarPropChangeReasonNotify::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarPropChangeReasonNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarPropChangeReasonNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarPropChangeReasonNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarPropChangeReasonNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarPropChangeReasonNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarPropChangeReasonNotify)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarPropChangeReasonNotify::MergeFrom(const AvatarPropChangeReasonNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarPropChangeReasonNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.cur_value() != 0) {
-    set_cur_value(from.cur_value());
-  }
-  if (from.old_value() != 0) {
-    set_old_value(from.old_value());
-  }
-  if (from.reason() != 0) {
-    set_reason(from.reason());
-  }
-  if (from.prop_type() != 0) {
-    set_prop_type(from.prop_type());
-  }
-  if (from.avatar_guid() != 0) {
-    set_avatar_guid(from.avatar_guid());
-  }
-}
-
-void AvatarPropChangeReasonNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarPropChangeReasonNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarPropChangeReasonNotify::CopyFrom(const AvatarPropChangeReasonNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarPropChangeReasonNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarPropChangeReasonNotify::IsInitialized() const {
-  return true;
-}
-
-void AvatarPropChangeReasonNotify::Swap(AvatarPropChangeReasonNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarPropChangeReasonNotify::InternalSwap(AvatarPropChangeReasonNotify* other) {
-  using std::swap;
-  swap(cur_value_, other->cur_value_);
-  swap(old_value_, other->old_value_);
-  swap(reason_, other->reason_);
-  swap(prop_type_, other->prop_type_);
-  swap(avatar_guid_, other->avatar_guid_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarPropChangeReasonNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarPropChangeReasonNotify
-
-// float old_value = 4;
-void AvatarPropChangeReasonNotify::clear_old_value() {
-  old_value_ = 0;
-}
-float AvatarPropChangeReasonNotify::old_value() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarPropChangeReasonNotify.old_value)
-  return old_value_;
-}
-void AvatarPropChangeReasonNotify::set_old_value(float value) {
-  
-  old_value_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarPropChangeReasonNotify.old_value)
-}
-
-// .proto.PropChangeReason reason = 5;
-void AvatarPropChangeReasonNotify::clear_reason() {
-  reason_ = 0;
-}
-::proto::PropChangeReason AvatarPropChangeReasonNotify::reason() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarPropChangeReasonNotify.reason)
-  return static_cast< ::proto::PropChangeReason >(reason_);
-}
-void AvatarPropChangeReasonNotify::set_reason(::proto::PropChangeReason value) {
-  
-  reason_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarPropChangeReasonNotify.reason)
-}
-
-// uint32 prop_type = 10;
-void AvatarPropChangeReasonNotify::clear_prop_type() {
-  prop_type_ = 0u;
-}
-::google::protobuf::uint32 AvatarPropChangeReasonNotify::prop_type() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarPropChangeReasonNotify.prop_type)
-  return prop_type_;
-}
-void AvatarPropChangeReasonNotify::set_prop_type(::google::protobuf::uint32 value) {
-  
-  prop_type_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarPropChangeReasonNotify.prop_type)
-}
-
-// uint64 avatar_guid = 12;
-void AvatarPropChangeReasonNotify::clear_avatar_guid() {
-  avatar_guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 AvatarPropChangeReasonNotify::avatar_guid() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarPropChangeReasonNotify.avatar_guid)
-  return avatar_guid_;
-}
-void AvatarPropChangeReasonNotify::set_avatar_guid(::google::protobuf::uint64 value) {
-  
-  avatar_guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarPropChangeReasonNotify.avatar_guid)
-}
-
-// float cur_value = 2;
-void AvatarPropChangeReasonNotify::clear_cur_value() {
-  cur_value_ = 0;
-}
-float AvatarPropChangeReasonNotify::cur_value() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarPropChangeReasonNotify.cur_value)
-  return cur_value_;
-}
-void AvatarPropChangeReasonNotify::set_cur_value(float value) {
-  
-  cur_value_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarPropChangeReasonNotify.cur_value)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int PlayerPropChangeReasonNotify::kPropTypeFieldNumber;
-const int PlayerPropChangeReasonNotify::kOldValueFieldNumber;
-const int PlayerPropChangeReasonNotify::kReasonFieldNumber;
-const int PlayerPropChangeReasonNotify::kCurValueFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-PlayerPropChangeReasonNotify::PlayerPropChangeReasonNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fproperty_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.PlayerPropChangeReasonNotify)
-}
-PlayerPropChangeReasonNotify::PlayerPropChangeReasonNotify(const PlayerPropChangeReasonNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&reason_, &from.reason_,
-    static_cast<size_t>(reinterpret_cast<char*>(&old_value_) -
-    reinterpret_cast<char*>(&reason_)) + sizeof(old_value_));
-  // @@protoc_insertion_point(copy_constructor:proto.PlayerPropChangeReasonNotify)
-}
-
-void PlayerPropChangeReasonNotify::SharedCtor() {
-  ::memset(&reason_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&old_value_) -
-      reinterpret_cast<char*>(&reason_)) + sizeof(old_value_));
-  _cached_size_ = 0;
-}
-
-PlayerPropChangeReasonNotify::~PlayerPropChangeReasonNotify() {
-  // @@protoc_insertion_point(destructor:proto.PlayerPropChangeReasonNotify)
-  SharedDtor();
-}
-
-void PlayerPropChangeReasonNotify::SharedDtor() {
-}
-
-void PlayerPropChangeReasonNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* PlayerPropChangeReasonNotify::descriptor() {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const PlayerPropChangeReasonNotify& PlayerPropChangeReasonNotify::default_instance() {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-PlayerPropChangeReasonNotify* PlayerPropChangeReasonNotify::New(::google::protobuf::Arena* arena) const {
-  PlayerPropChangeReasonNotify* n = new PlayerPropChangeReasonNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void PlayerPropChangeReasonNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.PlayerPropChangeReasonNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&reason_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&old_value_) -
-      reinterpret_cast<char*>(&reason_)) + sizeof(old_value_));
-  _internal_metadata_.Clear();
 }
 
 bool PlayerPropChangeReasonNotify::MergePartialFromCodedStream(
@@ -5403,16 +2476,18 @@ bool PlayerPropChangeReasonNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.PlayerPropChangeReasonNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.PlayerPropChangeReasonNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -5444,9 +2519,9 @@ void PlayerPropChangeReasonNotify::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteFloat(12, this->old_value(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.PlayerPropChangeReasonNotify)
 }
@@ -5479,9 +2554,9 @@ void PlayerPropChangeReasonNotify::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteFloatToArray(12, this->old_value(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.PlayerPropChangeReasonNotify)
   return target;
@@ -5491,10 +2566,10 @@ size_t PlayerPropChangeReasonNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.PlayerPropChangeReasonNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // .proto.PropChangeReason reason = 1;
   if (this->reason() != 0) {
@@ -5524,231 +2599,6 @@ size_t PlayerPropChangeReasonNotify::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void PlayerPropChangeReasonNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.PlayerPropChangeReasonNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const PlayerPropChangeReasonNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const PlayerPropChangeReasonNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.PlayerPropChangeReasonNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.PlayerPropChangeReasonNotify)
-    MergeFrom(*source);
-  }
-}
-
-void PlayerPropChangeReasonNotify::MergeFrom(const PlayerPropChangeReasonNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.PlayerPropChangeReasonNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.reason() != 0) {
-    set_reason(from.reason());
-  }
-  if (from.prop_type() != 0) {
-    set_prop_type(from.prop_type());
-  }
-  if (from.cur_value() != 0) {
-    set_cur_value(from.cur_value());
-  }
-  if (from.old_value() != 0) {
-    set_old_value(from.old_value());
-  }
-}
-
-void PlayerPropChangeReasonNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.PlayerPropChangeReasonNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void PlayerPropChangeReasonNotify::CopyFrom(const PlayerPropChangeReasonNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.PlayerPropChangeReasonNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool PlayerPropChangeReasonNotify::IsInitialized() const {
-  return true;
-}
-
-void PlayerPropChangeReasonNotify::Swap(PlayerPropChangeReasonNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void PlayerPropChangeReasonNotify::InternalSwap(PlayerPropChangeReasonNotify* other) {
-  using std::swap;
-  swap(reason_, other->reason_);
-  swap(prop_type_, other->prop_type_);
-  swap(cur_value_, other->cur_value_);
-  swap(old_value_, other->old_value_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata PlayerPropChangeReasonNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// PlayerPropChangeReasonNotify
-
-// uint32 prop_type = 6;
-void PlayerPropChangeReasonNotify::clear_prop_type() {
-  prop_type_ = 0u;
-}
-::google::protobuf::uint32 PlayerPropChangeReasonNotify::prop_type() const {
-  // @@protoc_insertion_point(field_get:proto.PlayerPropChangeReasonNotify.prop_type)
-  return prop_type_;
-}
-void PlayerPropChangeReasonNotify::set_prop_type(::google::protobuf::uint32 value) {
-  
-  prop_type_ = value;
-  // @@protoc_insertion_point(field_set:proto.PlayerPropChangeReasonNotify.prop_type)
-}
-
-// float old_value = 12;
-void PlayerPropChangeReasonNotify::clear_old_value() {
-  old_value_ = 0;
-}
-float PlayerPropChangeReasonNotify::old_value() const {
-  // @@protoc_insertion_point(field_get:proto.PlayerPropChangeReasonNotify.old_value)
-  return old_value_;
-}
-void PlayerPropChangeReasonNotify::set_old_value(float value) {
-  
-  old_value_ = value;
-  // @@protoc_insertion_point(field_set:proto.PlayerPropChangeReasonNotify.old_value)
-}
-
-// .proto.PropChangeReason reason = 1;
-void PlayerPropChangeReasonNotify::clear_reason() {
-  reason_ = 0;
-}
-::proto::PropChangeReason PlayerPropChangeReasonNotify::reason() const {
-  // @@protoc_insertion_point(field_get:proto.PlayerPropChangeReasonNotify.reason)
-  return static_cast< ::proto::PropChangeReason >(reason_);
-}
-void PlayerPropChangeReasonNotify::set_reason(::proto::PropChangeReason value) {
-  
-  reason_ = value;
-  // @@protoc_insertion_point(field_set:proto.PlayerPropChangeReasonNotify.reason)
-}
-
-// float cur_value = 9;
-void PlayerPropChangeReasonNotify::clear_cur_value() {
-  cur_value_ = 0;
-}
-float PlayerPropChangeReasonNotify::cur_value() const {
-  // @@protoc_insertion_point(field_get:proto.PlayerPropChangeReasonNotify.cur_value)
-  return cur_value_;
-}
-void PlayerPropChangeReasonNotify::set_cur_value(float value) {
-  
-  cur_value_ = value;
-  // @@protoc_insertion_point(field_set:proto.PlayerPropChangeReasonNotify.cur_value)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-AvatarPropNotify::AvatarPropNotify_PropMapEntry::AvatarPropNotify_PropMapEntry() {}
-AvatarPropNotify::AvatarPropNotify_PropMapEntry::AvatarPropNotify_PropMapEntry(::google::protobuf::Arena* arena) : SuperType(arena) {}
-::google::protobuf::Metadata AvatarPropNotify::AvatarPropNotify_PropMapEntry::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_metadata[15];
-}
-void AvatarPropNotify::AvatarPropNotify_PropMapEntry::MergeFrom(
-    const ::google::protobuf::Message& other) {
-  ::google::protobuf::Message::MergeFrom(other);
-}
-void AvatarPropNotify::AvatarPropNotify_PropMapEntry::MergeFrom(const AvatarPropNotify_PropMapEntry& other) {
-  MergeFromInternal(other);
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarPropNotify::kPropMapFieldNumber;
-const int AvatarPropNotify::kAvatarGuidFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarPropNotify::AvatarPropNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fproperty_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarPropNotify)
-}
-AvatarPropNotify::AvatarPropNotify(const AvatarPropNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  prop_map_.MergeFrom(from.prop_map_);
-  avatar_guid_ = from.avatar_guid_;
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarPropNotify)
-}
-
-void AvatarPropNotify::SharedCtor() {
-  avatar_guid_ = GOOGLE_ULONGLONG(0);
-  _cached_size_ = 0;
-}
-
-AvatarPropNotify::~AvatarPropNotify() {
-  // @@protoc_insertion_point(destructor:proto.AvatarPropNotify)
-  SharedDtor();
-}
-
-void AvatarPropNotify::SharedDtor() {
-}
-
-void AvatarPropNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarPropNotify::descriptor() {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarPropNotify& AvatarPropNotify::default_instance() {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarPropNotify* AvatarPropNotify::New(::google::protobuf::Arena* arena) const {
-  AvatarPropNotify* n = new AvatarPropNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarPropNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarPropNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  prop_map_.Clear();
-  avatar_guid_ = GOOGLE_ULONGLONG(0);
-  _internal_metadata_.Clear();
 }
 
 bool AvatarPropNotify::MergePartialFromCodedStream(
@@ -5800,16 +2650,18 @@ bool AvatarPropNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarPropNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarPropNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -5864,9 +2716,9 @@ void AvatarPropNotify::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt64(15, this->avatar_guid(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarPropNotify)
 }
@@ -5926,9 +2778,9 @@ void AvatarPropNotify::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt64ToArray(15, this->avatar_guid(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarPropNotify)
   return target;
@@ -5938,10 +2790,10 @@ size_t AvatarPropNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarPropNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // map<uint32, int64> prop_map = 11;
   total_size += 1 *
@@ -5969,178 +2821,6 @@ size_t AvatarPropNotify::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarPropNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarPropNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarPropNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarPropNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarPropNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarPropNotify)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarPropNotify::MergeFrom(const AvatarPropNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarPropNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  prop_map_.MergeFrom(from.prop_map_);
-  if (from.avatar_guid() != 0) {
-    set_avatar_guid(from.avatar_guid());
-  }
-}
-
-void AvatarPropNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarPropNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarPropNotify::CopyFrom(const AvatarPropNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarPropNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarPropNotify::IsInitialized() const {
-  return true;
-}
-
-void AvatarPropNotify::Swap(AvatarPropNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarPropNotify::InternalSwap(AvatarPropNotify* other) {
-  using std::swap;
-  prop_map_.Swap(&other->prop_map_);
-  swap(avatar_guid_, other->avatar_guid_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarPropNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarPropNotify
-
-// map<uint32, int64> prop_map = 11;
-int AvatarPropNotify::prop_map_size() const {
-  return prop_map_.size();
-}
-void AvatarPropNotify::clear_prop_map() {
-  prop_map_.Clear();
-}
- const ::google::protobuf::Map< ::google::protobuf::uint32, ::google::protobuf::int64 >&
-AvatarPropNotify::prop_map() const {
-  // @@protoc_insertion_point(field_map:proto.AvatarPropNotify.prop_map)
-  return prop_map_.GetMap();
-}
- ::google::protobuf::Map< ::google::protobuf::uint32, ::google::protobuf::int64 >*
-AvatarPropNotify::mutable_prop_map() {
-  // @@protoc_insertion_point(field_mutable_map:proto.AvatarPropNotify.prop_map)
-  return prop_map_.MutableMap();
-}
-
-// uint64 avatar_guid = 15;
-void AvatarPropNotify::clear_avatar_guid() {
-  avatar_guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 AvatarPropNotify::avatar_guid() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarPropNotify.avatar_guid)
-  return avatar_guid_;
-}
-void AvatarPropNotify::set_avatar_guid(::google::protobuf::uint64 value) {
-  
-  avatar_guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarPropNotify.avatar_guid)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int MarkNewNotify::kIdListFieldNumber;
-const int MarkNewNotify::kMarkNewTypeFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-MarkNewNotify::MarkNewNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fproperty_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.MarkNewNotify)
-}
-MarkNewNotify::MarkNewNotify(const MarkNewNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      id_list_(from.id_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  mark_new_type_ = from.mark_new_type_;
-  // @@protoc_insertion_point(copy_constructor:proto.MarkNewNotify)
-}
-
-void MarkNewNotify::SharedCtor() {
-  mark_new_type_ = 0u;
-  _cached_size_ = 0;
-}
-
-MarkNewNotify::~MarkNewNotify() {
-  // @@protoc_insertion_point(destructor:proto.MarkNewNotify)
-  SharedDtor();
-}
-
-void MarkNewNotify::SharedDtor() {
-}
-
-void MarkNewNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* MarkNewNotify::descriptor() {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const MarkNewNotify& MarkNewNotify::default_instance() {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-MarkNewNotify* MarkNewNotify::New(::google::protobuf::Arena* arena) const {
-  MarkNewNotify* n = new MarkNewNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void MarkNewNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.MarkNewNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  id_list_.Clear();
-  mark_new_type_ = 0u;
-  _internal_metadata_.Clear();
 }
 
 bool MarkNewNotify::MergePartialFromCodedStream(
@@ -6192,16 +2872,18 @@ bool MarkNewNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.MarkNewNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.MarkNewNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -6228,9 +2910,9 @@ void MarkNewNotify::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(15, this->mark_new_type(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.MarkNewNotify)
 }
@@ -6260,9 +2942,9 @@ void MarkNewNotify::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(15, this->mark_new_type(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.MarkNewNotify)
   return target;
@@ -6272,10 +2954,10 @@ size_t MarkNewNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.MarkNewNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated uint32 id_list = 1;
   {
@@ -6306,118 +2988,6 @@ size_t MarkNewNotify::ByteSizeLong() const {
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
 }
-
-void MarkNewNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.MarkNewNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const MarkNewNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const MarkNewNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.MarkNewNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.MarkNewNotify)
-    MergeFrom(*source);
-  }
-}
-
-void MarkNewNotify::MergeFrom(const MarkNewNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.MarkNewNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  id_list_.MergeFrom(from.id_list_);
-  if (from.mark_new_type() != 0) {
-    set_mark_new_type(from.mark_new_type());
-  }
-}
-
-void MarkNewNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.MarkNewNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void MarkNewNotify::CopyFrom(const MarkNewNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.MarkNewNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool MarkNewNotify::IsInitialized() const {
-  return true;
-}
-
-void MarkNewNotify::Swap(MarkNewNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void MarkNewNotify::InternalSwap(MarkNewNotify* other) {
-  using std::swap;
-  id_list_.InternalSwap(&other->id_list_);
-  swap(mark_new_type_, other->mark_new_type_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata MarkNewNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fproperty_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fproperty_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// MarkNewNotify
-
-// repeated uint32 id_list = 1;
-int MarkNewNotify::id_list_size() const {
-  return id_list_.size();
-}
-void MarkNewNotify::clear_id_list() {
-  id_list_.Clear();
-}
-::google::protobuf::uint32 MarkNewNotify::id_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.MarkNewNotify.id_list)
-  return id_list_.Get(index);
-}
-void MarkNewNotify::set_id_list(int index, ::google::protobuf::uint32 value) {
-  id_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.MarkNewNotify.id_list)
-}
-void MarkNewNotify::add_id_list(::google::protobuf::uint32 value) {
-  id_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.MarkNewNotify.id_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint32 >&
-MarkNewNotify::id_list() const {
-  // @@protoc_insertion_point(field_list:proto.MarkNewNotify.id_list)
-  return id_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint32 >*
-MarkNewNotify::mutable_id_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.MarkNewNotify.id_list)
-  return &id_list_;
-}
-
-// uint32 mark_new_type = 15;
-void MarkNewNotify::clear_mark_new_type() {
-  mark_new_type_ = 0u;
-}
-::google::protobuf::uint32 MarkNewNotify::mark_new_type() const {
-  // @@protoc_insertion_point(field_get:proto.MarkNewNotify.mark_new_type)
-  return mark_new_type_;
-}
-void MarkNewNotify::set_mark_new_type(::google::protobuf::uint32 value) {
-  
-  mark_new_type_ = value;
-  // @@protoc_insertion_point(field_set:proto.MarkNewNotify.mark_new_type)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
 
 // @@protoc_insertion_point(namespace_scope)
 

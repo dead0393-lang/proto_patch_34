@@ -3,7 +3,7 @@ SRC_DIR = $(CURRENT_DIR)/src
 BUILD_DIR = $(CURRENT_DIR)/build
 CXX := g++
 # Compiler flags
-CXXFLAGS := -w -Wall -Wno-narrowing -fPIC -std=c++11 -Iinclude -Isrc/proto
+CXXFLAGS := -w -Wall -Wno-narrowing -fPIC -std=c++11 -Iinclude -Isrc/proto -fsanitize=address -fno-sanitize-address-use-after-scope
 
 
 # Files to compile
@@ -25,7 +25,7 @@ $(OBJS): $(BUILD_DIR)%.o: $(SRC_DIR)%.cpp
 # Rule to build object files
 $(TARGET): $(OBJS)
 	@mkdir -p $(dir $@)
-	$(CXX)  -shared -fPIC -o $(TARGET) $(OBJS)  -Llib -ldl -lZydis 
+	$(CXX)  -shared  -Wl,--allow-shlib-undefined -o $(TARGET) $(OBJS)  -Llib -ldl -lZydis 
 
 
 # Clean command

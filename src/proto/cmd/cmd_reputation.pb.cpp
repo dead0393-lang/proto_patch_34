@@ -134,967 +134,6 @@ public:
      _instance;
 } _CityReputationDataNotify_default_instance_;
 
-namespace protobuf_cmd_2fcmd_5freputation_2eproto {
-
-
-namespace {
-
-::google::protobuf::Metadata file_level_metadata[23];
-const ::google::protobuf::EnumDescriptor* file_level_enum_descriptors[16];
-
-}  // namespace
-
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::ParseTableField
-    const TableStruct::entries[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  {0, 0, 0, ::google::protobuf::internal::kInvalidMask, 0, 0},
-};
-
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::AuxillaryParseTableField
-    const TableStruct::aux[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  ::google::protobuf::internal::AuxillaryParseTableField(),
-};
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::ParseTable const
-    TableStruct::schema[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-};
-
-const ::google::protobuf::uint32 TableStruct::offsets[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CityReputationQuestInfo, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CityReputationQuestInfo, is_open_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CityReputationQuestInfo, taken_parent_quest_reward_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CityReputationQuestInfo, finished_parent_quest_list_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CityReputationRequestInfo_RequestInfo, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CityReputationRequestInfo_RequestInfo, request_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CityReputationRequestInfo_RequestInfo, quest_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CityReputationRequestInfo_RequestInfo, is_taken_reward_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CityReputationRequestInfo, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CityReputationRequestInfo, is_open_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CityReputationRequestInfo, request_info_list_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CityReputationExploreInfo, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CityReputationExploreInfo, taken_explore_reward_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CityReputationExploreInfo, explore_percent_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CityReputationExploreInfo, is_open_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CityReputationHuntInfo, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CityReputationHuntInfo, is_open_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CityReputationHuntInfo, cur_week_finish_num_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CityReputationHuntInfo, has_reward_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CityReputationInfo, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CityReputationInfo, level_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CityReputationInfo, next_refresh_time_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CityReputationInfo, hunt_info_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CityReputationInfo, taken_level_reward_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CityReputationInfo, total_accept_request_num_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CityReputationInfo, request_info_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CityReputationInfo, quest_info_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CityReputationInfo, exp_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CityReputationInfo, explore_info_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GetCityReputationInfoReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GetCityReputationInfoReq, city_id_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GetCityReputationInfoRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GetCityReputationInfoRsp, city_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GetCityReputationInfoRsp, retcode_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GetCityReputationInfoRsp, city_reputation_info_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TakeCityReputationLevelRewardReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TakeCityReputationLevelRewardReq, level_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TakeCityReputationLevelRewardReq, city_id_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TakeCityReputationLevelRewardRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TakeCityReputationLevelRewardRsp, city_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TakeCityReputationLevelRewardRsp, retcode_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TakeCityReputationLevelRewardRsp, item_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TakeCityReputationLevelRewardRsp, level_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CityReputationLevelupNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CityReputationLevelupNotify, city_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CityReputationLevelupNotify, level_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TakeCityReputationParentQuestReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TakeCityReputationParentQuestReq, city_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TakeCityReputationParentQuestReq, parent_quest_list_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TakeCityReputationParentQuestRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TakeCityReputationParentQuestRsp, retcode_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TakeCityReputationParentQuestRsp, city_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TakeCityReputationParentQuestRsp, parent_quest_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TakeCityReputationParentQuestRsp, item_list_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AcceptCityReputationRequestReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AcceptCityReputationRequestReq, city_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AcceptCityReputationRequestReq, request_id_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AcceptCityReputationRequestRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AcceptCityReputationRequestRsp, request_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AcceptCityReputationRequestRsp, city_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AcceptCityReputationRequestRsp, retcode_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CancelCityReputationRequestReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CancelCityReputationRequestReq, request_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CancelCityReputationRequestReq, city_id_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CancelCityReputationRequestRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CancelCityReputationRequestRsp, city_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CancelCityReputationRequestRsp, retcode_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CancelCityReputationRequestRsp, request_id_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GetCityReputationMapInfoReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GetCityReputationMapInfoRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GetCityReputationMapInfoRsp, retcode_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GetCityReputationMapInfoRsp, is_new_hunting_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GetCityReputationMapInfoRsp, is_new_request_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GetCityReputationMapInfoRsp, unlock_hunting_city_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GetCityReputationMapInfoRsp, reward_city_list_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TakeCityReputationExploreRewardReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TakeCityReputationExploreRewardReq, city_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TakeCityReputationExploreRewardReq, explore_id_list_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TakeCityReputationExploreRewardRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TakeCityReputationExploreRewardRsp, explore_id_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TakeCityReputationExploreRewardRsp, item_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TakeCityReputationExploreRewardRsp, retcode_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TakeCityReputationExploreRewardRsp, city_id_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CityReputationSimpleInfo, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CityReputationSimpleInfo, level_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CityReputationSimpleInfo, city_id_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CityReputationDataNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CityReputationDataNotify, simple_info_list_),
-};
-static const ::google::protobuf::internal::MigrationSchema schemas[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  { 0, -1, sizeof(CityReputationQuestInfo)},
-  { 8, -1, sizeof(CityReputationRequestInfo_RequestInfo)},
-  { 16, -1, sizeof(CityReputationRequestInfo)},
-  { 23, -1, sizeof(CityReputationExploreInfo)},
-  { 31, -1, sizeof(CityReputationHuntInfo)},
-  { 39, -1, sizeof(CityReputationInfo)},
-  { 53, -1, sizeof(GetCityReputationInfoReq)},
-  { 59, -1, sizeof(GetCityReputationInfoRsp)},
-  { 67, -1, sizeof(TakeCityReputationLevelRewardReq)},
-  { 74, -1, sizeof(TakeCityReputationLevelRewardRsp)},
-  { 83, -1, sizeof(CityReputationLevelupNotify)},
-  { 90, -1, sizeof(TakeCityReputationParentQuestReq)},
-  { 97, -1, sizeof(TakeCityReputationParentQuestRsp)},
-  { 106, -1, sizeof(AcceptCityReputationRequestReq)},
-  { 113, -1, sizeof(AcceptCityReputationRequestRsp)},
-  { 121, -1, sizeof(CancelCityReputationRequestReq)},
-  { 128, -1, sizeof(CancelCityReputationRequestRsp)},
-  { 136, -1, sizeof(GetCityReputationMapInfoReq)},
-  { 141, -1, sizeof(GetCityReputationMapInfoRsp)},
-  { 151, -1, sizeof(TakeCityReputationExploreRewardReq)},
-  { 158, -1, sizeof(TakeCityReputationExploreRewardRsp)},
-  { 167, -1, sizeof(CityReputationSimpleInfo)},
-  { 174, -1, sizeof(CityReputationDataNotify)},
-};
-
-static ::google::protobuf::Message const * const file_default_instances[] = {
-  reinterpret_cast<const ::google::protobuf::Message*>(&_CityReputationQuestInfo_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_CityReputationRequestInfo_RequestInfo_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_CityReputationRequestInfo_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_CityReputationExploreInfo_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_CityReputationHuntInfo_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_CityReputationInfo_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_GetCityReputationInfoReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_GetCityReputationInfoRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_TakeCityReputationLevelRewardReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_TakeCityReputationLevelRewardRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_CityReputationLevelupNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_TakeCityReputationParentQuestReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_TakeCityReputationParentQuestRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AcceptCityReputationRequestReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AcceptCityReputationRequestRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_CancelCityReputationRequestReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_CancelCityReputationRequestRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_GetCityReputationMapInfoReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_GetCityReputationMapInfoRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_TakeCityReputationExploreRewardReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_TakeCityReputationExploreRewardRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_CityReputationSimpleInfo_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_CityReputationDataNotify_default_instance_),
-};
-
-namespace {
-
-void protobuf_AssignDescriptors() {
-  AddDescriptors();
-  ::google::protobuf::MessageFactory* factory = NULL;
-  AssignDescriptors(
-      "cmd/cmd_reputation.proto", schemas, file_default_instances, TableStruct::offsets, factory,
-      file_level_metadata, file_level_enum_descriptors, NULL);
-}
-
-void protobuf_AssignDescriptorsOnce() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &protobuf_AssignDescriptors);
-}
-
-void protobuf_RegisterTypes(const ::std::string&) GOOGLE_ATTRIBUTE_COLD;
-void protobuf_RegisterTypes(const ::std::string&) {
-  protobuf_AssignDescriptorsOnce();
-  ::google::protobuf::internal::RegisterAllTypes(file_level_metadata, 23);
-}
-
-}  // namespace
-void TableStruct::InitDefaultsImpl() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
-
-  ::google::protobuf::internal::InitProtobufDefaults();
-  ::proto::protobuf_define_2eproto::InitDefaults();
-  _CityReputationQuestInfo_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_CityReputationQuestInfo_default_instance_);_CityReputationRequestInfo_RequestInfo_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_CityReputationRequestInfo_RequestInfo_default_instance_);_CityReputationRequestInfo_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_CityReputationRequestInfo_default_instance_);_CityReputationExploreInfo_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_CityReputationExploreInfo_default_instance_);_CityReputationHuntInfo_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_CityReputationHuntInfo_default_instance_);_CityReputationInfo_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_CityReputationInfo_default_instance_);_GetCityReputationInfoReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_GetCityReputationInfoReq_default_instance_);_GetCityReputationInfoRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_GetCityReputationInfoRsp_default_instance_);_TakeCityReputationLevelRewardReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_TakeCityReputationLevelRewardReq_default_instance_);_TakeCityReputationLevelRewardRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_TakeCityReputationLevelRewardRsp_default_instance_);_CityReputationLevelupNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_CityReputationLevelupNotify_default_instance_);_TakeCityReputationParentQuestReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_TakeCityReputationParentQuestReq_default_instance_);_TakeCityReputationParentQuestRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_TakeCityReputationParentQuestRsp_default_instance_);_AcceptCityReputationRequestReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AcceptCityReputationRequestReq_default_instance_);_AcceptCityReputationRequestRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AcceptCityReputationRequestRsp_default_instance_);_CancelCityReputationRequestReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_CancelCityReputationRequestReq_default_instance_);_CancelCityReputationRequestRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_CancelCityReputationRequestRsp_default_instance_);_GetCityReputationMapInfoReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_GetCityReputationMapInfoReq_default_instance_);_GetCityReputationMapInfoRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_GetCityReputationMapInfoRsp_default_instance_);_TakeCityReputationExploreRewardReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_TakeCityReputationExploreRewardReq_default_instance_);_TakeCityReputationExploreRewardRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_TakeCityReputationExploreRewardRsp_default_instance_);_CityReputationSimpleInfo_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_CityReputationSimpleInfo_default_instance_);_CityReputationDataNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_CityReputationDataNotify_default_instance_);_CityReputationInfo_default_instance_._instance.get_mutable()->hunt_info_ = const_cast< ::proto::CityReputationHuntInfo*>(
-      ::proto::CityReputationHuntInfo::internal_default_instance());
-  _CityReputationInfo_default_instance_._instance.get_mutable()->request_info_ = const_cast< ::proto::CityReputationRequestInfo*>(
-      ::proto::CityReputationRequestInfo::internal_default_instance());
-  _CityReputationInfo_default_instance_._instance.get_mutable()->quest_info_ = const_cast< ::proto::CityReputationQuestInfo*>(
-      ::proto::CityReputationQuestInfo::internal_default_instance());
-  _CityReputationInfo_default_instance_._instance.get_mutable()->explore_info_ = const_cast< ::proto::CityReputationExploreInfo*>(
-      ::proto::CityReputationExploreInfo::internal_default_instance());
-  _GetCityReputationInfoRsp_default_instance_._instance.get_mutable()->city_reputation_info_ = const_cast< ::proto::CityReputationInfo*>(
-      ::proto::CityReputationInfo::internal_default_instance());
-}
-
-void InitDefaults() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &TableStruct::InitDefaultsImpl);
-}
-namespace {
-void AddDescriptorsImpl() {
-  InitDefaults();
-  static const char descriptor[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-      "\n\030cmd/cmd_reputation.proto\022\005proto\032\014defin"
-      "e.proto\"v\n\027CityReputationQuestInfo\022\017\n\007is"
-      "_open\030\016 \001(\010\022&\n\036taken_parent_quest_reward"
-      "_list\030\004 \003(\r\022\"\n\032finished_parent_quest_lis"
-      "t\030\n \003(\r\"\303\001\n\031CityReputationRequestInfo\022\017\n"
-      "\007is_open\030\001 \001(\010\022G\n\021request_info_list\030\002 \003("
-      "\0132,.proto.CityReputationRequestInfo.Requ"
-      "estInfo\032L\n\013RequestInfo\022\022\n\nrequest_id\030\013 \001"
-      "(\r\022\020\n\010quest_id\030\016 \001(\r\022\027\n\017is_taken_reward\030"
-      "\r \001(\010\"h\n\031CityReputationExploreInfo\022!\n\031ta"
-      "ken_explore_reward_list\030\t \003(\r\022\027\n\017explore"
-      "_percent\030\013 \001(\r\022\017\n\007is_open\030\001 \001(\010\"Z\n\026CityR"
-      "eputationHuntInfo\022\017\n\007is_open\030\n \001(\010\022\033\n\023cu"
-      "r_week_finish_num\030\001 \001(\r\022\022\n\nhas_reward\030\004 "
-      "\001(\010\"\344\002\n\022CityReputationInfo\022\r\n\005level\030\r \001("
-      "\r\022\031\n\021next_refresh_time\030\016 \001(\r\0220\n\thunt_inf"
-      "o\030\t \001(\0132\035.proto.CityReputationHuntInfo\022\037"
-      "\n\027taken_level_reward_list\030\004 \003(\r\022 \n\030total"
-      "_accept_request_num\030\013 \001(\r\0226\n\014request_inf"
-      "o\030\002 \001(\0132 .proto.CityReputationRequestInf"
-      "o\0222\n\nquest_info\030\007 \001(\0132\036.proto.CityReputa"
-      "tionQuestInfo\022\013\n\003exp\030\010 \001(\r\0226\n\014explore_in"
-      "fo\030\005 \001(\0132 .proto.CityReputationExploreIn"
-      "fo\"\217\001\n\030GetCityReputationInfoReq\022\017\n\007city_"
-      "id\030\005 \001(\r\"b\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\365\025"
-      "\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABL"
-      "E\020\001\022\023\n\017IS_ALLOW_CLIENT\020\001\032\002\020\001\"\304\001\n\030GetCity"
-      "ReputationInfoRsp\022\017\n\007city_id\030\006 \001(\r\022\017\n\007re"
-      "tcode\030\n \001(\005\0227\n\024city_reputation_info\030\005 \001("
-      "\0132\031.proto.CityReputationInfo\"M\n\005CmdId\022\010\n"
-      "\004NONE\020\000\022\013\n\006CMD_ID\020\247\026\022\023\n\017ENET_CHANNEL_ID\020"
-      "\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001\"\246\001\n TakeCity"
-      "ReputationLevelRewardReq\022\r\n\005level\030\005 \001(\r\022"
-      "\017\n\007city_id\030\010 \001(\r\"b\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006C"
-      "MD_ID\020\307\026\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS"
-      "_RELIABLE\020\001\022\023\n\017IS_ALLOW_CLIENT\020\001\032\002\020\001\"\307\001\n"
-      " TakeCityReputationLevelRewardRsp\022\017\n\007cit"
-      "y_id\030\010 \001(\r\022\017\n\007retcode\030\n \001(\005\022#\n\titem_list"
-      "\030\014 \003(\0132\020.proto.ItemParam\022\r\n\005level\030\013 \001(\r\""
-      "M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\322\026\022\023\n\017ENET_"
-      "CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001\"\214"
-      "\001\n\033CityReputationLevelupNotify\022\017\n\007city_i"
-      "d\030\n \001(\r\022\r\n\005level\030\013 \001(\r\"M\n\005CmdId\022\010\n\004NONE\020"
-      "\000\022\013\n\006CMD_ID\020\204\026\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020E"
-      "NET_IS_RELIABLE\020\001\032\002\020\001\"\262\001\n TakeCityReputa"
-      "tionParentQuestReq\022\017\n\007city_id\030\t \001(\r\022\031\n\021p"
-      "arent_quest_list\030\001 \003(\r\"b\n\005CmdId\022\010\n\004NONE\020"
-      "\000\022\013\n\006CMD_ID\020\272\026\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020E"
-      "NET_IS_RELIABLE\020\001\022\023\n\017IS_ALLOW_CLIENT\020\001\032\002"
-      "\020\001\"\350\001\n TakeCityReputationParentQuestRsp\022"
-      "\017\n\007retcode\030\006 \001(\005\022\017\n\007city_id\030\r \001(\r\022\031\n\021par"
-      "ent_quest_list\030\016 \003(\r\022#\n\titem_list\030\013 \003(\0132"
-      "\020.proto.ItemParam\"b\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006"
-      "CMD_ID\020\300\026\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_I"
-      "S_RELIABLE\020\001\022\023\n\017IS_ALLOW_CLIENT\020\001\032\002\020\001\"\251\001"
-      "\n\036AcceptCityReputationRequestReq\022\017\n\007city"
-      "_id\030\002 \001(\r\022\022\n\nrequest_id\030\014 \001(\r\"b\n\005CmdId\022\010"
-      "\n\004NONE\020\000\022\013\n\006CMD_ID\020\266\026\022\023\n\017ENET_CHANNEL_ID"
-      "\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\022\023\n\017IS_ALLOW_CLI"
-      "ENT\020\001\032\002\020\001\"\245\001\n\036AcceptCityReputationReques"
-      "tRsp\022\022\n\nrequest_id\030\t \001(\r\022\017\n\007city_id\030\005 \001("
-      "\r\022\017\n\007retcode\030\003 \001(\005\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n"
-      "\006CMD_ID\020\256\026\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_"
-      "IS_RELIABLE\020\001\032\002\020\001\"\251\001\n\036CancelCityReputati"
-      "onRequestReq\022\022\n\nrequest_id\030\003 \001(\r\022\017\n\007city"
-      "_id\030\004 \001(\r\"b\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\376"
-      "\025\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIAB"
-      "LE\020\001\022\023\n\017IS_ALLOW_CLIENT\020\001\032\002\020\001\"\245\001\n\036Cancel"
-      "CityReputationRequestRsp\022\017\n\007city_id\030\016 \001("
-      "\r\022\017\n\007retcode\030\014 \001(\005\022\022\n\nrequest_id\030\t \001(\r\"M"
-      "\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\210\026\022\023\n\017ENET_C"
-      "HANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001\"\201\001"
-      "\n\033GetCityReputationMapInfoReq\"b\n\005CmdId\022\010"
-      "\n\004NONE\020\000\022\013\n\006CMD_ID\020\215\026\022\023\n\017ENET_CHANNEL_ID"
-      "\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\022\023\n\017IS_ALLOW_CLI"
-      "ENT\020\001\032\002\020\001\"\351\001\n\033GetCityReputationMapInfoRs"
-      "p\022\017\n\007retcode\030\004 \001(\005\022\026\n\016is_new_hunting\030\007 \001"
-      "(\010\022\026\n\016is_new_request\030\r \001(\010\022 \n\030unlock_hun"
-      "ting_city_list\030\014 \003(\r\022\030\n\020reward_city_list"
-      "\030\001 \003(\r\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\276\026\022\023"
-      "\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020"
-      "\001\032\002\020\001\"\262\001\n\"TakeCityReputationExploreRewar"
-      "dReq\022\017\n\007city_id\030\001 \001(\r\022\027\n\017explore_id_list"
-      "\030\016 \003(\r\"b\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\200\026\022\023"
-      "\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020"
-      "\001\022\023\n\017IS_ALLOW_CLIENT\020\001\032\002\020\001\"\323\001\n\"TakeCityR"
-      "eputationExploreRewardRsp\022\027\n\017explore_id_"
-      "list\030\002 \003(\r\022#\n\titem_list\030\013 \003(\0132\020.proto.It"
-      "emParam\022\017\n\007retcode\030\014 \001(\005\022\017\n\007city_id\030\004 \001("
-      "\r\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\375\025\022\023\n\017ENE"
-      "T_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001"
-      "\":\n\030CityReputationSimpleInfo\022\r\n\005level\030\n "
-      "\001(\r\022\017\n\007city_id\030\010 \001(\r\"\244\001\n\030CityReputationD"
-      "ataNotify\0229\n\020simple_info_list\030\010 \003(\0132\037.pr"
-      "oto.CityReputationSimpleInfo\"M\n\005CmdId\022\010\n"
-      "\004NONE\020\000\022\013\n\006CMD_ID\020\265\026\022\023\n\017ENET_CHANNEL_ID\020"
-      "\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001B\nZ\010./;protob"
-      "\006proto3"
-  };
-  ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-      descriptor, 3887);
-  ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
-    "cmd/cmd_reputation.proto", &protobuf_RegisterTypes);
-  ::proto::protobuf_define_2eproto::AddDescriptors();
-}
-} // anonymous namespace
-
-void AddDescriptors() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &AddDescriptorsImpl);
-}
-// Force AddDescriptors() to be called at dynamic initialization time.
-struct StaticDescriptorInitializer {
-  StaticDescriptorInitializer() {
-    AddDescriptors();
-  }
-} static_descriptor_initializer;
-
-}  // namespace protobuf_cmd_2fcmd_5freputation_2eproto
-
-const ::google::protobuf::EnumDescriptor* GetCityReputationInfoReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_enum_descriptors[0];
-}
-bool GetCityReputationInfoReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 2805:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const GetCityReputationInfoReq_CmdId GetCityReputationInfoReq::NONE;
-const GetCityReputationInfoReq_CmdId GetCityReputationInfoReq::CMD_ID;
-const GetCityReputationInfoReq_CmdId GetCityReputationInfoReq::ENET_CHANNEL_ID;
-const GetCityReputationInfoReq_CmdId GetCityReputationInfoReq::ENET_IS_RELIABLE;
-const GetCityReputationInfoReq_CmdId GetCityReputationInfoReq::IS_ALLOW_CLIENT;
-const GetCityReputationInfoReq_CmdId GetCityReputationInfoReq::CmdId_MIN;
-const GetCityReputationInfoReq_CmdId GetCityReputationInfoReq::CmdId_MAX;
-const int GetCityReputationInfoReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* GetCityReputationInfoRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_enum_descriptors[1];
-}
-bool GetCityReputationInfoRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 2855:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const GetCityReputationInfoRsp_CmdId GetCityReputationInfoRsp::NONE;
-const GetCityReputationInfoRsp_CmdId GetCityReputationInfoRsp::CMD_ID;
-const GetCityReputationInfoRsp_CmdId GetCityReputationInfoRsp::ENET_CHANNEL_ID;
-const GetCityReputationInfoRsp_CmdId GetCityReputationInfoRsp::ENET_IS_RELIABLE;
-const GetCityReputationInfoRsp_CmdId GetCityReputationInfoRsp::CmdId_MIN;
-const GetCityReputationInfoRsp_CmdId GetCityReputationInfoRsp::CmdId_MAX;
-const int GetCityReputationInfoRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* TakeCityReputationLevelRewardReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_enum_descriptors[2];
-}
-bool TakeCityReputationLevelRewardReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 2887:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const TakeCityReputationLevelRewardReq_CmdId TakeCityReputationLevelRewardReq::NONE;
-const TakeCityReputationLevelRewardReq_CmdId TakeCityReputationLevelRewardReq::CMD_ID;
-const TakeCityReputationLevelRewardReq_CmdId TakeCityReputationLevelRewardReq::ENET_CHANNEL_ID;
-const TakeCityReputationLevelRewardReq_CmdId TakeCityReputationLevelRewardReq::ENET_IS_RELIABLE;
-const TakeCityReputationLevelRewardReq_CmdId TakeCityReputationLevelRewardReq::IS_ALLOW_CLIENT;
-const TakeCityReputationLevelRewardReq_CmdId TakeCityReputationLevelRewardReq::CmdId_MIN;
-const TakeCityReputationLevelRewardReq_CmdId TakeCityReputationLevelRewardReq::CmdId_MAX;
-const int TakeCityReputationLevelRewardReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* TakeCityReputationLevelRewardRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_enum_descriptors[3];
-}
-bool TakeCityReputationLevelRewardRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 2898:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const TakeCityReputationLevelRewardRsp_CmdId TakeCityReputationLevelRewardRsp::NONE;
-const TakeCityReputationLevelRewardRsp_CmdId TakeCityReputationLevelRewardRsp::CMD_ID;
-const TakeCityReputationLevelRewardRsp_CmdId TakeCityReputationLevelRewardRsp::ENET_CHANNEL_ID;
-const TakeCityReputationLevelRewardRsp_CmdId TakeCityReputationLevelRewardRsp::ENET_IS_RELIABLE;
-const TakeCityReputationLevelRewardRsp_CmdId TakeCityReputationLevelRewardRsp::CmdId_MIN;
-const TakeCityReputationLevelRewardRsp_CmdId TakeCityReputationLevelRewardRsp::CmdId_MAX;
-const int TakeCityReputationLevelRewardRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* CityReputationLevelupNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_enum_descriptors[4];
-}
-bool CityReputationLevelupNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 2820:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const CityReputationLevelupNotify_CmdId CityReputationLevelupNotify::NONE;
-const CityReputationLevelupNotify_CmdId CityReputationLevelupNotify::CMD_ID;
-const CityReputationLevelupNotify_CmdId CityReputationLevelupNotify::ENET_CHANNEL_ID;
-const CityReputationLevelupNotify_CmdId CityReputationLevelupNotify::ENET_IS_RELIABLE;
-const CityReputationLevelupNotify_CmdId CityReputationLevelupNotify::CmdId_MIN;
-const CityReputationLevelupNotify_CmdId CityReputationLevelupNotify::CmdId_MAX;
-const int CityReputationLevelupNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* TakeCityReputationParentQuestReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_enum_descriptors[5];
-}
-bool TakeCityReputationParentQuestReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 2874:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const TakeCityReputationParentQuestReq_CmdId TakeCityReputationParentQuestReq::NONE;
-const TakeCityReputationParentQuestReq_CmdId TakeCityReputationParentQuestReq::CMD_ID;
-const TakeCityReputationParentQuestReq_CmdId TakeCityReputationParentQuestReq::ENET_CHANNEL_ID;
-const TakeCityReputationParentQuestReq_CmdId TakeCityReputationParentQuestReq::ENET_IS_RELIABLE;
-const TakeCityReputationParentQuestReq_CmdId TakeCityReputationParentQuestReq::IS_ALLOW_CLIENT;
-const TakeCityReputationParentQuestReq_CmdId TakeCityReputationParentQuestReq::CmdId_MIN;
-const TakeCityReputationParentQuestReq_CmdId TakeCityReputationParentQuestReq::CmdId_MAX;
-const int TakeCityReputationParentQuestReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* TakeCityReputationParentQuestRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_enum_descriptors[6];
-}
-bool TakeCityReputationParentQuestRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 2880:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const TakeCityReputationParentQuestRsp_CmdId TakeCityReputationParentQuestRsp::NONE;
-const TakeCityReputationParentQuestRsp_CmdId TakeCityReputationParentQuestRsp::CMD_ID;
-const TakeCityReputationParentQuestRsp_CmdId TakeCityReputationParentQuestRsp::ENET_CHANNEL_ID;
-const TakeCityReputationParentQuestRsp_CmdId TakeCityReputationParentQuestRsp::ENET_IS_RELIABLE;
-const TakeCityReputationParentQuestRsp_CmdId TakeCityReputationParentQuestRsp::IS_ALLOW_CLIENT;
-const TakeCityReputationParentQuestRsp_CmdId TakeCityReputationParentQuestRsp::CmdId_MIN;
-const TakeCityReputationParentQuestRsp_CmdId TakeCityReputationParentQuestRsp::CmdId_MAX;
-const int TakeCityReputationParentQuestRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AcceptCityReputationRequestReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_enum_descriptors[7];
-}
-bool AcceptCityReputationRequestReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 2870:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AcceptCityReputationRequestReq_CmdId AcceptCityReputationRequestReq::NONE;
-const AcceptCityReputationRequestReq_CmdId AcceptCityReputationRequestReq::CMD_ID;
-const AcceptCityReputationRequestReq_CmdId AcceptCityReputationRequestReq::ENET_CHANNEL_ID;
-const AcceptCityReputationRequestReq_CmdId AcceptCityReputationRequestReq::ENET_IS_RELIABLE;
-const AcceptCityReputationRequestReq_CmdId AcceptCityReputationRequestReq::IS_ALLOW_CLIENT;
-const AcceptCityReputationRequestReq_CmdId AcceptCityReputationRequestReq::CmdId_MIN;
-const AcceptCityReputationRequestReq_CmdId AcceptCityReputationRequestReq::CmdId_MAX;
-const int AcceptCityReputationRequestReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AcceptCityReputationRequestRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_enum_descriptors[8];
-}
-bool AcceptCityReputationRequestRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 2862:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AcceptCityReputationRequestRsp_CmdId AcceptCityReputationRequestRsp::NONE;
-const AcceptCityReputationRequestRsp_CmdId AcceptCityReputationRequestRsp::CMD_ID;
-const AcceptCityReputationRequestRsp_CmdId AcceptCityReputationRequestRsp::ENET_CHANNEL_ID;
-const AcceptCityReputationRequestRsp_CmdId AcceptCityReputationRequestRsp::ENET_IS_RELIABLE;
-const AcceptCityReputationRequestRsp_CmdId AcceptCityReputationRequestRsp::CmdId_MIN;
-const AcceptCityReputationRequestRsp_CmdId AcceptCityReputationRequestRsp::CmdId_MAX;
-const int AcceptCityReputationRequestRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* CancelCityReputationRequestReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_enum_descriptors[9];
-}
-bool CancelCityReputationRequestReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 2814:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const CancelCityReputationRequestReq_CmdId CancelCityReputationRequestReq::NONE;
-const CancelCityReputationRequestReq_CmdId CancelCityReputationRequestReq::CMD_ID;
-const CancelCityReputationRequestReq_CmdId CancelCityReputationRequestReq::ENET_CHANNEL_ID;
-const CancelCityReputationRequestReq_CmdId CancelCityReputationRequestReq::ENET_IS_RELIABLE;
-const CancelCityReputationRequestReq_CmdId CancelCityReputationRequestReq::IS_ALLOW_CLIENT;
-const CancelCityReputationRequestReq_CmdId CancelCityReputationRequestReq::CmdId_MIN;
-const CancelCityReputationRequestReq_CmdId CancelCityReputationRequestReq::CmdId_MAX;
-const int CancelCityReputationRequestReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* CancelCityReputationRequestRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_enum_descriptors[10];
-}
-bool CancelCityReputationRequestRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 2824:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const CancelCityReputationRequestRsp_CmdId CancelCityReputationRequestRsp::NONE;
-const CancelCityReputationRequestRsp_CmdId CancelCityReputationRequestRsp::CMD_ID;
-const CancelCityReputationRequestRsp_CmdId CancelCityReputationRequestRsp::ENET_CHANNEL_ID;
-const CancelCityReputationRequestRsp_CmdId CancelCityReputationRequestRsp::ENET_IS_RELIABLE;
-const CancelCityReputationRequestRsp_CmdId CancelCityReputationRequestRsp::CmdId_MIN;
-const CancelCityReputationRequestRsp_CmdId CancelCityReputationRequestRsp::CmdId_MAX;
-const int CancelCityReputationRequestRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* GetCityReputationMapInfoReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_enum_descriptors[11];
-}
-bool GetCityReputationMapInfoReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 2829:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const GetCityReputationMapInfoReq_CmdId GetCityReputationMapInfoReq::NONE;
-const GetCityReputationMapInfoReq_CmdId GetCityReputationMapInfoReq::CMD_ID;
-const GetCityReputationMapInfoReq_CmdId GetCityReputationMapInfoReq::ENET_CHANNEL_ID;
-const GetCityReputationMapInfoReq_CmdId GetCityReputationMapInfoReq::ENET_IS_RELIABLE;
-const GetCityReputationMapInfoReq_CmdId GetCityReputationMapInfoReq::IS_ALLOW_CLIENT;
-const GetCityReputationMapInfoReq_CmdId GetCityReputationMapInfoReq::CmdId_MIN;
-const GetCityReputationMapInfoReq_CmdId GetCityReputationMapInfoReq::CmdId_MAX;
-const int GetCityReputationMapInfoReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* GetCityReputationMapInfoRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_enum_descriptors[12];
-}
-bool GetCityReputationMapInfoRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 2878:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const GetCityReputationMapInfoRsp_CmdId GetCityReputationMapInfoRsp::NONE;
-const GetCityReputationMapInfoRsp_CmdId GetCityReputationMapInfoRsp::CMD_ID;
-const GetCityReputationMapInfoRsp_CmdId GetCityReputationMapInfoRsp::ENET_CHANNEL_ID;
-const GetCityReputationMapInfoRsp_CmdId GetCityReputationMapInfoRsp::ENET_IS_RELIABLE;
-const GetCityReputationMapInfoRsp_CmdId GetCityReputationMapInfoRsp::CmdId_MIN;
-const GetCityReputationMapInfoRsp_CmdId GetCityReputationMapInfoRsp::CmdId_MAX;
-const int GetCityReputationMapInfoRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* TakeCityReputationExploreRewardReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_enum_descriptors[13];
-}
-bool TakeCityReputationExploreRewardReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 2816:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const TakeCityReputationExploreRewardReq_CmdId TakeCityReputationExploreRewardReq::NONE;
-const TakeCityReputationExploreRewardReq_CmdId TakeCityReputationExploreRewardReq::CMD_ID;
-const TakeCityReputationExploreRewardReq_CmdId TakeCityReputationExploreRewardReq::ENET_CHANNEL_ID;
-const TakeCityReputationExploreRewardReq_CmdId TakeCityReputationExploreRewardReq::ENET_IS_RELIABLE;
-const TakeCityReputationExploreRewardReq_CmdId TakeCityReputationExploreRewardReq::IS_ALLOW_CLIENT;
-const TakeCityReputationExploreRewardReq_CmdId TakeCityReputationExploreRewardReq::CmdId_MIN;
-const TakeCityReputationExploreRewardReq_CmdId TakeCityReputationExploreRewardReq::CmdId_MAX;
-const int TakeCityReputationExploreRewardReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* TakeCityReputationExploreRewardRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_enum_descriptors[14];
-}
-bool TakeCityReputationExploreRewardRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 2813:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const TakeCityReputationExploreRewardRsp_CmdId TakeCityReputationExploreRewardRsp::NONE;
-const TakeCityReputationExploreRewardRsp_CmdId TakeCityReputationExploreRewardRsp::CMD_ID;
-const TakeCityReputationExploreRewardRsp_CmdId TakeCityReputationExploreRewardRsp::ENET_CHANNEL_ID;
-const TakeCityReputationExploreRewardRsp_CmdId TakeCityReputationExploreRewardRsp::ENET_IS_RELIABLE;
-const TakeCityReputationExploreRewardRsp_CmdId TakeCityReputationExploreRewardRsp::CmdId_MIN;
-const TakeCityReputationExploreRewardRsp_CmdId TakeCityReputationExploreRewardRsp::CmdId_MAX;
-const int TakeCityReputationExploreRewardRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* CityReputationDataNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_enum_descriptors[15];
-}
-bool CityReputationDataNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 2869:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const CityReputationDataNotify_CmdId CityReputationDataNotify::NONE;
-const CityReputationDataNotify_CmdId CityReputationDataNotify::CMD_ID;
-const CityReputationDataNotify_CmdId CityReputationDataNotify::ENET_CHANNEL_ID;
-const CityReputationDataNotify_CmdId CityReputationDataNotify::ENET_IS_RELIABLE;
-const CityReputationDataNotify_CmdId CityReputationDataNotify::CmdId_MIN;
-const CityReputationDataNotify_CmdId CityReputationDataNotify::CmdId_MAX;
-const int CityReputationDataNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int CityReputationQuestInfo::kIsOpenFieldNumber;
-const int CityReputationQuestInfo::kTakenParentQuestRewardListFieldNumber;
-const int CityReputationQuestInfo::kFinishedParentQuestListFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-CityReputationQuestInfo::CityReputationQuestInfo()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.CityReputationQuestInfo)
-}
-CityReputationQuestInfo::CityReputationQuestInfo(const CityReputationQuestInfo& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      taken_parent_quest_reward_list_(from.taken_parent_quest_reward_list_),
-      finished_parent_quest_list_(from.finished_parent_quest_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  is_open_ = from.is_open_;
-  // @@protoc_insertion_point(copy_constructor:proto.CityReputationQuestInfo)
-}
-
-void CityReputationQuestInfo::SharedCtor() {
-  is_open_ = false;
-  _cached_size_ = 0;
-}
-
-CityReputationQuestInfo::~CityReputationQuestInfo() {
-  // @@protoc_insertion_point(destructor:proto.CityReputationQuestInfo)
-  SharedDtor();
-}
-
-void CityReputationQuestInfo::SharedDtor() {
-}
-
-void CityReputationQuestInfo::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* CityReputationQuestInfo::descriptor() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const CityReputationQuestInfo& CityReputationQuestInfo::default_instance() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-CityReputationQuestInfo* CityReputationQuestInfo::New(::google::protobuf::Arena* arena) const {
-  CityReputationQuestInfo* n = new CityReputationQuestInfo;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void CityReputationQuestInfo::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.CityReputationQuestInfo)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  taken_parent_quest_reward_list_.Clear();
-  finished_parent_quest_list_.Clear();
-  is_open_ = false;
-  _internal_metadata_.Clear();
-}
-
 bool CityReputationQuestInfo::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -1163,16 +202,18 @@ bool CityReputationQuestInfo::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.CityReputationQuestInfo)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.CityReputationQuestInfo)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -1210,9 +251,9 @@ void CityReputationQuestInfo::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteBool(14, this->is_open(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.CityReputationQuestInfo)
 }
@@ -1255,9 +296,9 @@ void CityReputationQuestInfo::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteBoolToArray(14, this->is_open(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.CityReputationQuestInfo)
   return target;
@@ -1267,10 +308,10 @@ size_t CityReputationQuestInfo::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.CityReputationQuestInfo)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated uint32 taken_parent_quest_reward_list = 4;
   {
@@ -1314,227 +355,6 @@ size_t CityReputationQuestInfo::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void CityReputationQuestInfo::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.CityReputationQuestInfo)
-  GOOGLE_DCHECK_NE(&from, this);
-  const CityReputationQuestInfo* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const CityReputationQuestInfo>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.CityReputationQuestInfo)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.CityReputationQuestInfo)
-    MergeFrom(*source);
-  }
-}
-
-void CityReputationQuestInfo::MergeFrom(const CityReputationQuestInfo& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.CityReputationQuestInfo)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  taken_parent_quest_reward_list_.MergeFrom(from.taken_parent_quest_reward_list_);
-  finished_parent_quest_list_.MergeFrom(from.finished_parent_quest_list_);
-  if (from.is_open() != 0) {
-    set_is_open(from.is_open());
-  }
-}
-
-void CityReputationQuestInfo::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.CityReputationQuestInfo)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void CityReputationQuestInfo::CopyFrom(const CityReputationQuestInfo& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.CityReputationQuestInfo)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool CityReputationQuestInfo::IsInitialized() const {
-  return true;
-}
-
-void CityReputationQuestInfo::Swap(CityReputationQuestInfo* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void CityReputationQuestInfo::InternalSwap(CityReputationQuestInfo* other) {
-  using std::swap;
-  taken_parent_quest_reward_list_.InternalSwap(&other->taken_parent_quest_reward_list_);
-  finished_parent_quest_list_.InternalSwap(&other->finished_parent_quest_list_);
-  swap(is_open_, other->is_open_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata CityReputationQuestInfo::GetMetadata() const {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// CityReputationQuestInfo
-
-// bool is_open = 14;
-void CityReputationQuestInfo::clear_is_open() {
-  is_open_ = false;
-}
-bool CityReputationQuestInfo::is_open() const {
-  // @@protoc_insertion_point(field_get:proto.CityReputationQuestInfo.is_open)
-  return is_open_;
-}
-void CityReputationQuestInfo::set_is_open(bool value) {
-  
-  is_open_ = value;
-  // @@protoc_insertion_point(field_set:proto.CityReputationQuestInfo.is_open)
-}
-
-// repeated uint32 taken_parent_quest_reward_list = 4;
-int CityReputationQuestInfo::taken_parent_quest_reward_list_size() const {
-  return taken_parent_quest_reward_list_.size();
-}
-void CityReputationQuestInfo::clear_taken_parent_quest_reward_list() {
-  taken_parent_quest_reward_list_.Clear();
-}
-::google::protobuf::uint32 CityReputationQuestInfo::taken_parent_quest_reward_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.CityReputationQuestInfo.taken_parent_quest_reward_list)
-  return taken_parent_quest_reward_list_.Get(index);
-}
-void CityReputationQuestInfo::set_taken_parent_quest_reward_list(int index, ::google::protobuf::uint32 value) {
-  taken_parent_quest_reward_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.CityReputationQuestInfo.taken_parent_quest_reward_list)
-}
-void CityReputationQuestInfo::add_taken_parent_quest_reward_list(::google::protobuf::uint32 value) {
-  taken_parent_quest_reward_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.CityReputationQuestInfo.taken_parent_quest_reward_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint32 >&
-CityReputationQuestInfo::taken_parent_quest_reward_list() const {
-  // @@protoc_insertion_point(field_list:proto.CityReputationQuestInfo.taken_parent_quest_reward_list)
-  return taken_parent_quest_reward_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint32 >*
-CityReputationQuestInfo::mutable_taken_parent_quest_reward_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.CityReputationQuestInfo.taken_parent_quest_reward_list)
-  return &taken_parent_quest_reward_list_;
-}
-
-// repeated uint32 finished_parent_quest_list = 10;
-int CityReputationQuestInfo::finished_parent_quest_list_size() const {
-  return finished_parent_quest_list_.size();
-}
-void CityReputationQuestInfo::clear_finished_parent_quest_list() {
-  finished_parent_quest_list_.Clear();
-}
-::google::protobuf::uint32 CityReputationQuestInfo::finished_parent_quest_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.CityReputationQuestInfo.finished_parent_quest_list)
-  return finished_parent_quest_list_.Get(index);
-}
-void CityReputationQuestInfo::set_finished_parent_quest_list(int index, ::google::protobuf::uint32 value) {
-  finished_parent_quest_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.CityReputationQuestInfo.finished_parent_quest_list)
-}
-void CityReputationQuestInfo::add_finished_parent_quest_list(::google::protobuf::uint32 value) {
-  finished_parent_quest_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.CityReputationQuestInfo.finished_parent_quest_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint32 >&
-CityReputationQuestInfo::finished_parent_quest_list() const {
-  // @@protoc_insertion_point(field_list:proto.CityReputationQuestInfo.finished_parent_quest_list)
-  return finished_parent_quest_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint32 >*
-CityReputationQuestInfo::mutable_finished_parent_quest_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.CityReputationQuestInfo.finished_parent_quest_list)
-  return &finished_parent_quest_list_;
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int CityReputationRequestInfo_RequestInfo::kRequestIdFieldNumber;
-const int CityReputationRequestInfo_RequestInfo::kQuestIdFieldNumber;
-const int CityReputationRequestInfo_RequestInfo::kIsTakenRewardFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-CityReputationRequestInfo_RequestInfo::CityReputationRequestInfo_RequestInfo()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.CityReputationRequestInfo.RequestInfo)
-}
-CityReputationRequestInfo_RequestInfo::CityReputationRequestInfo_RequestInfo(const CityReputationRequestInfo_RequestInfo& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&quest_id_, &from.quest_id_,
-    static_cast<size_t>(reinterpret_cast<char*>(&is_taken_reward_) -
-    reinterpret_cast<char*>(&quest_id_)) + sizeof(is_taken_reward_));
-  // @@protoc_insertion_point(copy_constructor:proto.CityReputationRequestInfo.RequestInfo)
-}
-
-void CityReputationRequestInfo_RequestInfo::SharedCtor() {
-  ::memset(&quest_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&is_taken_reward_) -
-      reinterpret_cast<char*>(&quest_id_)) + sizeof(is_taken_reward_));
-  _cached_size_ = 0;
-}
-
-CityReputationRequestInfo_RequestInfo::~CityReputationRequestInfo_RequestInfo() {
-  // @@protoc_insertion_point(destructor:proto.CityReputationRequestInfo.RequestInfo)
-  SharedDtor();
-}
-
-void CityReputationRequestInfo_RequestInfo::SharedDtor() {
-}
-
-void CityReputationRequestInfo_RequestInfo::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* CityReputationRequestInfo_RequestInfo::descriptor() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const CityReputationRequestInfo_RequestInfo& CityReputationRequestInfo_RequestInfo::default_instance() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-CityReputationRequestInfo_RequestInfo* CityReputationRequestInfo_RequestInfo::New(::google::protobuf::Arena* arena) const {
-  CityReputationRequestInfo_RequestInfo* n = new CityReputationRequestInfo_RequestInfo;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void CityReputationRequestInfo_RequestInfo::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.CityReputationRequestInfo.RequestInfo)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&quest_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&is_taken_reward_) -
-      reinterpret_cast<char*>(&quest_id_)) + sizeof(is_taken_reward_));
-  _internal_metadata_.Clear();
 }
 
 bool CityReputationRequestInfo_RequestInfo::MergePartialFromCodedStream(
@@ -1595,16 +415,18 @@ bool CityReputationRequestInfo_RequestInfo::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.CityReputationRequestInfo.RequestInfo)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.CityReputationRequestInfo.RequestInfo)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -1630,9 +452,9 @@ void CityReputationRequestInfo_RequestInfo::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(14, this->quest_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.CityReputationRequestInfo.RequestInfo)
 }
@@ -1659,9 +481,9 @@ void CityReputationRequestInfo_RequestInfo::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(14, this->quest_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.CityReputationRequestInfo.RequestInfo)
   return target;
@@ -1671,10 +493,10 @@ size_t CityReputationRequestInfo_RequestInfo::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.CityReputationRequestInfo.RequestInfo)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 quest_id = 14;
   if (this->quest_id() != 0) {
@@ -1700,194 +522,6 @@ size_t CityReputationRequestInfo_RequestInfo::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void CityReputationRequestInfo_RequestInfo::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.CityReputationRequestInfo.RequestInfo)
-  GOOGLE_DCHECK_NE(&from, this);
-  const CityReputationRequestInfo_RequestInfo* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const CityReputationRequestInfo_RequestInfo>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.CityReputationRequestInfo.RequestInfo)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.CityReputationRequestInfo.RequestInfo)
-    MergeFrom(*source);
-  }
-}
-
-void CityReputationRequestInfo_RequestInfo::MergeFrom(const CityReputationRequestInfo_RequestInfo& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.CityReputationRequestInfo.RequestInfo)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.quest_id() != 0) {
-    set_quest_id(from.quest_id());
-  }
-  if (from.request_id() != 0) {
-    set_request_id(from.request_id());
-  }
-  if (from.is_taken_reward() != 0) {
-    set_is_taken_reward(from.is_taken_reward());
-  }
-}
-
-void CityReputationRequestInfo_RequestInfo::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.CityReputationRequestInfo.RequestInfo)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void CityReputationRequestInfo_RequestInfo::CopyFrom(const CityReputationRequestInfo_RequestInfo& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.CityReputationRequestInfo.RequestInfo)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool CityReputationRequestInfo_RequestInfo::IsInitialized() const {
-  return true;
-}
-
-void CityReputationRequestInfo_RequestInfo::Swap(CityReputationRequestInfo_RequestInfo* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void CityReputationRequestInfo_RequestInfo::InternalSwap(CityReputationRequestInfo_RequestInfo* other) {
-  using std::swap;
-  swap(quest_id_, other->quest_id_);
-  swap(request_id_, other->request_id_);
-  swap(is_taken_reward_, other->is_taken_reward_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata CityReputationRequestInfo_RequestInfo::GetMetadata() const {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// CityReputationRequestInfo_RequestInfo
-
-// uint32 request_id = 11;
-void CityReputationRequestInfo_RequestInfo::clear_request_id() {
-  request_id_ = 0u;
-}
-::google::protobuf::uint32 CityReputationRequestInfo_RequestInfo::request_id() const {
-  // @@protoc_insertion_point(field_get:proto.CityReputationRequestInfo.RequestInfo.request_id)
-  return request_id_;
-}
-void CityReputationRequestInfo_RequestInfo::set_request_id(::google::protobuf::uint32 value) {
-  
-  request_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.CityReputationRequestInfo.RequestInfo.request_id)
-}
-
-// uint32 quest_id = 14;
-void CityReputationRequestInfo_RequestInfo::clear_quest_id() {
-  quest_id_ = 0u;
-}
-::google::protobuf::uint32 CityReputationRequestInfo_RequestInfo::quest_id() const {
-  // @@protoc_insertion_point(field_get:proto.CityReputationRequestInfo.RequestInfo.quest_id)
-  return quest_id_;
-}
-void CityReputationRequestInfo_RequestInfo::set_quest_id(::google::protobuf::uint32 value) {
-  
-  quest_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.CityReputationRequestInfo.RequestInfo.quest_id)
-}
-
-// bool is_taken_reward = 13;
-void CityReputationRequestInfo_RequestInfo::clear_is_taken_reward() {
-  is_taken_reward_ = false;
-}
-bool CityReputationRequestInfo_RequestInfo::is_taken_reward() const {
-  // @@protoc_insertion_point(field_get:proto.CityReputationRequestInfo.RequestInfo.is_taken_reward)
-  return is_taken_reward_;
-}
-void CityReputationRequestInfo_RequestInfo::set_is_taken_reward(bool value) {
-  
-  is_taken_reward_ = value;
-  // @@protoc_insertion_point(field_set:proto.CityReputationRequestInfo.RequestInfo.is_taken_reward)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int CityReputationRequestInfo::kIsOpenFieldNumber;
-const int CityReputationRequestInfo::kRequestInfoListFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-CityReputationRequestInfo::CityReputationRequestInfo()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.CityReputationRequestInfo)
-}
-CityReputationRequestInfo::CityReputationRequestInfo(const CityReputationRequestInfo& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      request_info_list_(from.request_info_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  is_open_ = from.is_open_;
-  // @@protoc_insertion_point(copy_constructor:proto.CityReputationRequestInfo)
-}
-
-void CityReputationRequestInfo::SharedCtor() {
-  is_open_ = false;
-  _cached_size_ = 0;
-}
-
-CityReputationRequestInfo::~CityReputationRequestInfo() {
-  // @@protoc_insertion_point(destructor:proto.CityReputationRequestInfo)
-  SharedDtor();
-}
-
-void CityReputationRequestInfo::SharedDtor() {
-}
-
-void CityReputationRequestInfo::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* CityReputationRequestInfo::descriptor() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const CityReputationRequestInfo& CityReputationRequestInfo::default_instance() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-CityReputationRequestInfo* CityReputationRequestInfo::New(::google::protobuf::Arena* arena) const {
-  CityReputationRequestInfo* n = new CityReputationRequestInfo;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void CityReputationRequestInfo::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.CityReputationRequestInfo)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  request_info_list_.Clear();
-  is_open_ = false;
-  _internal_metadata_.Clear();
 }
 
 bool CityReputationRequestInfo::MergePartialFromCodedStream(
@@ -1932,16 +566,18 @@ bool CityReputationRequestInfo::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.CityReputationRequestInfo)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.CityReputationRequestInfo)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -1964,9 +600,9 @@ void CityReputationRequestInfo::SerializeWithCachedSizes(
       2, this->request_info_list(static_cast<int>(i)), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.CityReputationRequestInfo)
 }
@@ -1991,9 +627,9 @@ void CityReputationRequestInfo::SerializeWithCachedSizes(
         2, this->request_info_list(static_cast<int>(i)), deterministic, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.CityReputationRequestInfo)
   return target;
@@ -2003,10 +639,10 @@ size_t CityReputationRequestInfo::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.CityReputationRequestInfo)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated .proto.CityReputationRequestInfo.RequestInfo request_info_list = 2;
   {
@@ -2029,197 +665,6 @@ size_t CityReputationRequestInfo::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void CityReputationRequestInfo::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.CityReputationRequestInfo)
-  GOOGLE_DCHECK_NE(&from, this);
-  const CityReputationRequestInfo* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const CityReputationRequestInfo>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.CityReputationRequestInfo)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.CityReputationRequestInfo)
-    MergeFrom(*source);
-  }
-}
-
-void CityReputationRequestInfo::MergeFrom(const CityReputationRequestInfo& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.CityReputationRequestInfo)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  request_info_list_.MergeFrom(from.request_info_list_);
-  if (from.is_open() != 0) {
-    set_is_open(from.is_open());
-  }
-}
-
-void CityReputationRequestInfo::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.CityReputationRequestInfo)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void CityReputationRequestInfo::CopyFrom(const CityReputationRequestInfo& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.CityReputationRequestInfo)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool CityReputationRequestInfo::IsInitialized() const {
-  return true;
-}
-
-void CityReputationRequestInfo::Swap(CityReputationRequestInfo* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void CityReputationRequestInfo::InternalSwap(CityReputationRequestInfo* other) {
-  using std::swap;
-  request_info_list_.InternalSwap(&other->request_info_list_);
-  swap(is_open_, other->is_open_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata CityReputationRequestInfo::GetMetadata() const {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// CityReputationRequestInfo
-
-// bool is_open = 1;
-void CityReputationRequestInfo::clear_is_open() {
-  is_open_ = false;
-}
-bool CityReputationRequestInfo::is_open() const {
-  // @@protoc_insertion_point(field_get:proto.CityReputationRequestInfo.is_open)
-  return is_open_;
-}
-void CityReputationRequestInfo::set_is_open(bool value) {
-  
-  is_open_ = value;
-  // @@protoc_insertion_point(field_set:proto.CityReputationRequestInfo.is_open)
-}
-
-// repeated .proto.CityReputationRequestInfo.RequestInfo request_info_list = 2;
-int CityReputationRequestInfo::request_info_list_size() const {
-  return request_info_list_.size();
-}
-void CityReputationRequestInfo::clear_request_info_list() {
-  request_info_list_.Clear();
-}
-const ::proto::CityReputationRequestInfo_RequestInfo& CityReputationRequestInfo::request_info_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.CityReputationRequestInfo.request_info_list)
-  return request_info_list_.Get(index);
-}
-::proto::CityReputationRequestInfo_RequestInfo* CityReputationRequestInfo::mutable_request_info_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.CityReputationRequestInfo.request_info_list)
-  return request_info_list_.Mutable(index);
-}
-::proto::CityReputationRequestInfo_RequestInfo* CityReputationRequestInfo::add_request_info_list() {
-  // @@protoc_insertion_point(field_add:proto.CityReputationRequestInfo.request_info_list)
-  return request_info_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::CityReputationRequestInfo_RequestInfo >*
-CityReputationRequestInfo::mutable_request_info_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.CityReputationRequestInfo.request_info_list)
-  return &request_info_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::CityReputationRequestInfo_RequestInfo >&
-CityReputationRequestInfo::request_info_list() const {
-  // @@protoc_insertion_point(field_list:proto.CityReputationRequestInfo.request_info_list)
-  return request_info_list_;
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int CityReputationExploreInfo::kTakenExploreRewardListFieldNumber;
-const int CityReputationExploreInfo::kExplorePercentFieldNumber;
-const int CityReputationExploreInfo::kIsOpenFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-CityReputationExploreInfo::CityReputationExploreInfo()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.CityReputationExploreInfo)
-}
-CityReputationExploreInfo::CityReputationExploreInfo(const CityReputationExploreInfo& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      taken_explore_reward_list_(from.taken_explore_reward_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&is_open_, &from.is_open_,
-    static_cast<size_t>(reinterpret_cast<char*>(&explore_percent_) -
-    reinterpret_cast<char*>(&is_open_)) + sizeof(explore_percent_));
-  // @@protoc_insertion_point(copy_constructor:proto.CityReputationExploreInfo)
-}
-
-void CityReputationExploreInfo::SharedCtor() {
-  ::memset(&is_open_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&explore_percent_) -
-      reinterpret_cast<char*>(&is_open_)) + sizeof(explore_percent_));
-  _cached_size_ = 0;
-}
-
-CityReputationExploreInfo::~CityReputationExploreInfo() {
-  // @@protoc_insertion_point(destructor:proto.CityReputationExploreInfo)
-  SharedDtor();
-}
-
-void CityReputationExploreInfo::SharedDtor() {
-}
-
-void CityReputationExploreInfo::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* CityReputationExploreInfo::descriptor() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const CityReputationExploreInfo& CityReputationExploreInfo::default_instance() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-CityReputationExploreInfo* CityReputationExploreInfo::New(::google::protobuf::Arena* arena) const {
-  CityReputationExploreInfo* n = new CityReputationExploreInfo;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void CityReputationExploreInfo::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.CityReputationExploreInfo)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  taken_explore_reward_list_.Clear();
-  ::memset(&is_open_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&explore_percent_) -
-      reinterpret_cast<char*>(&is_open_)) + sizeof(explore_percent_));
-  _internal_metadata_.Clear();
 }
 
 bool CityReputationExploreInfo::MergePartialFromCodedStream(
@@ -2285,16 +730,18 @@ bool CityReputationExploreInfo::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.CityReputationExploreInfo)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.CityReputationExploreInfo)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -2326,9 +773,9 @@ void CityReputationExploreInfo::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(11, this->explore_percent(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.CityReputationExploreInfo)
 }
@@ -2363,9 +810,9 @@ void CityReputationExploreInfo::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(11, this->explore_percent(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.CityReputationExploreInfo)
   return target;
@@ -2375,10 +822,10 @@ size_t CityReputationExploreInfo::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.CityReputationExploreInfo)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated uint32 taken_explore_reward_list = 9;
   {
@@ -2413,213 +860,6 @@ size_t CityReputationExploreInfo::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void CityReputationExploreInfo::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.CityReputationExploreInfo)
-  GOOGLE_DCHECK_NE(&from, this);
-  const CityReputationExploreInfo* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const CityReputationExploreInfo>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.CityReputationExploreInfo)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.CityReputationExploreInfo)
-    MergeFrom(*source);
-  }
-}
-
-void CityReputationExploreInfo::MergeFrom(const CityReputationExploreInfo& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.CityReputationExploreInfo)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  taken_explore_reward_list_.MergeFrom(from.taken_explore_reward_list_);
-  if (from.is_open() != 0) {
-    set_is_open(from.is_open());
-  }
-  if (from.explore_percent() != 0) {
-    set_explore_percent(from.explore_percent());
-  }
-}
-
-void CityReputationExploreInfo::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.CityReputationExploreInfo)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void CityReputationExploreInfo::CopyFrom(const CityReputationExploreInfo& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.CityReputationExploreInfo)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool CityReputationExploreInfo::IsInitialized() const {
-  return true;
-}
-
-void CityReputationExploreInfo::Swap(CityReputationExploreInfo* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void CityReputationExploreInfo::InternalSwap(CityReputationExploreInfo* other) {
-  using std::swap;
-  taken_explore_reward_list_.InternalSwap(&other->taken_explore_reward_list_);
-  swap(is_open_, other->is_open_);
-  swap(explore_percent_, other->explore_percent_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata CityReputationExploreInfo::GetMetadata() const {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// CityReputationExploreInfo
-
-// repeated uint32 taken_explore_reward_list = 9;
-int CityReputationExploreInfo::taken_explore_reward_list_size() const {
-  return taken_explore_reward_list_.size();
-}
-void CityReputationExploreInfo::clear_taken_explore_reward_list() {
-  taken_explore_reward_list_.Clear();
-}
-::google::protobuf::uint32 CityReputationExploreInfo::taken_explore_reward_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.CityReputationExploreInfo.taken_explore_reward_list)
-  return taken_explore_reward_list_.Get(index);
-}
-void CityReputationExploreInfo::set_taken_explore_reward_list(int index, ::google::protobuf::uint32 value) {
-  taken_explore_reward_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.CityReputationExploreInfo.taken_explore_reward_list)
-}
-void CityReputationExploreInfo::add_taken_explore_reward_list(::google::protobuf::uint32 value) {
-  taken_explore_reward_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.CityReputationExploreInfo.taken_explore_reward_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint32 >&
-CityReputationExploreInfo::taken_explore_reward_list() const {
-  // @@protoc_insertion_point(field_list:proto.CityReputationExploreInfo.taken_explore_reward_list)
-  return taken_explore_reward_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint32 >*
-CityReputationExploreInfo::mutable_taken_explore_reward_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.CityReputationExploreInfo.taken_explore_reward_list)
-  return &taken_explore_reward_list_;
-}
-
-// uint32 explore_percent = 11;
-void CityReputationExploreInfo::clear_explore_percent() {
-  explore_percent_ = 0u;
-}
-::google::protobuf::uint32 CityReputationExploreInfo::explore_percent() const {
-  // @@protoc_insertion_point(field_get:proto.CityReputationExploreInfo.explore_percent)
-  return explore_percent_;
-}
-void CityReputationExploreInfo::set_explore_percent(::google::protobuf::uint32 value) {
-  
-  explore_percent_ = value;
-  // @@protoc_insertion_point(field_set:proto.CityReputationExploreInfo.explore_percent)
-}
-
-// bool is_open = 1;
-void CityReputationExploreInfo::clear_is_open() {
-  is_open_ = false;
-}
-bool CityReputationExploreInfo::is_open() const {
-  // @@protoc_insertion_point(field_get:proto.CityReputationExploreInfo.is_open)
-  return is_open_;
-}
-void CityReputationExploreInfo::set_is_open(bool value) {
-  
-  is_open_ = value;
-  // @@protoc_insertion_point(field_set:proto.CityReputationExploreInfo.is_open)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int CityReputationHuntInfo::kIsOpenFieldNumber;
-const int CityReputationHuntInfo::kCurWeekFinishNumFieldNumber;
-const int CityReputationHuntInfo::kHasRewardFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-CityReputationHuntInfo::CityReputationHuntInfo()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.CityReputationHuntInfo)
-}
-CityReputationHuntInfo::CityReputationHuntInfo(const CityReputationHuntInfo& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&cur_week_finish_num_, &from.cur_week_finish_num_,
-    static_cast<size_t>(reinterpret_cast<char*>(&has_reward_) -
-    reinterpret_cast<char*>(&cur_week_finish_num_)) + sizeof(has_reward_));
-  // @@protoc_insertion_point(copy_constructor:proto.CityReputationHuntInfo)
-}
-
-void CityReputationHuntInfo::SharedCtor() {
-  ::memset(&cur_week_finish_num_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&has_reward_) -
-      reinterpret_cast<char*>(&cur_week_finish_num_)) + sizeof(has_reward_));
-  _cached_size_ = 0;
-}
-
-CityReputationHuntInfo::~CityReputationHuntInfo() {
-  // @@protoc_insertion_point(destructor:proto.CityReputationHuntInfo)
-  SharedDtor();
-}
-
-void CityReputationHuntInfo::SharedDtor() {
-}
-
-void CityReputationHuntInfo::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* CityReputationHuntInfo::descriptor() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const CityReputationHuntInfo& CityReputationHuntInfo::default_instance() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-CityReputationHuntInfo* CityReputationHuntInfo::New(::google::protobuf::Arena* arena) const {
-  CityReputationHuntInfo* n = new CityReputationHuntInfo;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void CityReputationHuntInfo::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.CityReputationHuntInfo)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&cur_week_finish_num_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&has_reward_) -
-      reinterpret_cast<char*>(&cur_week_finish_num_)) + sizeof(has_reward_));
-  _internal_metadata_.Clear();
 }
 
 bool CityReputationHuntInfo::MergePartialFromCodedStream(
@@ -2680,16 +920,18 @@ bool CityReputationHuntInfo::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.CityReputationHuntInfo)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.CityReputationHuntInfo)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -2715,9 +957,9 @@ void CityReputationHuntInfo::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteBool(10, this->is_open(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.CityReputationHuntInfo)
 }
@@ -2744,9 +986,9 @@ void CityReputationHuntInfo::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteBoolToArray(10, this->is_open(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.CityReputationHuntInfo)
   return target;
@@ -2756,10 +998,10 @@ size_t CityReputationHuntInfo::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.CityReputationHuntInfo)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 cur_week_finish_num = 1;
   if (this->cur_week_finish_num() != 0) {
@@ -2783,247 +1025,6 @@ size_t CityReputationHuntInfo::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void CityReputationHuntInfo::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.CityReputationHuntInfo)
-  GOOGLE_DCHECK_NE(&from, this);
-  const CityReputationHuntInfo* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const CityReputationHuntInfo>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.CityReputationHuntInfo)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.CityReputationHuntInfo)
-    MergeFrom(*source);
-  }
-}
-
-void CityReputationHuntInfo::MergeFrom(const CityReputationHuntInfo& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.CityReputationHuntInfo)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.cur_week_finish_num() != 0) {
-    set_cur_week_finish_num(from.cur_week_finish_num());
-  }
-  if (from.is_open() != 0) {
-    set_is_open(from.is_open());
-  }
-  if (from.has_reward() != 0) {
-    set_has_reward(from.has_reward());
-  }
-}
-
-void CityReputationHuntInfo::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.CityReputationHuntInfo)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void CityReputationHuntInfo::CopyFrom(const CityReputationHuntInfo& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.CityReputationHuntInfo)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool CityReputationHuntInfo::IsInitialized() const {
-  return true;
-}
-
-void CityReputationHuntInfo::Swap(CityReputationHuntInfo* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void CityReputationHuntInfo::InternalSwap(CityReputationHuntInfo* other) {
-  using std::swap;
-  swap(cur_week_finish_num_, other->cur_week_finish_num_);
-  swap(is_open_, other->is_open_);
-  swap(has_reward_, other->has_reward_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata CityReputationHuntInfo::GetMetadata() const {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// CityReputationHuntInfo
-
-// bool is_open = 10;
-void CityReputationHuntInfo::clear_is_open() {
-  is_open_ = false;
-}
-bool CityReputationHuntInfo::is_open() const {
-  // @@protoc_insertion_point(field_get:proto.CityReputationHuntInfo.is_open)
-  return is_open_;
-}
-void CityReputationHuntInfo::set_is_open(bool value) {
-  
-  is_open_ = value;
-  // @@protoc_insertion_point(field_set:proto.CityReputationHuntInfo.is_open)
-}
-
-// uint32 cur_week_finish_num = 1;
-void CityReputationHuntInfo::clear_cur_week_finish_num() {
-  cur_week_finish_num_ = 0u;
-}
-::google::protobuf::uint32 CityReputationHuntInfo::cur_week_finish_num() const {
-  // @@protoc_insertion_point(field_get:proto.CityReputationHuntInfo.cur_week_finish_num)
-  return cur_week_finish_num_;
-}
-void CityReputationHuntInfo::set_cur_week_finish_num(::google::protobuf::uint32 value) {
-  
-  cur_week_finish_num_ = value;
-  // @@protoc_insertion_point(field_set:proto.CityReputationHuntInfo.cur_week_finish_num)
-}
-
-// bool has_reward = 4;
-void CityReputationHuntInfo::clear_has_reward() {
-  has_reward_ = false;
-}
-bool CityReputationHuntInfo::has_reward() const {
-  // @@protoc_insertion_point(field_get:proto.CityReputationHuntInfo.has_reward)
-  return has_reward_;
-}
-void CityReputationHuntInfo::set_has_reward(bool value) {
-  
-  has_reward_ = value;
-  // @@protoc_insertion_point(field_set:proto.CityReputationHuntInfo.has_reward)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int CityReputationInfo::kLevelFieldNumber;
-const int CityReputationInfo::kNextRefreshTimeFieldNumber;
-const int CityReputationInfo::kHuntInfoFieldNumber;
-const int CityReputationInfo::kTakenLevelRewardListFieldNumber;
-const int CityReputationInfo::kTotalAcceptRequestNumFieldNumber;
-const int CityReputationInfo::kRequestInfoFieldNumber;
-const int CityReputationInfo::kQuestInfoFieldNumber;
-const int CityReputationInfo::kExpFieldNumber;
-const int CityReputationInfo::kExploreInfoFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-CityReputationInfo::CityReputationInfo()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.CityReputationInfo)
-}
-CityReputationInfo::CityReputationInfo(const CityReputationInfo& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      taken_level_reward_list_(from.taken_level_reward_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  if (from.has_request_info()) {
-    request_info_ = new ::proto::CityReputationRequestInfo(*from.request_info_);
-  } else {
-    request_info_ = NULL;
-  }
-  if (from.has_explore_info()) {
-    explore_info_ = new ::proto::CityReputationExploreInfo(*from.explore_info_);
-  } else {
-    explore_info_ = NULL;
-  }
-  if (from.has_quest_info()) {
-    quest_info_ = new ::proto::CityReputationQuestInfo(*from.quest_info_);
-  } else {
-    quest_info_ = NULL;
-  }
-  if (from.has_hunt_info()) {
-    hunt_info_ = new ::proto::CityReputationHuntInfo(*from.hunt_info_);
-  } else {
-    hunt_info_ = NULL;
-  }
-  ::memcpy(&exp_, &from.exp_,
-    static_cast<size_t>(reinterpret_cast<char*>(&next_refresh_time_) -
-    reinterpret_cast<char*>(&exp_)) + sizeof(next_refresh_time_));
-  // @@protoc_insertion_point(copy_constructor:proto.CityReputationInfo)
-}
-
-void CityReputationInfo::SharedCtor() {
-  ::memset(&request_info_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&next_refresh_time_) -
-      reinterpret_cast<char*>(&request_info_)) + sizeof(next_refresh_time_));
-  _cached_size_ = 0;
-}
-
-CityReputationInfo::~CityReputationInfo() {
-  // @@protoc_insertion_point(destructor:proto.CityReputationInfo)
-  SharedDtor();
-}
-
-void CityReputationInfo::SharedDtor() {
-  if (this != internal_default_instance()) delete request_info_;
-  if (this != internal_default_instance()) delete explore_info_;
-  if (this != internal_default_instance()) delete quest_info_;
-  if (this != internal_default_instance()) delete hunt_info_;
-}
-
-void CityReputationInfo::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* CityReputationInfo::descriptor() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const CityReputationInfo& CityReputationInfo::default_instance() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-CityReputationInfo* CityReputationInfo::New(::google::protobuf::Arena* arena) const {
-  CityReputationInfo* n = new CityReputationInfo;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void CityReputationInfo::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.CityReputationInfo)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  taken_level_reward_list_.Clear();
-  if (GetArenaNoVirtual() == NULL && request_info_ != NULL) {
-    delete request_info_;
-  }
-  request_info_ = NULL;
-  if (GetArenaNoVirtual() == NULL && explore_info_ != NULL) {
-    delete explore_info_;
-  }
-  explore_info_ = NULL;
-  if (GetArenaNoVirtual() == NULL && quest_info_ != NULL) {
-    delete quest_info_;
-  }
-  quest_info_ = NULL;
-  if (GetArenaNoVirtual() == NULL && hunt_info_ != NULL) {
-    delete hunt_info_;
-  }
-  hunt_info_ = NULL;
-  ::memset(&exp_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&next_refresh_time_) -
-      reinterpret_cast<char*>(&exp_)) + sizeof(next_refresh_time_));
-  _internal_metadata_.Clear();
 }
 
 bool CityReputationInfo::MergePartialFromCodedStream(
@@ -3165,16 +1166,18 @@ bool CityReputationInfo::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.CityReputationInfo)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.CityReputationInfo)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -3240,9 +1243,9 @@ void CityReputationInfo::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(14, this->next_refresh_time(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.CityReputationInfo)
 }
@@ -3315,9 +1318,9 @@ void CityReputationInfo::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(14, this->next_refresh_time(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.CityReputationInfo)
   return target;
@@ -3327,10 +1330,10 @@ size_t CityReputationInfo::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.CityReputationInfo)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated uint32 taken_level_reward_list = 4;
   {
@@ -3411,417 +1414,6 @@ size_t CityReputationInfo::ByteSizeLong() const {
   return total_size;
 }
 
-void CityReputationInfo::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.CityReputationInfo)
-  GOOGLE_DCHECK_NE(&from, this);
-  const CityReputationInfo* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const CityReputationInfo>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.CityReputationInfo)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.CityReputationInfo)
-    MergeFrom(*source);
-  }
-}
-
-void CityReputationInfo::MergeFrom(const CityReputationInfo& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.CityReputationInfo)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  taken_level_reward_list_.MergeFrom(from.taken_level_reward_list_);
-  if (from.has_request_info()) {
-    mutable_request_info()->::proto::CityReputationRequestInfo::MergeFrom(from.request_info());
-  }
-  if (from.has_explore_info()) {
-    mutable_explore_info()->::proto::CityReputationExploreInfo::MergeFrom(from.explore_info());
-  }
-  if (from.has_quest_info()) {
-    mutable_quest_info()->::proto::CityReputationQuestInfo::MergeFrom(from.quest_info());
-  }
-  if (from.has_hunt_info()) {
-    mutable_hunt_info()->::proto::CityReputationHuntInfo::MergeFrom(from.hunt_info());
-  }
-  if (from.exp() != 0) {
-    set_exp(from.exp());
-  }
-  if (from.total_accept_request_num() != 0) {
-    set_total_accept_request_num(from.total_accept_request_num());
-  }
-  if (from.level() != 0) {
-    set_level(from.level());
-  }
-  if (from.next_refresh_time() != 0) {
-    set_next_refresh_time(from.next_refresh_time());
-  }
-}
-
-void CityReputationInfo::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.CityReputationInfo)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void CityReputationInfo::CopyFrom(const CityReputationInfo& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.CityReputationInfo)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool CityReputationInfo::IsInitialized() const {
-  return true;
-}
-
-void CityReputationInfo::Swap(CityReputationInfo* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void CityReputationInfo::InternalSwap(CityReputationInfo* other) {
-  using std::swap;
-  taken_level_reward_list_.InternalSwap(&other->taken_level_reward_list_);
-  swap(request_info_, other->request_info_);
-  swap(explore_info_, other->explore_info_);
-  swap(quest_info_, other->quest_info_);
-  swap(hunt_info_, other->hunt_info_);
-  swap(exp_, other->exp_);
-  swap(total_accept_request_num_, other->total_accept_request_num_);
-  swap(level_, other->level_);
-  swap(next_refresh_time_, other->next_refresh_time_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata CityReputationInfo::GetMetadata() const {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// CityReputationInfo
-
-// uint32 level = 13;
-void CityReputationInfo::clear_level() {
-  level_ = 0u;
-}
-::google::protobuf::uint32 CityReputationInfo::level() const {
-  // @@protoc_insertion_point(field_get:proto.CityReputationInfo.level)
-  return level_;
-}
-void CityReputationInfo::set_level(::google::protobuf::uint32 value) {
-  
-  level_ = value;
-  // @@protoc_insertion_point(field_set:proto.CityReputationInfo.level)
-}
-
-// uint32 next_refresh_time = 14;
-void CityReputationInfo::clear_next_refresh_time() {
-  next_refresh_time_ = 0u;
-}
-::google::protobuf::uint32 CityReputationInfo::next_refresh_time() const {
-  // @@protoc_insertion_point(field_get:proto.CityReputationInfo.next_refresh_time)
-  return next_refresh_time_;
-}
-void CityReputationInfo::set_next_refresh_time(::google::protobuf::uint32 value) {
-  
-  next_refresh_time_ = value;
-  // @@protoc_insertion_point(field_set:proto.CityReputationInfo.next_refresh_time)
-}
-
-// .proto.CityReputationHuntInfo hunt_info = 9;
-bool CityReputationInfo::has_hunt_info() const {
-  return this != internal_default_instance() && hunt_info_ != NULL;
-}
-void CityReputationInfo::clear_hunt_info() {
-  if (GetArenaNoVirtual() == NULL && hunt_info_ != NULL) delete hunt_info_;
-  hunt_info_ = NULL;
-}
-const ::proto::CityReputationHuntInfo& CityReputationInfo::hunt_info() const {
-  const ::proto::CityReputationHuntInfo* p = hunt_info_;
-  // @@protoc_insertion_point(field_get:proto.CityReputationInfo.hunt_info)
-  return p != NULL ? *p : *reinterpret_cast<const ::proto::CityReputationHuntInfo*>(
-      &::proto::_CityReputationHuntInfo_default_instance_);
-}
-::proto::CityReputationHuntInfo* CityReputationInfo::mutable_hunt_info() {
-  
-  if (hunt_info_ == NULL) {
-    hunt_info_ = new ::proto::CityReputationHuntInfo;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.CityReputationInfo.hunt_info)
-  return hunt_info_;
-}
-::proto::CityReputationHuntInfo* CityReputationInfo::release_hunt_info() {
-  // @@protoc_insertion_point(field_release:proto.CityReputationInfo.hunt_info)
-  
-  ::proto::CityReputationHuntInfo* temp = hunt_info_;
-  hunt_info_ = NULL;
-  return temp;
-}
-void CityReputationInfo::set_allocated_hunt_info(::proto::CityReputationHuntInfo* hunt_info) {
-  delete hunt_info_;
-  hunt_info_ = hunt_info;
-  if (hunt_info) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.CityReputationInfo.hunt_info)
-}
-
-// repeated uint32 taken_level_reward_list = 4;
-int CityReputationInfo::taken_level_reward_list_size() const {
-  return taken_level_reward_list_.size();
-}
-void CityReputationInfo::clear_taken_level_reward_list() {
-  taken_level_reward_list_.Clear();
-}
-::google::protobuf::uint32 CityReputationInfo::taken_level_reward_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.CityReputationInfo.taken_level_reward_list)
-  return taken_level_reward_list_.Get(index);
-}
-void CityReputationInfo::set_taken_level_reward_list(int index, ::google::protobuf::uint32 value) {
-  taken_level_reward_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.CityReputationInfo.taken_level_reward_list)
-}
-void CityReputationInfo::add_taken_level_reward_list(::google::protobuf::uint32 value) {
-  taken_level_reward_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.CityReputationInfo.taken_level_reward_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint32 >&
-CityReputationInfo::taken_level_reward_list() const {
-  // @@protoc_insertion_point(field_list:proto.CityReputationInfo.taken_level_reward_list)
-  return taken_level_reward_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint32 >*
-CityReputationInfo::mutable_taken_level_reward_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.CityReputationInfo.taken_level_reward_list)
-  return &taken_level_reward_list_;
-}
-
-// uint32 total_accept_request_num = 11;
-void CityReputationInfo::clear_total_accept_request_num() {
-  total_accept_request_num_ = 0u;
-}
-::google::protobuf::uint32 CityReputationInfo::total_accept_request_num() const {
-  // @@protoc_insertion_point(field_get:proto.CityReputationInfo.total_accept_request_num)
-  return total_accept_request_num_;
-}
-void CityReputationInfo::set_total_accept_request_num(::google::protobuf::uint32 value) {
-  
-  total_accept_request_num_ = value;
-  // @@protoc_insertion_point(field_set:proto.CityReputationInfo.total_accept_request_num)
-}
-
-// .proto.CityReputationRequestInfo request_info = 2;
-bool CityReputationInfo::has_request_info() const {
-  return this != internal_default_instance() && request_info_ != NULL;
-}
-void CityReputationInfo::clear_request_info() {
-  if (GetArenaNoVirtual() == NULL && request_info_ != NULL) delete request_info_;
-  request_info_ = NULL;
-}
-const ::proto::CityReputationRequestInfo& CityReputationInfo::request_info() const {
-  const ::proto::CityReputationRequestInfo* p = request_info_;
-  // @@protoc_insertion_point(field_get:proto.CityReputationInfo.request_info)
-  return p != NULL ? *p : *reinterpret_cast<const ::proto::CityReputationRequestInfo*>(
-      &::proto::_CityReputationRequestInfo_default_instance_);
-}
-::proto::CityReputationRequestInfo* CityReputationInfo::mutable_request_info() {
-  
-  if (request_info_ == NULL) {
-    request_info_ = new ::proto::CityReputationRequestInfo;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.CityReputationInfo.request_info)
-  return request_info_;
-}
-::proto::CityReputationRequestInfo* CityReputationInfo::release_request_info() {
-  // @@protoc_insertion_point(field_release:proto.CityReputationInfo.request_info)
-  
-  ::proto::CityReputationRequestInfo* temp = request_info_;
-  request_info_ = NULL;
-  return temp;
-}
-void CityReputationInfo::set_allocated_request_info(::proto::CityReputationRequestInfo* request_info) {
-  delete request_info_;
-  request_info_ = request_info;
-  if (request_info) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.CityReputationInfo.request_info)
-}
-
-// .proto.CityReputationQuestInfo quest_info = 7;
-bool CityReputationInfo::has_quest_info() const {
-  return this != internal_default_instance() && quest_info_ != NULL;
-}
-void CityReputationInfo::clear_quest_info() {
-  if (GetArenaNoVirtual() == NULL && quest_info_ != NULL) delete quest_info_;
-  quest_info_ = NULL;
-}
-const ::proto::CityReputationQuestInfo& CityReputationInfo::quest_info() const {
-  const ::proto::CityReputationQuestInfo* p = quest_info_;
-  // @@protoc_insertion_point(field_get:proto.CityReputationInfo.quest_info)
-  return p != NULL ? *p : *reinterpret_cast<const ::proto::CityReputationQuestInfo*>(
-      &::proto::_CityReputationQuestInfo_default_instance_);
-}
-::proto::CityReputationQuestInfo* CityReputationInfo::mutable_quest_info() {
-  
-  if (quest_info_ == NULL) {
-    quest_info_ = new ::proto::CityReputationQuestInfo;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.CityReputationInfo.quest_info)
-  return quest_info_;
-}
-::proto::CityReputationQuestInfo* CityReputationInfo::release_quest_info() {
-  // @@protoc_insertion_point(field_release:proto.CityReputationInfo.quest_info)
-  
-  ::proto::CityReputationQuestInfo* temp = quest_info_;
-  quest_info_ = NULL;
-  return temp;
-}
-void CityReputationInfo::set_allocated_quest_info(::proto::CityReputationQuestInfo* quest_info) {
-  delete quest_info_;
-  quest_info_ = quest_info;
-  if (quest_info) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.CityReputationInfo.quest_info)
-}
-
-// uint32 exp = 8;
-void CityReputationInfo::clear_exp() {
-  exp_ = 0u;
-}
-::google::protobuf::uint32 CityReputationInfo::exp() const {
-  // @@protoc_insertion_point(field_get:proto.CityReputationInfo.exp)
-  return exp_;
-}
-void CityReputationInfo::set_exp(::google::protobuf::uint32 value) {
-  
-  exp_ = value;
-  // @@protoc_insertion_point(field_set:proto.CityReputationInfo.exp)
-}
-
-// .proto.CityReputationExploreInfo explore_info = 5;
-bool CityReputationInfo::has_explore_info() const {
-  return this != internal_default_instance() && explore_info_ != NULL;
-}
-void CityReputationInfo::clear_explore_info() {
-  if (GetArenaNoVirtual() == NULL && explore_info_ != NULL) delete explore_info_;
-  explore_info_ = NULL;
-}
-const ::proto::CityReputationExploreInfo& CityReputationInfo::explore_info() const {
-  const ::proto::CityReputationExploreInfo* p = explore_info_;
-  // @@protoc_insertion_point(field_get:proto.CityReputationInfo.explore_info)
-  return p != NULL ? *p : *reinterpret_cast<const ::proto::CityReputationExploreInfo*>(
-      &::proto::_CityReputationExploreInfo_default_instance_);
-}
-::proto::CityReputationExploreInfo* CityReputationInfo::mutable_explore_info() {
-  
-  if (explore_info_ == NULL) {
-    explore_info_ = new ::proto::CityReputationExploreInfo;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.CityReputationInfo.explore_info)
-  return explore_info_;
-}
-::proto::CityReputationExploreInfo* CityReputationInfo::release_explore_info() {
-  // @@protoc_insertion_point(field_release:proto.CityReputationInfo.explore_info)
-  
-  ::proto::CityReputationExploreInfo* temp = explore_info_;
-  explore_info_ = NULL;
-  return temp;
-}
-void CityReputationInfo::set_allocated_explore_info(::proto::CityReputationExploreInfo* explore_info) {
-  delete explore_info_;
-  explore_info_ = explore_info;
-  if (explore_info) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.CityReputationInfo.explore_info)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int GetCityReputationInfoReq::kCityIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-GetCityReputationInfoReq::GetCityReputationInfoReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.GetCityReputationInfoReq)
-}
-GetCityReputationInfoReq::GetCityReputationInfoReq(const GetCityReputationInfoReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  city_id_ = from.city_id_;
-  // @@protoc_insertion_point(copy_constructor:proto.GetCityReputationInfoReq)
-}
-
-void GetCityReputationInfoReq::SharedCtor() {
-  city_id_ = 0u;
-  _cached_size_ = 0;
-}
-
-GetCityReputationInfoReq::~GetCityReputationInfoReq() {
-  // @@protoc_insertion_point(destructor:proto.GetCityReputationInfoReq)
-  SharedDtor();
-}
-
-void GetCityReputationInfoReq::SharedDtor() {
-}
-
-void GetCityReputationInfoReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* GetCityReputationInfoReq::descriptor() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const GetCityReputationInfoReq& GetCityReputationInfoReq::default_instance() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-GetCityReputationInfoReq* GetCityReputationInfoReq::New(::google::protobuf::Arena* arena) const {
-  GetCityReputationInfoReq* n = new GetCityReputationInfoReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void GetCityReputationInfoReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.GetCityReputationInfoReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  city_id_ = 0u;
-  _internal_metadata_.Clear();
-}
-
 bool GetCityReputationInfoReq::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -3852,16 +1444,18 @@ bool GetCityReputationInfoReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.GetCityReputationInfoReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.GetCityReputationInfoReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -3877,9 +1471,9 @@ void GetCityReputationInfoReq::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(5, this->city_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.GetCityReputationInfoReq)
 }
@@ -3896,9 +1490,9 @@ void GetCityReputationInfoReq::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(5, this->city_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.GetCityReputationInfoReq)
   return target;
@@ -3908,10 +1502,10 @@ size_t GetCityReputationInfoReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.GetCityReputationInfoReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 city_id = 5;
   if (this->city_id() != 0) {
@@ -3925,173 +1519,6 @@ size_t GetCityReputationInfoReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void GetCityReputationInfoReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.GetCityReputationInfoReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const GetCityReputationInfoReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const GetCityReputationInfoReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.GetCityReputationInfoReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.GetCityReputationInfoReq)
-    MergeFrom(*source);
-  }
-}
-
-void GetCityReputationInfoReq::MergeFrom(const GetCityReputationInfoReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.GetCityReputationInfoReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.city_id() != 0) {
-    set_city_id(from.city_id());
-  }
-}
-
-void GetCityReputationInfoReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.GetCityReputationInfoReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void GetCityReputationInfoReq::CopyFrom(const GetCityReputationInfoReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.GetCityReputationInfoReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool GetCityReputationInfoReq::IsInitialized() const {
-  return true;
-}
-
-void GetCityReputationInfoReq::Swap(GetCityReputationInfoReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void GetCityReputationInfoReq::InternalSwap(GetCityReputationInfoReq* other) {
-  using std::swap;
-  swap(city_id_, other->city_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata GetCityReputationInfoReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// GetCityReputationInfoReq
-
-// uint32 city_id = 5;
-void GetCityReputationInfoReq::clear_city_id() {
-  city_id_ = 0u;
-}
-::google::protobuf::uint32 GetCityReputationInfoReq::city_id() const {
-  // @@protoc_insertion_point(field_get:proto.GetCityReputationInfoReq.city_id)
-  return city_id_;
-}
-void GetCityReputationInfoReq::set_city_id(::google::protobuf::uint32 value) {
-  
-  city_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.GetCityReputationInfoReq.city_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int GetCityReputationInfoRsp::kCityIdFieldNumber;
-const int GetCityReputationInfoRsp::kRetcodeFieldNumber;
-const int GetCityReputationInfoRsp::kCityReputationInfoFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-GetCityReputationInfoRsp::GetCityReputationInfoRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.GetCityReputationInfoRsp)
-}
-GetCityReputationInfoRsp::GetCityReputationInfoRsp(const GetCityReputationInfoRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  if (from.has_city_reputation_info()) {
-    city_reputation_info_ = new ::proto::CityReputationInfo(*from.city_reputation_info_);
-  } else {
-    city_reputation_info_ = NULL;
-  }
-  ::memcpy(&city_id_, &from.city_id_,
-    static_cast<size_t>(reinterpret_cast<char*>(&retcode_) -
-    reinterpret_cast<char*>(&city_id_)) + sizeof(retcode_));
-  // @@protoc_insertion_point(copy_constructor:proto.GetCityReputationInfoRsp)
-}
-
-void GetCityReputationInfoRsp::SharedCtor() {
-  ::memset(&city_reputation_info_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&retcode_) -
-      reinterpret_cast<char*>(&city_reputation_info_)) + sizeof(retcode_));
-  _cached_size_ = 0;
-}
-
-GetCityReputationInfoRsp::~GetCityReputationInfoRsp() {
-  // @@protoc_insertion_point(destructor:proto.GetCityReputationInfoRsp)
-  SharedDtor();
-}
-
-void GetCityReputationInfoRsp::SharedDtor() {
-  if (this != internal_default_instance()) delete city_reputation_info_;
-}
-
-void GetCityReputationInfoRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* GetCityReputationInfoRsp::descriptor() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const GetCityReputationInfoRsp& GetCityReputationInfoRsp::default_instance() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-GetCityReputationInfoRsp* GetCityReputationInfoRsp::New(::google::protobuf::Arena* arena) const {
-  GetCityReputationInfoRsp* n = new GetCityReputationInfoRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void GetCityReputationInfoRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.GetCityReputationInfoRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  if (GetArenaNoVirtual() == NULL && city_reputation_info_ != NULL) {
-    delete city_reputation_info_;
-  }
-  city_reputation_info_ = NULL;
-  ::memset(&city_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&retcode_) -
-      reinterpret_cast<char*>(&city_id_)) + sizeof(retcode_));
-  _internal_metadata_.Clear();
 }
 
 bool GetCityReputationInfoRsp::MergePartialFromCodedStream(
@@ -4150,16 +1577,18 @@ bool GetCityReputationInfoRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.GetCityReputationInfoRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.GetCityReputationInfoRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -4186,9 +1615,9 @@ void GetCityReputationInfoRsp::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteInt32(10, this->retcode(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.GetCityReputationInfoRsp)
 }
@@ -4217,9 +1646,9 @@ void GetCityReputationInfoRsp::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(10, this->retcode(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.GetCityReputationInfoRsp)
   return target;
@@ -4229,10 +1658,10 @@ size_t GetCityReputationInfoRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.GetCityReputationInfoRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // .proto.CityReputationInfo city_reputation_info = 5;
   if (this->has_city_reputation_info()) {
@@ -4260,224 +1689,6 @@ size_t GetCityReputationInfoRsp::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void GetCityReputationInfoRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.GetCityReputationInfoRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const GetCityReputationInfoRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const GetCityReputationInfoRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.GetCityReputationInfoRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.GetCityReputationInfoRsp)
-    MergeFrom(*source);
-  }
-}
-
-void GetCityReputationInfoRsp::MergeFrom(const GetCityReputationInfoRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.GetCityReputationInfoRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.has_city_reputation_info()) {
-    mutable_city_reputation_info()->::proto::CityReputationInfo::MergeFrom(from.city_reputation_info());
-  }
-  if (from.city_id() != 0) {
-    set_city_id(from.city_id());
-  }
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-}
-
-void GetCityReputationInfoRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.GetCityReputationInfoRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void GetCityReputationInfoRsp::CopyFrom(const GetCityReputationInfoRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.GetCityReputationInfoRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool GetCityReputationInfoRsp::IsInitialized() const {
-  return true;
-}
-
-void GetCityReputationInfoRsp::Swap(GetCityReputationInfoRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void GetCityReputationInfoRsp::InternalSwap(GetCityReputationInfoRsp* other) {
-  using std::swap;
-  swap(city_reputation_info_, other->city_reputation_info_);
-  swap(city_id_, other->city_id_);
-  swap(retcode_, other->retcode_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata GetCityReputationInfoRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// GetCityReputationInfoRsp
-
-// uint32 city_id = 6;
-void GetCityReputationInfoRsp::clear_city_id() {
-  city_id_ = 0u;
-}
-::google::protobuf::uint32 GetCityReputationInfoRsp::city_id() const {
-  // @@protoc_insertion_point(field_get:proto.GetCityReputationInfoRsp.city_id)
-  return city_id_;
-}
-void GetCityReputationInfoRsp::set_city_id(::google::protobuf::uint32 value) {
-  
-  city_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.GetCityReputationInfoRsp.city_id)
-}
-
-// int32 retcode = 10;
-void GetCityReputationInfoRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 GetCityReputationInfoRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.GetCityReputationInfoRsp.retcode)
-  return retcode_;
-}
-void GetCityReputationInfoRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.GetCityReputationInfoRsp.retcode)
-}
-
-// .proto.CityReputationInfo city_reputation_info = 5;
-bool GetCityReputationInfoRsp::has_city_reputation_info() const {
-  return this != internal_default_instance() && city_reputation_info_ != NULL;
-}
-void GetCityReputationInfoRsp::clear_city_reputation_info() {
-  if (GetArenaNoVirtual() == NULL && city_reputation_info_ != NULL) delete city_reputation_info_;
-  city_reputation_info_ = NULL;
-}
-const ::proto::CityReputationInfo& GetCityReputationInfoRsp::city_reputation_info() const {
-  const ::proto::CityReputationInfo* p = city_reputation_info_;
-  // @@protoc_insertion_point(field_get:proto.GetCityReputationInfoRsp.city_reputation_info)
-  return p != NULL ? *p : *reinterpret_cast<const ::proto::CityReputationInfo*>(
-      &::proto::_CityReputationInfo_default_instance_);
-}
-::proto::CityReputationInfo* GetCityReputationInfoRsp::mutable_city_reputation_info() {
-  
-  if (city_reputation_info_ == NULL) {
-    city_reputation_info_ = new ::proto::CityReputationInfo;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.GetCityReputationInfoRsp.city_reputation_info)
-  return city_reputation_info_;
-}
-::proto::CityReputationInfo* GetCityReputationInfoRsp::release_city_reputation_info() {
-  // @@protoc_insertion_point(field_release:proto.GetCityReputationInfoRsp.city_reputation_info)
-  
-  ::proto::CityReputationInfo* temp = city_reputation_info_;
-  city_reputation_info_ = NULL;
-  return temp;
-}
-void GetCityReputationInfoRsp::set_allocated_city_reputation_info(::proto::CityReputationInfo* city_reputation_info) {
-  delete city_reputation_info_;
-  city_reputation_info_ = city_reputation_info;
-  if (city_reputation_info) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.GetCityReputationInfoRsp.city_reputation_info)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int TakeCityReputationLevelRewardReq::kLevelFieldNumber;
-const int TakeCityReputationLevelRewardReq::kCityIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-TakeCityReputationLevelRewardReq::TakeCityReputationLevelRewardReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.TakeCityReputationLevelRewardReq)
-}
-TakeCityReputationLevelRewardReq::TakeCityReputationLevelRewardReq(const TakeCityReputationLevelRewardReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&level_, &from.level_,
-    static_cast<size_t>(reinterpret_cast<char*>(&city_id_) -
-    reinterpret_cast<char*>(&level_)) + sizeof(city_id_));
-  // @@protoc_insertion_point(copy_constructor:proto.TakeCityReputationLevelRewardReq)
-}
-
-void TakeCityReputationLevelRewardReq::SharedCtor() {
-  ::memset(&level_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&city_id_) -
-      reinterpret_cast<char*>(&level_)) + sizeof(city_id_));
-  _cached_size_ = 0;
-}
-
-TakeCityReputationLevelRewardReq::~TakeCityReputationLevelRewardReq() {
-  // @@protoc_insertion_point(destructor:proto.TakeCityReputationLevelRewardReq)
-  SharedDtor();
-}
-
-void TakeCityReputationLevelRewardReq::SharedDtor() {
-}
-
-void TakeCityReputationLevelRewardReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* TakeCityReputationLevelRewardReq::descriptor() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const TakeCityReputationLevelRewardReq& TakeCityReputationLevelRewardReq::default_instance() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-TakeCityReputationLevelRewardReq* TakeCityReputationLevelRewardReq::New(::google::protobuf::Arena* arena) const {
-  TakeCityReputationLevelRewardReq* n = new TakeCityReputationLevelRewardReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void TakeCityReputationLevelRewardReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.TakeCityReputationLevelRewardReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&level_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&city_id_) -
-      reinterpret_cast<char*>(&level_)) + sizeof(city_id_));
-  _internal_metadata_.Clear();
 }
 
 bool TakeCityReputationLevelRewardReq::MergePartialFromCodedStream(
@@ -4524,16 +1735,18 @@ bool TakeCityReputationLevelRewardReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.TakeCityReputationLevelRewardReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.TakeCityReputationLevelRewardReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -4554,9 +1767,9 @@ void TakeCityReputationLevelRewardReq::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(8, this->city_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.TakeCityReputationLevelRewardReq)
 }
@@ -4578,9 +1791,9 @@ void TakeCityReputationLevelRewardReq::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(8, this->city_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.TakeCityReputationLevelRewardReq)
   return target;
@@ -4590,10 +1803,10 @@ size_t TakeCityReputationLevelRewardReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.TakeCityReputationLevelRewardReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 level = 5;
   if (this->level() != 0) {
@@ -4614,184 +1827,6 @@ size_t TakeCityReputationLevelRewardReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void TakeCityReputationLevelRewardReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.TakeCityReputationLevelRewardReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const TakeCityReputationLevelRewardReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const TakeCityReputationLevelRewardReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.TakeCityReputationLevelRewardReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.TakeCityReputationLevelRewardReq)
-    MergeFrom(*source);
-  }
-}
-
-void TakeCityReputationLevelRewardReq::MergeFrom(const TakeCityReputationLevelRewardReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.TakeCityReputationLevelRewardReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.level() != 0) {
-    set_level(from.level());
-  }
-  if (from.city_id() != 0) {
-    set_city_id(from.city_id());
-  }
-}
-
-void TakeCityReputationLevelRewardReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.TakeCityReputationLevelRewardReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void TakeCityReputationLevelRewardReq::CopyFrom(const TakeCityReputationLevelRewardReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.TakeCityReputationLevelRewardReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool TakeCityReputationLevelRewardReq::IsInitialized() const {
-  return true;
-}
-
-void TakeCityReputationLevelRewardReq::Swap(TakeCityReputationLevelRewardReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void TakeCityReputationLevelRewardReq::InternalSwap(TakeCityReputationLevelRewardReq* other) {
-  using std::swap;
-  swap(level_, other->level_);
-  swap(city_id_, other->city_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata TakeCityReputationLevelRewardReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// TakeCityReputationLevelRewardReq
-
-// uint32 level = 5;
-void TakeCityReputationLevelRewardReq::clear_level() {
-  level_ = 0u;
-}
-::google::protobuf::uint32 TakeCityReputationLevelRewardReq::level() const {
-  // @@protoc_insertion_point(field_get:proto.TakeCityReputationLevelRewardReq.level)
-  return level_;
-}
-void TakeCityReputationLevelRewardReq::set_level(::google::protobuf::uint32 value) {
-  
-  level_ = value;
-  // @@protoc_insertion_point(field_set:proto.TakeCityReputationLevelRewardReq.level)
-}
-
-// uint32 city_id = 8;
-void TakeCityReputationLevelRewardReq::clear_city_id() {
-  city_id_ = 0u;
-}
-::google::protobuf::uint32 TakeCityReputationLevelRewardReq::city_id() const {
-  // @@protoc_insertion_point(field_get:proto.TakeCityReputationLevelRewardReq.city_id)
-  return city_id_;
-}
-void TakeCityReputationLevelRewardReq::set_city_id(::google::protobuf::uint32 value) {
-  
-  city_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.TakeCityReputationLevelRewardReq.city_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int TakeCityReputationLevelRewardRsp::kCityIdFieldNumber;
-const int TakeCityReputationLevelRewardRsp::kRetcodeFieldNumber;
-const int TakeCityReputationLevelRewardRsp::kItemListFieldNumber;
-const int TakeCityReputationLevelRewardRsp::kLevelFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-TakeCityReputationLevelRewardRsp::TakeCityReputationLevelRewardRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.TakeCityReputationLevelRewardRsp)
-}
-TakeCityReputationLevelRewardRsp::TakeCityReputationLevelRewardRsp(const TakeCityReputationLevelRewardRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      item_list_(from.item_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&level_, &from.level_,
-    static_cast<size_t>(reinterpret_cast<char*>(&retcode_) -
-    reinterpret_cast<char*>(&level_)) + sizeof(retcode_));
-  // @@protoc_insertion_point(copy_constructor:proto.TakeCityReputationLevelRewardRsp)
-}
-
-void TakeCityReputationLevelRewardRsp::SharedCtor() {
-  ::memset(&level_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&retcode_) -
-      reinterpret_cast<char*>(&level_)) + sizeof(retcode_));
-  _cached_size_ = 0;
-}
-
-TakeCityReputationLevelRewardRsp::~TakeCityReputationLevelRewardRsp() {
-  // @@protoc_insertion_point(destructor:proto.TakeCityReputationLevelRewardRsp)
-  SharedDtor();
-}
-
-void TakeCityReputationLevelRewardRsp::SharedDtor() {
-}
-
-void TakeCityReputationLevelRewardRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* TakeCityReputationLevelRewardRsp::descriptor() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const TakeCityReputationLevelRewardRsp& TakeCityReputationLevelRewardRsp::default_instance() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-TakeCityReputationLevelRewardRsp* TakeCityReputationLevelRewardRsp::New(::google::protobuf::Arena* arena) const {
-  TakeCityReputationLevelRewardRsp* n = new TakeCityReputationLevelRewardRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void TakeCityReputationLevelRewardRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.TakeCityReputationLevelRewardRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  item_list_.Clear();
-  ::memset(&level_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&retcode_) -
-      reinterpret_cast<char*>(&level_)) + sizeof(retcode_));
-  _internal_metadata_.Clear();
 }
 
 bool TakeCityReputationLevelRewardRsp::MergePartialFromCodedStream(
@@ -4864,16 +1899,18 @@ bool TakeCityReputationLevelRewardRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.TakeCityReputationLevelRewardRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.TakeCityReputationLevelRewardRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -4906,9 +1943,9 @@ void TakeCityReputationLevelRewardRsp::SerializeWithCachedSizes(
       12, this->item_list(static_cast<int>(i)), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.TakeCityReputationLevelRewardRsp)
 }
@@ -4943,9 +1980,9 @@ void TakeCityReputationLevelRewardRsp::SerializeWithCachedSizes(
         12, this->item_list(static_cast<int>(i)), deterministic, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.TakeCityReputationLevelRewardRsp)
   return target;
@@ -4955,10 +1992,10 @@ size_t TakeCityReputationLevelRewardRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.TakeCityReputationLevelRewardRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated .proto.ItemParam item_list = 12;
   {
@@ -4997,230 +2034,6 @@ size_t TakeCityReputationLevelRewardRsp::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void TakeCityReputationLevelRewardRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.TakeCityReputationLevelRewardRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const TakeCityReputationLevelRewardRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const TakeCityReputationLevelRewardRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.TakeCityReputationLevelRewardRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.TakeCityReputationLevelRewardRsp)
-    MergeFrom(*source);
-  }
-}
-
-void TakeCityReputationLevelRewardRsp::MergeFrom(const TakeCityReputationLevelRewardRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.TakeCityReputationLevelRewardRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  item_list_.MergeFrom(from.item_list_);
-  if (from.level() != 0) {
-    set_level(from.level());
-  }
-  if (from.city_id() != 0) {
-    set_city_id(from.city_id());
-  }
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-}
-
-void TakeCityReputationLevelRewardRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.TakeCityReputationLevelRewardRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void TakeCityReputationLevelRewardRsp::CopyFrom(const TakeCityReputationLevelRewardRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.TakeCityReputationLevelRewardRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool TakeCityReputationLevelRewardRsp::IsInitialized() const {
-  return true;
-}
-
-void TakeCityReputationLevelRewardRsp::Swap(TakeCityReputationLevelRewardRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void TakeCityReputationLevelRewardRsp::InternalSwap(TakeCityReputationLevelRewardRsp* other) {
-  using std::swap;
-  item_list_.InternalSwap(&other->item_list_);
-  swap(level_, other->level_);
-  swap(city_id_, other->city_id_);
-  swap(retcode_, other->retcode_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata TakeCityReputationLevelRewardRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// TakeCityReputationLevelRewardRsp
-
-// uint32 city_id = 8;
-void TakeCityReputationLevelRewardRsp::clear_city_id() {
-  city_id_ = 0u;
-}
-::google::protobuf::uint32 TakeCityReputationLevelRewardRsp::city_id() const {
-  // @@protoc_insertion_point(field_get:proto.TakeCityReputationLevelRewardRsp.city_id)
-  return city_id_;
-}
-void TakeCityReputationLevelRewardRsp::set_city_id(::google::protobuf::uint32 value) {
-  
-  city_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.TakeCityReputationLevelRewardRsp.city_id)
-}
-
-// int32 retcode = 10;
-void TakeCityReputationLevelRewardRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 TakeCityReputationLevelRewardRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.TakeCityReputationLevelRewardRsp.retcode)
-  return retcode_;
-}
-void TakeCityReputationLevelRewardRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.TakeCityReputationLevelRewardRsp.retcode)
-}
-
-// repeated .proto.ItemParam item_list = 12;
-int TakeCityReputationLevelRewardRsp::item_list_size() const {
-  return item_list_.size();
-}
-void TakeCityReputationLevelRewardRsp::clear_item_list() {
-  item_list_.Clear();
-}
-const ::proto::ItemParam& TakeCityReputationLevelRewardRsp::item_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.TakeCityReputationLevelRewardRsp.item_list)
-  return item_list_.Get(index);
-}
-::proto::ItemParam* TakeCityReputationLevelRewardRsp::mutable_item_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.TakeCityReputationLevelRewardRsp.item_list)
-  return item_list_.Mutable(index);
-}
-::proto::ItemParam* TakeCityReputationLevelRewardRsp::add_item_list() {
-  // @@protoc_insertion_point(field_add:proto.TakeCityReputationLevelRewardRsp.item_list)
-  return item_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::ItemParam >*
-TakeCityReputationLevelRewardRsp::mutable_item_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.TakeCityReputationLevelRewardRsp.item_list)
-  return &item_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::ItemParam >&
-TakeCityReputationLevelRewardRsp::item_list() const {
-  // @@protoc_insertion_point(field_list:proto.TakeCityReputationLevelRewardRsp.item_list)
-  return item_list_;
-}
-
-// uint32 level = 11;
-void TakeCityReputationLevelRewardRsp::clear_level() {
-  level_ = 0u;
-}
-::google::protobuf::uint32 TakeCityReputationLevelRewardRsp::level() const {
-  // @@protoc_insertion_point(field_get:proto.TakeCityReputationLevelRewardRsp.level)
-  return level_;
-}
-void TakeCityReputationLevelRewardRsp::set_level(::google::protobuf::uint32 value) {
-  
-  level_ = value;
-  // @@protoc_insertion_point(field_set:proto.TakeCityReputationLevelRewardRsp.level)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int CityReputationLevelupNotify::kCityIdFieldNumber;
-const int CityReputationLevelupNotify::kLevelFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-CityReputationLevelupNotify::CityReputationLevelupNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.CityReputationLevelupNotify)
-}
-CityReputationLevelupNotify::CityReputationLevelupNotify(const CityReputationLevelupNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&city_id_, &from.city_id_,
-    static_cast<size_t>(reinterpret_cast<char*>(&level_) -
-    reinterpret_cast<char*>(&city_id_)) + sizeof(level_));
-  // @@protoc_insertion_point(copy_constructor:proto.CityReputationLevelupNotify)
-}
-
-void CityReputationLevelupNotify::SharedCtor() {
-  ::memset(&city_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&level_) -
-      reinterpret_cast<char*>(&city_id_)) + sizeof(level_));
-  _cached_size_ = 0;
-}
-
-CityReputationLevelupNotify::~CityReputationLevelupNotify() {
-  // @@protoc_insertion_point(destructor:proto.CityReputationLevelupNotify)
-  SharedDtor();
-}
-
-void CityReputationLevelupNotify::SharedDtor() {
-}
-
-void CityReputationLevelupNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* CityReputationLevelupNotify::descriptor() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const CityReputationLevelupNotify& CityReputationLevelupNotify::default_instance() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-CityReputationLevelupNotify* CityReputationLevelupNotify::New(::google::protobuf::Arena* arena) const {
-  CityReputationLevelupNotify* n = new CityReputationLevelupNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void CityReputationLevelupNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.CityReputationLevelupNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&city_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&level_) -
-      reinterpret_cast<char*>(&city_id_)) + sizeof(level_));
-  _internal_metadata_.Clear();
 }
 
 bool CityReputationLevelupNotify::MergePartialFromCodedStream(
@@ -5267,16 +2080,18 @@ bool CityReputationLevelupNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.CityReputationLevelupNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.CityReputationLevelupNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -5297,9 +2112,9 @@ void CityReputationLevelupNotify::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(11, this->level(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.CityReputationLevelupNotify)
 }
@@ -5321,9 +2136,9 @@ void CityReputationLevelupNotify::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(11, this->level(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.CityReputationLevelupNotify)
   return target;
@@ -5333,10 +2148,10 @@ size_t CityReputationLevelupNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.CityReputationLevelupNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 city_id = 10;
   if (this->city_id() != 0) {
@@ -5357,176 +2172,6 @@ size_t CityReputationLevelupNotify::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void CityReputationLevelupNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.CityReputationLevelupNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const CityReputationLevelupNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const CityReputationLevelupNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.CityReputationLevelupNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.CityReputationLevelupNotify)
-    MergeFrom(*source);
-  }
-}
-
-void CityReputationLevelupNotify::MergeFrom(const CityReputationLevelupNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.CityReputationLevelupNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.city_id() != 0) {
-    set_city_id(from.city_id());
-  }
-  if (from.level() != 0) {
-    set_level(from.level());
-  }
-}
-
-void CityReputationLevelupNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.CityReputationLevelupNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void CityReputationLevelupNotify::CopyFrom(const CityReputationLevelupNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.CityReputationLevelupNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool CityReputationLevelupNotify::IsInitialized() const {
-  return true;
-}
-
-void CityReputationLevelupNotify::Swap(CityReputationLevelupNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void CityReputationLevelupNotify::InternalSwap(CityReputationLevelupNotify* other) {
-  using std::swap;
-  swap(city_id_, other->city_id_);
-  swap(level_, other->level_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata CityReputationLevelupNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// CityReputationLevelupNotify
-
-// uint32 city_id = 10;
-void CityReputationLevelupNotify::clear_city_id() {
-  city_id_ = 0u;
-}
-::google::protobuf::uint32 CityReputationLevelupNotify::city_id() const {
-  // @@protoc_insertion_point(field_get:proto.CityReputationLevelupNotify.city_id)
-  return city_id_;
-}
-void CityReputationLevelupNotify::set_city_id(::google::protobuf::uint32 value) {
-  
-  city_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.CityReputationLevelupNotify.city_id)
-}
-
-// uint32 level = 11;
-void CityReputationLevelupNotify::clear_level() {
-  level_ = 0u;
-}
-::google::protobuf::uint32 CityReputationLevelupNotify::level() const {
-  // @@protoc_insertion_point(field_get:proto.CityReputationLevelupNotify.level)
-  return level_;
-}
-void CityReputationLevelupNotify::set_level(::google::protobuf::uint32 value) {
-  
-  level_ = value;
-  // @@protoc_insertion_point(field_set:proto.CityReputationLevelupNotify.level)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int TakeCityReputationParentQuestReq::kCityIdFieldNumber;
-const int TakeCityReputationParentQuestReq::kParentQuestListFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-TakeCityReputationParentQuestReq::TakeCityReputationParentQuestReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.TakeCityReputationParentQuestReq)
-}
-TakeCityReputationParentQuestReq::TakeCityReputationParentQuestReq(const TakeCityReputationParentQuestReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      parent_quest_list_(from.parent_quest_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  city_id_ = from.city_id_;
-  // @@protoc_insertion_point(copy_constructor:proto.TakeCityReputationParentQuestReq)
-}
-
-void TakeCityReputationParentQuestReq::SharedCtor() {
-  city_id_ = 0u;
-  _cached_size_ = 0;
-}
-
-TakeCityReputationParentQuestReq::~TakeCityReputationParentQuestReq() {
-  // @@protoc_insertion_point(destructor:proto.TakeCityReputationParentQuestReq)
-  SharedDtor();
-}
-
-void TakeCityReputationParentQuestReq::SharedDtor() {
-}
-
-void TakeCityReputationParentQuestReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* TakeCityReputationParentQuestReq::descriptor() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const TakeCityReputationParentQuestReq& TakeCityReputationParentQuestReq::default_instance() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-TakeCityReputationParentQuestReq* TakeCityReputationParentQuestReq::New(::google::protobuf::Arena* arena) const {
-  TakeCityReputationParentQuestReq* n = new TakeCityReputationParentQuestReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void TakeCityReputationParentQuestReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.TakeCityReputationParentQuestReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  parent_quest_list_.Clear();
-  city_id_ = 0u;
-  _internal_metadata_.Clear();
 }
 
 bool TakeCityReputationParentQuestReq::MergePartialFromCodedStream(
@@ -5578,16 +2223,18 @@ bool TakeCityReputationParentQuestReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.TakeCityReputationParentQuestReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.TakeCityReputationParentQuestReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -5614,9 +2261,9 @@ void TakeCityReputationParentQuestReq::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(9, this->city_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.TakeCityReputationParentQuestReq)
 }
@@ -5646,9 +2293,9 @@ void TakeCityReputationParentQuestReq::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(9, this->city_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.TakeCityReputationParentQuestReq)
   return target;
@@ -5658,10 +2305,10 @@ size_t TakeCityReputationParentQuestReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.TakeCityReputationParentQuestReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated uint32 parent_quest_list = 1;
   {
@@ -5691,200 +2338,6 @@ size_t TakeCityReputationParentQuestReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void TakeCityReputationParentQuestReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.TakeCityReputationParentQuestReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const TakeCityReputationParentQuestReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const TakeCityReputationParentQuestReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.TakeCityReputationParentQuestReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.TakeCityReputationParentQuestReq)
-    MergeFrom(*source);
-  }
-}
-
-void TakeCityReputationParentQuestReq::MergeFrom(const TakeCityReputationParentQuestReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.TakeCityReputationParentQuestReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  parent_quest_list_.MergeFrom(from.parent_quest_list_);
-  if (from.city_id() != 0) {
-    set_city_id(from.city_id());
-  }
-}
-
-void TakeCityReputationParentQuestReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.TakeCityReputationParentQuestReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void TakeCityReputationParentQuestReq::CopyFrom(const TakeCityReputationParentQuestReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.TakeCityReputationParentQuestReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool TakeCityReputationParentQuestReq::IsInitialized() const {
-  return true;
-}
-
-void TakeCityReputationParentQuestReq::Swap(TakeCityReputationParentQuestReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void TakeCityReputationParentQuestReq::InternalSwap(TakeCityReputationParentQuestReq* other) {
-  using std::swap;
-  parent_quest_list_.InternalSwap(&other->parent_quest_list_);
-  swap(city_id_, other->city_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata TakeCityReputationParentQuestReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// TakeCityReputationParentQuestReq
-
-// uint32 city_id = 9;
-void TakeCityReputationParentQuestReq::clear_city_id() {
-  city_id_ = 0u;
-}
-::google::protobuf::uint32 TakeCityReputationParentQuestReq::city_id() const {
-  // @@protoc_insertion_point(field_get:proto.TakeCityReputationParentQuestReq.city_id)
-  return city_id_;
-}
-void TakeCityReputationParentQuestReq::set_city_id(::google::protobuf::uint32 value) {
-  
-  city_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.TakeCityReputationParentQuestReq.city_id)
-}
-
-// repeated uint32 parent_quest_list = 1;
-int TakeCityReputationParentQuestReq::parent_quest_list_size() const {
-  return parent_quest_list_.size();
-}
-void TakeCityReputationParentQuestReq::clear_parent_quest_list() {
-  parent_quest_list_.Clear();
-}
-::google::protobuf::uint32 TakeCityReputationParentQuestReq::parent_quest_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.TakeCityReputationParentQuestReq.parent_quest_list)
-  return parent_quest_list_.Get(index);
-}
-void TakeCityReputationParentQuestReq::set_parent_quest_list(int index, ::google::protobuf::uint32 value) {
-  parent_quest_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.TakeCityReputationParentQuestReq.parent_quest_list)
-}
-void TakeCityReputationParentQuestReq::add_parent_quest_list(::google::protobuf::uint32 value) {
-  parent_quest_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.TakeCityReputationParentQuestReq.parent_quest_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint32 >&
-TakeCityReputationParentQuestReq::parent_quest_list() const {
-  // @@protoc_insertion_point(field_list:proto.TakeCityReputationParentQuestReq.parent_quest_list)
-  return parent_quest_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint32 >*
-TakeCityReputationParentQuestReq::mutable_parent_quest_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.TakeCityReputationParentQuestReq.parent_quest_list)
-  return &parent_quest_list_;
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int TakeCityReputationParentQuestRsp::kRetcodeFieldNumber;
-const int TakeCityReputationParentQuestRsp::kCityIdFieldNumber;
-const int TakeCityReputationParentQuestRsp::kParentQuestListFieldNumber;
-const int TakeCityReputationParentQuestRsp::kItemListFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-TakeCityReputationParentQuestRsp::TakeCityReputationParentQuestRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.TakeCityReputationParentQuestRsp)
-}
-TakeCityReputationParentQuestRsp::TakeCityReputationParentQuestRsp(const TakeCityReputationParentQuestRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      item_list_(from.item_list_),
-      parent_quest_list_(from.parent_quest_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&retcode_, &from.retcode_,
-    static_cast<size_t>(reinterpret_cast<char*>(&city_id_) -
-    reinterpret_cast<char*>(&retcode_)) + sizeof(city_id_));
-  // @@protoc_insertion_point(copy_constructor:proto.TakeCityReputationParentQuestRsp)
-}
-
-void TakeCityReputationParentQuestRsp::SharedCtor() {
-  ::memset(&retcode_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&city_id_) -
-      reinterpret_cast<char*>(&retcode_)) + sizeof(city_id_));
-  _cached_size_ = 0;
-}
-
-TakeCityReputationParentQuestRsp::~TakeCityReputationParentQuestRsp() {
-  // @@protoc_insertion_point(destructor:proto.TakeCityReputationParentQuestRsp)
-  SharedDtor();
-}
-
-void TakeCityReputationParentQuestRsp::SharedDtor() {
-}
-
-void TakeCityReputationParentQuestRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* TakeCityReputationParentQuestRsp::descriptor() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const TakeCityReputationParentQuestRsp& TakeCityReputationParentQuestRsp::default_instance() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-TakeCityReputationParentQuestRsp* TakeCityReputationParentQuestRsp::New(::google::protobuf::Arena* arena) const {
-  TakeCityReputationParentQuestRsp* n = new TakeCityReputationParentQuestRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void TakeCityReputationParentQuestRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.TakeCityReputationParentQuestRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  item_list_.Clear();
-  parent_quest_list_.Clear();
-  ::memset(&retcode_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&city_id_) -
-      reinterpret_cast<char*>(&retcode_)) + sizeof(city_id_));
-  _internal_metadata_.Clear();
 }
 
 bool TakeCityReputationParentQuestRsp::MergePartialFromCodedStream(
@@ -5962,16 +2415,18 @@ bool TakeCityReputationParentQuestRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.TakeCityReputationParentQuestRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.TakeCityReputationParentQuestRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -6010,9 +2465,9 @@ void TakeCityReputationParentQuestRsp::SerializeWithCachedSizes(
       this->parent_quest_list(i), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.TakeCityReputationParentQuestRsp)
 }
@@ -6055,9 +2510,9 @@ void TakeCityReputationParentQuestRsp::SerializeWithCachedSizes(
       WriteUInt32NoTagToArray(this->parent_quest_list_, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.TakeCityReputationParentQuestRsp)
   return target;
@@ -6067,10 +2522,10 @@ size_t TakeCityReputationParentQuestRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.TakeCityReputationParentQuestRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated .proto.ItemParam item_list = 11;
   {
@@ -6120,244 +2575,6 @@ size_t TakeCityReputationParentQuestRsp::ByteSizeLong() const {
   return total_size;
 }
 
-void TakeCityReputationParentQuestRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.TakeCityReputationParentQuestRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const TakeCityReputationParentQuestRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const TakeCityReputationParentQuestRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.TakeCityReputationParentQuestRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.TakeCityReputationParentQuestRsp)
-    MergeFrom(*source);
-  }
-}
-
-void TakeCityReputationParentQuestRsp::MergeFrom(const TakeCityReputationParentQuestRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.TakeCityReputationParentQuestRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  item_list_.MergeFrom(from.item_list_);
-  parent_quest_list_.MergeFrom(from.parent_quest_list_);
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-  if (from.city_id() != 0) {
-    set_city_id(from.city_id());
-  }
-}
-
-void TakeCityReputationParentQuestRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.TakeCityReputationParentQuestRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void TakeCityReputationParentQuestRsp::CopyFrom(const TakeCityReputationParentQuestRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.TakeCityReputationParentQuestRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool TakeCityReputationParentQuestRsp::IsInitialized() const {
-  return true;
-}
-
-void TakeCityReputationParentQuestRsp::Swap(TakeCityReputationParentQuestRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void TakeCityReputationParentQuestRsp::InternalSwap(TakeCityReputationParentQuestRsp* other) {
-  using std::swap;
-  item_list_.InternalSwap(&other->item_list_);
-  parent_quest_list_.InternalSwap(&other->parent_quest_list_);
-  swap(retcode_, other->retcode_);
-  swap(city_id_, other->city_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata TakeCityReputationParentQuestRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// TakeCityReputationParentQuestRsp
-
-// int32 retcode = 6;
-void TakeCityReputationParentQuestRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 TakeCityReputationParentQuestRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.TakeCityReputationParentQuestRsp.retcode)
-  return retcode_;
-}
-void TakeCityReputationParentQuestRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.TakeCityReputationParentQuestRsp.retcode)
-}
-
-// uint32 city_id = 13;
-void TakeCityReputationParentQuestRsp::clear_city_id() {
-  city_id_ = 0u;
-}
-::google::protobuf::uint32 TakeCityReputationParentQuestRsp::city_id() const {
-  // @@protoc_insertion_point(field_get:proto.TakeCityReputationParentQuestRsp.city_id)
-  return city_id_;
-}
-void TakeCityReputationParentQuestRsp::set_city_id(::google::protobuf::uint32 value) {
-  
-  city_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.TakeCityReputationParentQuestRsp.city_id)
-}
-
-// repeated uint32 parent_quest_list = 14;
-int TakeCityReputationParentQuestRsp::parent_quest_list_size() const {
-  return parent_quest_list_.size();
-}
-void TakeCityReputationParentQuestRsp::clear_parent_quest_list() {
-  parent_quest_list_.Clear();
-}
-::google::protobuf::uint32 TakeCityReputationParentQuestRsp::parent_quest_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.TakeCityReputationParentQuestRsp.parent_quest_list)
-  return parent_quest_list_.Get(index);
-}
-void TakeCityReputationParentQuestRsp::set_parent_quest_list(int index, ::google::protobuf::uint32 value) {
-  parent_quest_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.TakeCityReputationParentQuestRsp.parent_quest_list)
-}
-void TakeCityReputationParentQuestRsp::add_parent_quest_list(::google::protobuf::uint32 value) {
-  parent_quest_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.TakeCityReputationParentQuestRsp.parent_quest_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint32 >&
-TakeCityReputationParentQuestRsp::parent_quest_list() const {
-  // @@protoc_insertion_point(field_list:proto.TakeCityReputationParentQuestRsp.parent_quest_list)
-  return parent_quest_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint32 >*
-TakeCityReputationParentQuestRsp::mutable_parent_quest_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.TakeCityReputationParentQuestRsp.parent_quest_list)
-  return &parent_quest_list_;
-}
-
-// repeated .proto.ItemParam item_list = 11;
-int TakeCityReputationParentQuestRsp::item_list_size() const {
-  return item_list_.size();
-}
-void TakeCityReputationParentQuestRsp::clear_item_list() {
-  item_list_.Clear();
-}
-const ::proto::ItemParam& TakeCityReputationParentQuestRsp::item_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.TakeCityReputationParentQuestRsp.item_list)
-  return item_list_.Get(index);
-}
-::proto::ItemParam* TakeCityReputationParentQuestRsp::mutable_item_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.TakeCityReputationParentQuestRsp.item_list)
-  return item_list_.Mutable(index);
-}
-::proto::ItemParam* TakeCityReputationParentQuestRsp::add_item_list() {
-  // @@protoc_insertion_point(field_add:proto.TakeCityReputationParentQuestRsp.item_list)
-  return item_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::ItemParam >*
-TakeCityReputationParentQuestRsp::mutable_item_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.TakeCityReputationParentQuestRsp.item_list)
-  return &item_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::ItemParam >&
-TakeCityReputationParentQuestRsp::item_list() const {
-  // @@protoc_insertion_point(field_list:proto.TakeCityReputationParentQuestRsp.item_list)
-  return item_list_;
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AcceptCityReputationRequestReq::kCityIdFieldNumber;
-const int AcceptCityReputationRequestReq::kRequestIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AcceptCityReputationRequestReq::AcceptCityReputationRequestReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AcceptCityReputationRequestReq)
-}
-AcceptCityReputationRequestReq::AcceptCityReputationRequestReq(const AcceptCityReputationRequestReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&city_id_, &from.city_id_,
-    static_cast<size_t>(reinterpret_cast<char*>(&request_id_) -
-    reinterpret_cast<char*>(&city_id_)) + sizeof(request_id_));
-  // @@protoc_insertion_point(copy_constructor:proto.AcceptCityReputationRequestReq)
-}
-
-void AcceptCityReputationRequestReq::SharedCtor() {
-  ::memset(&city_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&request_id_) -
-      reinterpret_cast<char*>(&city_id_)) + sizeof(request_id_));
-  _cached_size_ = 0;
-}
-
-AcceptCityReputationRequestReq::~AcceptCityReputationRequestReq() {
-  // @@protoc_insertion_point(destructor:proto.AcceptCityReputationRequestReq)
-  SharedDtor();
-}
-
-void AcceptCityReputationRequestReq::SharedDtor() {
-}
-
-void AcceptCityReputationRequestReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AcceptCityReputationRequestReq::descriptor() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AcceptCityReputationRequestReq& AcceptCityReputationRequestReq::default_instance() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AcceptCityReputationRequestReq* AcceptCityReputationRequestReq::New(::google::protobuf::Arena* arena) const {
-  AcceptCityReputationRequestReq* n = new AcceptCityReputationRequestReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AcceptCityReputationRequestReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AcceptCityReputationRequestReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&city_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&request_id_) -
-      reinterpret_cast<char*>(&city_id_)) + sizeof(request_id_));
-  _internal_metadata_.Clear();
-}
-
 bool AcceptCityReputationRequestReq::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -6402,16 +2619,18 @@ bool AcceptCityReputationRequestReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AcceptCityReputationRequestReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AcceptCityReputationRequestReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -6432,9 +2651,9 @@ void AcceptCityReputationRequestReq::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(12, this->request_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AcceptCityReputationRequestReq)
 }
@@ -6456,9 +2675,9 @@ void AcceptCityReputationRequestReq::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(12, this->request_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AcceptCityReputationRequestReq)
   return target;
@@ -6468,10 +2687,10 @@ size_t AcceptCityReputationRequestReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AcceptCityReputationRequestReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 city_id = 2;
   if (this->city_id() != 0) {
@@ -6492,181 +2711,6 @@ size_t AcceptCityReputationRequestReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AcceptCityReputationRequestReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AcceptCityReputationRequestReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AcceptCityReputationRequestReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AcceptCityReputationRequestReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AcceptCityReputationRequestReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AcceptCityReputationRequestReq)
-    MergeFrom(*source);
-  }
-}
-
-void AcceptCityReputationRequestReq::MergeFrom(const AcceptCityReputationRequestReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AcceptCityReputationRequestReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.city_id() != 0) {
-    set_city_id(from.city_id());
-  }
-  if (from.request_id() != 0) {
-    set_request_id(from.request_id());
-  }
-}
-
-void AcceptCityReputationRequestReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AcceptCityReputationRequestReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AcceptCityReputationRequestReq::CopyFrom(const AcceptCityReputationRequestReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AcceptCityReputationRequestReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AcceptCityReputationRequestReq::IsInitialized() const {
-  return true;
-}
-
-void AcceptCityReputationRequestReq::Swap(AcceptCityReputationRequestReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AcceptCityReputationRequestReq::InternalSwap(AcceptCityReputationRequestReq* other) {
-  using std::swap;
-  swap(city_id_, other->city_id_);
-  swap(request_id_, other->request_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AcceptCityReputationRequestReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AcceptCityReputationRequestReq
-
-// uint32 city_id = 2;
-void AcceptCityReputationRequestReq::clear_city_id() {
-  city_id_ = 0u;
-}
-::google::protobuf::uint32 AcceptCityReputationRequestReq::city_id() const {
-  // @@protoc_insertion_point(field_get:proto.AcceptCityReputationRequestReq.city_id)
-  return city_id_;
-}
-void AcceptCityReputationRequestReq::set_city_id(::google::protobuf::uint32 value) {
-  
-  city_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.AcceptCityReputationRequestReq.city_id)
-}
-
-// uint32 request_id = 12;
-void AcceptCityReputationRequestReq::clear_request_id() {
-  request_id_ = 0u;
-}
-::google::protobuf::uint32 AcceptCityReputationRequestReq::request_id() const {
-  // @@protoc_insertion_point(field_get:proto.AcceptCityReputationRequestReq.request_id)
-  return request_id_;
-}
-void AcceptCityReputationRequestReq::set_request_id(::google::protobuf::uint32 value) {
-  
-  request_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.AcceptCityReputationRequestReq.request_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AcceptCityReputationRequestRsp::kRequestIdFieldNumber;
-const int AcceptCityReputationRequestRsp::kCityIdFieldNumber;
-const int AcceptCityReputationRequestRsp::kRetcodeFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AcceptCityReputationRequestRsp::AcceptCityReputationRequestRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AcceptCityReputationRequestRsp)
-}
-AcceptCityReputationRequestRsp::AcceptCityReputationRequestRsp(const AcceptCityReputationRequestRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&retcode_, &from.retcode_,
-    static_cast<size_t>(reinterpret_cast<char*>(&request_id_) -
-    reinterpret_cast<char*>(&retcode_)) + sizeof(request_id_));
-  // @@protoc_insertion_point(copy_constructor:proto.AcceptCityReputationRequestRsp)
-}
-
-void AcceptCityReputationRequestRsp::SharedCtor() {
-  ::memset(&retcode_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&request_id_) -
-      reinterpret_cast<char*>(&retcode_)) + sizeof(request_id_));
-  _cached_size_ = 0;
-}
-
-AcceptCityReputationRequestRsp::~AcceptCityReputationRequestRsp() {
-  // @@protoc_insertion_point(destructor:proto.AcceptCityReputationRequestRsp)
-  SharedDtor();
-}
-
-void AcceptCityReputationRequestRsp::SharedDtor() {
-}
-
-void AcceptCityReputationRequestRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AcceptCityReputationRequestRsp::descriptor() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AcceptCityReputationRequestRsp& AcceptCityReputationRequestRsp::default_instance() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AcceptCityReputationRequestRsp* AcceptCityReputationRequestRsp::New(::google::protobuf::Arena* arena) const {
-  AcceptCityReputationRequestRsp* n = new AcceptCityReputationRequestRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AcceptCityReputationRequestRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AcceptCityReputationRequestRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&retcode_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&request_id_) -
-      reinterpret_cast<char*>(&retcode_)) + sizeof(request_id_));
-  _internal_metadata_.Clear();
 }
 
 bool AcceptCityReputationRequestRsp::MergePartialFromCodedStream(
@@ -6727,16 +2771,18 @@ bool AcceptCityReputationRequestRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AcceptCityReputationRequestRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AcceptCityReputationRequestRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -6762,9 +2808,9 @@ void AcceptCityReputationRequestRsp::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(9, this->request_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AcceptCityReputationRequestRsp)
 }
@@ -6791,9 +2837,9 @@ void AcceptCityReputationRequestRsp::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(9, this->request_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AcceptCityReputationRequestRsp)
   return target;
@@ -6803,10 +2849,10 @@ size_t AcceptCityReputationRequestRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AcceptCityReputationRequestRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // int32 retcode = 3;
   if (this->retcode() != 0) {
@@ -6834,198 +2880,6 @@ size_t AcceptCityReputationRequestRsp::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AcceptCityReputationRequestRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AcceptCityReputationRequestRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AcceptCityReputationRequestRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AcceptCityReputationRequestRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AcceptCityReputationRequestRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AcceptCityReputationRequestRsp)
-    MergeFrom(*source);
-  }
-}
-
-void AcceptCityReputationRequestRsp::MergeFrom(const AcceptCityReputationRequestRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AcceptCityReputationRequestRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-  if (from.city_id() != 0) {
-    set_city_id(from.city_id());
-  }
-  if (from.request_id() != 0) {
-    set_request_id(from.request_id());
-  }
-}
-
-void AcceptCityReputationRequestRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AcceptCityReputationRequestRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AcceptCityReputationRequestRsp::CopyFrom(const AcceptCityReputationRequestRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AcceptCityReputationRequestRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AcceptCityReputationRequestRsp::IsInitialized() const {
-  return true;
-}
-
-void AcceptCityReputationRequestRsp::Swap(AcceptCityReputationRequestRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AcceptCityReputationRequestRsp::InternalSwap(AcceptCityReputationRequestRsp* other) {
-  using std::swap;
-  swap(retcode_, other->retcode_);
-  swap(city_id_, other->city_id_);
-  swap(request_id_, other->request_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AcceptCityReputationRequestRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AcceptCityReputationRequestRsp
-
-// uint32 request_id = 9;
-void AcceptCityReputationRequestRsp::clear_request_id() {
-  request_id_ = 0u;
-}
-::google::protobuf::uint32 AcceptCityReputationRequestRsp::request_id() const {
-  // @@protoc_insertion_point(field_get:proto.AcceptCityReputationRequestRsp.request_id)
-  return request_id_;
-}
-void AcceptCityReputationRequestRsp::set_request_id(::google::protobuf::uint32 value) {
-  
-  request_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.AcceptCityReputationRequestRsp.request_id)
-}
-
-// uint32 city_id = 5;
-void AcceptCityReputationRequestRsp::clear_city_id() {
-  city_id_ = 0u;
-}
-::google::protobuf::uint32 AcceptCityReputationRequestRsp::city_id() const {
-  // @@protoc_insertion_point(field_get:proto.AcceptCityReputationRequestRsp.city_id)
-  return city_id_;
-}
-void AcceptCityReputationRequestRsp::set_city_id(::google::protobuf::uint32 value) {
-  
-  city_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.AcceptCityReputationRequestRsp.city_id)
-}
-
-// int32 retcode = 3;
-void AcceptCityReputationRequestRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 AcceptCityReputationRequestRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.AcceptCityReputationRequestRsp.retcode)
-  return retcode_;
-}
-void AcceptCityReputationRequestRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.AcceptCityReputationRequestRsp.retcode)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int CancelCityReputationRequestReq::kRequestIdFieldNumber;
-const int CancelCityReputationRequestReq::kCityIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-CancelCityReputationRequestReq::CancelCityReputationRequestReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.CancelCityReputationRequestReq)
-}
-CancelCityReputationRequestReq::CancelCityReputationRequestReq(const CancelCityReputationRequestReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&request_id_, &from.request_id_,
-    static_cast<size_t>(reinterpret_cast<char*>(&city_id_) -
-    reinterpret_cast<char*>(&request_id_)) + sizeof(city_id_));
-  // @@protoc_insertion_point(copy_constructor:proto.CancelCityReputationRequestReq)
-}
-
-void CancelCityReputationRequestReq::SharedCtor() {
-  ::memset(&request_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&city_id_) -
-      reinterpret_cast<char*>(&request_id_)) + sizeof(city_id_));
-  _cached_size_ = 0;
-}
-
-CancelCityReputationRequestReq::~CancelCityReputationRequestReq() {
-  // @@protoc_insertion_point(destructor:proto.CancelCityReputationRequestReq)
-  SharedDtor();
-}
-
-void CancelCityReputationRequestReq::SharedDtor() {
-}
-
-void CancelCityReputationRequestReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* CancelCityReputationRequestReq::descriptor() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const CancelCityReputationRequestReq& CancelCityReputationRequestReq::default_instance() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-CancelCityReputationRequestReq* CancelCityReputationRequestReq::New(::google::protobuf::Arena* arena) const {
-  CancelCityReputationRequestReq* n = new CancelCityReputationRequestReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void CancelCityReputationRequestReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.CancelCityReputationRequestReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&request_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&city_id_) -
-      reinterpret_cast<char*>(&request_id_)) + sizeof(city_id_));
-  _internal_metadata_.Clear();
 }
 
 bool CancelCityReputationRequestReq::MergePartialFromCodedStream(
@@ -7072,16 +2926,18 @@ bool CancelCityReputationRequestReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.CancelCityReputationRequestReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.CancelCityReputationRequestReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -7102,9 +2958,9 @@ void CancelCityReputationRequestReq::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(4, this->city_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.CancelCityReputationRequestReq)
 }
@@ -7126,9 +2982,9 @@ void CancelCityReputationRequestReq::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(4, this->city_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.CancelCityReputationRequestReq)
   return target;
@@ -7138,10 +2994,10 @@ size_t CancelCityReputationRequestReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.CancelCityReputationRequestReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 request_id = 3;
   if (this->request_id() != 0) {
@@ -7162,181 +3018,6 @@ size_t CancelCityReputationRequestReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void CancelCityReputationRequestReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.CancelCityReputationRequestReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const CancelCityReputationRequestReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const CancelCityReputationRequestReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.CancelCityReputationRequestReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.CancelCityReputationRequestReq)
-    MergeFrom(*source);
-  }
-}
-
-void CancelCityReputationRequestReq::MergeFrom(const CancelCityReputationRequestReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.CancelCityReputationRequestReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.request_id() != 0) {
-    set_request_id(from.request_id());
-  }
-  if (from.city_id() != 0) {
-    set_city_id(from.city_id());
-  }
-}
-
-void CancelCityReputationRequestReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.CancelCityReputationRequestReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void CancelCityReputationRequestReq::CopyFrom(const CancelCityReputationRequestReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.CancelCityReputationRequestReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool CancelCityReputationRequestReq::IsInitialized() const {
-  return true;
-}
-
-void CancelCityReputationRequestReq::Swap(CancelCityReputationRequestReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void CancelCityReputationRequestReq::InternalSwap(CancelCityReputationRequestReq* other) {
-  using std::swap;
-  swap(request_id_, other->request_id_);
-  swap(city_id_, other->city_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata CancelCityReputationRequestReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// CancelCityReputationRequestReq
-
-// uint32 request_id = 3;
-void CancelCityReputationRequestReq::clear_request_id() {
-  request_id_ = 0u;
-}
-::google::protobuf::uint32 CancelCityReputationRequestReq::request_id() const {
-  // @@protoc_insertion_point(field_get:proto.CancelCityReputationRequestReq.request_id)
-  return request_id_;
-}
-void CancelCityReputationRequestReq::set_request_id(::google::protobuf::uint32 value) {
-  
-  request_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.CancelCityReputationRequestReq.request_id)
-}
-
-// uint32 city_id = 4;
-void CancelCityReputationRequestReq::clear_city_id() {
-  city_id_ = 0u;
-}
-::google::protobuf::uint32 CancelCityReputationRequestReq::city_id() const {
-  // @@protoc_insertion_point(field_get:proto.CancelCityReputationRequestReq.city_id)
-  return city_id_;
-}
-void CancelCityReputationRequestReq::set_city_id(::google::protobuf::uint32 value) {
-  
-  city_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.CancelCityReputationRequestReq.city_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int CancelCityReputationRequestRsp::kCityIdFieldNumber;
-const int CancelCityReputationRequestRsp::kRetcodeFieldNumber;
-const int CancelCityReputationRequestRsp::kRequestIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-CancelCityReputationRequestRsp::CancelCityReputationRequestRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.CancelCityReputationRequestRsp)
-}
-CancelCityReputationRequestRsp::CancelCityReputationRequestRsp(const CancelCityReputationRequestRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&city_id_, &from.city_id_,
-    static_cast<size_t>(reinterpret_cast<char*>(&retcode_) -
-    reinterpret_cast<char*>(&city_id_)) + sizeof(retcode_));
-  // @@protoc_insertion_point(copy_constructor:proto.CancelCityReputationRequestRsp)
-}
-
-void CancelCityReputationRequestRsp::SharedCtor() {
-  ::memset(&city_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&retcode_) -
-      reinterpret_cast<char*>(&city_id_)) + sizeof(retcode_));
-  _cached_size_ = 0;
-}
-
-CancelCityReputationRequestRsp::~CancelCityReputationRequestRsp() {
-  // @@protoc_insertion_point(destructor:proto.CancelCityReputationRequestRsp)
-  SharedDtor();
-}
-
-void CancelCityReputationRequestRsp::SharedDtor() {
-}
-
-void CancelCityReputationRequestRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* CancelCityReputationRequestRsp::descriptor() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const CancelCityReputationRequestRsp& CancelCityReputationRequestRsp::default_instance() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-CancelCityReputationRequestRsp* CancelCityReputationRequestRsp::New(::google::protobuf::Arena* arena) const {
-  CancelCityReputationRequestRsp* n = new CancelCityReputationRequestRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void CancelCityReputationRequestRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.CancelCityReputationRequestRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&city_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&retcode_) -
-      reinterpret_cast<char*>(&city_id_)) + sizeof(retcode_));
-  _internal_metadata_.Clear();
 }
 
 bool CancelCityReputationRequestRsp::MergePartialFromCodedStream(
@@ -7397,16 +3078,18 @@ bool CancelCityReputationRequestRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.CancelCityReputationRequestRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.CancelCityReputationRequestRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -7432,9 +3115,9 @@ void CancelCityReputationRequestRsp::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(14, this->city_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.CancelCityReputationRequestRsp)
 }
@@ -7461,9 +3144,9 @@ void CancelCityReputationRequestRsp::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(14, this->city_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.CancelCityReputationRequestRsp)
   return target;
@@ -7473,10 +3156,10 @@ size_t CancelCityReputationRequestRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.CancelCityReputationRequestRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 city_id = 14;
   if (this->city_id() != 0) {
@@ -7506,187 +3189,6 @@ size_t CancelCityReputationRequestRsp::ByteSizeLong() const {
   return total_size;
 }
 
-void CancelCityReputationRequestRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.CancelCityReputationRequestRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const CancelCityReputationRequestRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const CancelCityReputationRequestRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.CancelCityReputationRequestRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.CancelCityReputationRequestRsp)
-    MergeFrom(*source);
-  }
-}
-
-void CancelCityReputationRequestRsp::MergeFrom(const CancelCityReputationRequestRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.CancelCityReputationRequestRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.city_id() != 0) {
-    set_city_id(from.city_id());
-  }
-  if (from.request_id() != 0) {
-    set_request_id(from.request_id());
-  }
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-}
-
-void CancelCityReputationRequestRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.CancelCityReputationRequestRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void CancelCityReputationRequestRsp::CopyFrom(const CancelCityReputationRequestRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.CancelCityReputationRequestRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool CancelCityReputationRequestRsp::IsInitialized() const {
-  return true;
-}
-
-void CancelCityReputationRequestRsp::Swap(CancelCityReputationRequestRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void CancelCityReputationRequestRsp::InternalSwap(CancelCityReputationRequestRsp* other) {
-  using std::swap;
-  swap(city_id_, other->city_id_);
-  swap(request_id_, other->request_id_);
-  swap(retcode_, other->retcode_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata CancelCityReputationRequestRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// CancelCityReputationRequestRsp
-
-// uint32 city_id = 14;
-void CancelCityReputationRequestRsp::clear_city_id() {
-  city_id_ = 0u;
-}
-::google::protobuf::uint32 CancelCityReputationRequestRsp::city_id() const {
-  // @@protoc_insertion_point(field_get:proto.CancelCityReputationRequestRsp.city_id)
-  return city_id_;
-}
-void CancelCityReputationRequestRsp::set_city_id(::google::protobuf::uint32 value) {
-  
-  city_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.CancelCityReputationRequestRsp.city_id)
-}
-
-// int32 retcode = 12;
-void CancelCityReputationRequestRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 CancelCityReputationRequestRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.CancelCityReputationRequestRsp.retcode)
-  return retcode_;
-}
-void CancelCityReputationRequestRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.CancelCityReputationRequestRsp.retcode)
-}
-
-// uint32 request_id = 9;
-void CancelCityReputationRequestRsp::clear_request_id() {
-  request_id_ = 0u;
-}
-::google::protobuf::uint32 CancelCityReputationRequestRsp::request_id() const {
-  // @@protoc_insertion_point(field_get:proto.CancelCityReputationRequestRsp.request_id)
-  return request_id_;
-}
-void CancelCityReputationRequestRsp::set_request_id(::google::protobuf::uint32 value) {
-  
-  request_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.CancelCityReputationRequestRsp.request_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-GetCityReputationMapInfoReq::GetCityReputationMapInfoReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.GetCityReputationMapInfoReq)
-}
-GetCityReputationMapInfoReq::GetCityReputationMapInfoReq(const GetCityReputationMapInfoReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  // @@protoc_insertion_point(copy_constructor:proto.GetCityReputationMapInfoReq)
-}
-
-void GetCityReputationMapInfoReq::SharedCtor() {
-  _cached_size_ = 0;
-}
-
-GetCityReputationMapInfoReq::~GetCityReputationMapInfoReq() {
-  // @@protoc_insertion_point(destructor:proto.GetCityReputationMapInfoReq)
-  SharedDtor();
-}
-
-void GetCityReputationMapInfoReq::SharedDtor() {
-}
-
-void GetCityReputationMapInfoReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* GetCityReputationMapInfoReq::descriptor() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const GetCityReputationMapInfoReq& GetCityReputationMapInfoReq::default_instance() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-GetCityReputationMapInfoReq* GetCityReputationMapInfoReq::New(::google::protobuf::Arena* arena) const {
-  GetCityReputationMapInfoReq* n = new GetCityReputationMapInfoReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void GetCityReputationMapInfoReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.GetCityReputationMapInfoReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  _internal_metadata_.Clear();
-}
-
 bool GetCityReputationMapInfoReq::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -7701,13 +3203,15 @@ bool GetCityReputationMapInfoReq::MergePartialFromCodedStream(
       goto success;
     }
     DO_(::google::protobuf::internal::WireFormat::SkipField(
-          input, tag, _internal_metadata_.mutable_unknown_fields()));
+          input, tag, nullptr));
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.GetCityReputationMapInfoReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.GetCityReputationMapInfoReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -7718,9 +3222,9 @@ void GetCityReputationMapInfoReq::SerializeWithCachedSizes(
   ::google::protobuf::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.GetCityReputationMapInfoReq)
 }
@@ -7732,9 +3236,9 @@ void GetCityReputationMapInfoReq::SerializeWithCachedSizes(
   ::google::protobuf::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.GetCityReputationMapInfoReq)
   return target;
@@ -7744,161 +3248,16 @@ size_t GetCityReputationMapInfoReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.GetCityReputationMapInfoReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
   GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void GetCityReputationMapInfoReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.GetCityReputationMapInfoReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const GetCityReputationMapInfoReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const GetCityReputationMapInfoReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.GetCityReputationMapInfoReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.GetCityReputationMapInfoReq)
-    MergeFrom(*source);
-  }
-}
-
-void GetCityReputationMapInfoReq::MergeFrom(const GetCityReputationMapInfoReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.GetCityReputationMapInfoReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-}
-
-void GetCityReputationMapInfoReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.GetCityReputationMapInfoReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void GetCityReputationMapInfoReq::CopyFrom(const GetCityReputationMapInfoReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.GetCityReputationMapInfoReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool GetCityReputationMapInfoReq::IsInitialized() const {
-  return true;
-}
-
-void GetCityReputationMapInfoReq::Swap(GetCityReputationMapInfoReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void GetCityReputationMapInfoReq::InternalSwap(GetCityReputationMapInfoReq* other) {
-  using std::swap;
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata GetCityReputationMapInfoReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// GetCityReputationMapInfoReq
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int GetCityReputationMapInfoRsp::kRetcodeFieldNumber;
-const int GetCityReputationMapInfoRsp::kIsNewHuntingFieldNumber;
-const int GetCityReputationMapInfoRsp::kIsNewRequestFieldNumber;
-const int GetCityReputationMapInfoRsp::kUnlockHuntingCityListFieldNumber;
-const int GetCityReputationMapInfoRsp::kRewardCityListFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-GetCityReputationMapInfoRsp::GetCityReputationMapInfoRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.GetCityReputationMapInfoRsp)
-}
-GetCityReputationMapInfoRsp::GetCityReputationMapInfoRsp(const GetCityReputationMapInfoRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      reward_city_list_(from.reward_city_list_),
-      unlock_hunting_city_list_(from.unlock_hunting_city_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&retcode_, &from.retcode_,
-    static_cast<size_t>(reinterpret_cast<char*>(&is_new_request_) -
-    reinterpret_cast<char*>(&retcode_)) + sizeof(is_new_request_));
-  // @@protoc_insertion_point(copy_constructor:proto.GetCityReputationMapInfoRsp)
-}
-
-void GetCityReputationMapInfoRsp::SharedCtor() {
-  ::memset(&retcode_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&is_new_request_) -
-      reinterpret_cast<char*>(&retcode_)) + sizeof(is_new_request_));
-  _cached_size_ = 0;
-}
-
-GetCityReputationMapInfoRsp::~GetCityReputationMapInfoRsp() {
-  // @@protoc_insertion_point(destructor:proto.GetCityReputationMapInfoRsp)
-  SharedDtor();
-}
-
-void GetCityReputationMapInfoRsp::SharedDtor() {
-}
-
-void GetCityReputationMapInfoRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* GetCityReputationMapInfoRsp::descriptor() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const GetCityReputationMapInfoRsp& GetCityReputationMapInfoRsp::default_instance() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-GetCityReputationMapInfoRsp* GetCityReputationMapInfoRsp::New(::google::protobuf::Arena* arena) const {
-  GetCityReputationMapInfoRsp* n = new GetCityReputationMapInfoRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void GetCityReputationMapInfoRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.GetCityReputationMapInfoRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  reward_city_list_.Clear();
-  unlock_hunting_city_list_.Clear();
-  ::memset(&retcode_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&is_new_request_) -
-      reinterpret_cast<char*>(&retcode_)) + sizeof(is_new_request_));
-  _internal_metadata_.Clear();
 }
 
 bool GetCityReputationMapInfoRsp::MergePartialFromCodedStream(
@@ -7997,16 +3356,18 @@ bool GetCityReputationMapInfoRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.GetCityReputationMapInfoRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.GetCityReputationMapInfoRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -8054,9 +3415,9 @@ void GetCityReputationMapInfoRsp::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteBool(13, this->is_new_request(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.GetCityReputationMapInfoRsp)
 }
@@ -8109,9 +3470,9 @@ void GetCityReputationMapInfoRsp::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteBoolToArray(13, this->is_new_request(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.GetCityReputationMapInfoRsp)
   return target;
@@ -8121,10 +3482,10 @@ size_t GetCityReputationMapInfoRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.GetCityReputationMapInfoRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated uint32 reward_city_list = 1;
   {
@@ -8182,258 +3543,6 @@ size_t GetCityReputationMapInfoRsp::ByteSizeLong() const {
   return total_size;
 }
 
-void GetCityReputationMapInfoRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.GetCityReputationMapInfoRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const GetCityReputationMapInfoRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const GetCityReputationMapInfoRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.GetCityReputationMapInfoRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.GetCityReputationMapInfoRsp)
-    MergeFrom(*source);
-  }
-}
-
-void GetCityReputationMapInfoRsp::MergeFrom(const GetCityReputationMapInfoRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.GetCityReputationMapInfoRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  reward_city_list_.MergeFrom(from.reward_city_list_);
-  unlock_hunting_city_list_.MergeFrom(from.unlock_hunting_city_list_);
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-  if (from.is_new_hunting() != 0) {
-    set_is_new_hunting(from.is_new_hunting());
-  }
-  if (from.is_new_request() != 0) {
-    set_is_new_request(from.is_new_request());
-  }
-}
-
-void GetCityReputationMapInfoRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.GetCityReputationMapInfoRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void GetCityReputationMapInfoRsp::CopyFrom(const GetCityReputationMapInfoRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.GetCityReputationMapInfoRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool GetCityReputationMapInfoRsp::IsInitialized() const {
-  return true;
-}
-
-void GetCityReputationMapInfoRsp::Swap(GetCityReputationMapInfoRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void GetCityReputationMapInfoRsp::InternalSwap(GetCityReputationMapInfoRsp* other) {
-  using std::swap;
-  reward_city_list_.InternalSwap(&other->reward_city_list_);
-  unlock_hunting_city_list_.InternalSwap(&other->unlock_hunting_city_list_);
-  swap(retcode_, other->retcode_);
-  swap(is_new_hunting_, other->is_new_hunting_);
-  swap(is_new_request_, other->is_new_request_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata GetCityReputationMapInfoRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// GetCityReputationMapInfoRsp
-
-// int32 retcode = 4;
-void GetCityReputationMapInfoRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 GetCityReputationMapInfoRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.GetCityReputationMapInfoRsp.retcode)
-  return retcode_;
-}
-void GetCityReputationMapInfoRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.GetCityReputationMapInfoRsp.retcode)
-}
-
-// bool is_new_hunting = 7;
-void GetCityReputationMapInfoRsp::clear_is_new_hunting() {
-  is_new_hunting_ = false;
-}
-bool GetCityReputationMapInfoRsp::is_new_hunting() const {
-  // @@protoc_insertion_point(field_get:proto.GetCityReputationMapInfoRsp.is_new_hunting)
-  return is_new_hunting_;
-}
-void GetCityReputationMapInfoRsp::set_is_new_hunting(bool value) {
-  
-  is_new_hunting_ = value;
-  // @@protoc_insertion_point(field_set:proto.GetCityReputationMapInfoRsp.is_new_hunting)
-}
-
-// bool is_new_request = 13;
-void GetCityReputationMapInfoRsp::clear_is_new_request() {
-  is_new_request_ = false;
-}
-bool GetCityReputationMapInfoRsp::is_new_request() const {
-  // @@protoc_insertion_point(field_get:proto.GetCityReputationMapInfoRsp.is_new_request)
-  return is_new_request_;
-}
-void GetCityReputationMapInfoRsp::set_is_new_request(bool value) {
-  
-  is_new_request_ = value;
-  // @@protoc_insertion_point(field_set:proto.GetCityReputationMapInfoRsp.is_new_request)
-}
-
-// repeated uint32 unlock_hunting_city_list = 12;
-int GetCityReputationMapInfoRsp::unlock_hunting_city_list_size() const {
-  return unlock_hunting_city_list_.size();
-}
-void GetCityReputationMapInfoRsp::clear_unlock_hunting_city_list() {
-  unlock_hunting_city_list_.Clear();
-}
-::google::protobuf::uint32 GetCityReputationMapInfoRsp::unlock_hunting_city_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.GetCityReputationMapInfoRsp.unlock_hunting_city_list)
-  return unlock_hunting_city_list_.Get(index);
-}
-void GetCityReputationMapInfoRsp::set_unlock_hunting_city_list(int index, ::google::protobuf::uint32 value) {
-  unlock_hunting_city_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.GetCityReputationMapInfoRsp.unlock_hunting_city_list)
-}
-void GetCityReputationMapInfoRsp::add_unlock_hunting_city_list(::google::protobuf::uint32 value) {
-  unlock_hunting_city_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.GetCityReputationMapInfoRsp.unlock_hunting_city_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint32 >&
-GetCityReputationMapInfoRsp::unlock_hunting_city_list() const {
-  // @@protoc_insertion_point(field_list:proto.GetCityReputationMapInfoRsp.unlock_hunting_city_list)
-  return unlock_hunting_city_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint32 >*
-GetCityReputationMapInfoRsp::mutable_unlock_hunting_city_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.GetCityReputationMapInfoRsp.unlock_hunting_city_list)
-  return &unlock_hunting_city_list_;
-}
-
-// repeated uint32 reward_city_list = 1;
-int GetCityReputationMapInfoRsp::reward_city_list_size() const {
-  return reward_city_list_.size();
-}
-void GetCityReputationMapInfoRsp::clear_reward_city_list() {
-  reward_city_list_.Clear();
-}
-::google::protobuf::uint32 GetCityReputationMapInfoRsp::reward_city_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.GetCityReputationMapInfoRsp.reward_city_list)
-  return reward_city_list_.Get(index);
-}
-void GetCityReputationMapInfoRsp::set_reward_city_list(int index, ::google::protobuf::uint32 value) {
-  reward_city_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.GetCityReputationMapInfoRsp.reward_city_list)
-}
-void GetCityReputationMapInfoRsp::add_reward_city_list(::google::protobuf::uint32 value) {
-  reward_city_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.GetCityReputationMapInfoRsp.reward_city_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint32 >&
-GetCityReputationMapInfoRsp::reward_city_list() const {
-  // @@protoc_insertion_point(field_list:proto.GetCityReputationMapInfoRsp.reward_city_list)
-  return reward_city_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint32 >*
-GetCityReputationMapInfoRsp::mutable_reward_city_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.GetCityReputationMapInfoRsp.reward_city_list)
-  return &reward_city_list_;
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int TakeCityReputationExploreRewardReq::kCityIdFieldNumber;
-const int TakeCityReputationExploreRewardReq::kExploreIdListFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-TakeCityReputationExploreRewardReq::TakeCityReputationExploreRewardReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.TakeCityReputationExploreRewardReq)
-}
-TakeCityReputationExploreRewardReq::TakeCityReputationExploreRewardReq(const TakeCityReputationExploreRewardReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      explore_id_list_(from.explore_id_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  city_id_ = from.city_id_;
-  // @@protoc_insertion_point(copy_constructor:proto.TakeCityReputationExploreRewardReq)
-}
-
-void TakeCityReputationExploreRewardReq::SharedCtor() {
-  city_id_ = 0u;
-  _cached_size_ = 0;
-}
-
-TakeCityReputationExploreRewardReq::~TakeCityReputationExploreRewardReq() {
-  // @@protoc_insertion_point(destructor:proto.TakeCityReputationExploreRewardReq)
-  SharedDtor();
-}
-
-void TakeCityReputationExploreRewardReq::SharedDtor() {
-}
-
-void TakeCityReputationExploreRewardReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* TakeCityReputationExploreRewardReq::descriptor() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const TakeCityReputationExploreRewardReq& TakeCityReputationExploreRewardReq::default_instance() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-TakeCityReputationExploreRewardReq* TakeCityReputationExploreRewardReq::New(::google::protobuf::Arena* arena) const {
-  TakeCityReputationExploreRewardReq* n = new TakeCityReputationExploreRewardReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void TakeCityReputationExploreRewardReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.TakeCityReputationExploreRewardReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  explore_id_list_.Clear();
-  city_id_ = 0u;
-  _internal_metadata_.Clear();
-}
-
 bool TakeCityReputationExploreRewardReq::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -8483,16 +3592,18 @@ bool TakeCityReputationExploreRewardReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.TakeCityReputationExploreRewardReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.TakeCityReputationExploreRewardReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -8519,9 +3630,9 @@ void TakeCityReputationExploreRewardReq::SerializeWithCachedSizes(
       this->explore_id_list(i), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.TakeCityReputationExploreRewardReq)
 }
@@ -8551,9 +3662,9 @@ void TakeCityReputationExploreRewardReq::SerializeWithCachedSizes(
       WriteUInt32NoTagToArray(this->explore_id_list_, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.TakeCityReputationExploreRewardReq)
   return target;
@@ -8563,10 +3674,10 @@ size_t TakeCityReputationExploreRewardReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.TakeCityReputationExploreRewardReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated uint32 explore_id_list = 14;
   {
@@ -8596,200 +3707,6 @@ size_t TakeCityReputationExploreRewardReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void TakeCityReputationExploreRewardReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.TakeCityReputationExploreRewardReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const TakeCityReputationExploreRewardReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const TakeCityReputationExploreRewardReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.TakeCityReputationExploreRewardReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.TakeCityReputationExploreRewardReq)
-    MergeFrom(*source);
-  }
-}
-
-void TakeCityReputationExploreRewardReq::MergeFrom(const TakeCityReputationExploreRewardReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.TakeCityReputationExploreRewardReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  explore_id_list_.MergeFrom(from.explore_id_list_);
-  if (from.city_id() != 0) {
-    set_city_id(from.city_id());
-  }
-}
-
-void TakeCityReputationExploreRewardReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.TakeCityReputationExploreRewardReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void TakeCityReputationExploreRewardReq::CopyFrom(const TakeCityReputationExploreRewardReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.TakeCityReputationExploreRewardReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool TakeCityReputationExploreRewardReq::IsInitialized() const {
-  return true;
-}
-
-void TakeCityReputationExploreRewardReq::Swap(TakeCityReputationExploreRewardReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void TakeCityReputationExploreRewardReq::InternalSwap(TakeCityReputationExploreRewardReq* other) {
-  using std::swap;
-  explore_id_list_.InternalSwap(&other->explore_id_list_);
-  swap(city_id_, other->city_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata TakeCityReputationExploreRewardReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// TakeCityReputationExploreRewardReq
-
-// uint32 city_id = 1;
-void TakeCityReputationExploreRewardReq::clear_city_id() {
-  city_id_ = 0u;
-}
-::google::protobuf::uint32 TakeCityReputationExploreRewardReq::city_id() const {
-  // @@protoc_insertion_point(field_get:proto.TakeCityReputationExploreRewardReq.city_id)
-  return city_id_;
-}
-void TakeCityReputationExploreRewardReq::set_city_id(::google::protobuf::uint32 value) {
-  
-  city_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.TakeCityReputationExploreRewardReq.city_id)
-}
-
-// repeated uint32 explore_id_list = 14;
-int TakeCityReputationExploreRewardReq::explore_id_list_size() const {
-  return explore_id_list_.size();
-}
-void TakeCityReputationExploreRewardReq::clear_explore_id_list() {
-  explore_id_list_.Clear();
-}
-::google::protobuf::uint32 TakeCityReputationExploreRewardReq::explore_id_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.TakeCityReputationExploreRewardReq.explore_id_list)
-  return explore_id_list_.Get(index);
-}
-void TakeCityReputationExploreRewardReq::set_explore_id_list(int index, ::google::protobuf::uint32 value) {
-  explore_id_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.TakeCityReputationExploreRewardReq.explore_id_list)
-}
-void TakeCityReputationExploreRewardReq::add_explore_id_list(::google::protobuf::uint32 value) {
-  explore_id_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.TakeCityReputationExploreRewardReq.explore_id_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint32 >&
-TakeCityReputationExploreRewardReq::explore_id_list() const {
-  // @@protoc_insertion_point(field_list:proto.TakeCityReputationExploreRewardReq.explore_id_list)
-  return explore_id_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint32 >*
-TakeCityReputationExploreRewardReq::mutable_explore_id_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.TakeCityReputationExploreRewardReq.explore_id_list)
-  return &explore_id_list_;
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int TakeCityReputationExploreRewardRsp::kExploreIdListFieldNumber;
-const int TakeCityReputationExploreRewardRsp::kItemListFieldNumber;
-const int TakeCityReputationExploreRewardRsp::kRetcodeFieldNumber;
-const int TakeCityReputationExploreRewardRsp::kCityIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-TakeCityReputationExploreRewardRsp::TakeCityReputationExploreRewardRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.TakeCityReputationExploreRewardRsp)
-}
-TakeCityReputationExploreRewardRsp::TakeCityReputationExploreRewardRsp(const TakeCityReputationExploreRewardRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      explore_id_list_(from.explore_id_list_),
-      item_list_(from.item_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&city_id_, &from.city_id_,
-    static_cast<size_t>(reinterpret_cast<char*>(&retcode_) -
-    reinterpret_cast<char*>(&city_id_)) + sizeof(retcode_));
-  // @@protoc_insertion_point(copy_constructor:proto.TakeCityReputationExploreRewardRsp)
-}
-
-void TakeCityReputationExploreRewardRsp::SharedCtor() {
-  ::memset(&city_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&retcode_) -
-      reinterpret_cast<char*>(&city_id_)) + sizeof(retcode_));
-  _cached_size_ = 0;
-}
-
-TakeCityReputationExploreRewardRsp::~TakeCityReputationExploreRewardRsp() {
-  // @@protoc_insertion_point(destructor:proto.TakeCityReputationExploreRewardRsp)
-  SharedDtor();
-}
-
-void TakeCityReputationExploreRewardRsp::SharedDtor() {
-}
-
-void TakeCityReputationExploreRewardRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* TakeCityReputationExploreRewardRsp::descriptor() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const TakeCityReputationExploreRewardRsp& TakeCityReputationExploreRewardRsp::default_instance() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-TakeCityReputationExploreRewardRsp* TakeCityReputationExploreRewardRsp::New(::google::protobuf::Arena* arena) const {
-  TakeCityReputationExploreRewardRsp* n = new TakeCityReputationExploreRewardRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void TakeCityReputationExploreRewardRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.TakeCityReputationExploreRewardRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  explore_id_list_.Clear();
-  item_list_.Clear();
-  ::memset(&city_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&retcode_) -
-      reinterpret_cast<char*>(&city_id_)) + sizeof(retcode_));
-  _internal_metadata_.Clear();
 }
 
 bool TakeCityReputationExploreRewardRsp::MergePartialFromCodedStream(
@@ -8867,16 +3784,18 @@ bool TakeCityReputationExploreRewardRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.TakeCityReputationExploreRewardRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.TakeCityReputationExploreRewardRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -8915,9 +3834,9 @@ void TakeCityReputationExploreRewardRsp::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteInt32(12, this->retcode(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.TakeCityReputationExploreRewardRsp)
 }
@@ -8960,9 +3879,9 @@ void TakeCityReputationExploreRewardRsp::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(12, this->retcode(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.TakeCityReputationExploreRewardRsp)
   return target;
@@ -8972,10 +3891,10 @@ size_t TakeCityReputationExploreRewardRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.TakeCityReputationExploreRewardRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated uint32 explore_id_list = 2;
   {
@@ -9025,244 +3944,6 @@ size_t TakeCityReputationExploreRewardRsp::ByteSizeLong() const {
   return total_size;
 }
 
-void TakeCityReputationExploreRewardRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.TakeCityReputationExploreRewardRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const TakeCityReputationExploreRewardRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const TakeCityReputationExploreRewardRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.TakeCityReputationExploreRewardRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.TakeCityReputationExploreRewardRsp)
-    MergeFrom(*source);
-  }
-}
-
-void TakeCityReputationExploreRewardRsp::MergeFrom(const TakeCityReputationExploreRewardRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.TakeCityReputationExploreRewardRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  explore_id_list_.MergeFrom(from.explore_id_list_);
-  item_list_.MergeFrom(from.item_list_);
-  if (from.city_id() != 0) {
-    set_city_id(from.city_id());
-  }
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-}
-
-void TakeCityReputationExploreRewardRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.TakeCityReputationExploreRewardRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void TakeCityReputationExploreRewardRsp::CopyFrom(const TakeCityReputationExploreRewardRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.TakeCityReputationExploreRewardRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool TakeCityReputationExploreRewardRsp::IsInitialized() const {
-  return true;
-}
-
-void TakeCityReputationExploreRewardRsp::Swap(TakeCityReputationExploreRewardRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void TakeCityReputationExploreRewardRsp::InternalSwap(TakeCityReputationExploreRewardRsp* other) {
-  using std::swap;
-  explore_id_list_.InternalSwap(&other->explore_id_list_);
-  item_list_.InternalSwap(&other->item_list_);
-  swap(city_id_, other->city_id_);
-  swap(retcode_, other->retcode_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata TakeCityReputationExploreRewardRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// TakeCityReputationExploreRewardRsp
-
-// repeated uint32 explore_id_list = 2;
-int TakeCityReputationExploreRewardRsp::explore_id_list_size() const {
-  return explore_id_list_.size();
-}
-void TakeCityReputationExploreRewardRsp::clear_explore_id_list() {
-  explore_id_list_.Clear();
-}
-::google::protobuf::uint32 TakeCityReputationExploreRewardRsp::explore_id_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.TakeCityReputationExploreRewardRsp.explore_id_list)
-  return explore_id_list_.Get(index);
-}
-void TakeCityReputationExploreRewardRsp::set_explore_id_list(int index, ::google::protobuf::uint32 value) {
-  explore_id_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.TakeCityReputationExploreRewardRsp.explore_id_list)
-}
-void TakeCityReputationExploreRewardRsp::add_explore_id_list(::google::protobuf::uint32 value) {
-  explore_id_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.TakeCityReputationExploreRewardRsp.explore_id_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint32 >&
-TakeCityReputationExploreRewardRsp::explore_id_list() const {
-  // @@protoc_insertion_point(field_list:proto.TakeCityReputationExploreRewardRsp.explore_id_list)
-  return explore_id_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint32 >*
-TakeCityReputationExploreRewardRsp::mutable_explore_id_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.TakeCityReputationExploreRewardRsp.explore_id_list)
-  return &explore_id_list_;
-}
-
-// repeated .proto.ItemParam item_list = 11;
-int TakeCityReputationExploreRewardRsp::item_list_size() const {
-  return item_list_.size();
-}
-void TakeCityReputationExploreRewardRsp::clear_item_list() {
-  item_list_.Clear();
-}
-const ::proto::ItemParam& TakeCityReputationExploreRewardRsp::item_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.TakeCityReputationExploreRewardRsp.item_list)
-  return item_list_.Get(index);
-}
-::proto::ItemParam* TakeCityReputationExploreRewardRsp::mutable_item_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.TakeCityReputationExploreRewardRsp.item_list)
-  return item_list_.Mutable(index);
-}
-::proto::ItemParam* TakeCityReputationExploreRewardRsp::add_item_list() {
-  // @@protoc_insertion_point(field_add:proto.TakeCityReputationExploreRewardRsp.item_list)
-  return item_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::ItemParam >*
-TakeCityReputationExploreRewardRsp::mutable_item_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.TakeCityReputationExploreRewardRsp.item_list)
-  return &item_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::ItemParam >&
-TakeCityReputationExploreRewardRsp::item_list() const {
-  // @@protoc_insertion_point(field_list:proto.TakeCityReputationExploreRewardRsp.item_list)
-  return item_list_;
-}
-
-// int32 retcode = 12;
-void TakeCityReputationExploreRewardRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 TakeCityReputationExploreRewardRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.TakeCityReputationExploreRewardRsp.retcode)
-  return retcode_;
-}
-void TakeCityReputationExploreRewardRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.TakeCityReputationExploreRewardRsp.retcode)
-}
-
-// uint32 city_id = 4;
-void TakeCityReputationExploreRewardRsp::clear_city_id() {
-  city_id_ = 0u;
-}
-::google::protobuf::uint32 TakeCityReputationExploreRewardRsp::city_id() const {
-  // @@protoc_insertion_point(field_get:proto.TakeCityReputationExploreRewardRsp.city_id)
-  return city_id_;
-}
-void TakeCityReputationExploreRewardRsp::set_city_id(::google::protobuf::uint32 value) {
-  
-  city_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.TakeCityReputationExploreRewardRsp.city_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int CityReputationSimpleInfo::kLevelFieldNumber;
-const int CityReputationSimpleInfo::kCityIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-CityReputationSimpleInfo::CityReputationSimpleInfo()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.CityReputationSimpleInfo)
-}
-CityReputationSimpleInfo::CityReputationSimpleInfo(const CityReputationSimpleInfo& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&city_id_, &from.city_id_,
-    static_cast<size_t>(reinterpret_cast<char*>(&level_) -
-    reinterpret_cast<char*>(&city_id_)) + sizeof(level_));
-  // @@protoc_insertion_point(copy_constructor:proto.CityReputationSimpleInfo)
-}
-
-void CityReputationSimpleInfo::SharedCtor() {
-  ::memset(&city_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&level_) -
-      reinterpret_cast<char*>(&city_id_)) + sizeof(level_));
-  _cached_size_ = 0;
-}
-
-CityReputationSimpleInfo::~CityReputationSimpleInfo() {
-  // @@protoc_insertion_point(destructor:proto.CityReputationSimpleInfo)
-  SharedDtor();
-}
-
-void CityReputationSimpleInfo::SharedDtor() {
-}
-
-void CityReputationSimpleInfo::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* CityReputationSimpleInfo::descriptor() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const CityReputationSimpleInfo& CityReputationSimpleInfo::default_instance() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-CityReputationSimpleInfo* CityReputationSimpleInfo::New(::google::protobuf::Arena* arena) const {
-  CityReputationSimpleInfo* n = new CityReputationSimpleInfo;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void CityReputationSimpleInfo::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.CityReputationSimpleInfo)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&city_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&level_) -
-      reinterpret_cast<char*>(&city_id_)) + sizeof(level_));
-  _internal_metadata_.Clear();
-}
-
 bool CityReputationSimpleInfo::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -9307,16 +3988,18 @@ bool CityReputationSimpleInfo::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.CityReputationSimpleInfo)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.CityReputationSimpleInfo)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -9337,9 +4020,9 @@ void CityReputationSimpleInfo::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(10, this->level(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.CityReputationSimpleInfo)
 }
@@ -9361,9 +4044,9 @@ void CityReputationSimpleInfo::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(10, this->level(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.CityReputationSimpleInfo)
   return target;
@@ -9373,10 +4056,10 @@ size_t CityReputationSimpleInfo::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.CityReputationSimpleInfo)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 city_id = 8;
   if (this->city_id() != 0) {
@@ -9397,172 +4080,6 @@ size_t CityReputationSimpleInfo::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void CityReputationSimpleInfo::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.CityReputationSimpleInfo)
-  GOOGLE_DCHECK_NE(&from, this);
-  const CityReputationSimpleInfo* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const CityReputationSimpleInfo>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.CityReputationSimpleInfo)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.CityReputationSimpleInfo)
-    MergeFrom(*source);
-  }
-}
-
-void CityReputationSimpleInfo::MergeFrom(const CityReputationSimpleInfo& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.CityReputationSimpleInfo)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.city_id() != 0) {
-    set_city_id(from.city_id());
-  }
-  if (from.level() != 0) {
-    set_level(from.level());
-  }
-}
-
-void CityReputationSimpleInfo::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.CityReputationSimpleInfo)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void CityReputationSimpleInfo::CopyFrom(const CityReputationSimpleInfo& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.CityReputationSimpleInfo)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool CityReputationSimpleInfo::IsInitialized() const {
-  return true;
-}
-
-void CityReputationSimpleInfo::Swap(CityReputationSimpleInfo* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void CityReputationSimpleInfo::InternalSwap(CityReputationSimpleInfo* other) {
-  using std::swap;
-  swap(city_id_, other->city_id_);
-  swap(level_, other->level_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata CityReputationSimpleInfo::GetMetadata() const {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// CityReputationSimpleInfo
-
-// uint32 level = 10;
-void CityReputationSimpleInfo::clear_level() {
-  level_ = 0u;
-}
-::google::protobuf::uint32 CityReputationSimpleInfo::level() const {
-  // @@protoc_insertion_point(field_get:proto.CityReputationSimpleInfo.level)
-  return level_;
-}
-void CityReputationSimpleInfo::set_level(::google::protobuf::uint32 value) {
-  
-  level_ = value;
-  // @@protoc_insertion_point(field_set:proto.CityReputationSimpleInfo.level)
-}
-
-// uint32 city_id = 8;
-void CityReputationSimpleInfo::clear_city_id() {
-  city_id_ = 0u;
-}
-::google::protobuf::uint32 CityReputationSimpleInfo::city_id() const {
-  // @@protoc_insertion_point(field_get:proto.CityReputationSimpleInfo.city_id)
-  return city_id_;
-}
-void CityReputationSimpleInfo::set_city_id(::google::protobuf::uint32 value) {
-  
-  city_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.CityReputationSimpleInfo.city_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int CityReputationDataNotify::kSimpleInfoListFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-CityReputationDataNotify::CityReputationDataNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.CityReputationDataNotify)
-}
-CityReputationDataNotify::CityReputationDataNotify(const CityReputationDataNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      simple_info_list_(from.simple_info_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  // @@protoc_insertion_point(copy_constructor:proto.CityReputationDataNotify)
-}
-
-void CityReputationDataNotify::SharedCtor() {
-  _cached_size_ = 0;
-}
-
-CityReputationDataNotify::~CityReputationDataNotify() {
-  // @@protoc_insertion_point(destructor:proto.CityReputationDataNotify)
-  SharedDtor();
-}
-
-void CityReputationDataNotify::SharedDtor() {
-}
-
-void CityReputationDataNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* CityReputationDataNotify::descriptor() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const CityReputationDataNotify& CityReputationDataNotify::default_instance() {
-  protobuf_cmd_2fcmd_5freputation_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-CityReputationDataNotify* CityReputationDataNotify::New(::google::protobuf::Arena* arena) const {
-  CityReputationDataNotify* n = new CityReputationDataNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void CityReputationDataNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.CityReputationDataNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  simple_info_list_.Clear();
-  _internal_metadata_.Clear();
 }
 
 bool CityReputationDataNotify::MergePartialFromCodedStream(
@@ -9593,16 +4110,18 @@ bool CityReputationDataNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.CityReputationDataNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.CityReputationDataNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -9620,9 +4139,9 @@ void CityReputationDataNotify::SerializeWithCachedSizes(
       8, this->simple_info_list(static_cast<int>(i)), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.CityReputationDataNotify)
 }
@@ -9642,9 +4161,9 @@ void CityReputationDataNotify::SerializeWithCachedSizes(
         8, this->simple_info_list(static_cast<int>(i)), deterministic, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.CityReputationDataNotify)
   return target;
@@ -9654,10 +4173,10 @@ size_t CityReputationDataNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.CityReputationDataNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated .proto.CityReputationSimpleInfo simple_info_list = 8;
   {
@@ -9676,100 +4195,6 @@ size_t CityReputationDataNotify::ByteSizeLong() const {
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
 }
-
-void CityReputationDataNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.CityReputationDataNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const CityReputationDataNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const CityReputationDataNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.CityReputationDataNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.CityReputationDataNotify)
-    MergeFrom(*source);
-  }
-}
-
-void CityReputationDataNotify::MergeFrom(const CityReputationDataNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.CityReputationDataNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  simple_info_list_.MergeFrom(from.simple_info_list_);
-}
-
-void CityReputationDataNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.CityReputationDataNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void CityReputationDataNotify::CopyFrom(const CityReputationDataNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.CityReputationDataNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool CityReputationDataNotify::IsInitialized() const {
-  return true;
-}
-
-void CityReputationDataNotify::Swap(CityReputationDataNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void CityReputationDataNotify::InternalSwap(CityReputationDataNotify* other) {
-  using std::swap;
-  simple_info_list_.InternalSwap(&other->simple_info_list_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata CityReputationDataNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5freputation_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5freputation_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// CityReputationDataNotify
-
-// repeated .proto.CityReputationSimpleInfo simple_info_list = 8;
-int CityReputationDataNotify::simple_info_list_size() const {
-  return simple_info_list_.size();
-}
-void CityReputationDataNotify::clear_simple_info_list() {
-  simple_info_list_.Clear();
-}
-const ::proto::CityReputationSimpleInfo& CityReputationDataNotify::simple_info_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.CityReputationDataNotify.simple_info_list)
-  return simple_info_list_.Get(index);
-}
-::proto::CityReputationSimpleInfo* CityReputationDataNotify::mutable_simple_info_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.CityReputationDataNotify.simple_info_list)
-  return simple_info_list_.Mutable(index);
-}
-::proto::CityReputationSimpleInfo* CityReputationDataNotify::add_simple_info_list() {
-  // @@protoc_insertion_point(field_add:proto.CityReputationDataNotify.simple_info_list)
-  return simple_info_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::CityReputationSimpleInfo >*
-CityReputationDataNotify::mutable_simple_info_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.CityReputationDataNotify.simple_info_list)
-  return &simple_info_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::CityReputationSimpleInfo >&
-CityReputationDataNotify::simple_info_list() const {
-  // @@protoc_insertion_point(field_list:proto.CityReputationDataNotify.simple_info_list)
-  return simple_info_list_;
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
 
 // @@protoc_insertion_point(namespace_scope)
 

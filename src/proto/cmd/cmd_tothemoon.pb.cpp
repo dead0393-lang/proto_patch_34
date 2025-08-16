@@ -89,862 +89,6 @@ public:
      _instance;
 } _ToTheMoonObstaclesModifyNotify_default_instance_;
 
-namespace protobuf_cmd_2fcmd_5ftothemoon_2eproto {
-
-
-namespace {
-
-::google::protobuf::Metadata file_level_metadata[14];
-const ::google::protobuf::EnumDescriptor* file_level_enum_descriptors[16];
-
-}  // namespace
-
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::ParseTableField
-    const TableStruct::entries[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  {0, 0, 0, ::google::protobuf::internal::kInvalidMask, 0, 0},
-};
-
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::AuxillaryParseTableField
-    const TableStruct::aux[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  ::google::protobuf::internal::AuxillaryParseTableField(),
-};
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::ParseTable const
-    TableStruct::schema[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-};
-
-const ::google::protobuf::uint32 TableStruct::offsets[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonQueryPathReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonQueryPathReq, destination_pos_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonQueryPathReq, fuzzy_range_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonQueryPathReq, query_type_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonQueryPathReq, astar_method_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonQueryPathReq, scene_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonQueryPathReq, query_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonQueryPathReq, filter_type_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonQueryPathReq, refined_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonQueryPathReq, use_full_neighbor_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonQueryPathReq, source_pos_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonQueryPathRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonQueryPathRsp, query_status_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonQueryPathRsp, index_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonQueryPathRsp, corners_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonQueryPathRsp, level_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonQueryPathRsp, retcode_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonQueryPathRsp, query_id_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonPingNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonEnterSceneReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonEnterSceneReq, version_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonEnterSceneReq, scene_id_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonEnterSceneRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonEnterSceneRsp, retcode_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonObstacleInfo, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonObstacleInfo, type_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonObstacleInfo, handle_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonObstacleInfo, rotation_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonObstacleInfo, center_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonObstacleInfo, half_extents_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonAddObstacleReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonAddObstacleReq, use_edge_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonAddObstacleReq, obstacle_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonAddObstacleReq, query_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonAddObstacleReq, scene_id_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DynamicSVONode, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DynamicSVONode, index_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DynamicSVONode, area_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DynamicSVONode, refer_pos_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DynamicLayerNodes, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DynamicLayerNodes, level_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DynamicLayerNodes, nodes_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DynamicNodes, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DynamicNodes, nodes_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonAddObstacleRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonAddObstacleRsp, dynamic_nodes_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonAddObstacleRsp, query_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonAddObstacleRsp, retcode_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonRemoveObstacleReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonRemoveObstacleReq, handle_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonRemoveObstacleReq, scene_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonRemoveObstacleReq, query_id_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonRemoveObstacleRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonRemoveObstacleRsp, query_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonRemoveObstacleRsp, retcode_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonRemoveObstacleRsp, dynamic_nodes_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonObstaclesModifyNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonObstaclesModifyNotify, add_obstacles_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonObstaclesModifyNotify, remove_obstacle_ids_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonObstaclesModifyNotify, scene_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ToTheMoonObstaclesModifyNotify, use_edge_),
-};
-static const ::google::protobuf::internal::MigrationSchema schemas[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  { 0, -1, sizeof(ToTheMoonQueryPathReq)},
-  { 15, -1, sizeof(ToTheMoonQueryPathRsp)},
-  { 26, -1, sizeof(ToTheMoonPingNotify)},
-  { 31, -1, sizeof(ToTheMoonEnterSceneReq)},
-  { 38, -1, sizeof(ToTheMoonEnterSceneRsp)},
-  { 44, -1, sizeof(ToTheMoonObstacleInfo)},
-  { 54, -1, sizeof(ToTheMoonAddObstacleReq)},
-  { 63, -1, sizeof(DynamicSVONode)},
-  { 71, -1, sizeof(DynamicLayerNodes)},
-  { 78, -1, sizeof(DynamicNodes)},
-  { 84, -1, sizeof(ToTheMoonAddObstacleRsp)},
-  { 92, -1, sizeof(ToTheMoonRemoveObstacleReq)},
-  { 100, -1, sizeof(ToTheMoonRemoveObstacleRsp)},
-  { 108, -1, sizeof(ToTheMoonObstaclesModifyNotify)},
-};
-
-static ::google::protobuf::Message const * const file_default_instances[] = {
-  reinterpret_cast<const ::google::protobuf::Message*>(&_ToTheMoonQueryPathReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_ToTheMoonQueryPathRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_ToTheMoonPingNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_ToTheMoonEnterSceneReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_ToTheMoonEnterSceneRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_ToTheMoonObstacleInfo_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_ToTheMoonAddObstacleReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_DynamicSVONode_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_DynamicLayerNodes_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_DynamicNodes_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_ToTheMoonAddObstacleRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_ToTheMoonRemoveObstacleReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_ToTheMoonRemoveObstacleRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_ToTheMoonObstaclesModifyNotify_default_instance_),
-};
-
-namespace {
-
-void protobuf_AssignDescriptors() {
-  AddDescriptors();
-  ::google::protobuf::MessageFactory* factory = NULL;
-  AssignDescriptors(
-      "cmd/cmd_tothemoon.proto", schemas, file_default_instances, TableStruct::offsets, factory,
-      file_level_metadata, file_level_enum_descriptors, NULL);
-}
-
-void protobuf_AssignDescriptorsOnce() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &protobuf_AssignDescriptors);
-}
-
-void protobuf_RegisterTypes(const ::std::string&) GOOGLE_ATTRIBUTE_COLD;
-void protobuf_RegisterTypes(const ::std::string&) {
-  protobuf_AssignDescriptorsOnce();
-  ::google::protobuf::internal::RegisterAllTypes(file_level_metadata, 14);
-}
-
-}  // namespace
-void TableStruct::InitDefaultsImpl() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
-
-  ::google::protobuf::internal::InitProtobufDefaults();
-  ::proto::protobuf_define_2eproto::InitDefaults();
-  _ToTheMoonQueryPathReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_ToTheMoonQueryPathReq_default_instance_);_ToTheMoonQueryPathRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_ToTheMoonQueryPathRsp_default_instance_);_ToTheMoonPingNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_ToTheMoonPingNotify_default_instance_);_ToTheMoonEnterSceneReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_ToTheMoonEnterSceneReq_default_instance_);_ToTheMoonEnterSceneRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_ToTheMoonEnterSceneRsp_default_instance_);_ToTheMoonObstacleInfo_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_ToTheMoonObstacleInfo_default_instance_);_ToTheMoonAddObstacleReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_ToTheMoonAddObstacleReq_default_instance_);_DynamicSVONode_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_DynamicSVONode_default_instance_);_DynamicLayerNodes_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_DynamicLayerNodes_default_instance_);_DynamicNodes_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_DynamicNodes_default_instance_);_ToTheMoonAddObstacleRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_ToTheMoonAddObstacleRsp_default_instance_);_ToTheMoonRemoveObstacleReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_ToTheMoonRemoveObstacleReq_default_instance_);_ToTheMoonRemoveObstacleRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_ToTheMoonRemoveObstacleRsp_default_instance_);_ToTheMoonObstaclesModifyNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_ToTheMoonObstaclesModifyNotify_default_instance_);_ToTheMoonQueryPathReq_default_instance_._instance.get_mutable()->destination_pos_ = const_cast< ::proto::Vector*>(
-      ::proto::Vector::internal_default_instance());
-  _ToTheMoonQueryPathReq_default_instance_._instance.get_mutable()->source_pos_ = const_cast< ::proto::Vector*>(
-      ::proto::Vector::internal_default_instance());
-  _ToTheMoonObstacleInfo_default_instance_._instance.get_mutable()->rotation_ = const_cast< ::proto::MathQuaternion*>(
-      ::proto::MathQuaternion::internal_default_instance());
-  _ToTheMoonObstacleInfo_default_instance_._instance.get_mutable()->center_ = const_cast< ::proto::Vector*>(
-      ::proto::Vector::internal_default_instance());
-  _ToTheMoonObstacleInfo_default_instance_._instance.get_mutable()->half_extents_ = const_cast< ::proto::Vector*>(
-      ::proto::Vector::internal_default_instance());
-  _ToTheMoonAddObstacleReq_default_instance_._instance.get_mutable()->obstacle_ = const_cast< ::proto::ToTheMoonObstacleInfo*>(
-      ::proto::ToTheMoonObstacleInfo::internal_default_instance());
-  _DynamicSVONode_default_instance_._instance.get_mutable()->refer_pos_ = const_cast< ::proto::Vector*>(
-      ::proto::Vector::internal_default_instance());
-  _ToTheMoonAddObstacleRsp_default_instance_._instance.get_mutable()->dynamic_nodes_ = const_cast< ::proto::DynamicNodes*>(
-      ::proto::DynamicNodes::internal_default_instance());
-  _ToTheMoonRemoveObstacleRsp_default_instance_._instance.get_mutable()->dynamic_nodes_ = const_cast< ::proto::DynamicNodes*>(
-      ::proto::DynamicNodes::internal_default_instance());
-}
-
-void InitDefaults() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &TableStruct::InitDefaultsImpl);
-}
-namespace {
-void AddDescriptorsImpl() {
-  InitDefaults();
-  static const char descriptor[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-      "\n\027cmd/cmd_tothemoon.proto\022\005proto\032\014define"
-      ".proto\"\213\005\n\025ToTheMoonQueryPathReq\022&\n\017dest"
-      "ination_pos\030\005 \001(\0132\r.proto.Vector\022\023\n\013fuzz"
-      "y_range\030\007 \001(\005\022;\n\nquery_type\030\017 \001(\0162\'.prot"
-      "o.ToTheMoonQueryPathReq.OptionType\022>\n\014as"
-      "tar_method\030\001 \001(\0162(.proto.ToTheMoonQueryP"
-      "athReq.AStarMethod\022\020\n\010scene_id\030\006 \001(\r\022\020\n\010"
-      "query_id\030\003 \001(\005\022<\n\013filter_type\030\010 \001(\0162\'.pr"
-      "oto.ToTheMoonQueryPathReq.FilterType\022\017\n\007"
-      "refined\030\n \001(\010\022\031\n\021use_full_neighbor\030\002 \001(\010"
-      "\022!\n\nsource_pos\030\014 \001(\0132\r.proto.Vector\"b\n\005C"
-      "mdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\331/\022\023\n\017ENET_CHAN"
-      "NEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\022\023\n\017IS_ALL"
-      "OW_CLIENT\020\001\032\002\020\001\"0\n\nOptionType\022\017\n\013OPTION_"
-      "NONE\020\000\022\021\n\rOPTION_NORMAL\020\001\"F\n\013AStarMethod"
-      "\022\013\n\007Classic\020\000\022\014\n\010Tendency\020\001\022\014\n\010Adaptive\020"
-      "\002\022\016\n\nInflection\020\003\")\n\nFilterType\022\007\n\003All\020\000"
-      "\022\007\n\003Air\020\001\022\t\n\005Water\020\002\"\322\002\n\025ToTheMoonQueryP"
-      "athRsp\022A\n\014query_status\030\017 \001(\0162+.proto.ToT"
-      "heMoonQueryPathRsp.PathStatusType\022\r\n\005ind"
-      "ex\030\n \003(\003\022\036\n\007corners\030\003 \003(\0132\r.proto.Vector"
-      "\022\r\n\005level\030\r \003(\005\022\017\n\007retcode\030\001 \001(\005\022\020\n\010quer"
-      "y_id\030\013 \001(\005\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020"
-      "\2130\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIA"
-      "BLE\020\001\032\002\020\001\"F\n\016PathStatusType\022\017\n\013STATUS_FA"
-      "IL\020\000\022\017\n\013STATUS_SUCC\020\001\022\022\n\016STATUS_PARTIAL\020"
-      "\002\"y\n\023ToTheMoonPingNotify\"b\n\005CmdId\022\010\n\004NON"
-      "E\020\000\022\013\n\006CMD_ID\020\2530\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n"
-      "\020ENET_IS_RELIABLE\020\001\022\023\n\017IS_ALLOW_CLIENT\020\001"
-      "\032\002\020\001\"\237\001\n\026ToTheMoonEnterSceneReq\022\017\n\007versi"
-      "on\030\n \001(\r\022\020\n\010scene_id\030\014 \001(\r\"b\n\005CmdId\022\010\n\004N"
-      "ONE\020\000\022\013\n\006CMD_ID\020\2660\022\023\n\017ENET_CHANNEL_ID\020\000\022"
-      "\024\n\020ENET_IS_RELIABLE\020\001\022\023\n\017IS_ALLOW_CLIENT"
-      "\020\001\032\002\020\001\"x\n\026ToTheMoonEnterSceneRsp\022\017\n\007retc"
-      "ode\030\014 \001(\005\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\350"
-      "/\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIAB"
-      "LE\020\001\032\002\020\001\"\216\002\n\025ToTheMoonObstacleInfo\0224\n\004ty"
-      "pe\030\001 \001(\0162&.proto.ToTheMoonObstacleInfo.S"
-      "hapeType\022\021\n\thandle_id\030\005 \001(\005\022\'\n\010rotation\030"
-      "\010 \001(\0132\025.proto.MathQuaternion\022\035\n\006center\030\003"
-      " \001(\0132\r.proto.Vector\022#\n\014half_extents\030\t \001("
-      "\0132\r.proto.Vector\"\?\n\tShapeType\022\032\n\026OBSTACL"
-      "E_SHAPE_CAPSULE\020\000\022\026\n\022OBSTACLE_SHAPE_BOX\020"
-      "\001\"\343\001\n\027ToTheMoonAddObstacleReq\022\020\n\010use_edg"
-      "e\030\017 \001(\010\022.\n\010obstacle\030\006 \001(\0132\034.proto.ToTheM"
-      "oonObstacleInfo\022\020\n\010query_id\030\005 \001(\005\022\020\n\010sce"
-      "ne_id\030\007 \001(\r\"b\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID"
-      "\020\2360\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELI"
-      "ABLE\020\001\022\023\n\017IS_ALLOW_CLIENT\020\001\032\002\020\001\"O\n\016Dynam"
-      "icSVONode\022\r\n\005index\030\013 \001(\003\022\014\n\004area\030\r \001(\005\022 "
-      "\n\trefer_pos\030\t \001(\0132\r.proto.Vector\"H\n\021Dyna"
-      "micLayerNodes\022\r\n\005level\030\014 \001(\005\022$\n\005nodes\030\010 "
-      "\003(\0132\025.proto.DynamicSVONode\"7\n\014DynamicNod"
-      "es\022\'\n\005nodes\030\010 \003(\0132\030.proto.DynamicLayerNo"
-      "des\"\267\001\n\027ToTheMoonAddObstacleRsp\022*\n\rdynam"
-      "ic_nodes\030\004 \001(\0132\023.proto.DynamicNodes\022\020\n\010q"
-      "uery_id\030\010 \001(\005\022\017\n\007retcode\030\013 \001(\005\"M\n\005CmdId\022"
-      "\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\2440\022\023\n\017ENET_CHANNEL_I"
-      "D\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001\"\332\001\n\032ToTheM"
-      "oonRemoveObstacleReq\022\016\n\006handle\030\t \001(\005\022\020\n\010"
-      "scene_id\030\002 \001(\r\022\020\n\010query_id\030\r \001(\005\"b\n\005CmdI"
-      "d\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\2320\022\023\n\017ENET_CHANNEL"
-      "_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\022\023\n\017IS_ALLOW_"
-      "CLIENT\020\001\032\002\020\001\"$\n\014ObstacleType\022\007\n\003Box\020\000\022\013\n"
-      "\007Capsule\020\001\"\272\001\n\032ToTheMoonRemoveObstacleRs"
-      "p\022\020\n\010query_id\030\004 \001(\005\022\017\n\007retcode\030\003 \001(\005\022*\n\r"
-      "dynamic_nodes\030\010 \001(\0132\023.proto.DynamicNodes"
-      "\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\2220\022\023\n\017ENET"
-      "_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001\""
-      "\372\001\n\036ToTheMoonObstaclesModifyNotify\0223\n\rad"
-      "d_obstacles\030\016 \003(\0132\034.proto.ToTheMoonObsta"
-      "cleInfo\022\033\n\023remove_obstacle_ids\030\004 \003(\005\022\020\n\010"
-      "scene_id\030\013 \001(\r\022\020\n\010use_edge\030\n \001(\010\"b\n\005CmdI"
-      "d\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\342/\022\023\n\017ENET_CHANNEL"
-      "_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\022\023\n\017IS_ALLOW_"
-      "CLIENT\020\001\032\002\020\001B\nZ\010./;protob\006proto3"
-  };
-  ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-      descriptor, 3032);
-  ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
-    "cmd/cmd_tothemoon.proto", &protobuf_RegisterTypes);
-  ::proto::protobuf_define_2eproto::AddDescriptors();
-}
-} // anonymous namespace
-
-void AddDescriptors() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &AddDescriptorsImpl);
-}
-// Force AddDescriptors() to be called at dynamic initialization time.
-struct StaticDescriptorInitializer {
-  StaticDescriptorInitializer() {
-    AddDescriptors();
-  }
-} static_descriptor_initializer;
-
-}  // namespace protobuf_cmd_2fcmd_5ftothemoon_2eproto
-
-const ::google::protobuf::EnumDescriptor* ToTheMoonQueryPathReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_enum_descriptors[0];
-}
-bool ToTheMoonQueryPathReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 6105:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const ToTheMoonQueryPathReq_CmdId ToTheMoonQueryPathReq::NONE;
-const ToTheMoonQueryPathReq_CmdId ToTheMoonQueryPathReq::CMD_ID;
-const ToTheMoonQueryPathReq_CmdId ToTheMoonQueryPathReq::ENET_CHANNEL_ID;
-const ToTheMoonQueryPathReq_CmdId ToTheMoonQueryPathReq::ENET_IS_RELIABLE;
-const ToTheMoonQueryPathReq_CmdId ToTheMoonQueryPathReq::IS_ALLOW_CLIENT;
-const ToTheMoonQueryPathReq_CmdId ToTheMoonQueryPathReq::CmdId_MIN;
-const ToTheMoonQueryPathReq_CmdId ToTheMoonQueryPathReq::CmdId_MAX;
-const int ToTheMoonQueryPathReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* ToTheMoonQueryPathReq_OptionType_descriptor() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_enum_descriptors[1];
-}
-bool ToTheMoonQueryPathReq_OptionType_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const ToTheMoonQueryPathReq_OptionType ToTheMoonQueryPathReq::OPTION_NONE;
-const ToTheMoonQueryPathReq_OptionType ToTheMoonQueryPathReq::OPTION_NORMAL;
-const ToTheMoonQueryPathReq_OptionType ToTheMoonQueryPathReq::OptionType_MIN;
-const ToTheMoonQueryPathReq_OptionType ToTheMoonQueryPathReq::OptionType_MAX;
-const int ToTheMoonQueryPathReq::OptionType_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* ToTheMoonQueryPathReq_AStarMethod_descriptor() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_enum_descriptors[2];
-}
-bool ToTheMoonQueryPathReq_AStarMethod_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 2:
-    case 3:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const ToTheMoonQueryPathReq_AStarMethod ToTheMoonQueryPathReq::Classic;
-const ToTheMoonQueryPathReq_AStarMethod ToTheMoonQueryPathReq::Tendency;
-const ToTheMoonQueryPathReq_AStarMethod ToTheMoonQueryPathReq::Adaptive;
-const ToTheMoonQueryPathReq_AStarMethod ToTheMoonQueryPathReq::Inflection;
-const ToTheMoonQueryPathReq_AStarMethod ToTheMoonQueryPathReq::AStarMethod_MIN;
-const ToTheMoonQueryPathReq_AStarMethod ToTheMoonQueryPathReq::AStarMethod_MAX;
-const int ToTheMoonQueryPathReq::AStarMethod_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* ToTheMoonQueryPathReq_FilterType_descriptor() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_enum_descriptors[3];
-}
-bool ToTheMoonQueryPathReq_FilterType_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 2:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const ToTheMoonQueryPathReq_FilterType ToTheMoonQueryPathReq::All;
-const ToTheMoonQueryPathReq_FilterType ToTheMoonQueryPathReq::Air;
-const ToTheMoonQueryPathReq_FilterType ToTheMoonQueryPathReq::Water;
-const ToTheMoonQueryPathReq_FilterType ToTheMoonQueryPathReq::FilterType_MIN;
-const ToTheMoonQueryPathReq_FilterType ToTheMoonQueryPathReq::FilterType_MAX;
-const int ToTheMoonQueryPathReq::FilterType_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* ToTheMoonQueryPathRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_enum_descriptors[4];
-}
-bool ToTheMoonQueryPathRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 6155:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const ToTheMoonQueryPathRsp_CmdId ToTheMoonQueryPathRsp::NONE;
-const ToTheMoonQueryPathRsp_CmdId ToTheMoonQueryPathRsp::CMD_ID;
-const ToTheMoonQueryPathRsp_CmdId ToTheMoonQueryPathRsp::ENET_CHANNEL_ID;
-const ToTheMoonQueryPathRsp_CmdId ToTheMoonQueryPathRsp::ENET_IS_RELIABLE;
-const ToTheMoonQueryPathRsp_CmdId ToTheMoonQueryPathRsp::CmdId_MIN;
-const ToTheMoonQueryPathRsp_CmdId ToTheMoonQueryPathRsp::CmdId_MAX;
-const int ToTheMoonQueryPathRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* ToTheMoonQueryPathRsp_PathStatusType_descriptor() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_enum_descriptors[5];
-}
-bool ToTheMoonQueryPathRsp_PathStatusType_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 2:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const ToTheMoonQueryPathRsp_PathStatusType ToTheMoonQueryPathRsp::STATUS_FAIL;
-const ToTheMoonQueryPathRsp_PathStatusType ToTheMoonQueryPathRsp::STATUS_SUCC;
-const ToTheMoonQueryPathRsp_PathStatusType ToTheMoonQueryPathRsp::STATUS_PARTIAL;
-const ToTheMoonQueryPathRsp_PathStatusType ToTheMoonQueryPathRsp::PathStatusType_MIN;
-const ToTheMoonQueryPathRsp_PathStatusType ToTheMoonQueryPathRsp::PathStatusType_MAX;
-const int ToTheMoonQueryPathRsp::PathStatusType_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* ToTheMoonPingNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_enum_descriptors[6];
-}
-bool ToTheMoonPingNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 6187:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const ToTheMoonPingNotify_CmdId ToTheMoonPingNotify::NONE;
-const ToTheMoonPingNotify_CmdId ToTheMoonPingNotify::CMD_ID;
-const ToTheMoonPingNotify_CmdId ToTheMoonPingNotify::ENET_CHANNEL_ID;
-const ToTheMoonPingNotify_CmdId ToTheMoonPingNotify::ENET_IS_RELIABLE;
-const ToTheMoonPingNotify_CmdId ToTheMoonPingNotify::IS_ALLOW_CLIENT;
-const ToTheMoonPingNotify_CmdId ToTheMoonPingNotify::CmdId_MIN;
-const ToTheMoonPingNotify_CmdId ToTheMoonPingNotify::CmdId_MAX;
-const int ToTheMoonPingNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* ToTheMoonEnterSceneReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_enum_descriptors[7];
-}
-bool ToTheMoonEnterSceneReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 6198:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const ToTheMoonEnterSceneReq_CmdId ToTheMoonEnterSceneReq::NONE;
-const ToTheMoonEnterSceneReq_CmdId ToTheMoonEnterSceneReq::CMD_ID;
-const ToTheMoonEnterSceneReq_CmdId ToTheMoonEnterSceneReq::ENET_CHANNEL_ID;
-const ToTheMoonEnterSceneReq_CmdId ToTheMoonEnterSceneReq::ENET_IS_RELIABLE;
-const ToTheMoonEnterSceneReq_CmdId ToTheMoonEnterSceneReq::IS_ALLOW_CLIENT;
-const ToTheMoonEnterSceneReq_CmdId ToTheMoonEnterSceneReq::CmdId_MIN;
-const ToTheMoonEnterSceneReq_CmdId ToTheMoonEnterSceneReq::CmdId_MAX;
-const int ToTheMoonEnterSceneReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* ToTheMoonEnterSceneRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_enum_descriptors[8];
-}
-bool ToTheMoonEnterSceneRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 6120:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const ToTheMoonEnterSceneRsp_CmdId ToTheMoonEnterSceneRsp::NONE;
-const ToTheMoonEnterSceneRsp_CmdId ToTheMoonEnterSceneRsp::CMD_ID;
-const ToTheMoonEnterSceneRsp_CmdId ToTheMoonEnterSceneRsp::ENET_CHANNEL_ID;
-const ToTheMoonEnterSceneRsp_CmdId ToTheMoonEnterSceneRsp::ENET_IS_RELIABLE;
-const ToTheMoonEnterSceneRsp_CmdId ToTheMoonEnterSceneRsp::CmdId_MIN;
-const ToTheMoonEnterSceneRsp_CmdId ToTheMoonEnterSceneRsp::CmdId_MAX;
-const int ToTheMoonEnterSceneRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* ToTheMoonObstacleInfo_ShapeType_descriptor() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_enum_descriptors[9];
-}
-bool ToTheMoonObstacleInfo_ShapeType_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const ToTheMoonObstacleInfo_ShapeType ToTheMoonObstacleInfo::OBSTACLE_SHAPE_CAPSULE;
-const ToTheMoonObstacleInfo_ShapeType ToTheMoonObstacleInfo::OBSTACLE_SHAPE_BOX;
-const ToTheMoonObstacleInfo_ShapeType ToTheMoonObstacleInfo::ShapeType_MIN;
-const ToTheMoonObstacleInfo_ShapeType ToTheMoonObstacleInfo::ShapeType_MAX;
-const int ToTheMoonObstacleInfo::ShapeType_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* ToTheMoonAddObstacleReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_enum_descriptors[10];
-}
-bool ToTheMoonAddObstacleReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 6174:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const ToTheMoonAddObstacleReq_CmdId ToTheMoonAddObstacleReq::NONE;
-const ToTheMoonAddObstacleReq_CmdId ToTheMoonAddObstacleReq::CMD_ID;
-const ToTheMoonAddObstacleReq_CmdId ToTheMoonAddObstacleReq::ENET_CHANNEL_ID;
-const ToTheMoonAddObstacleReq_CmdId ToTheMoonAddObstacleReq::ENET_IS_RELIABLE;
-const ToTheMoonAddObstacleReq_CmdId ToTheMoonAddObstacleReq::IS_ALLOW_CLIENT;
-const ToTheMoonAddObstacleReq_CmdId ToTheMoonAddObstacleReq::CmdId_MIN;
-const ToTheMoonAddObstacleReq_CmdId ToTheMoonAddObstacleReq::CmdId_MAX;
-const int ToTheMoonAddObstacleReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* ToTheMoonAddObstacleRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_enum_descriptors[11];
-}
-bool ToTheMoonAddObstacleRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 6180:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const ToTheMoonAddObstacleRsp_CmdId ToTheMoonAddObstacleRsp::NONE;
-const ToTheMoonAddObstacleRsp_CmdId ToTheMoonAddObstacleRsp::CMD_ID;
-const ToTheMoonAddObstacleRsp_CmdId ToTheMoonAddObstacleRsp::ENET_CHANNEL_ID;
-const ToTheMoonAddObstacleRsp_CmdId ToTheMoonAddObstacleRsp::ENET_IS_RELIABLE;
-const ToTheMoonAddObstacleRsp_CmdId ToTheMoonAddObstacleRsp::CmdId_MIN;
-const ToTheMoonAddObstacleRsp_CmdId ToTheMoonAddObstacleRsp::CmdId_MAX;
-const int ToTheMoonAddObstacleRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* ToTheMoonRemoveObstacleReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_enum_descriptors[12];
-}
-bool ToTheMoonRemoveObstacleReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 6170:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const ToTheMoonRemoveObstacleReq_CmdId ToTheMoonRemoveObstacleReq::NONE;
-const ToTheMoonRemoveObstacleReq_CmdId ToTheMoonRemoveObstacleReq::CMD_ID;
-const ToTheMoonRemoveObstacleReq_CmdId ToTheMoonRemoveObstacleReq::ENET_CHANNEL_ID;
-const ToTheMoonRemoveObstacleReq_CmdId ToTheMoonRemoveObstacleReq::ENET_IS_RELIABLE;
-const ToTheMoonRemoveObstacleReq_CmdId ToTheMoonRemoveObstacleReq::IS_ALLOW_CLIENT;
-const ToTheMoonRemoveObstacleReq_CmdId ToTheMoonRemoveObstacleReq::CmdId_MIN;
-const ToTheMoonRemoveObstacleReq_CmdId ToTheMoonRemoveObstacleReq::CmdId_MAX;
-const int ToTheMoonRemoveObstacleReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* ToTheMoonRemoveObstacleReq_ObstacleType_descriptor() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_enum_descriptors[13];
-}
-bool ToTheMoonRemoveObstacleReq_ObstacleType_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const ToTheMoonRemoveObstacleReq_ObstacleType ToTheMoonRemoveObstacleReq::Box;
-const ToTheMoonRemoveObstacleReq_ObstacleType ToTheMoonRemoveObstacleReq::Capsule;
-const ToTheMoonRemoveObstacleReq_ObstacleType ToTheMoonRemoveObstacleReq::ObstacleType_MIN;
-const ToTheMoonRemoveObstacleReq_ObstacleType ToTheMoonRemoveObstacleReq::ObstacleType_MAX;
-const int ToTheMoonRemoveObstacleReq::ObstacleType_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* ToTheMoonRemoveObstacleRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_enum_descriptors[14];
-}
-bool ToTheMoonRemoveObstacleRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 6162:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const ToTheMoonRemoveObstacleRsp_CmdId ToTheMoonRemoveObstacleRsp::NONE;
-const ToTheMoonRemoveObstacleRsp_CmdId ToTheMoonRemoveObstacleRsp::CMD_ID;
-const ToTheMoonRemoveObstacleRsp_CmdId ToTheMoonRemoveObstacleRsp::ENET_CHANNEL_ID;
-const ToTheMoonRemoveObstacleRsp_CmdId ToTheMoonRemoveObstacleRsp::ENET_IS_RELIABLE;
-const ToTheMoonRemoveObstacleRsp_CmdId ToTheMoonRemoveObstacleRsp::CmdId_MIN;
-const ToTheMoonRemoveObstacleRsp_CmdId ToTheMoonRemoveObstacleRsp::CmdId_MAX;
-const int ToTheMoonRemoveObstacleRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* ToTheMoonObstaclesModifyNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_enum_descriptors[15];
-}
-bool ToTheMoonObstaclesModifyNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 6114:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const ToTheMoonObstaclesModifyNotify_CmdId ToTheMoonObstaclesModifyNotify::NONE;
-const ToTheMoonObstaclesModifyNotify_CmdId ToTheMoonObstaclesModifyNotify::CMD_ID;
-const ToTheMoonObstaclesModifyNotify_CmdId ToTheMoonObstaclesModifyNotify::ENET_CHANNEL_ID;
-const ToTheMoonObstaclesModifyNotify_CmdId ToTheMoonObstaclesModifyNotify::ENET_IS_RELIABLE;
-const ToTheMoonObstaclesModifyNotify_CmdId ToTheMoonObstaclesModifyNotify::IS_ALLOW_CLIENT;
-const ToTheMoonObstaclesModifyNotify_CmdId ToTheMoonObstaclesModifyNotify::CmdId_MIN;
-const ToTheMoonObstaclesModifyNotify_CmdId ToTheMoonObstaclesModifyNotify::CmdId_MAX;
-const int ToTheMoonObstaclesModifyNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int ToTheMoonQueryPathReq::kDestinationPosFieldNumber;
-const int ToTheMoonQueryPathReq::kFuzzyRangeFieldNumber;
-const int ToTheMoonQueryPathReq::kQueryTypeFieldNumber;
-const int ToTheMoonQueryPathReq::kAstarMethodFieldNumber;
-const int ToTheMoonQueryPathReq::kSceneIdFieldNumber;
-const int ToTheMoonQueryPathReq::kQueryIdFieldNumber;
-const int ToTheMoonQueryPathReq::kFilterTypeFieldNumber;
-const int ToTheMoonQueryPathReq::kRefinedFieldNumber;
-const int ToTheMoonQueryPathReq::kUseFullNeighborFieldNumber;
-const int ToTheMoonQueryPathReq::kSourcePosFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-ToTheMoonQueryPathReq::ToTheMoonQueryPathReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5ftothemoon_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.ToTheMoonQueryPathReq)
-}
-ToTheMoonQueryPathReq::ToTheMoonQueryPathReq(const ToTheMoonQueryPathReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  if (from.has_destination_pos()) {
-    destination_pos_ = new ::proto::Vector(*from.destination_pos_);
-  } else {
-    destination_pos_ = NULL;
-  }
-  if (from.has_source_pos()) {
-    source_pos_ = new ::proto::Vector(*from.source_pos_);
-  } else {
-    source_pos_ = NULL;
-  }
-  ::memcpy(&astar_method_, &from.astar_method_,
-    static_cast<size_t>(reinterpret_cast<char*>(&query_type_) -
-    reinterpret_cast<char*>(&astar_method_)) + sizeof(query_type_));
-  // @@protoc_insertion_point(copy_constructor:proto.ToTheMoonQueryPathReq)
-}
-
-void ToTheMoonQueryPathReq::SharedCtor() {
-  ::memset(&destination_pos_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&query_type_) -
-      reinterpret_cast<char*>(&destination_pos_)) + sizeof(query_type_));
-  _cached_size_ = 0;
-}
-
-ToTheMoonQueryPathReq::~ToTheMoonQueryPathReq() {
-  // @@protoc_insertion_point(destructor:proto.ToTheMoonQueryPathReq)
-  SharedDtor();
-}
-
-void ToTheMoonQueryPathReq::SharedDtor() {
-  if (this != internal_default_instance()) delete destination_pos_;
-  if (this != internal_default_instance()) delete source_pos_;
-}
-
-void ToTheMoonQueryPathReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* ToTheMoonQueryPathReq::descriptor() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const ToTheMoonQueryPathReq& ToTheMoonQueryPathReq::default_instance() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-ToTheMoonQueryPathReq* ToTheMoonQueryPathReq::New(::google::protobuf::Arena* arena) const {
-  ToTheMoonQueryPathReq* n = new ToTheMoonQueryPathReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void ToTheMoonQueryPathReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.ToTheMoonQueryPathReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  if (GetArenaNoVirtual() == NULL && destination_pos_ != NULL) {
-    delete destination_pos_;
-  }
-  destination_pos_ = NULL;
-  if (GetArenaNoVirtual() == NULL && source_pos_ != NULL) {
-    delete source_pos_;
-  }
-  source_pos_ = NULL;
-  ::memset(&astar_method_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&query_type_) -
-      reinterpret_cast<char*>(&astar_method_)) + sizeof(query_type_));
-  _internal_metadata_.Clear();
-}
-
 bool ToTheMoonQueryPathReq::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -1100,16 +244,18 @@ bool ToTheMoonQueryPathReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.ToTheMoonQueryPathReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.ToTheMoonQueryPathReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -1175,9 +321,9 @@ void ToTheMoonQueryPathReq::SerializeWithCachedSizes(
       15, this->query_type(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.ToTheMoonQueryPathReq)
 }
@@ -1246,9 +392,9 @@ void ToTheMoonQueryPathReq::SerializeWithCachedSizes(
       15, this->query_type(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.ToTheMoonQueryPathReq)
   return target;
@@ -1258,10 +404,10 @@ size_t ToTheMoonQueryPathReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.ToTheMoonQueryPathReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // .proto.Vector destination_pos = 5;
   if (this->has_destination_pos()) {
@@ -1331,386 +477,6 @@ size_t ToTheMoonQueryPathReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void ToTheMoonQueryPathReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.ToTheMoonQueryPathReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const ToTheMoonQueryPathReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const ToTheMoonQueryPathReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.ToTheMoonQueryPathReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.ToTheMoonQueryPathReq)
-    MergeFrom(*source);
-  }
-}
-
-void ToTheMoonQueryPathReq::MergeFrom(const ToTheMoonQueryPathReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.ToTheMoonQueryPathReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.has_destination_pos()) {
-    mutable_destination_pos()->::proto::Vector::MergeFrom(from.destination_pos());
-  }
-  if (from.has_source_pos()) {
-    mutable_source_pos()->::proto::Vector::MergeFrom(from.source_pos());
-  }
-  if (from.astar_method() != 0) {
-    set_astar_method(from.astar_method());
-  }
-  if (from.query_id() != 0) {
-    set_query_id(from.query_id());
-  }
-  if (from.scene_id() != 0) {
-    set_scene_id(from.scene_id());
-  }
-  if (from.refined() != 0) {
-    set_refined(from.refined());
-  }
-  if (from.use_full_neighbor() != 0) {
-    set_use_full_neighbor(from.use_full_neighbor());
-  }
-  if (from.fuzzy_range() != 0) {
-    set_fuzzy_range(from.fuzzy_range());
-  }
-  if (from.filter_type() != 0) {
-    set_filter_type(from.filter_type());
-  }
-  if (from.query_type() != 0) {
-    set_query_type(from.query_type());
-  }
-}
-
-void ToTheMoonQueryPathReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.ToTheMoonQueryPathReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void ToTheMoonQueryPathReq::CopyFrom(const ToTheMoonQueryPathReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.ToTheMoonQueryPathReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool ToTheMoonQueryPathReq::IsInitialized() const {
-  return true;
-}
-
-void ToTheMoonQueryPathReq::Swap(ToTheMoonQueryPathReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void ToTheMoonQueryPathReq::InternalSwap(ToTheMoonQueryPathReq* other) {
-  using std::swap;
-  swap(destination_pos_, other->destination_pos_);
-  swap(source_pos_, other->source_pos_);
-  swap(astar_method_, other->astar_method_);
-  swap(query_id_, other->query_id_);
-  swap(scene_id_, other->scene_id_);
-  swap(refined_, other->refined_);
-  swap(use_full_neighbor_, other->use_full_neighbor_);
-  swap(fuzzy_range_, other->fuzzy_range_);
-  swap(filter_type_, other->filter_type_);
-  swap(query_type_, other->query_type_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata ToTheMoonQueryPathReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// ToTheMoonQueryPathReq
-
-// .proto.Vector destination_pos = 5;
-bool ToTheMoonQueryPathReq::has_destination_pos() const {
-  return this != internal_default_instance() && destination_pos_ != NULL;
-}
-void ToTheMoonQueryPathReq::clear_destination_pos() {
-  if (GetArenaNoVirtual() == NULL && destination_pos_ != NULL) delete destination_pos_;
-  destination_pos_ = NULL;
-}
-const ::proto::Vector& ToTheMoonQueryPathReq::destination_pos() const {
-  const ::proto::Vector* p = destination_pos_;
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonQueryPathReq.destination_pos)
-  return p != NULL ? *p : *reinterpret_cast<const ::proto::Vector*>(
-      &::proto::_Vector_default_instance_);
-}
-::proto::Vector* ToTheMoonQueryPathReq::mutable_destination_pos() {
-  
-  if (destination_pos_ == NULL) {
-    destination_pos_ = new ::proto::Vector;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.ToTheMoonQueryPathReq.destination_pos)
-  return destination_pos_;
-}
-::proto::Vector* ToTheMoonQueryPathReq::release_destination_pos() {
-  // @@protoc_insertion_point(field_release:proto.ToTheMoonQueryPathReq.destination_pos)
-  
-  ::proto::Vector* temp = destination_pos_;
-  destination_pos_ = NULL;
-  return temp;
-}
-void ToTheMoonQueryPathReq::set_allocated_destination_pos(::proto::Vector* destination_pos) {
-  delete destination_pos_;
-  destination_pos_ = destination_pos;
-  if (destination_pos) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.ToTheMoonQueryPathReq.destination_pos)
-}
-
-// int32 fuzzy_range = 7;
-void ToTheMoonQueryPathReq::clear_fuzzy_range() {
-  fuzzy_range_ = 0;
-}
-::google::protobuf::int32 ToTheMoonQueryPathReq::fuzzy_range() const {
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonQueryPathReq.fuzzy_range)
-  return fuzzy_range_;
-}
-void ToTheMoonQueryPathReq::set_fuzzy_range(::google::protobuf::int32 value) {
-  
-  fuzzy_range_ = value;
-  // @@protoc_insertion_point(field_set:proto.ToTheMoonQueryPathReq.fuzzy_range)
-}
-
-// .proto.ToTheMoonQueryPathReq.OptionType query_type = 15;
-void ToTheMoonQueryPathReq::clear_query_type() {
-  query_type_ = 0;
-}
-::proto::ToTheMoonQueryPathReq_OptionType ToTheMoonQueryPathReq::query_type() const {
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonQueryPathReq.query_type)
-  return static_cast< ::proto::ToTheMoonQueryPathReq_OptionType >(query_type_);
-}
-void ToTheMoonQueryPathReq::set_query_type(::proto::ToTheMoonQueryPathReq_OptionType value) {
-  
-  query_type_ = value;
-  // @@protoc_insertion_point(field_set:proto.ToTheMoonQueryPathReq.query_type)
-}
-
-// .proto.ToTheMoonQueryPathReq.AStarMethod astar_method = 1;
-void ToTheMoonQueryPathReq::clear_astar_method() {
-  astar_method_ = 0;
-}
-::proto::ToTheMoonQueryPathReq_AStarMethod ToTheMoonQueryPathReq::astar_method() const {
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonQueryPathReq.astar_method)
-  return static_cast< ::proto::ToTheMoonQueryPathReq_AStarMethod >(astar_method_);
-}
-void ToTheMoonQueryPathReq::set_astar_method(::proto::ToTheMoonQueryPathReq_AStarMethod value) {
-  
-  astar_method_ = value;
-  // @@protoc_insertion_point(field_set:proto.ToTheMoonQueryPathReq.astar_method)
-}
-
-// uint32 scene_id = 6;
-void ToTheMoonQueryPathReq::clear_scene_id() {
-  scene_id_ = 0u;
-}
-::google::protobuf::uint32 ToTheMoonQueryPathReq::scene_id() const {
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonQueryPathReq.scene_id)
-  return scene_id_;
-}
-void ToTheMoonQueryPathReq::set_scene_id(::google::protobuf::uint32 value) {
-  
-  scene_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.ToTheMoonQueryPathReq.scene_id)
-}
-
-// int32 query_id = 3;
-void ToTheMoonQueryPathReq::clear_query_id() {
-  query_id_ = 0;
-}
-::google::protobuf::int32 ToTheMoonQueryPathReq::query_id() const {
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonQueryPathReq.query_id)
-  return query_id_;
-}
-void ToTheMoonQueryPathReq::set_query_id(::google::protobuf::int32 value) {
-  
-  query_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.ToTheMoonQueryPathReq.query_id)
-}
-
-// .proto.ToTheMoonQueryPathReq.FilterType filter_type = 8;
-void ToTheMoonQueryPathReq::clear_filter_type() {
-  filter_type_ = 0;
-}
-::proto::ToTheMoonQueryPathReq_FilterType ToTheMoonQueryPathReq::filter_type() const {
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonQueryPathReq.filter_type)
-  return static_cast< ::proto::ToTheMoonQueryPathReq_FilterType >(filter_type_);
-}
-void ToTheMoonQueryPathReq::set_filter_type(::proto::ToTheMoonQueryPathReq_FilterType value) {
-  
-  filter_type_ = value;
-  // @@protoc_insertion_point(field_set:proto.ToTheMoonQueryPathReq.filter_type)
-}
-
-// bool refined = 10;
-void ToTheMoonQueryPathReq::clear_refined() {
-  refined_ = false;
-}
-bool ToTheMoonQueryPathReq::refined() const {
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonQueryPathReq.refined)
-  return refined_;
-}
-void ToTheMoonQueryPathReq::set_refined(bool value) {
-  
-  refined_ = value;
-  // @@protoc_insertion_point(field_set:proto.ToTheMoonQueryPathReq.refined)
-}
-
-// bool use_full_neighbor = 2;
-void ToTheMoonQueryPathReq::clear_use_full_neighbor() {
-  use_full_neighbor_ = false;
-}
-bool ToTheMoonQueryPathReq::use_full_neighbor() const {
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonQueryPathReq.use_full_neighbor)
-  return use_full_neighbor_;
-}
-void ToTheMoonQueryPathReq::set_use_full_neighbor(bool value) {
-  
-  use_full_neighbor_ = value;
-  // @@protoc_insertion_point(field_set:proto.ToTheMoonQueryPathReq.use_full_neighbor)
-}
-
-// .proto.Vector source_pos = 12;
-bool ToTheMoonQueryPathReq::has_source_pos() const {
-  return this != internal_default_instance() && source_pos_ != NULL;
-}
-void ToTheMoonQueryPathReq::clear_source_pos() {
-  if (GetArenaNoVirtual() == NULL && source_pos_ != NULL) delete source_pos_;
-  source_pos_ = NULL;
-}
-const ::proto::Vector& ToTheMoonQueryPathReq::source_pos() const {
-  const ::proto::Vector* p = source_pos_;
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonQueryPathReq.source_pos)
-  return p != NULL ? *p : *reinterpret_cast<const ::proto::Vector*>(
-      &::proto::_Vector_default_instance_);
-}
-::proto::Vector* ToTheMoonQueryPathReq::mutable_source_pos() {
-  
-  if (source_pos_ == NULL) {
-    source_pos_ = new ::proto::Vector;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.ToTheMoonQueryPathReq.source_pos)
-  return source_pos_;
-}
-::proto::Vector* ToTheMoonQueryPathReq::release_source_pos() {
-  // @@protoc_insertion_point(field_release:proto.ToTheMoonQueryPathReq.source_pos)
-  
-  ::proto::Vector* temp = source_pos_;
-  source_pos_ = NULL;
-  return temp;
-}
-void ToTheMoonQueryPathReq::set_allocated_source_pos(::proto::Vector* source_pos) {
-  delete source_pos_;
-  source_pos_ = source_pos;
-  if (source_pos) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.ToTheMoonQueryPathReq.source_pos)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int ToTheMoonQueryPathRsp::kQueryStatusFieldNumber;
-const int ToTheMoonQueryPathRsp::kIndexFieldNumber;
-const int ToTheMoonQueryPathRsp::kCornersFieldNumber;
-const int ToTheMoonQueryPathRsp::kLevelFieldNumber;
-const int ToTheMoonQueryPathRsp::kRetcodeFieldNumber;
-const int ToTheMoonQueryPathRsp::kQueryIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-ToTheMoonQueryPathRsp::ToTheMoonQueryPathRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5ftothemoon_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.ToTheMoonQueryPathRsp)
-}
-ToTheMoonQueryPathRsp::ToTheMoonQueryPathRsp(const ToTheMoonQueryPathRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      corners_(from.corners_),
-      index_(from.index_),
-      level_(from.level_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&retcode_, &from.retcode_,
-    static_cast<size_t>(reinterpret_cast<char*>(&query_status_) -
-    reinterpret_cast<char*>(&retcode_)) + sizeof(query_status_));
-  // @@protoc_insertion_point(copy_constructor:proto.ToTheMoonQueryPathRsp)
-}
-
-void ToTheMoonQueryPathRsp::SharedCtor() {
-  ::memset(&retcode_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&query_status_) -
-      reinterpret_cast<char*>(&retcode_)) + sizeof(query_status_));
-  _cached_size_ = 0;
-}
-
-ToTheMoonQueryPathRsp::~ToTheMoonQueryPathRsp() {
-  // @@protoc_insertion_point(destructor:proto.ToTheMoonQueryPathRsp)
-  SharedDtor();
-}
-
-void ToTheMoonQueryPathRsp::SharedDtor() {
-}
-
-void ToTheMoonQueryPathRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* ToTheMoonQueryPathRsp::descriptor() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const ToTheMoonQueryPathRsp& ToTheMoonQueryPathRsp::default_instance() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-ToTheMoonQueryPathRsp* ToTheMoonQueryPathRsp::New(::google::protobuf::Arena* arena) const {
-  ToTheMoonQueryPathRsp* n = new ToTheMoonQueryPathRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void ToTheMoonQueryPathRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.ToTheMoonQueryPathRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  corners_.Clear();
-  index_.Clear();
-  level_.Clear();
-  ::memset(&retcode_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&query_status_) -
-      reinterpret_cast<char*>(&retcode_)) + sizeof(query_status_));
-  _internal_metadata_.Clear();
 }
 
 bool ToTheMoonQueryPathRsp::MergePartialFromCodedStream(
@@ -1822,16 +588,18 @@ bool ToTheMoonQueryPathRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.ToTheMoonQueryPathRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.ToTheMoonQueryPathRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -1887,9 +655,9 @@ void ToTheMoonQueryPathRsp::SerializeWithCachedSizes(
       15, this->query_status(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.ToTheMoonQueryPathRsp)
 }
@@ -1951,9 +719,9 @@ void ToTheMoonQueryPathRsp::SerializeWithCachedSizes(
       15, this->query_status(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.ToTheMoonQueryPathRsp)
   return target;
@@ -1963,10 +731,10 @@ size_t ToTheMoonQueryPathRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.ToTheMoonQueryPathRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated .proto.Vector corners = 3;
   {
@@ -2038,283 +806,6 @@ size_t ToTheMoonQueryPathRsp::ByteSizeLong() const {
   return total_size;
 }
 
-void ToTheMoonQueryPathRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.ToTheMoonQueryPathRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const ToTheMoonQueryPathRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const ToTheMoonQueryPathRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.ToTheMoonQueryPathRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.ToTheMoonQueryPathRsp)
-    MergeFrom(*source);
-  }
-}
-
-void ToTheMoonQueryPathRsp::MergeFrom(const ToTheMoonQueryPathRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.ToTheMoonQueryPathRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  corners_.MergeFrom(from.corners_);
-  index_.MergeFrom(from.index_);
-  level_.MergeFrom(from.level_);
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-  if (from.query_id() != 0) {
-    set_query_id(from.query_id());
-  }
-  if (from.query_status() != 0) {
-    set_query_status(from.query_status());
-  }
-}
-
-void ToTheMoonQueryPathRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.ToTheMoonQueryPathRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void ToTheMoonQueryPathRsp::CopyFrom(const ToTheMoonQueryPathRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.ToTheMoonQueryPathRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool ToTheMoonQueryPathRsp::IsInitialized() const {
-  return true;
-}
-
-void ToTheMoonQueryPathRsp::Swap(ToTheMoonQueryPathRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void ToTheMoonQueryPathRsp::InternalSwap(ToTheMoonQueryPathRsp* other) {
-  using std::swap;
-  corners_.InternalSwap(&other->corners_);
-  index_.InternalSwap(&other->index_);
-  level_.InternalSwap(&other->level_);
-  swap(retcode_, other->retcode_);
-  swap(query_id_, other->query_id_);
-  swap(query_status_, other->query_status_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata ToTheMoonQueryPathRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// ToTheMoonQueryPathRsp
-
-// .proto.ToTheMoonQueryPathRsp.PathStatusType query_status = 15;
-void ToTheMoonQueryPathRsp::clear_query_status() {
-  query_status_ = 0;
-}
-::proto::ToTheMoonQueryPathRsp_PathStatusType ToTheMoonQueryPathRsp::query_status() const {
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonQueryPathRsp.query_status)
-  return static_cast< ::proto::ToTheMoonQueryPathRsp_PathStatusType >(query_status_);
-}
-void ToTheMoonQueryPathRsp::set_query_status(::proto::ToTheMoonQueryPathRsp_PathStatusType value) {
-  
-  query_status_ = value;
-  // @@protoc_insertion_point(field_set:proto.ToTheMoonQueryPathRsp.query_status)
-}
-
-// repeated int64 index = 10;
-int ToTheMoonQueryPathRsp::index_size() const {
-  return index_.size();
-}
-void ToTheMoonQueryPathRsp::clear_index() {
-  index_.Clear();
-}
-::google::protobuf::int64 ToTheMoonQueryPathRsp::index(int index) const {
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonQueryPathRsp.index)
-  return index_.Get(index);
-}
-void ToTheMoonQueryPathRsp::set_index(int index, ::google::protobuf::int64 value) {
-  index_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.ToTheMoonQueryPathRsp.index)
-}
-void ToTheMoonQueryPathRsp::add_index(::google::protobuf::int64 value) {
-  index_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.ToTheMoonQueryPathRsp.index)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::int64 >&
-ToTheMoonQueryPathRsp::index() const {
-  // @@protoc_insertion_point(field_list:proto.ToTheMoonQueryPathRsp.index)
-  return index_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::int64 >*
-ToTheMoonQueryPathRsp::mutable_index() {
-  // @@protoc_insertion_point(field_mutable_list:proto.ToTheMoonQueryPathRsp.index)
-  return &index_;
-}
-
-// repeated .proto.Vector corners = 3;
-int ToTheMoonQueryPathRsp::corners_size() const {
-  return corners_.size();
-}
-void ToTheMoonQueryPathRsp::clear_corners() {
-  corners_.Clear();
-}
-const ::proto::Vector& ToTheMoonQueryPathRsp::corners(int index) const {
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonQueryPathRsp.corners)
-  return corners_.Get(index);
-}
-::proto::Vector* ToTheMoonQueryPathRsp::mutable_corners(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.ToTheMoonQueryPathRsp.corners)
-  return corners_.Mutable(index);
-}
-::proto::Vector* ToTheMoonQueryPathRsp::add_corners() {
-  // @@protoc_insertion_point(field_add:proto.ToTheMoonQueryPathRsp.corners)
-  return corners_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::Vector >*
-ToTheMoonQueryPathRsp::mutable_corners() {
-  // @@protoc_insertion_point(field_mutable_list:proto.ToTheMoonQueryPathRsp.corners)
-  return &corners_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::Vector >&
-ToTheMoonQueryPathRsp::corners() const {
-  // @@protoc_insertion_point(field_list:proto.ToTheMoonQueryPathRsp.corners)
-  return corners_;
-}
-
-// repeated int32 level = 13;
-int ToTheMoonQueryPathRsp::level_size() const {
-  return level_.size();
-}
-void ToTheMoonQueryPathRsp::clear_level() {
-  level_.Clear();
-}
-::google::protobuf::int32 ToTheMoonQueryPathRsp::level(int index) const {
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonQueryPathRsp.level)
-  return level_.Get(index);
-}
-void ToTheMoonQueryPathRsp::set_level(int index, ::google::protobuf::int32 value) {
-  level_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.ToTheMoonQueryPathRsp.level)
-}
-void ToTheMoonQueryPathRsp::add_level(::google::protobuf::int32 value) {
-  level_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.ToTheMoonQueryPathRsp.level)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::int32 >&
-ToTheMoonQueryPathRsp::level() const {
-  // @@protoc_insertion_point(field_list:proto.ToTheMoonQueryPathRsp.level)
-  return level_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::int32 >*
-ToTheMoonQueryPathRsp::mutable_level() {
-  // @@protoc_insertion_point(field_mutable_list:proto.ToTheMoonQueryPathRsp.level)
-  return &level_;
-}
-
-// int32 retcode = 1;
-void ToTheMoonQueryPathRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 ToTheMoonQueryPathRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonQueryPathRsp.retcode)
-  return retcode_;
-}
-void ToTheMoonQueryPathRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.ToTheMoonQueryPathRsp.retcode)
-}
-
-// int32 query_id = 11;
-void ToTheMoonQueryPathRsp::clear_query_id() {
-  query_id_ = 0;
-}
-::google::protobuf::int32 ToTheMoonQueryPathRsp::query_id() const {
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonQueryPathRsp.query_id)
-  return query_id_;
-}
-void ToTheMoonQueryPathRsp::set_query_id(::google::protobuf::int32 value) {
-  
-  query_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.ToTheMoonQueryPathRsp.query_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-ToTheMoonPingNotify::ToTheMoonPingNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5ftothemoon_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.ToTheMoonPingNotify)
-}
-ToTheMoonPingNotify::ToTheMoonPingNotify(const ToTheMoonPingNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  // @@protoc_insertion_point(copy_constructor:proto.ToTheMoonPingNotify)
-}
-
-void ToTheMoonPingNotify::SharedCtor() {
-  _cached_size_ = 0;
-}
-
-ToTheMoonPingNotify::~ToTheMoonPingNotify() {
-  // @@protoc_insertion_point(destructor:proto.ToTheMoonPingNotify)
-  SharedDtor();
-}
-
-void ToTheMoonPingNotify::SharedDtor() {
-}
-
-void ToTheMoonPingNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* ToTheMoonPingNotify::descriptor() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const ToTheMoonPingNotify& ToTheMoonPingNotify::default_instance() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-ToTheMoonPingNotify* ToTheMoonPingNotify::New(::google::protobuf::Arena* arena) const {
-  ToTheMoonPingNotify* n = new ToTheMoonPingNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void ToTheMoonPingNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.ToTheMoonPingNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  _internal_metadata_.Clear();
-}
-
 bool ToTheMoonPingNotify::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -2329,13 +820,15 @@ bool ToTheMoonPingNotify::MergePartialFromCodedStream(
       goto success;
     }
     DO_(::google::protobuf::internal::WireFormat::SkipField(
-          input, tag, _internal_metadata_.mutable_unknown_fields()));
+          input, tag, nullptr));
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.ToTheMoonPingNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.ToTheMoonPingNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -2346,9 +839,9 @@ void ToTheMoonPingNotify::SerializeWithCachedSizes(
   ::google::protobuf::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.ToTheMoonPingNotify)
 }
@@ -2360,9 +853,9 @@ void ToTheMoonPingNotify::SerializeWithCachedSizes(
   ::google::protobuf::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.ToTheMoonPingNotify)
   return target;
@@ -2372,154 +865,16 @@ size_t ToTheMoonPingNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.ToTheMoonPingNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
   GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void ToTheMoonPingNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.ToTheMoonPingNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const ToTheMoonPingNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const ToTheMoonPingNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.ToTheMoonPingNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.ToTheMoonPingNotify)
-    MergeFrom(*source);
-  }
-}
-
-void ToTheMoonPingNotify::MergeFrom(const ToTheMoonPingNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.ToTheMoonPingNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-}
-
-void ToTheMoonPingNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.ToTheMoonPingNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void ToTheMoonPingNotify::CopyFrom(const ToTheMoonPingNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.ToTheMoonPingNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool ToTheMoonPingNotify::IsInitialized() const {
-  return true;
-}
-
-void ToTheMoonPingNotify::Swap(ToTheMoonPingNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void ToTheMoonPingNotify::InternalSwap(ToTheMoonPingNotify* other) {
-  using std::swap;
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata ToTheMoonPingNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// ToTheMoonPingNotify
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int ToTheMoonEnterSceneReq::kVersionFieldNumber;
-const int ToTheMoonEnterSceneReq::kSceneIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-ToTheMoonEnterSceneReq::ToTheMoonEnterSceneReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5ftothemoon_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.ToTheMoonEnterSceneReq)
-}
-ToTheMoonEnterSceneReq::ToTheMoonEnterSceneReq(const ToTheMoonEnterSceneReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&version_, &from.version_,
-    static_cast<size_t>(reinterpret_cast<char*>(&scene_id_) -
-    reinterpret_cast<char*>(&version_)) + sizeof(scene_id_));
-  // @@protoc_insertion_point(copy_constructor:proto.ToTheMoonEnterSceneReq)
-}
-
-void ToTheMoonEnterSceneReq::SharedCtor() {
-  ::memset(&version_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&scene_id_) -
-      reinterpret_cast<char*>(&version_)) + sizeof(scene_id_));
-  _cached_size_ = 0;
-}
-
-ToTheMoonEnterSceneReq::~ToTheMoonEnterSceneReq() {
-  // @@protoc_insertion_point(destructor:proto.ToTheMoonEnterSceneReq)
-  SharedDtor();
-}
-
-void ToTheMoonEnterSceneReq::SharedDtor() {
-}
-
-void ToTheMoonEnterSceneReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* ToTheMoonEnterSceneReq::descriptor() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const ToTheMoonEnterSceneReq& ToTheMoonEnterSceneReq::default_instance() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-ToTheMoonEnterSceneReq* ToTheMoonEnterSceneReq::New(::google::protobuf::Arena* arena) const {
-  ToTheMoonEnterSceneReq* n = new ToTheMoonEnterSceneReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void ToTheMoonEnterSceneReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.ToTheMoonEnterSceneReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&version_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&scene_id_) -
-      reinterpret_cast<char*>(&version_)) + sizeof(scene_id_));
-  _internal_metadata_.Clear();
 }
 
 bool ToTheMoonEnterSceneReq::MergePartialFromCodedStream(
@@ -2566,16 +921,18 @@ bool ToTheMoonEnterSceneReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.ToTheMoonEnterSceneReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.ToTheMoonEnterSceneReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -2596,9 +953,9 @@ void ToTheMoonEnterSceneReq::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(12, this->scene_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.ToTheMoonEnterSceneReq)
 }
@@ -2620,9 +977,9 @@ void ToTheMoonEnterSceneReq::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(12, this->scene_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.ToTheMoonEnterSceneReq)
   return target;
@@ -2632,10 +989,10 @@ size_t ToTheMoonEnterSceneReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.ToTheMoonEnterSceneReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 version = 10;
   if (this->version() != 0) {
@@ -2656,173 +1013,6 @@ size_t ToTheMoonEnterSceneReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void ToTheMoonEnterSceneReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.ToTheMoonEnterSceneReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const ToTheMoonEnterSceneReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const ToTheMoonEnterSceneReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.ToTheMoonEnterSceneReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.ToTheMoonEnterSceneReq)
-    MergeFrom(*source);
-  }
-}
-
-void ToTheMoonEnterSceneReq::MergeFrom(const ToTheMoonEnterSceneReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.ToTheMoonEnterSceneReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.version() != 0) {
-    set_version(from.version());
-  }
-  if (from.scene_id() != 0) {
-    set_scene_id(from.scene_id());
-  }
-}
-
-void ToTheMoonEnterSceneReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.ToTheMoonEnterSceneReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void ToTheMoonEnterSceneReq::CopyFrom(const ToTheMoonEnterSceneReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.ToTheMoonEnterSceneReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool ToTheMoonEnterSceneReq::IsInitialized() const {
-  return true;
-}
-
-void ToTheMoonEnterSceneReq::Swap(ToTheMoonEnterSceneReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void ToTheMoonEnterSceneReq::InternalSwap(ToTheMoonEnterSceneReq* other) {
-  using std::swap;
-  swap(version_, other->version_);
-  swap(scene_id_, other->scene_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata ToTheMoonEnterSceneReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// ToTheMoonEnterSceneReq
-
-// uint32 version = 10;
-void ToTheMoonEnterSceneReq::clear_version() {
-  version_ = 0u;
-}
-::google::protobuf::uint32 ToTheMoonEnterSceneReq::version() const {
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonEnterSceneReq.version)
-  return version_;
-}
-void ToTheMoonEnterSceneReq::set_version(::google::protobuf::uint32 value) {
-  
-  version_ = value;
-  // @@protoc_insertion_point(field_set:proto.ToTheMoonEnterSceneReq.version)
-}
-
-// uint32 scene_id = 12;
-void ToTheMoonEnterSceneReq::clear_scene_id() {
-  scene_id_ = 0u;
-}
-::google::protobuf::uint32 ToTheMoonEnterSceneReq::scene_id() const {
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonEnterSceneReq.scene_id)
-  return scene_id_;
-}
-void ToTheMoonEnterSceneReq::set_scene_id(::google::protobuf::uint32 value) {
-  
-  scene_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.ToTheMoonEnterSceneReq.scene_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int ToTheMoonEnterSceneRsp::kRetcodeFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-ToTheMoonEnterSceneRsp::ToTheMoonEnterSceneRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5ftothemoon_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.ToTheMoonEnterSceneRsp)
-}
-ToTheMoonEnterSceneRsp::ToTheMoonEnterSceneRsp(const ToTheMoonEnterSceneRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  retcode_ = from.retcode_;
-  // @@protoc_insertion_point(copy_constructor:proto.ToTheMoonEnterSceneRsp)
-}
-
-void ToTheMoonEnterSceneRsp::SharedCtor() {
-  retcode_ = 0;
-  _cached_size_ = 0;
-}
-
-ToTheMoonEnterSceneRsp::~ToTheMoonEnterSceneRsp() {
-  // @@protoc_insertion_point(destructor:proto.ToTheMoonEnterSceneRsp)
-  SharedDtor();
-}
-
-void ToTheMoonEnterSceneRsp::SharedDtor() {
-}
-
-void ToTheMoonEnterSceneRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* ToTheMoonEnterSceneRsp::descriptor() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const ToTheMoonEnterSceneRsp& ToTheMoonEnterSceneRsp::default_instance() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-ToTheMoonEnterSceneRsp* ToTheMoonEnterSceneRsp::New(::google::protobuf::Arena* arena) const {
-  ToTheMoonEnterSceneRsp* n = new ToTheMoonEnterSceneRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void ToTheMoonEnterSceneRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.ToTheMoonEnterSceneRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  retcode_ = 0;
-  _internal_metadata_.Clear();
 }
 
 bool ToTheMoonEnterSceneRsp::MergePartialFromCodedStream(
@@ -2855,16 +1045,18 @@ bool ToTheMoonEnterSceneRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.ToTheMoonEnterSceneRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.ToTheMoonEnterSceneRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -2880,9 +1072,9 @@ void ToTheMoonEnterSceneRsp::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteInt32(12, this->retcode(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.ToTheMoonEnterSceneRsp)
 }
@@ -2899,9 +1091,9 @@ void ToTheMoonEnterSceneRsp::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(12, this->retcode(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.ToTheMoonEnterSceneRsp)
   return target;
@@ -2911,10 +1103,10 @@ size_t ToTheMoonEnterSceneRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.ToTheMoonEnterSceneRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // int32 retcode = 12;
   if (this->retcode() != 0) {
@@ -2928,195 +1120,6 @@ size_t ToTheMoonEnterSceneRsp::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void ToTheMoonEnterSceneRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.ToTheMoonEnterSceneRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const ToTheMoonEnterSceneRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const ToTheMoonEnterSceneRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.ToTheMoonEnterSceneRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.ToTheMoonEnterSceneRsp)
-    MergeFrom(*source);
-  }
-}
-
-void ToTheMoonEnterSceneRsp::MergeFrom(const ToTheMoonEnterSceneRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.ToTheMoonEnterSceneRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-}
-
-void ToTheMoonEnterSceneRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.ToTheMoonEnterSceneRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void ToTheMoonEnterSceneRsp::CopyFrom(const ToTheMoonEnterSceneRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.ToTheMoonEnterSceneRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool ToTheMoonEnterSceneRsp::IsInitialized() const {
-  return true;
-}
-
-void ToTheMoonEnterSceneRsp::Swap(ToTheMoonEnterSceneRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void ToTheMoonEnterSceneRsp::InternalSwap(ToTheMoonEnterSceneRsp* other) {
-  using std::swap;
-  swap(retcode_, other->retcode_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata ToTheMoonEnterSceneRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// ToTheMoonEnterSceneRsp
-
-// int32 retcode = 12;
-void ToTheMoonEnterSceneRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 ToTheMoonEnterSceneRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonEnterSceneRsp.retcode)
-  return retcode_;
-}
-void ToTheMoonEnterSceneRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.ToTheMoonEnterSceneRsp.retcode)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int ToTheMoonObstacleInfo::kTypeFieldNumber;
-const int ToTheMoonObstacleInfo::kHandleIdFieldNumber;
-const int ToTheMoonObstacleInfo::kRotationFieldNumber;
-const int ToTheMoonObstacleInfo::kCenterFieldNumber;
-const int ToTheMoonObstacleInfo::kHalfExtentsFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-ToTheMoonObstacleInfo::ToTheMoonObstacleInfo()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5ftothemoon_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.ToTheMoonObstacleInfo)
-}
-ToTheMoonObstacleInfo::ToTheMoonObstacleInfo(const ToTheMoonObstacleInfo& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  if (from.has_center()) {
-    center_ = new ::proto::Vector(*from.center_);
-  } else {
-    center_ = NULL;
-  }
-  if (from.has_rotation()) {
-    rotation_ = new ::proto::MathQuaternion(*from.rotation_);
-  } else {
-    rotation_ = NULL;
-  }
-  if (from.has_half_extents()) {
-    half_extents_ = new ::proto::Vector(*from.half_extents_);
-  } else {
-    half_extents_ = NULL;
-  }
-  ::memcpy(&type_, &from.type_,
-    static_cast<size_t>(reinterpret_cast<char*>(&handle_id_) -
-    reinterpret_cast<char*>(&type_)) + sizeof(handle_id_));
-  // @@protoc_insertion_point(copy_constructor:proto.ToTheMoonObstacleInfo)
-}
-
-void ToTheMoonObstacleInfo::SharedCtor() {
-  ::memset(&center_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&handle_id_) -
-      reinterpret_cast<char*>(&center_)) + sizeof(handle_id_));
-  _cached_size_ = 0;
-}
-
-ToTheMoonObstacleInfo::~ToTheMoonObstacleInfo() {
-  // @@protoc_insertion_point(destructor:proto.ToTheMoonObstacleInfo)
-  SharedDtor();
-}
-
-void ToTheMoonObstacleInfo::SharedDtor() {
-  if (this != internal_default_instance()) delete center_;
-  if (this != internal_default_instance()) delete rotation_;
-  if (this != internal_default_instance()) delete half_extents_;
-}
-
-void ToTheMoonObstacleInfo::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* ToTheMoonObstacleInfo::descriptor() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const ToTheMoonObstacleInfo& ToTheMoonObstacleInfo::default_instance() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-ToTheMoonObstacleInfo* ToTheMoonObstacleInfo::New(::google::protobuf::Arena* arena) const {
-  ToTheMoonObstacleInfo* n = new ToTheMoonObstacleInfo;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void ToTheMoonObstacleInfo::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.ToTheMoonObstacleInfo)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  if (GetArenaNoVirtual() == NULL && center_ != NULL) {
-    delete center_;
-  }
-  center_ = NULL;
-  if (GetArenaNoVirtual() == NULL && rotation_ != NULL) {
-    delete rotation_;
-  }
-  rotation_ = NULL;
-  if (GetArenaNoVirtual() == NULL && half_extents_ != NULL) {
-    delete half_extents_;
-  }
-  half_extents_ = NULL;
-  ::memset(&type_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&handle_id_) -
-      reinterpret_cast<char*>(&type_)) + sizeof(handle_id_));
-  _internal_metadata_.Clear();
 }
 
 bool ToTheMoonObstacleInfo::MergePartialFromCodedStream(
@@ -3200,16 +1203,18 @@ bool ToTheMoonObstacleInfo::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.ToTheMoonObstacleInfo)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.ToTheMoonObstacleInfo)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -3249,9 +1254,9 @@ void ToTheMoonObstacleInfo::SerializeWithCachedSizes(
       9, *this->half_extents_, output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.ToTheMoonObstacleInfo)
 }
@@ -3295,9 +1300,9 @@ void ToTheMoonObstacleInfo::SerializeWithCachedSizes(
         9, *this->half_extents_, deterministic, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.ToTheMoonObstacleInfo)
   return target;
@@ -3307,10 +1312,10 @@ size_t ToTheMoonObstacleInfo::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.ToTheMoonObstacleInfo)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // .proto.Vector center = 3;
   if (this->has_center()) {
@@ -3351,324 +1356,6 @@ size_t ToTheMoonObstacleInfo::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void ToTheMoonObstacleInfo::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.ToTheMoonObstacleInfo)
-  GOOGLE_DCHECK_NE(&from, this);
-  const ToTheMoonObstacleInfo* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const ToTheMoonObstacleInfo>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.ToTheMoonObstacleInfo)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.ToTheMoonObstacleInfo)
-    MergeFrom(*source);
-  }
-}
-
-void ToTheMoonObstacleInfo::MergeFrom(const ToTheMoonObstacleInfo& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.ToTheMoonObstacleInfo)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.has_center()) {
-    mutable_center()->::proto::Vector::MergeFrom(from.center());
-  }
-  if (from.has_rotation()) {
-    mutable_rotation()->::proto::MathQuaternion::MergeFrom(from.rotation());
-  }
-  if (from.has_half_extents()) {
-    mutable_half_extents()->::proto::Vector::MergeFrom(from.half_extents());
-  }
-  if (from.type() != 0) {
-    set_type(from.type());
-  }
-  if (from.handle_id() != 0) {
-    set_handle_id(from.handle_id());
-  }
-}
-
-void ToTheMoonObstacleInfo::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.ToTheMoonObstacleInfo)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void ToTheMoonObstacleInfo::CopyFrom(const ToTheMoonObstacleInfo& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.ToTheMoonObstacleInfo)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool ToTheMoonObstacleInfo::IsInitialized() const {
-  return true;
-}
-
-void ToTheMoonObstacleInfo::Swap(ToTheMoonObstacleInfo* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void ToTheMoonObstacleInfo::InternalSwap(ToTheMoonObstacleInfo* other) {
-  using std::swap;
-  swap(center_, other->center_);
-  swap(rotation_, other->rotation_);
-  swap(half_extents_, other->half_extents_);
-  swap(type_, other->type_);
-  swap(handle_id_, other->handle_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata ToTheMoonObstacleInfo::GetMetadata() const {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// ToTheMoonObstacleInfo
-
-// .proto.ToTheMoonObstacleInfo.ShapeType type = 1;
-void ToTheMoonObstacleInfo::clear_type() {
-  type_ = 0;
-}
-::proto::ToTheMoonObstacleInfo_ShapeType ToTheMoonObstacleInfo::type() const {
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonObstacleInfo.type)
-  return static_cast< ::proto::ToTheMoonObstacleInfo_ShapeType >(type_);
-}
-void ToTheMoonObstacleInfo::set_type(::proto::ToTheMoonObstacleInfo_ShapeType value) {
-  
-  type_ = value;
-  // @@protoc_insertion_point(field_set:proto.ToTheMoonObstacleInfo.type)
-}
-
-// int32 handle_id = 5;
-void ToTheMoonObstacleInfo::clear_handle_id() {
-  handle_id_ = 0;
-}
-::google::protobuf::int32 ToTheMoonObstacleInfo::handle_id() const {
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonObstacleInfo.handle_id)
-  return handle_id_;
-}
-void ToTheMoonObstacleInfo::set_handle_id(::google::protobuf::int32 value) {
-  
-  handle_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.ToTheMoonObstacleInfo.handle_id)
-}
-
-// .proto.MathQuaternion rotation = 8;
-bool ToTheMoonObstacleInfo::has_rotation() const {
-  return this != internal_default_instance() && rotation_ != NULL;
-}
-void ToTheMoonObstacleInfo::clear_rotation() {
-  if (GetArenaNoVirtual() == NULL && rotation_ != NULL) delete rotation_;
-  rotation_ = NULL;
-}
-const ::proto::MathQuaternion& ToTheMoonObstacleInfo::rotation() const {
-  const ::proto::MathQuaternion* p = rotation_;
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonObstacleInfo.rotation)
-  return p != NULL ? *p : *reinterpret_cast<const ::proto::MathQuaternion*>(
-      &::proto::_MathQuaternion_default_instance_);
-}
-::proto::MathQuaternion* ToTheMoonObstacleInfo::mutable_rotation() {
-  
-  if (rotation_ == NULL) {
-    rotation_ = new ::proto::MathQuaternion;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.ToTheMoonObstacleInfo.rotation)
-  return rotation_;
-}
-::proto::MathQuaternion* ToTheMoonObstacleInfo::release_rotation() {
-  // @@protoc_insertion_point(field_release:proto.ToTheMoonObstacleInfo.rotation)
-  
-  ::proto::MathQuaternion* temp = rotation_;
-  rotation_ = NULL;
-  return temp;
-}
-void ToTheMoonObstacleInfo::set_allocated_rotation(::proto::MathQuaternion* rotation) {
-  delete rotation_;
-  rotation_ = rotation;
-  if (rotation) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.ToTheMoonObstacleInfo.rotation)
-}
-
-// .proto.Vector center = 3;
-bool ToTheMoonObstacleInfo::has_center() const {
-  return this != internal_default_instance() && center_ != NULL;
-}
-void ToTheMoonObstacleInfo::clear_center() {
-  if (GetArenaNoVirtual() == NULL && center_ != NULL) delete center_;
-  center_ = NULL;
-}
-const ::proto::Vector& ToTheMoonObstacleInfo::center() const {
-  const ::proto::Vector* p = center_;
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonObstacleInfo.center)
-  return p != NULL ? *p : *reinterpret_cast<const ::proto::Vector*>(
-      &::proto::_Vector_default_instance_);
-}
-::proto::Vector* ToTheMoonObstacleInfo::mutable_center() {
-  
-  if (center_ == NULL) {
-    center_ = new ::proto::Vector;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.ToTheMoonObstacleInfo.center)
-  return center_;
-}
-::proto::Vector* ToTheMoonObstacleInfo::release_center() {
-  // @@protoc_insertion_point(field_release:proto.ToTheMoonObstacleInfo.center)
-  
-  ::proto::Vector* temp = center_;
-  center_ = NULL;
-  return temp;
-}
-void ToTheMoonObstacleInfo::set_allocated_center(::proto::Vector* center) {
-  delete center_;
-  center_ = center;
-  if (center) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.ToTheMoonObstacleInfo.center)
-}
-
-// .proto.Vector half_extents = 9;
-bool ToTheMoonObstacleInfo::has_half_extents() const {
-  return this != internal_default_instance() && half_extents_ != NULL;
-}
-void ToTheMoonObstacleInfo::clear_half_extents() {
-  if (GetArenaNoVirtual() == NULL && half_extents_ != NULL) delete half_extents_;
-  half_extents_ = NULL;
-}
-const ::proto::Vector& ToTheMoonObstacleInfo::half_extents() const {
-  const ::proto::Vector* p = half_extents_;
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonObstacleInfo.half_extents)
-  return p != NULL ? *p : *reinterpret_cast<const ::proto::Vector*>(
-      &::proto::_Vector_default_instance_);
-}
-::proto::Vector* ToTheMoonObstacleInfo::mutable_half_extents() {
-  
-  if (half_extents_ == NULL) {
-    half_extents_ = new ::proto::Vector;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.ToTheMoonObstacleInfo.half_extents)
-  return half_extents_;
-}
-::proto::Vector* ToTheMoonObstacleInfo::release_half_extents() {
-  // @@protoc_insertion_point(field_release:proto.ToTheMoonObstacleInfo.half_extents)
-  
-  ::proto::Vector* temp = half_extents_;
-  half_extents_ = NULL;
-  return temp;
-}
-void ToTheMoonObstacleInfo::set_allocated_half_extents(::proto::Vector* half_extents) {
-  delete half_extents_;
-  half_extents_ = half_extents;
-  if (half_extents) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.ToTheMoonObstacleInfo.half_extents)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int ToTheMoonAddObstacleReq::kUseEdgeFieldNumber;
-const int ToTheMoonAddObstacleReq::kObstacleFieldNumber;
-const int ToTheMoonAddObstacleReq::kQueryIdFieldNumber;
-const int ToTheMoonAddObstacleReq::kSceneIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-ToTheMoonAddObstacleReq::ToTheMoonAddObstacleReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5ftothemoon_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.ToTheMoonAddObstacleReq)
-}
-ToTheMoonAddObstacleReq::ToTheMoonAddObstacleReq(const ToTheMoonAddObstacleReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  if (from.has_obstacle()) {
-    obstacle_ = new ::proto::ToTheMoonObstacleInfo(*from.obstacle_);
-  } else {
-    obstacle_ = NULL;
-  }
-  ::memcpy(&use_edge_, &from.use_edge_,
-    static_cast<size_t>(reinterpret_cast<char*>(&scene_id_) -
-    reinterpret_cast<char*>(&use_edge_)) + sizeof(scene_id_));
-  // @@protoc_insertion_point(copy_constructor:proto.ToTheMoonAddObstacleReq)
-}
-
-void ToTheMoonAddObstacleReq::SharedCtor() {
-  ::memset(&obstacle_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&scene_id_) -
-      reinterpret_cast<char*>(&obstacle_)) + sizeof(scene_id_));
-  _cached_size_ = 0;
-}
-
-ToTheMoonAddObstacleReq::~ToTheMoonAddObstacleReq() {
-  // @@protoc_insertion_point(destructor:proto.ToTheMoonAddObstacleReq)
-  SharedDtor();
-}
-
-void ToTheMoonAddObstacleReq::SharedDtor() {
-  if (this != internal_default_instance()) delete obstacle_;
-}
-
-void ToTheMoonAddObstacleReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* ToTheMoonAddObstacleReq::descriptor() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const ToTheMoonAddObstacleReq& ToTheMoonAddObstacleReq::default_instance() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-ToTheMoonAddObstacleReq* ToTheMoonAddObstacleReq::New(::google::protobuf::Arena* arena) const {
-  ToTheMoonAddObstacleReq* n = new ToTheMoonAddObstacleReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void ToTheMoonAddObstacleReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.ToTheMoonAddObstacleReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  if (GetArenaNoVirtual() == NULL && obstacle_ != NULL) {
-    delete obstacle_;
-  }
-  obstacle_ = NULL;
-  ::memset(&use_edge_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&scene_id_) -
-      reinterpret_cast<char*>(&use_edge_)) + sizeof(scene_id_));
-  _internal_metadata_.Clear();
 }
 
 bool ToTheMoonAddObstacleReq::MergePartialFromCodedStream(
@@ -3741,16 +1428,18 @@ bool ToTheMoonAddObstacleReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.ToTheMoonAddObstacleReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.ToTheMoonAddObstacleReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -3782,9 +1471,9 @@ void ToTheMoonAddObstacleReq::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteBool(15, this->use_edge(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.ToTheMoonAddObstacleReq)
 }
@@ -3818,9 +1507,9 @@ void ToTheMoonAddObstacleReq::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteBoolToArray(15, this->use_edge(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.ToTheMoonAddObstacleReq)
   return target;
@@ -3830,10 +1519,10 @@ size_t ToTheMoonAddObstacleReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.ToTheMoonAddObstacleReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // .proto.ToTheMoonObstacleInfo obstacle = 6;
   if (this->has_obstacle()) {
@@ -3866,253 +1555,6 @@ size_t ToTheMoonAddObstacleReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void ToTheMoonAddObstacleReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.ToTheMoonAddObstacleReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const ToTheMoonAddObstacleReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const ToTheMoonAddObstacleReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.ToTheMoonAddObstacleReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.ToTheMoonAddObstacleReq)
-    MergeFrom(*source);
-  }
-}
-
-void ToTheMoonAddObstacleReq::MergeFrom(const ToTheMoonAddObstacleReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.ToTheMoonAddObstacleReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.has_obstacle()) {
-    mutable_obstacle()->::proto::ToTheMoonObstacleInfo::MergeFrom(from.obstacle());
-  }
-  if (from.use_edge() != 0) {
-    set_use_edge(from.use_edge());
-  }
-  if (from.query_id() != 0) {
-    set_query_id(from.query_id());
-  }
-  if (from.scene_id() != 0) {
-    set_scene_id(from.scene_id());
-  }
-}
-
-void ToTheMoonAddObstacleReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.ToTheMoonAddObstacleReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void ToTheMoonAddObstacleReq::CopyFrom(const ToTheMoonAddObstacleReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.ToTheMoonAddObstacleReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool ToTheMoonAddObstacleReq::IsInitialized() const {
-  return true;
-}
-
-void ToTheMoonAddObstacleReq::Swap(ToTheMoonAddObstacleReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void ToTheMoonAddObstacleReq::InternalSwap(ToTheMoonAddObstacleReq* other) {
-  using std::swap;
-  swap(obstacle_, other->obstacle_);
-  swap(use_edge_, other->use_edge_);
-  swap(query_id_, other->query_id_);
-  swap(scene_id_, other->scene_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata ToTheMoonAddObstacleReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// ToTheMoonAddObstacleReq
-
-// bool use_edge = 15;
-void ToTheMoonAddObstacleReq::clear_use_edge() {
-  use_edge_ = false;
-}
-bool ToTheMoonAddObstacleReq::use_edge() const {
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonAddObstacleReq.use_edge)
-  return use_edge_;
-}
-void ToTheMoonAddObstacleReq::set_use_edge(bool value) {
-  
-  use_edge_ = value;
-  // @@protoc_insertion_point(field_set:proto.ToTheMoonAddObstacleReq.use_edge)
-}
-
-// .proto.ToTheMoonObstacleInfo obstacle = 6;
-bool ToTheMoonAddObstacleReq::has_obstacle() const {
-  return this != internal_default_instance() && obstacle_ != NULL;
-}
-void ToTheMoonAddObstacleReq::clear_obstacle() {
-  if (GetArenaNoVirtual() == NULL && obstacle_ != NULL) delete obstacle_;
-  obstacle_ = NULL;
-}
-const ::proto::ToTheMoonObstacleInfo& ToTheMoonAddObstacleReq::obstacle() const {
-  const ::proto::ToTheMoonObstacleInfo* p = obstacle_;
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonAddObstacleReq.obstacle)
-  return p != NULL ? *p : *reinterpret_cast<const ::proto::ToTheMoonObstacleInfo*>(
-      &::proto::_ToTheMoonObstacleInfo_default_instance_);
-}
-::proto::ToTheMoonObstacleInfo* ToTheMoonAddObstacleReq::mutable_obstacle() {
-  
-  if (obstacle_ == NULL) {
-    obstacle_ = new ::proto::ToTheMoonObstacleInfo;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.ToTheMoonAddObstacleReq.obstacle)
-  return obstacle_;
-}
-::proto::ToTheMoonObstacleInfo* ToTheMoonAddObstacleReq::release_obstacle() {
-  // @@protoc_insertion_point(field_release:proto.ToTheMoonAddObstacleReq.obstacle)
-  
-  ::proto::ToTheMoonObstacleInfo* temp = obstacle_;
-  obstacle_ = NULL;
-  return temp;
-}
-void ToTheMoonAddObstacleReq::set_allocated_obstacle(::proto::ToTheMoonObstacleInfo* obstacle) {
-  delete obstacle_;
-  obstacle_ = obstacle;
-  if (obstacle) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.ToTheMoonAddObstacleReq.obstacle)
-}
-
-// int32 query_id = 5;
-void ToTheMoonAddObstacleReq::clear_query_id() {
-  query_id_ = 0;
-}
-::google::protobuf::int32 ToTheMoonAddObstacleReq::query_id() const {
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonAddObstacleReq.query_id)
-  return query_id_;
-}
-void ToTheMoonAddObstacleReq::set_query_id(::google::protobuf::int32 value) {
-  
-  query_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.ToTheMoonAddObstacleReq.query_id)
-}
-
-// uint32 scene_id = 7;
-void ToTheMoonAddObstacleReq::clear_scene_id() {
-  scene_id_ = 0u;
-}
-::google::protobuf::uint32 ToTheMoonAddObstacleReq::scene_id() const {
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonAddObstacleReq.scene_id)
-  return scene_id_;
-}
-void ToTheMoonAddObstacleReq::set_scene_id(::google::protobuf::uint32 value) {
-  
-  scene_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.ToTheMoonAddObstacleReq.scene_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int DynamicSVONode::kIndexFieldNumber;
-const int DynamicSVONode::kAreaFieldNumber;
-const int DynamicSVONode::kReferPosFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-DynamicSVONode::DynamicSVONode()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5ftothemoon_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.DynamicSVONode)
-}
-DynamicSVONode::DynamicSVONode(const DynamicSVONode& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  if (from.has_refer_pos()) {
-    refer_pos_ = new ::proto::Vector(*from.refer_pos_);
-  } else {
-    refer_pos_ = NULL;
-  }
-  ::memcpy(&area_, &from.area_,
-    static_cast<size_t>(reinterpret_cast<char*>(&index_) -
-    reinterpret_cast<char*>(&area_)) + sizeof(index_));
-  // @@protoc_insertion_point(copy_constructor:proto.DynamicSVONode)
-}
-
-void DynamicSVONode::SharedCtor() {
-  ::memset(&refer_pos_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&index_) -
-      reinterpret_cast<char*>(&refer_pos_)) + sizeof(index_));
-  _cached_size_ = 0;
-}
-
-DynamicSVONode::~DynamicSVONode() {
-  // @@protoc_insertion_point(destructor:proto.DynamicSVONode)
-  SharedDtor();
-}
-
-void DynamicSVONode::SharedDtor() {
-  if (this != internal_default_instance()) delete refer_pos_;
-}
-
-void DynamicSVONode::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* DynamicSVONode::descriptor() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const DynamicSVONode& DynamicSVONode::default_instance() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-DynamicSVONode* DynamicSVONode::New(::google::protobuf::Arena* arena) const {
-  DynamicSVONode* n = new DynamicSVONode;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void DynamicSVONode::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.DynamicSVONode)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  if (GetArenaNoVirtual() == NULL && refer_pos_ != NULL) {
-    delete refer_pos_;
-  }
-  refer_pos_ = NULL;
-  ::memset(&area_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&index_) -
-      reinterpret_cast<char*>(&area_)) + sizeof(index_));
-  _internal_metadata_.Clear();
 }
 
 bool DynamicSVONode::MergePartialFromCodedStream(
@@ -4171,16 +1613,18 @@ bool DynamicSVONode::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.DynamicSVONode)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.DynamicSVONode)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -4207,9 +1651,9 @@ void DynamicSVONode::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteInt32(13, this->area(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.DynamicSVONode)
 }
@@ -4238,9 +1682,9 @@ void DynamicSVONode::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(13, this->area(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.DynamicSVONode)
   return target;
@@ -4250,10 +1694,10 @@ size_t DynamicSVONode::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.DynamicSVONode)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // .proto.Vector refer_pos = 9;
   if (this->has_refer_pos()) {
@@ -4281,220 +1725,6 @@ size_t DynamicSVONode::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void DynamicSVONode::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.DynamicSVONode)
-  GOOGLE_DCHECK_NE(&from, this);
-  const DynamicSVONode* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const DynamicSVONode>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.DynamicSVONode)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.DynamicSVONode)
-    MergeFrom(*source);
-  }
-}
-
-void DynamicSVONode::MergeFrom(const DynamicSVONode& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.DynamicSVONode)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.has_refer_pos()) {
-    mutable_refer_pos()->::proto::Vector::MergeFrom(from.refer_pos());
-  }
-  if (from.area() != 0) {
-    set_area(from.area());
-  }
-  if (from.index() != 0) {
-    set_index(from.index());
-  }
-}
-
-void DynamicSVONode::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.DynamicSVONode)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void DynamicSVONode::CopyFrom(const DynamicSVONode& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.DynamicSVONode)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool DynamicSVONode::IsInitialized() const {
-  return true;
-}
-
-void DynamicSVONode::Swap(DynamicSVONode* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void DynamicSVONode::InternalSwap(DynamicSVONode* other) {
-  using std::swap;
-  swap(refer_pos_, other->refer_pos_);
-  swap(area_, other->area_);
-  swap(index_, other->index_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata DynamicSVONode::GetMetadata() const {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// DynamicSVONode
-
-// int64 index = 11;
-void DynamicSVONode::clear_index() {
-  index_ = GOOGLE_LONGLONG(0);
-}
-::google::protobuf::int64 DynamicSVONode::index() const {
-  // @@protoc_insertion_point(field_get:proto.DynamicSVONode.index)
-  return index_;
-}
-void DynamicSVONode::set_index(::google::protobuf::int64 value) {
-  
-  index_ = value;
-  // @@protoc_insertion_point(field_set:proto.DynamicSVONode.index)
-}
-
-// int32 area = 13;
-void DynamicSVONode::clear_area() {
-  area_ = 0;
-}
-::google::protobuf::int32 DynamicSVONode::area() const {
-  // @@protoc_insertion_point(field_get:proto.DynamicSVONode.area)
-  return area_;
-}
-void DynamicSVONode::set_area(::google::protobuf::int32 value) {
-  
-  area_ = value;
-  // @@protoc_insertion_point(field_set:proto.DynamicSVONode.area)
-}
-
-// .proto.Vector refer_pos = 9;
-bool DynamicSVONode::has_refer_pos() const {
-  return this != internal_default_instance() && refer_pos_ != NULL;
-}
-void DynamicSVONode::clear_refer_pos() {
-  if (GetArenaNoVirtual() == NULL && refer_pos_ != NULL) delete refer_pos_;
-  refer_pos_ = NULL;
-}
-const ::proto::Vector& DynamicSVONode::refer_pos() const {
-  const ::proto::Vector* p = refer_pos_;
-  // @@protoc_insertion_point(field_get:proto.DynamicSVONode.refer_pos)
-  return p != NULL ? *p : *reinterpret_cast<const ::proto::Vector*>(
-      &::proto::_Vector_default_instance_);
-}
-::proto::Vector* DynamicSVONode::mutable_refer_pos() {
-  
-  if (refer_pos_ == NULL) {
-    refer_pos_ = new ::proto::Vector;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.DynamicSVONode.refer_pos)
-  return refer_pos_;
-}
-::proto::Vector* DynamicSVONode::release_refer_pos() {
-  // @@protoc_insertion_point(field_release:proto.DynamicSVONode.refer_pos)
-  
-  ::proto::Vector* temp = refer_pos_;
-  refer_pos_ = NULL;
-  return temp;
-}
-void DynamicSVONode::set_allocated_refer_pos(::proto::Vector* refer_pos) {
-  delete refer_pos_;
-  refer_pos_ = refer_pos;
-  if (refer_pos) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.DynamicSVONode.refer_pos)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int DynamicLayerNodes::kLevelFieldNumber;
-const int DynamicLayerNodes::kNodesFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-DynamicLayerNodes::DynamicLayerNodes()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5ftothemoon_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.DynamicLayerNodes)
-}
-DynamicLayerNodes::DynamicLayerNodes(const DynamicLayerNodes& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      nodes_(from.nodes_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  level_ = from.level_;
-  // @@protoc_insertion_point(copy_constructor:proto.DynamicLayerNodes)
-}
-
-void DynamicLayerNodes::SharedCtor() {
-  level_ = 0;
-  _cached_size_ = 0;
-}
-
-DynamicLayerNodes::~DynamicLayerNodes() {
-  // @@protoc_insertion_point(destructor:proto.DynamicLayerNodes)
-  SharedDtor();
-}
-
-void DynamicLayerNodes::SharedDtor() {
-}
-
-void DynamicLayerNodes::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* DynamicLayerNodes::descriptor() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const DynamicLayerNodes& DynamicLayerNodes::default_instance() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-DynamicLayerNodes* DynamicLayerNodes::New(::google::protobuf::Arena* arena) const {
-  DynamicLayerNodes* n = new DynamicLayerNodes;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void DynamicLayerNodes::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.DynamicLayerNodes)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  nodes_.Clear();
-  level_ = 0;
-  _internal_metadata_.Clear();
 }
 
 bool DynamicLayerNodes::MergePartialFromCodedStream(
@@ -4539,16 +1769,18 @@ bool DynamicLayerNodes::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.DynamicLayerNodes)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.DynamicLayerNodes)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -4571,9 +1803,9 @@ void DynamicLayerNodes::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteInt32(12, this->level(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.DynamicLayerNodes)
 }
@@ -4598,9 +1830,9 @@ void DynamicLayerNodes::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(12, this->level(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.DynamicLayerNodes)
   return target;
@@ -4610,10 +1842,10 @@ size_t DynamicLayerNodes::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.DynamicLayerNodes)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated .proto.DynamicSVONode nodes = 8;
   {
@@ -4638,186 +1870,6 @@ size_t DynamicLayerNodes::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void DynamicLayerNodes::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.DynamicLayerNodes)
-  GOOGLE_DCHECK_NE(&from, this);
-  const DynamicLayerNodes* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const DynamicLayerNodes>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.DynamicLayerNodes)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.DynamicLayerNodes)
-    MergeFrom(*source);
-  }
-}
-
-void DynamicLayerNodes::MergeFrom(const DynamicLayerNodes& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.DynamicLayerNodes)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  nodes_.MergeFrom(from.nodes_);
-  if (from.level() != 0) {
-    set_level(from.level());
-  }
-}
-
-void DynamicLayerNodes::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.DynamicLayerNodes)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void DynamicLayerNodes::CopyFrom(const DynamicLayerNodes& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.DynamicLayerNodes)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool DynamicLayerNodes::IsInitialized() const {
-  return true;
-}
-
-void DynamicLayerNodes::Swap(DynamicLayerNodes* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void DynamicLayerNodes::InternalSwap(DynamicLayerNodes* other) {
-  using std::swap;
-  nodes_.InternalSwap(&other->nodes_);
-  swap(level_, other->level_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata DynamicLayerNodes::GetMetadata() const {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// DynamicLayerNodes
-
-// int32 level = 12;
-void DynamicLayerNodes::clear_level() {
-  level_ = 0;
-}
-::google::protobuf::int32 DynamicLayerNodes::level() const {
-  // @@protoc_insertion_point(field_get:proto.DynamicLayerNodes.level)
-  return level_;
-}
-void DynamicLayerNodes::set_level(::google::protobuf::int32 value) {
-  
-  level_ = value;
-  // @@protoc_insertion_point(field_set:proto.DynamicLayerNodes.level)
-}
-
-// repeated .proto.DynamicSVONode nodes = 8;
-int DynamicLayerNodes::nodes_size() const {
-  return nodes_.size();
-}
-void DynamicLayerNodes::clear_nodes() {
-  nodes_.Clear();
-}
-const ::proto::DynamicSVONode& DynamicLayerNodes::nodes(int index) const {
-  // @@protoc_insertion_point(field_get:proto.DynamicLayerNodes.nodes)
-  return nodes_.Get(index);
-}
-::proto::DynamicSVONode* DynamicLayerNodes::mutable_nodes(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.DynamicLayerNodes.nodes)
-  return nodes_.Mutable(index);
-}
-::proto::DynamicSVONode* DynamicLayerNodes::add_nodes() {
-  // @@protoc_insertion_point(field_add:proto.DynamicLayerNodes.nodes)
-  return nodes_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::DynamicSVONode >*
-DynamicLayerNodes::mutable_nodes() {
-  // @@protoc_insertion_point(field_mutable_list:proto.DynamicLayerNodes.nodes)
-  return &nodes_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::DynamicSVONode >&
-DynamicLayerNodes::nodes() const {
-  // @@protoc_insertion_point(field_list:proto.DynamicLayerNodes.nodes)
-  return nodes_;
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int DynamicNodes::kNodesFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-DynamicNodes::DynamicNodes()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5ftothemoon_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.DynamicNodes)
-}
-DynamicNodes::DynamicNodes(const DynamicNodes& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      nodes_(from.nodes_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  // @@protoc_insertion_point(copy_constructor:proto.DynamicNodes)
-}
-
-void DynamicNodes::SharedCtor() {
-  _cached_size_ = 0;
-}
-
-DynamicNodes::~DynamicNodes() {
-  // @@protoc_insertion_point(destructor:proto.DynamicNodes)
-  SharedDtor();
-}
-
-void DynamicNodes::SharedDtor() {
-}
-
-void DynamicNodes::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* DynamicNodes::descriptor() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const DynamicNodes& DynamicNodes::default_instance() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-DynamicNodes* DynamicNodes::New(::google::protobuf::Arena* arena) const {
-  DynamicNodes* n = new DynamicNodes;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void DynamicNodes::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.DynamicNodes)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  nodes_.Clear();
-  _internal_metadata_.Clear();
 }
 
 bool DynamicNodes::MergePartialFromCodedStream(
@@ -4848,16 +1900,18 @@ bool DynamicNodes::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.DynamicNodes)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.DynamicNodes)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -4875,9 +1929,9 @@ void DynamicNodes::SerializeWithCachedSizes(
       8, this->nodes(static_cast<int>(i)), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.DynamicNodes)
 }
@@ -4897,9 +1951,9 @@ void DynamicNodes::SerializeWithCachedSizes(
         8, this->nodes(static_cast<int>(i)), deterministic, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.DynamicNodes)
   return target;
@@ -4909,10 +1963,10 @@ size_t DynamicNodes::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.DynamicNodes)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated .proto.DynamicLayerNodes nodes = 8;
   {
@@ -4930,187 +1984,6 @@ size_t DynamicNodes::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void DynamicNodes::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.DynamicNodes)
-  GOOGLE_DCHECK_NE(&from, this);
-  const DynamicNodes* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const DynamicNodes>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.DynamicNodes)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.DynamicNodes)
-    MergeFrom(*source);
-  }
-}
-
-void DynamicNodes::MergeFrom(const DynamicNodes& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.DynamicNodes)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  nodes_.MergeFrom(from.nodes_);
-}
-
-void DynamicNodes::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.DynamicNodes)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void DynamicNodes::CopyFrom(const DynamicNodes& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.DynamicNodes)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool DynamicNodes::IsInitialized() const {
-  return true;
-}
-
-void DynamicNodes::Swap(DynamicNodes* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void DynamicNodes::InternalSwap(DynamicNodes* other) {
-  using std::swap;
-  nodes_.InternalSwap(&other->nodes_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata DynamicNodes::GetMetadata() const {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// DynamicNodes
-
-// repeated .proto.DynamicLayerNodes nodes = 8;
-int DynamicNodes::nodes_size() const {
-  return nodes_.size();
-}
-void DynamicNodes::clear_nodes() {
-  nodes_.Clear();
-}
-const ::proto::DynamicLayerNodes& DynamicNodes::nodes(int index) const {
-  // @@protoc_insertion_point(field_get:proto.DynamicNodes.nodes)
-  return nodes_.Get(index);
-}
-::proto::DynamicLayerNodes* DynamicNodes::mutable_nodes(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.DynamicNodes.nodes)
-  return nodes_.Mutable(index);
-}
-::proto::DynamicLayerNodes* DynamicNodes::add_nodes() {
-  // @@protoc_insertion_point(field_add:proto.DynamicNodes.nodes)
-  return nodes_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::DynamicLayerNodes >*
-DynamicNodes::mutable_nodes() {
-  // @@protoc_insertion_point(field_mutable_list:proto.DynamicNodes.nodes)
-  return &nodes_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::DynamicLayerNodes >&
-DynamicNodes::nodes() const {
-  // @@protoc_insertion_point(field_list:proto.DynamicNodes.nodes)
-  return nodes_;
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int ToTheMoonAddObstacleRsp::kDynamicNodesFieldNumber;
-const int ToTheMoonAddObstacleRsp::kQueryIdFieldNumber;
-const int ToTheMoonAddObstacleRsp::kRetcodeFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-ToTheMoonAddObstacleRsp::ToTheMoonAddObstacleRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5ftothemoon_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.ToTheMoonAddObstacleRsp)
-}
-ToTheMoonAddObstacleRsp::ToTheMoonAddObstacleRsp(const ToTheMoonAddObstacleRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  if (from.has_dynamic_nodes()) {
-    dynamic_nodes_ = new ::proto::DynamicNodes(*from.dynamic_nodes_);
-  } else {
-    dynamic_nodes_ = NULL;
-  }
-  ::memcpy(&query_id_, &from.query_id_,
-    static_cast<size_t>(reinterpret_cast<char*>(&retcode_) -
-    reinterpret_cast<char*>(&query_id_)) + sizeof(retcode_));
-  // @@protoc_insertion_point(copy_constructor:proto.ToTheMoonAddObstacleRsp)
-}
-
-void ToTheMoonAddObstacleRsp::SharedCtor() {
-  ::memset(&dynamic_nodes_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&retcode_) -
-      reinterpret_cast<char*>(&dynamic_nodes_)) + sizeof(retcode_));
-  _cached_size_ = 0;
-}
-
-ToTheMoonAddObstacleRsp::~ToTheMoonAddObstacleRsp() {
-  // @@protoc_insertion_point(destructor:proto.ToTheMoonAddObstacleRsp)
-  SharedDtor();
-}
-
-void ToTheMoonAddObstacleRsp::SharedDtor() {
-  if (this != internal_default_instance()) delete dynamic_nodes_;
-}
-
-void ToTheMoonAddObstacleRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* ToTheMoonAddObstacleRsp::descriptor() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const ToTheMoonAddObstacleRsp& ToTheMoonAddObstacleRsp::default_instance() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-ToTheMoonAddObstacleRsp* ToTheMoonAddObstacleRsp::New(::google::protobuf::Arena* arena) const {
-  ToTheMoonAddObstacleRsp* n = new ToTheMoonAddObstacleRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void ToTheMoonAddObstacleRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.ToTheMoonAddObstacleRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  if (GetArenaNoVirtual() == NULL && dynamic_nodes_ != NULL) {
-    delete dynamic_nodes_;
-  }
-  dynamic_nodes_ = NULL;
-  ::memset(&query_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&retcode_) -
-      reinterpret_cast<char*>(&query_id_)) + sizeof(retcode_));
-  _internal_metadata_.Clear();
 }
 
 bool ToTheMoonAddObstacleRsp::MergePartialFromCodedStream(
@@ -5169,16 +2042,18 @@ bool ToTheMoonAddObstacleRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.ToTheMoonAddObstacleRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.ToTheMoonAddObstacleRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -5205,9 +2080,9 @@ void ToTheMoonAddObstacleRsp::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteInt32(11, this->retcode(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.ToTheMoonAddObstacleRsp)
 }
@@ -5236,9 +2111,9 @@ void ToTheMoonAddObstacleRsp::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(11, this->retcode(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.ToTheMoonAddObstacleRsp)
   return target;
@@ -5248,10 +2123,10 @@ size_t ToTheMoonAddObstacleRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.ToTheMoonAddObstacleRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // .proto.DynamicNodes dynamic_nodes = 4;
   if (this->has_dynamic_nodes()) {
@@ -5279,225 +2154,6 @@ size_t ToTheMoonAddObstacleRsp::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void ToTheMoonAddObstacleRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.ToTheMoonAddObstacleRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const ToTheMoonAddObstacleRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const ToTheMoonAddObstacleRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.ToTheMoonAddObstacleRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.ToTheMoonAddObstacleRsp)
-    MergeFrom(*source);
-  }
-}
-
-void ToTheMoonAddObstacleRsp::MergeFrom(const ToTheMoonAddObstacleRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.ToTheMoonAddObstacleRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.has_dynamic_nodes()) {
-    mutable_dynamic_nodes()->::proto::DynamicNodes::MergeFrom(from.dynamic_nodes());
-  }
-  if (from.query_id() != 0) {
-    set_query_id(from.query_id());
-  }
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-}
-
-void ToTheMoonAddObstacleRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.ToTheMoonAddObstacleRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void ToTheMoonAddObstacleRsp::CopyFrom(const ToTheMoonAddObstacleRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.ToTheMoonAddObstacleRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool ToTheMoonAddObstacleRsp::IsInitialized() const {
-  return true;
-}
-
-void ToTheMoonAddObstacleRsp::Swap(ToTheMoonAddObstacleRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void ToTheMoonAddObstacleRsp::InternalSwap(ToTheMoonAddObstacleRsp* other) {
-  using std::swap;
-  swap(dynamic_nodes_, other->dynamic_nodes_);
-  swap(query_id_, other->query_id_);
-  swap(retcode_, other->retcode_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata ToTheMoonAddObstacleRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// ToTheMoonAddObstacleRsp
-
-// .proto.DynamicNodes dynamic_nodes = 4;
-bool ToTheMoonAddObstacleRsp::has_dynamic_nodes() const {
-  return this != internal_default_instance() && dynamic_nodes_ != NULL;
-}
-void ToTheMoonAddObstacleRsp::clear_dynamic_nodes() {
-  if (GetArenaNoVirtual() == NULL && dynamic_nodes_ != NULL) delete dynamic_nodes_;
-  dynamic_nodes_ = NULL;
-}
-const ::proto::DynamicNodes& ToTheMoonAddObstacleRsp::dynamic_nodes() const {
-  const ::proto::DynamicNodes* p = dynamic_nodes_;
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonAddObstacleRsp.dynamic_nodes)
-  return p != NULL ? *p : *reinterpret_cast<const ::proto::DynamicNodes*>(
-      &::proto::_DynamicNodes_default_instance_);
-}
-::proto::DynamicNodes* ToTheMoonAddObstacleRsp::mutable_dynamic_nodes() {
-  
-  if (dynamic_nodes_ == NULL) {
-    dynamic_nodes_ = new ::proto::DynamicNodes;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.ToTheMoonAddObstacleRsp.dynamic_nodes)
-  return dynamic_nodes_;
-}
-::proto::DynamicNodes* ToTheMoonAddObstacleRsp::release_dynamic_nodes() {
-  // @@protoc_insertion_point(field_release:proto.ToTheMoonAddObstacleRsp.dynamic_nodes)
-  
-  ::proto::DynamicNodes* temp = dynamic_nodes_;
-  dynamic_nodes_ = NULL;
-  return temp;
-}
-void ToTheMoonAddObstacleRsp::set_allocated_dynamic_nodes(::proto::DynamicNodes* dynamic_nodes) {
-  delete dynamic_nodes_;
-  dynamic_nodes_ = dynamic_nodes;
-  if (dynamic_nodes) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.ToTheMoonAddObstacleRsp.dynamic_nodes)
-}
-
-// int32 query_id = 8;
-void ToTheMoonAddObstacleRsp::clear_query_id() {
-  query_id_ = 0;
-}
-::google::protobuf::int32 ToTheMoonAddObstacleRsp::query_id() const {
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonAddObstacleRsp.query_id)
-  return query_id_;
-}
-void ToTheMoonAddObstacleRsp::set_query_id(::google::protobuf::int32 value) {
-  
-  query_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.ToTheMoonAddObstacleRsp.query_id)
-}
-
-// int32 retcode = 11;
-void ToTheMoonAddObstacleRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 ToTheMoonAddObstacleRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonAddObstacleRsp.retcode)
-  return retcode_;
-}
-void ToTheMoonAddObstacleRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.ToTheMoonAddObstacleRsp.retcode)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int ToTheMoonRemoveObstacleReq::kHandleFieldNumber;
-const int ToTheMoonRemoveObstacleReq::kSceneIdFieldNumber;
-const int ToTheMoonRemoveObstacleReq::kQueryIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-ToTheMoonRemoveObstacleReq::ToTheMoonRemoveObstacleReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5ftothemoon_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.ToTheMoonRemoveObstacleReq)
-}
-ToTheMoonRemoveObstacleReq::ToTheMoonRemoveObstacleReq(const ToTheMoonRemoveObstacleReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&query_id_, &from.query_id_,
-    static_cast<size_t>(reinterpret_cast<char*>(&handle_) -
-    reinterpret_cast<char*>(&query_id_)) + sizeof(handle_));
-  // @@protoc_insertion_point(copy_constructor:proto.ToTheMoonRemoveObstacleReq)
-}
-
-void ToTheMoonRemoveObstacleReq::SharedCtor() {
-  ::memset(&query_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&handle_) -
-      reinterpret_cast<char*>(&query_id_)) + sizeof(handle_));
-  _cached_size_ = 0;
-}
-
-ToTheMoonRemoveObstacleReq::~ToTheMoonRemoveObstacleReq() {
-  // @@protoc_insertion_point(destructor:proto.ToTheMoonRemoveObstacleReq)
-  SharedDtor();
-}
-
-void ToTheMoonRemoveObstacleReq::SharedDtor() {
-}
-
-void ToTheMoonRemoveObstacleReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* ToTheMoonRemoveObstacleReq::descriptor() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const ToTheMoonRemoveObstacleReq& ToTheMoonRemoveObstacleReq::default_instance() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-ToTheMoonRemoveObstacleReq* ToTheMoonRemoveObstacleReq::New(::google::protobuf::Arena* arena) const {
-  ToTheMoonRemoveObstacleReq* n = new ToTheMoonRemoveObstacleReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void ToTheMoonRemoveObstacleReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.ToTheMoonRemoveObstacleReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&query_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&handle_) -
-      reinterpret_cast<char*>(&query_id_)) + sizeof(handle_));
-  _internal_metadata_.Clear();
 }
 
 bool ToTheMoonRemoveObstacleReq::MergePartialFromCodedStream(
@@ -5558,16 +2214,18 @@ bool ToTheMoonRemoveObstacleReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.ToTheMoonRemoveObstacleReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.ToTheMoonRemoveObstacleReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -5593,9 +2251,9 @@ void ToTheMoonRemoveObstacleReq::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteInt32(13, this->query_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.ToTheMoonRemoveObstacleReq)
 }
@@ -5622,9 +2280,9 @@ void ToTheMoonRemoveObstacleReq::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(13, this->query_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.ToTheMoonRemoveObstacleReq)
   return target;
@@ -5634,10 +2292,10 @@ size_t ToTheMoonRemoveObstacleReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.ToTheMoonRemoveObstacleReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // int32 query_id = 13;
   if (this->query_id() != 0) {
@@ -5665,209 +2323,6 @@ size_t ToTheMoonRemoveObstacleReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void ToTheMoonRemoveObstacleReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.ToTheMoonRemoveObstacleReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const ToTheMoonRemoveObstacleReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const ToTheMoonRemoveObstacleReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.ToTheMoonRemoveObstacleReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.ToTheMoonRemoveObstacleReq)
-    MergeFrom(*source);
-  }
-}
-
-void ToTheMoonRemoveObstacleReq::MergeFrom(const ToTheMoonRemoveObstacleReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.ToTheMoonRemoveObstacleReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.query_id() != 0) {
-    set_query_id(from.query_id());
-  }
-  if (from.scene_id() != 0) {
-    set_scene_id(from.scene_id());
-  }
-  if (from.handle() != 0) {
-    set_handle(from.handle());
-  }
-}
-
-void ToTheMoonRemoveObstacleReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.ToTheMoonRemoveObstacleReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void ToTheMoonRemoveObstacleReq::CopyFrom(const ToTheMoonRemoveObstacleReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.ToTheMoonRemoveObstacleReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool ToTheMoonRemoveObstacleReq::IsInitialized() const {
-  return true;
-}
-
-void ToTheMoonRemoveObstacleReq::Swap(ToTheMoonRemoveObstacleReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void ToTheMoonRemoveObstacleReq::InternalSwap(ToTheMoonRemoveObstacleReq* other) {
-  using std::swap;
-  swap(query_id_, other->query_id_);
-  swap(scene_id_, other->scene_id_);
-  swap(handle_, other->handle_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata ToTheMoonRemoveObstacleReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// ToTheMoonRemoveObstacleReq
-
-// int32 handle = 9;
-void ToTheMoonRemoveObstacleReq::clear_handle() {
-  handle_ = 0;
-}
-::google::protobuf::int32 ToTheMoonRemoveObstacleReq::handle() const {
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonRemoveObstacleReq.handle)
-  return handle_;
-}
-void ToTheMoonRemoveObstacleReq::set_handle(::google::protobuf::int32 value) {
-  
-  handle_ = value;
-  // @@protoc_insertion_point(field_set:proto.ToTheMoonRemoveObstacleReq.handle)
-}
-
-// uint32 scene_id = 2;
-void ToTheMoonRemoveObstacleReq::clear_scene_id() {
-  scene_id_ = 0u;
-}
-::google::protobuf::uint32 ToTheMoonRemoveObstacleReq::scene_id() const {
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonRemoveObstacleReq.scene_id)
-  return scene_id_;
-}
-void ToTheMoonRemoveObstacleReq::set_scene_id(::google::protobuf::uint32 value) {
-  
-  scene_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.ToTheMoonRemoveObstacleReq.scene_id)
-}
-
-// int32 query_id = 13;
-void ToTheMoonRemoveObstacleReq::clear_query_id() {
-  query_id_ = 0;
-}
-::google::protobuf::int32 ToTheMoonRemoveObstacleReq::query_id() const {
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonRemoveObstacleReq.query_id)
-  return query_id_;
-}
-void ToTheMoonRemoveObstacleReq::set_query_id(::google::protobuf::int32 value) {
-  
-  query_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.ToTheMoonRemoveObstacleReq.query_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int ToTheMoonRemoveObstacleRsp::kQueryIdFieldNumber;
-const int ToTheMoonRemoveObstacleRsp::kRetcodeFieldNumber;
-const int ToTheMoonRemoveObstacleRsp::kDynamicNodesFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-ToTheMoonRemoveObstacleRsp::ToTheMoonRemoveObstacleRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5ftothemoon_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.ToTheMoonRemoveObstacleRsp)
-}
-ToTheMoonRemoveObstacleRsp::ToTheMoonRemoveObstacleRsp(const ToTheMoonRemoveObstacleRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  if (from.has_dynamic_nodes()) {
-    dynamic_nodes_ = new ::proto::DynamicNodes(*from.dynamic_nodes_);
-  } else {
-    dynamic_nodes_ = NULL;
-  }
-  ::memcpy(&retcode_, &from.retcode_,
-    static_cast<size_t>(reinterpret_cast<char*>(&query_id_) -
-    reinterpret_cast<char*>(&retcode_)) + sizeof(query_id_));
-  // @@protoc_insertion_point(copy_constructor:proto.ToTheMoonRemoveObstacleRsp)
-}
-
-void ToTheMoonRemoveObstacleRsp::SharedCtor() {
-  ::memset(&dynamic_nodes_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&query_id_) -
-      reinterpret_cast<char*>(&dynamic_nodes_)) + sizeof(query_id_));
-  _cached_size_ = 0;
-}
-
-ToTheMoonRemoveObstacleRsp::~ToTheMoonRemoveObstacleRsp() {
-  // @@protoc_insertion_point(destructor:proto.ToTheMoonRemoveObstacleRsp)
-  SharedDtor();
-}
-
-void ToTheMoonRemoveObstacleRsp::SharedDtor() {
-  if (this != internal_default_instance()) delete dynamic_nodes_;
-}
-
-void ToTheMoonRemoveObstacleRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* ToTheMoonRemoveObstacleRsp::descriptor() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const ToTheMoonRemoveObstacleRsp& ToTheMoonRemoveObstacleRsp::default_instance() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-ToTheMoonRemoveObstacleRsp* ToTheMoonRemoveObstacleRsp::New(::google::protobuf::Arena* arena) const {
-  ToTheMoonRemoveObstacleRsp* n = new ToTheMoonRemoveObstacleRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void ToTheMoonRemoveObstacleRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.ToTheMoonRemoveObstacleRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  if (GetArenaNoVirtual() == NULL && dynamic_nodes_ != NULL) {
-    delete dynamic_nodes_;
-  }
-  dynamic_nodes_ = NULL;
-  ::memset(&retcode_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&query_id_) -
-      reinterpret_cast<char*>(&retcode_)) + sizeof(query_id_));
-  _internal_metadata_.Clear();
 }
 
 bool ToTheMoonRemoveObstacleRsp::MergePartialFromCodedStream(
@@ -5926,16 +2381,18 @@ bool ToTheMoonRemoveObstacleRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.ToTheMoonRemoveObstacleRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.ToTheMoonRemoveObstacleRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -5962,9 +2419,9 @@ void ToTheMoonRemoveObstacleRsp::SerializeWithCachedSizes(
       8, *this->dynamic_nodes_, output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.ToTheMoonRemoveObstacleRsp)
 }
@@ -5993,9 +2450,9 @@ void ToTheMoonRemoveObstacleRsp::SerializeWithCachedSizes(
         8, *this->dynamic_nodes_, deterministic, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.ToTheMoonRemoveObstacleRsp)
   return target;
@@ -6005,10 +2462,10 @@ size_t ToTheMoonRemoveObstacleRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.ToTheMoonRemoveObstacleRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // .proto.DynamicNodes dynamic_nodes = 8;
   if (this->has_dynamic_nodes()) {
@@ -6036,230 +2493,6 @@ size_t ToTheMoonRemoveObstacleRsp::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void ToTheMoonRemoveObstacleRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.ToTheMoonRemoveObstacleRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const ToTheMoonRemoveObstacleRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const ToTheMoonRemoveObstacleRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.ToTheMoonRemoveObstacleRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.ToTheMoonRemoveObstacleRsp)
-    MergeFrom(*source);
-  }
-}
-
-void ToTheMoonRemoveObstacleRsp::MergeFrom(const ToTheMoonRemoveObstacleRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.ToTheMoonRemoveObstacleRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.has_dynamic_nodes()) {
-    mutable_dynamic_nodes()->::proto::DynamicNodes::MergeFrom(from.dynamic_nodes());
-  }
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-  if (from.query_id() != 0) {
-    set_query_id(from.query_id());
-  }
-}
-
-void ToTheMoonRemoveObstacleRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.ToTheMoonRemoveObstacleRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void ToTheMoonRemoveObstacleRsp::CopyFrom(const ToTheMoonRemoveObstacleRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.ToTheMoonRemoveObstacleRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool ToTheMoonRemoveObstacleRsp::IsInitialized() const {
-  return true;
-}
-
-void ToTheMoonRemoveObstacleRsp::Swap(ToTheMoonRemoveObstacleRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void ToTheMoonRemoveObstacleRsp::InternalSwap(ToTheMoonRemoveObstacleRsp* other) {
-  using std::swap;
-  swap(dynamic_nodes_, other->dynamic_nodes_);
-  swap(retcode_, other->retcode_);
-  swap(query_id_, other->query_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata ToTheMoonRemoveObstacleRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// ToTheMoonRemoveObstacleRsp
-
-// int32 query_id = 4;
-void ToTheMoonRemoveObstacleRsp::clear_query_id() {
-  query_id_ = 0;
-}
-::google::protobuf::int32 ToTheMoonRemoveObstacleRsp::query_id() const {
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonRemoveObstacleRsp.query_id)
-  return query_id_;
-}
-void ToTheMoonRemoveObstacleRsp::set_query_id(::google::protobuf::int32 value) {
-  
-  query_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.ToTheMoonRemoveObstacleRsp.query_id)
-}
-
-// int32 retcode = 3;
-void ToTheMoonRemoveObstacleRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 ToTheMoonRemoveObstacleRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonRemoveObstacleRsp.retcode)
-  return retcode_;
-}
-void ToTheMoonRemoveObstacleRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.ToTheMoonRemoveObstacleRsp.retcode)
-}
-
-// .proto.DynamicNodes dynamic_nodes = 8;
-bool ToTheMoonRemoveObstacleRsp::has_dynamic_nodes() const {
-  return this != internal_default_instance() && dynamic_nodes_ != NULL;
-}
-void ToTheMoonRemoveObstacleRsp::clear_dynamic_nodes() {
-  if (GetArenaNoVirtual() == NULL && dynamic_nodes_ != NULL) delete dynamic_nodes_;
-  dynamic_nodes_ = NULL;
-}
-const ::proto::DynamicNodes& ToTheMoonRemoveObstacleRsp::dynamic_nodes() const {
-  const ::proto::DynamicNodes* p = dynamic_nodes_;
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonRemoveObstacleRsp.dynamic_nodes)
-  return p != NULL ? *p : *reinterpret_cast<const ::proto::DynamicNodes*>(
-      &::proto::_DynamicNodes_default_instance_);
-}
-::proto::DynamicNodes* ToTheMoonRemoveObstacleRsp::mutable_dynamic_nodes() {
-  
-  if (dynamic_nodes_ == NULL) {
-    dynamic_nodes_ = new ::proto::DynamicNodes;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.ToTheMoonRemoveObstacleRsp.dynamic_nodes)
-  return dynamic_nodes_;
-}
-::proto::DynamicNodes* ToTheMoonRemoveObstacleRsp::release_dynamic_nodes() {
-  // @@protoc_insertion_point(field_release:proto.ToTheMoonRemoveObstacleRsp.dynamic_nodes)
-  
-  ::proto::DynamicNodes* temp = dynamic_nodes_;
-  dynamic_nodes_ = NULL;
-  return temp;
-}
-void ToTheMoonRemoveObstacleRsp::set_allocated_dynamic_nodes(::proto::DynamicNodes* dynamic_nodes) {
-  delete dynamic_nodes_;
-  dynamic_nodes_ = dynamic_nodes;
-  if (dynamic_nodes) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.ToTheMoonRemoveObstacleRsp.dynamic_nodes)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int ToTheMoonObstaclesModifyNotify::kAddObstaclesFieldNumber;
-const int ToTheMoonObstaclesModifyNotify::kRemoveObstacleIdsFieldNumber;
-const int ToTheMoonObstaclesModifyNotify::kSceneIdFieldNumber;
-const int ToTheMoonObstaclesModifyNotify::kUseEdgeFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-ToTheMoonObstaclesModifyNotify::ToTheMoonObstaclesModifyNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5ftothemoon_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.ToTheMoonObstaclesModifyNotify)
-}
-ToTheMoonObstaclesModifyNotify::ToTheMoonObstaclesModifyNotify(const ToTheMoonObstaclesModifyNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      remove_obstacle_ids_(from.remove_obstacle_ids_),
-      add_obstacles_(from.add_obstacles_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&use_edge_, &from.use_edge_,
-    static_cast<size_t>(reinterpret_cast<char*>(&scene_id_) -
-    reinterpret_cast<char*>(&use_edge_)) + sizeof(scene_id_));
-  // @@protoc_insertion_point(copy_constructor:proto.ToTheMoonObstaclesModifyNotify)
-}
-
-void ToTheMoonObstaclesModifyNotify::SharedCtor() {
-  ::memset(&use_edge_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&scene_id_) -
-      reinterpret_cast<char*>(&use_edge_)) + sizeof(scene_id_));
-  _cached_size_ = 0;
-}
-
-ToTheMoonObstaclesModifyNotify::~ToTheMoonObstaclesModifyNotify() {
-  // @@protoc_insertion_point(destructor:proto.ToTheMoonObstaclesModifyNotify)
-  SharedDtor();
-}
-
-void ToTheMoonObstaclesModifyNotify::SharedDtor() {
-}
-
-void ToTheMoonObstaclesModifyNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* ToTheMoonObstaclesModifyNotify::descriptor() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const ToTheMoonObstaclesModifyNotify& ToTheMoonObstaclesModifyNotify::default_instance() {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-ToTheMoonObstaclesModifyNotify* ToTheMoonObstaclesModifyNotify::New(::google::protobuf::Arena* arena) const {
-  ToTheMoonObstaclesModifyNotify* n = new ToTheMoonObstaclesModifyNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void ToTheMoonObstaclesModifyNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.ToTheMoonObstaclesModifyNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  remove_obstacle_ids_.Clear();
-  add_obstacles_.Clear();
-  ::memset(&use_edge_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&scene_id_) -
-      reinterpret_cast<char*>(&use_edge_)) + sizeof(scene_id_));
-  _internal_metadata_.Clear();
 }
 
 bool ToTheMoonObstaclesModifyNotify::MergePartialFromCodedStream(
@@ -6337,16 +2570,18 @@ bool ToTheMoonObstaclesModifyNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.ToTheMoonObstaclesModifyNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.ToTheMoonObstaclesModifyNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -6385,9 +2620,9 @@ void ToTheMoonObstaclesModifyNotify::SerializeWithCachedSizes(
       14, this->add_obstacles(static_cast<int>(i)), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.ToTheMoonObstaclesModifyNotify)
 }
@@ -6430,9 +2665,9 @@ void ToTheMoonObstaclesModifyNotify::SerializeWithCachedSizes(
         14, this->add_obstacles(static_cast<int>(i)), deterministic, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.ToTheMoonObstaclesModifyNotify)
   return target;
@@ -6442,10 +2677,10 @@ size_t ToTheMoonObstaclesModifyNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.ToTheMoonObstaclesModifyNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated int32 remove_obstacle_ids = 4;
   {
@@ -6492,168 +2727,6 @@ size_t ToTheMoonObstaclesModifyNotify::ByteSizeLong() const {
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
 }
-
-void ToTheMoonObstaclesModifyNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.ToTheMoonObstaclesModifyNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const ToTheMoonObstaclesModifyNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const ToTheMoonObstaclesModifyNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.ToTheMoonObstaclesModifyNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.ToTheMoonObstaclesModifyNotify)
-    MergeFrom(*source);
-  }
-}
-
-void ToTheMoonObstaclesModifyNotify::MergeFrom(const ToTheMoonObstaclesModifyNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.ToTheMoonObstaclesModifyNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  remove_obstacle_ids_.MergeFrom(from.remove_obstacle_ids_);
-  add_obstacles_.MergeFrom(from.add_obstacles_);
-  if (from.use_edge() != 0) {
-    set_use_edge(from.use_edge());
-  }
-  if (from.scene_id() != 0) {
-    set_scene_id(from.scene_id());
-  }
-}
-
-void ToTheMoonObstaclesModifyNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.ToTheMoonObstaclesModifyNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void ToTheMoonObstaclesModifyNotify::CopyFrom(const ToTheMoonObstaclesModifyNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.ToTheMoonObstaclesModifyNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool ToTheMoonObstaclesModifyNotify::IsInitialized() const {
-  return true;
-}
-
-void ToTheMoonObstaclesModifyNotify::Swap(ToTheMoonObstaclesModifyNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void ToTheMoonObstaclesModifyNotify::InternalSwap(ToTheMoonObstaclesModifyNotify* other) {
-  using std::swap;
-  remove_obstacle_ids_.InternalSwap(&other->remove_obstacle_ids_);
-  add_obstacles_.InternalSwap(&other->add_obstacles_);
-  swap(use_edge_, other->use_edge_);
-  swap(scene_id_, other->scene_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata ToTheMoonObstaclesModifyNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5ftothemoon_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5ftothemoon_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// ToTheMoonObstaclesModifyNotify
-
-// repeated .proto.ToTheMoonObstacleInfo add_obstacles = 14;
-int ToTheMoonObstaclesModifyNotify::add_obstacles_size() const {
-  return add_obstacles_.size();
-}
-void ToTheMoonObstaclesModifyNotify::clear_add_obstacles() {
-  add_obstacles_.Clear();
-}
-const ::proto::ToTheMoonObstacleInfo& ToTheMoonObstaclesModifyNotify::add_obstacles(int index) const {
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonObstaclesModifyNotify.add_obstacles)
-  return add_obstacles_.Get(index);
-}
-::proto::ToTheMoonObstacleInfo* ToTheMoonObstaclesModifyNotify::mutable_add_obstacles(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.ToTheMoonObstaclesModifyNotify.add_obstacles)
-  return add_obstacles_.Mutable(index);
-}
-::proto::ToTheMoonObstacleInfo* ToTheMoonObstaclesModifyNotify::add_add_obstacles() {
-  // @@protoc_insertion_point(field_add:proto.ToTheMoonObstaclesModifyNotify.add_obstacles)
-  return add_obstacles_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::ToTheMoonObstacleInfo >*
-ToTheMoonObstaclesModifyNotify::mutable_add_obstacles() {
-  // @@protoc_insertion_point(field_mutable_list:proto.ToTheMoonObstaclesModifyNotify.add_obstacles)
-  return &add_obstacles_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::ToTheMoonObstacleInfo >&
-ToTheMoonObstaclesModifyNotify::add_obstacles() const {
-  // @@protoc_insertion_point(field_list:proto.ToTheMoonObstaclesModifyNotify.add_obstacles)
-  return add_obstacles_;
-}
-
-// repeated int32 remove_obstacle_ids = 4;
-int ToTheMoonObstaclesModifyNotify::remove_obstacle_ids_size() const {
-  return remove_obstacle_ids_.size();
-}
-void ToTheMoonObstaclesModifyNotify::clear_remove_obstacle_ids() {
-  remove_obstacle_ids_.Clear();
-}
-::google::protobuf::int32 ToTheMoonObstaclesModifyNotify::remove_obstacle_ids(int index) const {
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonObstaclesModifyNotify.remove_obstacle_ids)
-  return remove_obstacle_ids_.Get(index);
-}
-void ToTheMoonObstaclesModifyNotify::set_remove_obstacle_ids(int index, ::google::protobuf::int32 value) {
-  remove_obstacle_ids_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.ToTheMoonObstaclesModifyNotify.remove_obstacle_ids)
-}
-void ToTheMoonObstaclesModifyNotify::add_remove_obstacle_ids(::google::protobuf::int32 value) {
-  remove_obstacle_ids_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.ToTheMoonObstaclesModifyNotify.remove_obstacle_ids)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::int32 >&
-ToTheMoonObstaclesModifyNotify::remove_obstacle_ids() const {
-  // @@protoc_insertion_point(field_list:proto.ToTheMoonObstaclesModifyNotify.remove_obstacle_ids)
-  return remove_obstacle_ids_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::int32 >*
-ToTheMoonObstaclesModifyNotify::mutable_remove_obstacle_ids() {
-  // @@protoc_insertion_point(field_mutable_list:proto.ToTheMoonObstaclesModifyNotify.remove_obstacle_ids)
-  return &remove_obstacle_ids_;
-}
-
-// uint32 scene_id = 11;
-void ToTheMoonObstaclesModifyNotify::clear_scene_id() {
-  scene_id_ = 0u;
-}
-::google::protobuf::uint32 ToTheMoonObstaclesModifyNotify::scene_id() const {
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonObstaclesModifyNotify.scene_id)
-  return scene_id_;
-}
-void ToTheMoonObstaclesModifyNotify::set_scene_id(::google::protobuf::uint32 value) {
-  
-  scene_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.ToTheMoonObstaclesModifyNotify.scene_id)
-}
-
-// bool use_edge = 10;
-void ToTheMoonObstaclesModifyNotify::clear_use_edge() {
-  use_edge_ = false;
-}
-bool ToTheMoonObstaclesModifyNotify::use_edge() const {
-  // @@protoc_insertion_point(field_get:proto.ToTheMoonObstaclesModifyNotify.use_edge)
-  return use_edge_;
-}
-void ToTheMoonObstaclesModifyNotify::set_use_edge(bool value) {
-  
-  use_edge_ = value;
-  // @@protoc_insertion_point(field_set:proto.ToTheMoonObstaclesModifyNotify.use_edge)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
 
 // @@protoc_insertion_point(namespace_scope)
 

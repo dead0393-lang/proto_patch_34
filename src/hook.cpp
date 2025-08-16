@@ -69,6 +69,28 @@ bool is_game(){
   return false;
 }
 
+using MessagePtr = void*;
+struct PacketMemoryLayout {
+    void* vptr;          // 0x00: 虚函数表指针
+    uint16_t cmd_id;     // 0x08: 目标成员
+    uint8_t padding[6];  // 0x0A - 0x0F: 填充字节
+    proto::PacketHead head;      // 0x10 - 0x110
+    std::string recv_str;        // 0x110 - 0x130
+    MessagePtr proto_ptr;        // 0x130 - 0x138
+    // 结构体总大小 0x140
+};
+
+
+uint16_t get_packet_cmd_id(common::minet::Packet* packet) {
+    auto* layout = reinterpret_cast<PacketMemoryLayout*>(packet);
+    return layout->cmd_id;
+}
+
+// 设置 cmd_id_
+void set_packet_cmd_id(common::minet::Packet* packet, uint16_t new_cmd_id) {
+    auto* layout = reinterpret_cast<PacketMemoryLayout*>(packet);
+    layout->cmd_id = new_cmd_id;
+}
 
 int32_t doSerializeToArray_Fake(common::minet::Packet *_this,char* buff,uint32_t len){
     int32_t y =doSerializeToArray(_this,buff,len);
@@ -77,18 +99,12 @@ int32_t doSerializeToArray_Fake(common::minet::Packet *_this,char* buff,uint32_t
     
     uint16_t cmd_id=ntohs(*cmd);
     
-    INFO("cmd_id: %d",cmd_id);
-    
-    INFO("cmd_id: %d",_this->cmd_id);
    // if(is_gate()){
         if(getCMDIdReverseConvertMap().count(cmd_id)!=0){
             *cmd=htons(getCMDIdReverseConvertMap()[cmd_id]);
            // _this->cmd_id=getCMDIdConvertMap()[_this->cmd_id];
         }
   //  }
-    
-    
-    INFO("cmd_id: %d",_this->cmd_id);
     
     return y;
 }
@@ -144,8 +160,6 @@ int32_t parseFromArray_Fake(common::minet::Packet *_this,char* buff,uint32_t len
     
     uint16_t cmd_id=ntohs(*cmd);
     
-    INFO("cmd_id: %d",cmd_id);
-    
     if(cmd_id==108){
         if(is_gate()){
             len=convert_set_time_req_packet(_this,buff,len);
@@ -153,19 +167,17 @@ int32_t parseFromArray_Fake(common::minet::Packet *_this,char* buff,uint32_t len
     }
     
     
-    INFO("cmd_id: %d",_this->cmd_id);
-  //  if(is_gate()){
         if(getCMDIdConvertMap().count(cmd_id)!=0){
             *cmd=htons(getCMDIdConvertMap()[cmd_id]);
-           // _this->cmd_id=getCMDIdConvertMap()[_this->cmd_id];
+           // _this->getCmdId()=getCMDIdConvertMap()[_this->getCmdId()];
         }
     //}
     
     int32_t y =parseFromArray(_this,buff,len);
-    INFO("cmd_id: %d",_this->cmd_id);
-
+    
     return y;
 }
+
 
 uint32_t message_id_Fake(proto::UnionCmd *_this){
 
@@ -173,7 +185,7 @@ uint32_t message_id_Fake(proto::UnionCmd *_this){
     
     if(getCMDIdConvertMap().count(cmd_id)!=0){
         cmd_id=getCMDIdConvertMap()[cmd_id];
-        // _this->cmd_id=getCMDIdConvertMap()[_this->cmd_id];
+        // _this->getCmdId()=getCMDIdConvertMap()[_this->getCmdId()];
     }
     return cmd_id;
 }

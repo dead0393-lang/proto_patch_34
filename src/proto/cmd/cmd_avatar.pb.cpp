@@ -434,3123 +434,6 @@ public:
      _instance;
 } _ItemRenameAvatarRsp_default_instance_;
 
-namespace protobuf_cmd_2fcmd_5favatar_2eproto {
-
-
-namespace {
-
-::google::protobuf::Metadata file_level_metadata[83];
-const ::google::protobuf::EnumDescriptor* file_level_enum_descriptors[66];
-
-}  // namespace
-
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::ParseTableField
-    const TableStruct::entries[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  {0, 0, 0, ::google::protobuf::internal::kInvalidMask, 0, 0},
-};
-
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::AuxillaryParseTableField
-    const TableStruct::aux[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  ::google::protobuf::internal::AuxillaryParseTableField(),
-};
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::ParseTable const
-    TableStruct::schema[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-};
-
-const ::google::protobuf::uint32 TableStruct::offsets[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarAddNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarAddNotify, avatar_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarAddNotify, is_in_team_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarDelNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarDelNotify, avatar_guid_list_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarTeam, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarTeam, avatar_guid_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarTeam, team_name_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SetUpAvatarTeamReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SetUpAvatarTeamReq, team_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SetUpAvatarTeamReq, avatar_team_guid_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SetUpAvatarTeamReq, cur_avatar_guid_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SetUpAvatarTeamRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SetUpAvatarTeamRsp, avatar_team_guid_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SetUpAvatarTeamRsp, team_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SetUpAvatarTeamRsp, retcode_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SetUpAvatarTeamRsp, cur_avatar_guid_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ChooseCurAvatarTeamReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ChooseCurAvatarTeamReq, team_id_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ChooseCurAvatarTeamRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ChooseCurAvatarTeamRsp, cur_team_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ChooseCurAvatarTeamRsp, retcode_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ChangeAvatarReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ChangeAvatarReq, move_pos_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ChangeAvatarReq, skill_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ChangeAvatarReq, guid_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ChangeAvatarReq, is_move_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ChangeAvatarRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ChangeAvatarRsp, skill_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ChangeAvatarRsp, retcode_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ChangeAvatarRsp, cur_guid_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarPromoteReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarPromoteReq, guid_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarPromoteRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarPromoteRsp, guid_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarPromoteRsp, retcode_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SpringUseReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SpringUseReq, guid_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SpringUseRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SpringUseRsp, guid_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SpringUseRsp, retcode_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(RefreshBackgroundAvatarReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(RefreshBackgroundAvatarRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(RefreshBackgroundAvatarRsp, hp_full_time_map_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(RefreshBackgroundAvatarRsp, retcode_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarTeamUpdateNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarTeamUpdateNotify, avatar_team_map_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarTeamUpdateNotify, temp_avatar_guid_list_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarDataNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarDataNotify, backup_avatar_team_order_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarDataNotify, temp_avatar_guid_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarDataNotify, avatar_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarDataNotify, cur_avatar_team_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarDataNotify, avatar_rename_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarDataNotify, owned_flycloak_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarDataNotify, owned_costume_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarDataNotify, avatar_team_map_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarDataNotify, choose_avatar_guid_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarUpgradeReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarUpgradeReq, avatar_guid_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarUpgradeReq, count_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarUpgradeReq, item_id_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarUpgradeRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarUpgradeRsp, cur_level_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarUpgradeRsp, old_level_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarUpgradeRsp, old_fight_prop_map_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarUpgradeRsp, retcode_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarUpgradeRsp, cur_fight_prop_map_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarUpgradeRsp, avatar_guid_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarDieAnimationEndReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarDieAnimationEndReq, reborn_pos_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarDieAnimationEndReq, die_guid_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarDieAnimationEndReq, skill_id_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarDieAnimationEndRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarDieAnimationEndRsp, skill_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarDieAnimationEndRsp, retcode_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarDieAnimationEndRsp, die_guid_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarChangeElementTypeReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarChangeElementTypeReq, scene_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarChangeElementTypeReq, area_id_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarChangeElementTypeRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarChangeElementTypeRsp, retcode_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarFetterDataNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarFetterDataNotify, fetter_info_map_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarExpeditionDataNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarExpeditionDataNotify, expedition_info_map_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarExpeditionAllDataReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarExpeditionAllDataRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarExpeditionAllDataRsp, open_expedition_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarExpeditionAllDataRsp, retcode_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarExpeditionAllDataRsp, expedition_count_limit_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarExpeditionAllDataRsp, expedition_info_map_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarExpeditionStartReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarExpeditionStartReq, exp_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarExpeditionStartReq, avatar_guid_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarExpeditionStartReq, hour_time_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarExpeditionStartRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarExpeditionStartRsp, expedition_info_map_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarExpeditionStartRsp, retcode_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarExpeditionCallBackReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarExpeditionCallBackReq, avatar_guid_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarExpeditionCallBackRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarExpeditionCallBackRsp, expedition_info_map_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarExpeditionCallBackRsp, retcode_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarExpeditionGetRewardReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarExpeditionGetRewardReq, avatar_guid_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarExpeditionGetRewardRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarExpeditionGetRewardRsp, extra_item_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarExpeditionGetRewardRsp, item_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarExpeditionGetRewardRsp, expedition_info_map_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarExpeditionGetRewardRsp, retcode_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ChangeMpTeamAvatarReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ChangeMpTeamAvatarReq, cur_avatar_guid_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ChangeMpTeamAvatarReq, avatar_guid_list_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ChangeMpTeamAvatarRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ChangeMpTeamAvatarRsp, retcode_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ChangeMpTeamAvatarRsp, avatar_guid_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ChangeMpTeamAvatarRsp, cur_avatar_guid_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ChangeTeamNameReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ChangeTeamNameReq, team_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ChangeTeamNameReq, team_name_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ChangeTeamNameRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ChangeTeamNameRsp, retcode_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ChangeTeamNameRsp, team_name_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ChangeTeamNameRsp, team_id_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SceneTeamAvatar, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SceneTeamAvatar, avatar_ability_info_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SceneTeamAvatar, avatar_info_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SceneTeamAvatar, is_on_scene_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SceneTeamAvatar, entity_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SceneTeamAvatar, avatar_guid_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SceneTeamAvatar, scene_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SceneTeamAvatar, weapon_entity_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SceneTeamAvatar, scene_avatar_info_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SceneTeamAvatar, weapon_guid_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SceneTeamAvatar, weapon_ability_info_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SceneTeamAvatar, scene_entity_info_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SceneTeamAvatar, player_uid_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SceneTeamAvatar, is_reconnect_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SceneTeamAvatar, ability_control_block_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SceneTeamAvatar, is_player_cur_avatar_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SceneTeamAvatar, server_buff_list_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SceneTeamUpdateNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SceneTeamUpdateNotify, scene_team_avatar_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SceneTeamUpdateNotify, is_in_mp_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(FocusAvatarReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(FocusAvatarReq, avatar_guid_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(FocusAvatarReq, is_focus_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(FocusAvatarRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(FocusAvatarRsp, retcode_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(FocusAvatarRsp, is_focus_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(FocusAvatarRsp, avatar_guid_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarSatiationData, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarSatiationData, finish_time_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarSatiationData, avatar_guid_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarSatiationData, penalty_finish_time_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarSatiationDataNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarSatiationDataNotify, satiation_data_list_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarWearFlycloakReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarWearFlycloakReq, avatar_guid_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarWearFlycloakReq, flycloak_id_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarWearFlycloakRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarWearFlycloakRsp, flycloak_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarWearFlycloakRsp, avatar_guid_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarWearFlycloakRsp, retcode_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarFlycloakChangeNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarFlycloakChangeNotify, flycloak_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarFlycloakChangeNotify, avatar_guid_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarGainFlycloakNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarGainFlycloakNotify, flycloak_id_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarEquipAffixStartNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarEquipAffixStartNotify, avatar_guid_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarEquipAffixStartNotify, equip_affix_info_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarFetterLevelRewardReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarFetterLevelRewardReq, avatar_guid_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarFetterLevelRewardReq, fetter_level_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarFetterLevelRewardRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarFetterLevelRewardRsp, avatar_guid_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarFetterLevelRewardRsp, reward_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarFetterLevelRewardRsp, retcode_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarFetterLevelRewardRsp, fetter_level_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AddNoGachaAvatarCardTransferItem, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AddNoGachaAvatarCardTransferItem, count_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AddNoGachaAvatarCardTransferItem, item_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AddNoGachaAvatarCardTransferItem, is_new_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AddNoGachaAvatarCardNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AddNoGachaAvatarCardNotify, transfer_item_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AddNoGachaAvatarCardNotify, initial_promote_level_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AddNoGachaAvatarCardNotify, avatar_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AddNoGachaAvatarCardNotify, is_transfer_to_item_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AddNoGachaAvatarCardNotify, reason_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AddNoGachaAvatarCardNotify, initial_level_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AddNoGachaAvatarCardNotify, item_id_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarPromoteGetRewardReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarPromoteGetRewardReq, avatar_guid_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarPromoteGetRewardReq, promote_level_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarPromoteGetRewardRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarPromoteGetRewardRsp, retcode_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarPromoteGetRewardRsp, reward_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarPromoteGetRewardRsp, avatar_guid_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarPromoteGetRewardRsp, promote_level_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarChangeCostumeReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarChangeCostumeReq, costume_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarChangeCostumeReq, avatar_guid_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarChangeCostumeRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarChangeCostumeRsp, avatar_guid_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarChangeCostumeRsp, retcode_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarChangeCostumeRsp, costume_id_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarChangeCostumeNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarChangeCostumeNotify, entity_info_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarGainCostumeNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarGainCostumeNotify, costume_id_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarChangeAnimHashReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarChangeAnimHashReq, anim_hash_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarChangeAnimHashReq, avatar_guid_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarChangeAnimHashRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarChangeAnimHashRsp, anim_hash_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarChangeAnimHashRsp, retcode_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarChangeAnimHashRsp, avatar_guid_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PersistentDungeonSwitchAvatarReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PersistentDungeonSwitchAvatarReq, cur_avatar_guid_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PersistentDungeonSwitchAvatarReq, avatar_team_guid_list_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PersistentDungeonSwitchAvatarRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PersistentDungeonSwitchAvatarRsp, avatar_team_guid_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PersistentDungeonSwitchAvatarRsp, retcode_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PersistentDungeonSwitchAvatarRsp, cur_avatar_guid_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AddBackupAvatarTeamReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AddBackupAvatarTeamRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AddBackupAvatarTeamRsp, retcode_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DelBackupAvatarTeamReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DelBackupAvatarTeamReq, backup_avatar_team_id_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DelBackupAvatarTeamRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DelBackupAvatarTeamRsp, backup_avatar_team_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DelBackupAvatarTeamRsp, retcode_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarTeamAllDataNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarTeamAllDataNotify, temp_avatar_guid_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarTeamAllDataNotify, avatar_team_map_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarTeamAllDataNotify, backup_avatar_team_order_list_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarRenameInfo, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarRenameInfo, avatar_name_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarRenameInfo, avatar_id_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarRenameInfoNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AvatarRenameInfoNotify, avatar_rename_list_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ItemRenameAvatarReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ItemRenameAvatarReq, rename_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ItemRenameAvatarReq, avatar_name_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ItemRenameAvatarRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ItemRenameAvatarRsp, rename_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ItemRenameAvatarRsp, cd_time_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ItemRenameAvatarRsp, retcode_),
-};
-static const ::google::protobuf::internal::MigrationSchema schemas[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  { 0, -1, sizeof(AvatarAddNotify)},
-  { 7, -1, sizeof(AvatarDelNotify)},
-  { 13, -1, sizeof(AvatarTeam)},
-  { 20, -1, sizeof(SetUpAvatarTeamReq)},
-  { 28, -1, sizeof(SetUpAvatarTeamRsp)},
-  { 37, -1, sizeof(ChooseCurAvatarTeamReq)},
-  { 43, -1, sizeof(ChooseCurAvatarTeamRsp)},
-  { 50, -1, sizeof(ChangeAvatarReq)},
-  { 59, -1, sizeof(ChangeAvatarRsp)},
-  { 67, -1, sizeof(AvatarPromoteReq)},
-  { 73, -1, sizeof(AvatarPromoteRsp)},
-  { 80, -1, sizeof(SpringUseReq)},
-  { 86, -1, sizeof(SpringUseRsp)},
-  { 93, -1, sizeof(RefreshBackgroundAvatarReq)},
-  { 98, -1, sizeof(RefreshBackgroundAvatarRsp)},
-  { 105, -1, sizeof(AvatarTeamUpdateNotify)},
-  { 112, -1, sizeof(AvatarDataNotify)},
-  { 126, -1, sizeof(AvatarUpgradeReq)},
-  { 134, -1, sizeof(AvatarUpgradeRsp)},
-  { 145, -1, sizeof(AvatarDieAnimationEndReq)},
-  { 153, -1, sizeof(AvatarDieAnimationEndRsp)},
-  { 161, -1, sizeof(AvatarChangeElementTypeReq)},
-  { 168, -1, sizeof(AvatarChangeElementTypeRsp)},
-  { 174, -1, sizeof(AvatarFetterDataNotify)},
-  { 180, -1, sizeof(AvatarExpeditionDataNotify)},
-  { 186, -1, sizeof(AvatarExpeditionAllDataReq)},
-  { 191, -1, sizeof(AvatarExpeditionAllDataRsp)},
-  { 200, -1, sizeof(AvatarExpeditionStartReq)},
-  { 208, -1, sizeof(AvatarExpeditionStartRsp)},
-  { 215, -1, sizeof(AvatarExpeditionCallBackReq)},
-  { 221, -1, sizeof(AvatarExpeditionCallBackRsp)},
-  { 228, -1, sizeof(AvatarExpeditionGetRewardReq)},
-  { 234, -1, sizeof(AvatarExpeditionGetRewardRsp)},
-  { 243, -1, sizeof(ChangeMpTeamAvatarReq)},
-  { 250, -1, sizeof(ChangeMpTeamAvatarRsp)},
-  { 258, -1, sizeof(ChangeTeamNameReq)},
-  { 265, -1, sizeof(ChangeTeamNameRsp)},
-  { 273, -1, sizeof(SceneTeamAvatar)},
-  { 294, -1, sizeof(SceneTeamUpdateNotify)},
-  { 301, -1, sizeof(FocusAvatarReq)},
-  { 308, -1, sizeof(FocusAvatarRsp)},
-  { 316, -1, sizeof(AvatarSatiationData)},
-  { 324, -1, sizeof(AvatarSatiationDataNotify)},
-  { 330, -1, sizeof(AvatarWearFlycloakReq)},
-  { 337, -1, sizeof(AvatarWearFlycloakRsp)},
-  { 345, -1, sizeof(AvatarFlycloakChangeNotify)},
-  { 352, -1, sizeof(AvatarGainFlycloakNotify)},
-  { 358, -1, sizeof(AvatarEquipAffixStartNotify)},
-  { 365, -1, sizeof(AvatarFetterLevelRewardReq)},
-  { 372, -1, sizeof(AvatarFetterLevelRewardRsp)},
-  { 381, -1, sizeof(AddNoGachaAvatarCardTransferItem)},
-  { 389, -1, sizeof(AddNoGachaAvatarCardNotify)},
-  { 401, -1, sizeof(AvatarPromoteGetRewardReq)},
-  { 408, -1, sizeof(AvatarPromoteGetRewardRsp)},
-  { 417, -1, sizeof(AvatarChangeCostumeReq)},
-  { 424, -1, sizeof(AvatarChangeCostumeRsp)},
-  { 432, -1, sizeof(AvatarChangeCostumeNotify)},
-  { 438, -1, sizeof(AvatarGainCostumeNotify)},
-  { 444, -1, sizeof(AvatarChangeAnimHashReq)},
-  { 451, -1, sizeof(AvatarChangeAnimHashRsp)},
-  { 459, -1, sizeof(PersistentDungeonSwitchAvatarReq)},
-  { 466, -1, sizeof(PersistentDungeonSwitchAvatarRsp)},
-  { 474, -1, sizeof(AddBackupAvatarTeamReq)},
-  { 479, -1, sizeof(AddBackupAvatarTeamRsp)},
-  { 485, -1, sizeof(DelBackupAvatarTeamReq)},
-  { 491, -1, sizeof(DelBackupAvatarTeamRsp)},
-  { 498, -1, sizeof(AvatarTeamAllDataNotify)},
-  { 506, -1, sizeof(AvatarRenameInfo)},
-  { 513, -1, sizeof(AvatarRenameInfoNotify)},
-  { 519, -1, sizeof(ItemRenameAvatarReq)},
-  { 526, -1, sizeof(ItemRenameAvatarRsp)},
-};
-
-static ::google::protobuf::Message const * const file_default_instances[] = {
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarAddNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarDelNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarTeam_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_SetUpAvatarTeamReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_SetUpAvatarTeamRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_ChooseCurAvatarTeamReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_ChooseCurAvatarTeamRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_ChangeAvatarReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_ChangeAvatarRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarPromoteReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarPromoteRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_SpringUseReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_SpringUseRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_RefreshBackgroundAvatarReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_RefreshBackgroundAvatarRsp_HpFullTimeMapEntry_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_RefreshBackgroundAvatarRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarTeamUpdateNotify_AvatarTeamMapEntry_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarTeamUpdateNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarDataNotify_AvatarTeamMapEntry_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarDataNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarUpgradeReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarUpgradeRsp_OldFightPropMapEntry_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarUpgradeRsp_CurFightPropMapEntry_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarUpgradeRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarDieAnimationEndReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarDieAnimationEndRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarChangeElementTypeReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarChangeElementTypeRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarFetterDataNotify_FetterInfoMapEntry_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarFetterDataNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarExpeditionDataNotify_ExpeditionInfoMapEntry_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarExpeditionDataNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarExpeditionAllDataReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarExpeditionAllDataRsp_ExpeditionInfoMapEntry_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarExpeditionAllDataRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarExpeditionStartReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarExpeditionStartRsp_ExpeditionInfoMapEntry_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarExpeditionStartRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarExpeditionCallBackReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarExpeditionCallBackRsp_ExpeditionInfoMapEntry_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarExpeditionCallBackRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarExpeditionGetRewardReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarExpeditionGetRewardRsp_ExpeditionInfoMapEntry_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarExpeditionGetRewardRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_ChangeMpTeamAvatarReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_ChangeMpTeamAvatarRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_ChangeTeamNameReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_ChangeTeamNameRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_SceneTeamAvatar_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_SceneTeamUpdateNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_FocusAvatarReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_FocusAvatarRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarSatiationData_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarSatiationDataNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarWearFlycloakReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarWearFlycloakRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarFlycloakChangeNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarGainFlycloakNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarEquipAffixStartNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarFetterLevelRewardReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarFetterLevelRewardRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AddNoGachaAvatarCardTransferItem_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AddNoGachaAvatarCardNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarPromoteGetRewardReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarPromoteGetRewardRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarChangeCostumeReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarChangeCostumeRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarChangeCostumeNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarGainCostumeNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarChangeAnimHashReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarChangeAnimHashRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_PersistentDungeonSwitchAvatarReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_PersistentDungeonSwitchAvatarRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AddBackupAvatarTeamReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AddBackupAvatarTeamRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_DelBackupAvatarTeamReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_DelBackupAvatarTeamRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarTeamAllDataNotify_AvatarTeamMapEntry_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarTeamAllDataNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarRenameInfo_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_AvatarRenameInfoNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_ItemRenameAvatarReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_ItemRenameAvatarRsp_default_instance_),
-};
-
-namespace {
-
-void protobuf_AssignDescriptors() {
-  AddDescriptors();
-  ::google::protobuf::MessageFactory* factory = NULL;
-  AssignDescriptors(
-      "cmd/cmd_avatar.proto", schemas, file_default_instances, TableStruct::offsets, factory,
-      file_level_metadata, file_level_enum_descriptors, NULL);
-file_level_metadata[14].reflection = RefreshBackgroundAvatarRsp::RefreshBackgroundAvatarRsp_HpFullTimeMapEntry::CreateReflection(file_level_metadata[14].descriptor, _RefreshBackgroundAvatarRsp_HpFullTimeMapEntry_default_instance_._instance.get_mutable());
-file_level_metadata[16].reflection = AvatarTeamUpdateNotify::AvatarTeamUpdateNotify_AvatarTeamMapEntry::CreateReflection(file_level_metadata[16].descriptor, _AvatarTeamUpdateNotify_AvatarTeamMapEntry_default_instance_._instance.get_mutable());
-file_level_metadata[18].reflection = AvatarDataNotify::AvatarDataNotify_AvatarTeamMapEntry::CreateReflection(file_level_metadata[18].descriptor, _AvatarDataNotify_AvatarTeamMapEntry_default_instance_._instance.get_mutable());
-file_level_metadata[21].reflection = AvatarUpgradeRsp::AvatarUpgradeRsp_OldFightPropMapEntry::CreateReflection(file_level_metadata[21].descriptor, _AvatarUpgradeRsp_OldFightPropMapEntry_default_instance_._instance.get_mutable());
-file_level_metadata[22].reflection = AvatarUpgradeRsp::AvatarUpgradeRsp_CurFightPropMapEntry::CreateReflection(file_level_metadata[22].descriptor, _AvatarUpgradeRsp_CurFightPropMapEntry_default_instance_._instance.get_mutable());
-file_level_metadata[28].reflection = AvatarFetterDataNotify::AvatarFetterDataNotify_FetterInfoMapEntry::CreateReflection(file_level_metadata[28].descriptor, _AvatarFetterDataNotify_FetterInfoMapEntry_default_instance_._instance.get_mutable());
-file_level_metadata[30].reflection = AvatarExpeditionDataNotify::AvatarExpeditionDataNotify_ExpeditionInfoMapEntry::CreateReflection(file_level_metadata[30].descriptor, _AvatarExpeditionDataNotify_ExpeditionInfoMapEntry_default_instance_._instance.get_mutable());
-file_level_metadata[33].reflection = AvatarExpeditionAllDataRsp::AvatarExpeditionAllDataRsp_ExpeditionInfoMapEntry::CreateReflection(file_level_metadata[33].descriptor, _AvatarExpeditionAllDataRsp_ExpeditionInfoMapEntry_default_instance_._instance.get_mutable());
-file_level_metadata[36].reflection = AvatarExpeditionStartRsp::AvatarExpeditionStartRsp_ExpeditionInfoMapEntry::CreateReflection(file_level_metadata[36].descriptor, _AvatarExpeditionStartRsp_ExpeditionInfoMapEntry_default_instance_._instance.get_mutable());
-file_level_metadata[39].reflection = AvatarExpeditionCallBackRsp::AvatarExpeditionCallBackRsp_ExpeditionInfoMapEntry::CreateReflection(file_level_metadata[39].descriptor, _AvatarExpeditionCallBackRsp_ExpeditionInfoMapEntry_default_instance_._instance.get_mutable());
-file_level_metadata[42].reflection = AvatarExpeditionGetRewardRsp::AvatarExpeditionGetRewardRsp_ExpeditionInfoMapEntry::CreateReflection(file_level_metadata[42].descriptor, _AvatarExpeditionGetRewardRsp_ExpeditionInfoMapEntry_default_instance_._instance.get_mutable());
-file_level_metadata[77].reflection = AvatarTeamAllDataNotify::AvatarTeamAllDataNotify_AvatarTeamMapEntry::CreateReflection(file_level_metadata[77].descriptor, _AvatarTeamAllDataNotify_AvatarTeamMapEntry_default_instance_._instance.get_mutable());
-}
-
-void protobuf_AssignDescriptorsOnce() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &protobuf_AssignDescriptors);
-}
-
-void protobuf_RegisterTypes(const ::std::string&) GOOGLE_ATTRIBUTE_COLD;
-void protobuf_RegisterTypes(const ::std::string&) {
-  protobuf_AssignDescriptorsOnce();
-  ::google::protobuf::internal::RegisterAllTypes(file_level_metadata, 83);
-}
-
-}  // namespace
-void TableStruct::InitDefaultsImpl() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
-
-  ::google::protobuf::internal::InitProtobufDefaults();
-  ::proto::protobuf_define_2eproto::InitDefaults();
-  _AvatarAddNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarAddNotify_default_instance_);_AvatarDelNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarDelNotify_default_instance_);_AvatarTeam_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarTeam_default_instance_);_SetUpAvatarTeamReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_SetUpAvatarTeamReq_default_instance_);_SetUpAvatarTeamRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_SetUpAvatarTeamRsp_default_instance_);_ChooseCurAvatarTeamReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_ChooseCurAvatarTeamReq_default_instance_);_ChooseCurAvatarTeamRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_ChooseCurAvatarTeamRsp_default_instance_);_ChangeAvatarReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_ChangeAvatarReq_default_instance_);_ChangeAvatarRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_ChangeAvatarRsp_default_instance_);_AvatarPromoteReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarPromoteReq_default_instance_);_AvatarPromoteRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarPromoteRsp_default_instance_);_SpringUseReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_SpringUseReq_default_instance_);_SpringUseRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_SpringUseRsp_default_instance_);_RefreshBackgroundAvatarReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_RefreshBackgroundAvatarReq_default_instance_);_RefreshBackgroundAvatarRsp_HpFullTimeMapEntry_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_RefreshBackgroundAvatarRsp_HpFullTimeMapEntry_default_instance_);_RefreshBackgroundAvatarRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_RefreshBackgroundAvatarRsp_default_instance_);_AvatarTeamUpdateNotify_AvatarTeamMapEntry_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarTeamUpdateNotify_AvatarTeamMapEntry_default_instance_);_AvatarTeamUpdateNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarTeamUpdateNotify_default_instance_);_AvatarDataNotify_AvatarTeamMapEntry_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarDataNotify_AvatarTeamMapEntry_default_instance_);_AvatarDataNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarDataNotify_default_instance_);_AvatarUpgradeReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarUpgradeReq_default_instance_);_AvatarUpgradeRsp_OldFightPropMapEntry_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarUpgradeRsp_OldFightPropMapEntry_default_instance_);_AvatarUpgradeRsp_CurFightPropMapEntry_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarUpgradeRsp_CurFightPropMapEntry_default_instance_);_AvatarUpgradeRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarUpgradeRsp_default_instance_);_AvatarDieAnimationEndReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarDieAnimationEndReq_default_instance_);_AvatarDieAnimationEndRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarDieAnimationEndRsp_default_instance_);_AvatarChangeElementTypeReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarChangeElementTypeReq_default_instance_);_AvatarChangeElementTypeRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarChangeElementTypeRsp_default_instance_);_AvatarFetterDataNotify_FetterInfoMapEntry_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarFetterDataNotify_FetterInfoMapEntry_default_instance_);_AvatarFetterDataNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarFetterDataNotify_default_instance_);_AvatarExpeditionDataNotify_ExpeditionInfoMapEntry_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarExpeditionDataNotify_ExpeditionInfoMapEntry_default_instance_);_AvatarExpeditionDataNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarExpeditionDataNotify_default_instance_);_AvatarExpeditionAllDataReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarExpeditionAllDataReq_default_instance_);_AvatarExpeditionAllDataRsp_ExpeditionInfoMapEntry_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarExpeditionAllDataRsp_ExpeditionInfoMapEntry_default_instance_);_AvatarExpeditionAllDataRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarExpeditionAllDataRsp_default_instance_);_AvatarExpeditionStartReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarExpeditionStartReq_default_instance_);_AvatarExpeditionStartRsp_ExpeditionInfoMapEntry_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarExpeditionStartRsp_ExpeditionInfoMapEntry_default_instance_);_AvatarExpeditionStartRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarExpeditionStartRsp_default_instance_);_AvatarExpeditionCallBackReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarExpeditionCallBackReq_default_instance_);_AvatarExpeditionCallBackRsp_ExpeditionInfoMapEntry_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarExpeditionCallBackRsp_ExpeditionInfoMapEntry_default_instance_);_AvatarExpeditionCallBackRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarExpeditionCallBackRsp_default_instance_);_AvatarExpeditionGetRewardReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarExpeditionGetRewardReq_default_instance_);_AvatarExpeditionGetRewardRsp_ExpeditionInfoMapEntry_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarExpeditionGetRewardRsp_ExpeditionInfoMapEntry_default_instance_);_AvatarExpeditionGetRewardRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarExpeditionGetRewardRsp_default_instance_);_ChangeMpTeamAvatarReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_ChangeMpTeamAvatarReq_default_instance_);_ChangeMpTeamAvatarRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_ChangeMpTeamAvatarRsp_default_instance_);_ChangeTeamNameReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_ChangeTeamNameReq_default_instance_);_ChangeTeamNameRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_ChangeTeamNameRsp_default_instance_);_SceneTeamAvatar_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_SceneTeamAvatar_default_instance_);_SceneTeamUpdateNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_SceneTeamUpdateNotify_default_instance_);_FocusAvatarReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_FocusAvatarReq_default_instance_);_FocusAvatarRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_FocusAvatarRsp_default_instance_);_AvatarSatiationData_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarSatiationData_default_instance_);_AvatarSatiationDataNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarSatiationDataNotify_default_instance_);_AvatarWearFlycloakReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarWearFlycloakReq_default_instance_);_AvatarWearFlycloakRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarWearFlycloakRsp_default_instance_);_AvatarFlycloakChangeNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarFlycloakChangeNotify_default_instance_);_AvatarGainFlycloakNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarGainFlycloakNotify_default_instance_);_AvatarEquipAffixStartNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarEquipAffixStartNotify_default_instance_);_AvatarFetterLevelRewardReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarFetterLevelRewardReq_default_instance_);_AvatarFetterLevelRewardRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarFetterLevelRewardRsp_default_instance_);_AddNoGachaAvatarCardTransferItem_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AddNoGachaAvatarCardTransferItem_default_instance_);_AddNoGachaAvatarCardNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AddNoGachaAvatarCardNotify_default_instance_);_AvatarPromoteGetRewardReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarPromoteGetRewardReq_default_instance_);_AvatarPromoteGetRewardRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarPromoteGetRewardRsp_default_instance_);_AvatarChangeCostumeReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarChangeCostumeReq_default_instance_);_AvatarChangeCostumeRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarChangeCostumeRsp_default_instance_);_AvatarChangeCostumeNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarChangeCostumeNotify_default_instance_);_AvatarGainCostumeNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarGainCostumeNotify_default_instance_);_AvatarChangeAnimHashReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarChangeAnimHashReq_default_instance_);_AvatarChangeAnimHashRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarChangeAnimHashRsp_default_instance_);_PersistentDungeonSwitchAvatarReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_PersistentDungeonSwitchAvatarReq_default_instance_);_PersistentDungeonSwitchAvatarRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_PersistentDungeonSwitchAvatarRsp_default_instance_);_AddBackupAvatarTeamReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AddBackupAvatarTeamReq_default_instance_);_AddBackupAvatarTeamRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AddBackupAvatarTeamRsp_default_instance_);_DelBackupAvatarTeamReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_DelBackupAvatarTeamReq_default_instance_);_DelBackupAvatarTeamRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_DelBackupAvatarTeamRsp_default_instance_);_AvatarTeamAllDataNotify_AvatarTeamMapEntry_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarTeamAllDataNotify_AvatarTeamMapEntry_default_instance_);_AvatarTeamAllDataNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarTeamAllDataNotify_default_instance_);_AvatarRenameInfo_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarRenameInfo_default_instance_);_AvatarRenameInfoNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_AvatarRenameInfoNotify_default_instance_);_ItemRenameAvatarReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_ItemRenameAvatarReq_default_instance_);_ItemRenameAvatarRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_ItemRenameAvatarRsp_default_instance_);_AvatarAddNotify_default_instance_._instance.get_mutable()->avatar_ = const_cast< ::proto::AvatarInfo*>(
-      ::proto::AvatarInfo::internal_default_instance());
-  _ChangeAvatarReq_default_instance_._instance.get_mutable()->move_pos_ = const_cast< ::proto::Vector*>(
-      ::proto::Vector::internal_default_instance());
-  _RefreshBackgroundAvatarRsp_HpFullTimeMapEntry_default_instance_._instance.get_mutable()->set_default_instance(_RefreshBackgroundAvatarRsp_HpFullTimeMapEntry_default_instance_._instance.get_mutable());
-  _RefreshBackgroundAvatarRsp_HpFullTimeMapEntry_default_instance_._instance.get_mutable()->InitAsDefaultInstance();
-  _AvatarTeamUpdateNotify_AvatarTeamMapEntry_default_instance_._instance.get_mutable()->set_default_instance(_AvatarTeamUpdateNotify_AvatarTeamMapEntry_default_instance_._instance.get_mutable());
-  _AvatarTeamUpdateNotify_AvatarTeamMapEntry_default_instance_._instance.get_mutable()->InitAsDefaultInstance();
-  _AvatarDataNotify_AvatarTeamMapEntry_default_instance_._instance.get_mutable()->set_default_instance(_AvatarDataNotify_AvatarTeamMapEntry_default_instance_._instance.get_mutable());
-  _AvatarDataNotify_AvatarTeamMapEntry_default_instance_._instance.get_mutable()->InitAsDefaultInstance();
-  _AvatarUpgradeRsp_OldFightPropMapEntry_default_instance_._instance.get_mutable()->set_default_instance(_AvatarUpgradeRsp_OldFightPropMapEntry_default_instance_._instance.get_mutable());
-  _AvatarUpgradeRsp_OldFightPropMapEntry_default_instance_._instance.get_mutable()->InitAsDefaultInstance();
-  _AvatarUpgradeRsp_CurFightPropMapEntry_default_instance_._instance.get_mutable()->set_default_instance(_AvatarUpgradeRsp_CurFightPropMapEntry_default_instance_._instance.get_mutable());
-  _AvatarUpgradeRsp_CurFightPropMapEntry_default_instance_._instance.get_mutable()->InitAsDefaultInstance();
-  _AvatarDieAnimationEndReq_default_instance_._instance.get_mutable()->reborn_pos_ = const_cast< ::proto::Vector*>(
-      ::proto::Vector::internal_default_instance());
-  _AvatarFetterDataNotify_FetterInfoMapEntry_default_instance_._instance.get_mutable()->set_default_instance(_AvatarFetterDataNotify_FetterInfoMapEntry_default_instance_._instance.get_mutable());
-  _AvatarFetterDataNotify_FetterInfoMapEntry_default_instance_._instance.get_mutable()->InitAsDefaultInstance();
-  _AvatarExpeditionDataNotify_ExpeditionInfoMapEntry_default_instance_._instance.get_mutable()->set_default_instance(_AvatarExpeditionDataNotify_ExpeditionInfoMapEntry_default_instance_._instance.get_mutable());
-  _AvatarExpeditionDataNotify_ExpeditionInfoMapEntry_default_instance_._instance.get_mutable()->InitAsDefaultInstance();
-  _AvatarExpeditionAllDataRsp_ExpeditionInfoMapEntry_default_instance_._instance.get_mutable()->set_default_instance(_AvatarExpeditionAllDataRsp_ExpeditionInfoMapEntry_default_instance_._instance.get_mutable());
-  _AvatarExpeditionAllDataRsp_ExpeditionInfoMapEntry_default_instance_._instance.get_mutable()->InitAsDefaultInstance();
-  _AvatarExpeditionStartRsp_ExpeditionInfoMapEntry_default_instance_._instance.get_mutable()->set_default_instance(_AvatarExpeditionStartRsp_ExpeditionInfoMapEntry_default_instance_._instance.get_mutable());
-  _AvatarExpeditionStartRsp_ExpeditionInfoMapEntry_default_instance_._instance.get_mutable()->InitAsDefaultInstance();
-  _AvatarExpeditionCallBackRsp_ExpeditionInfoMapEntry_default_instance_._instance.get_mutable()->set_default_instance(_AvatarExpeditionCallBackRsp_ExpeditionInfoMapEntry_default_instance_._instance.get_mutable());
-  _AvatarExpeditionCallBackRsp_ExpeditionInfoMapEntry_default_instance_._instance.get_mutable()->InitAsDefaultInstance();
-  _AvatarExpeditionGetRewardRsp_ExpeditionInfoMapEntry_default_instance_._instance.get_mutable()->set_default_instance(_AvatarExpeditionGetRewardRsp_ExpeditionInfoMapEntry_default_instance_._instance.get_mutable());
-  _AvatarExpeditionGetRewardRsp_ExpeditionInfoMapEntry_default_instance_._instance.get_mutable()->InitAsDefaultInstance();
-  _SceneTeamAvatar_default_instance_._instance.get_mutable()->avatar_ability_info_ = const_cast< ::proto::AbilitySyncStateInfo*>(
-      ::proto::AbilitySyncStateInfo::internal_default_instance());
-  _SceneTeamAvatar_default_instance_._instance.get_mutable()->avatar_info_ = const_cast< ::proto::AvatarInfo*>(
-      ::proto::AvatarInfo::internal_default_instance());
-  _SceneTeamAvatar_default_instance_._instance.get_mutable()->scene_avatar_info_ = const_cast< ::proto::SceneAvatarInfo*>(
-      ::proto::SceneAvatarInfo::internal_default_instance());
-  _SceneTeamAvatar_default_instance_._instance.get_mutable()->weapon_ability_info_ = const_cast< ::proto::AbilitySyncStateInfo*>(
-      ::proto::AbilitySyncStateInfo::internal_default_instance());
-  _SceneTeamAvatar_default_instance_._instance.get_mutable()->scene_entity_info_ = const_cast< ::proto::SceneEntityInfo*>(
-      ::proto::SceneEntityInfo::internal_default_instance());
-  _SceneTeamAvatar_default_instance_._instance.get_mutable()->ability_control_block_ = const_cast< ::proto::AbilityControlBlock*>(
-      ::proto::AbilityControlBlock::internal_default_instance());
-  _AvatarEquipAffixStartNotify_default_instance_._instance.get_mutable()->equip_affix_info_ = const_cast< ::proto::AvatarEquipAffixInfo*>(
-      ::proto::AvatarEquipAffixInfo::internal_default_instance());
-  _AvatarChangeCostumeNotify_default_instance_._instance.get_mutable()->entity_info_ = const_cast< ::proto::SceneEntityInfo*>(
-      ::proto::SceneEntityInfo::internal_default_instance());
-  _AvatarTeamAllDataNotify_AvatarTeamMapEntry_default_instance_._instance.get_mutable()->set_default_instance(_AvatarTeamAllDataNotify_AvatarTeamMapEntry_default_instance_._instance.get_mutable());
-  _AvatarTeamAllDataNotify_AvatarTeamMapEntry_default_instance_._instance.get_mutable()->InitAsDefaultInstance();
-}
-
-void InitDefaults() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &TableStruct::InitDefaultsImpl);
-}
-namespace {
-void AddDescriptorsImpl() {
-  InitDefaults();
-  static const char descriptor[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-      "\n\024cmd/cmd_avatar.proto\022\005proto\032\014define.pr"
-      "oto\"\227\001\n\017AvatarAddNotify\022!\n\006avatar\030\010 \001(\0132"
-      "\021.proto.AvatarInfo\022\022\n\nis_in_team\030\016 \001(\010\"M"
-      "\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\375\014\022\023\n\017ENET_C"
-      "HANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001\"z\n"
-      "\017AvatarDelNotify\022\030\n\020avatar_guid_list\030\001 \003"
-      "(\004\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\206\r\022\023\n\017EN"
-      "ET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020"
-      "\001\"9\n\nAvatarTeam\022\030\n\020avatar_guid_list\030\005 \003("
-      "\004\022\021\n\tteam_name\030\013 \001(\t\"\301\001\n\022SetUpAvatarTeam"
-      "Req\022\017\n\007team_id\030\004 \001(\r\022\035\n\025avatar_team_guid"
-      "_list\030\017 \003(\004\022\027\n\017cur_avatar_guid\030\t \001(\004\"b\n\005"
-      "CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\344\r\022\023\n\017ENET_CHA"
-      "NNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\022\023\n\017IS_AL"
-      "LOW_CLIENT\020\001\032\002\020\001\"\275\001\n\022SetUpAvatarTeamRsp\022"
-      "\035\n\025avatar_team_guid_list\030\006 \003(\004\022\017\n\007team_i"
-      "d\030\005 \001(\r\022\017\n\007retcode\030\003 \001(\005\022\027\n\017cur_avatar_g"
-      "uid\030\002 \001(\004\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\321"
-      "\r\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIAB"
-      "LE\020\001\032\002\020\001\"\215\001\n\026ChooseCurAvatarTeamReq\022\017\n\007t"
-      "eam_id\030\006 \001(\r\"b\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_I"
-      "D\020\220\r\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_REL"
-      "IABLE\020\001\022\023\n\017IS_ALLOW_CLIENT\020\001\032\002\020\001\"\215\001\n\026Cho"
-      "oseCurAvatarTeamRsp\022\023\n\013cur_team_id\030\010 \001(\r"
-      "\022\017\n\007retcode\030\002 \001(\005\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006"
-      "CMD_ID\020\352\r\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_I"
-      "S_RELIABLE\020\001\032\002\020\001\"\307\001\n\017ChangeAvatarReq\022\037\n\010"
-      "move_pos\030\003 \001(\0132\r.proto.Vector\022\020\n\010skill_i"
-      "d\030\005 \001(\r\022\014\n\004guid\030\014 \001(\004\022\017\n\007is_move\030\n \001(\010\"b"
-      "\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\361\014\022\023\n\017ENET_C"
-      "HANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\022\023\n\017IS_"
-      "ALLOW_CLIENT\020\001\032\002\020\001\"\225\001\n\017ChangeAvatarRsp\022\020"
-      "\n\010skill_id\030\006 \001(\r\022\017\n\007retcode\030\017 \001(\005\022\020\n\010cur"
-      "_guid\030\016 \001(\004\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID"
-      "\020\364\r\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELI"
-      "ABLE\020\001\032\002\020\001\"\204\001\n\020AvatarPromoteReq\022\014\n\004guid\030"
-      "\001 \001(\004\"b\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\263\r\022\023\n"
-      "\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001"
-      "\022\023\n\017IS_ALLOW_CLIENT\020\001\032\002\020\001\"\200\001\n\020AvatarProm"
-      "oteRsp\022\014\n\004guid\030\r \001(\004\022\017\n\007retcode\030\007 \001(\005\"M\n"
-      "\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\204\r\022\023\n\017ENET_CH"
-      "ANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001\"\200\001\n"
-      "\014SpringUseReq\022\014\n\004guid\030\001 \001(\004\"b\n\005CmdId\022\010\n\004"
-      "NONE\020\000\022\013\n\006CMD_ID\020\303\r\022\023\n\017ENET_CHANNEL_ID\020\000"
-      "\022\024\n\020ENET_IS_RELIABLE\020\001\022\023\n\017IS_ALLOW_CLIEN"
-      "T\020\001\032\002\020\001\"|\n\014SpringUseRsp\022\014\n\004guid\030\r \001(\004\022\017\n"
-      "\007retcode\030\017 \001(\005\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD"
-      "_ID\020\215\r\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_R"
-      "ELIABLE\020\001\032\002\020\001\"\200\001\n\032RefreshBackgroundAvata"
-      "rReq\"b\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\335\014\022\023\n\017"
-      "ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\022"
-      "\023\n\017IS_ALLOW_CLIENT\020\001\032\002\020\001\"\202\002\n\032RefreshBack"
-      "groundAvatarRsp\022N\n\020hp_full_time_map\030\004 \003("
-      "\01324.proto.RefreshBackgroundAvatarRsp.HpF"
-      "ullTimeMapEntry\022\017\n\007retcode\030\r \001(\005\0324\n\022HpFu"
-      "llTimeMapEntry\022\013\n\003key\030\001 \001(\004\022\r\n\005value\030\002 \001"
-      "(\r:\0028\001\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\270\r\022\023"
-      "\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020"
-      "\001\032\002\020\001\"\232\002\n\026AvatarTeamUpdateNotify\022I\n\017avat"
-      "ar_team_map\030\006 \003(\01320.proto.AvatarTeamUpda"
-      "teNotify.AvatarTeamMapEntry\022\035\n\025temp_avat"
-      "ar_guid_list\030\010 \003(\004\032G\n\022AvatarTeamMapEntry"
-      "\022\013\n\003key\030\001 \001(\r\022 \n\005value\030\002 \001(\0132\021.proto.Ava"
-      "tarTeam:\0028\001\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID"
-      "\020\273\r\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELI"
-      "ABLE\020\001\032\002\020\001\"\203\004\n\020AvatarDataNotify\022%\n\035backu"
-      "p_avatar_team_order_list\030\014 \003(\r\022\035\n\025temp_a"
-      "vatar_guid_list\030\016 \003(\004\022&\n\013avatar_list\030\010 \003"
-      "(\0132\021.proto.AvatarInfo\022\032\n\022cur_avatar_team"
-      "_id\030\005 \001(\r\0223\n\022avatar_rename_list\030\007 \003(\0132\027."
-      "proto.AvatarRenameInfo\022\033\n\023owned_flycloak"
-      "_list\030\002 \003(\r\022\032\n\022owned_costume_list\030\017 \003(\r\022"
-      "C\n\017avatar_team_map\030\006 \003(\0132*.proto.AvatarD"
-      "ataNotify.AvatarTeamMapEntry\022\032\n\022choose_a"
-      "vatar_guid\030\004 \001(\004\032G\n\022AvatarTeamMapEntry\022\013"
-      "\n\003key\030\001 \001(\r\022 \n\005value\030\002 \001(\0132\021.proto.Avata"
-      "rTeam:\0028\001\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\355"
-      "\014\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIAB"
-      "LE\020\001\032\002\020\001\"\253\001\n\020AvatarUpgradeReq\022\023\n\013avatar_"
-      "guid\030\014 \001(\004\022\r\n\005count\030\t \001(\r\022\017\n\007item_id\030\001 \001"
-      "(\r\"b\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\330\r\022\023\n\017EN"
-      "ET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\022\023\n"
-      "\017IS_ALLOW_CLIENT\020\001\032\002\020\001\"\261\003\n\020AvatarUpgrade"
-      "Rsp\022\021\n\tcur_level\030\006 \001(\r\022\021\n\told_level\030\017 \001("
-      "\r\022H\n\022old_fight_prop_map\030\016 \003(\0132,.proto.Av"
-      "atarUpgradeRsp.OldFightPropMapEntry\022\017\n\007r"
-      "etcode\030\r \001(\005\022H\n\022cur_fight_prop_map\030\013 \003(\013"
-      "2,.proto.AvatarUpgradeRsp.CurFightPropMa"
-      "pEntry\022\023\n\013avatar_guid\030\010 \001(\004\0326\n\024OldFightP"
-      "ropMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\002:"
-      "\0028\001\0326\n\024CurFightPropMapEntry\022\013\n\003key\030\001 \001(\r"
-      "\022\r\n\005value\030\002 \001(\002:\0028\001\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013"
-      "\n\006CMD_ID\020\374\r\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET"
-      "_IS_RELIABLE\020\001\032\002\020\001\"\305\001\n\030AvatarDieAnimatio"
-      "nEndReq\022!\n\nreborn_pos\030\n \001(\0132\r.proto.Vect"
-      "or\022\020\n\010die_guid\030\007 \001(\004\022\020\n\010skill_id\030\004 \001(\r\"b"
-      "\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\364\014\022\023\n\017ENET_C"
-      "HANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\022\023\n\017IS_"
-      "ALLOW_CLIENT\020\001\032\002\020\001\"\236\001\n\030AvatarDieAnimatio"
-      "nEndRsp\022\020\n\010skill_id\030\006 \001(\r\022\017\n\007retcode\030\005 \001"
-      "(\005\022\020\n\010die_guid\030\003 \001(\004\"M\n\005CmdId\022\010\n\004NONE\020\000\022"
-      "\013\n\006CMD_ID\020\371\014\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENE"
-      "T_IS_RELIABLE\020\001\032\002\020\001\"\243\001\n\032AvatarChangeElem"
-      "entTypeReq\022\020\n\010scene_id\030\010 \001(\r\022\017\n\007area_id\030"
-      "\001 \001(\r\"b\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\200\r\022\023\n"
-      "\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001"
-      "\022\023\n\017IS_ALLOW_CLIENT\020\001\032\002\020\001\"|\n\032AvatarChang"
-      "eElementTypeRsp\022\017\n\007retcode\030\017 \001(\005\"M\n\005CmdI"
-      "d\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\320\r\022\023\n\017ENET_CHANNEL"
-      "_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001\"\201\002\n\026Avat"
-      "arFetterDataNotify\022I\n\017fetter_info_map\030\013 "
-      "\003(\01320.proto.AvatarFetterDataNotify.Fette"
-      "rInfoMapEntry\032M\n\022FetterInfoMapEntry\022\013\n\003k"
-      "ey\030\001 \001(\004\022&\n\005value\030\002 \001(\0132\027.proto.AvatarFe"
-      "tterInfo:\0028\001\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_I"
-      "D\020\354\r\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_REL"
-      "IABLE\020\001\032\002\020\001\"\231\002\n\032AvatarExpeditionDataNoti"
-      "fy\022U\n\023expedition_info_map\030\004 \003(\01328.proto."
-      "AvatarExpeditionDataNotify.ExpeditionInf"
-      "oMapEntry\032U\n\026ExpeditionInfoMapEntry\022\013\n\003k"
-      "ey\030\001 \001(\004\022*\n\005value\030\002 \001(\0132\033.proto.AvatarEx"
-      "peditionInfo:\0028\001\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006C"
-      "MD_ID\020\346\014\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS"
-      "_RELIABLE\020\001\032\002\020\001\"\200\001\n\032AvatarExpeditionAllD"
-      "ataReq\"b\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\361\r\022\023"
-      "\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020"
-      "\001\022\023\n\017IS_ALLOW_CLIENT\020\001\032\002\020\001\"\350\002\n\032AvatarExp"
-      "editionAllDataRsp\022\034\n\024open_expedition_lis"
-      "t\030\t \003(\r\022\017\n\007retcode\030\004 \001(\005\022\036\n\026expedition_c"
-      "ount_limit\030\014 \001(\r\022U\n\023expedition_info_map\030"
-      "\n \003(\01328.proto.AvatarExpeditionAllDataRsp"
-      ".ExpeditionInfoMapEntry\032U\n\026ExpeditionInf"
-      "oMapEntry\022\013\n\003key\030\001 \001(\004\022*\n\005value\030\002 \001(\0132\033."
-      "proto.AvatarExpeditionInfo:\0028\001\"M\n\005CmdId\022"
-      "\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\366\014\022\023\n\017ENET_CHANNEL_I"
-      "D\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001\"\266\001\n\030Avatar"
-      "ExpeditionStartReq\022\016\n\006exp_id\030\016 \001(\r\022\023\n\013av"
-      "atar_guid\030\010 \001(\004\022\021\n\thour_time\030\014 \001(\r\"b\n\005Cm"
-      "dId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\370\014\022\023\n\017ENET_CHANN"
-      "EL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\022\023\n\017IS_ALLO"
-      "W_CLIENT\020\001\032\002\020\001\"\246\002\n\030AvatarExpeditionStart"
-      "Rsp\022S\n\023expedition_info_map\030\007 \003(\01326.proto"
-      ".AvatarExpeditionStartRsp.ExpeditionInfo"
-      "MapEntry\022\017\n\007retcode\030\n \001(\005\032U\n\026ExpeditionI"
-      "nfoMapEntry\022\013\n\003key\030\001 \001(\004\022*\n\005value\030\002 \001(\0132"
-      "\033.proto.AvatarExpeditionInfo:\0028\001\"M\n\005CmdI"
-      "d\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\365\014\022\023\n\017ENET_CHANNEL"
-      "_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001\"\226\001\n\033Avat"
-      "arExpeditionCallBackReq\022\023\n\013avatar_guid\030\016"
-      " \003(\004\"b\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\241\r\022\023\n\017"
-      "ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\022"
-      "\023\n\017IS_ALLOW_CLIENT\020\001\032\002\020\001\"\254\002\n\033AvatarExped"
-      "itionCallBackRsp\022V\n\023expedition_info_map\030"
-      "\007 \003(\01329.proto.AvatarExpeditionCallBackRs"
-      "p.ExpeditionInfoMapEntry\022\017\n\007retcode\030\016 \001("
-      "\005\032U\n\026ExpeditionInfoMapEntry\022\013\n\003key\030\001 \001(\004"
-      "\022*\n\005value\030\002 \001(\0132\033.proto.AvatarExpedition"
-      "Info:\0028\001\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\340\014"
-      "\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABL"
-      "E\020\001\032\002\020\001\"\227\001\n\034AvatarExpeditionGetRewardReq"
-      "\022\023\n\013avatar_guid\030\017 \001(\004\"b\n\005CmdId\022\010\n\004NONE\020\000"
-      "\022\013\n\006CMD_ID\020\260\r\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020EN"
-      "ET_IS_RELIABLE\020\001\022\023\n\017IS_ALLOW_CLIENT\020\001\032\002\020"
-      "\001\"\376\002\n\034AvatarExpeditionGetRewardRsp\022)\n\017ex"
-      "tra_item_list\030\n \003(\0132\020.proto.ItemParam\022#\n"
-      "\titem_list\030\016 \003(\0132\020.proto.ItemParam\022W\n\023ex"
-      "pedition_info_map\030\004 \003(\0132:.proto.AvatarEx"
-      "peditionGetRewardRsp.ExpeditionInfoMapEn"
-      "try\022\017\n\007retcode\030\t \001(\005\032U\n\026ExpeditionInfoMa"
-      "pEntry\022\013\n\003key\030\001 \001(\004\022*\n\005value\030\002 \001(\0132\033.pro"
-      "to.AvatarExpeditionInfo:\0028\001\"M\n\005CmdId\022\010\n\004"
-      "NONE\020\000\022\013\n\006CMD_ID\020\373\014\022\023\n\017ENET_CHANNEL_ID\020\000"
-      "\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001\"\256\001\n\025ChangeMpT"
-      "eamAvatarReq\022\027\n\017cur_avatar_guid\030\010 \001(\004\022\030\n"
-      "\020avatar_guid_list\030\002 \003(\004\"b\n\005CmdId\022\010\n\004NONE"
-      "\020\000\022\013\n\006CMD_ID\020\370\r\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020"
-      "ENET_IS_RELIABLE\020\001\022\023\n\017IS_ALLOW_CLIENT\020\001\032"
-      "\002\020\001\"\252\001\n\025ChangeMpTeamAvatarRsp\022\017\n\007retcode"
-      "\030\001 \001(\005\022\030\n\020avatar_guid_list\030\n \003(\004\022\027\n\017cur_"
-      "avatar_guid\030\014 \001(\004\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006"
-      "CMD_ID\020\204\016\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_I"
-      "S_RELIABLE\020\001\032\002\020\001\"\233\001\n\021ChangeTeamNameReq\022\017"
-      "\n\007team_id\030\001 \001(\005\022\021\n\tteam_name\030\010 \001(\t\"b\n\005Cm"
-      "dId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\337\014\022\023\n\017ENET_CHANN"
-      "EL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\022\023\n\017IS_ALLO"
-      "W_CLIENT\020\001\032\002\020\001\"\227\001\n\021ChangeTeamNameRsp\022\017\n\007"
-      "retcode\030\016 \001(\005\022\021\n\tteam_name\030\002 \001(\t\022\017\n\007team"
-      "_id\030\003 \001(\005\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\315"
-      "\r\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIAB"
-      "LE\020\001\032\002\020\001\"\302\004\n\017SceneTeamAvatar\0228\n\023avatar_a"
-      "bility_info\030\014 \001(\0132\033.proto.AbilitySyncSta"
-      "teInfo\022&\n\013avatar_info\030\002 \001(\0132\021.proto.Avat"
-      "arInfo\022\024\n\013is_on_scene\030\210\006 \001(\010\022\021\n\tentity_i"
-      "d\030\r \001(\r\022\023\n\013avatar_guid\030\t \001(\004\022\020\n\010scene_id"
-      "\030\004 \001(\r\022\030\n\020weapon_entity_id\030\017 \001(\r\0221\n\021scen"
-      "e_avatar_info\030\005 \001(\0132\026.proto.SceneAvatarI"
-      "nfo\022\023\n\013weapon_guid\030\003 \001(\004\0228\n\023weapon_abili"
-      "ty_info\030\006 \001(\0132\033.proto.AbilitySyncStateIn"
-      "fo\0221\n\021scene_entity_info\030\001 \001(\0132\026.proto.Sc"
-      "eneEntityInfo\022\022\n\nplayer_uid\030\013 \001(\r\022\024\n\014is_"
-      "reconnect\030\010 \001(\010\0229\n\025ability_control_block"
-      "\030\n \001(\0132\032.proto.AbilityControlBlock\022\034\n\024is"
-      "_player_cur_avatar\030\007 \001(\010\022+\n\020server_buff_"
-      "list\030\016 \003(\0132\021.proto.ServerBuff\"\260\001\n\025SceneT"
-      "eamUpdateNotify\0226\n\026scene_team_avatar_lis"
-      "t\030\014 \003(\0132\026.proto.SceneTeamAvatar\022\020\n\010is_in"
-      "_mp\030\017 \001(\010\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\327"
-      "\014\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIAB"
-      "LE\020\001\032\002\020\001\"\233\001\n\016FocusAvatarReq\022\023\n\013avatar_gu"
-      "id\030\n \001(\004\022\020\n\010is_focus\030\017 \001(\010\"b\n\005CmdId\022\010\n\004N"
-      "ONE\020\000\022\013\n\006CMD_ID\020\310\014\022\023\n\017ENET_CHANNEL_ID\020\000\022"
-      "\024\n\020ENET_IS_RELIABLE\020\001\022\023\n\017IS_ALLOW_CLIENT"
-      "\020\001\032\002\020\001\"\227\001\n\016FocusAvatarRsp\022\017\n\007retcode\030\001 \001"
-      "(\005\022\020\n\010is_focus\030\013 \001(\010\022\023\n\013avatar_guid\030\017 \001("
-      "\004\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\363\r\022\023\n\017ENE"
-      "T_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001"
-      "\"\\\n\023AvatarSatiationData\022\023\n\013finish_time\030\017"
-      " \001(\002\022\023\n\013avatar_guid\030\005 \001(\004\022\033\n\023penalty_fin"
-      "ish_time\030\014 \001(\002\"\243\001\n\031AvatarSatiationDataNo"
-      "tify\0227\n\023satiation_data_list\030\t \003(\0132\032.prot"
-      "o.AvatarSatiationData\"M\n\005CmdId\022\010\n\004NONE\020\000"
-      "\022\013\n\006CMD_ID\020\272\r\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020EN"
-      "ET_IS_RELIABLE\020\001\032\002\020\001\"\245\001\n\025AvatarWearFlycl"
-      "oakReq\022\023\n\013avatar_guid\030\r \001(\004\022\023\n\013flycloak_"
-      "id\030\016 \001(\r\"b\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\355\r"
-      "\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABL"
-      "E\020\001\022\023\n\017IS_ALLOW_CLIENT\020\001\032\002\020\001\"\241\001\n\025AvatarW"
-      "earFlycloakRsp\022\023\n\013flycloak_id\030\001 \001(\r\022\023\n\013a"
-      "vatar_guid\030\003 \001(\004\022\017\n\007retcode\030\016 \001(\005\"M\n\005Cmd"
-      "Id\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\250\r\022\023\n\017ENET_CHANNE"
-      "L_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001\"\225\001\n\032Ava"
-      "tarFlycloakChangeNotify\022\023\n\013flycloak_id\030\004"
-      " \001(\r\022\023\n\013avatar_guid\030\014 \001(\004\"M\n\005CmdId\022\010\n\004NO"
-      "NE\020\000\022\013\n\006CMD_ID\020\332\014\022\023\n\017ENET_CHANNEL_ID\020\000\022\024"
-      "\n\020ENET_IS_RELIABLE\020\001\032\002\020\001\"~\n\030AvatarGainFl"
-      "ycloakNotify\022\023\n\013flycloak_id\030\017 \001(\r\"M\n\005Cmd"
-      "Id\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\246\r\022\023\n\017ENET_CHANNE"
-      "L_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001\"\270\001\n\033Ava"
-      "tarEquipAffixStartNotify\022\023\n\013avatar_guid\030"
-      "\017 \001(\004\0225\n\020equip_affix_info\030\005 \001(\0132\033.proto."
-      "AvatarEquipAffixInfo\"M\n\005CmdId\022\010\n\004NONE\020\000\022"
-      "\013\n\006CMD_ID\020\302\014\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENE"
-      "T_IS_RELIABLE\020\001\032\002\020\001\"\253\001\n\032AvatarFetterLeve"
-      "lRewardReq\022\023\n\013avatar_guid\030\r \001(\004\022\024\n\014fette"
-      "r_level\030\014 \001(\r\"b\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_"
-      "ID\020\222\r\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RE"
-      "LIABLE\020\001\022\023\n\017IS_ALLOW_CLIENT\020\001\032\002\020\001\"\272\001\n\032Av"
-      "atarFetterLevelRewardRsp\022\023\n\013avatar_guid\030"
-      "\006 \001(\004\022\021\n\treward_id\030\017 \001(\r\022\017\n\007retcode\030\016 \001("
-      "\005\022\024\n\014fetter_level\030\002 \001(\r\"M\n\005CmdId\022\010\n\004NONE"
-      "\020\000\022\013\n\006CMD_ID\020\314\014\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020"
-      "ENET_IS_RELIABLE\020\001\032\002\020\001\"R\n AddNoGachaAvat"
-      "arCardTransferItem\022\r\n\005count\030\n \001(\r\022\017\n\007ite"
-      "m_id\030\014 \001(\r\022\016\n\006is_new\030\013 \001(\010\"\267\002\n\032AddNoGach"
-      "aAvatarCardNotify\022C\n\022transfer_item_list\030"
-      "\n \003(\0132\'.proto.AddNoGachaAvatarCardTransf"
-      "erItem\022\035\n\025initial_promote_level\030\r \001(\r\022\021\n"
-      "\tavatar_id\030\004 \001(\r\022\033\n\023is_transfer_to_item\030"
-      "\016 \001(\010\022\016\n\006reason\030\t \001(\r\022\025\n\rinitial_level\030\003"
-      " \001(\r\022\017\n\007item_id\030\007 \001(\r\"M\n\005CmdId\022\010\n\004NONE\020\000"
-      "\022\013\n\006CMD_ID\020\205\r\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020EN"
-      "ET_IS_RELIABLE\020\001\032\002\020\001\"\253\001\n\031AvatarPromoteGe"
-      "tRewardReq\022\023\n\013avatar_guid\030\010 \001(\004\022\025\n\rpromo"
-      "te_level\030\n \001(\r\"b\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD"
-      "_ID\020\352\014\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_R"
-      "ELIABLE\020\001\022\023\n\017IS_ALLOW_CLIENT\020\001\032\002\020\001\"\272\001\n\031A"
-      "vatarPromoteGetRewardRsp\022\017\n\007retcode\030\014 \001("
-      "\005\022\021\n\treward_id\030\010 \001(\r\022\023\n\013avatar_guid\030\016 \001("
-      "\004\022\025\n\rpromote_level\030\005 \001(\r\"M\n\005CmdId\022\010\n\004NON"
-      "E\020\000\022\013\n\006CMD_ID\020\266\r\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n"
-      "\020ENET_IS_RELIABLE\020\001\032\002\020\001\"\245\001\n\026AvatarChange"
-      "CostumeReq\022\022\n\ncostume_id\030\013 \001(\r\022\023\n\013avatar"
-      "_guid\030\004 \001(\004\"b\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID"
-      "\020\337\r\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELI"
-      "ABLE\020\001\022\023\n\017IS_ALLOW_CLIENT\020\001\032\002\020\001\"\241\001\n\026Avat"
-      "arChangeCostumeRsp\022\023\n\013avatar_guid\030\005 \001(\004\022"
-      "\017\n\007retcode\030\007 \001(\005\022\022\n\ncostume_id\030\017 \001(\r\"M\n\005"
-      "CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\331\r\022\023\n\017ENET_CHA"
-      "NNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001\"\227\001\n\031"
-      "AvatarChangeCostumeNotify\022+\n\013entity_info"
-      "\030\r \001(\0132\026.proto.SceneEntityInfo\"M\n\005CmdId\022"
-      "\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\360\014\022\023\n\017ENET_CHANNEL_I"
-      "D\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001\"|\n\027AvatarG"
-      "ainCostumeNotify\022\022\n\ncostume_id\030\006 \001(\r\"M\n\005"
-      "CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\262\r\022\023\n\017ENET_CHA"
-      "NNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001\"\245\001\n\027"
-      "AvatarChangeAnimHashReq\022\021\n\tanim_hash\030\014 \001"
-      "(\r\022\023\n\013avatar_guid\030\002 \001(\004\"b\n\005CmdId\022\010\n\004NONE"
-      "\020\000\022\013\n\006CMD_ID\020\303\014\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020"
-      "ENET_IS_RELIABLE\020\001\022\023\n\017IS_ALLOW_CLIENT\020\001\032"
-      "\002\020\001\"\241\001\n\027AvatarChangeAnimHashRsp\022\021\n\tanim_"
-      "hash\030\t \001(\r\022\017\n\007retcode\030\017 \001(\005\022\023\n\013avatar_gu"
-      "id\030\013 \001(\004\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\244\r"
-      "\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABL"
-      "E\020\001\032\002\020\001\"\276\001\n PersistentDungeonSwitchAvata"
-      "rReq\022\027\n\017cur_avatar_guid\030\016 \001(\004\022\035\n\025avatar_"
-      "team_guid_list\030\002 \003(\004\"b\n\005CmdId\022\010\n\004NONE\020\000\022"
-      "\013\n\006CMD_ID\020\255\r\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENE"
-      "T_IS_RELIABLE\020\001\022\023\n\017IS_ALLOW_CLIENT\020\001\032\002\020\001"
-      "\"\272\001\n PersistentDungeonSwitchAvatarRsp\022\035\n"
-      "\025avatar_team_guid_list\030\r \003(\004\022\017\n\007retcode\030"
-      "\004 \001(\005\022\027\n\017cur_avatar_guid\030\t \001(\004\"M\n\005CmdId\022"
-      "\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\356\r\022\023\n\017ENET_CHANNEL_I"
-      "D\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001\"|\n\026AddBack"
-      "upAvatarTeamReq\"b\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CM"
-      "D_ID\020\324\014\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_"
-      "RELIABLE\020\001\022\023\n\017IS_ALLOW_CLIENT\020\001\032\002\020\001\"x\n\026A"
-      "ddBackupAvatarTeamRsp\022\017\n\007retcode\030\005 \001(\005\"M"
-      "\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\335\r\022\023\n\017ENET_C"
-      "HANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001\"\233\001"
-      "\n\026DelBackupAvatarTeamReq\022\035\n\025backup_avata"
-      "r_team_id\030\004 \001(\r\"b\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CM"
-      "D_ID\020\313\014\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_"
-      "RELIABLE\020\001\022\023\n\017IS_ALLOW_CLIENT\020\001\032\002\020\001\"\227\001\n\026"
-      "DelBackupAvatarTeamRsp\022\035\n\025backup_avatar_"
-      "team_id\030\013 \001(\r\022\017\n\007retcode\030\014 \001(\005\"M\n\005CmdId\022"
-      "\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\334\r\022\023\n\017ENET_CHANNEL_I"
-      "D\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001\"\303\002\n\027Avatar"
-      "TeamAllDataNotify\022\035\n\025temp_avatar_guid_li"
-      "st\030\017 \003(\004\022J\n\017avatar_team_map\030\014 \003(\01321.prot"
-      "o.AvatarTeamAllDataNotify.AvatarTeamMapE"
-      "ntry\022%\n\035backup_avatar_team_order_list\030\016 "
-      "\003(\r\032G\n\022AvatarTeamMapEntry\022\013\n\003key\030\001 \001(\r\022 "
-      "\n\005value\030\002 \001(\0132\021.proto.AvatarTeam:\0028\001\"M\n\005"
-      "CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\343\r\022\023\n\017ENET_CHA"
-      "NNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001\":\n\020A"
-      "vatarRenameInfo\022\023\n\013avatar_name\030\010 \001(\t\022\021\n\t"
-      "avatar_id\030\001 \001(\r\"\234\001\n\026AvatarRenameInfoNoti"
-      "fy\0223\n\022avatar_rename_list\030\014 \003(\0132\027.proto.A"
-      "vatarRenameInfo\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CM"
-      "D_ID\020\201\r\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_"
-      "RELIABLE\020\001\032\002\020\001\"\241\001\n\023ItemRenameAvatarReq\022\021"
-      "\n\trename_id\030\016 \001(\r\022\023\n\013avatar_name\030\004 \001(\t\"b"
-      "\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\323\r\022\023\n\017ENET_C"
-      "HANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\022\023\n\017IS_"
-      "ALLOW_CLIENT\020\001\032\002\020\001\"\231\001\n\023ItemRenameAvatarR"
-      "sp\022\021\n\trename_id\030\010 \001(\r\022\017\n\007cd_time\030\007 \001(\r\022\017"
-      "\n\007retcode\030\017 \001(\005\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CM"
-      "D_ID\020\334\014\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_"
-      "RELIABLE\020\001\032\002\020\001B\nZ\010./;protob\006proto3"
-  };
-  ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-      descriptor, 13594);
-  ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
-    "cmd/cmd_avatar.proto", &protobuf_RegisterTypes);
-  ::proto::protobuf_define_2eproto::AddDescriptors();
-}
-} // anonymous namespace
-
-void AddDescriptors() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &AddDescriptorsImpl);
-}
-// Force AddDescriptors() to be called at dynamic initialization time.
-struct StaticDescriptorInitializer {
-  StaticDescriptorInitializer() {
-    AddDescriptors();
-  }
-} static_descriptor_initializer;
-
-}  // namespace protobuf_cmd_2fcmd_5favatar_2eproto
-
-const ::google::protobuf::EnumDescriptor* AvatarAddNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[0];
-}
-bool AvatarAddNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1661:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarAddNotify_CmdId AvatarAddNotify::NONE;
-const AvatarAddNotify_CmdId AvatarAddNotify::CMD_ID;
-const AvatarAddNotify_CmdId AvatarAddNotify::ENET_CHANNEL_ID;
-const AvatarAddNotify_CmdId AvatarAddNotify::ENET_IS_RELIABLE;
-const AvatarAddNotify_CmdId AvatarAddNotify::CmdId_MIN;
-const AvatarAddNotify_CmdId AvatarAddNotify::CmdId_MAX;
-const int AvatarAddNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarDelNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[1];
-}
-bool AvatarDelNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1670:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarDelNotify_CmdId AvatarDelNotify::NONE;
-const AvatarDelNotify_CmdId AvatarDelNotify::CMD_ID;
-const AvatarDelNotify_CmdId AvatarDelNotify::ENET_CHANNEL_ID;
-const AvatarDelNotify_CmdId AvatarDelNotify::ENET_IS_RELIABLE;
-const AvatarDelNotify_CmdId AvatarDelNotify::CmdId_MIN;
-const AvatarDelNotify_CmdId AvatarDelNotify::CmdId_MAX;
-const int AvatarDelNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* SetUpAvatarTeamReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[2];
-}
-bool SetUpAvatarTeamReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1764:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const SetUpAvatarTeamReq_CmdId SetUpAvatarTeamReq::NONE;
-const SetUpAvatarTeamReq_CmdId SetUpAvatarTeamReq::CMD_ID;
-const SetUpAvatarTeamReq_CmdId SetUpAvatarTeamReq::ENET_CHANNEL_ID;
-const SetUpAvatarTeamReq_CmdId SetUpAvatarTeamReq::ENET_IS_RELIABLE;
-const SetUpAvatarTeamReq_CmdId SetUpAvatarTeamReq::IS_ALLOW_CLIENT;
-const SetUpAvatarTeamReq_CmdId SetUpAvatarTeamReq::CmdId_MIN;
-const SetUpAvatarTeamReq_CmdId SetUpAvatarTeamReq::CmdId_MAX;
-const int SetUpAvatarTeamReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* SetUpAvatarTeamRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[3];
-}
-bool SetUpAvatarTeamRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1745:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const SetUpAvatarTeamRsp_CmdId SetUpAvatarTeamRsp::NONE;
-const SetUpAvatarTeamRsp_CmdId SetUpAvatarTeamRsp::CMD_ID;
-const SetUpAvatarTeamRsp_CmdId SetUpAvatarTeamRsp::ENET_CHANNEL_ID;
-const SetUpAvatarTeamRsp_CmdId SetUpAvatarTeamRsp::ENET_IS_RELIABLE;
-const SetUpAvatarTeamRsp_CmdId SetUpAvatarTeamRsp::CmdId_MIN;
-const SetUpAvatarTeamRsp_CmdId SetUpAvatarTeamRsp::CmdId_MAX;
-const int SetUpAvatarTeamRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* ChooseCurAvatarTeamReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[4];
-}
-bool ChooseCurAvatarTeamReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1680:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const ChooseCurAvatarTeamReq_CmdId ChooseCurAvatarTeamReq::NONE;
-const ChooseCurAvatarTeamReq_CmdId ChooseCurAvatarTeamReq::CMD_ID;
-const ChooseCurAvatarTeamReq_CmdId ChooseCurAvatarTeamReq::ENET_CHANNEL_ID;
-const ChooseCurAvatarTeamReq_CmdId ChooseCurAvatarTeamReq::ENET_IS_RELIABLE;
-const ChooseCurAvatarTeamReq_CmdId ChooseCurAvatarTeamReq::IS_ALLOW_CLIENT;
-const ChooseCurAvatarTeamReq_CmdId ChooseCurAvatarTeamReq::CmdId_MIN;
-const ChooseCurAvatarTeamReq_CmdId ChooseCurAvatarTeamReq::CmdId_MAX;
-const int ChooseCurAvatarTeamReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* ChooseCurAvatarTeamRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[5];
-}
-bool ChooseCurAvatarTeamRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1770:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const ChooseCurAvatarTeamRsp_CmdId ChooseCurAvatarTeamRsp::NONE;
-const ChooseCurAvatarTeamRsp_CmdId ChooseCurAvatarTeamRsp::CMD_ID;
-const ChooseCurAvatarTeamRsp_CmdId ChooseCurAvatarTeamRsp::ENET_CHANNEL_ID;
-const ChooseCurAvatarTeamRsp_CmdId ChooseCurAvatarTeamRsp::ENET_IS_RELIABLE;
-const ChooseCurAvatarTeamRsp_CmdId ChooseCurAvatarTeamRsp::CmdId_MIN;
-const ChooseCurAvatarTeamRsp_CmdId ChooseCurAvatarTeamRsp::CmdId_MAX;
-const int ChooseCurAvatarTeamRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* ChangeAvatarReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[6];
-}
-bool ChangeAvatarReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1649:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const ChangeAvatarReq_CmdId ChangeAvatarReq::NONE;
-const ChangeAvatarReq_CmdId ChangeAvatarReq::CMD_ID;
-const ChangeAvatarReq_CmdId ChangeAvatarReq::ENET_CHANNEL_ID;
-const ChangeAvatarReq_CmdId ChangeAvatarReq::ENET_IS_RELIABLE;
-const ChangeAvatarReq_CmdId ChangeAvatarReq::IS_ALLOW_CLIENT;
-const ChangeAvatarReq_CmdId ChangeAvatarReq::CmdId_MIN;
-const ChangeAvatarReq_CmdId ChangeAvatarReq::CmdId_MAX;
-const int ChangeAvatarReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* ChangeAvatarRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[7];
-}
-bool ChangeAvatarRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1780:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const ChangeAvatarRsp_CmdId ChangeAvatarRsp::NONE;
-const ChangeAvatarRsp_CmdId ChangeAvatarRsp::CMD_ID;
-const ChangeAvatarRsp_CmdId ChangeAvatarRsp::ENET_CHANNEL_ID;
-const ChangeAvatarRsp_CmdId ChangeAvatarRsp::ENET_IS_RELIABLE;
-const ChangeAvatarRsp_CmdId ChangeAvatarRsp::CmdId_MIN;
-const ChangeAvatarRsp_CmdId ChangeAvatarRsp::CmdId_MAX;
-const int ChangeAvatarRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarPromoteReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[8];
-}
-bool AvatarPromoteReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1715:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarPromoteReq_CmdId AvatarPromoteReq::NONE;
-const AvatarPromoteReq_CmdId AvatarPromoteReq::CMD_ID;
-const AvatarPromoteReq_CmdId AvatarPromoteReq::ENET_CHANNEL_ID;
-const AvatarPromoteReq_CmdId AvatarPromoteReq::ENET_IS_RELIABLE;
-const AvatarPromoteReq_CmdId AvatarPromoteReq::IS_ALLOW_CLIENT;
-const AvatarPromoteReq_CmdId AvatarPromoteReq::CmdId_MIN;
-const AvatarPromoteReq_CmdId AvatarPromoteReq::CmdId_MAX;
-const int AvatarPromoteReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarPromoteRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[9];
-}
-bool AvatarPromoteRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1668:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarPromoteRsp_CmdId AvatarPromoteRsp::NONE;
-const AvatarPromoteRsp_CmdId AvatarPromoteRsp::CMD_ID;
-const AvatarPromoteRsp_CmdId AvatarPromoteRsp::ENET_CHANNEL_ID;
-const AvatarPromoteRsp_CmdId AvatarPromoteRsp::ENET_IS_RELIABLE;
-const AvatarPromoteRsp_CmdId AvatarPromoteRsp::CmdId_MIN;
-const AvatarPromoteRsp_CmdId AvatarPromoteRsp::CmdId_MAX;
-const int AvatarPromoteRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* SpringUseReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[10];
-}
-bool SpringUseReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1731:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const SpringUseReq_CmdId SpringUseReq::NONE;
-const SpringUseReq_CmdId SpringUseReq::CMD_ID;
-const SpringUseReq_CmdId SpringUseReq::ENET_CHANNEL_ID;
-const SpringUseReq_CmdId SpringUseReq::ENET_IS_RELIABLE;
-const SpringUseReq_CmdId SpringUseReq::IS_ALLOW_CLIENT;
-const SpringUseReq_CmdId SpringUseReq::CmdId_MIN;
-const SpringUseReq_CmdId SpringUseReq::CmdId_MAX;
-const int SpringUseReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* SpringUseRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[11];
-}
-bool SpringUseRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1677:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const SpringUseRsp_CmdId SpringUseRsp::NONE;
-const SpringUseRsp_CmdId SpringUseRsp::CMD_ID;
-const SpringUseRsp_CmdId SpringUseRsp::ENET_CHANNEL_ID;
-const SpringUseRsp_CmdId SpringUseRsp::ENET_IS_RELIABLE;
-const SpringUseRsp_CmdId SpringUseRsp::CmdId_MIN;
-const SpringUseRsp_CmdId SpringUseRsp::CmdId_MAX;
-const int SpringUseRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* RefreshBackgroundAvatarReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[12];
-}
-bool RefreshBackgroundAvatarReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1629:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const RefreshBackgroundAvatarReq_CmdId RefreshBackgroundAvatarReq::NONE;
-const RefreshBackgroundAvatarReq_CmdId RefreshBackgroundAvatarReq::CMD_ID;
-const RefreshBackgroundAvatarReq_CmdId RefreshBackgroundAvatarReq::ENET_CHANNEL_ID;
-const RefreshBackgroundAvatarReq_CmdId RefreshBackgroundAvatarReq::ENET_IS_RELIABLE;
-const RefreshBackgroundAvatarReq_CmdId RefreshBackgroundAvatarReq::IS_ALLOW_CLIENT;
-const RefreshBackgroundAvatarReq_CmdId RefreshBackgroundAvatarReq::CmdId_MIN;
-const RefreshBackgroundAvatarReq_CmdId RefreshBackgroundAvatarReq::CmdId_MAX;
-const int RefreshBackgroundAvatarReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* RefreshBackgroundAvatarRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[13];
-}
-bool RefreshBackgroundAvatarRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1720:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const RefreshBackgroundAvatarRsp_CmdId RefreshBackgroundAvatarRsp::NONE;
-const RefreshBackgroundAvatarRsp_CmdId RefreshBackgroundAvatarRsp::CMD_ID;
-const RefreshBackgroundAvatarRsp_CmdId RefreshBackgroundAvatarRsp::ENET_CHANNEL_ID;
-const RefreshBackgroundAvatarRsp_CmdId RefreshBackgroundAvatarRsp::ENET_IS_RELIABLE;
-const RefreshBackgroundAvatarRsp_CmdId RefreshBackgroundAvatarRsp::CmdId_MIN;
-const RefreshBackgroundAvatarRsp_CmdId RefreshBackgroundAvatarRsp::CmdId_MAX;
-const int RefreshBackgroundAvatarRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarTeamUpdateNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[14];
-}
-bool AvatarTeamUpdateNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1723:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarTeamUpdateNotify_CmdId AvatarTeamUpdateNotify::NONE;
-const AvatarTeamUpdateNotify_CmdId AvatarTeamUpdateNotify::CMD_ID;
-const AvatarTeamUpdateNotify_CmdId AvatarTeamUpdateNotify::ENET_CHANNEL_ID;
-const AvatarTeamUpdateNotify_CmdId AvatarTeamUpdateNotify::ENET_IS_RELIABLE;
-const AvatarTeamUpdateNotify_CmdId AvatarTeamUpdateNotify::CmdId_MIN;
-const AvatarTeamUpdateNotify_CmdId AvatarTeamUpdateNotify::CmdId_MAX;
-const int AvatarTeamUpdateNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarDataNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[15];
-}
-bool AvatarDataNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1645:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarDataNotify_CmdId AvatarDataNotify::NONE;
-const AvatarDataNotify_CmdId AvatarDataNotify::CMD_ID;
-const AvatarDataNotify_CmdId AvatarDataNotify::ENET_CHANNEL_ID;
-const AvatarDataNotify_CmdId AvatarDataNotify::ENET_IS_RELIABLE;
-const AvatarDataNotify_CmdId AvatarDataNotify::CmdId_MIN;
-const AvatarDataNotify_CmdId AvatarDataNotify::CmdId_MAX;
-const int AvatarDataNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarUpgradeReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[16];
-}
-bool AvatarUpgradeReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1752:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarUpgradeReq_CmdId AvatarUpgradeReq::NONE;
-const AvatarUpgradeReq_CmdId AvatarUpgradeReq::CMD_ID;
-const AvatarUpgradeReq_CmdId AvatarUpgradeReq::ENET_CHANNEL_ID;
-const AvatarUpgradeReq_CmdId AvatarUpgradeReq::ENET_IS_RELIABLE;
-const AvatarUpgradeReq_CmdId AvatarUpgradeReq::IS_ALLOW_CLIENT;
-const AvatarUpgradeReq_CmdId AvatarUpgradeReq::CmdId_MIN;
-const AvatarUpgradeReq_CmdId AvatarUpgradeReq::CmdId_MAX;
-const int AvatarUpgradeReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarUpgradeRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[17];
-}
-bool AvatarUpgradeRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1788:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarUpgradeRsp_CmdId AvatarUpgradeRsp::NONE;
-const AvatarUpgradeRsp_CmdId AvatarUpgradeRsp::CMD_ID;
-const AvatarUpgradeRsp_CmdId AvatarUpgradeRsp::ENET_CHANNEL_ID;
-const AvatarUpgradeRsp_CmdId AvatarUpgradeRsp::ENET_IS_RELIABLE;
-const AvatarUpgradeRsp_CmdId AvatarUpgradeRsp::CmdId_MIN;
-const AvatarUpgradeRsp_CmdId AvatarUpgradeRsp::CmdId_MAX;
-const int AvatarUpgradeRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarDieAnimationEndReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[18];
-}
-bool AvatarDieAnimationEndReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1652:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarDieAnimationEndReq_CmdId AvatarDieAnimationEndReq::NONE;
-const AvatarDieAnimationEndReq_CmdId AvatarDieAnimationEndReq::CMD_ID;
-const AvatarDieAnimationEndReq_CmdId AvatarDieAnimationEndReq::ENET_CHANNEL_ID;
-const AvatarDieAnimationEndReq_CmdId AvatarDieAnimationEndReq::ENET_IS_RELIABLE;
-const AvatarDieAnimationEndReq_CmdId AvatarDieAnimationEndReq::IS_ALLOW_CLIENT;
-const AvatarDieAnimationEndReq_CmdId AvatarDieAnimationEndReq::CmdId_MIN;
-const AvatarDieAnimationEndReq_CmdId AvatarDieAnimationEndReq::CmdId_MAX;
-const int AvatarDieAnimationEndReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarDieAnimationEndRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[19];
-}
-bool AvatarDieAnimationEndRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1657:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarDieAnimationEndRsp_CmdId AvatarDieAnimationEndRsp::NONE;
-const AvatarDieAnimationEndRsp_CmdId AvatarDieAnimationEndRsp::CMD_ID;
-const AvatarDieAnimationEndRsp_CmdId AvatarDieAnimationEndRsp::ENET_CHANNEL_ID;
-const AvatarDieAnimationEndRsp_CmdId AvatarDieAnimationEndRsp::ENET_IS_RELIABLE;
-const AvatarDieAnimationEndRsp_CmdId AvatarDieAnimationEndRsp::CmdId_MIN;
-const AvatarDieAnimationEndRsp_CmdId AvatarDieAnimationEndRsp::CmdId_MAX;
-const int AvatarDieAnimationEndRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarChangeElementTypeReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[20];
-}
-bool AvatarChangeElementTypeReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1664:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarChangeElementTypeReq_CmdId AvatarChangeElementTypeReq::NONE;
-const AvatarChangeElementTypeReq_CmdId AvatarChangeElementTypeReq::CMD_ID;
-const AvatarChangeElementTypeReq_CmdId AvatarChangeElementTypeReq::ENET_CHANNEL_ID;
-const AvatarChangeElementTypeReq_CmdId AvatarChangeElementTypeReq::ENET_IS_RELIABLE;
-const AvatarChangeElementTypeReq_CmdId AvatarChangeElementTypeReq::IS_ALLOW_CLIENT;
-const AvatarChangeElementTypeReq_CmdId AvatarChangeElementTypeReq::CmdId_MIN;
-const AvatarChangeElementTypeReq_CmdId AvatarChangeElementTypeReq::CmdId_MAX;
-const int AvatarChangeElementTypeReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarChangeElementTypeRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[21];
-}
-bool AvatarChangeElementTypeRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1744:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarChangeElementTypeRsp_CmdId AvatarChangeElementTypeRsp::NONE;
-const AvatarChangeElementTypeRsp_CmdId AvatarChangeElementTypeRsp::CMD_ID;
-const AvatarChangeElementTypeRsp_CmdId AvatarChangeElementTypeRsp::ENET_CHANNEL_ID;
-const AvatarChangeElementTypeRsp_CmdId AvatarChangeElementTypeRsp::ENET_IS_RELIABLE;
-const AvatarChangeElementTypeRsp_CmdId AvatarChangeElementTypeRsp::CmdId_MIN;
-const AvatarChangeElementTypeRsp_CmdId AvatarChangeElementTypeRsp::CmdId_MAX;
-const int AvatarChangeElementTypeRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarFetterDataNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[22];
-}
-bool AvatarFetterDataNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1772:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarFetterDataNotify_CmdId AvatarFetterDataNotify::NONE;
-const AvatarFetterDataNotify_CmdId AvatarFetterDataNotify::CMD_ID;
-const AvatarFetterDataNotify_CmdId AvatarFetterDataNotify::ENET_CHANNEL_ID;
-const AvatarFetterDataNotify_CmdId AvatarFetterDataNotify::ENET_IS_RELIABLE;
-const AvatarFetterDataNotify_CmdId AvatarFetterDataNotify::CmdId_MIN;
-const AvatarFetterDataNotify_CmdId AvatarFetterDataNotify::CmdId_MAX;
-const int AvatarFetterDataNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarExpeditionDataNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[23];
-}
-bool AvatarExpeditionDataNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1638:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarExpeditionDataNotify_CmdId AvatarExpeditionDataNotify::NONE;
-const AvatarExpeditionDataNotify_CmdId AvatarExpeditionDataNotify::CMD_ID;
-const AvatarExpeditionDataNotify_CmdId AvatarExpeditionDataNotify::ENET_CHANNEL_ID;
-const AvatarExpeditionDataNotify_CmdId AvatarExpeditionDataNotify::ENET_IS_RELIABLE;
-const AvatarExpeditionDataNotify_CmdId AvatarExpeditionDataNotify::CmdId_MIN;
-const AvatarExpeditionDataNotify_CmdId AvatarExpeditionDataNotify::CmdId_MAX;
-const int AvatarExpeditionDataNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarExpeditionAllDataReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[24];
-}
-bool AvatarExpeditionAllDataReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1777:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarExpeditionAllDataReq_CmdId AvatarExpeditionAllDataReq::NONE;
-const AvatarExpeditionAllDataReq_CmdId AvatarExpeditionAllDataReq::CMD_ID;
-const AvatarExpeditionAllDataReq_CmdId AvatarExpeditionAllDataReq::ENET_CHANNEL_ID;
-const AvatarExpeditionAllDataReq_CmdId AvatarExpeditionAllDataReq::ENET_IS_RELIABLE;
-const AvatarExpeditionAllDataReq_CmdId AvatarExpeditionAllDataReq::IS_ALLOW_CLIENT;
-const AvatarExpeditionAllDataReq_CmdId AvatarExpeditionAllDataReq::CmdId_MIN;
-const AvatarExpeditionAllDataReq_CmdId AvatarExpeditionAllDataReq::CmdId_MAX;
-const int AvatarExpeditionAllDataReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarExpeditionAllDataRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[25];
-}
-bool AvatarExpeditionAllDataRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1654:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarExpeditionAllDataRsp_CmdId AvatarExpeditionAllDataRsp::NONE;
-const AvatarExpeditionAllDataRsp_CmdId AvatarExpeditionAllDataRsp::CMD_ID;
-const AvatarExpeditionAllDataRsp_CmdId AvatarExpeditionAllDataRsp::ENET_CHANNEL_ID;
-const AvatarExpeditionAllDataRsp_CmdId AvatarExpeditionAllDataRsp::ENET_IS_RELIABLE;
-const AvatarExpeditionAllDataRsp_CmdId AvatarExpeditionAllDataRsp::CmdId_MIN;
-const AvatarExpeditionAllDataRsp_CmdId AvatarExpeditionAllDataRsp::CmdId_MAX;
-const int AvatarExpeditionAllDataRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarExpeditionStartReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[26];
-}
-bool AvatarExpeditionStartReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1656:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarExpeditionStartReq_CmdId AvatarExpeditionStartReq::NONE;
-const AvatarExpeditionStartReq_CmdId AvatarExpeditionStartReq::CMD_ID;
-const AvatarExpeditionStartReq_CmdId AvatarExpeditionStartReq::ENET_CHANNEL_ID;
-const AvatarExpeditionStartReq_CmdId AvatarExpeditionStartReq::ENET_IS_RELIABLE;
-const AvatarExpeditionStartReq_CmdId AvatarExpeditionStartReq::IS_ALLOW_CLIENT;
-const AvatarExpeditionStartReq_CmdId AvatarExpeditionStartReq::CmdId_MIN;
-const AvatarExpeditionStartReq_CmdId AvatarExpeditionStartReq::CmdId_MAX;
-const int AvatarExpeditionStartReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarExpeditionStartRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[27];
-}
-bool AvatarExpeditionStartRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1653:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarExpeditionStartRsp_CmdId AvatarExpeditionStartRsp::NONE;
-const AvatarExpeditionStartRsp_CmdId AvatarExpeditionStartRsp::CMD_ID;
-const AvatarExpeditionStartRsp_CmdId AvatarExpeditionStartRsp::ENET_CHANNEL_ID;
-const AvatarExpeditionStartRsp_CmdId AvatarExpeditionStartRsp::ENET_IS_RELIABLE;
-const AvatarExpeditionStartRsp_CmdId AvatarExpeditionStartRsp::CmdId_MIN;
-const AvatarExpeditionStartRsp_CmdId AvatarExpeditionStartRsp::CmdId_MAX;
-const int AvatarExpeditionStartRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarExpeditionCallBackReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[28];
-}
-bool AvatarExpeditionCallBackReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1697:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarExpeditionCallBackReq_CmdId AvatarExpeditionCallBackReq::NONE;
-const AvatarExpeditionCallBackReq_CmdId AvatarExpeditionCallBackReq::CMD_ID;
-const AvatarExpeditionCallBackReq_CmdId AvatarExpeditionCallBackReq::ENET_CHANNEL_ID;
-const AvatarExpeditionCallBackReq_CmdId AvatarExpeditionCallBackReq::ENET_IS_RELIABLE;
-const AvatarExpeditionCallBackReq_CmdId AvatarExpeditionCallBackReq::IS_ALLOW_CLIENT;
-const AvatarExpeditionCallBackReq_CmdId AvatarExpeditionCallBackReq::CmdId_MIN;
-const AvatarExpeditionCallBackReq_CmdId AvatarExpeditionCallBackReq::CmdId_MAX;
-const int AvatarExpeditionCallBackReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarExpeditionCallBackRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[29];
-}
-bool AvatarExpeditionCallBackRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1632:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarExpeditionCallBackRsp_CmdId AvatarExpeditionCallBackRsp::NONE;
-const AvatarExpeditionCallBackRsp_CmdId AvatarExpeditionCallBackRsp::CMD_ID;
-const AvatarExpeditionCallBackRsp_CmdId AvatarExpeditionCallBackRsp::ENET_CHANNEL_ID;
-const AvatarExpeditionCallBackRsp_CmdId AvatarExpeditionCallBackRsp::ENET_IS_RELIABLE;
-const AvatarExpeditionCallBackRsp_CmdId AvatarExpeditionCallBackRsp::CmdId_MIN;
-const AvatarExpeditionCallBackRsp_CmdId AvatarExpeditionCallBackRsp::CmdId_MAX;
-const int AvatarExpeditionCallBackRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarExpeditionGetRewardReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[30];
-}
-bool AvatarExpeditionGetRewardReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1712:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarExpeditionGetRewardReq_CmdId AvatarExpeditionGetRewardReq::NONE;
-const AvatarExpeditionGetRewardReq_CmdId AvatarExpeditionGetRewardReq::CMD_ID;
-const AvatarExpeditionGetRewardReq_CmdId AvatarExpeditionGetRewardReq::ENET_CHANNEL_ID;
-const AvatarExpeditionGetRewardReq_CmdId AvatarExpeditionGetRewardReq::ENET_IS_RELIABLE;
-const AvatarExpeditionGetRewardReq_CmdId AvatarExpeditionGetRewardReq::IS_ALLOW_CLIENT;
-const AvatarExpeditionGetRewardReq_CmdId AvatarExpeditionGetRewardReq::CmdId_MIN;
-const AvatarExpeditionGetRewardReq_CmdId AvatarExpeditionGetRewardReq::CmdId_MAX;
-const int AvatarExpeditionGetRewardReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarExpeditionGetRewardRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[31];
-}
-bool AvatarExpeditionGetRewardRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1659:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarExpeditionGetRewardRsp_CmdId AvatarExpeditionGetRewardRsp::NONE;
-const AvatarExpeditionGetRewardRsp_CmdId AvatarExpeditionGetRewardRsp::CMD_ID;
-const AvatarExpeditionGetRewardRsp_CmdId AvatarExpeditionGetRewardRsp::ENET_CHANNEL_ID;
-const AvatarExpeditionGetRewardRsp_CmdId AvatarExpeditionGetRewardRsp::ENET_IS_RELIABLE;
-const AvatarExpeditionGetRewardRsp_CmdId AvatarExpeditionGetRewardRsp::CmdId_MIN;
-const AvatarExpeditionGetRewardRsp_CmdId AvatarExpeditionGetRewardRsp::CmdId_MAX;
-const int AvatarExpeditionGetRewardRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* ChangeMpTeamAvatarReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[32];
-}
-bool ChangeMpTeamAvatarReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1784:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const ChangeMpTeamAvatarReq_CmdId ChangeMpTeamAvatarReq::NONE;
-const ChangeMpTeamAvatarReq_CmdId ChangeMpTeamAvatarReq::CMD_ID;
-const ChangeMpTeamAvatarReq_CmdId ChangeMpTeamAvatarReq::ENET_CHANNEL_ID;
-const ChangeMpTeamAvatarReq_CmdId ChangeMpTeamAvatarReq::ENET_IS_RELIABLE;
-const ChangeMpTeamAvatarReq_CmdId ChangeMpTeamAvatarReq::IS_ALLOW_CLIENT;
-const ChangeMpTeamAvatarReq_CmdId ChangeMpTeamAvatarReq::CmdId_MIN;
-const ChangeMpTeamAvatarReq_CmdId ChangeMpTeamAvatarReq::CmdId_MAX;
-const int ChangeMpTeamAvatarReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* ChangeMpTeamAvatarRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[33];
-}
-bool ChangeMpTeamAvatarRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1796:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const ChangeMpTeamAvatarRsp_CmdId ChangeMpTeamAvatarRsp::NONE;
-const ChangeMpTeamAvatarRsp_CmdId ChangeMpTeamAvatarRsp::CMD_ID;
-const ChangeMpTeamAvatarRsp_CmdId ChangeMpTeamAvatarRsp::ENET_CHANNEL_ID;
-const ChangeMpTeamAvatarRsp_CmdId ChangeMpTeamAvatarRsp::ENET_IS_RELIABLE;
-const ChangeMpTeamAvatarRsp_CmdId ChangeMpTeamAvatarRsp::CmdId_MIN;
-const ChangeMpTeamAvatarRsp_CmdId ChangeMpTeamAvatarRsp::CmdId_MAX;
-const int ChangeMpTeamAvatarRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* ChangeTeamNameReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[34];
-}
-bool ChangeTeamNameReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1631:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const ChangeTeamNameReq_CmdId ChangeTeamNameReq::NONE;
-const ChangeTeamNameReq_CmdId ChangeTeamNameReq::CMD_ID;
-const ChangeTeamNameReq_CmdId ChangeTeamNameReq::ENET_CHANNEL_ID;
-const ChangeTeamNameReq_CmdId ChangeTeamNameReq::ENET_IS_RELIABLE;
-const ChangeTeamNameReq_CmdId ChangeTeamNameReq::IS_ALLOW_CLIENT;
-const ChangeTeamNameReq_CmdId ChangeTeamNameReq::CmdId_MIN;
-const ChangeTeamNameReq_CmdId ChangeTeamNameReq::CmdId_MAX;
-const int ChangeTeamNameReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* ChangeTeamNameRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[35];
-}
-bool ChangeTeamNameRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1741:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const ChangeTeamNameRsp_CmdId ChangeTeamNameRsp::NONE;
-const ChangeTeamNameRsp_CmdId ChangeTeamNameRsp::CMD_ID;
-const ChangeTeamNameRsp_CmdId ChangeTeamNameRsp::ENET_CHANNEL_ID;
-const ChangeTeamNameRsp_CmdId ChangeTeamNameRsp::ENET_IS_RELIABLE;
-const ChangeTeamNameRsp_CmdId ChangeTeamNameRsp::CmdId_MIN;
-const ChangeTeamNameRsp_CmdId ChangeTeamNameRsp::CmdId_MAX;
-const int ChangeTeamNameRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* SceneTeamUpdateNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[36];
-}
-bool SceneTeamUpdateNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1623:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const SceneTeamUpdateNotify_CmdId SceneTeamUpdateNotify::NONE;
-const SceneTeamUpdateNotify_CmdId SceneTeamUpdateNotify::CMD_ID;
-const SceneTeamUpdateNotify_CmdId SceneTeamUpdateNotify::ENET_CHANNEL_ID;
-const SceneTeamUpdateNotify_CmdId SceneTeamUpdateNotify::ENET_IS_RELIABLE;
-const SceneTeamUpdateNotify_CmdId SceneTeamUpdateNotify::CmdId_MIN;
-const SceneTeamUpdateNotify_CmdId SceneTeamUpdateNotify::CmdId_MAX;
-const int SceneTeamUpdateNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* FocusAvatarReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[37];
-}
-bool FocusAvatarReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1608:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const FocusAvatarReq_CmdId FocusAvatarReq::NONE;
-const FocusAvatarReq_CmdId FocusAvatarReq::CMD_ID;
-const FocusAvatarReq_CmdId FocusAvatarReq::ENET_CHANNEL_ID;
-const FocusAvatarReq_CmdId FocusAvatarReq::ENET_IS_RELIABLE;
-const FocusAvatarReq_CmdId FocusAvatarReq::IS_ALLOW_CLIENT;
-const FocusAvatarReq_CmdId FocusAvatarReq::CmdId_MIN;
-const FocusAvatarReq_CmdId FocusAvatarReq::CmdId_MAX;
-const int FocusAvatarReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* FocusAvatarRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[38];
-}
-bool FocusAvatarRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1779:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const FocusAvatarRsp_CmdId FocusAvatarRsp::NONE;
-const FocusAvatarRsp_CmdId FocusAvatarRsp::CMD_ID;
-const FocusAvatarRsp_CmdId FocusAvatarRsp::ENET_CHANNEL_ID;
-const FocusAvatarRsp_CmdId FocusAvatarRsp::ENET_IS_RELIABLE;
-const FocusAvatarRsp_CmdId FocusAvatarRsp::CmdId_MIN;
-const FocusAvatarRsp_CmdId FocusAvatarRsp::CmdId_MAX;
-const int FocusAvatarRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarSatiationDataNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[39];
-}
-bool AvatarSatiationDataNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1722:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarSatiationDataNotify_CmdId AvatarSatiationDataNotify::NONE;
-const AvatarSatiationDataNotify_CmdId AvatarSatiationDataNotify::CMD_ID;
-const AvatarSatiationDataNotify_CmdId AvatarSatiationDataNotify::ENET_CHANNEL_ID;
-const AvatarSatiationDataNotify_CmdId AvatarSatiationDataNotify::ENET_IS_RELIABLE;
-const AvatarSatiationDataNotify_CmdId AvatarSatiationDataNotify::CmdId_MIN;
-const AvatarSatiationDataNotify_CmdId AvatarSatiationDataNotify::CmdId_MAX;
-const int AvatarSatiationDataNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarWearFlycloakReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[40];
-}
-bool AvatarWearFlycloakReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1773:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarWearFlycloakReq_CmdId AvatarWearFlycloakReq::NONE;
-const AvatarWearFlycloakReq_CmdId AvatarWearFlycloakReq::CMD_ID;
-const AvatarWearFlycloakReq_CmdId AvatarWearFlycloakReq::ENET_CHANNEL_ID;
-const AvatarWearFlycloakReq_CmdId AvatarWearFlycloakReq::ENET_IS_RELIABLE;
-const AvatarWearFlycloakReq_CmdId AvatarWearFlycloakReq::IS_ALLOW_CLIENT;
-const AvatarWearFlycloakReq_CmdId AvatarWearFlycloakReq::CmdId_MIN;
-const AvatarWearFlycloakReq_CmdId AvatarWearFlycloakReq::CmdId_MAX;
-const int AvatarWearFlycloakReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarWearFlycloakRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[41];
-}
-bool AvatarWearFlycloakRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1704:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarWearFlycloakRsp_CmdId AvatarWearFlycloakRsp::NONE;
-const AvatarWearFlycloakRsp_CmdId AvatarWearFlycloakRsp::CMD_ID;
-const AvatarWearFlycloakRsp_CmdId AvatarWearFlycloakRsp::ENET_CHANNEL_ID;
-const AvatarWearFlycloakRsp_CmdId AvatarWearFlycloakRsp::ENET_IS_RELIABLE;
-const AvatarWearFlycloakRsp_CmdId AvatarWearFlycloakRsp::CmdId_MIN;
-const AvatarWearFlycloakRsp_CmdId AvatarWearFlycloakRsp::CmdId_MAX;
-const int AvatarWearFlycloakRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarFlycloakChangeNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[42];
-}
-bool AvatarFlycloakChangeNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1626:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarFlycloakChangeNotify_CmdId AvatarFlycloakChangeNotify::NONE;
-const AvatarFlycloakChangeNotify_CmdId AvatarFlycloakChangeNotify::CMD_ID;
-const AvatarFlycloakChangeNotify_CmdId AvatarFlycloakChangeNotify::ENET_CHANNEL_ID;
-const AvatarFlycloakChangeNotify_CmdId AvatarFlycloakChangeNotify::ENET_IS_RELIABLE;
-const AvatarFlycloakChangeNotify_CmdId AvatarFlycloakChangeNotify::CmdId_MIN;
-const AvatarFlycloakChangeNotify_CmdId AvatarFlycloakChangeNotify::CmdId_MAX;
-const int AvatarFlycloakChangeNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarGainFlycloakNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[43];
-}
-bool AvatarGainFlycloakNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1702:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarGainFlycloakNotify_CmdId AvatarGainFlycloakNotify::NONE;
-const AvatarGainFlycloakNotify_CmdId AvatarGainFlycloakNotify::CMD_ID;
-const AvatarGainFlycloakNotify_CmdId AvatarGainFlycloakNotify::ENET_CHANNEL_ID;
-const AvatarGainFlycloakNotify_CmdId AvatarGainFlycloakNotify::ENET_IS_RELIABLE;
-const AvatarGainFlycloakNotify_CmdId AvatarGainFlycloakNotify::CmdId_MIN;
-const AvatarGainFlycloakNotify_CmdId AvatarGainFlycloakNotify::CmdId_MAX;
-const int AvatarGainFlycloakNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarEquipAffixStartNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[44];
-}
-bool AvatarEquipAffixStartNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1602:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarEquipAffixStartNotify_CmdId AvatarEquipAffixStartNotify::NONE;
-const AvatarEquipAffixStartNotify_CmdId AvatarEquipAffixStartNotify::CMD_ID;
-const AvatarEquipAffixStartNotify_CmdId AvatarEquipAffixStartNotify::ENET_CHANNEL_ID;
-const AvatarEquipAffixStartNotify_CmdId AvatarEquipAffixStartNotify::ENET_IS_RELIABLE;
-const AvatarEquipAffixStartNotify_CmdId AvatarEquipAffixStartNotify::CmdId_MIN;
-const AvatarEquipAffixStartNotify_CmdId AvatarEquipAffixStartNotify::CmdId_MAX;
-const int AvatarEquipAffixStartNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarFetterLevelRewardReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[45];
-}
-bool AvatarFetterLevelRewardReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1682:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarFetterLevelRewardReq_CmdId AvatarFetterLevelRewardReq::NONE;
-const AvatarFetterLevelRewardReq_CmdId AvatarFetterLevelRewardReq::CMD_ID;
-const AvatarFetterLevelRewardReq_CmdId AvatarFetterLevelRewardReq::ENET_CHANNEL_ID;
-const AvatarFetterLevelRewardReq_CmdId AvatarFetterLevelRewardReq::ENET_IS_RELIABLE;
-const AvatarFetterLevelRewardReq_CmdId AvatarFetterLevelRewardReq::IS_ALLOW_CLIENT;
-const AvatarFetterLevelRewardReq_CmdId AvatarFetterLevelRewardReq::CmdId_MIN;
-const AvatarFetterLevelRewardReq_CmdId AvatarFetterLevelRewardReq::CmdId_MAX;
-const int AvatarFetterLevelRewardReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarFetterLevelRewardRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[46];
-}
-bool AvatarFetterLevelRewardRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1612:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarFetterLevelRewardRsp_CmdId AvatarFetterLevelRewardRsp::NONE;
-const AvatarFetterLevelRewardRsp_CmdId AvatarFetterLevelRewardRsp::CMD_ID;
-const AvatarFetterLevelRewardRsp_CmdId AvatarFetterLevelRewardRsp::ENET_CHANNEL_ID;
-const AvatarFetterLevelRewardRsp_CmdId AvatarFetterLevelRewardRsp::ENET_IS_RELIABLE;
-const AvatarFetterLevelRewardRsp_CmdId AvatarFetterLevelRewardRsp::CmdId_MIN;
-const AvatarFetterLevelRewardRsp_CmdId AvatarFetterLevelRewardRsp::CmdId_MAX;
-const int AvatarFetterLevelRewardRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AddNoGachaAvatarCardNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[47];
-}
-bool AddNoGachaAvatarCardNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1669:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AddNoGachaAvatarCardNotify_CmdId AddNoGachaAvatarCardNotify::NONE;
-const AddNoGachaAvatarCardNotify_CmdId AddNoGachaAvatarCardNotify::CMD_ID;
-const AddNoGachaAvatarCardNotify_CmdId AddNoGachaAvatarCardNotify::ENET_CHANNEL_ID;
-const AddNoGachaAvatarCardNotify_CmdId AddNoGachaAvatarCardNotify::ENET_IS_RELIABLE;
-const AddNoGachaAvatarCardNotify_CmdId AddNoGachaAvatarCardNotify::CmdId_MIN;
-const AddNoGachaAvatarCardNotify_CmdId AddNoGachaAvatarCardNotify::CmdId_MAX;
-const int AddNoGachaAvatarCardNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarPromoteGetRewardReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[48];
-}
-bool AvatarPromoteGetRewardReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1642:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarPromoteGetRewardReq_CmdId AvatarPromoteGetRewardReq::NONE;
-const AvatarPromoteGetRewardReq_CmdId AvatarPromoteGetRewardReq::CMD_ID;
-const AvatarPromoteGetRewardReq_CmdId AvatarPromoteGetRewardReq::ENET_CHANNEL_ID;
-const AvatarPromoteGetRewardReq_CmdId AvatarPromoteGetRewardReq::ENET_IS_RELIABLE;
-const AvatarPromoteGetRewardReq_CmdId AvatarPromoteGetRewardReq::IS_ALLOW_CLIENT;
-const AvatarPromoteGetRewardReq_CmdId AvatarPromoteGetRewardReq::CmdId_MIN;
-const AvatarPromoteGetRewardReq_CmdId AvatarPromoteGetRewardReq::CmdId_MAX;
-const int AvatarPromoteGetRewardReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarPromoteGetRewardRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[49];
-}
-bool AvatarPromoteGetRewardRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1718:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarPromoteGetRewardRsp_CmdId AvatarPromoteGetRewardRsp::NONE;
-const AvatarPromoteGetRewardRsp_CmdId AvatarPromoteGetRewardRsp::CMD_ID;
-const AvatarPromoteGetRewardRsp_CmdId AvatarPromoteGetRewardRsp::ENET_CHANNEL_ID;
-const AvatarPromoteGetRewardRsp_CmdId AvatarPromoteGetRewardRsp::ENET_IS_RELIABLE;
-const AvatarPromoteGetRewardRsp_CmdId AvatarPromoteGetRewardRsp::CmdId_MIN;
-const AvatarPromoteGetRewardRsp_CmdId AvatarPromoteGetRewardRsp::CmdId_MAX;
-const int AvatarPromoteGetRewardRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarChangeCostumeReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[50];
-}
-bool AvatarChangeCostumeReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1759:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarChangeCostumeReq_CmdId AvatarChangeCostumeReq::NONE;
-const AvatarChangeCostumeReq_CmdId AvatarChangeCostumeReq::CMD_ID;
-const AvatarChangeCostumeReq_CmdId AvatarChangeCostumeReq::ENET_CHANNEL_ID;
-const AvatarChangeCostumeReq_CmdId AvatarChangeCostumeReq::ENET_IS_RELIABLE;
-const AvatarChangeCostumeReq_CmdId AvatarChangeCostumeReq::IS_ALLOW_CLIENT;
-const AvatarChangeCostumeReq_CmdId AvatarChangeCostumeReq::CmdId_MIN;
-const AvatarChangeCostumeReq_CmdId AvatarChangeCostumeReq::CmdId_MAX;
-const int AvatarChangeCostumeReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarChangeCostumeRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[51];
-}
-bool AvatarChangeCostumeRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1753:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarChangeCostumeRsp_CmdId AvatarChangeCostumeRsp::NONE;
-const AvatarChangeCostumeRsp_CmdId AvatarChangeCostumeRsp::CMD_ID;
-const AvatarChangeCostumeRsp_CmdId AvatarChangeCostumeRsp::ENET_CHANNEL_ID;
-const AvatarChangeCostumeRsp_CmdId AvatarChangeCostumeRsp::ENET_IS_RELIABLE;
-const AvatarChangeCostumeRsp_CmdId AvatarChangeCostumeRsp::CmdId_MIN;
-const AvatarChangeCostumeRsp_CmdId AvatarChangeCostumeRsp::CmdId_MAX;
-const int AvatarChangeCostumeRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarChangeCostumeNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[52];
-}
-bool AvatarChangeCostumeNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1648:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarChangeCostumeNotify_CmdId AvatarChangeCostumeNotify::NONE;
-const AvatarChangeCostumeNotify_CmdId AvatarChangeCostumeNotify::CMD_ID;
-const AvatarChangeCostumeNotify_CmdId AvatarChangeCostumeNotify::ENET_CHANNEL_ID;
-const AvatarChangeCostumeNotify_CmdId AvatarChangeCostumeNotify::ENET_IS_RELIABLE;
-const AvatarChangeCostumeNotify_CmdId AvatarChangeCostumeNotify::CmdId_MIN;
-const AvatarChangeCostumeNotify_CmdId AvatarChangeCostumeNotify::CmdId_MAX;
-const int AvatarChangeCostumeNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarGainCostumeNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[53];
-}
-bool AvatarGainCostumeNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1714:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarGainCostumeNotify_CmdId AvatarGainCostumeNotify::NONE;
-const AvatarGainCostumeNotify_CmdId AvatarGainCostumeNotify::CMD_ID;
-const AvatarGainCostumeNotify_CmdId AvatarGainCostumeNotify::ENET_CHANNEL_ID;
-const AvatarGainCostumeNotify_CmdId AvatarGainCostumeNotify::ENET_IS_RELIABLE;
-const AvatarGainCostumeNotify_CmdId AvatarGainCostumeNotify::CmdId_MIN;
-const AvatarGainCostumeNotify_CmdId AvatarGainCostumeNotify::CmdId_MAX;
-const int AvatarGainCostumeNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarChangeAnimHashReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[54];
-}
-bool AvatarChangeAnimHashReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1603:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarChangeAnimHashReq_CmdId AvatarChangeAnimHashReq::NONE;
-const AvatarChangeAnimHashReq_CmdId AvatarChangeAnimHashReq::CMD_ID;
-const AvatarChangeAnimHashReq_CmdId AvatarChangeAnimHashReq::ENET_CHANNEL_ID;
-const AvatarChangeAnimHashReq_CmdId AvatarChangeAnimHashReq::ENET_IS_RELIABLE;
-const AvatarChangeAnimHashReq_CmdId AvatarChangeAnimHashReq::IS_ALLOW_CLIENT;
-const AvatarChangeAnimHashReq_CmdId AvatarChangeAnimHashReq::CmdId_MIN;
-const AvatarChangeAnimHashReq_CmdId AvatarChangeAnimHashReq::CmdId_MAX;
-const int AvatarChangeAnimHashReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarChangeAnimHashRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[55];
-}
-bool AvatarChangeAnimHashRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1700:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarChangeAnimHashRsp_CmdId AvatarChangeAnimHashRsp::NONE;
-const AvatarChangeAnimHashRsp_CmdId AvatarChangeAnimHashRsp::CMD_ID;
-const AvatarChangeAnimHashRsp_CmdId AvatarChangeAnimHashRsp::ENET_CHANNEL_ID;
-const AvatarChangeAnimHashRsp_CmdId AvatarChangeAnimHashRsp::ENET_IS_RELIABLE;
-const AvatarChangeAnimHashRsp_CmdId AvatarChangeAnimHashRsp::CmdId_MIN;
-const AvatarChangeAnimHashRsp_CmdId AvatarChangeAnimHashRsp::CmdId_MAX;
-const int AvatarChangeAnimHashRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* PersistentDungeonSwitchAvatarReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[56];
-}
-bool PersistentDungeonSwitchAvatarReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1709:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const PersistentDungeonSwitchAvatarReq_CmdId PersistentDungeonSwitchAvatarReq::NONE;
-const PersistentDungeonSwitchAvatarReq_CmdId PersistentDungeonSwitchAvatarReq::CMD_ID;
-const PersistentDungeonSwitchAvatarReq_CmdId PersistentDungeonSwitchAvatarReq::ENET_CHANNEL_ID;
-const PersistentDungeonSwitchAvatarReq_CmdId PersistentDungeonSwitchAvatarReq::ENET_IS_RELIABLE;
-const PersistentDungeonSwitchAvatarReq_CmdId PersistentDungeonSwitchAvatarReq::IS_ALLOW_CLIENT;
-const PersistentDungeonSwitchAvatarReq_CmdId PersistentDungeonSwitchAvatarReq::CmdId_MIN;
-const PersistentDungeonSwitchAvatarReq_CmdId PersistentDungeonSwitchAvatarReq::CmdId_MAX;
-const int PersistentDungeonSwitchAvatarReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* PersistentDungeonSwitchAvatarRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[57];
-}
-bool PersistentDungeonSwitchAvatarRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1774:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const PersistentDungeonSwitchAvatarRsp_CmdId PersistentDungeonSwitchAvatarRsp::NONE;
-const PersistentDungeonSwitchAvatarRsp_CmdId PersistentDungeonSwitchAvatarRsp::CMD_ID;
-const PersistentDungeonSwitchAvatarRsp_CmdId PersistentDungeonSwitchAvatarRsp::ENET_CHANNEL_ID;
-const PersistentDungeonSwitchAvatarRsp_CmdId PersistentDungeonSwitchAvatarRsp::ENET_IS_RELIABLE;
-const PersistentDungeonSwitchAvatarRsp_CmdId PersistentDungeonSwitchAvatarRsp::CmdId_MIN;
-const PersistentDungeonSwitchAvatarRsp_CmdId PersistentDungeonSwitchAvatarRsp::CmdId_MAX;
-const int PersistentDungeonSwitchAvatarRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AddBackupAvatarTeamReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[58];
-}
-bool AddBackupAvatarTeamReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1620:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AddBackupAvatarTeamReq_CmdId AddBackupAvatarTeamReq::NONE;
-const AddBackupAvatarTeamReq_CmdId AddBackupAvatarTeamReq::CMD_ID;
-const AddBackupAvatarTeamReq_CmdId AddBackupAvatarTeamReq::ENET_CHANNEL_ID;
-const AddBackupAvatarTeamReq_CmdId AddBackupAvatarTeamReq::ENET_IS_RELIABLE;
-const AddBackupAvatarTeamReq_CmdId AddBackupAvatarTeamReq::IS_ALLOW_CLIENT;
-const AddBackupAvatarTeamReq_CmdId AddBackupAvatarTeamReq::CmdId_MIN;
-const AddBackupAvatarTeamReq_CmdId AddBackupAvatarTeamReq::CmdId_MAX;
-const int AddBackupAvatarTeamReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AddBackupAvatarTeamRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[59];
-}
-bool AddBackupAvatarTeamRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1757:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AddBackupAvatarTeamRsp_CmdId AddBackupAvatarTeamRsp::NONE;
-const AddBackupAvatarTeamRsp_CmdId AddBackupAvatarTeamRsp::CMD_ID;
-const AddBackupAvatarTeamRsp_CmdId AddBackupAvatarTeamRsp::ENET_CHANNEL_ID;
-const AddBackupAvatarTeamRsp_CmdId AddBackupAvatarTeamRsp::ENET_IS_RELIABLE;
-const AddBackupAvatarTeamRsp_CmdId AddBackupAvatarTeamRsp::CmdId_MIN;
-const AddBackupAvatarTeamRsp_CmdId AddBackupAvatarTeamRsp::CmdId_MAX;
-const int AddBackupAvatarTeamRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* DelBackupAvatarTeamReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[60];
-}
-bool DelBackupAvatarTeamReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1611:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const DelBackupAvatarTeamReq_CmdId DelBackupAvatarTeamReq::NONE;
-const DelBackupAvatarTeamReq_CmdId DelBackupAvatarTeamReq::CMD_ID;
-const DelBackupAvatarTeamReq_CmdId DelBackupAvatarTeamReq::ENET_CHANNEL_ID;
-const DelBackupAvatarTeamReq_CmdId DelBackupAvatarTeamReq::ENET_IS_RELIABLE;
-const DelBackupAvatarTeamReq_CmdId DelBackupAvatarTeamReq::IS_ALLOW_CLIENT;
-const DelBackupAvatarTeamReq_CmdId DelBackupAvatarTeamReq::CmdId_MIN;
-const DelBackupAvatarTeamReq_CmdId DelBackupAvatarTeamReq::CmdId_MAX;
-const int DelBackupAvatarTeamReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* DelBackupAvatarTeamRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[61];
-}
-bool DelBackupAvatarTeamRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1756:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const DelBackupAvatarTeamRsp_CmdId DelBackupAvatarTeamRsp::NONE;
-const DelBackupAvatarTeamRsp_CmdId DelBackupAvatarTeamRsp::CMD_ID;
-const DelBackupAvatarTeamRsp_CmdId DelBackupAvatarTeamRsp::ENET_CHANNEL_ID;
-const DelBackupAvatarTeamRsp_CmdId DelBackupAvatarTeamRsp::ENET_IS_RELIABLE;
-const DelBackupAvatarTeamRsp_CmdId DelBackupAvatarTeamRsp::CmdId_MIN;
-const DelBackupAvatarTeamRsp_CmdId DelBackupAvatarTeamRsp::CmdId_MAX;
-const int DelBackupAvatarTeamRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarTeamAllDataNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[62];
-}
-bool AvatarTeamAllDataNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1763:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarTeamAllDataNotify_CmdId AvatarTeamAllDataNotify::NONE;
-const AvatarTeamAllDataNotify_CmdId AvatarTeamAllDataNotify::CMD_ID;
-const AvatarTeamAllDataNotify_CmdId AvatarTeamAllDataNotify::ENET_CHANNEL_ID;
-const AvatarTeamAllDataNotify_CmdId AvatarTeamAllDataNotify::ENET_IS_RELIABLE;
-const AvatarTeamAllDataNotify_CmdId AvatarTeamAllDataNotify::CmdId_MIN;
-const AvatarTeamAllDataNotify_CmdId AvatarTeamAllDataNotify::CmdId_MAX;
-const int AvatarTeamAllDataNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* AvatarRenameInfoNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[63];
-}
-bool AvatarRenameInfoNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1665:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const AvatarRenameInfoNotify_CmdId AvatarRenameInfoNotify::NONE;
-const AvatarRenameInfoNotify_CmdId AvatarRenameInfoNotify::CMD_ID;
-const AvatarRenameInfoNotify_CmdId AvatarRenameInfoNotify::ENET_CHANNEL_ID;
-const AvatarRenameInfoNotify_CmdId AvatarRenameInfoNotify::ENET_IS_RELIABLE;
-const AvatarRenameInfoNotify_CmdId AvatarRenameInfoNotify::CmdId_MIN;
-const AvatarRenameInfoNotify_CmdId AvatarRenameInfoNotify::CmdId_MAX;
-const int AvatarRenameInfoNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* ItemRenameAvatarReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[64];
-}
-bool ItemRenameAvatarReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1747:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const ItemRenameAvatarReq_CmdId ItemRenameAvatarReq::NONE;
-const ItemRenameAvatarReq_CmdId ItemRenameAvatarReq::CMD_ID;
-const ItemRenameAvatarReq_CmdId ItemRenameAvatarReq::ENET_CHANNEL_ID;
-const ItemRenameAvatarReq_CmdId ItemRenameAvatarReq::ENET_IS_RELIABLE;
-const ItemRenameAvatarReq_CmdId ItemRenameAvatarReq::IS_ALLOW_CLIENT;
-const ItemRenameAvatarReq_CmdId ItemRenameAvatarReq::CmdId_MIN;
-const ItemRenameAvatarReq_CmdId ItemRenameAvatarReq::CmdId_MAX;
-const int ItemRenameAvatarReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* ItemRenameAvatarRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_enum_descriptors[65];
-}
-bool ItemRenameAvatarRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1628:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const ItemRenameAvatarRsp_CmdId ItemRenameAvatarRsp::NONE;
-const ItemRenameAvatarRsp_CmdId ItemRenameAvatarRsp::CMD_ID;
-const ItemRenameAvatarRsp_CmdId ItemRenameAvatarRsp::ENET_CHANNEL_ID;
-const ItemRenameAvatarRsp_CmdId ItemRenameAvatarRsp::ENET_IS_RELIABLE;
-const ItemRenameAvatarRsp_CmdId ItemRenameAvatarRsp::CmdId_MIN;
-const ItemRenameAvatarRsp_CmdId ItemRenameAvatarRsp::CmdId_MAX;
-const int ItemRenameAvatarRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarAddNotify::kAvatarFieldNumber;
-const int AvatarAddNotify::kIsInTeamFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarAddNotify::AvatarAddNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarAddNotify)
-}
-AvatarAddNotify::AvatarAddNotify(const AvatarAddNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  if (from.has_avatar()) {
-    avatar_ = new ::proto::AvatarInfo(*from.avatar_);
-  } else {
-    avatar_ = NULL;
-  }
-  is_in_team_ = from.is_in_team_;
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarAddNotify)
-}
-
-void AvatarAddNotify::SharedCtor() {
-  ::memset(&avatar_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&is_in_team_) -
-      reinterpret_cast<char*>(&avatar_)) + sizeof(is_in_team_));
-  _cached_size_ = 0;
-}
-
-AvatarAddNotify::~AvatarAddNotify() {
-  // @@protoc_insertion_point(destructor:proto.AvatarAddNotify)
-  SharedDtor();
-}
-
-void AvatarAddNotify::SharedDtor() {
-  if (this != internal_default_instance()) delete avatar_;
-}
-
-void AvatarAddNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarAddNotify::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarAddNotify& AvatarAddNotify::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarAddNotify* AvatarAddNotify::New(::google::protobuf::Arena* arena) const {
-  AvatarAddNotify* n = new AvatarAddNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarAddNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarAddNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  if (GetArenaNoVirtual() == NULL && avatar_ != NULL) {
-    delete avatar_;
-  }
-  avatar_ = NULL;
-  is_in_team_ = false;
-  _internal_metadata_.Clear();
-}
-
 bool AvatarAddNotify::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -3593,16 +476,18 @@ bool AvatarAddNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarAddNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarAddNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -3624,9 +509,9 @@ void AvatarAddNotify::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteBool(14, this->is_in_team(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarAddNotify)
 }
@@ -3650,9 +535,9 @@ void AvatarAddNotify::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteBoolToArray(14, this->is_in_team(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarAddNotify)
   return target;
@@ -3662,10 +547,10 @@ size_t AvatarAddNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarAddNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // .proto.AvatarInfo avatar = 8;
   if (this->has_avatar()) {
@@ -3684,198 +569,6 @@ size_t AvatarAddNotify::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarAddNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarAddNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarAddNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarAddNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarAddNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarAddNotify)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarAddNotify::MergeFrom(const AvatarAddNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarAddNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.has_avatar()) {
-    mutable_avatar()->::proto::AvatarInfo::MergeFrom(from.avatar());
-  }
-  if (from.is_in_team() != 0) {
-    set_is_in_team(from.is_in_team());
-  }
-}
-
-void AvatarAddNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarAddNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarAddNotify::CopyFrom(const AvatarAddNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarAddNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarAddNotify::IsInitialized() const {
-  return true;
-}
-
-void AvatarAddNotify::Swap(AvatarAddNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarAddNotify::InternalSwap(AvatarAddNotify* other) {
-  using std::swap;
-  swap(avatar_, other->avatar_);
-  swap(is_in_team_, other->is_in_team_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarAddNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarAddNotify
-
-// .proto.AvatarInfo avatar = 8;
-bool AvatarAddNotify::has_avatar() const {
-  return this != internal_default_instance() && avatar_ != NULL;
-}
-void AvatarAddNotify::clear_avatar() {
-  if (GetArenaNoVirtual() == NULL && avatar_ != NULL) delete avatar_;
-  avatar_ = NULL;
-}
-const ::proto::AvatarInfo& AvatarAddNotify::avatar() const {
-  const ::proto::AvatarInfo* p = avatar_;
-  // @@protoc_insertion_point(field_get:proto.AvatarAddNotify.avatar)
-  return p != NULL ? *p : *reinterpret_cast<const ::proto::AvatarInfo*>(
-      &::proto::_AvatarInfo_default_instance_);
-}
-::proto::AvatarInfo* AvatarAddNotify::mutable_avatar() {
-  
-  if (avatar_ == NULL) {
-    avatar_ = new ::proto::AvatarInfo;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.AvatarAddNotify.avatar)
-  return avatar_;
-}
-::proto::AvatarInfo* AvatarAddNotify::release_avatar() {
-  // @@protoc_insertion_point(field_release:proto.AvatarAddNotify.avatar)
-  
-  ::proto::AvatarInfo* temp = avatar_;
-  avatar_ = NULL;
-  return temp;
-}
-void AvatarAddNotify::set_allocated_avatar(::proto::AvatarInfo* avatar) {
-  delete avatar_;
-  avatar_ = avatar;
-  if (avatar) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.AvatarAddNotify.avatar)
-}
-
-// bool is_in_team = 14;
-void AvatarAddNotify::clear_is_in_team() {
-  is_in_team_ = false;
-}
-bool AvatarAddNotify::is_in_team() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarAddNotify.is_in_team)
-  return is_in_team_;
-}
-void AvatarAddNotify::set_is_in_team(bool value) {
-  
-  is_in_team_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarAddNotify.is_in_team)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarDelNotify::kAvatarGuidListFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarDelNotify::AvatarDelNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarDelNotify)
-}
-AvatarDelNotify::AvatarDelNotify(const AvatarDelNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      avatar_guid_list_(from.avatar_guid_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarDelNotify)
-}
-
-void AvatarDelNotify::SharedCtor() {
-  _cached_size_ = 0;
-}
-
-AvatarDelNotify::~AvatarDelNotify() {
-  // @@protoc_insertion_point(destructor:proto.AvatarDelNotify)
-  SharedDtor();
-}
-
-void AvatarDelNotify::SharedDtor() {
-}
-
-void AvatarDelNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarDelNotify::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarDelNotify& AvatarDelNotify::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarDelNotify* AvatarDelNotify::New(::google::protobuf::Arena* arena) const {
-  AvatarDelNotify* n = new AvatarDelNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarDelNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarDelNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  avatar_guid_list_.Clear();
-  _internal_metadata_.Clear();
 }
 
 bool AvatarDelNotify::MergePartialFromCodedStream(
@@ -3913,16 +606,18 @@ bool AvatarDelNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarDelNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarDelNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -3944,9 +639,9 @@ void AvatarDelNotify::SerializeWithCachedSizes(
       this->avatar_guid_list(i), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarDelNotify)
 }
@@ -3971,9 +666,9 @@ void AvatarDelNotify::SerializeWithCachedSizes(
       WriteUInt64NoTagToArray(this->avatar_guid_list_, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarDelNotify)
   return target;
@@ -3983,10 +678,10 @@ size_t AvatarDelNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarDelNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated uint64 avatar_guid_list = 1;
   {
@@ -4009,176 +704,6 @@ size_t AvatarDelNotify::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarDelNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarDelNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarDelNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarDelNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarDelNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarDelNotify)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarDelNotify::MergeFrom(const AvatarDelNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarDelNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  avatar_guid_list_.MergeFrom(from.avatar_guid_list_);
-}
-
-void AvatarDelNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarDelNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarDelNotify::CopyFrom(const AvatarDelNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarDelNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarDelNotify::IsInitialized() const {
-  return true;
-}
-
-void AvatarDelNotify::Swap(AvatarDelNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarDelNotify::InternalSwap(AvatarDelNotify* other) {
-  using std::swap;
-  avatar_guid_list_.InternalSwap(&other->avatar_guid_list_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarDelNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarDelNotify
-
-// repeated uint64 avatar_guid_list = 1;
-int AvatarDelNotify::avatar_guid_list_size() const {
-  return avatar_guid_list_.size();
-}
-void AvatarDelNotify::clear_avatar_guid_list() {
-  avatar_guid_list_.Clear();
-}
-::google::protobuf::uint64 AvatarDelNotify::avatar_guid_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.AvatarDelNotify.avatar_guid_list)
-  return avatar_guid_list_.Get(index);
-}
-void AvatarDelNotify::set_avatar_guid_list(int index, ::google::protobuf::uint64 value) {
-  avatar_guid_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.AvatarDelNotify.avatar_guid_list)
-}
-void AvatarDelNotify::add_avatar_guid_list(::google::protobuf::uint64 value) {
-  avatar_guid_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.AvatarDelNotify.avatar_guid_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint64 >&
-AvatarDelNotify::avatar_guid_list() const {
-  // @@protoc_insertion_point(field_list:proto.AvatarDelNotify.avatar_guid_list)
-  return avatar_guid_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint64 >*
-AvatarDelNotify::mutable_avatar_guid_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.AvatarDelNotify.avatar_guid_list)
-  return &avatar_guid_list_;
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarTeam::kAvatarGuidListFieldNumber;
-const int AvatarTeam::kTeamNameFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarTeam::AvatarTeam()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarTeam)
-}
-AvatarTeam::AvatarTeam(const AvatarTeam& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      avatar_guid_list_(from.avatar_guid_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  team_name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  if (from.team_name().size() > 0) {
-    team_name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.team_name_);
-  }
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarTeam)
-}
-
-void AvatarTeam::SharedCtor() {
-  team_name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  _cached_size_ = 0;
-}
-
-AvatarTeam::~AvatarTeam() {
-  // @@protoc_insertion_point(destructor:proto.AvatarTeam)
-  SharedDtor();
-}
-
-void AvatarTeam::SharedDtor() {
-  team_name_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-
-void AvatarTeam::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarTeam::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarTeam& AvatarTeam::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarTeam* AvatarTeam::New(::google::protobuf::Arena* arena) const {
-  AvatarTeam* n = new AvatarTeam;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarTeam::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarTeam)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  avatar_guid_list_.Clear();
-  team_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  _internal_metadata_.Clear();
 }
 
 bool AvatarTeam::MergePartialFromCodedStream(
@@ -4232,16 +757,18 @@ bool AvatarTeam::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarTeam)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarTeam)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -4273,9 +800,9 @@ void AvatarTeam::SerializeWithCachedSizes(
       11, this->team_name(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarTeam)
 }
@@ -4311,9 +838,9 @@ void AvatarTeam::SerializeWithCachedSizes(
         11, this->team_name(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarTeam)
   return target;
@@ -4323,10 +850,10 @@ size_t AvatarTeam::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarTeam)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated uint64 avatar_guid_list = 5;
   {
@@ -4356,237 +883,6 @@ size_t AvatarTeam::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarTeam::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarTeam)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarTeam* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarTeam>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarTeam)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarTeam)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarTeam::MergeFrom(const AvatarTeam& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarTeam)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  avatar_guid_list_.MergeFrom(from.avatar_guid_list_);
-  if (from.team_name().size() > 0) {
-
-    team_name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.team_name_);
-  }
-}
-
-void AvatarTeam::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarTeam)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarTeam::CopyFrom(const AvatarTeam& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarTeam)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarTeam::IsInitialized() const {
-  return true;
-}
-
-void AvatarTeam::Swap(AvatarTeam* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarTeam::InternalSwap(AvatarTeam* other) {
-  using std::swap;
-  avatar_guid_list_.InternalSwap(&other->avatar_guid_list_);
-  team_name_.Swap(&other->team_name_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarTeam::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarTeam
-
-// repeated uint64 avatar_guid_list = 5;
-int AvatarTeam::avatar_guid_list_size() const {
-  return avatar_guid_list_.size();
-}
-void AvatarTeam::clear_avatar_guid_list() {
-  avatar_guid_list_.Clear();
-}
-::google::protobuf::uint64 AvatarTeam::avatar_guid_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.AvatarTeam.avatar_guid_list)
-  return avatar_guid_list_.Get(index);
-}
-void AvatarTeam::set_avatar_guid_list(int index, ::google::protobuf::uint64 value) {
-  avatar_guid_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.AvatarTeam.avatar_guid_list)
-}
-void AvatarTeam::add_avatar_guid_list(::google::protobuf::uint64 value) {
-  avatar_guid_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.AvatarTeam.avatar_guid_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint64 >&
-AvatarTeam::avatar_guid_list() const {
-  // @@protoc_insertion_point(field_list:proto.AvatarTeam.avatar_guid_list)
-  return avatar_guid_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint64 >*
-AvatarTeam::mutable_avatar_guid_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.AvatarTeam.avatar_guid_list)
-  return &avatar_guid_list_;
-}
-
-// string team_name = 11;
-void AvatarTeam::clear_team_name() {
-  team_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-const ::std::string& AvatarTeam::team_name() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarTeam.team_name)
-  return team_name_.GetNoArena();
-}
-void AvatarTeam::set_team_name(const ::std::string& value) {
-  
-  team_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
-  // @@protoc_insertion_point(field_set:proto.AvatarTeam.team_name)
-}
-#if LANG_CXX11
-void AvatarTeam::set_team_name(::std::string&& value) {
-  
-  team_name_.SetNoArena(
-    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
-  // @@protoc_insertion_point(field_set_rvalue:proto.AvatarTeam.team_name)
-}
-#endif
-void AvatarTeam::set_team_name(const char* value) {
-  GOOGLE_DCHECK(value != NULL);
-  
-  team_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
-  // @@protoc_insertion_point(field_set_char:proto.AvatarTeam.team_name)
-}
-void AvatarTeam::set_team_name(const char* value, size_t size) {
-  
-  team_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
-      ::std::string(reinterpret_cast<const char*>(value), size));
-  // @@protoc_insertion_point(field_set_pointer:proto.AvatarTeam.team_name)
-}
-::std::string* AvatarTeam::mutable_team_name() {
-  
-  // @@protoc_insertion_point(field_mutable:proto.AvatarTeam.team_name)
-  return team_name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-::std::string* AvatarTeam::release_team_name() {
-  // @@protoc_insertion_point(field_release:proto.AvatarTeam.team_name)
-  
-  return team_name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-void AvatarTeam::set_allocated_team_name(::std::string* team_name) {
-  if (team_name != NULL) {
-    
-  } else {
-    
-  }
-  team_name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), team_name);
-  // @@protoc_insertion_point(field_set_allocated:proto.AvatarTeam.team_name)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int SetUpAvatarTeamReq::kTeamIdFieldNumber;
-const int SetUpAvatarTeamReq::kAvatarTeamGuidListFieldNumber;
-const int SetUpAvatarTeamReq::kCurAvatarGuidFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-SetUpAvatarTeamReq::SetUpAvatarTeamReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.SetUpAvatarTeamReq)
-}
-SetUpAvatarTeamReq::SetUpAvatarTeamReq(const SetUpAvatarTeamReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      avatar_team_guid_list_(from.avatar_team_guid_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&team_id_, &from.team_id_,
-    static_cast<size_t>(reinterpret_cast<char*>(&cur_avatar_guid_) -
-    reinterpret_cast<char*>(&team_id_)) + sizeof(cur_avatar_guid_));
-  // @@protoc_insertion_point(copy_constructor:proto.SetUpAvatarTeamReq)
-}
-
-void SetUpAvatarTeamReq::SharedCtor() {
-  ::memset(&team_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&cur_avatar_guid_) -
-      reinterpret_cast<char*>(&team_id_)) + sizeof(cur_avatar_guid_));
-  _cached_size_ = 0;
-}
-
-SetUpAvatarTeamReq::~SetUpAvatarTeamReq() {
-  // @@protoc_insertion_point(destructor:proto.SetUpAvatarTeamReq)
-  SharedDtor();
-}
-
-void SetUpAvatarTeamReq::SharedDtor() {
-}
-
-void SetUpAvatarTeamReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* SetUpAvatarTeamReq::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const SetUpAvatarTeamReq& SetUpAvatarTeamReq::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-SetUpAvatarTeamReq* SetUpAvatarTeamReq::New(::google::protobuf::Arena* arena) const {
-  SetUpAvatarTeamReq* n = new SetUpAvatarTeamReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void SetUpAvatarTeamReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.SetUpAvatarTeamReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  avatar_team_guid_list_.Clear();
-  ::memset(&team_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&cur_avatar_guid_) -
-      reinterpret_cast<char*>(&team_id_)) + sizeof(cur_avatar_guid_));
-  _internal_metadata_.Clear();
 }
 
 bool SetUpAvatarTeamReq::MergePartialFromCodedStream(
@@ -4652,16 +948,18 @@ bool SetUpAvatarTeamReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.SetUpAvatarTeamReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.SetUpAvatarTeamReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -4693,9 +991,9 @@ void SetUpAvatarTeamReq::SerializeWithCachedSizes(
       this->avatar_team_guid_list(i), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.SetUpAvatarTeamReq)
 }
@@ -4730,9 +1028,9 @@ void SetUpAvatarTeamReq::SerializeWithCachedSizes(
       WriteUInt64NoTagToArray(this->avatar_team_guid_list_, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.SetUpAvatarTeamReq)
   return target;
@@ -4742,10 +1040,10 @@ size_t SetUpAvatarTeamReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.SetUpAvatarTeamReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated uint64 avatar_team_guid_list = 15;
   {
@@ -4782,216 +1080,6 @@ size_t SetUpAvatarTeamReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void SetUpAvatarTeamReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.SetUpAvatarTeamReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const SetUpAvatarTeamReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const SetUpAvatarTeamReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.SetUpAvatarTeamReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.SetUpAvatarTeamReq)
-    MergeFrom(*source);
-  }
-}
-
-void SetUpAvatarTeamReq::MergeFrom(const SetUpAvatarTeamReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.SetUpAvatarTeamReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  avatar_team_guid_list_.MergeFrom(from.avatar_team_guid_list_);
-  if (from.team_id() != 0) {
-    set_team_id(from.team_id());
-  }
-  if (from.cur_avatar_guid() != 0) {
-    set_cur_avatar_guid(from.cur_avatar_guid());
-  }
-}
-
-void SetUpAvatarTeamReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.SetUpAvatarTeamReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void SetUpAvatarTeamReq::CopyFrom(const SetUpAvatarTeamReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.SetUpAvatarTeamReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool SetUpAvatarTeamReq::IsInitialized() const {
-  return true;
-}
-
-void SetUpAvatarTeamReq::Swap(SetUpAvatarTeamReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void SetUpAvatarTeamReq::InternalSwap(SetUpAvatarTeamReq* other) {
-  using std::swap;
-  avatar_team_guid_list_.InternalSwap(&other->avatar_team_guid_list_);
-  swap(team_id_, other->team_id_);
-  swap(cur_avatar_guid_, other->cur_avatar_guid_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata SetUpAvatarTeamReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// SetUpAvatarTeamReq
-
-// uint32 team_id = 4;
-void SetUpAvatarTeamReq::clear_team_id() {
-  team_id_ = 0u;
-}
-::google::protobuf::uint32 SetUpAvatarTeamReq::team_id() const {
-  // @@protoc_insertion_point(field_get:proto.SetUpAvatarTeamReq.team_id)
-  return team_id_;
-}
-void SetUpAvatarTeamReq::set_team_id(::google::protobuf::uint32 value) {
-  
-  team_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.SetUpAvatarTeamReq.team_id)
-}
-
-// repeated uint64 avatar_team_guid_list = 15;
-int SetUpAvatarTeamReq::avatar_team_guid_list_size() const {
-  return avatar_team_guid_list_.size();
-}
-void SetUpAvatarTeamReq::clear_avatar_team_guid_list() {
-  avatar_team_guid_list_.Clear();
-}
-::google::protobuf::uint64 SetUpAvatarTeamReq::avatar_team_guid_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.SetUpAvatarTeamReq.avatar_team_guid_list)
-  return avatar_team_guid_list_.Get(index);
-}
-void SetUpAvatarTeamReq::set_avatar_team_guid_list(int index, ::google::protobuf::uint64 value) {
-  avatar_team_guid_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.SetUpAvatarTeamReq.avatar_team_guid_list)
-}
-void SetUpAvatarTeamReq::add_avatar_team_guid_list(::google::protobuf::uint64 value) {
-  avatar_team_guid_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.SetUpAvatarTeamReq.avatar_team_guid_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint64 >&
-SetUpAvatarTeamReq::avatar_team_guid_list() const {
-  // @@protoc_insertion_point(field_list:proto.SetUpAvatarTeamReq.avatar_team_guid_list)
-  return avatar_team_guid_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint64 >*
-SetUpAvatarTeamReq::mutable_avatar_team_guid_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.SetUpAvatarTeamReq.avatar_team_guid_list)
-  return &avatar_team_guid_list_;
-}
-
-// uint64 cur_avatar_guid = 9;
-void SetUpAvatarTeamReq::clear_cur_avatar_guid() {
-  cur_avatar_guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 SetUpAvatarTeamReq::cur_avatar_guid() const {
-  // @@protoc_insertion_point(field_get:proto.SetUpAvatarTeamReq.cur_avatar_guid)
-  return cur_avatar_guid_;
-}
-void SetUpAvatarTeamReq::set_cur_avatar_guid(::google::protobuf::uint64 value) {
-  
-  cur_avatar_guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.SetUpAvatarTeamReq.cur_avatar_guid)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int SetUpAvatarTeamRsp::kAvatarTeamGuidListFieldNumber;
-const int SetUpAvatarTeamRsp::kTeamIdFieldNumber;
-const int SetUpAvatarTeamRsp::kRetcodeFieldNumber;
-const int SetUpAvatarTeamRsp::kCurAvatarGuidFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-SetUpAvatarTeamRsp::SetUpAvatarTeamRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.SetUpAvatarTeamRsp)
-}
-SetUpAvatarTeamRsp::SetUpAvatarTeamRsp(const SetUpAvatarTeamRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      avatar_team_guid_list_(from.avatar_team_guid_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&cur_avatar_guid_, &from.cur_avatar_guid_,
-    static_cast<size_t>(reinterpret_cast<char*>(&team_id_) -
-    reinterpret_cast<char*>(&cur_avatar_guid_)) + sizeof(team_id_));
-  // @@protoc_insertion_point(copy_constructor:proto.SetUpAvatarTeamRsp)
-}
-
-void SetUpAvatarTeamRsp::SharedCtor() {
-  ::memset(&cur_avatar_guid_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&team_id_) -
-      reinterpret_cast<char*>(&cur_avatar_guid_)) + sizeof(team_id_));
-  _cached_size_ = 0;
-}
-
-SetUpAvatarTeamRsp::~SetUpAvatarTeamRsp() {
-  // @@protoc_insertion_point(destructor:proto.SetUpAvatarTeamRsp)
-  SharedDtor();
-}
-
-void SetUpAvatarTeamRsp::SharedDtor() {
-}
-
-void SetUpAvatarTeamRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* SetUpAvatarTeamRsp::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const SetUpAvatarTeamRsp& SetUpAvatarTeamRsp::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-SetUpAvatarTeamRsp* SetUpAvatarTeamRsp::New(::google::protobuf::Arena* arena) const {
-  SetUpAvatarTeamRsp* n = new SetUpAvatarTeamRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void SetUpAvatarTeamRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.SetUpAvatarTeamRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  avatar_team_guid_list_.Clear();
-  ::memset(&cur_avatar_guid_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&team_id_) -
-      reinterpret_cast<char*>(&cur_avatar_guid_)) + sizeof(team_id_));
-  _internal_metadata_.Clear();
 }
 
 bool SetUpAvatarTeamRsp::MergePartialFromCodedStream(
@@ -5071,16 +1159,18 @@ bool SetUpAvatarTeamRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.SetUpAvatarTeamRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.SetUpAvatarTeamRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -5117,9 +1207,9 @@ void SetUpAvatarTeamRsp::SerializeWithCachedSizes(
       this->avatar_team_guid_list(i), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.SetUpAvatarTeamRsp)
 }
@@ -5159,9 +1249,9 @@ void SetUpAvatarTeamRsp::SerializeWithCachedSizes(
       WriteUInt64NoTagToArray(this->avatar_team_guid_list_, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.SetUpAvatarTeamRsp)
   return target;
@@ -5171,10 +1261,10 @@ size_t SetUpAvatarTeamRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.SetUpAvatarTeamRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated uint64 avatar_team_guid_list = 6;
   {
@@ -5220,223 +1310,6 @@ size_t SetUpAvatarTeamRsp::ByteSizeLong() const {
   return total_size;
 }
 
-void SetUpAvatarTeamRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.SetUpAvatarTeamRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const SetUpAvatarTeamRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const SetUpAvatarTeamRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.SetUpAvatarTeamRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.SetUpAvatarTeamRsp)
-    MergeFrom(*source);
-  }
-}
-
-void SetUpAvatarTeamRsp::MergeFrom(const SetUpAvatarTeamRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.SetUpAvatarTeamRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  avatar_team_guid_list_.MergeFrom(from.avatar_team_guid_list_);
-  if (from.cur_avatar_guid() != 0) {
-    set_cur_avatar_guid(from.cur_avatar_guid());
-  }
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-  if (from.team_id() != 0) {
-    set_team_id(from.team_id());
-  }
-}
-
-void SetUpAvatarTeamRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.SetUpAvatarTeamRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void SetUpAvatarTeamRsp::CopyFrom(const SetUpAvatarTeamRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.SetUpAvatarTeamRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool SetUpAvatarTeamRsp::IsInitialized() const {
-  return true;
-}
-
-void SetUpAvatarTeamRsp::Swap(SetUpAvatarTeamRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void SetUpAvatarTeamRsp::InternalSwap(SetUpAvatarTeamRsp* other) {
-  using std::swap;
-  avatar_team_guid_list_.InternalSwap(&other->avatar_team_guid_list_);
-  swap(cur_avatar_guid_, other->cur_avatar_guid_);
-  swap(retcode_, other->retcode_);
-  swap(team_id_, other->team_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata SetUpAvatarTeamRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// SetUpAvatarTeamRsp
-
-// repeated uint64 avatar_team_guid_list = 6;
-int SetUpAvatarTeamRsp::avatar_team_guid_list_size() const {
-  return avatar_team_guid_list_.size();
-}
-void SetUpAvatarTeamRsp::clear_avatar_team_guid_list() {
-  avatar_team_guid_list_.Clear();
-}
-::google::protobuf::uint64 SetUpAvatarTeamRsp::avatar_team_guid_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.SetUpAvatarTeamRsp.avatar_team_guid_list)
-  return avatar_team_guid_list_.Get(index);
-}
-void SetUpAvatarTeamRsp::set_avatar_team_guid_list(int index, ::google::protobuf::uint64 value) {
-  avatar_team_guid_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.SetUpAvatarTeamRsp.avatar_team_guid_list)
-}
-void SetUpAvatarTeamRsp::add_avatar_team_guid_list(::google::protobuf::uint64 value) {
-  avatar_team_guid_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.SetUpAvatarTeamRsp.avatar_team_guid_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint64 >&
-SetUpAvatarTeamRsp::avatar_team_guid_list() const {
-  // @@protoc_insertion_point(field_list:proto.SetUpAvatarTeamRsp.avatar_team_guid_list)
-  return avatar_team_guid_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint64 >*
-SetUpAvatarTeamRsp::mutable_avatar_team_guid_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.SetUpAvatarTeamRsp.avatar_team_guid_list)
-  return &avatar_team_guid_list_;
-}
-
-// uint32 team_id = 5;
-void SetUpAvatarTeamRsp::clear_team_id() {
-  team_id_ = 0u;
-}
-::google::protobuf::uint32 SetUpAvatarTeamRsp::team_id() const {
-  // @@protoc_insertion_point(field_get:proto.SetUpAvatarTeamRsp.team_id)
-  return team_id_;
-}
-void SetUpAvatarTeamRsp::set_team_id(::google::protobuf::uint32 value) {
-  
-  team_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.SetUpAvatarTeamRsp.team_id)
-}
-
-// int32 retcode = 3;
-void SetUpAvatarTeamRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 SetUpAvatarTeamRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.SetUpAvatarTeamRsp.retcode)
-  return retcode_;
-}
-void SetUpAvatarTeamRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.SetUpAvatarTeamRsp.retcode)
-}
-
-// uint64 cur_avatar_guid = 2;
-void SetUpAvatarTeamRsp::clear_cur_avatar_guid() {
-  cur_avatar_guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 SetUpAvatarTeamRsp::cur_avatar_guid() const {
-  // @@protoc_insertion_point(field_get:proto.SetUpAvatarTeamRsp.cur_avatar_guid)
-  return cur_avatar_guid_;
-}
-void SetUpAvatarTeamRsp::set_cur_avatar_guid(::google::protobuf::uint64 value) {
-  
-  cur_avatar_guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.SetUpAvatarTeamRsp.cur_avatar_guid)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int ChooseCurAvatarTeamReq::kTeamIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-ChooseCurAvatarTeamReq::ChooseCurAvatarTeamReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.ChooseCurAvatarTeamReq)
-}
-ChooseCurAvatarTeamReq::ChooseCurAvatarTeamReq(const ChooseCurAvatarTeamReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  team_id_ = from.team_id_;
-  // @@protoc_insertion_point(copy_constructor:proto.ChooseCurAvatarTeamReq)
-}
-
-void ChooseCurAvatarTeamReq::SharedCtor() {
-  team_id_ = 0u;
-  _cached_size_ = 0;
-}
-
-ChooseCurAvatarTeamReq::~ChooseCurAvatarTeamReq() {
-  // @@protoc_insertion_point(destructor:proto.ChooseCurAvatarTeamReq)
-  SharedDtor();
-}
-
-void ChooseCurAvatarTeamReq::SharedDtor() {
-}
-
-void ChooseCurAvatarTeamReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* ChooseCurAvatarTeamReq::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const ChooseCurAvatarTeamReq& ChooseCurAvatarTeamReq::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-ChooseCurAvatarTeamReq* ChooseCurAvatarTeamReq::New(::google::protobuf::Arena* arena) const {
-  ChooseCurAvatarTeamReq* n = new ChooseCurAvatarTeamReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void ChooseCurAvatarTeamReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.ChooseCurAvatarTeamReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  team_id_ = 0u;
-  _internal_metadata_.Clear();
-}
-
 bool ChooseCurAvatarTeamReq::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -5467,16 +1340,18 @@ bool ChooseCurAvatarTeamReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.ChooseCurAvatarTeamReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.ChooseCurAvatarTeamReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -5492,9 +1367,9 @@ void ChooseCurAvatarTeamReq::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(6, this->team_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.ChooseCurAvatarTeamReq)
 }
@@ -5511,9 +1386,9 @@ void ChooseCurAvatarTeamReq::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(6, this->team_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.ChooseCurAvatarTeamReq)
   return target;
@@ -5523,10 +1398,10 @@ size_t ChooseCurAvatarTeamReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.ChooseCurAvatarTeamReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 team_id = 6;
   if (this->team_id() != 0) {
@@ -5540,162 +1415,6 @@ size_t ChooseCurAvatarTeamReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void ChooseCurAvatarTeamReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.ChooseCurAvatarTeamReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const ChooseCurAvatarTeamReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const ChooseCurAvatarTeamReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.ChooseCurAvatarTeamReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.ChooseCurAvatarTeamReq)
-    MergeFrom(*source);
-  }
-}
-
-void ChooseCurAvatarTeamReq::MergeFrom(const ChooseCurAvatarTeamReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.ChooseCurAvatarTeamReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.team_id() != 0) {
-    set_team_id(from.team_id());
-  }
-}
-
-void ChooseCurAvatarTeamReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.ChooseCurAvatarTeamReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void ChooseCurAvatarTeamReq::CopyFrom(const ChooseCurAvatarTeamReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.ChooseCurAvatarTeamReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool ChooseCurAvatarTeamReq::IsInitialized() const {
-  return true;
-}
-
-void ChooseCurAvatarTeamReq::Swap(ChooseCurAvatarTeamReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void ChooseCurAvatarTeamReq::InternalSwap(ChooseCurAvatarTeamReq* other) {
-  using std::swap;
-  swap(team_id_, other->team_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata ChooseCurAvatarTeamReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// ChooseCurAvatarTeamReq
-
-// uint32 team_id = 6;
-void ChooseCurAvatarTeamReq::clear_team_id() {
-  team_id_ = 0u;
-}
-::google::protobuf::uint32 ChooseCurAvatarTeamReq::team_id() const {
-  // @@protoc_insertion_point(field_get:proto.ChooseCurAvatarTeamReq.team_id)
-  return team_id_;
-}
-void ChooseCurAvatarTeamReq::set_team_id(::google::protobuf::uint32 value) {
-  
-  team_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.ChooseCurAvatarTeamReq.team_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int ChooseCurAvatarTeamRsp::kCurTeamIdFieldNumber;
-const int ChooseCurAvatarTeamRsp::kRetcodeFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-ChooseCurAvatarTeamRsp::ChooseCurAvatarTeamRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.ChooseCurAvatarTeamRsp)
-}
-ChooseCurAvatarTeamRsp::ChooseCurAvatarTeamRsp(const ChooseCurAvatarTeamRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&retcode_, &from.retcode_,
-    static_cast<size_t>(reinterpret_cast<char*>(&cur_team_id_) -
-    reinterpret_cast<char*>(&retcode_)) + sizeof(cur_team_id_));
-  // @@protoc_insertion_point(copy_constructor:proto.ChooseCurAvatarTeamRsp)
-}
-
-void ChooseCurAvatarTeamRsp::SharedCtor() {
-  ::memset(&retcode_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&cur_team_id_) -
-      reinterpret_cast<char*>(&retcode_)) + sizeof(cur_team_id_));
-  _cached_size_ = 0;
-}
-
-ChooseCurAvatarTeamRsp::~ChooseCurAvatarTeamRsp() {
-  // @@protoc_insertion_point(destructor:proto.ChooseCurAvatarTeamRsp)
-  SharedDtor();
-}
-
-void ChooseCurAvatarTeamRsp::SharedDtor() {
-}
-
-void ChooseCurAvatarTeamRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* ChooseCurAvatarTeamRsp::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const ChooseCurAvatarTeamRsp& ChooseCurAvatarTeamRsp::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-ChooseCurAvatarTeamRsp* ChooseCurAvatarTeamRsp::New(::google::protobuf::Arena* arena) const {
-  ChooseCurAvatarTeamRsp* n = new ChooseCurAvatarTeamRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void ChooseCurAvatarTeamRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.ChooseCurAvatarTeamRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&retcode_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&cur_team_id_) -
-      reinterpret_cast<char*>(&retcode_)) + sizeof(cur_team_id_));
-  _internal_metadata_.Clear();
 }
 
 bool ChooseCurAvatarTeamRsp::MergePartialFromCodedStream(
@@ -5742,16 +1461,18 @@ bool ChooseCurAvatarTeamRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.ChooseCurAvatarTeamRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.ChooseCurAvatarTeamRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -5772,9 +1493,9 @@ void ChooseCurAvatarTeamRsp::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(8, this->cur_team_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.ChooseCurAvatarTeamRsp)
 }
@@ -5796,9 +1517,9 @@ void ChooseCurAvatarTeamRsp::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(8, this->cur_team_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.ChooseCurAvatarTeamRsp)
   return target;
@@ -5808,10 +1529,10 @@ size_t ChooseCurAvatarTeamRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.ChooseCurAvatarTeamRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // int32 retcode = 2;
   if (this->retcode() != 0) {
@@ -5832,192 +1553,6 @@ size_t ChooseCurAvatarTeamRsp::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void ChooseCurAvatarTeamRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.ChooseCurAvatarTeamRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const ChooseCurAvatarTeamRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const ChooseCurAvatarTeamRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.ChooseCurAvatarTeamRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.ChooseCurAvatarTeamRsp)
-    MergeFrom(*source);
-  }
-}
-
-void ChooseCurAvatarTeamRsp::MergeFrom(const ChooseCurAvatarTeamRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.ChooseCurAvatarTeamRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-  if (from.cur_team_id() != 0) {
-    set_cur_team_id(from.cur_team_id());
-  }
-}
-
-void ChooseCurAvatarTeamRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.ChooseCurAvatarTeamRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void ChooseCurAvatarTeamRsp::CopyFrom(const ChooseCurAvatarTeamRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.ChooseCurAvatarTeamRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool ChooseCurAvatarTeamRsp::IsInitialized() const {
-  return true;
-}
-
-void ChooseCurAvatarTeamRsp::Swap(ChooseCurAvatarTeamRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void ChooseCurAvatarTeamRsp::InternalSwap(ChooseCurAvatarTeamRsp* other) {
-  using std::swap;
-  swap(retcode_, other->retcode_);
-  swap(cur_team_id_, other->cur_team_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata ChooseCurAvatarTeamRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// ChooseCurAvatarTeamRsp
-
-// uint32 cur_team_id = 8;
-void ChooseCurAvatarTeamRsp::clear_cur_team_id() {
-  cur_team_id_ = 0u;
-}
-::google::protobuf::uint32 ChooseCurAvatarTeamRsp::cur_team_id() const {
-  // @@protoc_insertion_point(field_get:proto.ChooseCurAvatarTeamRsp.cur_team_id)
-  return cur_team_id_;
-}
-void ChooseCurAvatarTeamRsp::set_cur_team_id(::google::protobuf::uint32 value) {
-  
-  cur_team_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.ChooseCurAvatarTeamRsp.cur_team_id)
-}
-
-// int32 retcode = 2;
-void ChooseCurAvatarTeamRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 ChooseCurAvatarTeamRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.ChooseCurAvatarTeamRsp.retcode)
-  return retcode_;
-}
-void ChooseCurAvatarTeamRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.ChooseCurAvatarTeamRsp.retcode)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int ChangeAvatarReq::kMovePosFieldNumber;
-const int ChangeAvatarReq::kSkillIdFieldNumber;
-const int ChangeAvatarReq::kGuidFieldNumber;
-const int ChangeAvatarReq::kIsMoveFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-ChangeAvatarReq::ChangeAvatarReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.ChangeAvatarReq)
-}
-ChangeAvatarReq::ChangeAvatarReq(const ChangeAvatarReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  if (from.has_move_pos()) {
-    move_pos_ = new ::proto::Vector(*from.move_pos_);
-  } else {
-    move_pos_ = NULL;
-  }
-  ::memcpy(&skill_id_, &from.skill_id_,
-    static_cast<size_t>(reinterpret_cast<char*>(&guid_) -
-    reinterpret_cast<char*>(&skill_id_)) + sizeof(guid_));
-  // @@protoc_insertion_point(copy_constructor:proto.ChangeAvatarReq)
-}
-
-void ChangeAvatarReq::SharedCtor() {
-  ::memset(&move_pos_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&guid_) -
-      reinterpret_cast<char*>(&move_pos_)) + sizeof(guid_));
-  _cached_size_ = 0;
-}
-
-ChangeAvatarReq::~ChangeAvatarReq() {
-  // @@protoc_insertion_point(destructor:proto.ChangeAvatarReq)
-  SharedDtor();
-}
-
-void ChangeAvatarReq::SharedDtor() {
-  if (this != internal_default_instance()) delete move_pos_;
-}
-
-void ChangeAvatarReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* ChangeAvatarReq::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const ChangeAvatarReq& ChangeAvatarReq::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-ChangeAvatarReq* ChangeAvatarReq::New(::google::protobuf::Arena* arena) const {
-  ChangeAvatarReq* n = new ChangeAvatarReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void ChangeAvatarReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.ChangeAvatarReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  if (GetArenaNoVirtual() == NULL && move_pos_ != NULL) {
-    delete move_pos_;
-  }
-  move_pos_ = NULL;
-  ::memset(&skill_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&guid_) -
-      reinterpret_cast<char*>(&skill_id_)) + sizeof(guid_));
-  _internal_metadata_.Clear();
 }
 
 bool ChangeAvatarReq::MergePartialFromCodedStream(
@@ -6090,16 +1625,18 @@ bool ChangeAvatarReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.ChangeAvatarReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.ChangeAvatarReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -6131,9 +1668,9 @@ void ChangeAvatarReq::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt64(12, this->guid(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.ChangeAvatarReq)
 }
@@ -6167,9 +1704,9 @@ void ChangeAvatarReq::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt64ToArray(12, this->guid(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.ChangeAvatarReq)
   return target;
@@ -6179,10 +1716,10 @@ size_t ChangeAvatarReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.ChangeAvatarReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // .proto.Vector move_pos = 3;
   if (this->has_move_pos()) {
@@ -6215,243 +1752,6 @@ size_t ChangeAvatarReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void ChangeAvatarReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.ChangeAvatarReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const ChangeAvatarReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const ChangeAvatarReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.ChangeAvatarReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.ChangeAvatarReq)
-    MergeFrom(*source);
-  }
-}
-
-void ChangeAvatarReq::MergeFrom(const ChangeAvatarReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.ChangeAvatarReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.has_move_pos()) {
-    mutable_move_pos()->::proto::Vector::MergeFrom(from.move_pos());
-  }
-  if (from.skill_id() != 0) {
-    set_skill_id(from.skill_id());
-  }
-  if (from.is_move() != 0) {
-    set_is_move(from.is_move());
-  }
-  if (from.guid() != 0) {
-    set_guid(from.guid());
-  }
-}
-
-void ChangeAvatarReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.ChangeAvatarReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void ChangeAvatarReq::CopyFrom(const ChangeAvatarReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.ChangeAvatarReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool ChangeAvatarReq::IsInitialized() const {
-  return true;
-}
-
-void ChangeAvatarReq::Swap(ChangeAvatarReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void ChangeAvatarReq::InternalSwap(ChangeAvatarReq* other) {
-  using std::swap;
-  swap(move_pos_, other->move_pos_);
-  swap(skill_id_, other->skill_id_);
-  swap(is_move_, other->is_move_);
-  swap(guid_, other->guid_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata ChangeAvatarReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// ChangeAvatarReq
-
-// .proto.Vector move_pos = 3;
-bool ChangeAvatarReq::has_move_pos() const {
-  return this != internal_default_instance() && move_pos_ != NULL;
-}
-void ChangeAvatarReq::clear_move_pos() {
-  if (GetArenaNoVirtual() == NULL && move_pos_ != NULL) delete move_pos_;
-  move_pos_ = NULL;
-}
-const ::proto::Vector& ChangeAvatarReq::move_pos() const {
-  const ::proto::Vector* p = move_pos_;
-  // @@protoc_insertion_point(field_get:proto.ChangeAvatarReq.move_pos)
-  return p != NULL ? *p : *reinterpret_cast<const ::proto::Vector*>(
-      &::proto::_Vector_default_instance_);
-}
-::proto::Vector* ChangeAvatarReq::mutable_move_pos() {
-  
-  if (move_pos_ == NULL) {
-    move_pos_ = new ::proto::Vector;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.ChangeAvatarReq.move_pos)
-  return move_pos_;
-}
-::proto::Vector* ChangeAvatarReq::release_move_pos() {
-  // @@protoc_insertion_point(field_release:proto.ChangeAvatarReq.move_pos)
-  
-  ::proto::Vector* temp = move_pos_;
-  move_pos_ = NULL;
-  return temp;
-}
-void ChangeAvatarReq::set_allocated_move_pos(::proto::Vector* move_pos) {
-  delete move_pos_;
-  move_pos_ = move_pos;
-  if (move_pos) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.ChangeAvatarReq.move_pos)
-}
-
-// uint32 skill_id = 5;
-void ChangeAvatarReq::clear_skill_id() {
-  skill_id_ = 0u;
-}
-::google::protobuf::uint32 ChangeAvatarReq::skill_id() const {
-  // @@protoc_insertion_point(field_get:proto.ChangeAvatarReq.skill_id)
-  return skill_id_;
-}
-void ChangeAvatarReq::set_skill_id(::google::protobuf::uint32 value) {
-  
-  skill_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.ChangeAvatarReq.skill_id)
-}
-
-// uint64 guid = 12;
-void ChangeAvatarReq::clear_guid() {
-  guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 ChangeAvatarReq::guid() const {
-  // @@protoc_insertion_point(field_get:proto.ChangeAvatarReq.guid)
-  return guid_;
-}
-void ChangeAvatarReq::set_guid(::google::protobuf::uint64 value) {
-  
-  guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.ChangeAvatarReq.guid)
-}
-
-// bool is_move = 10;
-void ChangeAvatarReq::clear_is_move() {
-  is_move_ = false;
-}
-bool ChangeAvatarReq::is_move() const {
-  // @@protoc_insertion_point(field_get:proto.ChangeAvatarReq.is_move)
-  return is_move_;
-}
-void ChangeAvatarReq::set_is_move(bool value) {
-  
-  is_move_ = value;
-  // @@protoc_insertion_point(field_set:proto.ChangeAvatarReq.is_move)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int ChangeAvatarRsp::kSkillIdFieldNumber;
-const int ChangeAvatarRsp::kRetcodeFieldNumber;
-const int ChangeAvatarRsp::kCurGuidFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-ChangeAvatarRsp::ChangeAvatarRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.ChangeAvatarRsp)
-}
-ChangeAvatarRsp::ChangeAvatarRsp(const ChangeAvatarRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&skill_id_, &from.skill_id_,
-    static_cast<size_t>(reinterpret_cast<char*>(&cur_guid_) -
-    reinterpret_cast<char*>(&skill_id_)) + sizeof(cur_guid_));
-  // @@protoc_insertion_point(copy_constructor:proto.ChangeAvatarRsp)
-}
-
-void ChangeAvatarRsp::SharedCtor() {
-  ::memset(&skill_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&cur_guid_) -
-      reinterpret_cast<char*>(&skill_id_)) + sizeof(cur_guid_));
-  _cached_size_ = 0;
-}
-
-ChangeAvatarRsp::~ChangeAvatarRsp() {
-  // @@protoc_insertion_point(destructor:proto.ChangeAvatarRsp)
-  SharedDtor();
-}
-
-void ChangeAvatarRsp::SharedDtor() {
-}
-
-void ChangeAvatarRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* ChangeAvatarRsp::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const ChangeAvatarRsp& ChangeAvatarRsp::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-ChangeAvatarRsp* ChangeAvatarRsp::New(::google::protobuf::Arena* arena) const {
-  ChangeAvatarRsp* n = new ChangeAvatarRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void ChangeAvatarRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.ChangeAvatarRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&skill_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&cur_guid_) -
-      reinterpret_cast<char*>(&skill_id_)) + sizeof(cur_guid_));
-  _internal_metadata_.Clear();
 }
 
 bool ChangeAvatarRsp::MergePartialFromCodedStream(
@@ -6512,16 +1812,18 @@ bool ChangeAvatarRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.ChangeAvatarRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.ChangeAvatarRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -6547,9 +1849,9 @@ void ChangeAvatarRsp::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteInt32(15, this->retcode(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.ChangeAvatarRsp)
 }
@@ -6576,9 +1878,9 @@ void ChangeAvatarRsp::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(15, this->retcode(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.ChangeAvatarRsp)
   return target;
@@ -6588,10 +1890,10 @@ size_t ChangeAvatarRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.ChangeAvatarRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 skill_id = 6;
   if (this->skill_id() != 0) {
@@ -6619,191 +1921,6 @@ size_t ChangeAvatarRsp::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void ChangeAvatarRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.ChangeAvatarRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const ChangeAvatarRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const ChangeAvatarRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.ChangeAvatarRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.ChangeAvatarRsp)
-    MergeFrom(*source);
-  }
-}
-
-void ChangeAvatarRsp::MergeFrom(const ChangeAvatarRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.ChangeAvatarRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.skill_id() != 0) {
-    set_skill_id(from.skill_id());
-  }
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-  if (from.cur_guid() != 0) {
-    set_cur_guid(from.cur_guid());
-  }
-}
-
-void ChangeAvatarRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.ChangeAvatarRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void ChangeAvatarRsp::CopyFrom(const ChangeAvatarRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.ChangeAvatarRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool ChangeAvatarRsp::IsInitialized() const {
-  return true;
-}
-
-void ChangeAvatarRsp::Swap(ChangeAvatarRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void ChangeAvatarRsp::InternalSwap(ChangeAvatarRsp* other) {
-  using std::swap;
-  swap(skill_id_, other->skill_id_);
-  swap(retcode_, other->retcode_);
-  swap(cur_guid_, other->cur_guid_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata ChangeAvatarRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// ChangeAvatarRsp
-
-// uint32 skill_id = 6;
-void ChangeAvatarRsp::clear_skill_id() {
-  skill_id_ = 0u;
-}
-::google::protobuf::uint32 ChangeAvatarRsp::skill_id() const {
-  // @@protoc_insertion_point(field_get:proto.ChangeAvatarRsp.skill_id)
-  return skill_id_;
-}
-void ChangeAvatarRsp::set_skill_id(::google::protobuf::uint32 value) {
-  
-  skill_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.ChangeAvatarRsp.skill_id)
-}
-
-// int32 retcode = 15;
-void ChangeAvatarRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 ChangeAvatarRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.ChangeAvatarRsp.retcode)
-  return retcode_;
-}
-void ChangeAvatarRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.ChangeAvatarRsp.retcode)
-}
-
-// uint64 cur_guid = 14;
-void ChangeAvatarRsp::clear_cur_guid() {
-  cur_guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 ChangeAvatarRsp::cur_guid() const {
-  // @@protoc_insertion_point(field_get:proto.ChangeAvatarRsp.cur_guid)
-  return cur_guid_;
-}
-void ChangeAvatarRsp::set_cur_guid(::google::protobuf::uint64 value) {
-  
-  cur_guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.ChangeAvatarRsp.cur_guid)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarPromoteReq::kGuidFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarPromoteReq::AvatarPromoteReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarPromoteReq)
-}
-AvatarPromoteReq::AvatarPromoteReq(const AvatarPromoteReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  guid_ = from.guid_;
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarPromoteReq)
-}
-
-void AvatarPromoteReq::SharedCtor() {
-  guid_ = GOOGLE_ULONGLONG(0);
-  _cached_size_ = 0;
-}
-
-AvatarPromoteReq::~AvatarPromoteReq() {
-  // @@protoc_insertion_point(destructor:proto.AvatarPromoteReq)
-  SharedDtor();
-}
-
-void AvatarPromoteReq::SharedDtor() {
-}
-
-void AvatarPromoteReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarPromoteReq::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarPromoteReq& AvatarPromoteReq::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarPromoteReq* AvatarPromoteReq::New(::google::protobuf::Arena* arena) const {
-  AvatarPromoteReq* n = new AvatarPromoteReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarPromoteReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarPromoteReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  guid_ = GOOGLE_ULONGLONG(0);
-  _internal_metadata_.Clear();
 }
 
 bool AvatarPromoteReq::MergePartialFromCodedStream(
@@ -6836,16 +1953,18 @@ bool AvatarPromoteReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarPromoteReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarPromoteReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -6861,9 +1980,9 @@ void AvatarPromoteReq::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt64(1, this->guid(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarPromoteReq)
 }
@@ -6880,9 +1999,9 @@ void AvatarPromoteReq::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt64ToArray(1, this->guid(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarPromoteReq)
   return target;
@@ -6892,10 +2011,10 @@ size_t AvatarPromoteReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarPromoteReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint64 guid = 1;
   if (this->guid() != 0) {
@@ -6909,162 +2028,6 @@ size_t AvatarPromoteReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarPromoteReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarPromoteReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarPromoteReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarPromoteReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarPromoteReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarPromoteReq)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarPromoteReq::MergeFrom(const AvatarPromoteReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarPromoteReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.guid() != 0) {
-    set_guid(from.guid());
-  }
-}
-
-void AvatarPromoteReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarPromoteReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarPromoteReq::CopyFrom(const AvatarPromoteReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarPromoteReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarPromoteReq::IsInitialized() const {
-  return true;
-}
-
-void AvatarPromoteReq::Swap(AvatarPromoteReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarPromoteReq::InternalSwap(AvatarPromoteReq* other) {
-  using std::swap;
-  swap(guid_, other->guid_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarPromoteReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarPromoteReq
-
-// uint64 guid = 1;
-void AvatarPromoteReq::clear_guid() {
-  guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 AvatarPromoteReq::guid() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarPromoteReq.guid)
-  return guid_;
-}
-void AvatarPromoteReq::set_guid(::google::protobuf::uint64 value) {
-  
-  guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarPromoteReq.guid)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarPromoteRsp::kGuidFieldNumber;
-const int AvatarPromoteRsp::kRetcodeFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarPromoteRsp::AvatarPromoteRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarPromoteRsp)
-}
-AvatarPromoteRsp::AvatarPromoteRsp(const AvatarPromoteRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&retcode_, &from.retcode_,
-    static_cast<size_t>(reinterpret_cast<char*>(&guid_) -
-    reinterpret_cast<char*>(&retcode_)) + sizeof(guid_));
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarPromoteRsp)
-}
-
-void AvatarPromoteRsp::SharedCtor() {
-  ::memset(&retcode_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&guid_) -
-      reinterpret_cast<char*>(&retcode_)) + sizeof(guid_));
-  _cached_size_ = 0;
-}
-
-AvatarPromoteRsp::~AvatarPromoteRsp() {
-  // @@protoc_insertion_point(destructor:proto.AvatarPromoteRsp)
-  SharedDtor();
-}
-
-void AvatarPromoteRsp::SharedDtor() {
-}
-
-void AvatarPromoteRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarPromoteRsp::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarPromoteRsp& AvatarPromoteRsp::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarPromoteRsp* AvatarPromoteRsp::New(::google::protobuf::Arena* arena) const {
-  AvatarPromoteRsp* n = new AvatarPromoteRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarPromoteRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarPromoteRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&retcode_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&guid_) -
-      reinterpret_cast<char*>(&retcode_)) + sizeof(guid_));
-  _internal_metadata_.Clear();
 }
 
 bool AvatarPromoteRsp::MergePartialFromCodedStream(
@@ -7111,16 +2074,18 @@ bool AvatarPromoteRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarPromoteRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarPromoteRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -7141,9 +2106,9 @@ void AvatarPromoteRsp::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt64(13, this->guid(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarPromoteRsp)
 }
@@ -7165,9 +2130,9 @@ void AvatarPromoteRsp::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt64ToArray(13, this->guid(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarPromoteRsp)
   return target;
@@ -7177,10 +2142,10 @@ size_t AvatarPromoteRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarPromoteRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // int32 retcode = 7;
   if (this->retcode() != 0) {
@@ -7201,173 +2166,6 @@ size_t AvatarPromoteRsp::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarPromoteRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarPromoteRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarPromoteRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarPromoteRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarPromoteRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarPromoteRsp)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarPromoteRsp::MergeFrom(const AvatarPromoteRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarPromoteRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-  if (from.guid() != 0) {
-    set_guid(from.guid());
-  }
-}
-
-void AvatarPromoteRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarPromoteRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarPromoteRsp::CopyFrom(const AvatarPromoteRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarPromoteRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarPromoteRsp::IsInitialized() const {
-  return true;
-}
-
-void AvatarPromoteRsp::Swap(AvatarPromoteRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarPromoteRsp::InternalSwap(AvatarPromoteRsp* other) {
-  using std::swap;
-  swap(retcode_, other->retcode_);
-  swap(guid_, other->guid_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarPromoteRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarPromoteRsp
-
-// uint64 guid = 13;
-void AvatarPromoteRsp::clear_guid() {
-  guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 AvatarPromoteRsp::guid() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarPromoteRsp.guid)
-  return guid_;
-}
-void AvatarPromoteRsp::set_guid(::google::protobuf::uint64 value) {
-  
-  guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarPromoteRsp.guid)
-}
-
-// int32 retcode = 7;
-void AvatarPromoteRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 AvatarPromoteRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarPromoteRsp.retcode)
-  return retcode_;
-}
-void AvatarPromoteRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarPromoteRsp.retcode)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int SpringUseReq::kGuidFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-SpringUseReq::SpringUseReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.SpringUseReq)
-}
-SpringUseReq::SpringUseReq(const SpringUseReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  guid_ = from.guid_;
-  // @@protoc_insertion_point(copy_constructor:proto.SpringUseReq)
-}
-
-void SpringUseReq::SharedCtor() {
-  guid_ = GOOGLE_ULONGLONG(0);
-  _cached_size_ = 0;
-}
-
-SpringUseReq::~SpringUseReq() {
-  // @@protoc_insertion_point(destructor:proto.SpringUseReq)
-  SharedDtor();
-}
-
-void SpringUseReq::SharedDtor() {
-}
-
-void SpringUseReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* SpringUseReq::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const SpringUseReq& SpringUseReq::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-SpringUseReq* SpringUseReq::New(::google::protobuf::Arena* arena) const {
-  SpringUseReq* n = new SpringUseReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void SpringUseReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.SpringUseReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  guid_ = GOOGLE_ULONGLONG(0);
-  _internal_metadata_.Clear();
 }
 
 bool SpringUseReq::MergePartialFromCodedStream(
@@ -7400,16 +2198,18 @@ bool SpringUseReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.SpringUseReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.SpringUseReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -7425,9 +2225,9 @@ void SpringUseReq::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt64(1, this->guid(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.SpringUseReq)
 }
@@ -7444,9 +2244,9 @@ void SpringUseReq::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt64ToArray(1, this->guid(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.SpringUseReq)
   return target;
@@ -7456,10 +2256,10 @@ size_t SpringUseReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.SpringUseReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint64 guid = 1;
   if (this->guid() != 0) {
@@ -7473,162 +2273,6 @@ size_t SpringUseReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void SpringUseReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.SpringUseReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const SpringUseReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const SpringUseReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.SpringUseReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.SpringUseReq)
-    MergeFrom(*source);
-  }
-}
-
-void SpringUseReq::MergeFrom(const SpringUseReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.SpringUseReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.guid() != 0) {
-    set_guid(from.guid());
-  }
-}
-
-void SpringUseReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.SpringUseReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void SpringUseReq::CopyFrom(const SpringUseReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.SpringUseReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool SpringUseReq::IsInitialized() const {
-  return true;
-}
-
-void SpringUseReq::Swap(SpringUseReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void SpringUseReq::InternalSwap(SpringUseReq* other) {
-  using std::swap;
-  swap(guid_, other->guid_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata SpringUseReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// SpringUseReq
-
-// uint64 guid = 1;
-void SpringUseReq::clear_guid() {
-  guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 SpringUseReq::guid() const {
-  // @@protoc_insertion_point(field_get:proto.SpringUseReq.guid)
-  return guid_;
-}
-void SpringUseReq::set_guid(::google::protobuf::uint64 value) {
-  
-  guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.SpringUseReq.guid)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int SpringUseRsp::kGuidFieldNumber;
-const int SpringUseRsp::kRetcodeFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-SpringUseRsp::SpringUseRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.SpringUseRsp)
-}
-SpringUseRsp::SpringUseRsp(const SpringUseRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&retcode_, &from.retcode_,
-    static_cast<size_t>(reinterpret_cast<char*>(&guid_) -
-    reinterpret_cast<char*>(&retcode_)) + sizeof(guid_));
-  // @@protoc_insertion_point(copy_constructor:proto.SpringUseRsp)
-}
-
-void SpringUseRsp::SharedCtor() {
-  ::memset(&retcode_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&guid_) -
-      reinterpret_cast<char*>(&retcode_)) + sizeof(guid_));
-  _cached_size_ = 0;
-}
-
-SpringUseRsp::~SpringUseRsp() {
-  // @@protoc_insertion_point(destructor:proto.SpringUseRsp)
-  SharedDtor();
-}
-
-void SpringUseRsp::SharedDtor() {
-}
-
-void SpringUseRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* SpringUseRsp::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const SpringUseRsp& SpringUseRsp::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-SpringUseRsp* SpringUseRsp::New(::google::protobuf::Arena* arena) const {
-  SpringUseRsp* n = new SpringUseRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void SpringUseRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.SpringUseRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&retcode_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&guid_) -
-      reinterpret_cast<char*>(&retcode_)) + sizeof(guid_));
-  _internal_metadata_.Clear();
 }
 
 bool SpringUseRsp::MergePartialFromCodedStream(
@@ -7675,16 +2319,18 @@ bool SpringUseRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.SpringUseRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.SpringUseRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -7705,9 +2351,9 @@ void SpringUseRsp::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteInt32(15, this->retcode(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.SpringUseRsp)
 }
@@ -7729,9 +2375,9 @@ void SpringUseRsp::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(15, this->retcode(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.SpringUseRsp)
   return target;
@@ -7741,10 +2387,10 @@ size_t SpringUseRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.SpringUseRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // int32 retcode = 15;
   if (this->retcode() != 0) {
@@ -7767,169 +2413,6 @@ size_t SpringUseRsp::ByteSizeLong() const {
   return total_size;
 }
 
-void SpringUseRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.SpringUseRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const SpringUseRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const SpringUseRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.SpringUseRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.SpringUseRsp)
-    MergeFrom(*source);
-  }
-}
-
-void SpringUseRsp::MergeFrom(const SpringUseRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.SpringUseRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-  if (from.guid() != 0) {
-    set_guid(from.guid());
-  }
-}
-
-void SpringUseRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.SpringUseRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void SpringUseRsp::CopyFrom(const SpringUseRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.SpringUseRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool SpringUseRsp::IsInitialized() const {
-  return true;
-}
-
-void SpringUseRsp::Swap(SpringUseRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void SpringUseRsp::InternalSwap(SpringUseRsp* other) {
-  using std::swap;
-  swap(retcode_, other->retcode_);
-  swap(guid_, other->guid_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata SpringUseRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// SpringUseRsp
-
-// uint64 guid = 13;
-void SpringUseRsp::clear_guid() {
-  guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 SpringUseRsp::guid() const {
-  // @@protoc_insertion_point(field_get:proto.SpringUseRsp.guid)
-  return guid_;
-}
-void SpringUseRsp::set_guid(::google::protobuf::uint64 value) {
-  
-  guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.SpringUseRsp.guid)
-}
-
-// int32 retcode = 15;
-void SpringUseRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 SpringUseRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.SpringUseRsp.retcode)
-  return retcode_;
-}
-void SpringUseRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.SpringUseRsp.retcode)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-RefreshBackgroundAvatarReq::RefreshBackgroundAvatarReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.RefreshBackgroundAvatarReq)
-}
-RefreshBackgroundAvatarReq::RefreshBackgroundAvatarReq(const RefreshBackgroundAvatarReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  // @@protoc_insertion_point(copy_constructor:proto.RefreshBackgroundAvatarReq)
-}
-
-void RefreshBackgroundAvatarReq::SharedCtor() {
-  _cached_size_ = 0;
-}
-
-RefreshBackgroundAvatarReq::~RefreshBackgroundAvatarReq() {
-  // @@protoc_insertion_point(destructor:proto.RefreshBackgroundAvatarReq)
-  SharedDtor();
-}
-
-void RefreshBackgroundAvatarReq::SharedDtor() {
-}
-
-void RefreshBackgroundAvatarReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* RefreshBackgroundAvatarReq::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const RefreshBackgroundAvatarReq& RefreshBackgroundAvatarReq::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-RefreshBackgroundAvatarReq* RefreshBackgroundAvatarReq::New(::google::protobuf::Arena* arena) const {
-  RefreshBackgroundAvatarReq* n = new RefreshBackgroundAvatarReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void RefreshBackgroundAvatarReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.RefreshBackgroundAvatarReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  _internal_metadata_.Clear();
-}
-
 bool RefreshBackgroundAvatarReq::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -7944,13 +2427,15 @@ bool RefreshBackgroundAvatarReq::MergePartialFromCodedStream(
       goto success;
     }
     DO_(::google::protobuf::internal::WireFormat::SkipField(
-          input, tag, _internal_metadata_.mutable_unknown_fields()));
+          input, tag, nullptr));
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.RefreshBackgroundAvatarReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.RefreshBackgroundAvatarReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -7961,9 +2446,9 @@ void RefreshBackgroundAvatarReq::SerializeWithCachedSizes(
   ::google::protobuf::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.RefreshBackgroundAvatarReq)
 }
@@ -7975,9 +2460,9 @@ void RefreshBackgroundAvatarReq::SerializeWithCachedSizes(
   ::google::protobuf::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.RefreshBackgroundAvatarReq)
   return target;
@@ -7987,169 +2472,16 @@ size_t RefreshBackgroundAvatarReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.RefreshBackgroundAvatarReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
   GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void RefreshBackgroundAvatarReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.RefreshBackgroundAvatarReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const RefreshBackgroundAvatarReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const RefreshBackgroundAvatarReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.RefreshBackgroundAvatarReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.RefreshBackgroundAvatarReq)
-    MergeFrom(*source);
-  }
-}
-
-void RefreshBackgroundAvatarReq::MergeFrom(const RefreshBackgroundAvatarReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.RefreshBackgroundAvatarReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-}
-
-void RefreshBackgroundAvatarReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.RefreshBackgroundAvatarReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void RefreshBackgroundAvatarReq::CopyFrom(const RefreshBackgroundAvatarReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.RefreshBackgroundAvatarReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool RefreshBackgroundAvatarReq::IsInitialized() const {
-  return true;
-}
-
-void RefreshBackgroundAvatarReq::Swap(RefreshBackgroundAvatarReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void RefreshBackgroundAvatarReq::InternalSwap(RefreshBackgroundAvatarReq* other) {
-  using std::swap;
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata RefreshBackgroundAvatarReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// RefreshBackgroundAvatarReq
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-RefreshBackgroundAvatarRsp::RefreshBackgroundAvatarRsp_HpFullTimeMapEntry::RefreshBackgroundAvatarRsp_HpFullTimeMapEntry() {}
-RefreshBackgroundAvatarRsp::RefreshBackgroundAvatarRsp_HpFullTimeMapEntry::RefreshBackgroundAvatarRsp_HpFullTimeMapEntry(::google::protobuf::Arena* arena) : SuperType(arena) {}
-::google::protobuf::Metadata RefreshBackgroundAvatarRsp::RefreshBackgroundAvatarRsp_HpFullTimeMapEntry::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[14];
-}
-void RefreshBackgroundAvatarRsp::RefreshBackgroundAvatarRsp_HpFullTimeMapEntry::MergeFrom(
-    const ::google::protobuf::Message& other) {
-  ::google::protobuf::Message::MergeFrom(other);
-}
-void RefreshBackgroundAvatarRsp::RefreshBackgroundAvatarRsp_HpFullTimeMapEntry::MergeFrom(const RefreshBackgroundAvatarRsp_HpFullTimeMapEntry& other) {
-  MergeFromInternal(other);
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int RefreshBackgroundAvatarRsp::kHpFullTimeMapFieldNumber;
-const int RefreshBackgroundAvatarRsp::kRetcodeFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-RefreshBackgroundAvatarRsp::RefreshBackgroundAvatarRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.RefreshBackgroundAvatarRsp)
-}
-RefreshBackgroundAvatarRsp::RefreshBackgroundAvatarRsp(const RefreshBackgroundAvatarRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  hp_full_time_map_.MergeFrom(from.hp_full_time_map_);
-  retcode_ = from.retcode_;
-  // @@protoc_insertion_point(copy_constructor:proto.RefreshBackgroundAvatarRsp)
-}
-
-void RefreshBackgroundAvatarRsp::SharedCtor() {
-  retcode_ = 0;
-  _cached_size_ = 0;
-}
-
-RefreshBackgroundAvatarRsp::~RefreshBackgroundAvatarRsp() {
-  // @@protoc_insertion_point(destructor:proto.RefreshBackgroundAvatarRsp)
-  SharedDtor();
-}
-
-void RefreshBackgroundAvatarRsp::SharedDtor() {
-}
-
-void RefreshBackgroundAvatarRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* RefreshBackgroundAvatarRsp::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const RefreshBackgroundAvatarRsp& RefreshBackgroundAvatarRsp::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-RefreshBackgroundAvatarRsp* RefreshBackgroundAvatarRsp::New(::google::protobuf::Arena* arena) const {
-  RefreshBackgroundAvatarRsp* n = new RefreshBackgroundAvatarRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void RefreshBackgroundAvatarRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.RefreshBackgroundAvatarRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  hp_full_time_map_.Clear();
-  retcode_ = 0;
-  _internal_metadata_.Clear();
 }
 
 bool RefreshBackgroundAvatarRsp::MergePartialFromCodedStream(
@@ -8201,16 +2533,18 @@ bool RefreshBackgroundAvatarRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.RefreshBackgroundAvatarRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.RefreshBackgroundAvatarRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -8265,9 +2599,9 @@ void RefreshBackgroundAvatarRsp::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteInt32(13, this->retcode(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.RefreshBackgroundAvatarRsp)
 }
@@ -8327,9 +2661,9 @@ void RefreshBackgroundAvatarRsp::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(13, this->retcode(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.RefreshBackgroundAvatarRsp)
   return target;
@@ -8339,10 +2673,10 @@ size_t RefreshBackgroundAvatarRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.RefreshBackgroundAvatarRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // map<uint64, uint32> hp_full_time_map = 4;
   total_size += 1 *
@@ -8370,196 +2704,6 @@ size_t RefreshBackgroundAvatarRsp::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void RefreshBackgroundAvatarRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.RefreshBackgroundAvatarRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const RefreshBackgroundAvatarRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const RefreshBackgroundAvatarRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.RefreshBackgroundAvatarRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.RefreshBackgroundAvatarRsp)
-    MergeFrom(*source);
-  }
-}
-
-void RefreshBackgroundAvatarRsp::MergeFrom(const RefreshBackgroundAvatarRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.RefreshBackgroundAvatarRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  hp_full_time_map_.MergeFrom(from.hp_full_time_map_);
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-}
-
-void RefreshBackgroundAvatarRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.RefreshBackgroundAvatarRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void RefreshBackgroundAvatarRsp::CopyFrom(const RefreshBackgroundAvatarRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.RefreshBackgroundAvatarRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool RefreshBackgroundAvatarRsp::IsInitialized() const {
-  return true;
-}
-
-void RefreshBackgroundAvatarRsp::Swap(RefreshBackgroundAvatarRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void RefreshBackgroundAvatarRsp::InternalSwap(RefreshBackgroundAvatarRsp* other) {
-  using std::swap;
-  hp_full_time_map_.Swap(&other->hp_full_time_map_);
-  swap(retcode_, other->retcode_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata RefreshBackgroundAvatarRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// RefreshBackgroundAvatarRsp
-
-// map<uint64, uint32> hp_full_time_map = 4;
-int RefreshBackgroundAvatarRsp::hp_full_time_map_size() const {
-  return hp_full_time_map_.size();
-}
-void RefreshBackgroundAvatarRsp::clear_hp_full_time_map() {
-  hp_full_time_map_.Clear();
-}
- const ::google::protobuf::Map< ::google::protobuf::uint64, ::google::protobuf::uint32 >&
-RefreshBackgroundAvatarRsp::hp_full_time_map() const {
-  // @@protoc_insertion_point(field_map:proto.RefreshBackgroundAvatarRsp.hp_full_time_map)
-  return hp_full_time_map_.GetMap();
-}
- ::google::protobuf::Map< ::google::protobuf::uint64, ::google::protobuf::uint32 >*
-RefreshBackgroundAvatarRsp::mutable_hp_full_time_map() {
-  // @@protoc_insertion_point(field_mutable_map:proto.RefreshBackgroundAvatarRsp.hp_full_time_map)
-  return hp_full_time_map_.MutableMap();
-}
-
-// int32 retcode = 13;
-void RefreshBackgroundAvatarRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 RefreshBackgroundAvatarRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.RefreshBackgroundAvatarRsp.retcode)
-  return retcode_;
-}
-void RefreshBackgroundAvatarRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.RefreshBackgroundAvatarRsp.retcode)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-AvatarTeamUpdateNotify::AvatarTeamUpdateNotify_AvatarTeamMapEntry::AvatarTeamUpdateNotify_AvatarTeamMapEntry() {}
-AvatarTeamUpdateNotify::AvatarTeamUpdateNotify_AvatarTeamMapEntry::AvatarTeamUpdateNotify_AvatarTeamMapEntry(::google::protobuf::Arena* arena) : SuperType(arena) {}
-::google::protobuf::Metadata AvatarTeamUpdateNotify::AvatarTeamUpdateNotify_AvatarTeamMapEntry::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[16];
-}
-void AvatarTeamUpdateNotify::AvatarTeamUpdateNotify_AvatarTeamMapEntry::MergeFrom(
-    const ::google::protobuf::Message& other) {
-  ::google::protobuf::Message::MergeFrom(other);
-}
-void AvatarTeamUpdateNotify::AvatarTeamUpdateNotify_AvatarTeamMapEntry::MergeFrom(const AvatarTeamUpdateNotify_AvatarTeamMapEntry& other) {
-  MergeFromInternal(other);
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarTeamUpdateNotify::kAvatarTeamMapFieldNumber;
-const int AvatarTeamUpdateNotify::kTempAvatarGuidListFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarTeamUpdateNotify::AvatarTeamUpdateNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarTeamUpdateNotify)
-}
-AvatarTeamUpdateNotify::AvatarTeamUpdateNotify(const AvatarTeamUpdateNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      temp_avatar_guid_list_(from.temp_avatar_guid_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  avatar_team_map_.MergeFrom(from.avatar_team_map_);
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarTeamUpdateNotify)
-}
-
-void AvatarTeamUpdateNotify::SharedCtor() {
-  _cached_size_ = 0;
-}
-
-AvatarTeamUpdateNotify::~AvatarTeamUpdateNotify() {
-  // @@protoc_insertion_point(destructor:proto.AvatarTeamUpdateNotify)
-  SharedDtor();
-}
-
-void AvatarTeamUpdateNotify::SharedDtor() {
-}
-
-void AvatarTeamUpdateNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarTeamUpdateNotify::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarTeamUpdateNotify& AvatarTeamUpdateNotify::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarTeamUpdateNotify* AvatarTeamUpdateNotify::New(::google::protobuf::Arena* arena) const {
-  AvatarTeamUpdateNotify* n = new AvatarTeamUpdateNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarTeamUpdateNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarTeamUpdateNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  avatar_team_map_.Clear();
-  temp_avatar_guid_list_.Clear();
-  _internal_metadata_.Clear();
 }
 
 bool AvatarTeamUpdateNotify::MergePartialFromCodedStream(
@@ -8616,16 +2760,18 @@ bool AvatarTeamUpdateNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarTeamUpdateNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarTeamUpdateNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -8686,9 +2832,9 @@ void AvatarTeamUpdateNotify::SerializeWithCachedSizes(
       this->temp_avatar_guid_list(i), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarTeamUpdateNotify)
 }
@@ -8756,9 +2902,9 @@ void AvatarTeamUpdateNotify::SerializeWithCachedSizes(
       WriteUInt64NoTagToArray(this->temp_avatar_guid_list_, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarTeamUpdateNotify)
   return target;
@@ -8768,10 +2914,10 @@ size_t AvatarTeamUpdateNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarTeamUpdateNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // map<uint32, .proto.AvatarTeam> avatar_team_map = 6;
   total_size += 1 *
@@ -8808,236 +2954,6 @@ size_t AvatarTeamUpdateNotify::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarTeamUpdateNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarTeamUpdateNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarTeamUpdateNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarTeamUpdateNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarTeamUpdateNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarTeamUpdateNotify)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarTeamUpdateNotify::MergeFrom(const AvatarTeamUpdateNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarTeamUpdateNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  avatar_team_map_.MergeFrom(from.avatar_team_map_);
-  temp_avatar_guid_list_.MergeFrom(from.temp_avatar_guid_list_);
-}
-
-void AvatarTeamUpdateNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarTeamUpdateNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarTeamUpdateNotify::CopyFrom(const AvatarTeamUpdateNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarTeamUpdateNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarTeamUpdateNotify::IsInitialized() const {
-  return true;
-}
-
-void AvatarTeamUpdateNotify::Swap(AvatarTeamUpdateNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarTeamUpdateNotify::InternalSwap(AvatarTeamUpdateNotify* other) {
-  using std::swap;
-  avatar_team_map_.Swap(&other->avatar_team_map_);
-  temp_avatar_guid_list_.InternalSwap(&other->temp_avatar_guid_list_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarTeamUpdateNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarTeamUpdateNotify
-
-// map<uint32, .proto.AvatarTeam> avatar_team_map = 6;
-int AvatarTeamUpdateNotify::avatar_team_map_size() const {
-  return avatar_team_map_.size();
-}
-void AvatarTeamUpdateNotify::clear_avatar_team_map() {
-  avatar_team_map_.Clear();
-}
- const ::google::protobuf::Map< ::google::protobuf::uint32, ::proto::AvatarTeam >&
-AvatarTeamUpdateNotify::avatar_team_map() const {
-  // @@protoc_insertion_point(field_map:proto.AvatarTeamUpdateNotify.avatar_team_map)
-  return avatar_team_map_.GetMap();
-}
- ::google::protobuf::Map< ::google::protobuf::uint32, ::proto::AvatarTeam >*
-AvatarTeamUpdateNotify::mutable_avatar_team_map() {
-  // @@protoc_insertion_point(field_mutable_map:proto.AvatarTeamUpdateNotify.avatar_team_map)
-  return avatar_team_map_.MutableMap();
-}
-
-// repeated uint64 temp_avatar_guid_list = 8;
-int AvatarTeamUpdateNotify::temp_avatar_guid_list_size() const {
-  return temp_avatar_guid_list_.size();
-}
-void AvatarTeamUpdateNotify::clear_temp_avatar_guid_list() {
-  temp_avatar_guid_list_.Clear();
-}
-::google::protobuf::uint64 AvatarTeamUpdateNotify::temp_avatar_guid_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.AvatarTeamUpdateNotify.temp_avatar_guid_list)
-  return temp_avatar_guid_list_.Get(index);
-}
-void AvatarTeamUpdateNotify::set_temp_avatar_guid_list(int index, ::google::protobuf::uint64 value) {
-  temp_avatar_guid_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.AvatarTeamUpdateNotify.temp_avatar_guid_list)
-}
-void AvatarTeamUpdateNotify::add_temp_avatar_guid_list(::google::protobuf::uint64 value) {
-  temp_avatar_guid_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.AvatarTeamUpdateNotify.temp_avatar_guid_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint64 >&
-AvatarTeamUpdateNotify::temp_avatar_guid_list() const {
-  // @@protoc_insertion_point(field_list:proto.AvatarTeamUpdateNotify.temp_avatar_guid_list)
-  return temp_avatar_guid_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint64 >*
-AvatarTeamUpdateNotify::mutable_temp_avatar_guid_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.AvatarTeamUpdateNotify.temp_avatar_guid_list)
-  return &temp_avatar_guid_list_;
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-AvatarDataNotify::AvatarDataNotify_AvatarTeamMapEntry::AvatarDataNotify_AvatarTeamMapEntry() {}
-AvatarDataNotify::AvatarDataNotify_AvatarTeamMapEntry::AvatarDataNotify_AvatarTeamMapEntry(::google::protobuf::Arena* arena) : SuperType(arena) {}
-::google::protobuf::Metadata AvatarDataNotify::AvatarDataNotify_AvatarTeamMapEntry::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[18];
-}
-void AvatarDataNotify::AvatarDataNotify_AvatarTeamMapEntry::MergeFrom(
-    const ::google::protobuf::Message& other) {
-  ::google::protobuf::Message::MergeFrom(other);
-}
-void AvatarDataNotify::AvatarDataNotify_AvatarTeamMapEntry::MergeFrom(const AvatarDataNotify_AvatarTeamMapEntry& other) {
-  MergeFromInternal(other);
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarDataNotify::kBackupAvatarTeamOrderListFieldNumber;
-const int AvatarDataNotify::kTempAvatarGuidListFieldNumber;
-const int AvatarDataNotify::kAvatarListFieldNumber;
-const int AvatarDataNotify::kCurAvatarTeamIdFieldNumber;
-const int AvatarDataNotify::kAvatarRenameListFieldNumber;
-const int AvatarDataNotify::kOwnedFlycloakListFieldNumber;
-const int AvatarDataNotify::kOwnedCostumeListFieldNumber;
-const int AvatarDataNotify::kAvatarTeamMapFieldNumber;
-const int AvatarDataNotify::kChooseAvatarGuidFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarDataNotify::AvatarDataNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarDataNotify)
-}
-AvatarDataNotify::AvatarDataNotify(const AvatarDataNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      owned_flycloak_list_(from.owned_flycloak_list_),
-      avatar_rename_list_(from.avatar_rename_list_),
-      avatar_list_(from.avatar_list_),
-      backup_avatar_team_order_list_(from.backup_avatar_team_order_list_),
-      temp_avatar_guid_list_(from.temp_avatar_guid_list_),
-      owned_costume_list_(from.owned_costume_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  avatar_team_map_.MergeFrom(from.avatar_team_map_);
-  ::memcpy(&choose_avatar_guid_, &from.choose_avatar_guid_,
-    static_cast<size_t>(reinterpret_cast<char*>(&cur_avatar_team_id_) -
-    reinterpret_cast<char*>(&choose_avatar_guid_)) + sizeof(cur_avatar_team_id_));
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarDataNotify)
-}
-
-void AvatarDataNotify::SharedCtor() {
-  ::memset(&choose_avatar_guid_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&cur_avatar_team_id_) -
-      reinterpret_cast<char*>(&choose_avatar_guid_)) + sizeof(cur_avatar_team_id_));
-  _cached_size_ = 0;
-}
-
-AvatarDataNotify::~AvatarDataNotify() {
-  // @@protoc_insertion_point(destructor:proto.AvatarDataNotify)
-  SharedDtor();
-}
-
-void AvatarDataNotify::SharedDtor() {
-}
-
-void AvatarDataNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarDataNotify::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarDataNotify& AvatarDataNotify::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarDataNotify* AvatarDataNotify::New(::google::protobuf::Arena* arena) const {
-  AvatarDataNotify* n = new AvatarDataNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarDataNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarDataNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  owned_flycloak_list_.Clear();
-  avatar_team_map_.Clear();
-  avatar_rename_list_.Clear();
-  avatar_list_.Clear();
-  backup_avatar_team_order_list_.Clear();
-  temp_avatar_guid_list_.Clear();
-  owned_costume_list_.Clear();
-  ::memset(&choose_avatar_guid_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&cur_avatar_team_id_) -
-      reinterpret_cast<char*>(&choose_avatar_guid_)) + sizeof(cur_avatar_team_id_));
-  _internal_metadata_.Clear();
 }
 
 bool AvatarDataNotify::MergePartialFromCodedStream(
@@ -9203,16 +3119,18 @@ bool AvatarDataNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarDataNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarDataNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -9330,9 +3248,9 @@ void AvatarDataNotify::SerializeWithCachedSizes(
       this->owned_costume_list(i), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarDataNotify)
 }
@@ -9465,9 +3383,9 @@ void AvatarDataNotify::SerializeWithCachedSizes(
       WriteUInt32NoTagToArray(this->owned_costume_list_, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarDataNotify)
   return target;
@@ -9477,10 +3395,10 @@ size_t AvatarDataNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarDataNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated uint32 owned_flycloak_list = 2;
   {
@@ -9603,393 +3521,6 @@ size_t AvatarDataNotify::ByteSizeLong() const {
   return total_size;
 }
 
-void AvatarDataNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarDataNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarDataNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarDataNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarDataNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarDataNotify)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarDataNotify::MergeFrom(const AvatarDataNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarDataNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  owned_flycloak_list_.MergeFrom(from.owned_flycloak_list_);
-  avatar_team_map_.MergeFrom(from.avatar_team_map_);
-  avatar_rename_list_.MergeFrom(from.avatar_rename_list_);
-  avatar_list_.MergeFrom(from.avatar_list_);
-  backup_avatar_team_order_list_.MergeFrom(from.backup_avatar_team_order_list_);
-  temp_avatar_guid_list_.MergeFrom(from.temp_avatar_guid_list_);
-  owned_costume_list_.MergeFrom(from.owned_costume_list_);
-  if (from.choose_avatar_guid() != 0) {
-    set_choose_avatar_guid(from.choose_avatar_guid());
-  }
-  if (from.cur_avatar_team_id() != 0) {
-    set_cur_avatar_team_id(from.cur_avatar_team_id());
-  }
-}
-
-void AvatarDataNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarDataNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarDataNotify::CopyFrom(const AvatarDataNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarDataNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarDataNotify::IsInitialized() const {
-  return true;
-}
-
-void AvatarDataNotify::Swap(AvatarDataNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarDataNotify::InternalSwap(AvatarDataNotify* other) {
-  using std::swap;
-  owned_flycloak_list_.InternalSwap(&other->owned_flycloak_list_);
-  avatar_team_map_.Swap(&other->avatar_team_map_);
-  avatar_rename_list_.InternalSwap(&other->avatar_rename_list_);
-  avatar_list_.InternalSwap(&other->avatar_list_);
-  backup_avatar_team_order_list_.InternalSwap(&other->backup_avatar_team_order_list_);
-  temp_avatar_guid_list_.InternalSwap(&other->temp_avatar_guid_list_);
-  owned_costume_list_.InternalSwap(&other->owned_costume_list_);
-  swap(choose_avatar_guid_, other->choose_avatar_guid_);
-  swap(cur_avatar_team_id_, other->cur_avatar_team_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarDataNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarDataNotify
-
-// repeated uint32 backup_avatar_team_order_list = 12;
-int AvatarDataNotify::backup_avatar_team_order_list_size() const {
-  return backup_avatar_team_order_list_.size();
-}
-void AvatarDataNotify::clear_backup_avatar_team_order_list() {
-  backup_avatar_team_order_list_.Clear();
-}
-::google::protobuf::uint32 AvatarDataNotify::backup_avatar_team_order_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.AvatarDataNotify.backup_avatar_team_order_list)
-  return backup_avatar_team_order_list_.Get(index);
-}
-void AvatarDataNotify::set_backup_avatar_team_order_list(int index, ::google::protobuf::uint32 value) {
-  backup_avatar_team_order_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.AvatarDataNotify.backup_avatar_team_order_list)
-}
-void AvatarDataNotify::add_backup_avatar_team_order_list(::google::protobuf::uint32 value) {
-  backup_avatar_team_order_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.AvatarDataNotify.backup_avatar_team_order_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint32 >&
-AvatarDataNotify::backup_avatar_team_order_list() const {
-  // @@protoc_insertion_point(field_list:proto.AvatarDataNotify.backup_avatar_team_order_list)
-  return backup_avatar_team_order_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint32 >*
-AvatarDataNotify::mutable_backup_avatar_team_order_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.AvatarDataNotify.backup_avatar_team_order_list)
-  return &backup_avatar_team_order_list_;
-}
-
-// repeated uint64 temp_avatar_guid_list = 14;
-int AvatarDataNotify::temp_avatar_guid_list_size() const {
-  return temp_avatar_guid_list_.size();
-}
-void AvatarDataNotify::clear_temp_avatar_guid_list() {
-  temp_avatar_guid_list_.Clear();
-}
-::google::protobuf::uint64 AvatarDataNotify::temp_avatar_guid_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.AvatarDataNotify.temp_avatar_guid_list)
-  return temp_avatar_guid_list_.Get(index);
-}
-void AvatarDataNotify::set_temp_avatar_guid_list(int index, ::google::protobuf::uint64 value) {
-  temp_avatar_guid_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.AvatarDataNotify.temp_avatar_guid_list)
-}
-void AvatarDataNotify::add_temp_avatar_guid_list(::google::protobuf::uint64 value) {
-  temp_avatar_guid_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.AvatarDataNotify.temp_avatar_guid_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint64 >&
-AvatarDataNotify::temp_avatar_guid_list() const {
-  // @@protoc_insertion_point(field_list:proto.AvatarDataNotify.temp_avatar_guid_list)
-  return temp_avatar_guid_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint64 >*
-AvatarDataNotify::mutable_temp_avatar_guid_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.AvatarDataNotify.temp_avatar_guid_list)
-  return &temp_avatar_guid_list_;
-}
-
-// repeated .proto.AvatarInfo avatar_list = 8;
-int AvatarDataNotify::avatar_list_size() const {
-  return avatar_list_.size();
-}
-void AvatarDataNotify::clear_avatar_list() {
-  avatar_list_.Clear();
-}
-const ::proto::AvatarInfo& AvatarDataNotify::avatar_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.AvatarDataNotify.avatar_list)
-  return avatar_list_.Get(index);
-}
-::proto::AvatarInfo* AvatarDataNotify::mutable_avatar_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.AvatarDataNotify.avatar_list)
-  return avatar_list_.Mutable(index);
-}
-::proto::AvatarInfo* AvatarDataNotify::add_avatar_list() {
-  // @@protoc_insertion_point(field_add:proto.AvatarDataNotify.avatar_list)
-  return avatar_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::AvatarInfo >*
-AvatarDataNotify::mutable_avatar_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.AvatarDataNotify.avatar_list)
-  return &avatar_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::AvatarInfo >&
-AvatarDataNotify::avatar_list() const {
-  // @@protoc_insertion_point(field_list:proto.AvatarDataNotify.avatar_list)
-  return avatar_list_;
-}
-
-// uint32 cur_avatar_team_id = 5;
-void AvatarDataNotify::clear_cur_avatar_team_id() {
-  cur_avatar_team_id_ = 0u;
-}
-::google::protobuf::uint32 AvatarDataNotify::cur_avatar_team_id() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarDataNotify.cur_avatar_team_id)
-  return cur_avatar_team_id_;
-}
-void AvatarDataNotify::set_cur_avatar_team_id(::google::protobuf::uint32 value) {
-  
-  cur_avatar_team_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarDataNotify.cur_avatar_team_id)
-}
-
-// repeated .proto.AvatarRenameInfo avatar_rename_list = 7;
-int AvatarDataNotify::avatar_rename_list_size() const {
-  return avatar_rename_list_.size();
-}
-void AvatarDataNotify::clear_avatar_rename_list() {
-  avatar_rename_list_.Clear();
-}
-const ::proto::AvatarRenameInfo& AvatarDataNotify::avatar_rename_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.AvatarDataNotify.avatar_rename_list)
-  return avatar_rename_list_.Get(index);
-}
-::proto::AvatarRenameInfo* AvatarDataNotify::mutable_avatar_rename_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.AvatarDataNotify.avatar_rename_list)
-  return avatar_rename_list_.Mutable(index);
-}
-::proto::AvatarRenameInfo* AvatarDataNotify::add_avatar_rename_list() {
-  // @@protoc_insertion_point(field_add:proto.AvatarDataNotify.avatar_rename_list)
-  return avatar_rename_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::AvatarRenameInfo >*
-AvatarDataNotify::mutable_avatar_rename_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.AvatarDataNotify.avatar_rename_list)
-  return &avatar_rename_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::AvatarRenameInfo >&
-AvatarDataNotify::avatar_rename_list() const {
-  // @@protoc_insertion_point(field_list:proto.AvatarDataNotify.avatar_rename_list)
-  return avatar_rename_list_;
-}
-
-// repeated uint32 owned_flycloak_list = 2;
-int AvatarDataNotify::owned_flycloak_list_size() const {
-  return owned_flycloak_list_.size();
-}
-void AvatarDataNotify::clear_owned_flycloak_list() {
-  owned_flycloak_list_.Clear();
-}
-::google::protobuf::uint32 AvatarDataNotify::owned_flycloak_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.AvatarDataNotify.owned_flycloak_list)
-  return owned_flycloak_list_.Get(index);
-}
-void AvatarDataNotify::set_owned_flycloak_list(int index, ::google::protobuf::uint32 value) {
-  owned_flycloak_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.AvatarDataNotify.owned_flycloak_list)
-}
-void AvatarDataNotify::add_owned_flycloak_list(::google::protobuf::uint32 value) {
-  owned_flycloak_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.AvatarDataNotify.owned_flycloak_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint32 >&
-AvatarDataNotify::owned_flycloak_list() const {
-  // @@protoc_insertion_point(field_list:proto.AvatarDataNotify.owned_flycloak_list)
-  return owned_flycloak_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint32 >*
-AvatarDataNotify::mutable_owned_flycloak_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.AvatarDataNotify.owned_flycloak_list)
-  return &owned_flycloak_list_;
-}
-
-// repeated uint32 owned_costume_list = 15;
-int AvatarDataNotify::owned_costume_list_size() const {
-  return owned_costume_list_.size();
-}
-void AvatarDataNotify::clear_owned_costume_list() {
-  owned_costume_list_.Clear();
-}
-::google::protobuf::uint32 AvatarDataNotify::owned_costume_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.AvatarDataNotify.owned_costume_list)
-  return owned_costume_list_.Get(index);
-}
-void AvatarDataNotify::set_owned_costume_list(int index, ::google::protobuf::uint32 value) {
-  owned_costume_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.AvatarDataNotify.owned_costume_list)
-}
-void AvatarDataNotify::add_owned_costume_list(::google::protobuf::uint32 value) {
-  owned_costume_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.AvatarDataNotify.owned_costume_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint32 >&
-AvatarDataNotify::owned_costume_list() const {
-  // @@protoc_insertion_point(field_list:proto.AvatarDataNotify.owned_costume_list)
-  return owned_costume_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint32 >*
-AvatarDataNotify::mutable_owned_costume_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.AvatarDataNotify.owned_costume_list)
-  return &owned_costume_list_;
-}
-
-// map<uint32, .proto.AvatarTeam> avatar_team_map = 6;
-int AvatarDataNotify::avatar_team_map_size() const {
-  return avatar_team_map_.size();
-}
-void AvatarDataNotify::clear_avatar_team_map() {
-  avatar_team_map_.Clear();
-}
- const ::google::protobuf::Map< ::google::protobuf::uint32, ::proto::AvatarTeam >&
-AvatarDataNotify::avatar_team_map() const {
-  // @@protoc_insertion_point(field_map:proto.AvatarDataNotify.avatar_team_map)
-  return avatar_team_map_.GetMap();
-}
- ::google::protobuf::Map< ::google::protobuf::uint32, ::proto::AvatarTeam >*
-AvatarDataNotify::mutable_avatar_team_map() {
-  // @@protoc_insertion_point(field_mutable_map:proto.AvatarDataNotify.avatar_team_map)
-  return avatar_team_map_.MutableMap();
-}
-
-// uint64 choose_avatar_guid = 4;
-void AvatarDataNotify::clear_choose_avatar_guid() {
-  choose_avatar_guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 AvatarDataNotify::choose_avatar_guid() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarDataNotify.choose_avatar_guid)
-  return choose_avatar_guid_;
-}
-void AvatarDataNotify::set_choose_avatar_guid(::google::protobuf::uint64 value) {
-  
-  choose_avatar_guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarDataNotify.choose_avatar_guid)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarUpgradeReq::kAvatarGuidFieldNumber;
-const int AvatarUpgradeReq::kCountFieldNumber;
-const int AvatarUpgradeReq::kItemIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarUpgradeReq::AvatarUpgradeReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarUpgradeReq)
-}
-AvatarUpgradeReq::AvatarUpgradeReq(const AvatarUpgradeReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&item_id_, &from.item_id_,
-    static_cast<size_t>(reinterpret_cast<char*>(&avatar_guid_) -
-    reinterpret_cast<char*>(&item_id_)) + sizeof(avatar_guid_));
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarUpgradeReq)
-}
-
-void AvatarUpgradeReq::SharedCtor() {
-  ::memset(&item_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&avatar_guid_) -
-      reinterpret_cast<char*>(&item_id_)) + sizeof(avatar_guid_));
-  _cached_size_ = 0;
-}
-
-AvatarUpgradeReq::~AvatarUpgradeReq() {
-  // @@protoc_insertion_point(destructor:proto.AvatarUpgradeReq)
-  SharedDtor();
-}
-
-void AvatarUpgradeReq::SharedDtor() {
-}
-
-void AvatarUpgradeReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarUpgradeReq::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarUpgradeReq& AvatarUpgradeReq::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarUpgradeReq* AvatarUpgradeReq::New(::google::protobuf::Arena* arena) const {
-  AvatarUpgradeReq* n = new AvatarUpgradeReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarUpgradeReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarUpgradeReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&item_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&avatar_guid_) -
-      reinterpret_cast<char*>(&item_id_)) + sizeof(avatar_guid_));
-  _internal_metadata_.Clear();
-}
-
 bool AvatarUpgradeReq::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -10048,16 +3579,18 @@ bool AvatarUpgradeReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarUpgradeReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarUpgradeReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -10083,9 +3616,9 @@ void AvatarUpgradeReq::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt64(12, this->avatar_guid(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarUpgradeReq)
 }
@@ -10112,9 +3645,9 @@ void AvatarUpgradeReq::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt64ToArray(12, this->avatar_guid(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarUpgradeReq)
   return target;
@@ -10124,10 +3657,10 @@ size_t AvatarUpgradeReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarUpgradeReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 item_id = 1;
   if (this->item_id() != 0) {
@@ -10155,244 +3688,6 @@ size_t AvatarUpgradeReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarUpgradeReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarUpgradeReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarUpgradeReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarUpgradeReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarUpgradeReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarUpgradeReq)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarUpgradeReq::MergeFrom(const AvatarUpgradeReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarUpgradeReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.item_id() != 0) {
-    set_item_id(from.item_id());
-  }
-  if (from.count() != 0) {
-    set_count(from.count());
-  }
-  if (from.avatar_guid() != 0) {
-    set_avatar_guid(from.avatar_guid());
-  }
-}
-
-void AvatarUpgradeReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarUpgradeReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarUpgradeReq::CopyFrom(const AvatarUpgradeReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarUpgradeReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarUpgradeReq::IsInitialized() const {
-  return true;
-}
-
-void AvatarUpgradeReq::Swap(AvatarUpgradeReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarUpgradeReq::InternalSwap(AvatarUpgradeReq* other) {
-  using std::swap;
-  swap(item_id_, other->item_id_);
-  swap(count_, other->count_);
-  swap(avatar_guid_, other->avatar_guid_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarUpgradeReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarUpgradeReq
-
-// uint64 avatar_guid = 12;
-void AvatarUpgradeReq::clear_avatar_guid() {
-  avatar_guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 AvatarUpgradeReq::avatar_guid() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarUpgradeReq.avatar_guid)
-  return avatar_guid_;
-}
-void AvatarUpgradeReq::set_avatar_guid(::google::protobuf::uint64 value) {
-  
-  avatar_guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarUpgradeReq.avatar_guid)
-}
-
-// uint32 count = 9;
-void AvatarUpgradeReq::clear_count() {
-  count_ = 0u;
-}
-::google::protobuf::uint32 AvatarUpgradeReq::count() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarUpgradeReq.count)
-  return count_;
-}
-void AvatarUpgradeReq::set_count(::google::protobuf::uint32 value) {
-  
-  count_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarUpgradeReq.count)
-}
-
-// uint32 item_id = 1;
-void AvatarUpgradeReq::clear_item_id() {
-  item_id_ = 0u;
-}
-::google::protobuf::uint32 AvatarUpgradeReq::item_id() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarUpgradeReq.item_id)
-  return item_id_;
-}
-void AvatarUpgradeReq::set_item_id(::google::protobuf::uint32 value) {
-  
-  item_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarUpgradeReq.item_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-AvatarUpgradeRsp::AvatarUpgradeRsp_OldFightPropMapEntry::AvatarUpgradeRsp_OldFightPropMapEntry() {}
-AvatarUpgradeRsp::AvatarUpgradeRsp_OldFightPropMapEntry::AvatarUpgradeRsp_OldFightPropMapEntry(::google::protobuf::Arena* arena) : SuperType(arena) {}
-::google::protobuf::Metadata AvatarUpgradeRsp::AvatarUpgradeRsp_OldFightPropMapEntry::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[21];
-}
-void AvatarUpgradeRsp::AvatarUpgradeRsp_OldFightPropMapEntry::MergeFrom(
-    const ::google::protobuf::Message& other) {
-  ::google::protobuf::Message::MergeFrom(other);
-}
-void AvatarUpgradeRsp::AvatarUpgradeRsp_OldFightPropMapEntry::MergeFrom(const AvatarUpgradeRsp_OldFightPropMapEntry& other) {
-  MergeFromInternal(other);
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-AvatarUpgradeRsp::AvatarUpgradeRsp_CurFightPropMapEntry::AvatarUpgradeRsp_CurFightPropMapEntry() {}
-AvatarUpgradeRsp::AvatarUpgradeRsp_CurFightPropMapEntry::AvatarUpgradeRsp_CurFightPropMapEntry(::google::protobuf::Arena* arena) : SuperType(arena) {}
-::google::protobuf::Metadata AvatarUpgradeRsp::AvatarUpgradeRsp_CurFightPropMapEntry::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[22];
-}
-void AvatarUpgradeRsp::AvatarUpgradeRsp_CurFightPropMapEntry::MergeFrom(
-    const ::google::protobuf::Message& other) {
-  ::google::protobuf::Message::MergeFrom(other);
-}
-void AvatarUpgradeRsp::AvatarUpgradeRsp_CurFightPropMapEntry::MergeFrom(const AvatarUpgradeRsp_CurFightPropMapEntry& other) {
-  MergeFromInternal(other);
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarUpgradeRsp::kCurLevelFieldNumber;
-const int AvatarUpgradeRsp::kOldLevelFieldNumber;
-const int AvatarUpgradeRsp::kOldFightPropMapFieldNumber;
-const int AvatarUpgradeRsp::kRetcodeFieldNumber;
-const int AvatarUpgradeRsp::kCurFightPropMapFieldNumber;
-const int AvatarUpgradeRsp::kAvatarGuidFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarUpgradeRsp::AvatarUpgradeRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarUpgradeRsp)
-}
-AvatarUpgradeRsp::AvatarUpgradeRsp(const AvatarUpgradeRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  cur_fight_prop_map_.MergeFrom(from.cur_fight_prop_map_);
-  old_fight_prop_map_.MergeFrom(from.old_fight_prop_map_);
-  ::memcpy(&old_level_, &from.old_level_,
-    static_cast<size_t>(reinterpret_cast<char*>(&retcode_) -
-    reinterpret_cast<char*>(&old_level_)) + sizeof(retcode_));
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarUpgradeRsp)
-}
-
-void AvatarUpgradeRsp::SharedCtor() {
-  ::memset(&old_level_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&retcode_) -
-      reinterpret_cast<char*>(&old_level_)) + sizeof(retcode_));
-  _cached_size_ = 0;
-}
-
-AvatarUpgradeRsp::~AvatarUpgradeRsp() {
-  // @@protoc_insertion_point(destructor:proto.AvatarUpgradeRsp)
-  SharedDtor();
-}
-
-void AvatarUpgradeRsp::SharedDtor() {
-}
-
-void AvatarUpgradeRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarUpgradeRsp::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarUpgradeRsp& AvatarUpgradeRsp::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarUpgradeRsp* AvatarUpgradeRsp::New(::google::protobuf::Arena* arena) const {
-  AvatarUpgradeRsp* n = new AvatarUpgradeRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarUpgradeRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarUpgradeRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  cur_fight_prop_map_.Clear();
-  old_fight_prop_map_.Clear();
-  ::memset(&old_level_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&retcode_) -
-      reinterpret_cast<char*>(&old_level_)) + sizeof(retcode_));
-  _internal_metadata_.Clear();
 }
 
 bool AvatarUpgradeRsp::MergePartialFromCodedStream(
@@ -10505,16 +3800,18 @@ bool AvatarUpgradeRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarUpgradeRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarUpgradeRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -10623,9 +3920,9 @@ void AvatarUpgradeRsp::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(15, this->old_level(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarUpgradeRsp)
 }
@@ -10743,9 +4040,9 @@ void AvatarUpgradeRsp::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(15, this->old_level(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarUpgradeRsp)
   return target;
@@ -10755,10 +4052,10 @@ size_t AvatarUpgradeRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarUpgradeRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // map<uint32, float> cur_fight_prop_map = 11;
   total_size += 1 *
@@ -10823,267 +4120,6 @@ size_t AvatarUpgradeRsp::ByteSizeLong() const {
   return total_size;
 }
 
-void AvatarUpgradeRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarUpgradeRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarUpgradeRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarUpgradeRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarUpgradeRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarUpgradeRsp)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarUpgradeRsp::MergeFrom(const AvatarUpgradeRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarUpgradeRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  cur_fight_prop_map_.MergeFrom(from.cur_fight_prop_map_);
-  old_fight_prop_map_.MergeFrom(from.old_fight_prop_map_);
-  if (from.old_level() != 0) {
-    set_old_level(from.old_level());
-  }
-  if (from.avatar_guid() != 0) {
-    set_avatar_guid(from.avatar_guid());
-  }
-  if (from.cur_level() != 0) {
-    set_cur_level(from.cur_level());
-  }
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-}
-
-void AvatarUpgradeRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarUpgradeRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarUpgradeRsp::CopyFrom(const AvatarUpgradeRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarUpgradeRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarUpgradeRsp::IsInitialized() const {
-  return true;
-}
-
-void AvatarUpgradeRsp::Swap(AvatarUpgradeRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarUpgradeRsp::InternalSwap(AvatarUpgradeRsp* other) {
-  using std::swap;
-  cur_fight_prop_map_.Swap(&other->cur_fight_prop_map_);
-  old_fight_prop_map_.Swap(&other->old_fight_prop_map_);
-  swap(old_level_, other->old_level_);
-  swap(avatar_guid_, other->avatar_guid_);
-  swap(cur_level_, other->cur_level_);
-  swap(retcode_, other->retcode_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarUpgradeRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarUpgradeRsp
-
-// uint32 cur_level = 6;
-void AvatarUpgradeRsp::clear_cur_level() {
-  cur_level_ = 0u;
-}
-::google::protobuf::uint32 AvatarUpgradeRsp::cur_level() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarUpgradeRsp.cur_level)
-  return cur_level_;
-}
-void AvatarUpgradeRsp::set_cur_level(::google::protobuf::uint32 value) {
-  
-  cur_level_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarUpgradeRsp.cur_level)
-}
-
-// uint32 old_level = 15;
-void AvatarUpgradeRsp::clear_old_level() {
-  old_level_ = 0u;
-}
-::google::protobuf::uint32 AvatarUpgradeRsp::old_level() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarUpgradeRsp.old_level)
-  return old_level_;
-}
-void AvatarUpgradeRsp::set_old_level(::google::protobuf::uint32 value) {
-  
-  old_level_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarUpgradeRsp.old_level)
-}
-
-// map<uint32, float> old_fight_prop_map = 14;
-int AvatarUpgradeRsp::old_fight_prop_map_size() const {
-  return old_fight_prop_map_.size();
-}
-void AvatarUpgradeRsp::clear_old_fight_prop_map() {
-  old_fight_prop_map_.Clear();
-}
- const ::google::protobuf::Map< ::google::protobuf::uint32, float >&
-AvatarUpgradeRsp::old_fight_prop_map() const {
-  // @@protoc_insertion_point(field_map:proto.AvatarUpgradeRsp.old_fight_prop_map)
-  return old_fight_prop_map_.GetMap();
-}
- ::google::protobuf::Map< ::google::protobuf::uint32, float >*
-AvatarUpgradeRsp::mutable_old_fight_prop_map() {
-  // @@protoc_insertion_point(field_mutable_map:proto.AvatarUpgradeRsp.old_fight_prop_map)
-  return old_fight_prop_map_.MutableMap();
-}
-
-// int32 retcode = 13;
-void AvatarUpgradeRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 AvatarUpgradeRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarUpgradeRsp.retcode)
-  return retcode_;
-}
-void AvatarUpgradeRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarUpgradeRsp.retcode)
-}
-
-// map<uint32, float> cur_fight_prop_map = 11;
-int AvatarUpgradeRsp::cur_fight_prop_map_size() const {
-  return cur_fight_prop_map_.size();
-}
-void AvatarUpgradeRsp::clear_cur_fight_prop_map() {
-  cur_fight_prop_map_.Clear();
-}
- const ::google::protobuf::Map< ::google::protobuf::uint32, float >&
-AvatarUpgradeRsp::cur_fight_prop_map() const {
-  // @@protoc_insertion_point(field_map:proto.AvatarUpgradeRsp.cur_fight_prop_map)
-  return cur_fight_prop_map_.GetMap();
-}
- ::google::protobuf::Map< ::google::protobuf::uint32, float >*
-AvatarUpgradeRsp::mutable_cur_fight_prop_map() {
-  // @@protoc_insertion_point(field_mutable_map:proto.AvatarUpgradeRsp.cur_fight_prop_map)
-  return cur_fight_prop_map_.MutableMap();
-}
-
-// uint64 avatar_guid = 8;
-void AvatarUpgradeRsp::clear_avatar_guid() {
-  avatar_guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 AvatarUpgradeRsp::avatar_guid() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarUpgradeRsp.avatar_guid)
-  return avatar_guid_;
-}
-void AvatarUpgradeRsp::set_avatar_guid(::google::protobuf::uint64 value) {
-  
-  avatar_guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarUpgradeRsp.avatar_guid)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarDieAnimationEndReq::kRebornPosFieldNumber;
-const int AvatarDieAnimationEndReq::kDieGuidFieldNumber;
-const int AvatarDieAnimationEndReq::kSkillIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarDieAnimationEndReq::AvatarDieAnimationEndReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarDieAnimationEndReq)
-}
-AvatarDieAnimationEndReq::AvatarDieAnimationEndReq(const AvatarDieAnimationEndReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  if (from.has_reborn_pos()) {
-    reborn_pos_ = new ::proto::Vector(*from.reborn_pos_);
-  } else {
-    reborn_pos_ = NULL;
-  }
-  ::memcpy(&skill_id_, &from.skill_id_,
-    static_cast<size_t>(reinterpret_cast<char*>(&die_guid_) -
-    reinterpret_cast<char*>(&skill_id_)) + sizeof(die_guid_));
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarDieAnimationEndReq)
-}
-
-void AvatarDieAnimationEndReq::SharedCtor() {
-  ::memset(&reborn_pos_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&die_guid_) -
-      reinterpret_cast<char*>(&reborn_pos_)) + sizeof(die_guid_));
-  _cached_size_ = 0;
-}
-
-AvatarDieAnimationEndReq::~AvatarDieAnimationEndReq() {
-  // @@protoc_insertion_point(destructor:proto.AvatarDieAnimationEndReq)
-  SharedDtor();
-}
-
-void AvatarDieAnimationEndReq::SharedDtor() {
-  if (this != internal_default_instance()) delete reborn_pos_;
-}
-
-void AvatarDieAnimationEndReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarDieAnimationEndReq::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarDieAnimationEndReq& AvatarDieAnimationEndReq::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarDieAnimationEndReq* AvatarDieAnimationEndReq::New(::google::protobuf::Arena* arena) const {
-  AvatarDieAnimationEndReq* n = new AvatarDieAnimationEndReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarDieAnimationEndReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarDieAnimationEndReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  if (GetArenaNoVirtual() == NULL && reborn_pos_ != NULL) {
-    delete reborn_pos_;
-  }
-  reborn_pos_ = NULL;
-  ::memset(&skill_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&die_guid_) -
-      reinterpret_cast<char*>(&skill_id_)) + sizeof(die_guid_));
-  _internal_metadata_.Clear();
-}
-
 bool AvatarDieAnimationEndReq::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -11140,16 +4176,18 @@ bool AvatarDieAnimationEndReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarDieAnimationEndReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarDieAnimationEndReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -11176,9 +4214,9 @@ void AvatarDieAnimationEndReq::SerializeWithCachedSizes(
       10, *this->reborn_pos_, output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarDieAnimationEndReq)
 }
@@ -11207,9 +4245,9 @@ void AvatarDieAnimationEndReq::SerializeWithCachedSizes(
         10, *this->reborn_pos_, deterministic, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarDieAnimationEndReq)
   return target;
@@ -11219,10 +4257,10 @@ size_t AvatarDieAnimationEndReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarDieAnimationEndReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // .proto.Vector reborn_pos = 10;
   if (this->has_reborn_pos()) {
@@ -11250,225 +4288,6 @@ size_t AvatarDieAnimationEndReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarDieAnimationEndReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarDieAnimationEndReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarDieAnimationEndReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarDieAnimationEndReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarDieAnimationEndReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarDieAnimationEndReq)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarDieAnimationEndReq::MergeFrom(const AvatarDieAnimationEndReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarDieAnimationEndReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.has_reborn_pos()) {
-    mutable_reborn_pos()->::proto::Vector::MergeFrom(from.reborn_pos());
-  }
-  if (from.skill_id() != 0) {
-    set_skill_id(from.skill_id());
-  }
-  if (from.die_guid() != 0) {
-    set_die_guid(from.die_guid());
-  }
-}
-
-void AvatarDieAnimationEndReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarDieAnimationEndReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarDieAnimationEndReq::CopyFrom(const AvatarDieAnimationEndReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarDieAnimationEndReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarDieAnimationEndReq::IsInitialized() const {
-  return true;
-}
-
-void AvatarDieAnimationEndReq::Swap(AvatarDieAnimationEndReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarDieAnimationEndReq::InternalSwap(AvatarDieAnimationEndReq* other) {
-  using std::swap;
-  swap(reborn_pos_, other->reborn_pos_);
-  swap(skill_id_, other->skill_id_);
-  swap(die_guid_, other->die_guid_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarDieAnimationEndReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarDieAnimationEndReq
-
-// .proto.Vector reborn_pos = 10;
-bool AvatarDieAnimationEndReq::has_reborn_pos() const {
-  return this != internal_default_instance() && reborn_pos_ != NULL;
-}
-void AvatarDieAnimationEndReq::clear_reborn_pos() {
-  if (GetArenaNoVirtual() == NULL && reborn_pos_ != NULL) delete reborn_pos_;
-  reborn_pos_ = NULL;
-}
-const ::proto::Vector& AvatarDieAnimationEndReq::reborn_pos() const {
-  const ::proto::Vector* p = reborn_pos_;
-  // @@protoc_insertion_point(field_get:proto.AvatarDieAnimationEndReq.reborn_pos)
-  return p != NULL ? *p : *reinterpret_cast<const ::proto::Vector*>(
-      &::proto::_Vector_default_instance_);
-}
-::proto::Vector* AvatarDieAnimationEndReq::mutable_reborn_pos() {
-  
-  if (reborn_pos_ == NULL) {
-    reborn_pos_ = new ::proto::Vector;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.AvatarDieAnimationEndReq.reborn_pos)
-  return reborn_pos_;
-}
-::proto::Vector* AvatarDieAnimationEndReq::release_reborn_pos() {
-  // @@protoc_insertion_point(field_release:proto.AvatarDieAnimationEndReq.reborn_pos)
-  
-  ::proto::Vector* temp = reborn_pos_;
-  reborn_pos_ = NULL;
-  return temp;
-}
-void AvatarDieAnimationEndReq::set_allocated_reborn_pos(::proto::Vector* reborn_pos) {
-  delete reborn_pos_;
-  reborn_pos_ = reborn_pos;
-  if (reborn_pos) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.AvatarDieAnimationEndReq.reborn_pos)
-}
-
-// uint64 die_guid = 7;
-void AvatarDieAnimationEndReq::clear_die_guid() {
-  die_guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 AvatarDieAnimationEndReq::die_guid() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarDieAnimationEndReq.die_guid)
-  return die_guid_;
-}
-void AvatarDieAnimationEndReq::set_die_guid(::google::protobuf::uint64 value) {
-  
-  die_guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarDieAnimationEndReq.die_guid)
-}
-
-// uint32 skill_id = 4;
-void AvatarDieAnimationEndReq::clear_skill_id() {
-  skill_id_ = 0u;
-}
-::google::protobuf::uint32 AvatarDieAnimationEndReq::skill_id() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarDieAnimationEndReq.skill_id)
-  return skill_id_;
-}
-void AvatarDieAnimationEndReq::set_skill_id(::google::protobuf::uint32 value) {
-  
-  skill_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarDieAnimationEndReq.skill_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarDieAnimationEndRsp::kSkillIdFieldNumber;
-const int AvatarDieAnimationEndRsp::kRetcodeFieldNumber;
-const int AvatarDieAnimationEndRsp::kDieGuidFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarDieAnimationEndRsp::AvatarDieAnimationEndRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarDieAnimationEndRsp)
-}
-AvatarDieAnimationEndRsp::AvatarDieAnimationEndRsp(const AvatarDieAnimationEndRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&die_guid_, &from.die_guid_,
-    static_cast<size_t>(reinterpret_cast<char*>(&skill_id_) -
-    reinterpret_cast<char*>(&die_guid_)) + sizeof(skill_id_));
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarDieAnimationEndRsp)
-}
-
-void AvatarDieAnimationEndRsp::SharedCtor() {
-  ::memset(&die_guid_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&skill_id_) -
-      reinterpret_cast<char*>(&die_guid_)) + sizeof(skill_id_));
-  _cached_size_ = 0;
-}
-
-AvatarDieAnimationEndRsp::~AvatarDieAnimationEndRsp() {
-  // @@protoc_insertion_point(destructor:proto.AvatarDieAnimationEndRsp)
-  SharedDtor();
-}
-
-void AvatarDieAnimationEndRsp::SharedDtor() {
-}
-
-void AvatarDieAnimationEndRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarDieAnimationEndRsp::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarDieAnimationEndRsp& AvatarDieAnimationEndRsp::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarDieAnimationEndRsp* AvatarDieAnimationEndRsp::New(::google::protobuf::Arena* arena) const {
-  AvatarDieAnimationEndRsp* n = new AvatarDieAnimationEndRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarDieAnimationEndRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarDieAnimationEndRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&die_guid_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&skill_id_) -
-      reinterpret_cast<char*>(&die_guid_)) + sizeof(skill_id_));
-  _internal_metadata_.Clear();
 }
 
 bool AvatarDieAnimationEndRsp::MergePartialFromCodedStream(
@@ -11529,16 +4348,18 @@ bool AvatarDieAnimationEndRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarDieAnimationEndRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarDieAnimationEndRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -11564,9 +4385,9 @@ void AvatarDieAnimationEndRsp::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(6, this->skill_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarDieAnimationEndRsp)
 }
@@ -11593,9 +4414,9 @@ void AvatarDieAnimationEndRsp::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(6, this->skill_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarDieAnimationEndRsp)
   return target;
@@ -11605,10 +4426,10 @@ size_t AvatarDieAnimationEndRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarDieAnimationEndRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint64 die_guid = 3;
   if (this->die_guid() != 0) {
@@ -11636,198 +4457,6 @@ size_t AvatarDieAnimationEndRsp::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarDieAnimationEndRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarDieAnimationEndRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarDieAnimationEndRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarDieAnimationEndRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarDieAnimationEndRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarDieAnimationEndRsp)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarDieAnimationEndRsp::MergeFrom(const AvatarDieAnimationEndRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarDieAnimationEndRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.die_guid() != 0) {
-    set_die_guid(from.die_guid());
-  }
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-  if (from.skill_id() != 0) {
-    set_skill_id(from.skill_id());
-  }
-}
-
-void AvatarDieAnimationEndRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarDieAnimationEndRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarDieAnimationEndRsp::CopyFrom(const AvatarDieAnimationEndRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarDieAnimationEndRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarDieAnimationEndRsp::IsInitialized() const {
-  return true;
-}
-
-void AvatarDieAnimationEndRsp::Swap(AvatarDieAnimationEndRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarDieAnimationEndRsp::InternalSwap(AvatarDieAnimationEndRsp* other) {
-  using std::swap;
-  swap(die_guid_, other->die_guid_);
-  swap(retcode_, other->retcode_);
-  swap(skill_id_, other->skill_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarDieAnimationEndRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarDieAnimationEndRsp
-
-// uint32 skill_id = 6;
-void AvatarDieAnimationEndRsp::clear_skill_id() {
-  skill_id_ = 0u;
-}
-::google::protobuf::uint32 AvatarDieAnimationEndRsp::skill_id() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarDieAnimationEndRsp.skill_id)
-  return skill_id_;
-}
-void AvatarDieAnimationEndRsp::set_skill_id(::google::protobuf::uint32 value) {
-  
-  skill_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarDieAnimationEndRsp.skill_id)
-}
-
-// int32 retcode = 5;
-void AvatarDieAnimationEndRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 AvatarDieAnimationEndRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarDieAnimationEndRsp.retcode)
-  return retcode_;
-}
-void AvatarDieAnimationEndRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarDieAnimationEndRsp.retcode)
-}
-
-// uint64 die_guid = 3;
-void AvatarDieAnimationEndRsp::clear_die_guid() {
-  die_guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 AvatarDieAnimationEndRsp::die_guid() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarDieAnimationEndRsp.die_guid)
-  return die_guid_;
-}
-void AvatarDieAnimationEndRsp::set_die_guid(::google::protobuf::uint64 value) {
-  
-  die_guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarDieAnimationEndRsp.die_guid)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarChangeElementTypeReq::kSceneIdFieldNumber;
-const int AvatarChangeElementTypeReq::kAreaIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarChangeElementTypeReq::AvatarChangeElementTypeReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarChangeElementTypeReq)
-}
-AvatarChangeElementTypeReq::AvatarChangeElementTypeReq(const AvatarChangeElementTypeReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&area_id_, &from.area_id_,
-    static_cast<size_t>(reinterpret_cast<char*>(&scene_id_) -
-    reinterpret_cast<char*>(&area_id_)) + sizeof(scene_id_));
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarChangeElementTypeReq)
-}
-
-void AvatarChangeElementTypeReq::SharedCtor() {
-  ::memset(&area_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&scene_id_) -
-      reinterpret_cast<char*>(&area_id_)) + sizeof(scene_id_));
-  _cached_size_ = 0;
-}
-
-AvatarChangeElementTypeReq::~AvatarChangeElementTypeReq() {
-  // @@protoc_insertion_point(destructor:proto.AvatarChangeElementTypeReq)
-  SharedDtor();
-}
-
-void AvatarChangeElementTypeReq::SharedDtor() {
-}
-
-void AvatarChangeElementTypeReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarChangeElementTypeReq::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarChangeElementTypeReq& AvatarChangeElementTypeReq::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarChangeElementTypeReq* AvatarChangeElementTypeReq::New(::google::protobuf::Arena* arena) const {
-  AvatarChangeElementTypeReq* n = new AvatarChangeElementTypeReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarChangeElementTypeReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarChangeElementTypeReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&area_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&scene_id_) -
-      reinterpret_cast<char*>(&area_id_)) + sizeof(scene_id_));
-  _internal_metadata_.Clear();
 }
 
 bool AvatarChangeElementTypeReq::MergePartialFromCodedStream(
@@ -11874,16 +4503,18 @@ bool AvatarChangeElementTypeReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarChangeElementTypeReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarChangeElementTypeReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -11904,9 +4535,9 @@ void AvatarChangeElementTypeReq::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(8, this->scene_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarChangeElementTypeReq)
 }
@@ -11928,9 +4559,9 @@ void AvatarChangeElementTypeReq::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(8, this->scene_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarChangeElementTypeReq)
   return target;
@@ -11940,10 +4571,10 @@ size_t AvatarChangeElementTypeReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarChangeElementTypeReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 area_id = 1;
   if (this->area_id() != 0) {
@@ -11964,173 +4595,6 @@ size_t AvatarChangeElementTypeReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarChangeElementTypeReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarChangeElementTypeReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarChangeElementTypeReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarChangeElementTypeReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarChangeElementTypeReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarChangeElementTypeReq)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarChangeElementTypeReq::MergeFrom(const AvatarChangeElementTypeReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarChangeElementTypeReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.area_id() != 0) {
-    set_area_id(from.area_id());
-  }
-  if (from.scene_id() != 0) {
-    set_scene_id(from.scene_id());
-  }
-}
-
-void AvatarChangeElementTypeReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarChangeElementTypeReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarChangeElementTypeReq::CopyFrom(const AvatarChangeElementTypeReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarChangeElementTypeReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarChangeElementTypeReq::IsInitialized() const {
-  return true;
-}
-
-void AvatarChangeElementTypeReq::Swap(AvatarChangeElementTypeReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarChangeElementTypeReq::InternalSwap(AvatarChangeElementTypeReq* other) {
-  using std::swap;
-  swap(area_id_, other->area_id_);
-  swap(scene_id_, other->scene_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarChangeElementTypeReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarChangeElementTypeReq
-
-// uint32 scene_id = 8;
-void AvatarChangeElementTypeReq::clear_scene_id() {
-  scene_id_ = 0u;
-}
-::google::protobuf::uint32 AvatarChangeElementTypeReq::scene_id() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarChangeElementTypeReq.scene_id)
-  return scene_id_;
-}
-void AvatarChangeElementTypeReq::set_scene_id(::google::protobuf::uint32 value) {
-  
-  scene_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarChangeElementTypeReq.scene_id)
-}
-
-// uint32 area_id = 1;
-void AvatarChangeElementTypeReq::clear_area_id() {
-  area_id_ = 0u;
-}
-::google::protobuf::uint32 AvatarChangeElementTypeReq::area_id() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarChangeElementTypeReq.area_id)
-  return area_id_;
-}
-void AvatarChangeElementTypeReq::set_area_id(::google::protobuf::uint32 value) {
-  
-  area_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarChangeElementTypeReq.area_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarChangeElementTypeRsp::kRetcodeFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarChangeElementTypeRsp::AvatarChangeElementTypeRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarChangeElementTypeRsp)
-}
-AvatarChangeElementTypeRsp::AvatarChangeElementTypeRsp(const AvatarChangeElementTypeRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  retcode_ = from.retcode_;
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarChangeElementTypeRsp)
-}
-
-void AvatarChangeElementTypeRsp::SharedCtor() {
-  retcode_ = 0;
-  _cached_size_ = 0;
-}
-
-AvatarChangeElementTypeRsp::~AvatarChangeElementTypeRsp() {
-  // @@protoc_insertion_point(destructor:proto.AvatarChangeElementTypeRsp)
-  SharedDtor();
-}
-
-void AvatarChangeElementTypeRsp::SharedDtor() {
-}
-
-void AvatarChangeElementTypeRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarChangeElementTypeRsp::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarChangeElementTypeRsp& AvatarChangeElementTypeRsp::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarChangeElementTypeRsp* AvatarChangeElementTypeRsp::New(::google::protobuf::Arena* arena) const {
-  AvatarChangeElementTypeRsp* n = new AvatarChangeElementTypeRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarChangeElementTypeRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarChangeElementTypeRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  retcode_ = 0;
-  _internal_metadata_.Clear();
 }
 
 bool AvatarChangeElementTypeRsp::MergePartialFromCodedStream(
@@ -12163,16 +4627,18 @@ bool AvatarChangeElementTypeRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarChangeElementTypeRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarChangeElementTypeRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -12188,9 +4654,9 @@ void AvatarChangeElementTypeRsp::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteInt32(15, this->retcode(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarChangeElementTypeRsp)
 }
@@ -12207,9 +4673,9 @@ void AvatarChangeElementTypeRsp::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(15, this->retcode(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarChangeElementTypeRsp)
   return target;
@@ -12219,10 +4685,10 @@ size_t AvatarChangeElementTypeRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarChangeElementTypeRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // int32 retcode = 15;
   if (this->retcode() != 0) {
@@ -12236,173 +4702,6 @@ size_t AvatarChangeElementTypeRsp::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarChangeElementTypeRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarChangeElementTypeRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarChangeElementTypeRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarChangeElementTypeRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarChangeElementTypeRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarChangeElementTypeRsp)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarChangeElementTypeRsp::MergeFrom(const AvatarChangeElementTypeRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarChangeElementTypeRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-}
-
-void AvatarChangeElementTypeRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarChangeElementTypeRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarChangeElementTypeRsp::CopyFrom(const AvatarChangeElementTypeRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarChangeElementTypeRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarChangeElementTypeRsp::IsInitialized() const {
-  return true;
-}
-
-void AvatarChangeElementTypeRsp::Swap(AvatarChangeElementTypeRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarChangeElementTypeRsp::InternalSwap(AvatarChangeElementTypeRsp* other) {
-  using std::swap;
-  swap(retcode_, other->retcode_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarChangeElementTypeRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarChangeElementTypeRsp
-
-// int32 retcode = 15;
-void AvatarChangeElementTypeRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 AvatarChangeElementTypeRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarChangeElementTypeRsp.retcode)
-  return retcode_;
-}
-void AvatarChangeElementTypeRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarChangeElementTypeRsp.retcode)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-AvatarFetterDataNotify::AvatarFetterDataNotify_FetterInfoMapEntry::AvatarFetterDataNotify_FetterInfoMapEntry() {}
-AvatarFetterDataNotify::AvatarFetterDataNotify_FetterInfoMapEntry::AvatarFetterDataNotify_FetterInfoMapEntry(::google::protobuf::Arena* arena) : SuperType(arena) {}
-::google::protobuf::Metadata AvatarFetterDataNotify::AvatarFetterDataNotify_FetterInfoMapEntry::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[28];
-}
-void AvatarFetterDataNotify::AvatarFetterDataNotify_FetterInfoMapEntry::MergeFrom(
-    const ::google::protobuf::Message& other) {
-  ::google::protobuf::Message::MergeFrom(other);
-}
-void AvatarFetterDataNotify::AvatarFetterDataNotify_FetterInfoMapEntry::MergeFrom(const AvatarFetterDataNotify_FetterInfoMapEntry& other) {
-  MergeFromInternal(other);
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarFetterDataNotify::kFetterInfoMapFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarFetterDataNotify::AvatarFetterDataNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarFetterDataNotify)
-}
-AvatarFetterDataNotify::AvatarFetterDataNotify(const AvatarFetterDataNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  fetter_info_map_.MergeFrom(from.fetter_info_map_);
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarFetterDataNotify)
-}
-
-void AvatarFetterDataNotify::SharedCtor() {
-  _cached_size_ = 0;
-}
-
-AvatarFetterDataNotify::~AvatarFetterDataNotify() {
-  // @@protoc_insertion_point(destructor:proto.AvatarFetterDataNotify)
-  SharedDtor();
-}
-
-void AvatarFetterDataNotify::SharedDtor() {
-}
-
-void AvatarFetterDataNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarFetterDataNotify::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarFetterDataNotify& AvatarFetterDataNotify::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarFetterDataNotify* AvatarFetterDataNotify::New(::google::protobuf::Arena* arena) const {
-  AvatarFetterDataNotify* n = new AvatarFetterDataNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarFetterDataNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarFetterDataNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  fetter_info_map_.Clear();
-  _internal_metadata_.Clear();
 }
 
 bool AvatarFetterDataNotify::MergePartialFromCodedStream(
@@ -12440,16 +4739,18 @@ bool AvatarFetterDataNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarFetterDataNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarFetterDataNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -12499,9 +4800,9 @@ void AvatarFetterDataNotify::SerializeWithCachedSizes(
     }
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarFetterDataNotify)
 }
@@ -12556,9 +4857,9 @@ void AvatarFetterDataNotify::SerializeWithCachedSizes(
     }
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarFetterDataNotify)
   return target;
@@ -12568,10 +4869,10 @@ size_t AvatarFetterDataNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarFetterDataNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // map<uint64, .proto.AvatarFetterInfo> fetter_info_map = 11;
   total_size += 1 *
@@ -12592,175 +4893,6 @@ size_t AvatarFetterDataNotify::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarFetterDataNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarFetterDataNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarFetterDataNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarFetterDataNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarFetterDataNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarFetterDataNotify)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarFetterDataNotify::MergeFrom(const AvatarFetterDataNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarFetterDataNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  fetter_info_map_.MergeFrom(from.fetter_info_map_);
-}
-
-void AvatarFetterDataNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarFetterDataNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarFetterDataNotify::CopyFrom(const AvatarFetterDataNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarFetterDataNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarFetterDataNotify::IsInitialized() const {
-  return true;
-}
-
-void AvatarFetterDataNotify::Swap(AvatarFetterDataNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarFetterDataNotify::InternalSwap(AvatarFetterDataNotify* other) {
-  using std::swap;
-  fetter_info_map_.Swap(&other->fetter_info_map_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarFetterDataNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarFetterDataNotify
-
-// map<uint64, .proto.AvatarFetterInfo> fetter_info_map = 11;
-int AvatarFetterDataNotify::fetter_info_map_size() const {
-  return fetter_info_map_.size();
-}
-void AvatarFetterDataNotify::clear_fetter_info_map() {
-  fetter_info_map_.Clear();
-}
- const ::google::protobuf::Map< ::google::protobuf::uint64, ::proto::AvatarFetterInfo >&
-AvatarFetterDataNotify::fetter_info_map() const {
-  // @@protoc_insertion_point(field_map:proto.AvatarFetterDataNotify.fetter_info_map)
-  return fetter_info_map_.GetMap();
-}
- ::google::protobuf::Map< ::google::protobuf::uint64, ::proto::AvatarFetterInfo >*
-AvatarFetterDataNotify::mutable_fetter_info_map() {
-  // @@protoc_insertion_point(field_mutable_map:proto.AvatarFetterDataNotify.fetter_info_map)
-  return fetter_info_map_.MutableMap();
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-AvatarExpeditionDataNotify::AvatarExpeditionDataNotify_ExpeditionInfoMapEntry::AvatarExpeditionDataNotify_ExpeditionInfoMapEntry() {}
-AvatarExpeditionDataNotify::AvatarExpeditionDataNotify_ExpeditionInfoMapEntry::AvatarExpeditionDataNotify_ExpeditionInfoMapEntry(::google::protobuf::Arena* arena) : SuperType(arena) {}
-::google::protobuf::Metadata AvatarExpeditionDataNotify::AvatarExpeditionDataNotify_ExpeditionInfoMapEntry::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[30];
-}
-void AvatarExpeditionDataNotify::AvatarExpeditionDataNotify_ExpeditionInfoMapEntry::MergeFrom(
-    const ::google::protobuf::Message& other) {
-  ::google::protobuf::Message::MergeFrom(other);
-}
-void AvatarExpeditionDataNotify::AvatarExpeditionDataNotify_ExpeditionInfoMapEntry::MergeFrom(const AvatarExpeditionDataNotify_ExpeditionInfoMapEntry& other) {
-  MergeFromInternal(other);
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarExpeditionDataNotify::kExpeditionInfoMapFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarExpeditionDataNotify::AvatarExpeditionDataNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarExpeditionDataNotify)
-}
-AvatarExpeditionDataNotify::AvatarExpeditionDataNotify(const AvatarExpeditionDataNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  expedition_info_map_.MergeFrom(from.expedition_info_map_);
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarExpeditionDataNotify)
-}
-
-void AvatarExpeditionDataNotify::SharedCtor() {
-  _cached_size_ = 0;
-}
-
-AvatarExpeditionDataNotify::~AvatarExpeditionDataNotify() {
-  // @@protoc_insertion_point(destructor:proto.AvatarExpeditionDataNotify)
-  SharedDtor();
-}
-
-void AvatarExpeditionDataNotify::SharedDtor() {
-}
-
-void AvatarExpeditionDataNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarExpeditionDataNotify::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarExpeditionDataNotify& AvatarExpeditionDataNotify::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarExpeditionDataNotify* AvatarExpeditionDataNotify::New(::google::protobuf::Arena* arena) const {
-  AvatarExpeditionDataNotify* n = new AvatarExpeditionDataNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarExpeditionDataNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarExpeditionDataNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  expedition_info_map_.Clear();
-  _internal_metadata_.Clear();
 }
 
 bool AvatarExpeditionDataNotify::MergePartialFromCodedStream(
@@ -12798,16 +4930,18 @@ bool AvatarExpeditionDataNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarExpeditionDataNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarExpeditionDataNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -12857,9 +4991,9 @@ void AvatarExpeditionDataNotify::SerializeWithCachedSizes(
     }
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarExpeditionDataNotify)
 }
@@ -12914,9 +5048,9 @@ void AvatarExpeditionDataNotify::SerializeWithCachedSizes(
     }
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarExpeditionDataNotify)
   return target;
@@ -12926,10 +5060,10 @@ size_t AvatarExpeditionDataNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarExpeditionDataNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // map<uint64, .proto.AvatarExpeditionInfo> expedition_info_map = 4;
   total_size += 1 *
@@ -12952,153 +5086,6 @@ size_t AvatarExpeditionDataNotify::ByteSizeLong() const {
   return total_size;
 }
 
-void AvatarExpeditionDataNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarExpeditionDataNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarExpeditionDataNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarExpeditionDataNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarExpeditionDataNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarExpeditionDataNotify)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarExpeditionDataNotify::MergeFrom(const AvatarExpeditionDataNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarExpeditionDataNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  expedition_info_map_.MergeFrom(from.expedition_info_map_);
-}
-
-void AvatarExpeditionDataNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarExpeditionDataNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarExpeditionDataNotify::CopyFrom(const AvatarExpeditionDataNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarExpeditionDataNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarExpeditionDataNotify::IsInitialized() const {
-  return true;
-}
-
-void AvatarExpeditionDataNotify::Swap(AvatarExpeditionDataNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarExpeditionDataNotify::InternalSwap(AvatarExpeditionDataNotify* other) {
-  using std::swap;
-  expedition_info_map_.Swap(&other->expedition_info_map_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarExpeditionDataNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarExpeditionDataNotify
-
-// map<uint64, .proto.AvatarExpeditionInfo> expedition_info_map = 4;
-int AvatarExpeditionDataNotify::expedition_info_map_size() const {
-  return expedition_info_map_.size();
-}
-void AvatarExpeditionDataNotify::clear_expedition_info_map() {
-  expedition_info_map_.Clear();
-}
- const ::google::protobuf::Map< ::google::protobuf::uint64, ::proto::AvatarExpeditionInfo >&
-AvatarExpeditionDataNotify::expedition_info_map() const {
-  // @@protoc_insertion_point(field_map:proto.AvatarExpeditionDataNotify.expedition_info_map)
-  return expedition_info_map_.GetMap();
-}
- ::google::protobuf::Map< ::google::protobuf::uint64, ::proto::AvatarExpeditionInfo >*
-AvatarExpeditionDataNotify::mutable_expedition_info_map() {
-  // @@protoc_insertion_point(field_mutable_map:proto.AvatarExpeditionDataNotify.expedition_info_map)
-  return expedition_info_map_.MutableMap();
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarExpeditionAllDataReq::AvatarExpeditionAllDataReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarExpeditionAllDataReq)
-}
-AvatarExpeditionAllDataReq::AvatarExpeditionAllDataReq(const AvatarExpeditionAllDataReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarExpeditionAllDataReq)
-}
-
-void AvatarExpeditionAllDataReq::SharedCtor() {
-  _cached_size_ = 0;
-}
-
-AvatarExpeditionAllDataReq::~AvatarExpeditionAllDataReq() {
-  // @@protoc_insertion_point(destructor:proto.AvatarExpeditionAllDataReq)
-  SharedDtor();
-}
-
-void AvatarExpeditionAllDataReq::SharedDtor() {
-}
-
-void AvatarExpeditionAllDataReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarExpeditionAllDataReq::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarExpeditionAllDataReq& AvatarExpeditionAllDataReq::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarExpeditionAllDataReq* AvatarExpeditionAllDataReq::New(::google::protobuf::Arena* arena) const {
-  AvatarExpeditionAllDataReq* n = new AvatarExpeditionAllDataReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarExpeditionAllDataReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarExpeditionAllDataReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  _internal_metadata_.Clear();
-}
-
 bool AvatarExpeditionAllDataReq::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -13113,13 +5100,15 @@ bool AvatarExpeditionAllDataReq::MergePartialFromCodedStream(
       goto success;
     }
     DO_(::google::protobuf::internal::WireFormat::SkipField(
-          input, tag, _internal_metadata_.mutable_unknown_fields()));
+          input, tag, nullptr));
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarExpeditionAllDataReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarExpeditionAllDataReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -13130,9 +5119,9 @@ void AvatarExpeditionAllDataReq::SerializeWithCachedSizes(
   ::google::protobuf::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarExpeditionAllDataReq)
 }
@@ -13144,9 +5133,9 @@ void AvatarExpeditionAllDataReq::SerializeWithCachedSizes(
   ::google::protobuf::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarExpeditionAllDataReq)
   return target;
@@ -13156,179 +5145,16 @@ size_t AvatarExpeditionAllDataReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarExpeditionAllDataReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
   GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarExpeditionAllDataReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarExpeditionAllDataReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarExpeditionAllDataReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarExpeditionAllDataReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarExpeditionAllDataReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarExpeditionAllDataReq)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarExpeditionAllDataReq::MergeFrom(const AvatarExpeditionAllDataReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarExpeditionAllDataReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-}
-
-void AvatarExpeditionAllDataReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarExpeditionAllDataReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarExpeditionAllDataReq::CopyFrom(const AvatarExpeditionAllDataReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarExpeditionAllDataReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarExpeditionAllDataReq::IsInitialized() const {
-  return true;
-}
-
-void AvatarExpeditionAllDataReq::Swap(AvatarExpeditionAllDataReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarExpeditionAllDataReq::InternalSwap(AvatarExpeditionAllDataReq* other) {
-  using std::swap;
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarExpeditionAllDataReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarExpeditionAllDataReq
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-AvatarExpeditionAllDataRsp::AvatarExpeditionAllDataRsp_ExpeditionInfoMapEntry::AvatarExpeditionAllDataRsp_ExpeditionInfoMapEntry() {}
-AvatarExpeditionAllDataRsp::AvatarExpeditionAllDataRsp_ExpeditionInfoMapEntry::AvatarExpeditionAllDataRsp_ExpeditionInfoMapEntry(::google::protobuf::Arena* arena) : SuperType(arena) {}
-::google::protobuf::Metadata AvatarExpeditionAllDataRsp::AvatarExpeditionAllDataRsp_ExpeditionInfoMapEntry::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[33];
-}
-void AvatarExpeditionAllDataRsp::AvatarExpeditionAllDataRsp_ExpeditionInfoMapEntry::MergeFrom(
-    const ::google::protobuf::Message& other) {
-  ::google::protobuf::Message::MergeFrom(other);
-}
-void AvatarExpeditionAllDataRsp::AvatarExpeditionAllDataRsp_ExpeditionInfoMapEntry::MergeFrom(const AvatarExpeditionAllDataRsp_ExpeditionInfoMapEntry& other) {
-  MergeFromInternal(other);
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarExpeditionAllDataRsp::kOpenExpeditionListFieldNumber;
-const int AvatarExpeditionAllDataRsp::kRetcodeFieldNumber;
-const int AvatarExpeditionAllDataRsp::kExpeditionCountLimitFieldNumber;
-const int AvatarExpeditionAllDataRsp::kExpeditionInfoMapFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarExpeditionAllDataRsp::AvatarExpeditionAllDataRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarExpeditionAllDataRsp)
-}
-AvatarExpeditionAllDataRsp::AvatarExpeditionAllDataRsp(const AvatarExpeditionAllDataRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      open_expedition_list_(from.open_expedition_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  expedition_info_map_.MergeFrom(from.expedition_info_map_);
-  ::memcpy(&retcode_, &from.retcode_,
-    static_cast<size_t>(reinterpret_cast<char*>(&expedition_count_limit_) -
-    reinterpret_cast<char*>(&retcode_)) + sizeof(expedition_count_limit_));
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarExpeditionAllDataRsp)
-}
-
-void AvatarExpeditionAllDataRsp::SharedCtor() {
-  ::memset(&retcode_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&expedition_count_limit_) -
-      reinterpret_cast<char*>(&retcode_)) + sizeof(expedition_count_limit_));
-  _cached_size_ = 0;
-}
-
-AvatarExpeditionAllDataRsp::~AvatarExpeditionAllDataRsp() {
-  // @@protoc_insertion_point(destructor:proto.AvatarExpeditionAllDataRsp)
-  SharedDtor();
-}
-
-void AvatarExpeditionAllDataRsp::SharedDtor() {
-}
-
-void AvatarExpeditionAllDataRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarExpeditionAllDataRsp::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarExpeditionAllDataRsp& AvatarExpeditionAllDataRsp::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarExpeditionAllDataRsp* AvatarExpeditionAllDataRsp::New(::google::protobuf::Arena* arena) const {
-  AvatarExpeditionAllDataRsp* n = new AvatarExpeditionAllDataRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarExpeditionAllDataRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarExpeditionAllDataRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  open_expedition_list_.Clear();
-  expedition_info_map_.Clear();
-  ::memset(&retcode_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&expedition_count_limit_) -
-      reinterpret_cast<char*>(&retcode_)) + sizeof(expedition_count_limit_));
-  _internal_metadata_.Clear();
 }
 
 bool AvatarExpeditionAllDataRsp::MergePartialFromCodedStream(
@@ -13413,16 +5239,18 @@ bool AvatarExpeditionAllDataRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarExpeditionAllDataRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarExpeditionAllDataRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -13493,9 +5321,9 @@ void AvatarExpeditionAllDataRsp::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(12, this->expedition_count_limit(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarExpeditionAllDataRsp)
 }
@@ -13573,9 +5401,9 @@ void AvatarExpeditionAllDataRsp::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(12, this->expedition_count_limit(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarExpeditionAllDataRsp)
   return target;
@@ -13585,10 +5413,10 @@ size_t AvatarExpeditionAllDataRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarExpeditionAllDataRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated uint32 open_expedition_list = 9;
   {
@@ -13639,233 +5467,6 @@ size_t AvatarExpeditionAllDataRsp::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarExpeditionAllDataRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarExpeditionAllDataRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarExpeditionAllDataRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarExpeditionAllDataRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarExpeditionAllDataRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarExpeditionAllDataRsp)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarExpeditionAllDataRsp::MergeFrom(const AvatarExpeditionAllDataRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarExpeditionAllDataRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  open_expedition_list_.MergeFrom(from.open_expedition_list_);
-  expedition_info_map_.MergeFrom(from.expedition_info_map_);
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-  if (from.expedition_count_limit() != 0) {
-    set_expedition_count_limit(from.expedition_count_limit());
-  }
-}
-
-void AvatarExpeditionAllDataRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarExpeditionAllDataRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarExpeditionAllDataRsp::CopyFrom(const AvatarExpeditionAllDataRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarExpeditionAllDataRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarExpeditionAllDataRsp::IsInitialized() const {
-  return true;
-}
-
-void AvatarExpeditionAllDataRsp::Swap(AvatarExpeditionAllDataRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarExpeditionAllDataRsp::InternalSwap(AvatarExpeditionAllDataRsp* other) {
-  using std::swap;
-  open_expedition_list_.InternalSwap(&other->open_expedition_list_);
-  expedition_info_map_.Swap(&other->expedition_info_map_);
-  swap(retcode_, other->retcode_);
-  swap(expedition_count_limit_, other->expedition_count_limit_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarExpeditionAllDataRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarExpeditionAllDataRsp
-
-// repeated uint32 open_expedition_list = 9;
-int AvatarExpeditionAllDataRsp::open_expedition_list_size() const {
-  return open_expedition_list_.size();
-}
-void AvatarExpeditionAllDataRsp::clear_open_expedition_list() {
-  open_expedition_list_.Clear();
-}
-::google::protobuf::uint32 AvatarExpeditionAllDataRsp::open_expedition_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.AvatarExpeditionAllDataRsp.open_expedition_list)
-  return open_expedition_list_.Get(index);
-}
-void AvatarExpeditionAllDataRsp::set_open_expedition_list(int index, ::google::protobuf::uint32 value) {
-  open_expedition_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.AvatarExpeditionAllDataRsp.open_expedition_list)
-}
-void AvatarExpeditionAllDataRsp::add_open_expedition_list(::google::protobuf::uint32 value) {
-  open_expedition_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.AvatarExpeditionAllDataRsp.open_expedition_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint32 >&
-AvatarExpeditionAllDataRsp::open_expedition_list() const {
-  // @@protoc_insertion_point(field_list:proto.AvatarExpeditionAllDataRsp.open_expedition_list)
-  return open_expedition_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint32 >*
-AvatarExpeditionAllDataRsp::mutable_open_expedition_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.AvatarExpeditionAllDataRsp.open_expedition_list)
-  return &open_expedition_list_;
-}
-
-// int32 retcode = 4;
-void AvatarExpeditionAllDataRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 AvatarExpeditionAllDataRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarExpeditionAllDataRsp.retcode)
-  return retcode_;
-}
-void AvatarExpeditionAllDataRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarExpeditionAllDataRsp.retcode)
-}
-
-// uint32 expedition_count_limit = 12;
-void AvatarExpeditionAllDataRsp::clear_expedition_count_limit() {
-  expedition_count_limit_ = 0u;
-}
-::google::protobuf::uint32 AvatarExpeditionAllDataRsp::expedition_count_limit() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarExpeditionAllDataRsp.expedition_count_limit)
-  return expedition_count_limit_;
-}
-void AvatarExpeditionAllDataRsp::set_expedition_count_limit(::google::protobuf::uint32 value) {
-  
-  expedition_count_limit_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarExpeditionAllDataRsp.expedition_count_limit)
-}
-
-// map<uint64, .proto.AvatarExpeditionInfo> expedition_info_map = 10;
-int AvatarExpeditionAllDataRsp::expedition_info_map_size() const {
-  return expedition_info_map_.size();
-}
-void AvatarExpeditionAllDataRsp::clear_expedition_info_map() {
-  expedition_info_map_.Clear();
-}
- const ::google::protobuf::Map< ::google::protobuf::uint64, ::proto::AvatarExpeditionInfo >&
-AvatarExpeditionAllDataRsp::expedition_info_map() const {
-  // @@protoc_insertion_point(field_map:proto.AvatarExpeditionAllDataRsp.expedition_info_map)
-  return expedition_info_map_.GetMap();
-}
- ::google::protobuf::Map< ::google::protobuf::uint64, ::proto::AvatarExpeditionInfo >*
-AvatarExpeditionAllDataRsp::mutable_expedition_info_map() {
-  // @@protoc_insertion_point(field_mutable_map:proto.AvatarExpeditionAllDataRsp.expedition_info_map)
-  return expedition_info_map_.MutableMap();
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarExpeditionStartReq::kExpIdFieldNumber;
-const int AvatarExpeditionStartReq::kAvatarGuidFieldNumber;
-const int AvatarExpeditionStartReq::kHourTimeFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarExpeditionStartReq::AvatarExpeditionStartReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarExpeditionStartReq)
-}
-AvatarExpeditionStartReq::AvatarExpeditionStartReq(const AvatarExpeditionStartReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&avatar_guid_, &from.avatar_guid_,
-    static_cast<size_t>(reinterpret_cast<char*>(&exp_id_) -
-    reinterpret_cast<char*>(&avatar_guid_)) + sizeof(exp_id_));
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarExpeditionStartReq)
-}
-
-void AvatarExpeditionStartReq::SharedCtor() {
-  ::memset(&avatar_guid_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&exp_id_) -
-      reinterpret_cast<char*>(&avatar_guid_)) + sizeof(exp_id_));
-  _cached_size_ = 0;
-}
-
-AvatarExpeditionStartReq::~AvatarExpeditionStartReq() {
-  // @@protoc_insertion_point(destructor:proto.AvatarExpeditionStartReq)
-  SharedDtor();
-}
-
-void AvatarExpeditionStartReq::SharedDtor() {
-}
-
-void AvatarExpeditionStartReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarExpeditionStartReq::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarExpeditionStartReq& AvatarExpeditionStartReq::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarExpeditionStartReq* AvatarExpeditionStartReq::New(::google::protobuf::Arena* arena) const {
-  AvatarExpeditionStartReq* n = new AvatarExpeditionStartReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarExpeditionStartReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarExpeditionStartReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&avatar_guid_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&exp_id_) -
-      reinterpret_cast<char*>(&avatar_guid_)) + sizeof(exp_id_));
-  _internal_metadata_.Clear();
 }
 
 bool AvatarExpeditionStartReq::MergePartialFromCodedStream(
@@ -13926,16 +5527,18 @@ bool AvatarExpeditionStartReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarExpeditionStartReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarExpeditionStartReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -13961,9 +5564,9 @@ void AvatarExpeditionStartReq::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(14, this->exp_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarExpeditionStartReq)
 }
@@ -13990,9 +5593,9 @@ void AvatarExpeditionStartReq::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(14, this->exp_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarExpeditionStartReq)
   return target;
@@ -14002,10 +5605,10 @@ size_t AvatarExpeditionStartReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarExpeditionStartReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint64 avatar_guid = 8;
   if (this->avatar_guid() != 0) {
@@ -14033,213 +5636,6 @@ size_t AvatarExpeditionStartReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarExpeditionStartReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarExpeditionStartReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarExpeditionStartReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarExpeditionStartReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarExpeditionStartReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarExpeditionStartReq)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarExpeditionStartReq::MergeFrom(const AvatarExpeditionStartReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarExpeditionStartReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.avatar_guid() != 0) {
-    set_avatar_guid(from.avatar_guid());
-  }
-  if (from.hour_time() != 0) {
-    set_hour_time(from.hour_time());
-  }
-  if (from.exp_id() != 0) {
-    set_exp_id(from.exp_id());
-  }
-}
-
-void AvatarExpeditionStartReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarExpeditionStartReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarExpeditionStartReq::CopyFrom(const AvatarExpeditionStartReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarExpeditionStartReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarExpeditionStartReq::IsInitialized() const {
-  return true;
-}
-
-void AvatarExpeditionStartReq::Swap(AvatarExpeditionStartReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarExpeditionStartReq::InternalSwap(AvatarExpeditionStartReq* other) {
-  using std::swap;
-  swap(avatar_guid_, other->avatar_guid_);
-  swap(hour_time_, other->hour_time_);
-  swap(exp_id_, other->exp_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarExpeditionStartReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarExpeditionStartReq
-
-// uint32 exp_id = 14;
-void AvatarExpeditionStartReq::clear_exp_id() {
-  exp_id_ = 0u;
-}
-::google::protobuf::uint32 AvatarExpeditionStartReq::exp_id() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarExpeditionStartReq.exp_id)
-  return exp_id_;
-}
-void AvatarExpeditionStartReq::set_exp_id(::google::protobuf::uint32 value) {
-  
-  exp_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarExpeditionStartReq.exp_id)
-}
-
-// uint64 avatar_guid = 8;
-void AvatarExpeditionStartReq::clear_avatar_guid() {
-  avatar_guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 AvatarExpeditionStartReq::avatar_guid() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarExpeditionStartReq.avatar_guid)
-  return avatar_guid_;
-}
-void AvatarExpeditionStartReq::set_avatar_guid(::google::protobuf::uint64 value) {
-  
-  avatar_guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarExpeditionStartReq.avatar_guid)
-}
-
-// uint32 hour_time = 12;
-void AvatarExpeditionStartReq::clear_hour_time() {
-  hour_time_ = 0u;
-}
-::google::protobuf::uint32 AvatarExpeditionStartReq::hour_time() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarExpeditionStartReq.hour_time)
-  return hour_time_;
-}
-void AvatarExpeditionStartReq::set_hour_time(::google::protobuf::uint32 value) {
-  
-  hour_time_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarExpeditionStartReq.hour_time)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-AvatarExpeditionStartRsp::AvatarExpeditionStartRsp_ExpeditionInfoMapEntry::AvatarExpeditionStartRsp_ExpeditionInfoMapEntry() {}
-AvatarExpeditionStartRsp::AvatarExpeditionStartRsp_ExpeditionInfoMapEntry::AvatarExpeditionStartRsp_ExpeditionInfoMapEntry(::google::protobuf::Arena* arena) : SuperType(arena) {}
-::google::protobuf::Metadata AvatarExpeditionStartRsp::AvatarExpeditionStartRsp_ExpeditionInfoMapEntry::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[36];
-}
-void AvatarExpeditionStartRsp::AvatarExpeditionStartRsp_ExpeditionInfoMapEntry::MergeFrom(
-    const ::google::protobuf::Message& other) {
-  ::google::protobuf::Message::MergeFrom(other);
-}
-void AvatarExpeditionStartRsp::AvatarExpeditionStartRsp_ExpeditionInfoMapEntry::MergeFrom(const AvatarExpeditionStartRsp_ExpeditionInfoMapEntry& other) {
-  MergeFromInternal(other);
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarExpeditionStartRsp::kExpeditionInfoMapFieldNumber;
-const int AvatarExpeditionStartRsp::kRetcodeFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarExpeditionStartRsp::AvatarExpeditionStartRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarExpeditionStartRsp)
-}
-AvatarExpeditionStartRsp::AvatarExpeditionStartRsp(const AvatarExpeditionStartRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  expedition_info_map_.MergeFrom(from.expedition_info_map_);
-  retcode_ = from.retcode_;
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarExpeditionStartRsp)
-}
-
-void AvatarExpeditionStartRsp::SharedCtor() {
-  retcode_ = 0;
-  _cached_size_ = 0;
-}
-
-AvatarExpeditionStartRsp::~AvatarExpeditionStartRsp() {
-  // @@protoc_insertion_point(destructor:proto.AvatarExpeditionStartRsp)
-  SharedDtor();
-}
-
-void AvatarExpeditionStartRsp::SharedDtor() {
-}
-
-void AvatarExpeditionStartRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarExpeditionStartRsp::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarExpeditionStartRsp& AvatarExpeditionStartRsp::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarExpeditionStartRsp* AvatarExpeditionStartRsp::New(::google::protobuf::Arena* arena) const {
-  AvatarExpeditionStartRsp* n = new AvatarExpeditionStartRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarExpeditionStartRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarExpeditionStartRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  expedition_info_map_.Clear();
-  retcode_ = 0;
-  _internal_metadata_.Clear();
 }
 
 bool AvatarExpeditionStartRsp::MergePartialFromCodedStream(
@@ -14291,16 +5687,18 @@ bool AvatarExpeditionStartRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarExpeditionStartRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarExpeditionStartRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -14355,9 +5753,9 @@ void AvatarExpeditionStartRsp::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteInt32(10, this->retcode(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarExpeditionStartRsp)
 }
@@ -14417,9 +5815,9 @@ void AvatarExpeditionStartRsp::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(10, this->retcode(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarExpeditionStartRsp)
   return target;
@@ -14429,10 +5827,10 @@ size_t AvatarExpeditionStartRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarExpeditionStartRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // map<uint64, .proto.AvatarExpeditionInfo> expedition_info_map = 7;
   total_size += 1 *
@@ -14460,174 +5858,6 @@ size_t AvatarExpeditionStartRsp::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarExpeditionStartRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarExpeditionStartRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarExpeditionStartRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarExpeditionStartRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarExpeditionStartRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarExpeditionStartRsp)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarExpeditionStartRsp::MergeFrom(const AvatarExpeditionStartRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarExpeditionStartRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  expedition_info_map_.MergeFrom(from.expedition_info_map_);
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-}
-
-void AvatarExpeditionStartRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarExpeditionStartRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarExpeditionStartRsp::CopyFrom(const AvatarExpeditionStartRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarExpeditionStartRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarExpeditionStartRsp::IsInitialized() const {
-  return true;
-}
-
-void AvatarExpeditionStartRsp::Swap(AvatarExpeditionStartRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarExpeditionStartRsp::InternalSwap(AvatarExpeditionStartRsp* other) {
-  using std::swap;
-  expedition_info_map_.Swap(&other->expedition_info_map_);
-  swap(retcode_, other->retcode_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarExpeditionStartRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarExpeditionStartRsp
-
-// map<uint64, .proto.AvatarExpeditionInfo> expedition_info_map = 7;
-int AvatarExpeditionStartRsp::expedition_info_map_size() const {
-  return expedition_info_map_.size();
-}
-void AvatarExpeditionStartRsp::clear_expedition_info_map() {
-  expedition_info_map_.Clear();
-}
- const ::google::protobuf::Map< ::google::protobuf::uint64, ::proto::AvatarExpeditionInfo >&
-AvatarExpeditionStartRsp::expedition_info_map() const {
-  // @@protoc_insertion_point(field_map:proto.AvatarExpeditionStartRsp.expedition_info_map)
-  return expedition_info_map_.GetMap();
-}
- ::google::protobuf::Map< ::google::protobuf::uint64, ::proto::AvatarExpeditionInfo >*
-AvatarExpeditionStartRsp::mutable_expedition_info_map() {
-  // @@protoc_insertion_point(field_mutable_map:proto.AvatarExpeditionStartRsp.expedition_info_map)
-  return expedition_info_map_.MutableMap();
-}
-
-// int32 retcode = 10;
-void AvatarExpeditionStartRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 AvatarExpeditionStartRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarExpeditionStartRsp.retcode)
-  return retcode_;
-}
-void AvatarExpeditionStartRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarExpeditionStartRsp.retcode)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarExpeditionCallBackReq::kAvatarGuidFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarExpeditionCallBackReq::AvatarExpeditionCallBackReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarExpeditionCallBackReq)
-}
-AvatarExpeditionCallBackReq::AvatarExpeditionCallBackReq(const AvatarExpeditionCallBackReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      avatar_guid_(from.avatar_guid_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarExpeditionCallBackReq)
-}
-
-void AvatarExpeditionCallBackReq::SharedCtor() {
-  _cached_size_ = 0;
-}
-
-AvatarExpeditionCallBackReq::~AvatarExpeditionCallBackReq() {
-  // @@protoc_insertion_point(destructor:proto.AvatarExpeditionCallBackReq)
-  SharedDtor();
-}
-
-void AvatarExpeditionCallBackReq::SharedDtor() {
-}
-
-void AvatarExpeditionCallBackReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarExpeditionCallBackReq::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarExpeditionCallBackReq& AvatarExpeditionCallBackReq::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarExpeditionCallBackReq* AvatarExpeditionCallBackReq::New(::google::protobuf::Arena* arena) const {
-  AvatarExpeditionCallBackReq* n = new AvatarExpeditionCallBackReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarExpeditionCallBackReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarExpeditionCallBackReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  avatar_guid_.Clear();
-  _internal_metadata_.Clear();
 }
 
 bool AvatarExpeditionCallBackReq::MergePartialFromCodedStream(
@@ -14665,16 +5895,18 @@ bool AvatarExpeditionCallBackReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarExpeditionCallBackReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarExpeditionCallBackReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -14696,9 +5928,9 @@ void AvatarExpeditionCallBackReq::SerializeWithCachedSizes(
       this->avatar_guid(i), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarExpeditionCallBackReq)
 }
@@ -14723,9 +5955,9 @@ void AvatarExpeditionCallBackReq::SerializeWithCachedSizes(
       WriteUInt64NoTagToArray(this->avatar_guid_, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarExpeditionCallBackReq)
   return target;
@@ -14735,10 +5967,10 @@ size_t AvatarExpeditionCallBackReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarExpeditionCallBackReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated uint64 avatar_guid = 14;
   {
@@ -14761,191 +5993,6 @@ size_t AvatarExpeditionCallBackReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarExpeditionCallBackReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarExpeditionCallBackReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarExpeditionCallBackReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarExpeditionCallBackReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarExpeditionCallBackReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarExpeditionCallBackReq)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarExpeditionCallBackReq::MergeFrom(const AvatarExpeditionCallBackReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarExpeditionCallBackReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  avatar_guid_.MergeFrom(from.avatar_guid_);
-}
-
-void AvatarExpeditionCallBackReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarExpeditionCallBackReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarExpeditionCallBackReq::CopyFrom(const AvatarExpeditionCallBackReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarExpeditionCallBackReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarExpeditionCallBackReq::IsInitialized() const {
-  return true;
-}
-
-void AvatarExpeditionCallBackReq::Swap(AvatarExpeditionCallBackReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarExpeditionCallBackReq::InternalSwap(AvatarExpeditionCallBackReq* other) {
-  using std::swap;
-  avatar_guid_.InternalSwap(&other->avatar_guid_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarExpeditionCallBackReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarExpeditionCallBackReq
-
-// repeated uint64 avatar_guid = 14;
-int AvatarExpeditionCallBackReq::avatar_guid_size() const {
-  return avatar_guid_.size();
-}
-void AvatarExpeditionCallBackReq::clear_avatar_guid() {
-  avatar_guid_.Clear();
-}
-::google::protobuf::uint64 AvatarExpeditionCallBackReq::avatar_guid(int index) const {
-  // @@protoc_insertion_point(field_get:proto.AvatarExpeditionCallBackReq.avatar_guid)
-  return avatar_guid_.Get(index);
-}
-void AvatarExpeditionCallBackReq::set_avatar_guid(int index, ::google::protobuf::uint64 value) {
-  avatar_guid_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.AvatarExpeditionCallBackReq.avatar_guid)
-}
-void AvatarExpeditionCallBackReq::add_avatar_guid(::google::protobuf::uint64 value) {
-  avatar_guid_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.AvatarExpeditionCallBackReq.avatar_guid)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint64 >&
-AvatarExpeditionCallBackReq::avatar_guid() const {
-  // @@protoc_insertion_point(field_list:proto.AvatarExpeditionCallBackReq.avatar_guid)
-  return avatar_guid_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint64 >*
-AvatarExpeditionCallBackReq::mutable_avatar_guid() {
-  // @@protoc_insertion_point(field_mutable_list:proto.AvatarExpeditionCallBackReq.avatar_guid)
-  return &avatar_guid_;
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-AvatarExpeditionCallBackRsp::AvatarExpeditionCallBackRsp_ExpeditionInfoMapEntry::AvatarExpeditionCallBackRsp_ExpeditionInfoMapEntry() {}
-AvatarExpeditionCallBackRsp::AvatarExpeditionCallBackRsp_ExpeditionInfoMapEntry::AvatarExpeditionCallBackRsp_ExpeditionInfoMapEntry(::google::protobuf::Arena* arena) : SuperType(arena) {}
-::google::protobuf::Metadata AvatarExpeditionCallBackRsp::AvatarExpeditionCallBackRsp_ExpeditionInfoMapEntry::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[39];
-}
-void AvatarExpeditionCallBackRsp::AvatarExpeditionCallBackRsp_ExpeditionInfoMapEntry::MergeFrom(
-    const ::google::protobuf::Message& other) {
-  ::google::protobuf::Message::MergeFrom(other);
-}
-void AvatarExpeditionCallBackRsp::AvatarExpeditionCallBackRsp_ExpeditionInfoMapEntry::MergeFrom(const AvatarExpeditionCallBackRsp_ExpeditionInfoMapEntry& other) {
-  MergeFromInternal(other);
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarExpeditionCallBackRsp::kExpeditionInfoMapFieldNumber;
-const int AvatarExpeditionCallBackRsp::kRetcodeFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarExpeditionCallBackRsp::AvatarExpeditionCallBackRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarExpeditionCallBackRsp)
-}
-AvatarExpeditionCallBackRsp::AvatarExpeditionCallBackRsp(const AvatarExpeditionCallBackRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  expedition_info_map_.MergeFrom(from.expedition_info_map_);
-  retcode_ = from.retcode_;
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarExpeditionCallBackRsp)
-}
-
-void AvatarExpeditionCallBackRsp::SharedCtor() {
-  retcode_ = 0;
-  _cached_size_ = 0;
-}
-
-AvatarExpeditionCallBackRsp::~AvatarExpeditionCallBackRsp() {
-  // @@protoc_insertion_point(destructor:proto.AvatarExpeditionCallBackRsp)
-  SharedDtor();
-}
-
-void AvatarExpeditionCallBackRsp::SharedDtor() {
-}
-
-void AvatarExpeditionCallBackRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarExpeditionCallBackRsp::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarExpeditionCallBackRsp& AvatarExpeditionCallBackRsp::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarExpeditionCallBackRsp* AvatarExpeditionCallBackRsp::New(::google::protobuf::Arena* arena) const {
-  AvatarExpeditionCallBackRsp* n = new AvatarExpeditionCallBackRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarExpeditionCallBackRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarExpeditionCallBackRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  expedition_info_map_.Clear();
-  retcode_ = 0;
-  _internal_metadata_.Clear();
 }
 
 bool AvatarExpeditionCallBackRsp::MergePartialFromCodedStream(
@@ -14997,16 +6044,18 @@ bool AvatarExpeditionCallBackRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarExpeditionCallBackRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarExpeditionCallBackRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -15061,9 +6110,9 @@ void AvatarExpeditionCallBackRsp::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteInt32(14, this->retcode(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarExpeditionCallBackRsp)
 }
@@ -15123,9 +6172,9 @@ void AvatarExpeditionCallBackRsp::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(14, this->retcode(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarExpeditionCallBackRsp)
   return target;
@@ -15135,10 +6184,10 @@ size_t AvatarExpeditionCallBackRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarExpeditionCallBackRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // map<uint64, .proto.AvatarExpeditionInfo> expedition_info_map = 7;
   total_size += 1 *
@@ -15166,175 +6215,6 @@ size_t AvatarExpeditionCallBackRsp::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarExpeditionCallBackRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarExpeditionCallBackRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarExpeditionCallBackRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarExpeditionCallBackRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarExpeditionCallBackRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarExpeditionCallBackRsp)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarExpeditionCallBackRsp::MergeFrom(const AvatarExpeditionCallBackRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarExpeditionCallBackRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  expedition_info_map_.MergeFrom(from.expedition_info_map_);
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-}
-
-void AvatarExpeditionCallBackRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarExpeditionCallBackRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarExpeditionCallBackRsp::CopyFrom(const AvatarExpeditionCallBackRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarExpeditionCallBackRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarExpeditionCallBackRsp::IsInitialized() const {
-  return true;
-}
-
-void AvatarExpeditionCallBackRsp::Swap(AvatarExpeditionCallBackRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarExpeditionCallBackRsp::InternalSwap(AvatarExpeditionCallBackRsp* other) {
-  using std::swap;
-  expedition_info_map_.Swap(&other->expedition_info_map_);
-  swap(retcode_, other->retcode_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarExpeditionCallBackRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarExpeditionCallBackRsp
-
-// map<uint64, .proto.AvatarExpeditionInfo> expedition_info_map = 7;
-int AvatarExpeditionCallBackRsp::expedition_info_map_size() const {
-  return expedition_info_map_.size();
-}
-void AvatarExpeditionCallBackRsp::clear_expedition_info_map() {
-  expedition_info_map_.Clear();
-}
- const ::google::protobuf::Map< ::google::protobuf::uint64, ::proto::AvatarExpeditionInfo >&
-AvatarExpeditionCallBackRsp::expedition_info_map() const {
-  // @@protoc_insertion_point(field_map:proto.AvatarExpeditionCallBackRsp.expedition_info_map)
-  return expedition_info_map_.GetMap();
-}
- ::google::protobuf::Map< ::google::protobuf::uint64, ::proto::AvatarExpeditionInfo >*
-AvatarExpeditionCallBackRsp::mutable_expedition_info_map() {
-  // @@protoc_insertion_point(field_mutable_map:proto.AvatarExpeditionCallBackRsp.expedition_info_map)
-  return expedition_info_map_.MutableMap();
-}
-
-// int32 retcode = 14;
-void AvatarExpeditionCallBackRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 AvatarExpeditionCallBackRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarExpeditionCallBackRsp.retcode)
-  return retcode_;
-}
-void AvatarExpeditionCallBackRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarExpeditionCallBackRsp.retcode)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarExpeditionGetRewardReq::kAvatarGuidFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarExpeditionGetRewardReq::AvatarExpeditionGetRewardReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarExpeditionGetRewardReq)
-}
-AvatarExpeditionGetRewardReq::AvatarExpeditionGetRewardReq(const AvatarExpeditionGetRewardReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  avatar_guid_ = from.avatar_guid_;
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarExpeditionGetRewardReq)
-}
-
-void AvatarExpeditionGetRewardReq::SharedCtor() {
-  avatar_guid_ = GOOGLE_ULONGLONG(0);
-  _cached_size_ = 0;
-}
-
-AvatarExpeditionGetRewardReq::~AvatarExpeditionGetRewardReq() {
-  // @@protoc_insertion_point(destructor:proto.AvatarExpeditionGetRewardReq)
-  SharedDtor();
-}
-
-void AvatarExpeditionGetRewardReq::SharedDtor() {
-}
-
-void AvatarExpeditionGetRewardReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarExpeditionGetRewardReq::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarExpeditionGetRewardReq& AvatarExpeditionGetRewardReq::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarExpeditionGetRewardReq* AvatarExpeditionGetRewardReq::New(::google::protobuf::Arena* arena) const {
-  AvatarExpeditionGetRewardReq* n = new AvatarExpeditionGetRewardReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarExpeditionGetRewardReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarExpeditionGetRewardReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  avatar_guid_ = GOOGLE_ULONGLONG(0);
-  _internal_metadata_.Clear();
 }
 
 bool AvatarExpeditionGetRewardReq::MergePartialFromCodedStream(
@@ -15367,16 +6247,18 @@ bool AvatarExpeditionGetRewardReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarExpeditionGetRewardReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarExpeditionGetRewardReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -15392,9 +6274,9 @@ void AvatarExpeditionGetRewardReq::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt64(15, this->avatar_guid(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarExpeditionGetRewardReq)
 }
@@ -15411,9 +6293,9 @@ void AvatarExpeditionGetRewardReq::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt64ToArray(15, this->avatar_guid(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarExpeditionGetRewardReq)
   return target;
@@ -15423,10 +6305,10 @@ size_t AvatarExpeditionGetRewardReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarExpeditionGetRewardReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint64 avatar_guid = 15;
   if (this->avatar_guid() != 0) {
@@ -15440,183 +6322,6 @@ size_t AvatarExpeditionGetRewardReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarExpeditionGetRewardReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarExpeditionGetRewardReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarExpeditionGetRewardReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarExpeditionGetRewardReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarExpeditionGetRewardReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarExpeditionGetRewardReq)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarExpeditionGetRewardReq::MergeFrom(const AvatarExpeditionGetRewardReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarExpeditionGetRewardReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.avatar_guid() != 0) {
-    set_avatar_guid(from.avatar_guid());
-  }
-}
-
-void AvatarExpeditionGetRewardReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarExpeditionGetRewardReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarExpeditionGetRewardReq::CopyFrom(const AvatarExpeditionGetRewardReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarExpeditionGetRewardReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarExpeditionGetRewardReq::IsInitialized() const {
-  return true;
-}
-
-void AvatarExpeditionGetRewardReq::Swap(AvatarExpeditionGetRewardReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarExpeditionGetRewardReq::InternalSwap(AvatarExpeditionGetRewardReq* other) {
-  using std::swap;
-  swap(avatar_guid_, other->avatar_guid_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarExpeditionGetRewardReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarExpeditionGetRewardReq
-
-// uint64 avatar_guid = 15;
-void AvatarExpeditionGetRewardReq::clear_avatar_guid() {
-  avatar_guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 AvatarExpeditionGetRewardReq::avatar_guid() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarExpeditionGetRewardReq.avatar_guid)
-  return avatar_guid_;
-}
-void AvatarExpeditionGetRewardReq::set_avatar_guid(::google::protobuf::uint64 value) {
-  
-  avatar_guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarExpeditionGetRewardReq.avatar_guid)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-AvatarExpeditionGetRewardRsp::AvatarExpeditionGetRewardRsp_ExpeditionInfoMapEntry::AvatarExpeditionGetRewardRsp_ExpeditionInfoMapEntry() {}
-AvatarExpeditionGetRewardRsp::AvatarExpeditionGetRewardRsp_ExpeditionInfoMapEntry::AvatarExpeditionGetRewardRsp_ExpeditionInfoMapEntry(::google::protobuf::Arena* arena) : SuperType(arena) {}
-::google::protobuf::Metadata AvatarExpeditionGetRewardRsp::AvatarExpeditionGetRewardRsp_ExpeditionInfoMapEntry::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[42];
-}
-void AvatarExpeditionGetRewardRsp::AvatarExpeditionGetRewardRsp_ExpeditionInfoMapEntry::MergeFrom(
-    const ::google::protobuf::Message& other) {
-  ::google::protobuf::Message::MergeFrom(other);
-}
-void AvatarExpeditionGetRewardRsp::AvatarExpeditionGetRewardRsp_ExpeditionInfoMapEntry::MergeFrom(const AvatarExpeditionGetRewardRsp_ExpeditionInfoMapEntry& other) {
-  MergeFromInternal(other);
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarExpeditionGetRewardRsp::kExtraItemListFieldNumber;
-const int AvatarExpeditionGetRewardRsp::kItemListFieldNumber;
-const int AvatarExpeditionGetRewardRsp::kExpeditionInfoMapFieldNumber;
-const int AvatarExpeditionGetRewardRsp::kRetcodeFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarExpeditionGetRewardRsp::AvatarExpeditionGetRewardRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarExpeditionGetRewardRsp)
-}
-AvatarExpeditionGetRewardRsp::AvatarExpeditionGetRewardRsp(const AvatarExpeditionGetRewardRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      extra_item_list_(from.extra_item_list_),
-      item_list_(from.item_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  expedition_info_map_.MergeFrom(from.expedition_info_map_);
-  retcode_ = from.retcode_;
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarExpeditionGetRewardRsp)
-}
-
-void AvatarExpeditionGetRewardRsp::SharedCtor() {
-  retcode_ = 0;
-  _cached_size_ = 0;
-}
-
-AvatarExpeditionGetRewardRsp::~AvatarExpeditionGetRewardRsp() {
-  // @@protoc_insertion_point(destructor:proto.AvatarExpeditionGetRewardRsp)
-  SharedDtor();
-}
-
-void AvatarExpeditionGetRewardRsp::SharedDtor() {
-}
-
-void AvatarExpeditionGetRewardRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarExpeditionGetRewardRsp::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarExpeditionGetRewardRsp& AvatarExpeditionGetRewardRsp::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarExpeditionGetRewardRsp* AvatarExpeditionGetRewardRsp::New(::google::protobuf::Arena* arena) const {
-  AvatarExpeditionGetRewardRsp* n = new AvatarExpeditionGetRewardRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarExpeditionGetRewardRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarExpeditionGetRewardRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  expedition_info_map_.Clear();
-  extra_item_list_.Clear();
-  item_list_.Clear();
-  retcode_ = 0;
-  _internal_metadata_.Clear();
 }
 
 bool AvatarExpeditionGetRewardRsp::MergePartialFromCodedStream(
@@ -15692,16 +6397,18 @@ bool AvatarExpeditionGetRewardRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarExpeditionGetRewardRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarExpeditionGetRewardRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -15770,9 +6477,9 @@ void AvatarExpeditionGetRewardRsp::SerializeWithCachedSizes(
       14, this->item_list(static_cast<int>(i)), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarExpeditionGetRewardRsp)
 }
@@ -15848,9 +6555,9 @@ void AvatarExpeditionGetRewardRsp::SerializeWithCachedSizes(
         14, this->item_list(static_cast<int>(i)), deterministic, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarExpeditionGetRewardRsp)
   return target;
@@ -15860,10 +6567,10 @@ size_t AvatarExpeditionGetRewardRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarExpeditionGetRewardRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // map<uint64, .proto.AvatarExpeditionInfo> expedition_info_map = 4;
   total_size += 1 *
@@ -15915,242 +6622,6 @@ size_t AvatarExpeditionGetRewardRsp::ByteSizeLong() const {
   return total_size;
 }
 
-void AvatarExpeditionGetRewardRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarExpeditionGetRewardRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarExpeditionGetRewardRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarExpeditionGetRewardRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarExpeditionGetRewardRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarExpeditionGetRewardRsp)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarExpeditionGetRewardRsp::MergeFrom(const AvatarExpeditionGetRewardRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarExpeditionGetRewardRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  expedition_info_map_.MergeFrom(from.expedition_info_map_);
-  extra_item_list_.MergeFrom(from.extra_item_list_);
-  item_list_.MergeFrom(from.item_list_);
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-}
-
-void AvatarExpeditionGetRewardRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarExpeditionGetRewardRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarExpeditionGetRewardRsp::CopyFrom(const AvatarExpeditionGetRewardRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarExpeditionGetRewardRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarExpeditionGetRewardRsp::IsInitialized() const {
-  return true;
-}
-
-void AvatarExpeditionGetRewardRsp::Swap(AvatarExpeditionGetRewardRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarExpeditionGetRewardRsp::InternalSwap(AvatarExpeditionGetRewardRsp* other) {
-  using std::swap;
-  expedition_info_map_.Swap(&other->expedition_info_map_);
-  extra_item_list_.InternalSwap(&other->extra_item_list_);
-  item_list_.InternalSwap(&other->item_list_);
-  swap(retcode_, other->retcode_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarExpeditionGetRewardRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarExpeditionGetRewardRsp
-
-// repeated .proto.ItemParam extra_item_list = 10;
-int AvatarExpeditionGetRewardRsp::extra_item_list_size() const {
-  return extra_item_list_.size();
-}
-void AvatarExpeditionGetRewardRsp::clear_extra_item_list() {
-  extra_item_list_.Clear();
-}
-const ::proto::ItemParam& AvatarExpeditionGetRewardRsp::extra_item_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.AvatarExpeditionGetRewardRsp.extra_item_list)
-  return extra_item_list_.Get(index);
-}
-::proto::ItemParam* AvatarExpeditionGetRewardRsp::mutable_extra_item_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.AvatarExpeditionGetRewardRsp.extra_item_list)
-  return extra_item_list_.Mutable(index);
-}
-::proto::ItemParam* AvatarExpeditionGetRewardRsp::add_extra_item_list() {
-  // @@protoc_insertion_point(field_add:proto.AvatarExpeditionGetRewardRsp.extra_item_list)
-  return extra_item_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::ItemParam >*
-AvatarExpeditionGetRewardRsp::mutable_extra_item_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.AvatarExpeditionGetRewardRsp.extra_item_list)
-  return &extra_item_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::ItemParam >&
-AvatarExpeditionGetRewardRsp::extra_item_list() const {
-  // @@protoc_insertion_point(field_list:proto.AvatarExpeditionGetRewardRsp.extra_item_list)
-  return extra_item_list_;
-}
-
-// repeated .proto.ItemParam item_list = 14;
-int AvatarExpeditionGetRewardRsp::item_list_size() const {
-  return item_list_.size();
-}
-void AvatarExpeditionGetRewardRsp::clear_item_list() {
-  item_list_.Clear();
-}
-const ::proto::ItemParam& AvatarExpeditionGetRewardRsp::item_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.AvatarExpeditionGetRewardRsp.item_list)
-  return item_list_.Get(index);
-}
-::proto::ItemParam* AvatarExpeditionGetRewardRsp::mutable_item_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.AvatarExpeditionGetRewardRsp.item_list)
-  return item_list_.Mutable(index);
-}
-::proto::ItemParam* AvatarExpeditionGetRewardRsp::add_item_list() {
-  // @@protoc_insertion_point(field_add:proto.AvatarExpeditionGetRewardRsp.item_list)
-  return item_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::ItemParam >*
-AvatarExpeditionGetRewardRsp::mutable_item_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.AvatarExpeditionGetRewardRsp.item_list)
-  return &item_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::ItemParam >&
-AvatarExpeditionGetRewardRsp::item_list() const {
-  // @@protoc_insertion_point(field_list:proto.AvatarExpeditionGetRewardRsp.item_list)
-  return item_list_;
-}
-
-// map<uint64, .proto.AvatarExpeditionInfo> expedition_info_map = 4;
-int AvatarExpeditionGetRewardRsp::expedition_info_map_size() const {
-  return expedition_info_map_.size();
-}
-void AvatarExpeditionGetRewardRsp::clear_expedition_info_map() {
-  expedition_info_map_.Clear();
-}
- const ::google::protobuf::Map< ::google::protobuf::uint64, ::proto::AvatarExpeditionInfo >&
-AvatarExpeditionGetRewardRsp::expedition_info_map() const {
-  // @@protoc_insertion_point(field_map:proto.AvatarExpeditionGetRewardRsp.expedition_info_map)
-  return expedition_info_map_.GetMap();
-}
- ::google::protobuf::Map< ::google::protobuf::uint64, ::proto::AvatarExpeditionInfo >*
-AvatarExpeditionGetRewardRsp::mutable_expedition_info_map() {
-  // @@protoc_insertion_point(field_mutable_map:proto.AvatarExpeditionGetRewardRsp.expedition_info_map)
-  return expedition_info_map_.MutableMap();
-}
-
-// int32 retcode = 9;
-void AvatarExpeditionGetRewardRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 AvatarExpeditionGetRewardRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarExpeditionGetRewardRsp.retcode)
-  return retcode_;
-}
-void AvatarExpeditionGetRewardRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarExpeditionGetRewardRsp.retcode)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int ChangeMpTeamAvatarReq::kCurAvatarGuidFieldNumber;
-const int ChangeMpTeamAvatarReq::kAvatarGuidListFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-ChangeMpTeamAvatarReq::ChangeMpTeamAvatarReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.ChangeMpTeamAvatarReq)
-}
-ChangeMpTeamAvatarReq::ChangeMpTeamAvatarReq(const ChangeMpTeamAvatarReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      avatar_guid_list_(from.avatar_guid_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  cur_avatar_guid_ = from.cur_avatar_guid_;
-  // @@protoc_insertion_point(copy_constructor:proto.ChangeMpTeamAvatarReq)
-}
-
-void ChangeMpTeamAvatarReq::SharedCtor() {
-  cur_avatar_guid_ = GOOGLE_ULONGLONG(0);
-  _cached_size_ = 0;
-}
-
-ChangeMpTeamAvatarReq::~ChangeMpTeamAvatarReq() {
-  // @@protoc_insertion_point(destructor:proto.ChangeMpTeamAvatarReq)
-  SharedDtor();
-}
-
-void ChangeMpTeamAvatarReq::SharedDtor() {
-}
-
-void ChangeMpTeamAvatarReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* ChangeMpTeamAvatarReq::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const ChangeMpTeamAvatarReq& ChangeMpTeamAvatarReq::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-ChangeMpTeamAvatarReq* ChangeMpTeamAvatarReq::New(::google::protobuf::Arena* arena) const {
-  ChangeMpTeamAvatarReq* n = new ChangeMpTeamAvatarReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void ChangeMpTeamAvatarReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.ChangeMpTeamAvatarReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  avatar_guid_list_.Clear();
-  cur_avatar_guid_ = GOOGLE_ULONGLONG(0);
-  _internal_metadata_.Clear();
-}
-
 bool ChangeMpTeamAvatarReq::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -16200,16 +6671,18 @@ bool ChangeMpTeamAvatarReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.ChangeMpTeamAvatarReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.ChangeMpTeamAvatarReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -16236,9 +6709,9 @@ void ChangeMpTeamAvatarReq::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt64(8, this->cur_avatar_guid(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.ChangeMpTeamAvatarReq)
 }
@@ -16268,9 +6741,9 @@ void ChangeMpTeamAvatarReq::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt64ToArray(8, this->cur_avatar_guid(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.ChangeMpTeamAvatarReq)
   return target;
@@ -16280,10 +6753,10 @@ size_t ChangeMpTeamAvatarReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.ChangeMpTeamAvatarReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated uint64 avatar_guid_list = 2;
   {
@@ -16313,197 +6786,6 @@ size_t ChangeMpTeamAvatarReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void ChangeMpTeamAvatarReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.ChangeMpTeamAvatarReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const ChangeMpTeamAvatarReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const ChangeMpTeamAvatarReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.ChangeMpTeamAvatarReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.ChangeMpTeamAvatarReq)
-    MergeFrom(*source);
-  }
-}
-
-void ChangeMpTeamAvatarReq::MergeFrom(const ChangeMpTeamAvatarReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.ChangeMpTeamAvatarReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  avatar_guid_list_.MergeFrom(from.avatar_guid_list_);
-  if (from.cur_avatar_guid() != 0) {
-    set_cur_avatar_guid(from.cur_avatar_guid());
-  }
-}
-
-void ChangeMpTeamAvatarReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.ChangeMpTeamAvatarReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void ChangeMpTeamAvatarReq::CopyFrom(const ChangeMpTeamAvatarReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.ChangeMpTeamAvatarReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool ChangeMpTeamAvatarReq::IsInitialized() const {
-  return true;
-}
-
-void ChangeMpTeamAvatarReq::Swap(ChangeMpTeamAvatarReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void ChangeMpTeamAvatarReq::InternalSwap(ChangeMpTeamAvatarReq* other) {
-  using std::swap;
-  avatar_guid_list_.InternalSwap(&other->avatar_guid_list_);
-  swap(cur_avatar_guid_, other->cur_avatar_guid_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata ChangeMpTeamAvatarReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// ChangeMpTeamAvatarReq
-
-// uint64 cur_avatar_guid = 8;
-void ChangeMpTeamAvatarReq::clear_cur_avatar_guid() {
-  cur_avatar_guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 ChangeMpTeamAvatarReq::cur_avatar_guid() const {
-  // @@protoc_insertion_point(field_get:proto.ChangeMpTeamAvatarReq.cur_avatar_guid)
-  return cur_avatar_guid_;
-}
-void ChangeMpTeamAvatarReq::set_cur_avatar_guid(::google::protobuf::uint64 value) {
-  
-  cur_avatar_guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.ChangeMpTeamAvatarReq.cur_avatar_guid)
-}
-
-// repeated uint64 avatar_guid_list = 2;
-int ChangeMpTeamAvatarReq::avatar_guid_list_size() const {
-  return avatar_guid_list_.size();
-}
-void ChangeMpTeamAvatarReq::clear_avatar_guid_list() {
-  avatar_guid_list_.Clear();
-}
-::google::protobuf::uint64 ChangeMpTeamAvatarReq::avatar_guid_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.ChangeMpTeamAvatarReq.avatar_guid_list)
-  return avatar_guid_list_.Get(index);
-}
-void ChangeMpTeamAvatarReq::set_avatar_guid_list(int index, ::google::protobuf::uint64 value) {
-  avatar_guid_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.ChangeMpTeamAvatarReq.avatar_guid_list)
-}
-void ChangeMpTeamAvatarReq::add_avatar_guid_list(::google::protobuf::uint64 value) {
-  avatar_guid_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.ChangeMpTeamAvatarReq.avatar_guid_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint64 >&
-ChangeMpTeamAvatarReq::avatar_guid_list() const {
-  // @@protoc_insertion_point(field_list:proto.ChangeMpTeamAvatarReq.avatar_guid_list)
-  return avatar_guid_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint64 >*
-ChangeMpTeamAvatarReq::mutable_avatar_guid_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.ChangeMpTeamAvatarReq.avatar_guid_list)
-  return &avatar_guid_list_;
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int ChangeMpTeamAvatarRsp::kRetcodeFieldNumber;
-const int ChangeMpTeamAvatarRsp::kAvatarGuidListFieldNumber;
-const int ChangeMpTeamAvatarRsp::kCurAvatarGuidFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-ChangeMpTeamAvatarRsp::ChangeMpTeamAvatarRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.ChangeMpTeamAvatarRsp)
-}
-ChangeMpTeamAvatarRsp::ChangeMpTeamAvatarRsp(const ChangeMpTeamAvatarRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      avatar_guid_list_(from.avatar_guid_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&retcode_, &from.retcode_,
-    static_cast<size_t>(reinterpret_cast<char*>(&cur_avatar_guid_) -
-    reinterpret_cast<char*>(&retcode_)) + sizeof(cur_avatar_guid_));
-  // @@protoc_insertion_point(copy_constructor:proto.ChangeMpTeamAvatarRsp)
-}
-
-void ChangeMpTeamAvatarRsp::SharedCtor() {
-  ::memset(&retcode_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&cur_avatar_guid_) -
-      reinterpret_cast<char*>(&retcode_)) + sizeof(cur_avatar_guid_));
-  _cached_size_ = 0;
-}
-
-ChangeMpTeamAvatarRsp::~ChangeMpTeamAvatarRsp() {
-  // @@protoc_insertion_point(destructor:proto.ChangeMpTeamAvatarRsp)
-  SharedDtor();
-}
-
-void ChangeMpTeamAvatarRsp::SharedDtor() {
-}
-
-void ChangeMpTeamAvatarRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* ChangeMpTeamAvatarRsp::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const ChangeMpTeamAvatarRsp& ChangeMpTeamAvatarRsp::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-ChangeMpTeamAvatarRsp* ChangeMpTeamAvatarRsp::New(::google::protobuf::Arena* arena) const {
-  ChangeMpTeamAvatarRsp* n = new ChangeMpTeamAvatarRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void ChangeMpTeamAvatarRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.ChangeMpTeamAvatarRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  avatar_guid_list_.Clear();
-  ::memset(&retcode_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&cur_avatar_guid_) -
-      reinterpret_cast<char*>(&retcode_)) + sizeof(cur_avatar_guid_));
-  _internal_metadata_.Clear();
 }
 
 bool ChangeMpTeamAvatarRsp::MergePartialFromCodedStream(
@@ -16569,16 +6851,18 @@ bool ChangeMpTeamAvatarRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.ChangeMpTeamAvatarRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.ChangeMpTeamAvatarRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -16610,9 +6894,9 @@ void ChangeMpTeamAvatarRsp::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt64(12, this->cur_avatar_guid(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.ChangeMpTeamAvatarRsp)
 }
@@ -16647,9 +6931,9 @@ void ChangeMpTeamAvatarRsp::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt64ToArray(12, this->cur_avatar_guid(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.ChangeMpTeamAvatarRsp)
   return target;
@@ -16659,10 +6943,10 @@ size_t ChangeMpTeamAvatarRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.ChangeMpTeamAvatarRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated uint64 avatar_guid_list = 10;
   {
@@ -16699,213 +6983,6 @@ size_t ChangeMpTeamAvatarRsp::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void ChangeMpTeamAvatarRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.ChangeMpTeamAvatarRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const ChangeMpTeamAvatarRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const ChangeMpTeamAvatarRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.ChangeMpTeamAvatarRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.ChangeMpTeamAvatarRsp)
-    MergeFrom(*source);
-  }
-}
-
-void ChangeMpTeamAvatarRsp::MergeFrom(const ChangeMpTeamAvatarRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.ChangeMpTeamAvatarRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  avatar_guid_list_.MergeFrom(from.avatar_guid_list_);
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-  if (from.cur_avatar_guid() != 0) {
-    set_cur_avatar_guid(from.cur_avatar_guid());
-  }
-}
-
-void ChangeMpTeamAvatarRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.ChangeMpTeamAvatarRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void ChangeMpTeamAvatarRsp::CopyFrom(const ChangeMpTeamAvatarRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.ChangeMpTeamAvatarRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool ChangeMpTeamAvatarRsp::IsInitialized() const {
-  return true;
-}
-
-void ChangeMpTeamAvatarRsp::Swap(ChangeMpTeamAvatarRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void ChangeMpTeamAvatarRsp::InternalSwap(ChangeMpTeamAvatarRsp* other) {
-  using std::swap;
-  avatar_guid_list_.InternalSwap(&other->avatar_guid_list_);
-  swap(retcode_, other->retcode_);
-  swap(cur_avatar_guid_, other->cur_avatar_guid_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata ChangeMpTeamAvatarRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// ChangeMpTeamAvatarRsp
-
-// int32 retcode = 1;
-void ChangeMpTeamAvatarRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 ChangeMpTeamAvatarRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.ChangeMpTeamAvatarRsp.retcode)
-  return retcode_;
-}
-void ChangeMpTeamAvatarRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.ChangeMpTeamAvatarRsp.retcode)
-}
-
-// repeated uint64 avatar_guid_list = 10;
-int ChangeMpTeamAvatarRsp::avatar_guid_list_size() const {
-  return avatar_guid_list_.size();
-}
-void ChangeMpTeamAvatarRsp::clear_avatar_guid_list() {
-  avatar_guid_list_.Clear();
-}
-::google::protobuf::uint64 ChangeMpTeamAvatarRsp::avatar_guid_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.ChangeMpTeamAvatarRsp.avatar_guid_list)
-  return avatar_guid_list_.Get(index);
-}
-void ChangeMpTeamAvatarRsp::set_avatar_guid_list(int index, ::google::protobuf::uint64 value) {
-  avatar_guid_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.ChangeMpTeamAvatarRsp.avatar_guid_list)
-}
-void ChangeMpTeamAvatarRsp::add_avatar_guid_list(::google::protobuf::uint64 value) {
-  avatar_guid_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.ChangeMpTeamAvatarRsp.avatar_guid_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint64 >&
-ChangeMpTeamAvatarRsp::avatar_guid_list() const {
-  // @@protoc_insertion_point(field_list:proto.ChangeMpTeamAvatarRsp.avatar_guid_list)
-  return avatar_guid_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint64 >*
-ChangeMpTeamAvatarRsp::mutable_avatar_guid_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.ChangeMpTeamAvatarRsp.avatar_guid_list)
-  return &avatar_guid_list_;
-}
-
-// uint64 cur_avatar_guid = 12;
-void ChangeMpTeamAvatarRsp::clear_cur_avatar_guid() {
-  cur_avatar_guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 ChangeMpTeamAvatarRsp::cur_avatar_guid() const {
-  // @@protoc_insertion_point(field_get:proto.ChangeMpTeamAvatarRsp.cur_avatar_guid)
-  return cur_avatar_guid_;
-}
-void ChangeMpTeamAvatarRsp::set_cur_avatar_guid(::google::protobuf::uint64 value) {
-  
-  cur_avatar_guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.ChangeMpTeamAvatarRsp.cur_avatar_guid)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int ChangeTeamNameReq::kTeamIdFieldNumber;
-const int ChangeTeamNameReq::kTeamNameFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-ChangeTeamNameReq::ChangeTeamNameReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.ChangeTeamNameReq)
-}
-ChangeTeamNameReq::ChangeTeamNameReq(const ChangeTeamNameReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  team_name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  if (from.team_name().size() > 0) {
-    team_name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.team_name_);
-  }
-  team_id_ = from.team_id_;
-  // @@protoc_insertion_point(copy_constructor:proto.ChangeTeamNameReq)
-}
-
-void ChangeTeamNameReq::SharedCtor() {
-  team_name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  team_id_ = 0;
-  _cached_size_ = 0;
-}
-
-ChangeTeamNameReq::~ChangeTeamNameReq() {
-  // @@protoc_insertion_point(destructor:proto.ChangeTeamNameReq)
-  SharedDtor();
-}
-
-void ChangeTeamNameReq::SharedDtor() {
-  team_name_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-
-void ChangeTeamNameReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* ChangeTeamNameReq::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const ChangeTeamNameReq& ChangeTeamNameReq::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-ChangeTeamNameReq* ChangeTeamNameReq::New(::google::protobuf::Arena* arena) const {
-  ChangeTeamNameReq* n = new ChangeTeamNameReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void ChangeTeamNameReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.ChangeTeamNameReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  team_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  team_id_ = 0;
-  _internal_metadata_.Clear();
 }
 
 bool ChangeTeamNameReq::MergePartialFromCodedStream(
@@ -16954,16 +7031,18 @@ bool ChangeTeamNameReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.ChangeTeamNameReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.ChangeTeamNameReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -16989,9 +7068,9 @@ void ChangeTeamNameReq::SerializeWithCachedSizes(
       8, this->team_name(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.ChangeTeamNameReq)
 }
@@ -17019,9 +7098,9 @@ void ChangeTeamNameReq::SerializeWithCachedSizes(
         8, this->team_name(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.ChangeTeamNameReq)
   return target;
@@ -17031,10 +7110,10 @@ size_t ChangeTeamNameReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.ChangeTeamNameReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // string team_name = 8;
   if (this->team_name().size() > 0) {
@@ -17055,228 +7134,6 @@ size_t ChangeTeamNameReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void ChangeTeamNameReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.ChangeTeamNameReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const ChangeTeamNameReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const ChangeTeamNameReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.ChangeTeamNameReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.ChangeTeamNameReq)
-    MergeFrom(*source);
-  }
-}
-
-void ChangeTeamNameReq::MergeFrom(const ChangeTeamNameReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.ChangeTeamNameReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.team_name().size() > 0) {
-
-    team_name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.team_name_);
-  }
-  if (from.team_id() != 0) {
-    set_team_id(from.team_id());
-  }
-}
-
-void ChangeTeamNameReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.ChangeTeamNameReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void ChangeTeamNameReq::CopyFrom(const ChangeTeamNameReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.ChangeTeamNameReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool ChangeTeamNameReq::IsInitialized() const {
-  return true;
-}
-
-void ChangeTeamNameReq::Swap(ChangeTeamNameReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void ChangeTeamNameReq::InternalSwap(ChangeTeamNameReq* other) {
-  using std::swap;
-  team_name_.Swap(&other->team_name_);
-  swap(team_id_, other->team_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata ChangeTeamNameReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// ChangeTeamNameReq
-
-// int32 team_id = 1;
-void ChangeTeamNameReq::clear_team_id() {
-  team_id_ = 0;
-}
-::google::protobuf::int32 ChangeTeamNameReq::team_id() const {
-  // @@protoc_insertion_point(field_get:proto.ChangeTeamNameReq.team_id)
-  return team_id_;
-}
-void ChangeTeamNameReq::set_team_id(::google::protobuf::int32 value) {
-  
-  team_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.ChangeTeamNameReq.team_id)
-}
-
-// string team_name = 8;
-void ChangeTeamNameReq::clear_team_name() {
-  team_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-const ::std::string& ChangeTeamNameReq::team_name() const {
-  // @@protoc_insertion_point(field_get:proto.ChangeTeamNameReq.team_name)
-  return team_name_.GetNoArena();
-}
-void ChangeTeamNameReq::set_team_name(const ::std::string& value) {
-  
-  team_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
-  // @@protoc_insertion_point(field_set:proto.ChangeTeamNameReq.team_name)
-}
-#if LANG_CXX11
-void ChangeTeamNameReq::set_team_name(::std::string&& value) {
-  
-  team_name_.SetNoArena(
-    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
-  // @@protoc_insertion_point(field_set_rvalue:proto.ChangeTeamNameReq.team_name)
-}
-#endif
-void ChangeTeamNameReq::set_team_name(const char* value) {
-  GOOGLE_DCHECK(value != NULL);
-  
-  team_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
-  // @@protoc_insertion_point(field_set_char:proto.ChangeTeamNameReq.team_name)
-}
-void ChangeTeamNameReq::set_team_name(const char* value, size_t size) {
-  
-  team_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
-      ::std::string(reinterpret_cast<const char*>(value), size));
-  // @@protoc_insertion_point(field_set_pointer:proto.ChangeTeamNameReq.team_name)
-}
-::std::string* ChangeTeamNameReq::mutable_team_name() {
-  
-  // @@protoc_insertion_point(field_mutable:proto.ChangeTeamNameReq.team_name)
-  return team_name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-::std::string* ChangeTeamNameReq::release_team_name() {
-  // @@protoc_insertion_point(field_release:proto.ChangeTeamNameReq.team_name)
-  
-  return team_name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-void ChangeTeamNameReq::set_allocated_team_name(::std::string* team_name) {
-  if (team_name != NULL) {
-    
-  } else {
-    
-  }
-  team_name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), team_name);
-  // @@protoc_insertion_point(field_set_allocated:proto.ChangeTeamNameReq.team_name)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int ChangeTeamNameRsp::kRetcodeFieldNumber;
-const int ChangeTeamNameRsp::kTeamNameFieldNumber;
-const int ChangeTeamNameRsp::kTeamIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-ChangeTeamNameRsp::ChangeTeamNameRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.ChangeTeamNameRsp)
-}
-ChangeTeamNameRsp::ChangeTeamNameRsp(const ChangeTeamNameRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  team_name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  if (from.team_name().size() > 0) {
-    team_name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.team_name_);
-  }
-  ::memcpy(&team_id_, &from.team_id_,
-    static_cast<size_t>(reinterpret_cast<char*>(&retcode_) -
-    reinterpret_cast<char*>(&team_id_)) + sizeof(retcode_));
-  // @@protoc_insertion_point(copy_constructor:proto.ChangeTeamNameRsp)
-}
-
-void ChangeTeamNameRsp::SharedCtor() {
-  team_name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  ::memset(&team_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&retcode_) -
-      reinterpret_cast<char*>(&team_id_)) + sizeof(retcode_));
-  _cached_size_ = 0;
-}
-
-ChangeTeamNameRsp::~ChangeTeamNameRsp() {
-  // @@protoc_insertion_point(destructor:proto.ChangeTeamNameRsp)
-  SharedDtor();
-}
-
-void ChangeTeamNameRsp::SharedDtor() {
-  team_name_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-
-void ChangeTeamNameRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* ChangeTeamNameRsp::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const ChangeTeamNameRsp& ChangeTeamNameRsp::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-ChangeTeamNameRsp* ChangeTeamNameRsp::New(::google::protobuf::Arena* arena) const {
-  ChangeTeamNameRsp* n = new ChangeTeamNameRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void ChangeTeamNameRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.ChangeTeamNameRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  team_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  ::memset(&team_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&retcode_) -
-      reinterpret_cast<char*>(&team_id_)) + sizeof(retcode_));
-  _internal_metadata_.Clear();
 }
 
 bool ChangeTeamNameRsp::MergePartialFromCodedStream(
@@ -17339,16 +7196,18 @@ bool ChangeTeamNameRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.ChangeTeamNameRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.ChangeTeamNameRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -17379,9 +7238,9 @@ void ChangeTeamNameRsp::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteInt32(14, this->retcode(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.ChangeTeamNameRsp)
 }
@@ -17414,9 +7273,9 @@ void ChangeTeamNameRsp::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(14, this->retcode(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.ChangeTeamNameRsp)
   return target;
@@ -17426,10 +7285,10 @@ size_t ChangeTeamNameRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.ChangeTeamNameRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // string team_name = 2;
   if (this->team_name().size() > 0) {
@@ -17457,314 +7316,6 @@ size_t ChangeTeamNameRsp::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void ChangeTeamNameRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.ChangeTeamNameRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const ChangeTeamNameRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const ChangeTeamNameRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.ChangeTeamNameRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.ChangeTeamNameRsp)
-    MergeFrom(*source);
-  }
-}
-
-void ChangeTeamNameRsp::MergeFrom(const ChangeTeamNameRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.ChangeTeamNameRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.team_name().size() > 0) {
-
-    team_name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.team_name_);
-  }
-  if (from.team_id() != 0) {
-    set_team_id(from.team_id());
-  }
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-}
-
-void ChangeTeamNameRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.ChangeTeamNameRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void ChangeTeamNameRsp::CopyFrom(const ChangeTeamNameRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.ChangeTeamNameRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool ChangeTeamNameRsp::IsInitialized() const {
-  return true;
-}
-
-void ChangeTeamNameRsp::Swap(ChangeTeamNameRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void ChangeTeamNameRsp::InternalSwap(ChangeTeamNameRsp* other) {
-  using std::swap;
-  team_name_.Swap(&other->team_name_);
-  swap(team_id_, other->team_id_);
-  swap(retcode_, other->retcode_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata ChangeTeamNameRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// ChangeTeamNameRsp
-
-// int32 retcode = 14;
-void ChangeTeamNameRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 ChangeTeamNameRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.ChangeTeamNameRsp.retcode)
-  return retcode_;
-}
-void ChangeTeamNameRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.ChangeTeamNameRsp.retcode)
-}
-
-// string team_name = 2;
-void ChangeTeamNameRsp::clear_team_name() {
-  team_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-const ::std::string& ChangeTeamNameRsp::team_name() const {
-  // @@protoc_insertion_point(field_get:proto.ChangeTeamNameRsp.team_name)
-  return team_name_.GetNoArena();
-}
-void ChangeTeamNameRsp::set_team_name(const ::std::string& value) {
-  
-  team_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
-  // @@protoc_insertion_point(field_set:proto.ChangeTeamNameRsp.team_name)
-}
-#if LANG_CXX11
-void ChangeTeamNameRsp::set_team_name(::std::string&& value) {
-  
-  team_name_.SetNoArena(
-    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
-  // @@protoc_insertion_point(field_set_rvalue:proto.ChangeTeamNameRsp.team_name)
-}
-#endif
-void ChangeTeamNameRsp::set_team_name(const char* value) {
-  GOOGLE_DCHECK(value != NULL);
-  
-  team_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
-  // @@protoc_insertion_point(field_set_char:proto.ChangeTeamNameRsp.team_name)
-}
-void ChangeTeamNameRsp::set_team_name(const char* value, size_t size) {
-  
-  team_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
-      ::std::string(reinterpret_cast<const char*>(value), size));
-  // @@protoc_insertion_point(field_set_pointer:proto.ChangeTeamNameRsp.team_name)
-}
-::std::string* ChangeTeamNameRsp::mutable_team_name() {
-  
-  // @@protoc_insertion_point(field_mutable:proto.ChangeTeamNameRsp.team_name)
-  return team_name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-::std::string* ChangeTeamNameRsp::release_team_name() {
-  // @@protoc_insertion_point(field_release:proto.ChangeTeamNameRsp.team_name)
-  
-  return team_name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-void ChangeTeamNameRsp::set_allocated_team_name(::std::string* team_name) {
-  if (team_name != NULL) {
-    
-  } else {
-    
-  }
-  team_name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), team_name);
-  // @@protoc_insertion_point(field_set_allocated:proto.ChangeTeamNameRsp.team_name)
-}
-
-// int32 team_id = 3;
-void ChangeTeamNameRsp::clear_team_id() {
-  team_id_ = 0;
-}
-::google::protobuf::int32 ChangeTeamNameRsp::team_id() const {
-  // @@protoc_insertion_point(field_get:proto.ChangeTeamNameRsp.team_id)
-  return team_id_;
-}
-void ChangeTeamNameRsp::set_team_id(::google::protobuf::int32 value) {
-  
-  team_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.ChangeTeamNameRsp.team_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int SceneTeamAvatar::kAvatarAbilityInfoFieldNumber;
-const int SceneTeamAvatar::kAvatarInfoFieldNumber;
-const int SceneTeamAvatar::kIsOnSceneFieldNumber;
-const int SceneTeamAvatar::kEntityIdFieldNumber;
-const int SceneTeamAvatar::kAvatarGuidFieldNumber;
-const int SceneTeamAvatar::kSceneIdFieldNumber;
-const int SceneTeamAvatar::kWeaponEntityIdFieldNumber;
-const int SceneTeamAvatar::kSceneAvatarInfoFieldNumber;
-const int SceneTeamAvatar::kWeaponGuidFieldNumber;
-const int SceneTeamAvatar::kWeaponAbilityInfoFieldNumber;
-const int SceneTeamAvatar::kSceneEntityInfoFieldNumber;
-const int SceneTeamAvatar::kPlayerUidFieldNumber;
-const int SceneTeamAvatar::kIsReconnectFieldNumber;
-const int SceneTeamAvatar::kAbilityControlBlockFieldNumber;
-const int SceneTeamAvatar::kIsPlayerCurAvatarFieldNumber;
-const int SceneTeamAvatar::kServerBuffListFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-SceneTeamAvatar::SceneTeamAvatar()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.SceneTeamAvatar)
-}
-SceneTeamAvatar::SceneTeamAvatar(const SceneTeamAvatar& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      server_buff_list_(from.server_buff_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  if (from.has_scene_entity_info()) {
-    scene_entity_info_ = new ::proto::SceneEntityInfo(*from.scene_entity_info_);
-  } else {
-    scene_entity_info_ = NULL;
-  }
-  if (from.has_avatar_info()) {
-    avatar_info_ = new ::proto::AvatarInfo(*from.avatar_info_);
-  } else {
-    avatar_info_ = NULL;
-  }
-  if (from.has_scene_avatar_info()) {
-    scene_avatar_info_ = new ::proto::SceneAvatarInfo(*from.scene_avatar_info_);
-  } else {
-    scene_avatar_info_ = NULL;
-  }
-  if (from.has_weapon_ability_info()) {
-    weapon_ability_info_ = new ::proto::AbilitySyncStateInfo(*from.weapon_ability_info_);
-  } else {
-    weapon_ability_info_ = NULL;
-  }
-  if (from.has_ability_control_block()) {
-    ability_control_block_ = new ::proto::AbilityControlBlock(*from.ability_control_block_);
-  } else {
-    ability_control_block_ = NULL;
-  }
-  if (from.has_avatar_ability_info()) {
-    avatar_ability_info_ = new ::proto::AbilitySyncStateInfo(*from.avatar_ability_info_);
-  } else {
-    avatar_ability_info_ = NULL;
-  }
-  ::memcpy(&weapon_guid_, &from.weapon_guid_,
-    static_cast<size_t>(reinterpret_cast<char*>(&is_player_cur_avatar_) -
-    reinterpret_cast<char*>(&weapon_guid_)) + sizeof(is_player_cur_avatar_));
-  // @@protoc_insertion_point(copy_constructor:proto.SceneTeamAvatar)
-}
-
-void SceneTeamAvatar::SharedCtor() {
-  ::memset(&scene_entity_info_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&is_player_cur_avatar_) -
-      reinterpret_cast<char*>(&scene_entity_info_)) + sizeof(is_player_cur_avatar_));
-  _cached_size_ = 0;
-}
-
-SceneTeamAvatar::~SceneTeamAvatar() {
-  // @@protoc_insertion_point(destructor:proto.SceneTeamAvatar)
-  SharedDtor();
-}
-
-void SceneTeamAvatar::SharedDtor() {
-  if (this != internal_default_instance()) delete scene_entity_info_;
-  if (this != internal_default_instance()) delete avatar_info_;
-  if (this != internal_default_instance()) delete scene_avatar_info_;
-  if (this != internal_default_instance()) delete weapon_ability_info_;
-  if (this != internal_default_instance()) delete ability_control_block_;
-  if (this != internal_default_instance()) delete avatar_ability_info_;
-}
-
-void SceneTeamAvatar::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* SceneTeamAvatar::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const SceneTeamAvatar& SceneTeamAvatar::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-SceneTeamAvatar* SceneTeamAvatar::New(::google::protobuf::Arena* arena) const {
-  SceneTeamAvatar* n = new SceneTeamAvatar;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void SceneTeamAvatar::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.SceneTeamAvatar)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  server_buff_list_.Clear();
-  if (GetArenaNoVirtual() == NULL && scene_entity_info_ != NULL) {
-    delete scene_entity_info_;
-  }
-  scene_entity_info_ = NULL;
-  if (GetArenaNoVirtual() == NULL && avatar_info_ != NULL) {
-    delete avatar_info_;
-  }
-  avatar_info_ = NULL;
-  if (GetArenaNoVirtual() == NULL && scene_avatar_info_ != NULL) {
-    delete scene_avatar_info_;
-  }
-  scene_avatar_info_ = NULL;
-  if (GetArenaNoVirtual() == NULL && weapon_ability_info_ != NULL) {
-    delete weapon_ability_info_;
-  }
-  weapon_ability_info_ = NULL;
-  if (GetArenaNoVirtual() == NULL && ability_control_block_ != NULL) {
-    delete ability_control_block_;
-  }
-  ability_control_block_ = NULL;
-  if (GetArenaNoVirtual() == NULL && avatar_ability_info_ != NULL) {
-    delete avatar_ability_info_;
-  }
-  avatar_ability_info_ = NULL;
-  ::memset(&weapon_guid_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&is_player_cur_avatar_) -
-      reinterpret_cast<char*>(&weapon_guid_)) + sizeof(is_player_cur_avatar_));
-  _internal_metadata_.Clear();
 }
 
 bool SceneTeamAvatar::MergePartialFromCodedStream(
@@ -17993,16 +7544,18 @@ bool SceneTeamAvatar::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.SceneTeamAvatar)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.SceneTeamAvatar)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -18101,9 +7654,9 @@ void SceneTeamAvatar::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteBool(776, this->is_on_scene(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.SceneTeamAvatar)
 }
@@ -18210,9 +7763,9 @@ void SceneTeamAvatar::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteBoolToArray(776, this->is_on_scene(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.SceneTeamAvatar)
   return target;
@@ -18222,10 +7775,10 @@ size_t SceneTeamAvatar::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.SceneTeamAvatar)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated .proto.ServerBuff server_buff_list = 14;
   {
@@ -18344,598 +7897,6 @@ size_t SceneTeamAvatar::ByteSizeLong() const {
   return total_size;
 }
 
-void SceneTeamAvatar::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.SceneTeamAvatar)
-  GOOGLE_DCHECK_NE(&from, this);
-  const SceneTeamAvatar* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const SceneTeamAvatar>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.SceneTeamAvatar)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.SceneTeamAvatar)
-    MergeFrom(*source);
-  }
-}
-
-void SceneTeamAvatar::MergeFrom(const SceneTeamAvatar& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.SceneTeamAvatar)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  server_buff_list_.MergeFrom(from.server_buff_list_);
-  if (from.has_scene_entity_info()) {
-    mutable_scene_entity_info()->::proto::SceneEntityInfo::MergeFrom(from.scene_entity_info());
-  }
-  if (from.has_avatar_info()) {
-    mutable_avatar_info()->::proto::AvatarInfo::MergeFrom(from.avatar_info());
-  }
-  if (from.has_scene_avatar_info()) {
-    mutable_scene_avatar_info()->::proto::SceneAvatarInfo::MergeFrom(from.scene_avatar_info());
-  }
-  if (from.has_weapon_ability_info()) {
-    mutable_weapon_ability_info()->::proto::AbilitySyncStateInfo::MergeFrom(from.weapon_ability_info());
-  }
-  if (from.has_ability_control_block()) {
-    mutable_ability_control_block()->::proto::AbilityControlBlock::MergeFrom(from.ability_control_block());
-  }
-  if (from.has_avatar_ability_info()) {
-    mutable_avatar_ability_info()->::proto::AbilitySyncStateInfo::MergeFrom(from.avatar_ability_info());
-  }
-  if (from.weapon_guid() != 0) {
-    set_weapon_guid(from.weapon_guid());
-  }
-  if (from.scene_id() != 0) {
-    set_scene_id(from.scene_id());
-  }
-  if (from.player_uid() != 0) {
-    set_player_uid(from.player_uid());
-  }
-  if (from.avatar_guid() != 0) {
-    set_avatar_guid(from.avatar_guid());
-  }
-  if (from.entity_id() != 0) {
-    set_entity_id(from.entity_id());
-  }
-  if (from.weapon_entity_id() != 0) {
-    set_weapon_entity_id(from.weapon_entity_id());
-  }
-  if (from.is_on_scene() != 0) {
-    set_is_on_scene(from.is_on_scene());
-  }
-  if (from.is_reconnect() != 0) {
-    set_is_reconnect(from.is_reconnect());
-  }
-  if (from.is_player_cur_avatar() != 0) {
-    set_is_player_cur_avatar(from.is_player_cur_avatar());
-  }
-}
-
-void SceneTeamAvatar::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.SceneTeamAvatar)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void SceneTeamAvatar::CopyFrom(const SceneTeamAvatar& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.SceneTeamAvatar)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool SceneTeamAvatar::IsInitialized() const {
-  return true;
-}
-
-void SceneTeamAvatar::Swap(SceneTeamAvatar* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void SceneTeamAvatar::InternalSwap(SceneTeamAvatar* other) {
-  using std::swap;
-  server_buff_list_.InternalSwap(&other->server_buff_list_);
-  swap(scene_entity_info_, other->scene_entity_info_);
-  swap(avatar_info_, other->avatar_info_);
-  swap(scene_avatar_info_, other->scene_avatar_info_);
-  swap(weapon_ability_info_, other->weapon_ability_info_);
-  swap(ability_control_block_, other->ability_control_block_);
-  swap(avatar_ability_info_, other->avatar_ability_info_);
-  swap(weapon_guid_, other->weapon_guid_);
-  swap(scene_id_, other->scene_id_);
-  swap(player_uid_, other->player_uid_);
-  swap(avatar_guid_, other->avatar_guid_);
-  swap(entity_id_, other->entity_id_);
-  swap(weapon_entity_id_, other->weapon_entity_id_);
-  swap(is_on_scene_, other->is_on_scene_);
-  swap(is_reconnect_, other->is_reconnect_);
-  swap(is_player_cur_avatar_, other->is_player_cur_avatar_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata SceneTeamAvatar::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// SceneTeamAvatar
-
-// .proto.AbilitySyncStateInfo avatar_ability_info = 12;
-bool SceneTeamAvatar::has_avatar_ability_info() const {
-  return this != internal_default_instance() && avatar_ability_info_ != NULL;
-}
-void SceneTeamAvatar::clear_avatar_ability_info() {
-  if (GetArenaNoVirtual() == NULL && avatar_ability_info_ != NULL) delete avatar_ability_info_;
-  avatar_ability_info_ = NULL;
-}
-const ::proto::AbilitySyncStateInfo& SceneTeamAvatar::avatar_ability_info() const {
-  const ::proto::AbilitySyncStateInfo* p = avatar_ability_info_;
-  // @@protoc_insertion_point(field_get:proto.SceneTeamAvatar.avatar_ability_info)
-  return p != NULL ? *p : *reinterpret_cast<const ::proto::AbilitySyncStateInfo*>(
-      &::proto::_AbilitySyncStateInfo_default_instance_);
-}
-::proto::AbilitySyncStateInfo* SceneTeamAvatar::mutable_avatar_ability_info() {
-  
-  if (avatar_ability_info_ == NULL) {
-    avatar_ability_info_ = new ::proto::AbilitySyncStateInfo;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.SceneTeamAvatar.avatar_ability_info)
-  return avatar_ability_info_;
-}
-::proto::AbilitySyncStateInfo* SceneTeamAvatar::release_avatar_ability_info() {
-  // @@protoc_insertion_point(field_release:proto.SceneTeamAvatar.avatar_ability_info)
-  
-  ::proto::AbilitySyncStateInfo* temp = avatar_ability_info_;
-  avatar_ability_info_ = NULL;
-  return temp;
-}
-void SceneTeamAvatar::set_allocated_avatar_ability_info(::proto::AbilitySyncStateInfo* avatar_ability_info) {
-  delete avatar_ability_info_;
-  avatar_ability_info_ = avatar_ability_info;
-  if (avatar_ability_info) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.SceneTeamAvatar.avatar_ability_info)
-}
-
-// .proto.AvatarInfo avatar_info = 2;
-bool SceneTeamAvatar::has_avatar_info() const {
-  return this != internal_default_instance() && avatar_info_ != NULL;
-}
-void SceneTeamAvatar::clear_avatar_info() {
-  if (GetArenaNoVirtual() == NULL && avatar_info_ != NULL) delete avatar_info_;
-  avatar_info_ = NULL;
-}
-const ::proto::AvatarInfo& SceneTeamAvatar::avatar_info() const {
-  const ::proto::AvatarInfo* p = avatar_info_;
-  // @@protoc_insertion_point(field_get:proto.SceneTeamAvatar.avatar_info)
-  return p != NULL ? *p : *reinterpret_cast<const ::proto::AvatarInfo*>(
-      &::proto::_AvatarInfo_default_instance_);
-}
-::proto::AvatarInfo* SceneTeamAvatar::mutable_avatar_info() {
-  
-  if (avatar_info_ == NULL) {
-    avatar_info_ = new ::proto::AvatarInfo;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.SceneTeamAvatar.avatar_info)
-  return avatar_info_;
-}
-::proto::AvatarInfo* SceneTeamAvatar::release_avatar_info() {
-  // @@protoc_insertion_point(field_release:proto.SceneTeamAvatar.avatar_info)
-  
-  ::proto::AvatarInfo* temp = avatar_info_;
-  avatar_info_ = NULL;
-  return temp;
-}
-void SceneTeamAvatar::set_allocated_avatar_info(::proto::AvatarInfo* avatar_info) {
-  delete avatar_info_;
-  avatar_info_ = avatar_info;
-  if (avatar_info) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.SceneTeamAvatar.avatar_info)
-}
-
-// bool is_on_scene = 776;
-void SceneTeamAvatar::clear_is_on_scene() {
-  is_on_scene_ = false;
-}
-bool SceneTeamAvatar::is_on_scene() const {
-  // @@protoc_insertion_point(field_get:proto.SceneTeamAvatar.is_on_scene)
-  return is_on_scene_;
-}
-void SceneTeamAvatar::set_is_on_scene(bool value) {
-  
-  is_on_scene_ = value;
-  // @@protoc_insertion_point(field_set:proto.SceneTeamAvatar.is_on_scene)
-}
-
-// uint32 entity_id = 13;
-void SceneTeamAvatar::clear_entity_id() {
-  entity_id_ = 0u;
-}
-::google::protobuf::uint32 SceneTeamAvatar::entity_id() const {
-  // @@protoc_insertion_point(field_get:proto.SceneTeamAvatar.entity_id)
-  return entity_id_;
-}
-void SceneTeamAvatar::set_entity_id(::google::protobuf::uint32 value) {
-  
-  entity_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.SceneTeamAvatar.entity_id)
-}
-
-// uint64 avatar_guid = 9;
-void SceneTeamAvatar::clear_avatar_guid() {
-  avatar_guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 SceneTeamAvatar::avatar_guid() const {
-  // @@protoc_insertion_point(field_get:proto.SceneTeamAvatar.avatar_guid)
-  return avatar_guid_;
-}
-void SceneTeamAvatar::set_avatar_guid(::google::protobuf::uint64 value) {
-  
-  avatar_guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.SceneTeamAvatar.avatar_guid)
-}
-
-// uint32 scene_id = 4;
-void SceneTeamAvatar::clear_scene_id() {
-  scene_id_ = 0u;
-}
-::google::protobuf::uint32 SceneTeamAvatar::scene_id() const {
-  // @@protoc_insertion_point(field_get:proto.SceneTeamAvatar.scene_id)
-  return scene_id_;
-}
-void SceneTeamAvatar::set_scene_id(::google::protobuf::uint32 value) {
-  
-  scene_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.SceneTeamAvatar.scene_id)
-}
-
-// uint32 weapon_entity_id = 15;
-void SceneTeamAvatar::clear_weapon_entity_id() {
-  weapon_entity_id_ = 0u;
-}
-::google::protobuf::uint32 SceneTeamAvatar::weapon_entity_id() const {
-  // @@protoc_insertion_point(field_get:proto.SceneTeamAvatar.weapon_entity_id)
-  return weapon_entity_id_;
-}
-void SceneTeamAvatar::set_weapon_entity_id(::google::protobuf::uint32 value) {
-  
-  weapon_entity_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.SceneTeamAvatar.weapon_entity_id)
-}
-
-// .proto.SceneAvatarInfo scene_avatar_info = 5;
-bool SceneTeamAvatar::has_scene_avatar_info() const {
-  return this != internal_default_instance() && scene_avatar_info_ != NULL;
-}
-void SceneTeamAvatar::clear_scene_avatar_info() {
-  if (GetArenaNoVirtual() == NULL && scene_avatar_info_ != NULL) delete scene_avatar_info_;
-  scene_avatar_info_ = NULL;
-}
-const ::proto::SceneAvatarInfo& SceneTeamAvatar::scene_avatar_info() const {
-  const ::proto::SceneAvatarInfo* p = scene_avatar_info_;
-  // @@protoc_insertion_point(field_get:proto.SceneTeamAvatar.scene_avatar_info)
-  return p != NULL ? *p : *reinterpret_cast<const ::proto::SceneAvatarInfo*>(
-      &::proto::_SceneAvatarInfo_default_instance_);
-}
-::proto::SceneAvatarInfo* SceneTeamAvatar::mutable_scene_avatar_info() {
-  
-  if (scene_avatar_info_ == NULL) {
-    scene_avatar_info_ = new ::proto::SceneAvatarInfo;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.SceneTeamAvatar.scene_avatar_info)
-  return scene_avatar_info_;
-}
-::proto::SceneAvatarInfo* SceneTeamAvatar::release_scene_avatar_info() {
-  // @@protoc_insertion_point(field_release:proto.SceneTeamAvatar.scene_avatar_info)
-  
-  ::proto::SceneAvatarInfo* temp = scene_avatar_info_;
-  scene_avatar_info_ = NULL;
-  return temp;
-}
-void SceneTeamAvatar::set_allocated_scene_avatar_info(::proto::SceneAvatarInfo* scene_avatar_info) {
-  delete scene_avatar_info_;
-  scene_avatar_info_ = scene_avatar_info;
-  if (scene_avatar_info) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.SceneTeamAvatar.scene_avatar_info)
-}
-
-// uint64 weapon_guid = 3;
-void SceneTeamAvatar::clear_weapon_guid() {
-  weapon_guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 SceneTeamAvatar::weapon_guid() const {
-  // @@protoc_insertion_point(field_get:proto.SceneTeamAvatar.weapon_guid)
-  return weapon_guid_;
-}
-void SceneTeamAvatar::set_weapon_guid(::google::protobuf::uint64 value) {
-  
-  weapon_guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.SceneTeamAvatar.weapon_guid)
-}
-
-// .proto.AbilitySyncStateInfo weapon_ability_info = 6;
-bool SceneTeamAvatar::has_weapon_ability_info() const {
-  return this != internal_default_instance() && weapon_ability_info_ != NULL;
-}
-void SceneTeamAvatar::clear_weapon_ability_info() {
-  if (GetArenaNoVirtual() == NULL && weapon_ability_info_ != NULL) delete weapon_ability_info_;
-  weapon_ability_info_ = NULL;
-}
-const ::proto::AbilitySyncStateInfo& SceneTeamAvatar::weapon_ability_info() const {
-  const ::proto::AbilitySyncStateInfo* p = weapon_ability_info_;
-  // @@protoc_insertion_point(field_get:proto.SceneTeamAvatar.weapon_ability_info)
-  return p != NULL ? *p : *reinterpret_cast<const ::proto::AbilitySyncStateInfo*>(
-      &::proto::_AbilitySyncStateInfo_default_instance_);
-}
-::proto::AbilitySyncStateInfo* SceneTeamAvatar::mutable_weapon_ability_info() {
-  
-  if (weapon_ability_info_ == NULL) {
-    weapon_ability_info_ = new ::proto::AbilitySyncStateInfo;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.SceneTeamAvatar.weapon_ability_info)
-  return weapon_ability_info_;
-}
-::proto::AbilitySyncStateInfo* SceneTeamAvatar::release_weapon_ability_info() {
-  // @@protoc_insertion_point(field_release:proto.SceneTeamAvatar.weapon_ability_info)
-  
-  ::proto::AbilitySyncStateInfo* temp = weapon_ability_info_;
-  weapon_ability_info_ = NULL;
-  return temp;
-}
-void SceneTeamAvatar::set_allocated_weapon_ability_info(::proto::AbilitySyncStateInfo* weapon_ability_info) {
-  delete weapon_ability_info_;
-  weapon_ability_info_ = weapon_ability_info;
-  if (weapon_ability_info) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.SceneTeamAvatar.weapon_ability_info)
-}
-
-// .proto.SceneEntityInfo scene_entity_info = 1;
-bool SceneTeamAvatar::has_scene_entity_info() const {
-  return this != internal_default_instance() && scene_entity_info_ != NULL;
-}
-void SceneTeamAvatar::clear_scene_entity_info() {
-  if (GetArenaNoVirtual() == NULL && scene_entity_info_ != NULL) delete scene_entity_info_;
-  scene_entity_info_ = NULL;
-}
-const ::proto::SceneEntityInfo& SceneTeamAvatar::scene_entity_info() const {
-  const ::proto::SceneEntityInfo* p = scene_entity_info_;
-  // @@protoc_insertion_point(field_get:proto.SceneTeamAvatar.scene_entity_info)
-  return p != NULL ? *p : *reinterpret_cast<const ::proto::SceneEntityInfo*>(
-      &::proto::_SceneEntityInfo_default_instance_);
-}
-::proto::SceneEntityInfo* SceneTeamAvatar::mutable_scene_entity_info() {
-  
-  if (scene_entity_info_ == NULL) {
-    scene_entity_info_ = new ::proto::SceneEntityInfo;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.SceneTeamAvatar.scene_entity_info)
-  return scene_entity_info_;
-}
-::proto::SceneEntityInfo* SceneTeamAvatar::release_scene_entity_info() {
-  // @@protoc_insertion_point(field_release:proto.SceneTeamAvatar.scene_entity_info)
-  
-  ::proto::SceneEntityInfo* temp = scene_entity_info_;
-  scene_entity_info_ = NULL;
-  return temp;
-}
-void SceneTeamAvatar::set_allocated_scene_entity_info(::proto::SceneEntityInfo* scene_entity_info) {
-  delete scene_entity_info_;
-  scene_entity_info_ = scene_entity_info;
-  if (scene_entity_info) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.SceneTeamAvatar.scene_entity_info)
-}
-
-// uint32 player_uid = 11;
-void SceneTeamAvatar::clear_player_uid() {
-  player_uid_ = 0u;
-}
-::google::protobuf::uint32 SceneTeamAvatar::player_uid() const {
-  // @@protoc_insertion_point(field_get:proto.SceneTeamAvatar.player_uid)
-  return player_uid_;
-}
-void SceneTeamAvatar::set_player_uid(::google::protobuf::uint32 value) {
-  
-  player_uid_ = value;
-  // @@protoc_insertion_point(field_set:proto.SceneTeamAvatar.player_uid)
-}
-
-// bool is_reconnect = 8;
-void SceneTeamAvatar::clear_is_reconnect() {
-  is_reconnect_ = false;
-}
-bool SceneTeamAvatar::is_reconnect() const {
-  // @@protoc_insertion_point(field_get:proto.SceneTeamAvatar.is_reconnect)
-  return is_reconnect_;
-}
-void SceneTeamAvatar::set_is_reconnect(bool value) {
-  
-  is_reconnect_ = value;
-  // @@protoc_insertion_point(field_set:proto.SceneTeamAvatar.is_reconnect)
-}
-
-// .proto.AbilityControlBlock ability_control_block = 10;
-bool SceneTeamAvatar::has_ability_control_block() const {
-  return this != internal_default_instance() && ability_control_block_ != NULL;
-}
-void SceneTeamAvatar::clear_ability_control_block() {
-  if (GetArenaNoVirtual() == NULL && ability_control_block_ != NULL) delete ability_control_block_;
-  ability_control_block_ = NULL;
-}
-const ::proto::AbilityControlBlock& SceneTeamAvatar::ability_control_block() const {
-  const ::proto::AbilityControlBlock* p = ability_control_block_;
-  // @@protoc_insertion_point(field_get:proto.SceneTeamAvatar.ability_control_block)
-  return p != NULL ? *p : *reinterpret_cast<const ::proto::AbilityControlBlock*>(
-      &::proto::_AbilityControlBlock_default_instance_);
-}
-::proto::AbilityControlBlock* SceneTeamAvatar::mutable_ability_control_block() {
-  
-  if (ability_control_block_ == NULL) {
-    ability_control_block_ = new ::proto::AbilityControlBlock;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.SceneTeamAvatar.ability_control_block)
-  return ability_control_block_;
-}
-::proto::AbilityControlBlock* SceneTeamAvatar::release_ability_control_block() {
-  // @@protoc_insertion_point(field_release:proto.SceneTeamAvatar.ability_control_block)
-  
-  ::proto::AbilityControlBlock* temp = ability_control_block_;
-  ability_control_block_ = NULL;
-  return temp;
-}
-void SceneTeamAvatar::set_allocated_ability_control_block(::proto::AbilityControlBlock* ability_control_block) {
-  delete ability_control_block_;
-  ability_control_block_ = ability_control_block;
-  if (ability_control_block) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.SceneTeamAvatar.ability_control_block)
-}
-
-// bool is_player_cur_avatar = 7;
-void SceneTeamAvatar::clear_is_player_cur_avatar() {
-  is_player_cur_avatar_ = false;
-}
-bool SceneTeamAvatar::is_player_cur_avatar() const {
-  // @@protoc_insertion_point(field_get:proto.SceneTeamAvatar.is_player_cur_avatar)
-  return is_player_cur_avatar_;
-}
-void SceneTeamAvatar::set_is_player_cur_avatar(bool value) {
-  
-  is_player_cur_avatar_ = value;
-  // @@protoc_insertion_point(field_set:proto.SceneTeamAvatar.is_player_cur_avatar)
-}
-
-// repeated .proto.ServerBuff server_buff_list = 14;
-int SceneTeamAvatar::server_buff_list_size() const {
-  return server_buff_list_.size();
-}
-void SceneTeamAvatar::clear_server_buff_list() {
-  server_buff_list_.Clear();
-}
-const ::proto::ServerBuff& SceneTeamAvatar::server_buff_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.SceneTeamAvatar.server_buff_list)
-  return server_buff_list_.Get(index);
-}
-::proto::ServerBuff* SceneTeamAvatar::mutable_server_buff_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.SceneTeamAvatar.server_buff_list)
-  return server_buff_list_.Mutable(index);
-}
-::proto::ServerBuff* SceneTeamAvatar::add_server_buff_list() {
-  // @@protoc_insertion_point(field_add:proto.SceneTeamAvatar.server_buff_list)
-  return server_buff_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::ServerBuff >*
-SceneTeamAvatar::mutable_server_buff_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.SceneTeamAvatar.server_buff_list)
-  return &server_buff_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::ServerBuff >&
-SceneTeamAvatar::server_buff_list() const {
-  // @@protoc_insertion_point(field_list:proto.SceneTeamAvatar.server_buff_list)
-  return server_buff_list_;
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int SceneTeamUpdateNotify::kSceneTeamAvatarListFieldNumber;
-const int SceneTeamUpdateNotify::kIsInMpFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-SceneTeamUpdateNotify::SceneTeamUpdateNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.SceneTeamUpdateNotify)
-}
-SceneTeamUpdateNotify::SceneTeamUpdateNotify(const SceneTeamUpdateNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      scene_team_avatar_list_(from.scene_team_avatar_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  is_in_mp_ = from.is_in_mp_;
-  // @@protoc_insertion_point(copy_constructor:proto.SceneTeamUpdateNotify)
-}
-
-void SceneTeamUpdateNotify::SharedCtor() {
-  is_in_mp_ = false;
-  _cached_size_ = 0;
-}
-
-SceneTeamUpdateNotify::~SceneTeamUpdateNotify() {
-  // @@protoc_insertion_point(destructor:proto.SceneTeamUpdateNotify)
-  SharedDtor();
-}
-
-void SceneTeamUpdateNotify::SharedDtor() {
-}
-
-void SceneTeamUpdateNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* SceneTeamUpdateNotify::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const SceneTeamUpdateNotify& SceneTeamUpdateNotify::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-SceneTeamUpdateNotify* SceneTeamUpdateNotify::New(::google::protobuf::Arena* arena) const {
-  SceneTeamUpdateNotify* n = new SceneTeamUpdateNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void SceneTeamUpdateNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.SceneTeamUpdateNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  scene_team_avatar_list_.Clear();
-  is_in_mp_ = false;
-  _internal_metadata_.Clear();
-}
-
 bool SceneTeamUpdateNotify::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -18978,16 +7939,18 @@ bool SceneTeamUpdateNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.SceneTeamUpdateNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.SceneTeamUpdateNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -19010,9 +7973,9 @@ void SceneTeamUpdateNotify::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteBool(15, this->is_in_mp(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.SceneTeamUpdateNotify)
 }
@@ -19037,9 +8000,9 @@ void SceneTeamUpdateNotify::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteBoolToArray(15, this->is_in_mp(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.SceneTeamUpdateNotify)
   return target;
@@ -19049,10 +8012,10 @@ size_t SceneTeamUpdateNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.SceneTeamUpdateNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated .proto.SceneTeamAvatar scene_team_avatar_list = 12;
   {
@@ -19075,194 +8038,6 @@ size_t SceneTeamUpdateNotify::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void SceneTeamUpdateNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.SceneTeamUpdateNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const SceneTeamUpdateNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const SceneTeamUpdateNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.SceneTeamUpdateNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.SceneTeamUpdateNotify)
-    MergeFrom(*source);
-  }
-}
-
-void SceneTeamUpdateNotify::MergeFrom(const SceneTeamUpdateNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.SceneTeamUpdateNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  scene_team_avatar_list_.MergeFrom(from.scene_team_avatar_list_);
-  if (from.is_in_mp() != 0) {
-    set_is_in_mp(from.is_in_mp());
-  }
-}
-
-void SceneTeamUpdateNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.SceneTeamUpdateNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void SceneTeamUpdateNotify::CopyFrom(const SceneTeamUpdateNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.SceneTeamUpdateNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool SceneTeamUpdateNotify::IsInitialized() const {
-  return true;
-}
-
-void SceneTeamUpdateNotify::Swap(SceneTeamUpdateNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void SceneTeamUpdateNotify::InternalSwap(SceneTeamUpdateNotify* other) {
-  using std::swap;
-  scene_team_avatar_list_.InternalSwap(&other->scene_team_avatar_list_);
-  swap(is_in_mp_, other->is_in_mp_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata SceneTeamUpdateNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// SceneTeamUpdateNotify
-
-// repeated .proto.SceneTeamAvatar scene_team_avatar_list = 12;
-int SceneTeamUpdateNotify::scene_team_avatar_list_size() const {
-  return scene_team_avatar_list_.size();
-}
-void SceneTeamUpdateNotify::clear_scene_team_avatar_list() {
-  scene_team_avatar_list_.Clear();
-}
-const ::proto::SceneTeamAvatar& SceneTeamUpdateNotify::scene_team_avatar_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.SceneTeamUpdateNotify.scene_team_avatar_list)
-  return scene_team_avatar_list_.Get(index);
-}
-::proto::SceneTeamAvatar* SceneTeamUpdateNotify::mutable_scene_team_avatar_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.SceneTeamUpdateNotify.scene_team_avatar_list)
-  return scene_team_avatar_list_.Mutable(index);
-}
-::proto::SceneTeamAvatar* SceneTeamUpdateNotify::add_scene_team_avatar_list() {
-  // @@protoc_insertion_point(field_add:proto.SceneTeamUpdateNotify.scene_team_avatar_list)
-  return scene_team_avatar_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::SceneTeamAvatar >*
-SceneTeamUpdateNotify::mutable_scene_team_avatar_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.SceneTeamUpdateNotify.scene_team_avatar_list)
-  return &scene_team_avatar_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::SceneTeamAvatar >&
-SceneTeamUpdateNotify::scene_team_avatar_list() const {
-  // @@protoc_insertion_point(field_list:proto.SceneTeamUpdateNotify.scene_team_avatar_list)
-  return scene_team_avatar_list_;
-}
-
-// bool is_in_mp = 15;
-void SceneTeamUpdateNotify::clear_is_in_mp() {
-  is_in_mp_ = false;
-}
-bool SceneTeamUpdateNotify::is_in_mp() const {
-  // @@protoc_insertion_point(field_get:proto.SceneTeamUpdateNotify.is_in_mp)
-  return is_in_mp_;
-}
-void SceneTeamUpdateNotify::set_is_in_mp(bool value) {
-  
-  is_in_mp_ = value;
-  // @@protoc_insertion_point(field_set:proto.SceneTeamUpdateNotify.is_in_mp)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int FocusAvatarReq::kAvatarGuidFieldNumber;
-const int FocusAvatarReq::kIsFocusFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-FocusAvatarReq::FocusAvatarReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.FocusAvatarReq)
-}
-FocusAvatarReq::FocusAvatarReq(const FocusAvatarReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&is_focus_, &from.is_focus_,
-    static_cast<size_t>(reinterpret_cast<char*>(&avatar_guid_) -
-    reinterpret_cast<char*>(&is_focus_)) + sizeof(avatar_guid_));
-  // @@protoc_insertion_point(copy_constructor:proto.FocusAvatarReq)
-}
-
-void FocusAvatarReq::SharedCtor() {
-  ::memset(&is_focus_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&avatar_guid_) -
-      reinterpret_cast<char*>(&is_focus_)) + sizeof(avatar_guid_));
-  _cached_size_ = 0;
-}
-
-FocusAvatarReq::~FocusAvatarReq() {
-  // @@protoc_insertion_point(destructor:proto.FocusAvatarReq)
-  SharedDtor();
-}
-
-void FocusAvatarReq::SharedDtor() {
-}
-
-void FocusAvatarReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* FocusAvatarReq::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const FocusAvatarReq& FocusAvatarReq::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-FocusAvatarReq* FocusAvatarReq::New(::google::protobuf::Arena* arena) const {
-  FocusAvatarReq* n = new FocusAvatarReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void FocusAvatarReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.FocusAvatarReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&is_focus_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&avatar_guid_) -
-      reinterpret_cast<char*>(&is_focus_)) + sizeof(avatar_guid_));
-  _internal_metadata_.Clear();
 }
 
 bool FocusAvatarReq::MergePartialFromCodedStream(
@@ -19309,16 +8084,18 @@ bool FocusAvatarReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.FocusAvatarReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.FocusAvatarReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -19339,9 +8116,9 @@ void FocusAvatarReq::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteBool(15, this->is_focus(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.FocusAvatarReq)
 }
@@ -19363,9 +8140,9 @@ void FocusAvatarReq::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteBoolToArray(15, this->is_focus(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.FocusAvatarReq)
   return target;
@@ -19375,10 +8152,10 @@ size_t FocusAvatarReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.FocusAvatarReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // bool is_focus = 15;
   if (this->is_focus() != 0) {
@@ -19397,181 +8174,6 @@ size_t FocusAvatarReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void FocusAvatarReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.FocusAvatarReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const FocusAvatarReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const FocusAvatarReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.FocusAvatarReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.FocusAvatarReq)
-    MergeFrom(*source);
-  }
-}
-
-void FocusAvatarReq::MergeFrom(const FocusAvatarReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.FocusAvatarReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.is_focus() != 0) {
-    set_is_focus(from.is_focus());
-  }
-  if (from.avatar_guid() != 0) {
-    set_avatar_guid(from.avatar_guid());
-  }
-}
-
-void FocusAvatarReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.FocusAvatarReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void FocusAvatarReq::CopyFrom(const FocusAvatarReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.FocusAvatarReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool FocusAvatarReq::IsInitialized() const {
-  return true;
-}
-
-void FocusAvatarReq::Swap(FocusAvatarReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void FocusAvatarReq::InternalSwap(FocusAvatarReq* other) {
-  using std::swap;
-  swap(is_focus_, other->is_focus_);
-  swap(avatar_guid_, other->avatar_guid_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata FocusAvatarReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// FocusAvatarReq
-
-// uint64 avatar_guid = 10;
-void FocusAvatarReq::clear_avatar_guid() {
-  avatar_guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 FocusAvatarReq::avatar_guid() const {
-  // @@protoc_insertion_point(field_get:proto.FocusAvatarReq.avatar_guid)
-  return avatar_guid_;
-}
-void FocusAvatarReq::set_avatar_guid(::google::protobuf::uint64 value) {
-  
-  avatar_guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.FocusAvatarReq.avatar_guid)
-}
-
-// bool is_focus = 15;
-void FocusAvatarReq::clear_is_focus() {
-  is_focus_ = false;
-}
-bool FocusAvatarReq::is_focus() const {
-  // @@protoc_insertion_point(field_get:proto.FocusAvatarReq.is_focus)
-  return is_focus_;
-}
-void FocusAvatarReq::set_is_focus(bool value) {
-  
-  is_focus_ = value;
-  // @@protoc_insertion_point(field_set:proto.FocusAvatarReq.is_focus)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int FocusAvatarRsp::kRetcodeFieldNumber;
-const int FocusAvatarRsp::kIsFocusFieldNumber;
-const int FocusAvatarRsp::kAvatarGuidFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-FocusAvatarRsp::FocusAvatarRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.FocusAvatarRsp)
-}
-FocusAvatarRsp::FocusAvatarRsp(const FocusAvatarRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&retcode_, &from.retcode_,
-    static_cast<size_t>(reinterpret_cast<char*>(&avatar_guid_) -
-    reinterpret_cast<char*>(&retcode_)) + sizeof(avatar_guid_));
-  // @@protoc_insertion_point(copy_constructor:proto.FocusAvatarRsp)
-}
-
-void FocusAvatarRsp::SharedCtor() {
-  ::memset(&retcode_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&avatar_guid_) -
-      reinterpret_cast<char*>(&retcode_)) + sizeof(avatar_guid_));
-  _cached_size_ = 0;
-}
-
-FocusAvatarRsp::~FocusAvatarRsp() {
-  // @@protoc_insertion_point(destructor:proto.FocusAvatarRsp)
-  SharedDtor();
-}
-
-void FocusAvatarRsp::SharedDtor() {
-}
-
-void FocusAvatarRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* FocusAvatarRsp::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const FocusAvatarRsp& FocusAvatarRsp::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-FocusAvatarRsp* FocusAvatarRsp::New(::google::protobuf::Arena* arena) const {
-  FocusAvatarRsp* n = new FocusAvatarRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void FocusAvatarRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.FocusAvatarRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&retcode_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&avatar_guid_) -
-      reinterpret_cast<char*>(&retcode_)) + sizeof(avatar_guid_));
-  _internal_metadata_.Clear();
 }
 
 bool FocusAvatarRsp::MergePartialFromCodedStream(
@@ -19632,16 +8234,18 @@ bool FocusAvatarRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.FocusAvatarRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.FocusAvatarRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -19667,9 +8271,9 @@ void FocusAvatarRsp::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt64(15, this->avatar_guid(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.FocusAvatarRsp)
 }
@@ -19696,9 +8300,9 @@ void FocusAvatarRsp::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt64ToArray(15, this->avatar_guid(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.FocusAvatarRsp)
   return target;
@@ -19708,10 +8312,10 @@ size_t FocusAvatarRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.FocusAvatarRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // int32 retcode = 1;
   if (this->retcode() != 0) {
@@ -19737,199 +8341,6 @@ size_t FocusAvatarRsp::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void FocusAvatarRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.FocusAvatarRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const FocusAvatarRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const FocusAvatarRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.FocusAvatarRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.FocusAvatarRsp)
-    MergeFrom(*source);
-  }
-}
-
-void FocusAvatarRsp::MergeFrom(const FocusAvatarRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.FocusAvatarRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-  if (from.is_focus() != 0) {
-    set_is_focus(from.is_focus());
-  }
-  if (from.avatar_guid() != 0) {
-    set_avatar_guid(from.avatar_guid());
-  }
-}
-
-void FocusAvatarRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.FocusAvatarRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void FocusAvatarRsp::CopyFrom(const FocusAvatarRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.FocusAvatarRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool FocusAvatarRsp::IsInitialized() const {
-  return true;
-}
-
-void FocusAvatarRsp::Swap(FocusAvatarRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void FocusAvatarRsp::InternalSwap(FocusAvatarRsp* other) {
-  using std::swap;
-  swap(retcode_, other->retcode_);
-  swap(is_focus_, other->is_focus_);
-  swap(avatar_guid_, other->avatar_guid_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata FocusAvatarRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// FocusAvatarRsp
-
-// int32 retcode = 1;
-void FocusAvatarRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 FocusAvatarRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.FocusAvatarRsp.retcode)
-  return retcode_;
-}
-void FocusAvatarRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.FocusAvatarRsp.retcode)
-}
-
-// bool is_focus = 11;
-void FocusAvatarRsp::clear_is_focus() {
-  is_focus_ = false;
-}
-bool FocusAvatarRsp::is_focus() const {
-  // @@protoc_insertion_point(field_get:proto.FocusAvatarRsp.is_focus)
-  return is_focus_;
-}
-void FocusAvatarRsp::set_is_focus(bool value) {
-  
-  is_focus_ = value;
-  // @@protoc_insertion_point(field_set:proto.FocusAvatarRsp.is_focus)
-}
-
-// uint64 avatar_guid = 15;
-void FocusAvatarRsp::clear_avatar_guid() {
-  avatar_guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 FocusAvatarRsp::avatar_guid() const {
-  // @@protoc_insertion_point(field_get:proto.FocusAvatarRsp.avatar_guid)
-  return avatar_guid_;
-}
-void FocusAvatarRsp::set_avatar_guid(::google::protobuf::uint64 value) {
-  
-  avatar_guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.FocusAvatarRsp.avatar_guid)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarSatiationData::kFinishTimeFieldNumber;
-const int AvatarSatiationData::kAvatarGuidFieldNumber;
-const int AvatarSatiationData::kPenaltyFinishTimeFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarSatiationData::AvatarSatiationData()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarSatiationData)
-}
-AvatarSatiationData::AvatarSatiationData(const AvatarSatiationData& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&avatar_guid_, &from.avatar_guid_,
-    static_cast<size_t>(reinterpret_cast<char*>(&finish_time_) -
-    reinterpret_cast<char*>(&avatar_guid_)) + sizeof(finish_time_));
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarSatiationData)
-}
-
-void AvatarSatiationData::SharedCtor() {
-  ::memset(&avatar_guid_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&finish_time_) -
-      reinterpret_cast<char*>(&avatar_guid_)) + sizeof(finish_time_));
-  _cached_size_ = 0;
-}
-
-AvatarSatiationData::~AvatarSatiationData() {
-  // @@protoc_insertion_point(destructor:proto.AvatarSatiationData)
-  SharedDtor();
-}
-
-void AvatarSatiationData::SharedDtor() {
-}
-
-void AvatarSatiationData::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarSatiationData::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarSatiationData& AvatarSatiationData::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarSatiationData* AvatarSatiationData::New(::google::protobuf::Arena* arena) const {
-  AvatarSatiationData* n = new AvatarSatiationData;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarSatiationData::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarSatiationData)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&avatar_guid_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&finish_time_) -
-      reinterpret_cast<char*>(&avatar_guid_)) + sizeof(finish_time_));
-  _internal_metadata_.Clear();
 }
 
 bool AvatarSatiationData::MergePartialFromCodedStream(
@@ -19990,16 +8401,18 @@ bool AvatarSatiationData::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarSatiationData)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarSatiationData)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -20025,9 +8438,9 @@ void AvatarSatiationData::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteFloat(15, this->finish_time(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarSatiationData)
 }
@@ -20054,9 +8467,9 @@ void AvatarSatiationData::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteFloatToArray(15, this->finish_time(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarSatiationData)
   return target;
@@ -20066,10 +8479,10 @@ size_t AvatarSatiationData::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarSatiationData)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint64 avatar_guid = 5;
   if (this->avatar_guid() != 0) {
@@ -20093,190 +8506,6 @@ size_t AvatarSatiationData::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarSatiationData::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarSatiationData)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarSatiationData* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarSatiationData>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarSatiationData)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarSatiationData)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarSatiationData::MergeFrom(const AvatarSatiationData& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarSatiationData)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.avatar_guid() != 0) {
-    set_avatar_guid(from.avatar_guid());
-  }
-  if (from.penalty_finish_time() != 0) {
-    set_penalty_finish_time(from.penalty_finish_time());
-  }
-  if (from.finish_time() != 0) {
-    set_finish_time(from.finish_time());
-  }
-}
-
-void AvatarSatiationData::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarSatiationData)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarSatiationData::CopyFrom(const AvatarSatiationData& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarSatiationData)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarSatiationData::IsInitialized() const {
-  return true;
-}
-
-void AvatarSatiationData::Swap(AvatarSatiationData* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarSatiationData::InternalSwap(AvatarSatiationData* other) {
-  using std::swap;
-  swap(avatar_guid_, other->avatar_guid_);
-  swap(penalty_finish_time_, other->penalty_finish_time_);
-  swap(finish_time_, other->finish_time_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarSatiationData::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarSatiationData
-
-// float finish_time = 15;
-void AvatarSatiationData::clear_finish_time() {
-  finish_time_ = 0;
-}
-float AvatarSatiationData::finish_time() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarSatiationData.finish_time)
-  return finish_time_;
-}
-void AvatarSatiationData::set_finish_time(float value) {
-  
-  finish_time_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarSatiationData.finish_time)
-}
-
-// uint64 avatar_guid = 5;
-void AvatarSatiationData::clear_avatar_guid() {
-  avatar_guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 AvatarSatiationData::avatar_guid() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarSatiationData.avatar_guid)
-  return avatar_guid_;
-}
-void AvatarSatiationData::set_avatar_guid(::google::protobuf::uint64 value) {
-  
-  avatar_guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarSatiationData.avatar_guid)
-}
-
-// float penalty_finish_time = 12;
-void AvatarSatiationData::clear_penalty_finish_time() {
-  penalty_finish_time_ = 0;
-}
-float AvatarSatiationData::penalty_finish_time() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarSatiationData.penalty_finish_time)
-  return penalty_finish_time_;
-}
-void AvatarSatiationData::set_penalty_finish_time(float value) {
-  
-  penalty_finish_time_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarSatiationData.penalty_finish_time)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarSatiationDataNotify::kSatiationDataListFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarSatiationDataNotify::AvatarSatiationDataNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarSatiationDataNotify)
-}
-AvatarSatiationDataNotify::AvatarSatiationDataNotify(const AvatarSatiationDataNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      satiation_data_list_(from.satiation_data_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarSatiationDataNotify)
-}
-
-void AvatarSatiationDataNotify::SharedCtor() {
-  _cached_size_ = 0;
-}
-
-AvatarSatiationDataNotify::~AvatarSatiationDataNotify() {
-  // @@protoc_insertion_point(destructor:proto.AvatarSatiationDataNotify)
-  SharedDtor();
-}
-
-void AvatarSatiationDataNotify::SharedDtor() {
-}
-
-void AvatarSatiationDataNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarSatiationDataNotify::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarSatiationDataNotify& AvatarSatiationDataNotify::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarSatiationDataNotify* AvatarSatiationDataNotify::New(::google::protobuf::Arena* arena) const {
-  AvatarSatiationDataNotify* n = new AvatarSatiationDataNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarSatiationDataNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarSatiationDataNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  satiation_data_list_.Clear();
-  _internal_metadata_.Clear();
 }
 
 bool AvatarSatiationDataNotify::MergePartialFromCodedStream(
@@ -20307,16 +8536,18 @@ bool AvatarSatiationDataNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarSatiationDataNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarSatiationDataNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -20334,9 +8565,9 @@ void AvatarSatiationDataNotify::SerializeWithCachedSizes(
       9, this->satiation_data_list(static_cast<int>(i)), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarSatiationDataNotify)
 }
@@ -20356,9 +8587,9 @@ void AvatarSatiationDataNotify::SerializeWithCachedSizes(
         9, this->satiation_data_list(static_cast<int>(i)), deterministic, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarSatiationDataNotify)
   return target;
@@ -20368,10 +8599,10 @@ size_t AvatarSatiationDataNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarSatiationDataNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated .proto.AvatarSatiationData satiation_data_list = 9;
   {
@@ -20389,176 +8620,6 @@ size_t AvatarSatiationDataNotify::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarSatiationDataNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarSatiationDataNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarSatiationDataNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarSatiationDataNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarSatiationDataNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarSatiationDataNotify)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarSatiationDataNotify::MergeFrom(const AvatarSatiationDataNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarSatiationDataNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  satiation_data_list_.MergeFrom(from.satiation_data_list_);
-}
-
-void AvatarSatiationDataNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarSatiationDataNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarSatiationDataNotify::CopyFrom(const AvatarSatiationDataNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarSatiationDataNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarSatiationDataNotify::IsInitialized() const {
-  return true;
-}
-
-void AvatarSatiationDataNotify::Swap(AvatarSatiationDataNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarSatiationDataNotify::InternalSwap(AvatarSatiationDataNotify* other) {
-  using std::swap;
-  satiation_data_list_.InternalSwap(&other->satiation_data_list_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarSatiationDataNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarSatiationDataNotify
-
-// repeated .proto.AvatarSatiationData satiation_data_list = 9;
-int AvatarSatiationDataNotify::satiation_data_list_size() const {
-  return satiation_data_list_.size();
-}
-void AvatarSatiationDataNotify::clear_satiation_data_list() {
-  satiation_data_list_.Clear();
-}
-const ::proto::AvatarSatiationData& AvatarSatiationDataNotify::satiation_data_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.AvatarSatiationDataNotify.satiation_data_list)
-  return satiation_data_list_.Get(index);
-}
-::proto::AvatarSatiationData* AvatarSatiationDataNotify::mutable_satiation_data_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.AvatarSatiationDataNotify.satiation_data_list)
-  return satiation_data_list_.Mutable(index);
-}
-::proto::AvatarSatiationData* AvatarSatiationDataNotify::add_satiation_data_list() {
-  // @@protoc_insertion_point(field_add:proto.AvatarSatiationDataNotify.satiation_data_list)
-  return satiation_data_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::AvatarSatiationData >*
-AvatarSatiationDataNotify::mutable_satiation_data_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.AvatarSatiationDataNotify.satiation_data_list)
-  return &satiation_data_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::AvatarSatiationData >&
-AvatarSatiationDataNotify::satiation_data_list() const {
-  // @@protoc_insertion_point(field_list:proto.AvatarSatiationDataNotify.satiation_data_list)
-  return satiation_data_list_;
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarWearFlycloakReq::kAvatarGuidFieldNumber;
-const int AvatarWearFlycloakReq::kFlycloakIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarWearFlycloakReq::AvatarWearFlycloakReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarWearFlycloakReq)
-}
-AvatarWearFlycloakReq::AvatarWearFlycloakReq(const AvatarWearFlycloakReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&flycloak_id_, &from.flycloak_id_,
-    static_cast<size_t>(reinterpret_cast<char*>(&avatar_guid_) -
-    reinterpret_cast<char*>(&flycloak_id_)) + sizeof(avatar_guid_));
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarWearFlycloakReq)
-}
-
-void AvatarWearFlycloakReq::SharedCtor() {
-  ::memset(&flycloak_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&avatar_guid_) -
-      reinterpret_cast<char*>(&flycloak_id_)) + sizeof(avatar_guid_));
-  _cached_size_ = 0;
-}
-
-AvatarWearFlycloakReq::~AvatarWearFlycloakReq() {
-  // @@protoc_insertion_point(destructor:proto.AvatarWearFlycloakReq)
-  SharedDtor();
-}
-
-void AvatarWearFlycloakReq::SharedDtor() {
-}
-
-void AvatarWearFlycloakReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarWearFlycloakReq::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarWearFlycloakReq& AvatarWearFlycloakReq::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarWearFlycloakReq* AvatarWearFlycloakReq::New(::google::protobuf::Arena* arena) const {
-  AvatarWearFlycloakReq* n = new AvatarWearFlycloakReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarWearFlycloakReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarWearFlycloakReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&flycloak_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&avatar_guid_) -
-      reinterpret_cast<char*>(&flycloak_id_)) + sizeof(avatar_guid_));
-  _internal_metadata_.Clear();
 }
 
 bool AvatarWearFlycloakReq::MergePartialFromCodedStream(
@@ -20605,16 +8666,18 @@ bool AvatarWearFlycloakReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarWearFlycloakReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarWearFlycloakReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -20635,9 +8698,9 @@ void AvatarWearFlycloakReq::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(14, this->flycloak_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarWearFlycloakReq)
 }
@@ -20659,9 +8722,9 @@ void AvatarWearFlycloakReq::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(14, this->flycloak_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarWearFlycloakReq)
   return target;
@@ -20671,10 +8734,10 @@ size_t AvatarWearFlycloakReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarWearFlycloakReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 flycloak_id = 14;
   if (this->flycloak_id() != 0) {
@@ -20695,181 +8758,6 @@ size_t AvatarWearFlycloakReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarWearFlycloakReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarWearFlycloakReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarWearFlycloakReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarWearFlycloakReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarWearFlycloakReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarWearFlycloakReq)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarWearFlycloakReq::MergeFrom(const AvatarWearFlycloakReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarWearFlycloakReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.flycloak_id() != 0) {
-    set_flycloak_id(from.flycloak_id());
-  }
-  if (from.avatar_guid() != 0) {
-    set_avatar_guid(from.avatar_guid());
-  }
-}
-
-void AvatarWearFlycloakReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarWearFlycloakReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarWearFlycloakReq::CopyFrom(const AvatarWearFlycloakReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarWearFlycloakReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarWearFlycloakReq::IsInitialized() const {
-  return true;
-}
-
-void AvatarWearFlycloakReq::Swap(AvatarWearFlycloakReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarWearFlycloakReq::InternalSwap(AvatarWearFlycloakReq* other) {
-  using std::swap;
-  swap(flycloak_id_, other->flycloak_id_);
-  swap(avatar_guid_, other->avatar_guid_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarWearFlycloakReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarWearFlycloakReq
-
-// uint64 avatar_guid = 13;
-void AvatarWearFlycloakReq::clear_avatar_guid() {
-  avatar_guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 AvatarWearFlycloakReq::avatar_guid() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarWearFlycloakReq.avatar_guid)
-  return avatar_guid_;
-}
-void AvatarWearFlycloakReq::set_avatar_guid(::google::protobuf::uint64 value) {
-  
-  avatar_guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarWearFlycloakReq.avatar_guid)
-}
-
-// uint32 flycloak_id = 14;
-void AvatarWearFlycloakReq::clear_flycloak_id() {
-  flycloak_id_ = 0u;
-}
-::google::protobuf::uint32 AvatarWearFlycloakReq::flycloak_id() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarWearFlycloakReq.flycloak_id)
-  return flycloak_id_;
-}
-void AvatarWearFlycloakReq::set_flycloak_id(::google::protobuf::uint32 value) {
-  
-  flycloak_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarWearFlycloakReq.flycloak_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarWearFlycloakRsp::kFlycloakIdFieldNumber;
-const int AvatarWearFlycloakRsp::kAvatarGuidFieldNumber;
-const int AvatarWearFlycloakRsp::kRetcodeFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarWearFlycloakRsp::AvatarWearFlycloakRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarWearFlycloakRsp)
-}
-AvatarWearFlycloakRsp::AvatarWearFlycloakRsp(const AvatarWearFlycloakRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&avatar_guid_, &from.avatar_guid_,
-    static_cast<size_t>(reinterpret_cast<char*>(&retcode_) -
-    reinterpret_cast<char*>(&avatar_guid_)) + sizeof(retcode_));
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarWearFlycloakRsp)
-}
-
-void AvatarWearFlycloakRsp::SharedCtor() {
-  ::memset(&avatar_guid_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&retcode_) -
-      reinterpret_cast<char*>(&avatar_guid_)) + sizeof(retcode_));
-  _cached_size_ = 0;
-}
-
-AvatarWearFlycloakRsp::~AvatarWearFlycloakRsp() {
-  // @@protoc_insertion_point(destructor:proto.AvatarWearFlycloakRsp)
-  SharedDtor();
-}
-
-void AvatarWearFlycloakRsp::SharedDtor() {
-}
-
-void AvatarWearFlycloakRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarWearFlycloakRsp::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarWearFlycloakRsp& AvatarWearFlycloakRsp::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarWearFlycloakRsp* AvatarWearFlycloakRsp::New(::google::protobuf::Arena* arena) const {
-  AvatarWearFlycloakRsp* n = new AvatarWearFlycloakRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarWearFlycloakRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarWearFlycloakRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&avatar_guid_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&retcode_) -
-      reinterpret_cast<char*>(&avatar_guid_)) + sizeof(retcode_));
-  _internal_metadata_.Clear();
 }
 
 bool AvatarWearFlycloakRsp::MergePartialFromCodedStream(
@@ -20930,16 +8818,18 @@ bool AvatarWearFlycloakRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarWearFlycloakRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarWearFlycloakRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -20965,9 +8855,9 @@ void AvatarWearFlycloakRsp::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteInt32(14, this->retcode(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarWearFlycloakRsp)
 }
@@ -20994,9 +8884,9 @@ void AvatarWearFlycloakRsp::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(14, this->retcode(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarWearFlycloakRsp)
   return target;
@@ -21006,10 +8896,10 @@ size_t AvatarWearFlycloakRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarWearFlycloakRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint64 avatar_guid = 3;
   if (this->avatar_guid() != 0) {
@@ -21037,198 +8927,6 @@ size_t AvatarWearFlycloakRsp::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarWearFlycloakRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarWearFlycloakRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarWearFlycloakRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarWearFlycloakRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarWearFlycloakRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarWearFlycloakRsp)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarWearFlycloakRsp::MergeFrom(const AvatarWearFlycloakRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarWearFlycloakRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.avatar_guid() != 0) {
-    set_avatar_guid(from.avatar_guid());
-  }
-  if (from.flycloak_id() != 0) {
-    set_flycloak_id(from.flycloak_id());
-  }
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-}
-
-void AvatarWearFlycloakRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarWearFlycloakRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarWearFlycloakRsp::CopyFrom(const AvatarWearFlycloakRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarWearFlycloakRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarWearFlycloakRsp::IsInitialized() const {
-  return true;
-}
-
-void AvatarWearFlycloakRsp::Swap(AvatarWearFlycloakRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarWearFlycloakRsp::InternalSwap(AvatarWearFlycloakRsp* other) {
-  using std::swap;
-  swap(avatar_guid_, other->avatar_guid_);
-  swap(flycloak_id_, other->flycloak_id_);
-  swap(retcode_, other->retcode_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarWearFlycloakRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarWearFlycloakRsp
-
-// uint32 flycloak_id = 1;
-void AvatarWearFlycloakRsp::clear_flycloak_id() {
-  flycloak_id_ = 0u;
-}
-::google::protobuf::uint32 AvatarWearFlycloakRsp::flycloak_id() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarWearFlycloakRsp.flycloak_id)
-  return flycloak_id_;
-}
-void AvatarWearFlycloakRsp::set_flycloak_id(::google::protobuf::uint32 value) {
-  
-  flycloak_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarWearFlycloakRsp.flycloak_id)
-}
-
-// uint64 avatar_guid = 3;
-void AvatarWearFlycloakRsp::clear_avatar_guid() {
-  avatar_guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 AvatarWearFlycloakRsp::avatar_guid() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarWearFlycloakRsp.avatar_guid)
-  return avatar_guid_;
-}
-void AvatarWearFlycloakRsp::set_avatar_guid(::google::protobuf::uint64 value) {
-  
-  avatar_guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarWearFlycloakRsp.avatar_guid)
-}
-
-// int32 retcode = 14;
-void AvatarWearFlycloakRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 AvatarWearFlycloakRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarWearFlycloakRsp.retcode)
-  return retcode_;
-}
-void AvatarWearFlycloakRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarWearFlycloakRsp.retcode)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarFlycloakChangeNotify::kFlycloakIdFieldNumber;
-const int AvatarFlycloakChangeNotify::kAvatarGuidFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarFlycloakChangeNotify::AvatarFlycloakChangeNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarFlycloakChangeNotify)
-}
-AvatarFlycloakChangeNotify::AvatarFlycloakChangeNotify(const AvatarFlycloakChangeNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&flycloak_id_, &from.flycloak_id_,
-    static_cast<size_t>(reinterpret_cast<char*>(&avatar_guid_) -
-    reinterpret_cast<char*>(&flycloak_id_)) + sizeof(avatar_guid_));
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarFlycloakChangeNotify)
-}
-
-void AvatarFlycloakChangeNotify::SharedCtor() {
-  ::memset(&flycloak_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&avatar_guid_) -
-      reinterpret_cast<char*>(&flycloak_id_)) + sizeof(avatar_guid_));
-  _cached_size_ = 0;
-}
-
-AvatarFlycloakChangeNotify::~AvatarFlycloakChangeNotify() {
-  // @@protoc_insertion_point(destructor:proto.AvatarFlycloakChangeNotify)
-  SharedDtor();
-}
-
-void AvatarFlycloakChangeNotify::SharedDtor() {
-}
-
-void AvatarFlycloakChangeNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarFlycloakChangeNotify::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarFlycloakChangeNotify& AvatarFlycloakChangeNotify::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarFlycloakChangeNotify* AvatarFlycloakChangeNotify::New(::google::protobuf::Arena* arena) const {
-  AvatarFlycloakChangeNotify* n = new AvatarFlycloakChangeNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarFlycloakChangeNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarFlycloakChangeNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&flycloak_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&avatar_guid_) -
-      reinterpret_cast<char*>(&flycloak_id_)) + sizeof(avatar_guid_));
-  _internal_metadata_.Clear();
 }
 
 bool AvatarFlycloakChangeNotify::MergePartialFromCodedStream(
@@ -21275,16 +8973,18 @@ bool AvatarFlycloakChangeNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarFlycloakChangeNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarFlycloakChangeNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -21305,9 +9005,9 @@ void AvatarFlycloakChangeNotify::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt64(12, this->avatar_guid(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarFlycloakChangeNotify)
 }
@@ -21329,9 +9029,9 @@ void AvatarFlycloakChangeNotify::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt64ToArray(12, this->avatar_guid(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarFlycloakChangeNotify)
   return target;
@@ -21341,10 +9041,10 @@ size_t AvatarFlycloakChangeNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarFlycloakChangeNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 flycloak_id = 4;
   if (this->flycloak_id() != 0) {
@@ -21365,173 +9065,6 @@ size_t AvatarFlycloakChangeNotify::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarFlycloakChangeNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarFlycloakChangeNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarFlycloakChangeNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarFlycloakChangeNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarFlycloakChangeNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarFlycloakChangeNotify)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarFlycloakChangeNotify::MergeFrom(const AvatarFlycloakChangeNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarFlycloakChangeNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.flycloak_id() != 0) {
-    set_flycloak_id(from.flycloak_id());
-  }
-  if (from.avatar_guid() != 0) {
-    set_avatar_guid(from.avatar_guid());
-  }
-}
-
-void AvatarFlycloakChangeNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarFlycloakChangeNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarFlycloakChangeNotify::CopyFrom(const AvatarFlycloakChangeNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarFlycloakChangeNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarFlycloakChangeNotify::IsInitialized() const {
-  return true;
-}
-
-void AvatarFlycloakChangeNotify::Swap(AvatarFlycloakChangeNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarFlycloakChangeNotify::InternalSwap(AvatarFlycloakChangeNotify* other) {
-  using std::swap;
-  swap(flycloak_id_, other->flycloak_id_);
-  swap(avatar_guid_, other->avatar_guid_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarFlycloakChangeNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarFlycloakChangeNotify
-
-// uint32 flycloak_id = 4;
-void AvatarFlycloakChangeNotify::clear_flycloak_id() {
-  flycloak_id_ = 0u;
-}
-::google::protobuf::uint32 AvatarFlycloakChangeNotify::flycloak_id() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarFlycloakChangeNotify.flycloak_id)
-  return flycloak_id_;
-}
-void AvatarFlycloakChangeNotify::set_flycloak_id(::google::protobuf::uint32 value) {
-  
-  flycloak_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarFlycloakChangeNotify.flycloak_id)
-}
-
-// uint64 avatar_guid = 12;
-void AvatarFlycloakChangeNotify::clear_avatar_guid() {
-  avatar_guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 AvatarFlycloakChangeNotify::avatar_guid() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarFlycloakChangeNotify.avatar_guid)
-  return avatar_guid_;
-}
-void AvatarFlycloakChangeNotify::set_avatar_guid(::google::protobuf::uint64 value) {
-  
-  avatar_guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarFlycloakChangeNotify.avatar_guid)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarGainFlycloakNotify::kFlycloakIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarGainFlycloakNotify::AvatarGainFlycloakNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarGainFlycloakNotify)
-}
-AvatarGainFlycloakNotify::AvatarGainFlycloakNotify(const AvatarGainFlycloakNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  flycloak_id_ = from.flycloak_id_;
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarGainFlycloakNotify)
-}
-
-void AvatarGainFlycloakNotify::SharedCtor() {
-  flycloak_id_ = 0u;
-  _cached_size_ = 0;
-}
-
-AvatarGainFlycloakNotify::~AvatarGainFlycloakNotify() {
-  // @@protoc_insertion_point(destructor:proto.AvatarGainFlycloakNotify)
-  SharedDtor();
-}
-
-void AvatarGainFlycloakNotify::SharedDtor() {
-}
-
-void AvatarGainFlycloakNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarGainFlycloakNotify::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarGainFlycloakNotify& AvatarGainFlycloakNotify::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarGainFlycloakNotify* AvatarGainFlycloakNotify::New(::google::protobuf::Arena* arena) const {
-  AvatarGainFlycloakNotify* n = new AvatarGainFlycloakNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarGainFlycloakNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarGainFlycloakNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  flycloak_id_ = 0u;
-  _internal_metadata_.Clear();
 }
 
 bool AvatarGainFlycloakNotify::MergePartialFromCodedStream(
@@ -21564,16 +9097,18 @@ bool AvatarGainFlycloakNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarGainFlycloakNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarGainFlycloakNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -21589,9 +9124,9 @@ void AvatarGainFlycloakNotify::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(15, this->flycloak_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarGainFlycloakNotify)
 }
@@ -21608,9 +9143,9 @@ void AvatarGainFlycloakNotify::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(15, this->flycloak_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarGainFlycloakNotify)
   return target;
@@ -21620,10 +9155,10 @@ size_t AvatarGainFlycloakNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarGainFlycloakNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 flycloak_id = 15;
   if (this->flycloak_id() != 0) {
@@ -21637,168 +9172,6 @@ size_t AvatarGainFlycloakNotify::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarGainFlycloakNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarGainFlycloakNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarGainFlycloakNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarGainFlycloakNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarGainFlycloakNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarGainFlycloakNotify)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarGainFlycloakNotify::MergeFrom(const AvatarGainFlycloakNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarGainFlycloakNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.flycloak_id() != 0) {
-    set_flycloak_id(from.flycloak_id());
-  }
-}
-
-void AvatarGainFlycloakNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarGainFlycloakNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarGainFlycloakNotify::CopyFrom(const AvatarGainFlycloakNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarGainFlycloakNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarGainFlycloakNotify::IsInitialized() const {
-  return true;
-}
-
-void AvatarGainFlycloakNotify::Swap(AvatarGainFlycloakNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarGainFlycloakNotify::InternalSwap(AvatarGainFlycloakNotify* other) {
-  using std::swap;
-  swap(flycloak_id_, other->flycloak_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarGainFlycloakNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarGainFlycloakNotify
-
-// uint32 flycloak_id = 15;
-void AvatarGainFlycloakNotify::clear_flycloak_id() {
-  flycloak_id_ = 0u;
-}
-::google::protobuf::uint32 AvatarGainFlycloakNotify::flycloak_id() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarGainFlycloakNotify.flycloak_id)
-  return flycloak_id_;
-}
-void AvatarGainFlycloakNotify::set_flycloak_id(::google::protobuf::uint32 value) {
-  
-  flycloak_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarGainFlycloakNotify.flycloak_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarEquipAffixStartNotify::kAvatarGuidFieldNumber;
-const int AvatarEquipAffixStartNotify::kEquipAffixInfoFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarEquipAffixStartNotify::AvatarEquipAffixStartNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarEquipAffixStartNotify)
-}
-AvatarEquipAffixStartNotify::AvatarEquipAffixStartNotify(const AvatarEquipAffixStartNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  if (from.has_equip_affix_info()) {
-    equip_affix_info_ = new ::proto::AvatarEquipAffixInfo(*from.equip_affix_info_);
-  } else {
-    equip_affix_info_ = NULL;
-  }
-  avatar_guid_ = from.avatar_guid_;
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarEquipAffixStartNotify)
-}
-
-void AvatarEquipAffixStartNotify::SharedCtor() {
-  ::memset(&equip_affix_info_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&avatar_guid_) -
-      reinterpret_cast<char*>(&equip_affix_info_)) + sizeof(avatar_guid_));
-  _cached_size_ = 0;
-}
-
-AvatarEquipAffixStartNotify::~AvatarEquipAffixStartNotify() {
-  // @@protoc_insertion_point(destructor:proto.AvatarEquipAffixStartNotify)
-  SharedDtor();
-}
-
-void AvatarEquipAffixStartNotify::SharedDtor() {
-  if (this != internal_default_instance()) delete equip_affix_info_;
-}
-
-void AvatarEquipAffixStartNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarEquipAffixStartNotify::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarEquipAffixStartNotify& AvatarEquipAffixStartNotify::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarEquipAffixStartNotify* AvatarEquipAffixStartNotify::New(::google::protobuf::Arena* arena) const {
-  AvatarEquipAffixStartNotify* n = new AvatarEquipAffixStartNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarEquipAffixStartNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarEquipAffixStartNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  if (GetArenaNoVirtual() == NULL && equip_affix_info_ != NULL) {
-    delete equip_affix_info_;
-  }
-  equip_affix_info_ = NULL;
-  avatar_guid_ = GOOGLE_ULONGLONG(0);
-  _internal_metadata_.Clear();
 }
 
 bool AvatarEquipAffixStartNotify::MergePartialFromCodedStream(
@@ -21843,16 +9216,18 @@ bool AvatarEquipAffixStartNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarEquipAffixStartNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarEquipAffixStartNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -21874,9 +9249,9 @@ void AvatarEquipAffixStartNotify::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt64(15, this->avatar_guid(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarEquipAffixStartNotify)
 }
@@ -21900,9 +9275,9 @@ void AvatarEquipAffixStartNotify::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt64ToArray(15, this->avatar_guid(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarEquipAffixStartNotify)
   return target;
@@ -21912,10 +9287,10 @@ size_t AvatarEquipAffixStartNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarEquipAffixStartNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // .proto.AvatarEquipAffixInfo equip_affix_info = 5;
   if (this->has_equip_affix_info()) {
@@ -21936,206 +9311,6 @@ size_t AvatarEquipAffixStartNotify::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarEquipAffixStartNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarEquipAffixStartNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarEquipAffixStartNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarEquipAffixStartNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarEquipAffixStartNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarEquipAffixStartNotify)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarEquipAffixStartNotify::MergeFrom(const AvatarEquipAffixStartNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarEquipAffixStartNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.has_equip_affix_info()) {
-    mutable_equip_affix_info()->::proto::AvatarEquipAffixInfo::MergeFrom(from.equip_affix_info());
-  }
-  if (from.avatar_guid() != 0) {
-    set_avatar_guid(from.avatar_guid());
-  }
-}
-
-void AvatarEquipAffixStartNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarEquipAffixStartNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarEquipAffixStartNotify::CopyFrom(const AvatarEquipAffixStartNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarEquipAffixStartNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarEquipAffixStartNotify::IsInitialized() const {
-  return true;
-}
-
-void AvatarEquipAffixStartNotify::Swap(AvatarEquipAffixStartNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarEquipAffixStartNotify::InternalSwap(AvatarEquipAffixStartNotify* other) {
-  using std::swap;
-  swap(equip_affix_info_, other->equip_affix_info_);
-  swap(avatar_guid_, other->avatar_guid_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarEquipAffixStartNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarEquipAffixStartNotify
-
-// uint64 avatar_guid = 15;
-void AvatarEquipAffixStartNotify::clear_avatar_guid() {
-  avatar_guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 AvatarEquipAffixStartNotify::avatar_guid() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarEquipAffixStartNotify.avatar_guid)
-  return avatar_guid_;
-}
-void AvatarEquipAffixStartNotify::set_avatar_guid(::google::protobuf::uint64 value) {
-  
-  avatar_guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarEquipAffixStartNotify.avatar_guid)
-}
-
-// .proto.AvatarEquipAffixInfo equip_affix_info = 5;
-bool AvatarEquipAffixStartNotify::has_equip_affix_info() const {
-  return this != internal_default_instance() && equip_affix_info_ != NULL;
-}
-void AvatarEquipAffixStartNotify::clear_equip_affix_info() {
-  if (GetArenaNoVirtual() == NULL && equip_affix_info_ != NULL) delete equip_affix_info_;
-  equip_affix_info_ = NULL;
-}
-const ::proto::AvatarEquipAffixInfo& AvatarEquipAffixStartNotify::equip_affix_info() const {
-  const ::proto::AvatarEquipAffixInfo* p = equip_affix_info_;
-  // @@protoc_insertion_point(field_get:proto.AvatarEquipAffixStartNotify.equip_affix_info)
-  return p != NULL ? *p : *reinterpret_cast<const ::proto::AvatarEquipAffixInfo*>(
-      &::proto::_AvatarEquipAffixInfo_default_instance_);
-}
-::proto::AvatarEquipAffixInfo* AvatarEquipAffixStartNotify::mutable_equip_affix_info() {
-  
-  if (equip_affix_info_ == NULL) {
-    equip_affix_info_ = new ::proto::AvatarEquipAffixInfo;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.AvatarEquipAffixStartNotify.equip_affix_info)
-  return equip_affix_info_;
-}
-::proto::AvatarEquipAffixInfo* AvatarEquipAffixStartNotify::release_equip_affix_info() {
-  // @@protoc_insertion_point(field_release:proto.AvatarEquipAffixStartNotify.equip_affix_info)
-  
-  ::proto::AvatarEquipAffixInfo* temp = equip_affix_info_;
-  equip_affix_info_ = NULL;
-  return temp;
-}
-void AvatarEquipAffixStartNotify::set_allocated_equip_affix_info(::proto::AvatarEquipAffixInfo* equip_affix_info) {
-  delete equip_affix_info_;
-  equip_affix_info_ = equip_affix_info;
-  if (equip_affix_info) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.AvatarEquipAffixStartNotify.equip_affix_info)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarFetterLevelRewardReq::kAvatarGuidFieldNumber;
-const int AvatarFetterLevelRewardReq::kFetterLevelFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarFetterLevelRewardReq::AvatarFetterLevelRewardReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarFetterLevelRewardReq)
-}
-AvatarFetterLevelRewardReq::AvatarFetterLevelRewardReq(const AvatarFetterLevelRewardReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&fetter_level_, &from.fetter_level_,
-    static_cast<size_t>(reinterpret_cast<char*>(&avatar_guid_) -
-    reinterpret_cast<char*>(&fetter_level_)) + sizeof(avatar_guid_));
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarFetterLevelRewardReq)
-}
-
-void AvatarFetterLevelRewardReq::SharedCtor() {
-  ::memset(&fetter_level_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&avatar_guid_) -
-      reinterpret_cast<char*>(&fetter_level_)) + sizeof(avatar_guid_));
-  _cached_size_ = 0;
-}
-
-AvatarFetterLevelRewardReq::~AvatarFetterLevelRewardReq() {
-  // @@protoc_insertion_point(destructor:proto.AvatarFetterLevelRewardReq)
-  SharedDtor();
-}
-
-void AvatarFetterLevelRewardReq::SharedDtor() {
-}
-
-void AvatarFetterLevelRewardReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarFetterLevelRewardReq::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarFetterLevelRewardReq& AvatarFetterLevelRewardReq::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarFetterLevelRewardReq* AvatarFetterLevelRewardReq::New(::google::protobuf::Arena* arena) const {
-  AvatarFetterLevelRewardReq* n = new AvatarFetterLevelRewardReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarFetterLevelRewardReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarFetterLevelRewardReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&fetter_level_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&avatar_guid_) -
-      reinterpret_cast<char*>(&fetter_level_)) + sizeof(avatar_guid_));
-  _internal_metadata_.Clear();
 }
 
 bool AvatarFetterLevelRewardReq::MergePartialFromCodedStream(
@@ -22182,16 +9357,18 @@ bool AvatarFetterLevelRewardReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarFetterLevelRewardReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarFetterLevelRewardReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -22212,9 +9389,9 @@ void AvatarFetterLevelRewardReq::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt64(13, this->avatar_guid(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarFetterLevelRewardReq)
 }
@@ -22236,9 +9413,9 @@ void AvatarFetterLevelRewardReq::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt64ToArray(13, this->avatar_guid(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarFetterLevelRewardReq)
   return target;
@@ -22248,10 +9425,10 @@ size_t AvatarFetterLevelRewardReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarFetterLevelRewardReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 fetter_level = 12;
   if (this->fetter_level() != 0) {
@@ -22272,182 +9449,6 @@ size_t AvatarFetterLevelRewardReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarFetterLevelRewardReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarFetterLevelRewardReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarFetterLevelRewardReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarFetterLevelRewardReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarFetterLevelRewardReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarFetterLevelRewardReq)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarFetterLevelRewardReq::MergeFrom(const AvatarFetterLevelRewardReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarFetterLevelRewardReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.fetter_level() != 0) {
-    set_fetter_level(from.fetter_level());
-  }
-  if (from.avatar_guid() != 0) {
-    set_avatar_guid(from.avatar_guid());
-  }
-}
-
-void AvatarFetterLevelRewardReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarFetterLevelRewardReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarFetterLevelRewardReq::CopyFrom(const AvatarFetterLevelRewardReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarFetterLevelRewardReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarFetterLevelRewardReq::IsInitialized() const {
-  return true;
-}
-
-void AvatarFetterLevelRewardReq::Swap(AvatarFetterLevelRewardReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarFetterLevelRewardReq::InternalSwap(AvatarFetterLevelRewardReq* other) {
-  using std::swap;
-  swap(fetter_level_, other->fetter_level_);
-  swap(avatar_guid_, other->avatar_guid_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarFetterLevelRewardReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarFetterLevelRewardReq
-
-// uint64 avatar_guid = 13;
-void AvatarFetterLevelRewardReq::clear_avatar_guid() {
-  avatar_guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 AvatarFetterLevelRewardReq::avatar_guid() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarFetterLevelRewardReq.avatar_guid)
-  return avatar_guid_;
-}
-void AvatarFetterLevelRewardReq::set_avatar_guid(::google::protobuf::uint64 value) {
-  
-  avatar_guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarFetterLevelRewardReq.avatar_guid)
-}
-
-// uint32 fetter_level = 12;
-void AvatarFetterLevelRewardReq::clear_fetter_level() {
-  fetter_level_ = 0u;
-}
-::google::protobuf::uint32 AvatarFetterLevelRewardReq::fetter_level() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarFetterLevelRewardReq.fetter_level)
-  return fetter_level_;
-}
-void AvatarFetterLevelRewardReq::set_fetter_level(::google::protobuf::uint32 value) {
-  
-  fetter_level_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarFetterLevelRewardReq.fetter_level)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarFetterLevelRewardRsp::kAvatarGuidFieldNumber;
-const int AvatarFetterLevelRewardRsp::kRewardIdFieldNumber;
-const int AvatarFetterLevelRewardRsp::kRetcodeFieldNumber;
-const int AvatarFetterLevelRewardRsp::kFetterLevelFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarFetterLevelRewardRsp::AvatarFetterLevelRewardRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarFetterLevelRewardRsp)
-}
-AvatarFetterLevelRewardRsp::AvatarFetterLevelRewardRsp(const AvatarFetterLevelRewardRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&reward_id_, &from.reward_id_,
-    static_cast<size_t>(reinterpret_cast<char*>(&retcode_) -
-    reinterpret_cast<char*>(&reward_id_)) + sizeof(retcode_));
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarFetterLevelRewardRsp)
-}
-
-void AvatarFetterLevelRewardRsp::SharedCtor() {
-  ::memset(&reward_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&retcode_) -
-      reinterpret_cast<char*>(&reward_id_)) + sizeof(retcode_));
-  _cached_size_ = 0;
-}
-
-AvatarFetterLevelRewardRsp::~AvatarFetterLevelRewardRsp() {
-  // @@protoc_insertion_point(destructor:proto.AvatarFetterLevelRewardRsp)
-  SharedDtor();
-}
-
-void AvatarFetterLevelRewardRsp::SharedDtor() {
-}
-
-void AvatarFetterLevelRewardRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarFetterLevelRewardRsp::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarFetterLevelRewardRsp& AvatarFetterLevelRewardRsp::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarFetterLevelRewardRsp* AvatarFetterLevelRewardRsp::New(::google::protobuf::Arena* arena) const {
-  AvatarFetterLevelRewardRsp* n = new AvatarFetterLevelRewardRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarFetterLevelRewardRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarFetterLevelRewardRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&reward_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&retcode_) -
-      reinterpret_cast<char*>(&reward_id_)) + sizeof(retcode_));
-  _internal_metadata_.Clear();
 }
 
 bool AvatarFetterLevelRewardRsp::MergePartialFromCodedStream(
@@ -22522,16 +9523,18 @@ bool AvatarFetterLevelRewardRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarFetterLevelRewardRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarFetterLevelRewardRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -22562,9 +9565,9 @@ void AvatarFetterLevelRewardRsp::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(15, this->reward_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarFetterLevelRewardRsp)
 }
@@ -22596,9 +9599,9 @@ void AvatarFetterLevelRewardRsp::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(15, this->reward_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarFetterLevelRewardRsp)
   return target;
@@ -22608,10 +9611,10 @@ size_t AvatarFetterLevelRewardRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarFetterLevelRewardRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 reward_id = 15;
   if (this->reward_id() != 0) {
@@ -22646,217 +9649,6 @@ size_t AvatarFetterLevelRewardRsp::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarFetterLevelRewardRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarFetterLevelRewardRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarFetterLevelRewardRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarFetterLevelRewardRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarFetterLevelRewardRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarFetterLevelRewardRsp)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarFetterLevelRewardRsp::MergeFrom(const AvatarFetterLevelRewardRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarFetterLevelRewardRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.reward_id() != 0) {
-    set_reward_id(from.reward_id());
-  }
-  if (from.avatar_guid() != 0) {
-    set_avatar_guid(from.avatar_guid());
-  }
-  if (from.fetter_level() != 0) {
-    set_fetter_level(from.fetter_level());
-  }
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-}
-
-void AvatarFetterLevelRewardRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarFetterLevelRewardRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarFetterLevelRewardRsp::CopyFrom(const AvatarFetterLevelRewardRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarFetterLevelRewardRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarFetterLevelRewardRsp::IsInitialized() const {
-  return true;
-}
-
-void AvatarFetterLevelRewardRsp::Swap(AvatarFetterLevelRewardRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarFetterLevelRewardRsp::InternalSwap(AvatarFetterLevelRewardRsp* other) {
-  using std::swap;
-  swap(reward_id_, other->reward_id_);
-  swap(avatar_guid_, other->avatar_guid_);
-  swap(fetter_level_, other->fetter_level_);
-  swap(retcode_, other->retcode_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarFetterLevelRewardRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarFetterLevelRewardRsp
-
-// uint64 avatar_guid = 6;
-void AvatarFetterLevelRewardRsp::clear_avatar_guid() {
-  avatar_guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 AvatarFetterLevelRewardRsp::avatar_guid() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarFetterLevelRewardRsp.avatar_guid)
-  return avatar_guid_;
-}
-void AvatarFetterLevelRewardRsp::set_avatar_guid(::google::protobuf::uint64 value) {
-  
-  avatar_guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarFetterLevelRewardRsp.avatar_guid)
-}
-
-// uint32 reward_id = 15;
-void AvatarFetterLevelRewardRsp::clear_reward_id() {
-  reward_id_ = 0u;
-}
-::google::protobuf::uint32 AvatarFetterLevelRewardRsp::reward_id() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarFetterLevelRewardRsp.reward_id)
-  return reward_id_;
-}
-void AvatarFetterLevelRewardRsp::set_reward_id(::google::protobuf::uint32 value) {
-  
-  reward_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarFetterLevelRewardRsp.reward_id)
-}
-
-// int32 retcode = 14;
-void AvatarFetterLevelRewardRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 AvatarFetterLevelRewardRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarFetterLevelRewardRsp.retcode)
-  return retcode_;
-}
-void AvatarFetterLevelRewardRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarFetterLevelRewardRsp.retcode)
-}
-
-// uint32 fetter_level = 2;
-void AvatarFetterLevelRewardRsp::clear_fetter_level() {
-  fetter_level_ = 0u;
-}
-::google::protobuf::uint32 AvatarFetterLevelRewardRsp::fetter_level() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarFetterLevelRewardRsp.fetter_level)
-  return fetter_level_;
-}
-void AvatarFetterLevelRewardRsp::set_fetter_level(::google::protobuf::uint32 value) {
-  
-  fetter_level_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarFetterLevelRewardRsp.fetter_level)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AddNoGachaAvatarCardTransferItem::kCountFieldNumber;
-const int AddNoGachaAvatarCardTransferItem::kItemIdFieldNumber;
-const int AddNoGachaAvatarCardTransferItem::kIsNewFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AddNoGachaAvatarCardTransferItem::AddNoGachaAvatarCardTransferItem()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AddNoGachaAvatarCardTransferItem)
-}
-AddNoGachaAvatarCardTransferItem::AddNoGachaAvatarCardTransferItem(const AddNoGachaAvatarCardTransferItem& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&item_id_, &from.item_id_,
-    static_cast<size_t>(reinterpret_cast<char*>(&is_new_) -
-    reinterpret_cast<char*>(&item_id_)) + sizeof(is_new_));
-  // @@protoc_insertion_point(copy_constructor:proto.AddNoGachaAvatarCardTransferItem)
-}
-
-void AddNoGachaAvatarCardTransferItem::SharedCtor() {
-  ::memset(&item_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&is_new_) -
-      reinterpret_cast<char*>(&item_id_)) + sizeof(is_new_));
-  _cached_size_ = 0;
-}
-
-AddNoGachaAvatarCardTransferItem::~AddNoGachaAvatarCardTransferItem() {
-  // @@protoc_insertion_point(destructor:proto.AddNoGachaAvatarCardTransferItem)
-  SharedDtor();
-}
-
-void AddNoGachaAvatarCardTransferItem::SharedDtor() {
-}
-
-void AddNoGachaAvatarCardTransferItem::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AddNoGachaAvatarCardTransferItem::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AddNoGachaAvatarCardTransferItem& AddNoGachaAvatarCardTransferItem::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AddNoGachaAvatarCardTransferItem* AddNoGachaAvatarCardTransferItem::New(::google::protobuf::Arena* arena) const {
-  AddNoGachaAvatarCardTransferItem* n = new AddNoGachaAvatarCardTransferItem;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AddNoGachaAvatarCardTransferItem::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AddNoGachaAvatarCardTransferItem)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&item_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&is_new_) -
-      reinterpret_cast<char*>(&item_id_)) + sizeof(is_new_));
-  _internal_metadata_.Clear();
 }
 
 bool AddNoGachaAvatarCardTransferItem::MergePartialFromCodedStream(
@@ -22917,16 +9709,18 @@ bool AddNoGachaAvatarCardTransferItem::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AddNoGachaAvatarCardTransferItem)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AddNoGachaAvatarCardTransferItem)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -22952,9 +9746,9 @@ void AddNoGachaAvatarCardTransferItem::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(12, this->item_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AddNoGachaAvatarCardTransferItem)
 }
@@ -22981,9 +9775,9 @@ void AddNoGachaAvatarCardTransferItem::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(12, this->item_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AddNoGachaAvatarCardTransferItem)
   return target;
@@ -22993,10 +9787,10 @@ size_t AddNoGachaAvatarCardTransferItem::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AddNoGachaAvatarCardTransferItem)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 item_id = 12;
   if (this->item_id() != 0) {
@@ -23022,205 +9816,6 @@ size_t AddNoGachaAvatarCardTransferItem::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AddNoGachaAvatarCardTransferItem::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AddNoGachaAvatarCardTransferItem)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AddNoGachaAvatarCardTransferItem* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AddNoGachaAvatarCardTransferItem>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AddNoGachaAvatarCardTransferItem)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AddNoGachaAvatarCardTransferItem)
-    MergeFrom(*source);
-  }
-}
-
-void AddNoGachaAvatarCardTransferItem::MergeFrom(const AddNoGachaAvatarCardTransferItem& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AddNoGachaAvatarCardTransferItem)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.item_id() != 0) {
-    set_item_id(from.item_id());
-  }
-  if (from.count() != 0) {
-    set_count(from.count());
-  }
-  if (from.is_new() != 0) {
-    set_is_new(from.is_new());
-  }
-}
-
-void AddNoGachaAvatarCardTransferItem::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AddNoGachaAvatarCardTransferItem)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AddNoGachaAvatarCardTransferItem::CopyFrom(const AddNoGachaAvatarCardTransferItem& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AddNoGachaAvatarCardTransferItem)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AddNoGachaAvatarCardTransferItem::IsInitialized() const {
-  return true;
-}
-
-void AddNoGachaAvatarCardTransferItem::Swap(AddNoGachaAvatarCardTransferItem* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AddNoGachaAvatarCardTransferItem::InternalSwap(AddNoGachaAvatarCardTransferItem* other) {
-  using std::swap;
-  swap(item_id_, other->item_id_);
-  swap(count_, other->count_);
-  swap(is_new_, other->is_new_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AddNoGachaAvatarCardTransferItem::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AddNoGachaAvatarCardTransferItem
-
-// uint32 count = 10;
-void AddNoGachaAvatarCardTransferItem::clear_count() {
-  count_ = 0u;
-}
-::google::protobuf::uint32 AddNoGachaAvatarCardTransferItem::count() const {
-  // @@protoc_insertion_point(field_get:proto.AddNoGachaAvatarCardTransferItem.count)
-  return count_;
-}
-void AddNoGachaAvatarCardTransferItem::set_count(::google::protobuf::uint32 value) {
-  
-  count_ = value;
-  // @@protoc_insertion_point(field_set:proto.AddNoGachaAvatarCardTransferItem.count)
-}
-
-// uint32 item_id = 12;
-void AddNoGachaAvatarCardTransferItem::clear_item_id() {
-  item_id_ = 0u;
-}
-::google::protobuf::uint32 AddNoGachaAvatarCardTransferItem::item_id() const {
-  // @@protoc_insertion_point(field_get:proto.AddNoGachaAvatarCardTransferItem.item_id)
-  return item_id_;
-}
-void AddNoGachaAvatarCardTransferItem::set_item_id(::google::protobuf::uint32 value) {
-  
-  item_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.AddNoGachaAvatarCardTransferItem.item_id)
-}
-
-// bool is_new = 11;
-void AddNoGachaAvatarCardTransferItem::clear_is_new() {
-  is_new_ = false;
-}
-bool AddNoGachaAvatarCardTransferItem::is_new() const {
-  // @@protoc_insertion_point(field_get:proto.AddNoGachaAvatarCardTransferItem.is_new)
-  return is_new_;
-}
-void AddNoGachaAvatarCardTransferItem::set_is_new(bool value) {
-  
-  is_new_ = value;
-  // @@protoc_insertion_point(field_set:proto.AddNoGachaAvatarCardTransferItem.is_new)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AddNoGachaAvatarCardNotify::kTransferItemListFieldNumber;
-const int AddNoGachaAvatarCardNotify::kInitialPromoteLevelFieldNumber;
-const int AddNoGachaAvatarCardNotify::kAvatarIdFieldNumber;
-const int AddNoGachaAvatarCardNotify::kIsTransferToItemFieldNumber;
-const int AddNoGachaAvatarCardNotify::kReasonFieldNumber;
-const int AddNoGachaAvatarCardNotify::kInitialLevelFieldNumber;
-const int AddNoGachaAvatarCardNotify::kItemIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AddNoGachaAvatarCardNotify::AddNoGachaAvatarCardNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AddNoGachaAvatarCardNotify)
-}
-AddNoGachaAvatarCardNotify::AddNoGachaAvatarCardNotify(const AddNoGachaAvatarCardNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      transfer_item_list_(from.transfer_item_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&initial_level_, &from.initial_level_,
-    static_cast<size_t>(reinterpret_cast<char*>(&is_transfer_to_item_) -
-    reinterpret_cast<char*>(&initial_level_)) + sizeof(is_transfer_to_item_));
-  // @@protoc_insertion_point(copy_constructor:proto.AddNoGachaAvatarCardNotify)
-}
-
-void AddNoGachaAvatarCardNotify::SharedCtor() {
-  ::memset(&initial_level_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&is_transfer_to_item_) -
-      reinterpret_cast<char*>(&initial_level_)) + sizeof(is_transfer_to_item_));
-  _cached_size_ = 0;
-}
-
-AddNoGachaAvatarCardNotify::~AddNoGachaAvatarCardNotify() {
-  // @@protoc_insertion_point(destructor:proto.AddNoGachaAvatarCardNotify)
-  SharedDtor();
-}
-
-void AddNoGachaAvatarCardNotify::SharedDtor() {
-}
-
-void AddNoGachaAvatarCardNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AddNoGachaAvatarCardNotify::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AddNoGachaAvatarCardNotify& AddNoGachaAvatarCardNotify::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AddNoGachaAvatarCardNotify* AddNoGachaAvatarCardNotify::New(::google::protobuf::Arena* arena) const {
-  AddNoGachaAvatarCardNotify* n = new AddNoGachaAvatarCardNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AddNoGachaAvatarCardNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AddNoGachaAvatarCardNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  transfer_item_list_.Clear();
-  ::memset(&initial_level_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&is_transfer_to_item_) -
-      reinterpret_cast<char*>(&initial_level_)) + sizeof(is_transfer_to_item_));
-  _internal_metadata_.Clear();
 }
 
 bool AddNoGachaAvatarCardNotify::MergePartialFromCodedStream(
@@ -23335,16 +9930,18 @@ bool AddNoGachaAvatarCardNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AddNoGachaAvatarCardNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AddNoGachaAvatarCardNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -23392,9 +9989,9 @@ void AddNoGachaAvatarCardNotify::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteBool(14, this->is_transfer_to_item(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AddNoGachaAvatarCardNotify)
 }
@@ -23444,9 +10041,9 @@ void AddNoGachaAvatarCardNotify::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteBoolToArray(14, this->is_transfer_to_item(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AddNoGachaAvatarCardNotify)
   return target;
@@ -23456,10 +10053,10 @@ size_t AddNoGachaAvatarCardNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AddNoGachaAvatarCardNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated .proto.AddNoGachaAvatarCardTransferItem transfer_item_list = 10;
   {
@@ -23519,284 +10116,6 @@ size_t AddNoGachaAvatarCardNotify::ByteSizeLong() const {
   return total_size;
 }
 
-void AddNoGachaAvatarCardNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AddNoGachaAvatarCardNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AddNoGachaAvatarCardNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AddNoGachaAvatarCardNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AddNoGachaAvatarCardNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AddNoGachaAvatarCardNotify)
-    MergeFrom(*source);
-  }
-}
-
-void AddNoGachaAvatarCardNotify::MergeFrom(const AddNoGachaAvatarCardNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AddNoGachaAvatarCardNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  transfer_item_list_.MergeFrom(from.transfer_item_list_);
-  if (from.initial_level() != 0) {
-    set_initial_level(from.initial_level());
-  }
-  if (from.avatar_id() != 0) {
-    set_avatar_id(from.avatar_id());
-  }
-  if (from.item_id() != 0) {
-    set_item_id(from.item_id());
-  }
-  if (from.reason() != 0) {
-    set_reason(from.reason());
-  }
-  if (from.initial_promote_level() != 0) {
-    set_initial_promote_level(from.initial_promote_level());
-  }
-  if (from.is_transfer_to_item() != 0) {
-    set_is_transfer_to_item(from.is_transfer_to_item());
-  }
-}
-
-void AddNoGachaAvatarCardNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AddNoGachaAvatarCardNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AddNoGachaAvatarCardNotify::CopyFrom(const AddNoGachaAvatarCardNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AddNoGachaAvatarCardNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AddNoGachaAvatarCardNotify::IsInitialized() const {
-  return true;
-}
-
-void AddNoGachaAvatarCardNotify::Swap(AddNoGachaAvatarCardNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AddNoGachaAvatarCardNotify::InternalSwap(AddNoGachaAvatarCardNotify* other) {
-  using std::swap;
-  transfer_item_list_.InternalSwap(&other->transfer_item_list_);
-  swap(initial_level_, other->initial_level_);
-  swap(avatar_id_, other->avatar_id_);
-  swap(item_id_, other->item_id_);
-  swap(reason_, other->reason_);
-  swap(initial_promote_level_, other->initial_promote_level_);
-  swap(is_transfer_to_item_, other->is_transfer_to_item_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AddNoGachaAvatarCardNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AddNoGachaAvatarCardNotify
-
-// repeated .proto.AddNoGachaAvatarCardTransferItem transfer_item_list = 10;
-int AddNoGachaAvatarCardNotify::transfer_item_list_size() const {
-  return transfer_item_list_.size();
-}
-void AddNoGachaAvatarCardNotify::clear_transfer_item_list() {
-  transfer_item_list_.Clear();
-}
-const ::proto::AddNoGachaAvatarCardTransferItem& AddNoGachaAvatarCardNotify::transfer_item_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.AddNoGachaAvatarCardNotify.transfer_item_list)
-  return transfer_item_list_.Get(index);
-}
-::proto::AddNoGachaAvatarCardTransferItem* AddNoGachaAvatarCardNotify::mutable_transfer_item_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.AddNoGachaAvatarCardNotify.transfer_item_list)
-  return transfer_item_list_.Mutable(index);
-}
-::proto::AddNoGachaAvatarCardTransferItem* AddNoGachaAvatarCardNotify::add_transfer_item_list() {
-  // @@protoc_insertion_point(field_add:proto.AddNoGachaAvatarCardNotify.transfer_item_list)
-  return transfer_item_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::AddNoGachaAvatarCardTransferItem >*
-AddNoGachaAvatarCardNotify::mutable_transfer_item_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.AddNoGachaAvatarCardNotify.transfer_item_list)
-  return &transfer_item_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::AddNoGachaAvatarCardTransferItem >&
-AddNoGachaAvatarCardNotify::transfer_item_list() const {
-  // @@protoc_insertion_point(field_list:proto.AddNoGachaAvatarCardNotify.transfer_item_list)
-  return transfer_item_list_;
-}
-
-// uint32 initial_promote_level = 13;
-void AddNoGachaAvatarCardNotify::clear_initial_promote_level() {
-  initial_promote_level_ = 0u;
-}
-::google::protobuf::uint32 AddNoGachaAvatarCardNotify::initial_promote_level() const {
-  // @@protoc_insertion_point(field_get:proto.AddNoGachaAvatarCardNotify.initial_promote_level)
-  return initial_promote_level_;
-}
-void AddNoGachaAvatarCardNotify::set_initial_promote_level(::google::protobuf::uint32 value) {
-  
-  initial_promote_level_ = value;
-  // @@protoc_insertion_point(field_set:proto.AddNoGachaAvatarCardNotify.initial_promote_level)
-}
-
-// uint32 avatar_id = 4;
-void AddNoGachaAvatarCardNotify::clear_avatar_id() {
-  avatar_id_ = 0u;
-}
-::google::protobuf::uint32 AddNoGachaAvatarCardNotify::avatar_id() const {
-  // @@protoc_insertion_point(field_get:proto.AddNoGachaAvatarCardNotify.avatar_id)
-  return avatar_id_;
-}
-void AddNoGachaAvatarCardNotify::set_avatar_id(::google::protobuf::uint32 value) {
-  
-  avatar_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.AddNoGachaAvatarCardNotify.avatar_id)
-}
-
-// bool is_transfer_to_item = 14;
-void AddNoGachaAvatarCardNotify::clear_is_transfer_to_item() {
-  is_transfer_to_item_ = false;
-}
-bool AddNoGachaAvatarCardNotify::is_transfer_to_item() const {
-  // @@protoc_insertion_point(field_get:proto.AddNoGachaAvatarCardNotify.is_transfer_to_item)
-  return is_transfer_to_item_;
-}
-void AddNoGachaAvatarCardNotify::set_is_transfer_to_item(bool value) {
-  
-  is_transfer_to_item_ = value;
-  // @@protoc_insertion_point(field_set:proto.AddNoGachaAvatarCardNotify.is_transfer_to_item)
-}
-
-// uint32 reason = 9;
-void AddNoGachaAvatarCardNotify::clear_reason() {
-  reason_ = 0u;
-}
-::google::protobuf::uint32 AddNoGachaAvatarCardNotify::reason() const {
-  // @@protoc_insertion_point(field_get:proto.AddNoGachaAvatarCardNotify.reason)
-  return reason_;
-}
-void AddNoGachaAvatarCardNotify::set_reason(::google::protobuf::uint32 value) {
-  
-  reason_ = value;
-  // @@protoc_insertion_point(field_set:proto.AddNoGachaAvatarCardNotify.reason)
-}
-
-// uint32 initial_level = 3;
-void AddNoGachaAvatarCardNotify::clear_initial_level() {
-  initial_level_ = 0u;
-}
-::google::protobuf::uint32 AddNoGachaAvatarCardNotify::initial_level() const {
-  // @@protoc_insertion_point(field_get:proto.AddNoGachaAvatarCardNotify.initial_level)
-  return initial_level_;
-}
-void AddNoGachaAvatarCardNotify::set_initial_level(::google::protobuf::uint32 value) {
-  
-  initial_level_ = value;
-  // @@protoc_insertion_point(field_set:proto.AddNoGachaAvatarCardNotify.initial_level)
-}
-
-// uint32 item_id = 7;
-void AddNoGachaAvatarCardNotify::clear_item_id() {
-  item_id_ = 0u;
-}
-::google::protobuf::uint32 AddNoGachaAvatarCardNotify::item_id() const {
-  // @@protoc_insertion_point(field_get:proto.AddNoGachaAvatarCardNotify.item_id)
-  return item_id_;
-}
-void AddNoGachaAvatarCardNotify::set_item_id(::google::protobuf::uint32 value) {
-  
-  item_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.AddNoGachaAvatarCardNotify.item_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarPromoteGetRewardReq::kAvatarGuidFieldNumber;
-const int AvatarPromoteGetRewardReq::kPromoteLevelFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarPromoteGetRewardReq::AvatarPromoteGetRewardReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarPromoteGetRewardReq)
-}
-AvatarPromoteGetRewardReq::AvatarPromoteGetRewardReq(const AvatarPromoteGetRewardReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&promote_level_, &from.promote_level_,
-    static_cast<size_t>(reinterpret_cast<char*>(&avatar_guid_) -
-    reinterpret_cast<char*>(&promote_level_)) + sizeof(avatar_guid_));
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarPromoteGetRewardReq)
-}
-
-void AvatarPromoteGetRewardReq::SharedCtor() {
-  ::memset(&promote_level_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&avatar_guid_) -
-      reinterpret_cast<char*>(&promote_level_)) + sizeof(avatar_guid_));
-  _cached_size_ = 0;
-}
-
-AvatarPromoteGetRewardReq::~AvatarPromoteGetRewardReq() {
-  // @@protoc_insertion_point(destructor:proto.AvatarPromoteGetRewardReq)
-  SharedDtor();
-}
-
-void AvatarPromoteGetRewardReq::SharedDtor() {
-}
-
-void AvatarPromoteGetRewardReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarPromoteGetRewardReq::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarPromoteGetRewardReq& AvatarPromoteGetRewardReq::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarPromoteGetRewardReq* AvatarPromoteGetRewardReq::New(::google::protobuf::Arena* arena) const {
-  AvatarPromoteGetRewardReq* n = new AvatarPromoteGetRewardReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarPromoteGetRewardReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarPromoteGetRewardReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&promote_level_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&avatar_guid_) -
-      reinterpret_cast<char*>(&promote_level_)) + sizeof(avatar_guid_));
-  _internal_metadata_.Clear();
-}
-
 bool AvatarPromoteGetRewardReq::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -23841,16 +10160,18 @@ bool AvatarPromoteGetRewardReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarPromoteGetRewardReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarPromoteGetRewardReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -23871,9 +10192,9 @@ void AvatarPromoteGetRewardReq::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(10, this->promote_level(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarPromoteGetRewardReq)
 }
@@ -23895,9 +10216,9 @@ void AvatarPromoteGetRewardReq::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(10, this->promote_level(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarPromoteGetRewardReq)
   return target;
@@ -23907,10 +10228,10 @@ size_t AvatarPromoteGetRewardReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarPromoteGetRewardReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 promote_level = 10;
   if (this->promote_level() != 0) {
@@ -23931,182 +10252,6 @@ size_t AvatarPromoteGetRewardReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarPromoteGetRewardReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarPromoteGetRewardReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarPromoteGetRewardReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarPromoteGetRewardReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarPromoteGetRewardReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarPromoteGetRewardReq)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarPromoteGetRewardReq::MergeFrom(const AvatarPromoteGetRewardReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarPromoteGetRewardReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.promote_level() != 0) {
-    set_promote_level(from.promote_level());
-  }
-  if (from.avatar_guid() != 0) {
-    set_avatar_guid(from.avatar_guid());
-  }
-}
-
-void AvatarPromoteGetRewardReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarPromoteGetRewardReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarPromoteGetRewardReq::CopyFrom(const AvatarPromoteGetRewardReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarPromoteGetRewardReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarPromoteGetRewardReq::IsInitialized() const {
-  return true;
-}
-
-void AvatarPromoteGetRewardReq::Swap(AvatarPromoteGetRewardReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarPromoteGetRewardReq::InternalSwap(AvatarPromoteGetRewardReq* other) {
-  using std::swap;
-  swap(promote_level_, other->promote_level_);
-  swap(avatar_guid_, other->avatar_guid_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarPromoteGetRewardReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarPromoteGetRewardReq
-
-// uint64 avatar_guid = 8;
-void AvatarPromoteGetRewardReq::clear_avatar_guid() {
-  avatar_guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 AvatarPromoteGetRewardReq::avatar_guid() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarPromoteGetRewardReq.avatar_guid)
-  return avatar_guid_;
-}
-void AvatarPromoteGetRewardReq::set_avatar_guid(::google::protobuf::uint64 value) {
-  
-  avatar_guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarPromoteGetRewardReq.avatar_guid)
-}
-
-// uint32 promote_level = 10;
-void AvatarPromoteGetRewardReq::clear_promote_level() {
-  promote_level_ = 0u;
-}
-::google::protobuf::uint32 AvatarPromoteGetRewardReq::promote_level() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarPromoteGetRewardReq.promote_level)
-  return promote_level_;
-}
-void AvatarPromoteGetRewardReq::set_promote_level(::google::protobuf::uint32 value) {
-  
-  promote_level_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarPromoteGetRewardReq.promote_level)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarPromoteGetRewardRsp::kRetcodeFieldNumber;
-const int AvatarPromoteGetRewardRsp::kRewardIdFieldNumber;
-const int AvatarPromoteGetRewardRsp::kAvatarGuidFieldNumber;
-const int AvatarPromoteGetRewardRsp::kPromoteLevelFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarPromoteGetRewardRsp::AvatarPromoteGetRewardRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarPromoteGetRewardRsp)
-}
-AvatarPromoteGetRewardRsp::AvatarPromoteGetRewardRsp(const AvatarPromoteGetRewardRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&retcode_, &from.retcode_,
-    static_cast<size_t>(reinterpret_cast<char*>(&avatar_guid_) -
-    reinterpret_cast<char*>(&retcode_)) + sizeof(avatar_guid_));
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarPromoteGetRewardRsp)
-}
-
-void AvatarPromoteGetRewardRsp::SharedCtor() {
-  ::memset(&retcode_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&avatar_guid_) -
-      reinterpret_cast<char*>(&retcode_)) + sizeof(avatar_guid_));
-  _cached_size_ = 0;
-}
-
-AvatarPromoteGetRewardRsp::~AvatarPromoteGetRewardRsp() {
-  // @@protoc_insertion_point(destructor:proto.AvatarPromoteGetRewardRsp)
-  SharedDtor();
-}
-
-void AvatarPromoteGetRewardRsp::SharedDtor() {
-}
-
-void AvatarPromoteGetRewardRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarPromoteGetRewardRsp::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarPromoteGetRewardRsp& AvatarPromoteGetRewardRsp::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarPromoteGetRewardRsp* AvatarPromoteGetRewardRsp::New(::google::protobuf::Arena* arena) const {
-  AvatarPromoteGetRewardRsp* n = new AvatarPromoteGetRewardRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarPromoteGetRewardRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarPromoteGetRewardRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&retcode_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&avatar_guid_) -
-      reinterpret_cast<char*>(&retcode_)) + sizeof(avatar_guid_));
-  _internal_metadata_.Clear();
 }
 
 bool AvatarPromoteGetRewardRsp::MergePartialFromCodedStream(
@@ -24181,16 +10326,18 @@ bool AvatarPromoteGetRewardRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarPromoteGetRewardRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarPromoteGetRewardRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -24221,9 +10368,9 @@ void AvatarPromoteGetRewardRsp::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt64(14, this->avatar_guid(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarPromoteGetRewardRsp)
 }
@@ -24255,9 +10402,9 @@ void AvatarPromoteGetRewardRsp::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt64ToArray(14, this->avatar_guid(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarPromoteGetRewardRsp)
   return target;
@@ -24267,10 +10414,10 @@ size_t AvatarPromoteGetRewardRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarPromoteGetRewardRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // int32 retcode = 12;
   if (this->retcode() != 0) {
@@ -24305,216 +10452,6 @@ size_t AvatarPromoteGetRewardRsp::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarPromoteGetRewardRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarPromoteGetRewardRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarPromoteGetRewardRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarPromoteGetRewardRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarPromoteGetRewardRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarPromoteGetRewardRsp)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarPromoteGetRewardRsp::MergeFrom(const AvatarPromoteGetRewardRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarPromoteGetRewardRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-  if (from.promote_level() != 0) {
-    set_promote_level(from.promote_level());
-  }
-  if (from.reward_id() != 0) {
-    set_reward_id(from.reward_id());
-  }
-  if (from.avatar_guid() != 0) {
-    set_avatar_guid(from.avatar_guid());
-  }
-}
-
-void AvatarPromoteGetRewardRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarPromoteGetRewardRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarPromoteGetRewardRsp::CopyFrom(const AvatarPromoteGetRewardRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarPromoteGetRewardRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarPromoteGetRewardRsp::IsInitialized() const {
-  return true;
-}
-
-void AvatarPromoteGetRewardRsp::Swap(AvatarPromoteGetRewardRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarPromoteGetRewardRsp::InternalSwap(AvatarPromoteGetRewardRsp* other) {
-  using std::swap;
-  swap(retcode_, other->retcode_);
-  swap(promote_level_, other->promote_level_);
-  swap(reward_id_, other->reward_id_);
-  swap(avatar_guid_, other->avatar_guid_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarPromoteGetRewardRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarPromoteGetRewardRsp
-
-// int32 retcode = 12;
-void AvatarPromoteGetRewardRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 AvatarPromoteGetRewardRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarPromoteGetRewardRsp.retcode)
-  return retcode_;
-}
-void AvatarPromoteGetRewardRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarPromoteGetRewardRsp.retcode)
-}
-
-// uint32 reward_id = 8;
-void AvatarPromoteGetRewardRsp::clear_reward_id() {
-  reward_id_ = 0u;
-}
-::google::protobuf::uint32 AvatarPromoteGetRewardRsp::reward_id() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarPromoteGetRewardRsp.reward_id)
-  return reward_id_;
-}
-void AvatarPromoteGetRewardRsp::set_reward_id(::google::protobuf::uint32 value) {
-  
-  reward_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarPromoteGetRewardRsp.reward_id)
-}
-
-// uint64 avatar_guid = 14;
-void AvatarPromoteGetRewardRsp::clear_avatar_guid() {
-  avatar_guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 AvatarPromoteGetRewardRsp::avatar_guid() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarPromoteGetRewardRsp.avatar_guid)
-  return avatar_guid_;
-}
-void AvatarPromoteGetRewardRsp::set_avatar_guid(::google::protobuf::uint64 value) {
-  
-  avatar_guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarPromoteGetRewardRsp.avatar_guid)
-}
-
-// uint32 promote_level = 5;
-void AvatarPromoteGetRewardRsp::clear_promote_level() {
-  promote_level_ = 0u;
-}
-::google::protobuf::uint32 AvatarPromoteGetRewardRsp::promote_level() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarPromoteGetRewardRsp.promote_level)
-  return promote_level_;
-}
-void AvatarPromoteGetRewardRsp::set_promote_level(::google::protobuf::uint32 value) {
-  
-  promote_level_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarPromoteGetRewardRsp.promote_level)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarChangeCostumeReq::kCostumeIdFieldNumber;
-const int AvatarChangeCostumeReq::kAvatarGuidFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarChangeCostumeReq::AvatarChangeCostumeReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarChangeCostumeReq)
-}
-AvatarChangeCostumeReq::AvatarChangeCostumeReq(const AvatarChangeCostumeReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&costume_id_, &from.costume_id_,
-    static_cast<size_t>(reinterpret_cast<char*>(&avatar_guid_) -
-    reinterpret_cast<char*>(&costume_id_)) + sizeof(avatar_guid_));
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarChangeCostumeReq)
-}
-
-void AvatarChangeCostumeReq::SharedCtor() {
-  ::memset(&costume_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&avatar_guid_) -
-      reinterpret_cast<char*>(&costume_id_)) + sizeof(avatar_guid_));
-  _cached_size_ = 0;
-}
-
-AvatarChangeCostumeReq::~AvatarChangeCostumeReq() {
-  // @@protoc_insertion_point(destructor:proto.AvatarChangeCostumeReq)
-  SharedDtor();
-}
-
-void AvatarChangeCostumeReq::SharedDtor() {
-}
-
-void AvatarChangeCostumeReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarChangeCostumeReq::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarChangeCostumeReq& AvatarChangeCostumeReq::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarChangeCostumeReq* AvatarChangeCostumeReq::New(::google::protobuf::Arena* arena) const {
-  AvatarChangeCostumeReq* n = new AvatarChangeCostumeReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarChangeCostumeReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarChangeCostumeReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&costume_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&avatar_guid_) -
-      reinterpret_cast<char*>(&costume_id_)) + sizeof(avatar_guid_));
-  _internal_metadata_.Clear();
 }
 
 bool AvatarChangeCostumeReq::MergePartialFromCodedStream(
@@ -24561,16 +10498,18 @@ bool AvatarChangeCostumeReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarChangeCostumeReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarChangeCostumeReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -24591,9 +10530,9 @@ void AvatarChangeCostumeReq::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(11, this->costume_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarChangeCostumeReq)
 }
@@ -24615,9 +10554,9 @@ void AvatarChangeCostumeReq::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(11, this->costume_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarChangeCostumeReq)
   return target;
@@ -24627,10 +10566,10 @@ size_t AvatarChangeCostumeReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarChangeCostumeReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 costume_id = 11;
   if (this->costume_id() != 0) {
@@ -24651,181 +10590,6 @@ size_t AvatarChangeCostumeReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarChangeCostumeReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarChangeCostumeReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarChangeCostumeReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarChangeCostumeReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarChangeCostumeReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarChangeCostumeReq)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarChangeCostumeReq::MergeFrom(const AvatarChangeCostumeReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarChangeCostumeReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.costume_id() != 0) {
-    set_costume_id(from.costume_id());
-  }
-  if (from.avatar_guid() != 0) {
-    set_avatar_guid(from.avatar_guid());
-  }
-}
-
-void AvatarChangeCostumeReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarChangeCostumeReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarChangeCostumeReq::CopyFrom(const AvatarChangeCostumeReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarChangeCostumeReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarChangeCostumeReq::IsInitialized() const {
-  return true;
-}
-
-void AvatarChangeCostumeReq::Swap(AvatarChangeCostumeReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarChangeCostumeReq::InternalSwap(AvatarChangeCostumeReq* other) {
-  using std::swap;
-  swap(costume_id_, other->costume_id_);
-  swap(avatar_guid_, other->avatar_guid_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarChangeCostumeReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarChangeCostumeReq
-
-// uint32 costume_id = 11;
-void AvatarChangeCostumeReq::clear_costume_id() {
-  costume_id_ = 0u;
-}
-::google::protobuf::uint32 AvatarChangeCostumeReq::costume_id() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarChangeCostumeReq.costume_id)
-  return costume_id_;
-}
-void AvatarChangeCostumeReq::set_costume_id(::google::protobuf::uint32 value) {
-  
-  costume_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarChangeCostumeReq.costume_id)
-}
-
-// uint64 avatar_guid = 4;
-void AvatarChangeCostumeReq::clear_avatar_guid() {
-  avatar_guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 AvatarChangeCostumeReq::avatar_guid() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarChangeCostumeReq.avatar_guid)
-  return avatar_guid_;
-}
-void AvatarChangeCostumeReq::set_avatar_guid(::google::protobuf::uint64 value) {
-  
-  avatar_guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarChangeCostumeReq.avatar_guid)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarChangeCostumeRsp::kAvatarGuidFieldNumber;
-const int AvatarChangeCostumeRsp::kRetcodeFieldNumber;
-const int AvatarChangeCostumeRsp::kCostumeIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarChangeCostumeRsp::AvatarChangeCostumeRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarChangeCostumeRsp)
-}
-AvatarChangeCostumeRsp::AvatarChangeCostumeRsp(const AvatarChangeCostumeRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&avatar_guid_, &from.avatar_guid_,
-    static_cast<size_t>(reinterpret_cast<char*>(&costume_id_) -
-    reinterpret_cast<char*>(&avatar_guid_)) + sizeof(costume_id_));
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarChangeCostumeRsp)
-}
-
-void AvatarChangeCostumeRsp::SharedCtor() {
-  ::memset(&avatar_guid_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&costume_id_) -
-      reinterpret_cast<char*>(&avatar_guid_)) + sizeof(costume_id_));
-  _cached_size_ = 0;
-}
-
-AvatarChangeCostumeRsp::~AvatarChangeCostumeRsp() {
-  // @@protoc_insertion_point(destructor:proto.AvatarChangeCostumeRsp)
-  SharedDtor();
-}
-
-void AvatarChangeCostumeRsp::SharedDtor() {
-}
-
-void AvatarChangeCostumeRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarChangeCostumeRsp::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarChangeCostumeRsp& AvatarChangeCostumeRsp::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarChangeCostumeRsp* AvatarChangeCostumeRsp::New(::google::protobuf::Arena* arena) const {
-  AvatarChangeCostumeRsp* n = new AvatarChangeCostumeRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarChangeCostumeRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarChangeCostumeRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&avatar_guid_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&costume_id_) -
-      reinterpret_cast<char*>(&avatar_guid_)) + sizeof(costume_id_));
-  _internal_metadata_.Clear();
 }
 
 bool AvatarChangeCostumeRsp::MergePartialFromCodedStream(
@@ -24886,16 +10650,18 @@ bool AvatarChangeCostumeRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarChangeCostumeRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarChangeCostumeRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -24921,9 +10687,9 @@ void AvatarChangeCostumeRsp::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(15, this->costume_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarChangeCostumeRsp)
 }
@@ -24950,9 +10716,9 @@ void AvatarChangeCostumeRsp::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(15, this->costume_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarChangeCostumeRsp)
   return target;
@@ -24962,10 +10728,10 @@ size_t AvatarChangeCostumeRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarChangeCostumeRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint64 avatar_guid = 5;
   if (this->avatar_guid() != 0) {
@@ -24993,199 +10759,6 @@ size_t AvatarChangeCostumeRsp::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarChangeCostumeRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarChangeCostumeRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarChangeCostumeRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarChangeCostumeRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarChangeCostumeRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarChangeCostumeRsp)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarChangeCostumeRsp::MergeFrom(const AvatarChangeCostumeRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarChangeCostumeRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.avatar_guid() != 0) {
-    set_avatar_guid(from.avatar_guid());
-  }
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-  if (from.costume_id() != 0) {
-    set_costume_id(from.costume_id());
-  }
-}
-
-void AvatarChangeCostumeRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarChangeCostumeRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarChangeCostumeRsp::CopyFrom(const AvatarChangeCostumeRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarChangeCostumeRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarChangeCostumeRsp::IsInitialized() const {
-  return true;
-}
-
-void AvatarChangeCostumeRsp::Swap(AvatarChangeCostumeRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarChangeCostumeRsp::InternalSwap(AvatarChangeCostumeRsp* other) {
-  using std::swap;
-  swap(avatar_guid_, other->avatar_guid_);
-  swap(retcode_, other->retcode_);
-  swap(costume_id_, other->costume_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarChangeCostumeRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarChangeCostumeRsp
-
-// uint64 avatar_guid = 5;
-void AvatarChangeCostumeRsp::clear_avatar_guid() {
-  avatar_guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 AvatarChangeCostumeRsp::avatar_guid() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarChangeCostumeRsp.avatar_guid)
-  return avatar_guid_;
-}
-void AvatarChangeCostumeRsp::set_avatar_guid(::google::protobuf::uint64 value) {
-  
-  avatar_guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarChangeCostumeRsp.avatar_guid)
-}
-
-// int32 retcode = 7;
-void AvatarChangeCostumeRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 AvatarChangeCostumeRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarChangeCostumeRsp.retcode)
-  return retcode_;
-}
-void AvatarChangeCostumeRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarChangeCostumeRsp.retcode)
-}
-
-// uint32 costume_id = 15;
-void AvatarChangeCostumeRsp::clear_costume_id() {
-  costume_id_ = 0u;
-}
-::google::protobuf::uint32 AvatarChangeCostumeRsp::costume_id() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarChangeCostumeRsp.costume_id)
-  return costume_id_;
-}
-void AvatarChangeCostumeRsp::set_costume_id(::google::protobuf::uint32 value) {
-  
-  costume_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarChangeCostumeRsp.costume_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarChangeCostumeNotify::kEntityInfoFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarChangeCostumeNotify::AvatarChangeCostumeNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarChangeCostumeNotify)
-}
-AvatarChangeCostumeNotify::AvatarChangeCostumeNotify(const AvatarChangeCostumeNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  if (from.has_entity_info()) {
-    entity_info_ = new ::proto::SceneEntityInfo(*from.entity_info_);
-  } else {
-    entity_info_ = NULL;
-  }
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarChangeCostumeNotify)
-}
-
-void AvatarChangeCostumeNotify::SharedCtor() {
-  entity_info_ = NULL;
-  _cached_size_ = 0;
-}
-
-AvatarChangeCostumeNotify::~AvatarChangeCostumeNotify() {
-  // @@protoc_insertion_point(destructor:proto.AvatarChangeCostumeNotify)
-  SharedDtor();
-}
-
-void AvatarChangeCostumeNotify::SharedDtor() {
-  if (this != internal_default_instance()) delete entity_info_;
-}
-
-void AvatarChangeCostumeNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarChangeCostumeNotify::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarChangeCostumeNotify& AvatarChangeCostumeNotify::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarChangeCostumeNotify* AvatarChangeCostumeNotify::New(::google::protobuf::Arena* arena) const {
-  AvatarChangeCostumeNotify* n = new AvatarChangeCostumeNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarChangeCostumeNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarChangeCostumeNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  if (GetArenaNoVirtual() == NULL && entity_info_ != NULL) {
-    delete entity_info_;
-  }
-  entity_info_ = NULL;
-  _internal_metadata_.Clear();
 }
 
 bool AvatarChangeCostumeNotify::MergePartialFromCodedStream(
@@ -25216,16 +10789,18 @@ bool AvatarChangeCostumeNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarChangeCostumeNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarChangeCostumeNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -25242,9 +10817,9 @@ void AvatarChangeCostumeNotify::SerializeWithCachedSizes(
       13, *this->entity_info_, output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarChangeCostumeNotify)
 }
@@ -25263,9 +10838,9 @@ void AvatarChangeCostumeNotify::SerializeWithCachedSizes(
         13, *this->entity_info_, deterministic, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarChangeCostumeNotify)
   return target;
@@ -25275,10 +10850,10 @@ size_t AvatarChangeCostumeNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarChangeCostumeNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // .proto.SceneEntityInfo entity_info = 13;
   if (this->has_entity_info()) {
@@ -25292,181 +10867,6 @@ size_t AvatarChangeCostumeNotify::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarChangeCostumeNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarChangeCostumeNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarChangeCostumeNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarChangeCostumeNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarChangeCostumeNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarChangeCostumeNotify)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarChangeCostumeNotify::MergeFrom(const AvatarChangeCostumeNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarChangeCostumeNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.has_entity_info()) {
-    mutable_entity_info()->::proto::SceneEntityInfo::MergeFrom(from.entity_info());
-  }
-}
-
-void AvatarChangeCostumeNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarChangeCostumeNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarChangeCostumeNotify::CopyFrom(const AvatarChangeCostumeNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarChangeCostumeNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarChangeCostumeNotify::IsInitialized() const {
-  return true;
-}
-
-void AvatarChangeCostumeNotify::Swap(AvatarChangeCostumeNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarChangeCostumeNotify::InternalSwap(AvatarChangeCostumeNotify* other) {
-  using std::swap;
-  swap(entity_info_, other->entity_info_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarChangeCostumeNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarChangeCostumeNotify
-
-// .proto.SceneEntityInfo entity_info = 13;
-bool AvatarChangeCostumeNotify::has_entity_info() const {
-  return this != internal_default_instance() && entity_info_ != NULL;
-}
-void AvatarChangeCostumeNotify::clear_entity_info() {
-  if (GetArenaNoVirtual() == NULL && entity_info_ != NULL) delete entity_info_;
-  entity_info_ = NULL;
-}
-const ::proto::SceneEntityInfo& AvatarChangeCostumeNotify::entity_info() const {
-  const ::proto::SceneEntityInfo* p = entity_info_;
-  // @@protoc_insertion_point(field_get:proto.AvatarChangeCostumeNotify.entity_info)
-  return p != NULL ? *p : *reinterpret_cast<const ::proto::SceneEntityInfo*>(
-      &::proto::_SceneEntityInfo_default_instance_);
-}
-::proto::SceneEntityInfo* AvatarChangeCostumeNotify::mutable_entity_info() {
-  
-  if (entity_info_ == NULL) {
-    entity_info_ = new ::proto::SceneEntityInfo;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.AvatarChangeCostumeNotify.entity_info)
-  return entity_info_;
-}
-::proto::SceneEntityInfo* AvatarChangeCostumeNotify::release_entity_info() {
-  // @@protoc_insertion_point(field_release:proto.AvatarChangeCostumeNotify.entity_info)
-  
-  ::proto::SceneEntityInfo* temp = entity_info_;
-  entity_info_ = NULL;
-  return temp;
-}
-void AvatarChangeCostumeNotify::set_allocated_entity_info(::proto::SceneEntityInfo* entity_info) {
-  delete entity_info_;
-  entity_info_ = entity_info;
-  if (entity_info) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.AvatarChangeCostumeNotify.entity_info)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarGainCostumeNotify::kCostumeIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarGainCostumeNotify::AvatarGainCostumeNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarGainCostumeNotify)
-}
-AvatarGainCostumeNotify::AvatarGainCostumeNotify(const AvatarGainCostumeNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  costume_id_ = from.costume_id_;
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarGainCostumeNotify)
-}
-
-void AvatarGainCostumeNotify::SharedCtor() {
-  costume_id_ = 0u;
-  _cached_size_ = 0;
-}
-
-AvatarGainCostumeNotify::~AvatarGainCostumeNotify() {
-  // @@protoc_insertion_point(destructor:proto.AvatarGainCostumeNotify)
-  SharedDtor();
-}
-
-void AvatarGainCostumeNotify::SharedDtor() {
-}
-
-void AvatarGainCostumeNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarGainCostumeNotify::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarGainCostumeNotify& AvatarGainCostumeNotify::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarGainCostumeNotify* AvatarGainCostumeNotify::New(::google::protobuf::Arena* arena) const {
-  AvatarGainCostumeNotify* n = new AvatarGainCostumeNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarGainCostumeNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarGainCostumeNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  costume_id_ = 0u;
-  _internal_metadata_.Clear();
 }
 
 bool AvatarGainCostumeNotify::MergePartialFromCodedStream(
@@ -25499,16 +10899,18 @@ bool AvatarGainCostumeNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarGainCostumeNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarGainCostumeNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -25524,9 +10926,9 @@ void AvatarGainCostumeNotify::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(6, this->costume_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarGainCostumeNotify)
 }
@@ -25543,9 +10945,9 @@ void AvatarGainCostumeNotify::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(6, this->costume_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarGainCostumeNotify)
   return target;
@@ -25555,10 +10957,10 @@ size_t AvatarGainCostumeNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarGainCostumeNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 costume_id = 6;
   if (this->costume_id() != 0) {
@@ -25572,162 +10974,6 @@ size_t AvatarGainCostumeNotify::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarGainCostumeNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarGainCostumeNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarGainCostumeNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarGainCostumeNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarGainCostumeNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarGainCostumeNotify)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarGainCostumeNotify::MergeFrom(const AvatarGainCostumeNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarGainCostumeNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.costume_id() != 0) {
-    set_costume_id(from.costume_id());
-  }
-}
-
-void AvatarGainCostumeNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarGainCostumeNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarGainCostumeNotify::CopyFrom(const AvatarGainCostumeNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarGainCostumeNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarGainCostumeNotify::IsInitialized() const {
-  return true;
-}
-
-void AvatarGainCostumeNotify::Swap(AvatarGainCostumeNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarGainCostumeNotify::InternalSwap(AvatarGainCostumeNotify* other) {
-  using std::swap;
-  swap(costume_id_, other->costume_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarGainCostumeNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarGainCostumeNotify
-
-// uint32 costume_id = 6;
-void AvatarGainCostumeNotify::clear_costume_id() {
-  costume_id_ = 0u;
-}
-::google::protobuf::uint32 AvatarGainCostumeNotify::costume_id() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarGainCostumeNotify.costume_id)
-  return costume_id_;
-}
-void AvatarGainCostumeNotify::set_costume_id(::google::protobuf::uint32 value) {
-  
-  costume_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarGainCostumeNotify.costume_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarChangeAnimHashReq::kAnimHashFieldNumber;
-const int AvatarChangeAnimHashReq::kAvatarGuidFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarChangeAnimHashReq::AvatarChangeAnimHashReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarChangeAnimHashReq)
-}
-AvatarChangeAnimHashReq::AvatarChangeAnimHashReq(const AvatarChangeAnimHashReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&avatar_guid_, &from.avatar_guid_,
-    static_cast<size_t>(reinterpret_cast<char*>(&anim_hash_) -
-    reinterpret_cast<char*>(&avatar_guid_)) + sizeof(anim_hash_));
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarChangeAnimHashReq)
-}
-
-void AvatarChangeAnimHashReq::SharedCtor() {
-  ::memset(&avatar_guid_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&anim_hash_) -
-      reinterpret_cast<char*>(&avatar_guid_)) + sizeof(anim_hash_));
-  _cached_size_ = 0;
-}
-
-AvatarChangeAnimHashReq::~AvatarChangeAnimHashReq() {
-  // @@protoc_insertion_point(destructor:proto.AvatarChangeAnimHashReq)
-  SharedDtor();
-}
-
-void AvatarChangeAnimHashReq::SharedDtor() {
-}
-
-void AvatarChangeAnimHashReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarChangeAnimHashReq::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarChangeAnimHashReq& AvatarChangeAnimHashReq::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarChangeAnimHashReq* AvatarChangeAnimHashReq::New(::google::protobuf::Arena* arena) const {
-  AvatarChangeAnimHashReq* n = new AvatarChangeAnimHashReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarChangeAnimHashReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarChangeAnimHashReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&avatar_guid_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&anim_hash_) -
-      reinterpret_cast<char*>(&avatar_guid_)) + sizeof(anim_hash_));
-  _internal_metadata_.Clear();
 }
 
 bool AvatarChangeAnimHashReq::MergePartialFromCodedStream(
@@ -25774,16 +11020,18 @@ bool AvatarChangeAnimHashReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarChangeAnimHashReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarChangeAnimHashReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -25804,9 +11052,9 @@ void AvatarChangeAnimHashReq::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(12, this->anim_hash(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarChangeAnimHashReq)
 }
@@ -25828,9 +11076,9 @@ void AvatarChangeAnimHashReq::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(12, this->anim_hash(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarChangeAnimHashReq)
   return target;
@@ -25840,10 +11088,10 @@ size_t AvatarChangeAnimHashReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarChangeAnimHashReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint64 avatar_guid = 2;
   if (this->avatar_guid() != 0) {
@@ -25864,181 +11112,6 @@ size_t AvatarChangeAnimHashReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarChangeAnimHashReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarChangeAnimHashReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarChangeAnimHashReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarChangeAnimHashReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarChangeAnimHashReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarChangeAnimHashReq)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarChangeAnimHashReq::MergeFrom(const AvatarChangeAnimHashReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarChangeAnimHashReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.avatar_guid() != 0) {
-    set_avatar_guid(from.avatar_guid());
-  }
-  if (from.anim_hash() != 0) {
-    set_anim_hash(from.anim_hash());
-  }
-}
-
-void AvatarChangeAnimHashReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarChangeAnimHashReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarChangeAnimHashReq::CopyFrom(const AvatarChangeAnimHashReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarChangeAnimHashReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarChangeAnimHashReq::IsInitialized() const {
-  return true;
-}
-
-void AvatarChangeAnimHashReq::Swap(AvatarChangeAnimHashReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarChangeAnimHashReq::InternalSwap(AvatarChangeAnimHashReq* other) {
-  using std::swap;
-  swap(avatar_guid_, other->avatar_guid_);
-  swap(anim_hash_, other->anim_hash_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarChangeAnimHashReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarChangeAnimHashReq
-
-// uint32 anim_hash = 12;
-void AvatarChangeAnimHashReq::clear_anim_hash() {
-  anim_hash_ = 0u;
-}
-::google::protobuf::uint32 AvatarChangeAnimHashReq::anim_hash() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarChangeAnimHashReq.anim_hash)
-  return anim_hash_;
-}
-void AvatarChangeAnimHashReq::set_anim_hash(::google::protobuf::uint32 value) {
-  
-  anim_hash_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarChangeAnimHashReq.anim_hash)
-}
-
-// uint64 avatar_guid = 2;
-void AvatarChangeAnimHashReq::clear_avatar_guid() {
-  avatar_guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 AvatarChangeAnimHashReq::avatar_guid() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarChangeAnimHashReq.avatar_guid)
-  return avatar_guid_;
-}
-void AvatarChangeAnimHashReq::set_avatar_guid(::google::protobuf::uint64 value) {
-  
-  avatar_guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarChangeAnimHashReq.avatar_guid)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarChangeAnimHashRsp::kAnimHashFieldNumber;
-const int AvatarChangeAnimHashRsp::kRetcodeFieldNumber;
-const int AvatarChangeAnimHashRsp::kAvatarGuidFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarChangeAnimHashRsp::AvatarChangeAnimHashRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarChangeAnimHashRsp)
-}
-AvatarChangeAnimHashRsp::AvatarChangeAnimHashRsp(const AvatarChangeAnimHashRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&avatar_guid_, &from.avatar_guid_,
-    static_cast<size_t>(reinterpret_cast<char*>(&retcode_) -
-    reinterpret_cast<char*>(&avatar_guid_)) + sizeof(retcode_));
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarChangeAnimHashRsp)
-}
-
-void AvatarChangeAnimHashRsp::SharedCtor() {
-  ::memset(&avatar_guid_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&retcode_) -
-      reinterpret_cast<char*>(&avatar_guid_)) + sizeof(retcode_));
-  _cached_size_ = 0;
-}
-
-AvatarChangeAnimHashRsp::~AvatarChangeAnimHashRsp() {
-  // @@protoc_insertion_point(destructor:proto.AvatarChangeAnimHashRsp)
-  SharedDtor();
-}
-
-void AvatarChangeAnimHashRsp::SharedDtor() {
-}
-
-void AvatarChangeAnimHashRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarChangeAnimHashRsp::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarChangeAnimHashRsp& AvatarChangeAnimHashRsp::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarChangeAnimHashRsp* AvatarChangeAnimHashRsp::New(::google::protobuf::Arena* arena) const {
-  AvatarChangeAnimHashRsp* n = new AvatarChangeAnimHashRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarChangeAnimHashRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarChangeAnimHashRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&avatar_guid_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&retcode_) -
-      reinterpret_cast<char*>(&avatar_guid_)) + sizeof(retcode_));
-  _internal_metadata_.Clear();
 }
 
 bool AvatarChangeAnimHashRsp::MergePartialFromCodedStream(
@@ -26099,16 +11172,18 @@ bool AvatarChangeAnimHashRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarChangeAnimHashRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarChangeAnimHashRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -26134,9 +11209,9 @@ void AvatarChangeAnimHashRsp::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteInt32(15, this->retcode(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarChangeAnimHashRsp)
 }
@@ -26163,9 +11238,9 @@ void AvatarChangeAnimHashRsp::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(15, this->retcode(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarChangeAnimHashRsp)
   return target;
@@ -26175,10 +11250,10 @@ size_t AvatarChangeAnimHashRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarChangeAnimHashRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint64 avatar_guid = 11;
   if (this->avatar_guid() != 0) {
@@ -26206,194 +11281,6 @@ size_t AvatarChangeAnimHashRsp::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarChangeAnimHashRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarChangeAnimHashRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarChangeAnimHashRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarChangeAnimHashRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarChangeAnimHashRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarChangeAnimHashRsp)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarChangeAnimHashRsp::MergeFrom(const AvatarChangeAnimHashRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarChangeAnimHashRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.avatar_guid() != 0) {
-    set_avatar_guid(from.avatar_guid());
-  }
-  if (from.anim_hash() != 0) {
-    set_anim_hash(from.anim_hash());
-  }
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-}
-
-void AvatarChangeAnimHashRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarChangeAnimHashRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarChangeAnimHashRsp::CopyFrom(const AvatarChangeAnimHashRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarChangeAnimHashRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarChangeAnimHashRsp::IsInitialized() const {
-  return true;
-}
-
-void AvatarChangeAnimHashRsp::Swap(AvatarChangeAnimHashRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarChangeAnimHashRsp::InternalSwap(AvatarChangeAnimHashRsp* other) {
-  using std::swap;
-  swap(avatar_guid_, other->avatar_guid_);
-  swap(anim_hash_, other->anim_hash_);
-  swap(retcode_, other->retcode_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarChangeAnimHashRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarChangeAnimHashRsp
-
-// uint32 anim_hash = 9;
-void AvatarChangeAnimHashRsp::clear_anim_hash() {
-  anim_hash_ = 0u;
-}
-::google::protobuf::uint32 AvatarChangeAnimHashRsp::anim_hash() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarChangeAnimHashRsp.anim_hash)
-  return anim_hash_;
-}
-void AvatarChangeAnimHashRsp::set_anim_hash(::google::protobuf::uint32 value) {
-  
-  anim_hash_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarChangeAnimHashRsp.anim_hash)
-}
-
-// int32 retcode = 15;
-void AvatarChangeAnimHashRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 AvatarChangeAnimHashRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarChangeAnimHashRsp.retcode)
-  return retcode_;
-}
-void AvatarChangeAnimHashRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarChangeAnimHashRsp.retcode)
-}
-
-// uint64 avatar_guid = 11;
-void AvatarChangeAnimHashRsp::clear_avatar_guid() {
-  avatar_guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 AvatarChangeAnimHashRsp::avatar_guid() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarChangeAnimHashRsp.avatar_guid)
-  return avatar_guid_;
-}
-void AvatarChangeAnimHashRsp::set_avatar_guid(::google::protobuf::uint64 value) {
-  
-  avatar_guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarChangeAnimHashRsp.avatar_guid)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int PersistentDungeonSwitchAvatarReq::kCurAvatarGuidFieldNumber;
-const int PersistentDungeonSwitchAvatarReq::kAvatarTeamGuidListFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-PersistentDungeonSwitchAvatarReq::PersistentDungeonSwitchAvatarReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.PersistentDungeonSwitchAvatarReq)
-}
-PersistentDungeonSwitchAvatarReq::PersistentDungeonSwitchAvatarReq(const PersistentDungeonSwitchAvatarReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      avatar_team_guid_list_(from.avatar_team_guid_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  cur_avatar_guid_ = from.cur_avatar_guid_;
-  // @@protoc_insertion_point(copy_constructor:proto.PersistentDungeonSwitchAvatarReq)
-}
-
-void PersistentDungeonSwitchAvatarReq::SharedCtor() {
-  cur_avatar_guid_ = GOOGLE_ULONGLONG(0);
-  _cached_size_ = 0;
-}
-
-PersistentDungeonSwitchAvatarReq::~PersistentDungeonSwitchAvatarReq() {
-  // @@protoc_insertion_point(destructor:proto.PersistentDungeonSwitchAvatarReq)
-  SharedDtor();
-}
-
-void PersistentDungeonSwitchAvatarReq::SharedDtor() {
-}
-
-void PersistentDungeonSwitchAvatarReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* PersistentDungeonSwitchAvatarReq::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const PersistentDungeonSwitchAvatarReq& PersistentDungeonSwitchAvatarReq::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-PersistentDungeonSwitchAvatarReq* PersistentDungeonSwitchAvatarReq::New(::google::protobuf::Arena* arena) const {
-  PersistentDungeonSwitchAvatarReq* n = new PersistentDungeonSwitchAvatarReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void PersistentDungeonSwitchAvatarReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.PersistentDungeonSwitchAvatarReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  avatar_team_guid_list_.Clear();
-  cur_avatar_guid_ = GOOGLE_ULONGLONG(0);
-  _internal_metadata_.Clear();
 }
 
 bool PersistentDungeonSwitchAvatarReq::MergePartialFromCodedStream(
@@ -26445,16 +11332,18 @@ bool PersistentDungeonSwitchAvatarReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.PersistentDungeonSwitchAvatarReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.PersistentDungeonSwitchAvatarReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -26481,9 +11370,9 @@ void PersistentDungeonSwitchAvatarReq::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt64(14, this->cur_avatar_guid(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.PersistentDungeonSwitchAvatarReq)
 }
@@ -26513,9 +11402,9 @@ void PersistentDungeonSwitchAvatarReq::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt64ToArray(14, this->cur_avatar_guid(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.PersistentDungeonSwitchAvatarReq)
   return target;
@@ -26525,10 +11414,10 @@ size_t PersistentDungeonSwitchAvatarReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.PersistentDungeonSwitchAvatarReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated uint64 avatar_team_guid_list = 2;
   {
@@ -26558,197 +11447,6 @@ size_t PersistentDungeonSwitchAvatarReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void PersistentDungeonSwitchAvatarReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.PersistentDungeonSwitchAvatarReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const PersistentDungeonSwitchAvatarReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const PersistentDungeonSwitchAvatarReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.PersistentDungeonSwitchAvatarReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.PersistentDungeonSwitchAvatarReq)
-    MergeFrom(*source);
-  }
-}
-
-void PersistentDungeonSwitchAvatarReq::MergeFrom(const PersistentDungeonSwitchAvatarReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.PersistentDungeonSwitchAvatarReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  avatar_team_guid_list_.MergeFrom(from.avatar_team_guid_list_);
-  if (from.cur_avatar_guid() != 0) {
-    set_cur_avatar_guid(from.cur_avatar_guid());
-  }
-}
-
-void PersistentDungeonSwitchAvatarReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.PersistentDungeonSwitchAvatarReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void PersistentDungeonSwitchAvatarReq::CopyFrom(const PersistentDungeonSwitchAvatarReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.PersistentDungeonSwitchAvatarReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool PersistentDungeonSwitchAvatarReq::IsInitialized() const {
-  return true;
-}
-
-void PersistentDungeonSwitchAvatarReq::Swap(PersistentDungeonSwitchAvatarReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void PersistentDungeonSwitchAvatarReq::InternalSwap(PersistentDungeonSwitchAvatarReq* other) {
-  using std::swap;
-  avatar_team_guid_list_.InternalSwap(&other->avatar_team_guid_list_);
-  swap(cur_avatar_guid_, other->cur_avatar_guid_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata PersistentDungeonSwitchAvatarReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// PersistentDungeonSwitchAvatarReq
-
-// uint64 cur_avatar_guid = 14;
-void PersistentDungeonSwitchAvatarReq::clear_cur_avatar_guid() {
-  cur_avatar_guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 PersistentDungeonSwitchAvatarReq::cur_avatar_guid() const {
-  // @@protoc_insertion_point(field_get:proto.PersistentDungeonSwitchAvatarReq.cur_avatar_guid)
-  return cur_avatar_guid_;
-}
-void PersistentDungeonSwitchAvatarReq::set_cur_avatar_guid(::google::protobuf::uint64 value) {
-  
-  cur_avatar_guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.PersistentDungeonSwitchAvatarReq.cur_avatar_guid)
-}
-
-// repeated uint64 avatar_team_guid_list = 2;
-int PersistentDungeonSwitchAvatarReq::avatar_team_guid_list_size() const {
-  return avatar_team_guid_list_.size();
-}
-void PersistentDungeonSwitchAvatarReq::clear_avatar_team_guid_list() {
-  avatar_team_guid_list_.Clear();
-}
-::google::protobuf::uint64 PersistentDungeonSwitchAvatarReq::avatar_team_guid_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.PersistentDungeonSwitchAvatarReq.avatar_team_guid_list)
-  return avatar_team_guid_list_.Get(index);
-}
-void PersistentDungeonSwitchAvatarReq::set_avatar_team_guid_list(int index, ::google::protobuf::uint64 value) {
-  avatar_team_guid_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.PersistentDungeonSwitchAvatarReq.avatar_team_guid_list)
-}
-void PersistentDungeonSwitchAvatarReq::add_avatar_team_guid_list(::google::protobuf::uint64 value) {
-  avatar_team_guid_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.PersistentDungeonSwitchAvatarReq.avatar_team_guid_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint64 >&
-PersistentDungeonSwitchAvatarReq::avatar_team_guid_list() const {
-  // @@protoc_insertion_point(field_list:proto.PersistentDungeonSwitchAvatarReq.avatar_team_guid_list)
-  return avatar_team_guid_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint64 >*
-PersistentDungeonSwitchAvatarReq::mutable_avatar_team_guid_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.PersistentDungeonSwitchAvatarReq.avatar_team_guid_list)
-  return &avatar_team_guid_list_;
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int PersistentDungeonSwitchAvatarRsp::kAvatarTeamGuidListFieldNumber;
-const int PersistentDungeonSwitchAvatarRsp::kRetcodeFieldNumber;
-const int PersistentDungeonSwitchAvatarRsp::kCurAvatarGuidFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-PersistentDungeonSwitchAvatarRsp::PersistentDungeonSwitchAvatarRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.PersistentDungeonSwitchAvatarRsp)
-}
-PersistentDungeonSwitchAvatarRsp::PersistentDungeonSwitchAvatarRsp(const PersistentDungeonSwitchAvatarRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      avatar_team_guid_list_(from.avatar_team_guid_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&retcode_, &from.retcode_,
-    static_cast<size_t>(reinterpret_cast<char*>(&cur_avatar_guid_) -
-    reinterpret_cast<char*>(&retcode_)) + sizeof(cur_avatar_guid_));
-  // @@protoc_insertion_point(copy_constructor:proto.PersistentDungeonSwitchAvatarRsp)
-}
-
-void PersistentDungeonSwitchAvatarRsp::SharedCtor() {
-  ::memset(&retcode_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&cur_avatar_guid_) -
-      reinterpret_cast<char*>(&retcode_)) + sizeof(cur_avatar_guid_));
-  _cached_size_ = 0;
-}
-
-PersistentDungeonSwitchAvatarRsp::~PersistentDungeonSwitchAvatarRsp() {
-  // @@protoc_insertion_point(destructor:proto.PersistentDungeonSwitchAvatarRsp)
-  SharedDtor();
-}
-
-void PersistentDungeonSwitchAvatarRsp::SharedDtor() {
-}
-
-void PersistentDungeonSwitchAvatarRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* PersistentDungeonSwitchAvatarRsp::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const PersistentDungeonSwitchAvatarRsp& PersistentDungeonSwitchAvatarRsp::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-PersistentDungeonSwitchAvatarRsp* PersistentDungeonSwitchAvatarRsp::New(::google::protobuf::Arena* arena) const {
-  PersistentDungeonSwitchAvatarRsp* n = new PersistentDungeonSwitchAvatarRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void PersistentDungeonSwitchAvatarRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.PersistentDungeonSwitchAvatarRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  avatar_team_guid_list_.Clear();
-  ::memset(&retcode_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&cur_avatar_guid_) -
-      reinterpret_cast<char*>(&retcode_)) + sizeof(cur_avatar_guid_));
-  _internal_metadata_.Clear();
 }
 
 bool PersistentDungeonSwitchAvatarRsp::MergePartialFromCodedStream(
@@ -26814,16 +11512,18 @@ bool PersistentDungeonSwitchAvatarRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.PersistentDungeonSwitchAvatarRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.PersistentDungeonSwitchAvatarRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -26855,9 +11555,9 @@ void PersistentDungeonSwitchAvatarRsp::SerializeWithCachedSizes(
       this->avatar_team_guid_list(i), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.PersistentDungeonSwitchAvatarRsp)
 }
@@ -26892,9 +11592,9 @@ void PersistentDungeonSwitchAvatarRsp::SerializeWithCachedSizes(
       WriteUInt64NoTagToArray(this->avatar_team_guid_list_, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.PersistentDungeonSwitchAvatarRsp)
   return target;
@@ -26904,10 +11604,10 @@ size_t PersistentDungeonSwitchAvatarRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.PersistentDungeonSwitchAvatarRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated uint64 avatar_team_guid_list = 13;
   {
@@ -26946,201 +11646,6 @@ size_t PersistentDungeonSwitchAvatarRsp::ByteSizeLong() const {
   return total_size;
 }
 
-void PersistentDungeonSwitchAvatarRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.PersistentDungeonSwitchAvatarRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const PersistentDungeonSwitchAvatarRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const PersistentDungeonSwitchAvatarRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.PersistentDungeonSwitchAvatarRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.PersistentDungeonSwitchAvatarRsp)
-    MergeFrom(*source);
-  }
-}
-
-void PersistentDungeonSwitchAvatarRsp::MergeFrom(const PersistentDungeonSwitchAvatarRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.PersistentDungeonSwitchAvatarRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  avatar_team_guid_list_.MergeFrom(from.avatar_team_guid_list_);
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-  if (from.cur_avatar_guid() != 0) {
-    set_cur_avatar_guid(from.cur_avatar_guid());
-  }
-}
-
-void PersistentDungeonSwitchAvatarRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.PersistentDungeonSwitchAvatarRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void PersistentDungeonSwitchAvatarRsp::CopyFrom(const PersistentDungeonSwitchAvatarRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.PersistentDungeonSwitchAvatarRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool PersistentDungeonSwitchAvatarRsp::IsInitialized() const {
-  return true;
-}
-
-void PersistentDungeonSwitchAvatarRsp::Swap(PersistentDungeonSwitchAvatarRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void PersistentDungeonSwitchAvatarRsp::InternalSwap(PersistentDungeonSwitchAvatarRsp* other) {
-  using std::swap;
-  avatar_team_guid_list_.InternalSwap(&other->avatar_team_guid_list_);
-  swap(retcode_, other->retcode_);
-  swap(cur_avatar_guid_, other->cur_avatar_guid_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata PersistentDungeonSwitchAvatarRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// PersistentDungeonSwitchAvatarRsp
-
-// repeated uint64 avatar_team_guid_list = 13;
-int PersistentDungeonSwitchAvatarRsp::avatar_team_guid_list_size() const {
-  return avatar_team_guid_list_.size();
-}
-void PersistentDungeonSwitchAvatarRsp::clear_avatar_team_guid_list() {
-  avatar_team_guid_list_.Clear();
-}
-::google::protobuf::uint64 PersistentDungeonSwitchAvatarRsp::avatar_team_guid_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.PersistentDungeonSwitchAvatarRsp.avatar_team_guid_list)
-  return avatar_team_guid_list_.Get(index);
-}
-void PersistentDungeonSwitchAvatarRsp::set_avatar_team_guid_list(int index, ::google::protobuf::uint64 value) {
-  avatar_team_guid_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.PersistentDungeonSwitchAvatarRsp.avatar_team_guid_list)
-}
-void PersistentDungeonSwitchAvatarRsp::add_avatar_team_guid_list(::google::protobuf::uint64 value) {
-  avatar_team_guid_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.PersistentDungeonSwitchAvatarRsp.avatar_team_guid_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint64 >&
-PersistentDungeonSwitchAvatarRsp::avatar_team_guid_list() const {
-  // @@protoc_insertion_point(field_list:proto.PersistentDungeonSwitchAvatarRsp.avatar_team_guid_list)
-  return avatar_team_guid_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint64 >*
-PersistentDungeonSwitchAvatarRsp::mutable_avatar_team_guid_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.PersistentDungeonSwitchAvatarRsp.avatar_team_guid_list)
-  return &avatar_team_guid_list_;
-}
-
-// int32 retcode = 4;
-void PersistentDungeonSwitchAvatarRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 PersistentDungeonSwitchAvatarRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.PersistentDungeonSwitchAvatarRsp.retcode)
-  return retcode_;
-}
-void PersistentDungeonSwitchAvatarRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.PersistentDungeonSwitchAvatarRsp.retcode)
-}
-
-// uint64 cur_avatar_guid = 9;
-void PersistentDungeonSwitchAvatarRsp::clear_cur_avatar_guid() {
-  cur_avatar_guid_ = GOOGLE_ULONGLONG(0);
-}
-::google::protobuf::uint64 PersistentDungeonSwitchAvatarRsp::cur_avatar_guid() const {
-  // @@protoc_insertion_point(field_get:proto.PersistentDungeonSwitchAvatarRsp.cur_avatar_guid)
-  return cur_avatar_guid_;
-}
-void PersistentDungeonSwitchAvatarRsp::set_cur_avatar_guid(::google::protobuf::uint64 value) {
-  
-  cur_avatar_guid_ = value;
-  // @@protoc_insertion_point(field_set:proto.PersistentDungeonSwitchAvatarRsp.cur_avatar_guid)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AddBackupAvatarTeamReq::AddBackupAvatarTeamReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AddBackupAvatarTeamReq)
-}
-AddBackupAvatarTeamReq::AddBackupAvatarTeamReq(const AddBackupAvatarTeamReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  // @@protoc_insertion_point(copy_constructor:proto.AddBackupAvatarTeamReq)
-}
-
-void AddBackupAvatarTeamReq::SharedCtor() {
-  _cached_size_ = 0;
-}
-
-AddBackupAvatarTeamReq::~AddBackupAvatarTeamReq() {
-  // @@protoc_insertion_point(destructor:proto.AddBackupAvatarTeamReq)
-  SharedDtor();
-}
-
-void AddBackupAvatarTeamReq::SharedDtor() {
-}
-
-void AddBackupAvatarTeamReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AddBackupAvatarTeamReq::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AddBackupAvatarTeamReq& AddBackupAvatarTeamReq::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AddBackupAvatarTeamReq* AddBackupAvatarTeamReq::New(::google::protobuf::Arena* arena) const {
-  AddBackupAvatarTeamReq* n = new AddBackupAvatarTeamReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AddBackupAvatarTeamReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AddBackupAvatarTeamReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  _internal_metadata_.Clear();
-}
-
 bool AddBackupAvatarTeamReq::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -27155,13 +11660,15 @@ bool AddBackupAvatarTeamReq::MergePartialFromCodedStream(
       goto success;
     }
     DO_(::google::protobuf::internal::WireFormat::SkipField(
-          input, tag, _internal_metadata_.mutable_unknown_fields()));
+          input, tag, nullptr));
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AddBackupAvatarTeamReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AddBackupAvatarTeamReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -27172,9 +11679,9 @@ void AddBackupAvatarTeamReq::SerializeWithCachedSizes(
   ::google::protobuf::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AddBackupAvatarTeamReq)
 }
@@ -27186,9 +11693,9 @@ void AddBackupAvatarTeamReq::SerializeWithCachedSizes(
   ::google::protobuf::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AddBackupAvatarTeamReq)
   return target;
@@ -27198,147 +11705,16 @@ size_t AddBackupAvatarTeamReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AddBackupAvatarTeamReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
   GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AddBackupAvatarTeamReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AddBackupAvatarTeamReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AddBackupAvatarTeamReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AddBackupAvatarTeamReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AddBackupAvatarTeamReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AddBackupAvatarTeamReq)
-    MergeFrom(*source);
-  }
-}
-
-void AddBackupAvatarTeamReq::MergeFrom(const AddBackupAvatarTeamReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AddBackupAvatarTeamReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-}
-
-void AddBackupAvatarTeamReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AddBackupAvatarTeamReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AddBackupAvatarTeamReq::CopyFrom(const AddBackupAvatarTeamReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AddBackupAvatarTeamReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AddBackupAvatarTeamReq::IsInitialized() const {
-  return true;
-}
-
-void AddBackupAvatarTeamReq::Swap(AddBackupAvatarTeamReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AddBackupAvatarTeamReq::InternalSwap(AddBackupAvatarTeamReq* other) {
-  using std::swap;
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AddBackupAvatarTeamReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AddBackupAvatarTeamReq
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AddBackupAvatarTeamRsp::kRetcodeFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AddBackupAvatarTeamRsp::AddBackupAvatarTeamRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AddBackupAvatarTeamRsp)
-}
-AddBackupAvatarTeamRsp::AddBackupAvatarTeamRsp(const AddBackupAvatarTeamRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  retcode_ = from.retcode_;
-  // @@protoc_insertion_point(copy_constructor:proto.AddBackupAvatarTeamRsp)
-}
-
-void AddBackupAvatarTeamRsp::SharedCtor() {
-  retcode_ = 0;
-  _cached_size_ = 0;
-}
-
-AddBackupAvatarTeamRsp::~AddBackupAvatarTeamRsp() {
-  // @@protoc_insertion_point(destructor:proto.AddBackupAvatarTeamRsp)
-  SharedDtor();
-}
-
-void AddBackupAvatarTeamRsp::SharedDtor() {
-}
-
-void AddBackupAvatarTeamRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AddBackupAvatarTeamRsp::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AddBackupAvatarTeamRsp& AddBackupAvatarTeamRsp::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AddBackupAvatarTeamRsp* AddBackupAvatarTeamRsp::New(::google::protobuf::Arena* arena) const {
-  AddBackupAvatarTeamRsp* n = new AddBackupAvatarTeamRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AddBackupAvatarTeamRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AddBackupAvatarTeamRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  retcode_ = 0;
-  _internal_metadata_.Clear();
 }
 
 bool AddBackupAvatarTeamRsp::MergePartialFromCodedStream(
@@ -27371,16 +11747,18 @@ bool AddBackupAvatarTeamRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AddBackupAvatarTeamRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AddBackupAvatarTeamRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -27396,9 +11774,9 @@ void AddBackupAvatarTeamRsp::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteInt32(5, this->retcode(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AddBackupAvatarTeamRsp)
 }
@@ -27415,9 +11793,9 @@ void AddBackupAvatarTeamRsp::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(5, this->retcode(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AddBackupAvatarTeamRsp)
   return target;
@@ -27427,10 +11805,10 @@ size_t AddBackupAvatarTeamRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AddBackupAvatarTeamRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // int32 retcode = 5;
   if (this->retcode() != 0) {
@@ -27444,155 +11822,6 @@ size_t AddBackupAvatarTeamRsp::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AddBackupAvatarTeamRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AddBackupAvatarTeamRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AddBackupAvatarTeamRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AddBackupAvatarTeamRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AddBackupAvatarTeamRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AddBackupAvatarTeamRsp)
-    MergeFrom(*source);
-  }
-}
-
-void AddBackupAvatarTeamRsp::MergeFrom(const AddBackupAvatarTeamRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AddBackupAvatarTeamRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-}
-
-void AddBackupAvatarTeamRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AddBackupAvatarTeamRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AddBackupAvatarTeamRsp::CopyFrom(const AddBackupAvatarTeamRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AddBackupAvatarTeamRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AddBackupAvatarTeamRsp::IsInitialized() const {
-  return true;
-}
-
-void AddBackupAvatarTeamRsp::Swap(AddBackupAvatarTeamRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AddBackupAvatarTeamRsp::InternalSwap(AddBackupAvatarTeamRsp* other) {
-  using std::swap;
-  swap(retcode_, other->retcode_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AddBackupAvatarTeamRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AddBackupAvatarTeamRsp
-
-// int32 retcode = 5;
-void AddBackupAvatarTeamRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 AddBackupAvatarTeamRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.AddBackupAvatarTeamRsp.retcode)
-  return retcode_;
-}
-void AddBackupAvatarTeamRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.AddBackupAvatarTeamRsp.retcode)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int DelBackupAvatarTeamReq::kBackupAvatarTeamIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-DelBackupAvatarTeamReq::DelBackupAvatarTeamReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.DelBackupAvatarTeamReq)
-}
-DelBackupAvatarTeamReq::DelBackupAvatarTeamReq(const DelBackupAvatarTeamReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  backup_avatar_team_id_ = from.backup_avatar_team_id_;
-  // @@protoc_insertion_point(copy_constructor:proto.DelBackupAvatarTeamReq)
-}
-
-void DelBackupAvatarTeamReq::SharedCtor() {
-  backup_avatar_team_id_ = 0u;
-  _cached_size_ = 0;
-}
-
-DelBackupAvatarTeamReq::~DelBackupAvatarTeamReq() {
-  // @@protoc_insertion_point(destructor:proto.DelBackupAvatarTeamReq)
-  SharedDtor();
-}
-
-void DelBackupAvatarTeamReq::SharedDtor() {
-}
-
-void DelBackupAvatarTeamReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* DelBackupAvatarTeamReq::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const DelBackupAvatarTeamReq& DelBackupAvatarTeamReq::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-DelBackupAvatarTeamReq* DelBackupAvatarTeamReq::New(::google::protobuf::Arena* arena) const {
-  DelBackupAvatarTeamReq* n = new DelBackupAvatarTeamReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void DelBackupAvatarTeamReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.DelBackupAvatarTeamReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  backup_avatar_team_id_ = 0u;
-  _internal_metadata_.Clear();
 }
 
 bool DelBackupAvatarTeamReq::MergePartialFromCodedStream(
@@ -27625,16 +11854,18 @@ bool DelBackupAvatarTeamReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.DelBackupAvatarTeamReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.DelBackupAvatarTeamReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -27650,9 +11881,9 @@ void DelBackupAvatarTeamReq::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(4, this->backup_avatar_team_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.DelBackupAvatarTeamReq)
 }
@@ -27669,9 +11900,9 @@ void DelBackupAvatarTeamReq::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(4, this->backup_avatar_team_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.DelBackupAvatarTeamReq)
   return target;
@@ -27681,10 +11912,10 @@ size_t DelBackupAvatarTeamReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.DelBackupAvatarTeamReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 backup_avatar_team_id = 4;
   if (this->backup_avatar_team_id() != 0) {
@@ -27698,162 +11929,6 @@ size_t DelBackupAvatarTeamReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void DelBackupAvatarTeamReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.DelBackupAvatarTeamReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const DelBackupAvatarTeamReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const DelBackupAvatarTeamReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.DelBackupAvatarTeamReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.DelBackupAvatarTeamReq)
-    MergeFrom(*source);
-  }
-}
-
-void DelBackupAvatarTeamReq::MergeFrom(const DelBackupAvatarTeamReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.DelBackupAvatarTeamReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.backup_avatar_team_id() != 0) {
-    set_backup_avatar_team_id(from.backup_avatar_team_id());
-  }
-}
-
-void DelBackupAvatarTeamReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.DelBackupAvatarTeamReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void DelBackupAvatarTeamReq::CopyFrom(const DelBackupAvatarTeamReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.DelBackupAvatarTeamReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool DelBackupAvatarTeamReq::IsInitialized() const {
-  return true;
-}
-
-void DelBackupAvatarTeamReq::Swap(DelBackupAvatarTeamReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void DelBackupAvatarTeamReq::InternalSwap(DelBackupAvatarTeamReq* other) {
-  using std::swap;
-  swap(backup_avatar_team_id_, other->backup_avatar_team_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata DelBackupAvatarTeamReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// DelBackupAvatarTeamReq
-
-// uint32 backup_avatar_team_id = 4;
-void DelBackupAvatarTeamReq::clear_backup_avatar_team_id() {
-  backup_avatar_team_id_ = 0u;
-}
-::google::protobuf::uint32 DelBackupAvatarTeamReq::backup_avatar_team_id() const {
-  // @@protoc_insertion_point(field_get:proto.DelBackupAvatarTeamReq.backup_avatar_team_id)
-  return backup_avatar_team_id_;
-}
-void DelBackupAvatarTeamReq::set_backup_avatar_team_id(::google::protobuf::uint32 value) {
-  
-  backup_avatar_team_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.DelBackupAvatarTeamReq.backup_avatar_team_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int DelBackupAvatarTeamRsp::kBackupAvatarTeamIdFieldNumber;
-const int DelBackupAvatarTeamRsp::kRetcodeFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-DelBackupAvatarTeamRsp::DelBackupAvatarTeamRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.DelBackupAvatarTeamRsp)
-}
-DelBackupAvatarTeamRsp::DelBackupAvatarTeamRsp(const DelBackupAvatarTeamRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&backup_avatar_team_id_, &from.backup_avatar_team_id_,
-    static_cast<size_t>(reinterpret_cast<char*>(&retcode_) -
-    reinterpret_cast<char*>(&backup_avatar_team_id_)) + sizeof(retcode_));
-  // @@protoc_insertion_point(copy_constructor:proto.DelBackupAvatarTeamRsp)
-}
-
-void DelBackupAvatarTeamRsp::SharedCtor() {
-  ::memset(&backup_avatar_team_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&retcode_) -
-      reinterpret_cast<char*>(&backup_avatar_team_id_)) + sizeof(retcode_));
-  _cached_size_ = 0;
-}
-
-DelBackupAvatarTeamRsp::~DelBackupAvatarTeamRsp() {
-  // @@protoc_insertion_point(destructor:proto.DelBackupAvatarTeamRsp)
-  SharedDtor();
-}
-
-void DelBackupAvatarTeamRsp::SharedDtor() {
-}
-
-void DelBackupAvatarTeamRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* DelBackupAvatarTeamRsp::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const DelBackupAvatarTeamRsp& DelBackupAvatarTeamRsp::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-DelBackupAvatarTeamRsp* DelBackupAvatarTeamRsp::New(::google::protobuf::Arena* arena) const {
-  DelBackupAvatarTeamRsp* n = new DelBackupAvatarTeamRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void DelBackupAvatarTeamRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.DelBackupAvatarTeamRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&backup_avatar_team_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&retcode_) -
-      reinterpret_cast<char*>(&backup_avatar_team_id_)) + sizeof(retcode_));
-  _internal_metadata_.Clear();
 }
 
 bool DelBackupAvatarTeamRsp::MergePartialFromCodedStream(
@@ -27900,16 +11975,18 @@ bool DelBackupAvatarTeamRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.DelBackupAvatarTeamRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.DelBackupAvatarTeamRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -27930,9 +12007,9 @@ void DelBackupAvatarTeamRsp::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteInt32(12, this->retcode(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.DelBackupAvatarTeamRsp)
 }
@@ -27954,9 +12031,9 @@ void DelBackupAvatarTeamRsp::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(12, this->retcode(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.DelBackupAvatarTeamRsp)
   return target;
@@ -27966,10 +12043,10 @@ size_t DelBackupAvatarTeamRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.DelBackupAvatarTeamRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 backup_avatar_team_id = 11;
   if (this->backup_avatar_team_id() != 0) {
@@ -27990,197 +12067,6 @@ size_t DelBackupAvatarTeamRsp::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void DelBackupAvatarTeamRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.DelBackupAvatarTeamRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const DelBackupAvatarTeamRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const DelBackupAvatarTeamRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.DelBackupAvatarTeamRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.DelBackupAvatarTeamRsp)
-    MergeFrom(*source);
-  }
-}
-
-void DelBackupAvatarTeamRsp::MergeFrom(const DelBackupAvatarTeamRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.DelBackupAvatarTeamRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.backup_avatar_team_id() != 0) {
-    set_backup_avatar_team_id(from.backup_avatar_team_id());
-  }
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-}
-
-void DelBackupAvatarTeamRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.DelBackupAvatarTeamRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void DelBackupAvatarTeamRsp::CopyFrom(const DelBackupAvatarTeamRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.DelBackupAvatarTeamRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool DelBackupAvatarTeamRsp::IsInitialized() const {
-  return true;
-}
-
-void DelBackupAvatarTeamRsp::Swap(DelBackupAvatarTeamRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void DelBackupAvatarTeamRsp::InternalSwap(DelBackupAvatarTeamRsp* other) {
-  using std::swap;
-  swap(backup_avatar_team_id_, other->backup_avatar_team_id_);
-  swap(retcode_, other->retcode_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata DelBackupAvatarTeamRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// DelBackupAvatarTeamRsp
-
-// uint32 backup_avatar_team_id = 11;
-void DelBackupAvatarTeamRsp::clear_backup_avatar_team_id() {
-  backup_avatar_team_id_ = 0u;
-}
-::google::protobuf::uint32 DelBackupAvatarTeamRsp::backup_avatar_team_id() const {
-  // @@protoc_insertion_point(field_get:proto.DelBackupAvatarTeamRsp.backup_avatar_team_id)
-  return backup_avatar_team_id_;
-}
-void DelBackupAvatarTeamRsp::set_backup_avatar_team_id(::google::protobuf::uint32 value) {
-  
-  backup_avatar_team_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.DelBackupAvatarTeamRsp.backup_avatar_team_id)
-}
-
-// int32 retcode = 12;
-void DelBackupAvatarTeamRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 DelBackupAvatarTeamRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.DelBackupAvatarTeamRsp.retcode)
-  return retcode_;
-}
-void DelBackupAvatarTeamRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.DelBackupAvatarTeamRsp.retcode)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-AvatarTeamAllDataNotify::AvatarTeamAllDataNotify_AvatarTeamMapEntry::AvatarTeamAllDataNotify_AvatarTeamMapEntry() {}
-AvatarTeamAllDataNotify::AvatarTeamAllDataNotify_AvatarTeamMapEntry::AvatarTeamAllDataNotify_AvatarTeamMapEntry(::google::protobuf::Arena* arena) : SuperType(arena) {}
-::google::protobuf::Metadata AvatarTeamAllDataNotify::AvatarTeamAllDataNotify_AvatarTeamMapEntry::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[77];
-}
-void AvatarTeamAllDataNotify::AvatarTeamAllDataNotify_AvatarTeamMapEntry::MergeFrom(
-    const ::google::protobuf::Message& other) {
-  ::google::protobuf::Message::MergeFrom(other);
-}
-void AvatarTeamAllDataNotify::AvatarTeamAllDataNotify_AvatarTeamMapEntry::MergeFrom(const AvatarTeamAllDataNotify_AvatarTeamMapEntry& other) {
-  MergeFromInternal(other);
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarTeamAllDataNotify::kTempAvatarGuidListFieldNumber;
-const int AvatarTeamAllDataNotify::kAvatarTeamMapFieldNumber;
-const int AvatarTeamAllDataNotify::kBackupAvatarTeamOrderListFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarTeamAllDataNotify::AvatarTeamAllDataNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarTeamAllDataNotify)
-}
-AvatarTeamAllDataNotify::AvatarTeamAllDataNotify(const AvatarTeamAllDataNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      backup_avatar_team_order_list_(from.backup_avatar_team_order_list_),
-      temp_avatar_guid_list_(from.temp_avatar_guid_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  avatar_team_map_.MergeFrom(from.avatar_team_map_);
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarTeamAllDataNotify)
-}
-
-void AvatarTeamAllDataNotify::SharedCtor() {
-  _cached_size_ = 0;
-}
-
-AvatarTeamAllDataNotify::~AvatarTeamAllDataNotify() {
-  // @@protoc_insertion_point(destructor:proto.AvatarTeamAllDataNotify)
-  SharedDtor();
-}
-
-void AvatarTeamAllDataNotify::SharedDtor() {
-}
-
-void AvatarTeamAllDataNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarTeamAllDataNotify::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarTeamAllDataNotify& AvatarTeamAllDataNotify::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarTeamAllDataNotify* AvatarTeamAllDataNotify::New(::google::protobuf::Arena* arena) const {
-  AvatarTeamAllDataNotify* n = new AvatarTeamAllDataNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarTeamAllDataNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarTeamAllDataNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  avatar_team_map_.Clear();
-  backup_avatar_team_order_list_.Clear();
-  temp_avatar_guid_list_.Clear();
-  _internal_metadata_.Clear();
 }
 
 bool AvatarTeamAllDataNotify::MergePartialFromCodedStream(
@@ -28256,16 +12142,18 @@ bool AvatarTeamAllDataNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarTeamAllDataNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarTeamAllDataNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -28337,9 +12225,9 @@ void AvatarTeamAllDataNotify::SerializeWithCachedSizes(
       this->temp_avatar_guid_list(i), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarTeamAllDataNotify)
 }
@@ -28420,9 +12308,9 @@ void AvatarTeamAllDataNotify::SerializeWithCachedSizes(
       WriteUInt64NoTagToArray(this->temp_avatar_guid_list_, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarTeamAllDataNotify)
   return target;
@@ -28432,10 +12320,10 @@ size_t AvatarTeamAllDataNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarTeamAllDataNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // map<uint32, .proto.AvatarTeam> avatar_team_map = 12;
   total_size += 1 *
@@ -28490,229 +12378,6 @@ size_t AvatarTeamAllDataNotify::ByteSizeLong() const {
   return total_size;
 }
 
-void AvatarTeamAllDataNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarTeamAllDataNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarTeamAllDataNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarTeamAllDataNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarTeamAllDataNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarTeamAllDataNotify)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarTeamAllDataNotify::MergeFrom(const AvatarTeamAllDataNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarTeamAllDataNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  avatar_team_map_.MergeFrom(from.avatar_team_map_);
-  backup_avatar_team_order_list_.MergeFrom(from.backup_avatar_team_order_list_);
-  temp_avatar_guid_list_.MergeFrom(from.temp_avatar_guid_list_);
-}
-
-void AvatarTeamAllDataNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarTeamAllDataNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarTeamAllDataNotify::CopyFrom(const AvatarTeamAllDataNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarTeamAllDataNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarTeamAllDataNotify::IsInitialized() const {
-  return true;
-}
-
-void AvatarTeamAllDataNotify::Swap(AvatarTeamAllDataNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarTeamAllDataNotify::InternalSwap(AvatarTeamAllDataNotify* other) {
-  using std::swap;
-  avatar_team_map_.Swap(&other->avatar_team_map_);
-  backup_avatar_team_order_list_.InternalSwap(&other->backup_avatar_team_order_list_);
-  temp_avatar_guid_list_.InternalSwap(&other->temp_avatar_guid_list_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarTeamAllDataNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarTeamAllDataNotify
-
-// repeated uint64 temp_avatar_guid_list = 15;
-int AvatarTeamAllDataNotify::temp_avatar_guid_list_size() const {
-  return temp_avatar_guid_list_.size();
-}
-void AvatarTeamAllDataNotify::clear_temp_avatar_guid_list() {
-  temp_avatar_guid_list_.Clear();
-}
-::google::protobuf::uint64 AvatarTeamAllDataNotify::temp_avatar_guid_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.AvatarTeamAllDataNotify.temp_avatar_guid_list)
-  return temp_avatar_guid_list_.Get(index);
-}
-void AvatarTeamAllDataNotify::set_temp_avatar_guid_list(int index, ::google::protobuf::uint64 value) {
-  temp_avatar_guid_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.AvatarTeamAllDataNotify.temp_avatar_guid_list)
-}
-void AvatarTeamAllDataNotify::add_temp_avatar_guid_list(::google::protobuf::uint64 value) {
-  temp_avatar_guid_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.AvatarTeamAllDataNotify.temp_avatar_guid_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint64 >&
-AvatarTeamAllDataNotify::temp_avatar_guid_list() const {
-  // @@protoc_insertion_point(field_list:proto.AvatarTeamAllDataNotify.temp_avatar_guid_list)
-  return temp_avatar_guid_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint64 >*
-AvatarTeamAllDataNotify::mutable_temp_avatar_guid_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.AvatarTeamAllDataNotify.temp_avatar_guid_list)
-  return &temp_avatar_guid_list_;
-}
-
-// map<uint32, .proto.AvatarTeam> avatar_team_map = 12;
-int AvatarTeamAllDataNotify::avatar_team_map_size() const {
-  return avatar_team_map_.size();
-}
-void AvatarTeamAllDataNotify::clear_avatar_team_map() {
-  avatar_team_map_.Clear();
-}
- const ::google::protobuf::Map< ::google::protobuf::uint32, ::proto::AvatarTeam >&
-AvatarTeamAllDataNotify::avatar_team_map() const {
-  // @@protoc_insertion_point(field_map:proto.AvatarTeamAllDataNotify.avatar_team_map)
-  return avatar_team_map_.GetMap();
-}
- ::google::protobuf::Map< ::google::protobuf::uint32, ::proto::AvatarTeam >*
-AvatarTeamAllDataNotify::mutable_avatar_team_map() {
-  // @@protoc_insertion_point(field_mutable_map:proto.AvatarTeamAllDataNotify.avatar_team_map)
-  return avatar_team_map_.MutableMap();
-}
-
-// repeated uint32 backup_avatar_team_order_list = 14;
-int AvatarTeamAllDataNotify::backup_avatar_team_order_list_size() const {
-  return backup_avatar_team_order_list_.size();
-}
-void AvatarTeamAllDataNotify::clear_backup_avatar_team_order_list() {
-  backup_avatar_team_order_list_.Clear();
-}
-::google::protobuf::uint32 AvatarTeamAllDataNotify::backup_avatar_team_order_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.AvatarTeamAllDataNotify.backup_avatar_team_order_list)
-  return backup_avatar_team_order_list_.Get(index);
-}
-void AvatarTeamAllDataNotify::set_backup_avatar_team_order_list(int index, ::google::protobuf::uint32 value) {
-  backup_avatar_team_order_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.AvatarTeamAllDataNotify.backup_avatar_team_order_list)
-}
-void AvatarTeamAllDataNotify::add_backup_avatar_team_order_list(::google::protobuf::uint32 value) {
-  backup_avatar_team_order_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.AvatarTeamAllDataNotify.backup_avatar_team_order_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint32 >&
-AvatarTeamAllDataNotify::backup_avatar_team_order_list() const {
-  // @@protoc_insertion_point(field_list:proto.AvatarTeamAllDataNotify.backup_avatar_team_order_list)
-  return backup_avatar_team_order_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint32 >*
-AvatarTeamAllDataNotify::mutable_backup_avatar_team_order_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.AvatarTeamAllDataNotify.backup_avatar_team_order_list)
-  return &backup_avatar_team_order_list_;
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarRenameInfo::kAvatarNameFieldNumber;
-const int AvatarRenameInfo::kAvatarIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarRenameInfo::AvatarRenameInfo()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarRenameInfo)
-}
-AvatarRenameInfo::AvatarRenameInfo(const AvatarRenameInfo& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  avatar_name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  if (from.avatar_name().size() > 0) {
-    avatar_name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.avatar_name_);
-  }
-  avatar_id_ = from.avatar_id_;
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarRenameInfo)
-}
-
-void AvatarRenameInfo::SharedCtor() {
-  avatar_name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  avatar_id_ = 0u;
-  _cached_size_ = 0;
-}
-
-AvatarRenameInfo::~AvatarRenameInfo() {
-  // @@protoc_insertion_point(destructor:proto.AvatarRenameInfo)
-  SharedDtor();
-}
-
-void AvatarRenameInfo::SharedDtor() {
-  avatar_name_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-
-void AvatarRenameInfo::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarRenameInfo::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarRenameInfo& AvatarRenameInfo::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarRenameInfo* AvatarRenameInfo::New(::google::protobuf::Arena* arena) const {
-  AvatarRenameInfo* n = new AvatarRenameInfo;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarRenameInfo::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarRenameInfo)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  avatar_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  avatar_id_ = 0u;
-  _internal_metadata_.Clear();
-}
-
 bool AvatarRenameInfo::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -28759,16 +12424,18 @@ bool AvatarRenameInfo::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarRenameInfo)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarRenameInfo)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -28794,9 +12461,9 @@ void AvatarRenameInfo::SerializeWithCachedSizes(
       8, this->avatar_name(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarRenameInfo)
 }
@@ -28824,9 +12491,9 @@ void AvatarRenameInfo::SerializeWithCachedSizes(
         8, this->avatar_name(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarRenameInfo)
   return target;
@@ -28836,10 +12503,10 @@ size_t AvatarRenameInfo::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarRenameInfo)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // string avatar_name = 8;
   if (this->avatar_name().size() > 0) {
@@ -28860,212 +12527,6 @@ size_t AvatarRenameInfo::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarRenameInfo::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarRenameInfo)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarRenameInfo* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarRenameInfo>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarRenameInfo)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarRenameInfo)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarRenameInfo::MergeFrom(const AvatarRenameInfo& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarRenameInfo)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.avatar_name().size() > 0) {
-
-    avatar_name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.avatar_name_);
-  }
-  if (from.avatar_id() != 0) {
-    set_avatar_id(from.avatar_id());
-  }
-}
-
-void AvatarRenameInfo::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarRenameInfo)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarRenameInfo::CopyFrom(const AvatarRenameInfo& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarRenameInfo)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarRenameInfo::IsInitialized() const {
-  return true;
-}
-
-void AvatarRenameInfo::Swap(AvatarRenameInfo* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarRenameInfo::InternalSwap(AvatarRenameInfo* other) {
-  using std::swap;
-  avatar_name_.Swap(&other->avatar_name_);
-  swap(avatar_id_, other->avatar_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarRenameInfo::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarRenameInfo
-
-// string avatar_name = 8;
-void AvatarRenameInfo::clear_avatar_name() {
-  avatar_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-const ::std::string& AvatarRenameInfo::avatar_name() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarRenameInfo.avatar_name)
-  return avatar_name_.GetNoArena();
-}
-void AvatarRenameInfo::set_avatar_name(const ::std::string& value) {
-  
-  avatar_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
-  // @@protoc_insertion_point(field_set:proto.AvatarRenameInfo.avatar_name)
-}
-#if LANG_CXX11
-void AvatarRenameInfo::set_avatar_name(::std::string&& value) {
-  
-  avatar_name_.SetNoArena(
-    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
-  // @@protoc_insertion_point(field_set_rvalue:proto.AvatarRenameInfo.avatar_name)
-}
-#endif
-void AvatarRenameInfo::set_avatar_name(const char* value) {
-  GOOGLE_DCHECK(value != NULL);
-  
-  avatar_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
-  // @@protoc_insertion_point(field_set_char:proto.AvatarRenameInfo.avatar_name)
-}
-void AvatarRenameInfo::set_avatar_name(const char* value, size_t size) {
-  
-  avatar_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
-      ::std::string(reinterpret_cast<const char*>(value), size));
-  // @@protoc_insertion_point(field_set_pointer:proto.AvatarRenameInfo.avatar_name)
-}
-::std::string* AvatarRenameInfo::mutable_avatar_name() {
-  
-  // @@protoc_insertion_point(field_mutable:proto.AvatarRenameInfo.avatar_name)
-  return avatar_name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-::std::string* AvatarRenameInfo::release_avatar_name() {
-  // @@protoc_insertion_point(field_release:proto.AvatarRenameInfo.avatar_name)
-  
-  return avatar_name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-void AvatarRenameInfo::set_allocated_avatar_name(::std::string* avatar_name) {
-  if (avatar_name != NULL) {
-    
-  } else {
-    
-  }
-  avatar_name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), avatar_name);
-  // @@protoc_insertion_point(field_set_allocated:proto.AvatarRenameInfo.avatar_name)
-}
-
-// uint32 avatar_id = 1;
-void AvatarRenameInfo::clear_avatar_id() {
-  avatar_id_ = 0u;
-}
-::google::protobuf::uint32 AvatarRenameInfo::avatar_id() const {
-  // @@protoc_insertion_point(field_get:proto.AvatarRenameInfo.avatar_id)
-  return avatar_id_;
-}
-void AvatarRenameInfo::set_avatar_id(::google::protobuf::uint32 value) {
-  
-  avatar_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.AvatarRenameInfo.avatar_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int AvatarRenameInfoNotify::kAvatarRenameListFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-AvatarRenameInfoNotify::AvatarRenameInfoNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.AvatarRenameInfoNotify)
-}
-AvatarRenameInfoNotify::AvatarRenameInfoNotify(const AvatarRenameInfoNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      avatar_rename_list_(from.avatar_rename_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  // @@protoc_insertion_point(copy_constructor:proto.AvatarRenameInfoNotify)
-}
-
-void AvatarRenameInfoNotify::SharedCtor() {
-  _cached_size_ = 0;
-}
-
-AvatarRenameInfoNotify::~AvatarRenameInfoNotify() {
-  // @@protoc_insertion_point(destructor:proto.AvatarRenameInfoNotify)
-  SharedDtor();
-}
-
-void AvatarRenameInfoNotify::SharedDtor() {
-}
-
-void AvatarRenameInfoNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* AvatarRenameInfoNotify::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const AvatarRenameInfoNotify& AvatarRenameInfoNotify::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-AvatarRenameInfoNotify* AvatarRenameInfoNotify::New(::google::protobuf::Arena* arena) const {
-  AvatarRenameInfoNotify* n = new AvatarRenameInfoNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void AvatarRenameInfoNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.AvatarRenameInfoNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  avatar_rename_list_.Clear();
-  _internal_metadata_.Clear();
 }
 
 bool AvatarRenameInfoNotify::MergePartialFromCodedStream(
@@ -29096,16 +12557,18 @@ bool AvatarRenameInfoNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.AvatarRenameInfoNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.AvatarRenameInfoNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -29123,9 +12586,9 @@ void AvatarRenameInfoNotify::SerializeWithCachedSizes(
       12, this->avatar_rename_list(static_cast<int>(i)), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.AvatarRenameInfoNotify)
 }
@@ -29145,9 +12608,9 @@ void AvatarRenameInfoNotify::SerializeWithCachedSizes(
         12, this->avatar_rename_list(static_cast<int>(i)), deterministic, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.AvatarRenameInfoNotify)
   return target;
@@ -29157,10 +12620,10 @@ size_t AvatarRenameInfoNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.AvatarRenameInfoNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated .proto.AvatarRenameInfo avatar_rename_list = 12;
   {
@@ -29178,177 +12641,6 @@ size_t AvatarRenameInfoNotify::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void AvatarRenameInfoNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.AvatarRenameInfoNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const AvatarRenameInfoNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const AvatarRenameInfoNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.AvatarRenameInfoNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.AvatarRenameInfoNotify)
-    MergeFrom(*source);
-  }
-}
-
-void AvatarRenameInfoNotify::MergeFrom(const AvatarRenameInfoNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.AvatarRenameInfoNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  avatar_rename_list_.MergeFrom(from.avatar_rename_list_);
-}
-
-void AvatarRenameInfoNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.AvatarRenameInfoNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void AvatarRenameInfoNotify::CopyFrom(const AvatarRenameInfoNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.AvatarRenameInfoNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool AvatarRenameInfoNotify::IsInitialized() const {
-  return true;
-}
-
-void AvatarRenameInfoNotify::Swap(AvatarRenameInfoNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void AvatarRenameInfoNotify::InternalSwap(AvatarRenameInfoNotify* other) {
-  using std::swap;
-  avatar_rename_list_.InternalSwap(&other->avatar_rename_list_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata AvatarRenameInfoNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// AvatarRenameInfoNotify
-
-// repeated .proto.AvatarRenameInfo avatar_rename_list = 12;
-int AvatarRenameInfoNotify::avatar_rename_list_size() const {
-  return avatar_rename_list_.size();
-}
-void AvatarRenameInfoNotify::clear_avatar_rename_list() {
-  avatar_rename_list_.Clear();
-}
-const ::proto::AvatarRenameInfo& AvatarRenameInfoNotify::avatar_rename_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.AvatarRenameInfoNotify.avatar_rename_list)
-  return avatar_rename_list_.Get(index);
-}
-::proto::AvatarRenameInfo* AvatarRenameInfoNotify::mutable_avatar_rename_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.AvatarRenameInfoNotify.avatar_rename_list)
-  return avatar_rename_list_.Mutable(index);
-}
-::proto::AvatarRenameInfo* AvatarRenameInfoNotify::add_avatar_rename_list() {
-  // @@protoc_insertion_point(field_add:proto.AvatarRenameInfoNotify.avatar_rename_list)
-  return avatar_rename_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::AvatarRenameInfo >*
-AvatarRenameInfoNotify::mutable_avatar_rename_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.AvatarRenameInfoNotify.avatar_rename_list)
-  return &avatar_rename_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::AvatarRenameInfo >&
-AvatarRenameInfoNotify::avatar_rename_list() const {
-  // @@protoc_insertion_point(field_list:proto.AvatarRenameInfoNotify.avatar_rename_list)
-  return avatar_rename_list_;
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int ItemRenameAvatarReq::kRenameIdFieldNumber;
-const int ItemRenameAvatarReq::kAvatarNameFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-ItemRenameAvatarReq::ItemRenameAvatarReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.ItemRenameAvatarReq)
-}
-ItemRenameAvatarReq::ItemRenameAvatarReq(const ItemRenameAvatarReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  avatar_name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  if (from.avatar_name().size() > 0) {
-    avatar_name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.avatar_name_);
-  }
-  rename_id_ = from.rename_id_;
-  // @@protoc_insertion_point(copy_constructor:proto.ItemRenameAvatarReq)
-}
-
-void ItemRenameAvatarReq::SharedCtor() {
-  avatar_name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  rename_id_ = 0u;
-  _cached_size_ = 0;
-}
-
-ItemRenameAvatarReq::~ItemRenameAvatarReq() {
-  // @@protoc_insertion_point(destructor:proto.ItemRenameAvatarReq)
-  SharedDtor();
-}
-
-void ItemRenameAvatarReq::SharedDtor() {
-  avatar_name_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-
-void ItemRenameAvatarReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* ItemRenameAvatarReq::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const ItemRenameAvatarReq& ItemRenameAvatarReq::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-ItemRenameAvatarReq* ItemRenameAvatarReq::New(::google::protobuf::Arena* arena) const {
-  ItemRenameAvatarReq* n = new ItemRenameAvatarReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void ItemRenameAvatarReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.ItemRenameAvatarReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  avatar_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  rename_id_ = 0u;
-  _internal_metadata_.Clear();
 }
 
 bool ItemRenameAvatarReq::MergePartialFromCodedStream(
@@ -29397,16 +12689,18 @@ bool ItemRenameAvatarReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.ItemRenameAvatarReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.ItemRenameAvatarReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -29432,9 +12726,9 @@ void ItemRenameAvatarReq::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(14, this->rename_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.ItemRenameAvatarReq)
 }
@@ -29462,9 +12756,9 @@ void ItemRenameAvatarReq::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(14, this->rename_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.ItemRenameAvatarReq)
   return target;
@@ -29474,10 +12768,10 @@ size_t ItemRenameAvatarReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.ItemRenameAvatarReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // string avatar_name = 4;
   if (this->avatar_name().size() > 0) {
@@ -29498,221 +12792,6 @@ size_t ItemRenameAvatarReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void ItemRenameAvatarReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.ItemRenameAvatarReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const ItemRenameAvatarReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const ItemRenameAvatarReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.ItemRenameAvatarReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.ItemRenameAvatarReq)
-    MergeFrom(*source);
-  }
-}
-
-void ItemRenameAvatarReq::MergeFrom(const ItemRenameAvatarReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.ItemRenameAvatarReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.avatar_name().size() > 0) {
-
-    avatar_name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.avatar_name_);
-  }
-  if (from.rename_id() != 0) {
-    set_rename_id(from.rename_id());
-  }
-}
-
-void ItemRenameAvatarReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.ItemRenameAvatarReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void ItemRenameAvatarReq::CopyFrom(const ItemRenameAvatarReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.ItemRenameAvatarReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool ItemRenameAvatarReq::IsInitialized() const {
-  return true;
-}
-
-void ItemRenameAvatarReq::Swap(ItemRenameAvatarReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void ItemRenameAvatarReq::InternalSwap(ItemRenameAvatarReq* other) {
-  using std::swap;
-  avatar_name_.Swap(&other->avatar_name_);
-  swap(rename_id_, other->rename_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata ItemRenameAvatarReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// ItemRenameAvatarReq
-
-// uint32 rename_id = 14;
-void ItemRenameAvatarReq::clear_rename_id() {
-  rename_id_ = 0u;
-}
-::google::protobuf::uint32 ItemRenameAvatarReq::rename_id() const {
-  // @@protoc_insertion_point(field_get:proto.ItemRenameAvatarReq.rename_id)
-  return rename_id_;
-}
-void ItemRenameAvatarReq::set_rename_id(::google::protobuf::uint32 value) {
-  
-  rename_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.ItemRenameAvatarReq.rename_id)
-}
-
-// string avatar_name = 4;
-void ItemRenameAvatarReq::clear_avatar_name() {
-  avatar_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-const ::std::string& ItemRenameAvatarReq::avatar_name() const {
-  // @@protoc_insertion_point(field_get:proto.ItemRenameAvatarReq.avatar_name)
-  return avatar_name_.GetNoArena();
-}
-void ItemRenameAvatarReq::set_avatar_name(const ::std::string& value) {
-  
-  avatar_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
-  // @@protoc_insertion_point(field_set:proto.ItemRenameAvatarReq.avatar_name)
-}
-#if LANG_CXX11
-void ItemRenameAvatarReq::set_avatar_name(::std::string&& value) {
-  
-  avatar_name_.SetNoArena(
-    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
-  // @@protoc_insertion_point(field_set_rvalue:proto.ItemRenameAvatarReq.avatar_name)
-}
-#endif
-void ItemRenameAvatarReq::set_avatar_name(const char* value) {
-  GOOGLE_DCHECK(value != NULL);
-  
-  avatar_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
-  // @@protoc_insertion_point(field_set_char:proto.ItemRenameAvatarReq.avatar_name)
-}
-void ItemRenameAvatarReq::set_avatar_name(const char* value, size_t size) {
-  
-  avatar_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
-      ::std::string(reinterpret_cast<const char*>(value), size));
-  // @@protoc_insertion_point(field_set_pointer:proto.ItemRenameAvatarReq.avatar_name)
-}
-::std::string* ItemRenameAvatarReq::mutable_avatar_name() {
-  
-  // @@protoc_insertion_point(field_mutable:proto.ItemRenameAvatarReq.avatar_name)
-  return avatar_name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-::std::string* ItemRenameAvatarReq::release_avatar_name() {
-  // @@protoc_insertion_point(field_release:proto.ItemRenameAvatarReq.avatar_name)
-  
-  return avatar_name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-}
-void ItemRenameAvatarReq::set_allocated_avatar_name(::std::string* avatar_name) {
-  if (avatar_name != NULL) {
-    
-  } else {
-    
-  }
-  avatar_name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), avatar_name);
-  // @@protoc_insertion_point(field_set_allocated:proto.ItemRenameAvatarReq.avatar_name)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int ItemRenameAvatarRsp::kRenameIdFieldNumber;
-const int ItemRenameAvatarRsp::kCdTimeFieldNumber;
-const int ItemRenameAvatarRsp::kRetcodeFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-ItemRenameAvatarRsp::ItemRenameAvatarRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.ItemRenameAvatarRsp)
-}
-ItemRenameAvatarRsp::ItemRenameAvatarRsp(const ItemRenameAvatarRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&retcode_, &from.retcode_,
-    static_cast<size_t>(reinterpret_cast<char*>(&rename_id_) -
-    reinterpret_cast<char*>(&retcode_)) + sizeof(rename_id_));
-  // @@protoc_insertion_point(copy_constructor:proto.ItemRenameAvatarRsp)
-}
-
-void ItemRenameAvatarRsp::SharedCtor() {
-  ::memset(&retcode_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&rename_id_) -
-      reinterpret_cast<char*>(&retcode_)) + sizeof(rename_id_));
-  _cached_size_ = 0;
-}
-
-ItemRenameAvatarRsp::~ItemRenameAvatarRsp() {
-  // @@protoc_insertion_point(destructor:proto.ItemRenameAvatarRsp)
-  SharedDtor();
-}
-
-void ItemRenameAvatarRsp::SharedDtor() {
-}
-
-void ItemRenameAvatarRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* ItemRenameAvatarRsp::descriptor() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const ItemRenameAvatarRsp& ItemRenameAvatarRsp::default_instance() {
-  protobuf_cmd_2fcmd_5favatar_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-ItemRenameAvatarRsp* ItemRenameAvatarRsp::New(::google::protobuf::Arena* arena) const {
-  ItemRenameAvatarRsp* n = new ItemRenameAvatarRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void ItemRenameAvatarRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.ItemRenameAvatarRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&retcode_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&rename_id_) -
-      reinterpret_cast<char*>(&retcode_)) + sizeof(rename_id_));
-  _internal_metadata_.Clear();
 }
 
 bool ItemRenameAvatarRsp::MergePartialFromCodedStream(
@@ -29773,16 +12852,18 @@ bool ItemRenameAvatarRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.ItemRenameAvatarRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.ItemRenameAvatarRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -29808,9 +12889,9 @@ void ItemRenameAvatarRsp::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteInt32(15, this->retcode(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.ItemRenameAvatarRsp)
 }
@@ -29837,9 +12918,9 @@ void ItemRenameAvatarRsp::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(15, this->retcode(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.ItemRenameAvatarRsp)
   return target;
@@ -29849,10 +12930,10 @@ size_t ItemRenameAvatarRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.ItemRenameAvatarRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // int32 retcode = 15;
   if (this->retcode() != 0) {
@@ -29881,122 +12962,6 @@ size_t ItemRenameAvatarRsp::ByteSizeLong() const {
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
 }
-
-void ItemRenameAvatarRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.ItemRenameAvatarRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const ItemRenameAvatarRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const ItemRenameAvatarRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.ItemRenameAvatarRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.ItemRenameAvatarRsp)
-    MergeFrom(*source);
-  }
-}
-
-void ItemRenameAvatarRsp::MergeFrom(const ItemRenameAvatarRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.ItemRenameAvatarRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-  if (from.cd_time() != 0) {
-    set_cd_time(from.cd_time());
-  }
-  if (from.rename_id() != 0) {
-    set_rename_id(from.rename_id());
-  }
-}
-
-void ItemRenameAvatarRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.ItemRenameAvatarRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void ItemRenameAvatarRsp::CopyFrom(const ItemRenameAvatarRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.ItemRenameAvatarRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool ItemRenameAvatarRsp::IsInitialized() const {
-  return true;
-}
-
-void ItemRenameAvatarRsp::Swap(ItemRenameAvatarRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void ItemRenameAvatarRsp::InternalSwap(ItemRenameAvatarRsp* other) {
-  using std::swap;
-  swap(retcode_, other->retcode_);
-  swap(cd_time_, other->cd_time_);
-  swap(rename_id_, other->rename_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata ItemRenameAvatarRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5favatar_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5favatar_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// ItemRenameAvatarRsp
-
-// uint32 rename_id = 8;
-void ItemRenameAvatarRsp::clear_rename_id() {
-  rename_id_ = 0u;
-}
-::google::protobuf::uint32 ItemRenameAvatarRsp::rename_id() const {
-  // @@protoc_insertion_point(field_get:proto.ItemRenameAvatarRsp.rename_id)
-  return rename_id_;
-}
-void ItemRenameAvatarRsp::set_rename_id(::google::protobuf::uint32 value) {
-  
-  rename_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.ItemRenameAvatarRsp.rename_id)
-}
-
-// uint32 cd_time = 7;
-void ItemRenameAvatarRsp::clear_cd_time() {
-  cd_time_ = 0u;
-}
-::google::protobuf::uint32 ItemRenameAvatarRsp::cd_time() const {
-  // @@protoc_insertion_point(field_get:proto.ItemRenameAvatarRsp.cd_time)
-  return cd_time_;
-}
-void ItemRenameAvatarRsp::set_cd_time(::google::protobuf::uint32 value) {
-  
-  cd_time_ = value;
-  // @@protoc_insertion_point(field_set:proto.ItemRenameAvatarRsp.cd_time)
-}
-
-// int32 retcode = 15;
-void ItemRenameAvatarRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 ItemRenameAvatarRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.ItemRenameAvatarRsp.retcode)
-  return retcode_;
-}
-void ItemRenameAvatarRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.ItemRenameAvatarRsp.retcode)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
 
 // @@protoc_insertion_point(namespace_scope)
 

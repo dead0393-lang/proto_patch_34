@@ -260,41 +260,6 @@ class MonsterSummonTagNotify : public ::google::protobuf::Message /* @@protoc_in
   #pragma GCC diagnostic push
   #pragma GCC diagnostic ignored "-Wstrict-aliasing"
 #endif  // __GNUC__
-// -------------------------------------------------------------------
-
-// MonsterSummonTagNotify
-
-// map<uint32, uint32> summon_tag_map = 1;
-inline int MonsterSummonTagNotify::summon_tag_map_size() const {
-  return summon_tag_map_.size();
-}
-inline void MonsterSummonTagNotify::clear_summon_tag_map() {
-  summon_tag_map_.Clear();
-}
-inline const ::google::protobuf::Map< ::google::protobuf::uint32, ::google::protobuf::uint32 >&
-MonsterSummonTagNotify::summon_tag_map() const {
-  // @@protoc_insertion_point(field_map:proto.MonsterSummonTagNotify.summon_tag_map)
-  return summon_tag_map_.GetMap();
-}
-inline ::google::protobuf::Map< ::google::protobuf::uint32, ::google::protobuf::uint32 >*
-MonsterSummonTagNotify::mutable_summon_tag_map() {
-  // @@protoc_insertion_point(field_mutable_map:proto.MonsterSummonTagNotify.summon_tag_map)
-  return summon_tag_map_.MutableMap();
-}
-
-// uint32 monster_entity_id = 8;
-inline void MonsterSummonTagNotify::clear_monster_entity_id() {
-  monster_entity_id_ = 0u;
-}
-inline ::google::protobuf::uint32 MonsterSummonTagNotify::monster_entity_id() const {
-  // @@protoc_insertion_point(field_get:proto.MonsterSummonTagNotify.monster_entity_id)
-  return monster_entity_id_;
-}
-inline void MonsterSummonTagNotify::set_monster_entity_id(::google::protobuf::uint32 value) {
-  
-  monster_entity_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.MonsterSummonTagNotify.monster_entity_id)
-}
 
 #ifdef __GNUC__
   #pragma GCC diagnostic pop

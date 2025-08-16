@@ -59,422 +59,6 @@ public:
      _instance;
 } _WorldRoutineTypeCloseNotify_default_instance_;
 
-namespace protobuf_cmd_2fcmd_5froutine_2eproto {
-
-
-namespace {
-
-::google::protobuf::Metadata file_level_metadata[8];
-const ::google::protobuf::EnumDescriptor* file_level_enum_descriptors[5];
-
-}  // namespace
-
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::ParseTableField
-    const TableStruct::entries[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  {0, 0, 0, ::google::protobuf::internal::kInvalidMask, 0, 0},
-};
-
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::AuxillaryParseTableField
-    const TableStruct::aux[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  ::google::protobuf::internal::AuxillaryParseTableField(),
-};
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::ParseTable const
-    TableStruct::schema[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-};
-
-const ::google::protobuf::uint32 TableStruct::offsets[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PlayerRoutineInfo, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PlayerRoutineInfo, routine_type_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PlayerRoutineInfo, finished_num_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PlayerRoutineDataNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PlayerRoutineDataNotify, routine_info_list_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(WorldRoutineInfo, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(WorldRoutineInfo, progress_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(WorldRoutineInfo, is_finished_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(WorldRoutineInfo, finish_progress_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(WorldRoutineInfo, routine_id_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(WorldRoutineTypeInfo, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(WorldRoutineTypeInfo, routine_type_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(WorldRoutineTypeInfo, next_refresh_time_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(WorldRoutineTypeInfo, world_routine_info_list_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(WorldAllRoutineTypeNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(WorldAllRoutineTypeNotify, world_routine_type_list_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(WorldRoutineTypeRefreshNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(WorldRoutineTypeRefreshNotify, world_routine_type_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(WorldRoutineChangeNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(WorldRoutineChangeNotify, routine_info_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(WorldRoutineChangeNotify, routine_type_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(WorldRoutineTypeCloseNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(WorldRoutineTypeCloseNotify, routine_type_),
-};
-static const ::google::protobuf::internal::MigrationSchema schemas[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  { 0, -1, sizeof(PlayerRoutineInfo)},
-  { 7, -1, sizeof(PlayerRoutineDataNotify)},
-  { 13, -1, sizeof(WorldRoutineInfo)},
-  { 22, -1, sizeof(WorldRoutineTypeInfo)},
-  { 30, -1, sizeof(WorldAllRoutineTypeNotify)},
-  { 36, -1, sizeof(WorldRoutineTypeRefreshNotify)},
-  { 42, -1, sizeof(WorldRoutineChangeNotify)},
-  { 49, -1, sizeof(WorldRoutineTypeCloseNotify)},
-};
-
-static ::google::protobuf::Message const * const file_default_instances[] = {
-  reinterpret_cast<const ::google::protobuf::Message*>(&_PlayerRoutineInfo_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_PlayerRoutineDataNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_WorldRoutineInfo_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_WorldRoutineTypeInfo_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_WorldAllRoutineTypeNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_WorldRoutineTypeRefreshNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_WorldRoutineChangeNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_WorldRoutineTypeCloseNotify_default_instance_),
-};
-
-namespace {
-
-void protobuf_AssignDescriptors() {
-  AddDescriptors();
-  ::google::protobuf::MessageFactory* factory = NULL;
-  AssignDescriptors(
-      "cmd/cmd_routine.proto", schemas, file_default_instances, TableStruct::offsets, factory,
-      file_level_metadata, file_level_enum_descriptors, NULL);
-}
-
-void protobuf_AssignDescriptorsOnce() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &protobuf_AssignDescriptors);
-}
-
-void protobuf_RegisterTypes(const ::std::string&) GOOGLE_ATTRIBUTE_COLD;
-void protobuf_RegisterTypes(const ::std::string&) {
-  protobuf_AssignDescriptorsOnce();
-  ::google::protobuf::internal::RegisterAllTypes(file_level_metadata, 8);
-}
-
-}  // namespace
-void TableStruct::InitDefaultsImpl() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
-
-  ::google::protobuf::internal::InitProtobufDefaults();
-  ::proto::protobuf_define_2eproto::InitDefaults();
-  _PlayerRoutineInfo_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_PlayerRoutineInfo_default_instance_);_PlayerRoutineDataNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_PlayerRoutineDataNotify_default_instance_);_WorldRoutineInfo_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_WorldRoutineInfo_default_instance_);_WorldRoutineTypeInfo_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_WorldRoutineTypeInfo_default_instance_);_WorldAllRoutineTypeNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_WorldAllRoutineTypeNotify_default_instance_);_WorldRoutineTypeRefreshNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_WorldRoutineTypeRefreshNotify_default_instance_);_WorldRoutineChangeNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_WorldRoutineChangeNotify_default_instance_);_WorldRoutineTypeCloseNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_WorldRoutineTypeCloseNotify_default_instance_);_WorldRoutineTypeRefreshNotify_default_instance_._instance.get_mutable()->world_routine_type_ = const_cast< ::proto::WorldRoutineTypeInfo*>(
-      ::proto::WorldRoutineTypeInfo::internal_default_instance());
-  _WorldRoutineChangeNotify_default_instance_._instance.get_mutable()->routine_info_ = const_cast< ::proto::WorldRoutineInfo*>(
-      ::proto::WorldRoutineInfo::internal_default_instance());
-}
-
-void InitDefaults() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &TableStruct::InitDefaultsImpl);
-}
-namespace {
-void AddDescriptorsImpl() {
-  InitDefaults();
-  static const char descriptor[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-      "\n\025cmd/cmd_routine.proto\022\005proto\032\014define.p"
-      "roto\"\?\n\021PlayerRoutineInfo\022\024\n\014routine_typ"
-      "e\030\002 \001(\r\022\024\n\014finished_num\030\r \001(\r\"\235\001\n\027Player"
-      "RoutineDataNotify\0223\n\021routine_info_list\030\014"
-      " \003(\0132\030.proto.PlayerRoutineInfo\"M\n\005CmdId\022"
-      "\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\322\033\022\023\n\017ENET_CHANNEL_I"
-      "D\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001\"f\n\020WorldRo"
-      "utineInfo\022\020\n\010progress\030\005 \001(\r\022\023\n\013is_finish"
-      "ed\030\t \001(\010\022\027\n\017finish_progress\030\017 \001(\r\022\022\n\nrou"
-      "tine_id\030\004 \001(\r\"\201\001\n\024WorldRoutineTypeInfo\022\024"
-      "\n\014routine_type\030\r \001(\r\022\031\n\021next_refresh_tim"
-      "e\030\017 \001(\r\0228\n\027world_routine_info_list\030\006 \003(\013"
-      "2\027.proto.WorldRoutineInfo\"\250\001\n\031WorldAllRo"
-      "utineTypeNotify\022<\n\027world_routine_type_li"
-      "st\030\004 \003(\0132\033.proto.WorldRoutineTypeInfo\"M\n"
-      "\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\331\033\022\023\n\017ENET_CH"
-      "ANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001\"\247\001\n"
-      "\035WorldRoutineTypeRefreshNotify\0227\n\022world_"
-      "routine_type\030\017 \001(\0132\033.proto.WorldRoutineT"
-      "ypeInfo\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\332\033\022"
-      "\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE"
-      "\020\001\032\002\020\001\"\256\001\n\030WorldRoutineChangeNotify\022-\n\014r"
-      "outine_info\030\002 \001(\0132\027.proto.WorldRoutineIn"
-      "fo\022\024\n\014routine_type\030\013 \001(\r\"M\n\005CmdId\022\010\n\004NON"
-      "E\020\000\022\013\n\006CMD_ID\020\325\033\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n"
-      "\020ENET_IS_RELIABLE\020\001\032\002\020\001\"\202\001\n\033WorldRoutine"
-      "TypeCloseNotify\022\024\n\014routine_type\030\007 \001(\r\"M\n"
-      "\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\277\033\022\023\n\017ENET_CH"
-      "ANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001B\nZ\010"
-      "./;protob\006proto3"
-  };
-  ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-      descriptor, 1176);
-  ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
-    "cmd/cmd_routine.proto", &protobuf_RegisterTypes);
-  ::proto::protobuf_define_2eproto::AddDescriptors();
-}
-} // anonymous namespace
-
-void AddDescriptors() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &AddDescriptorsImpl);
-}
-// Force AddDescriptors() to be called at dynamic initialization time.
-struct StaticDescriptorInitializer {
-  StaticDescriptorInitializer() {
-    AddDescriptors();
-  }
-} static_descriptor_initializer;
-
-}  // namespace protobuf_cmd_2fcmd_5froutine_2eproto
-
-const ::google::protobuf::EnumDescriptor* PlayerRoutineDataNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5froutine_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5froutine_2eproto::file_level_enum_descriptors[0];
-}
-bool PlayerRoutineDataNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 3538:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const PlayerRoutineDataNotify_CmdId PlayerRoutineDataNotify::NONE;
-const PlayerRoutineDataNotify_CmdId PlayerRoutineDataNotify::CMD_ID;
-const PlayerRoutineDataNotify_CmdId PlayerRoutineDataNotify::ENET_CHANNEL_ID;
-const PlayerRoutineDataNotify_CmdId PlayerRoutineDataNotify::ENET_IS_RELIABLE;
-const PlayerRoutineDataNotify_CmdId PlayerRoutineDataNotify::CmdId_MIN;
-const PlayerRoutineDataNotify_CmdId PlayerRoutineDataNotify::CmdId_MAX;
-const int PlayerRoutineDataNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* WorldAllRoutineTypeNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5froutine_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5froutine_2eproto::file_level_enum_descriptors[1];
-}
-bool WorldAllRoutineTypeNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 3545:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const WorldAllRoutineTypeNotify_CmdId WorldAllRoutineTypeNotify::NONE;
-const WorldAllRoutineTypeNotify_CmdId WorldAllRoutineTypeNotify::CMD_ID;
-const WorldAllRoutineTypeNotify_CmdId WorldAllRoutineTypeNotify::ENET_CHANNEL_ID;
-const WorldAllRoutineTypeNotify_CmdId WorldAllRoutineTypeNotify::ENET_IS_RELIABLE;
-const WorldAllRoutineTypeNotify_CmdId WorldAllRoutineTypeNotify::CmdId_MIN;
-const WorldAllRoutineTypeNotify_CmdId WorldAllRoutineTypeNotify::CmdId_MAX;
-const int WorldAllRoutineTypeNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* WorldRoutineTypeRefreshNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5froutine_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5froutine_2eproto::file_level_enum_descriptors[2];
-}
-bool WorldRoutineTypeRefreshNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 3546:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const WorldRoutineTypeRefreshNotify_CmdId WorldRoutineTypeRefreshNotify::NONE;
-const WorldRoutineTypeRefreshNotify_CmdId WorldRoutineTypeRefreshNotify::CMD_ID;
-const WorldRoutineTypeRefreshNotify_CmdId WorldRoutineTypeRefreshNotify::ENET_CHANNEL_ID;
-const WorldRoutineTypeRefreshNotify_CmdId WorldRoutineTypeRefreshNotify::ENET_IS_RELIABLE;
-const WorldRoutineTypeRefreshNotify_CmdId WorldRoutineTypeRefreshNotify::CmdId_MIN;
-const WorldRoutineTypeRefreshNotify_CmdId WorldRoutineTypeRefreshNotify::CmdId_MAX;
-const int WorldRoutineTypeRefreshNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* WorldRoutineChangeNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5froutine_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5froutine_2eproto::file_level_enum_descriptors[3];
-}
-bool WorldRoutineChangeNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 3541:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const WorldRoutineChangeNotify_CmdId WorldRoutineChangeNotify::NONE;
-const WorldRoutineChangeNotify_CmdId WorldRoutineChangeNotify::CMD_ID;
-const WorldRoutineChangeNotify_CmdId WorldRoutineChangeNotify::ENET_CHANNEL_ID;
-const WorldRoutineChangeNotify_CmdId WorldRoutineChangeNotify::ENET_IS_RELIABLE;
-const WorldRoutineChangeNotify_CmdId WorldRoutineChangeNotify::CmdId_MIN;
-const WorldRoutineChangeNotify_CmdId WorldRoutineChangeNotify::CmdId_MAX;
-const int WorldRoutineChangeNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* WorldRoutineTypeCloseNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5froutine_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5froutine_2eproto::file_level_enum_descriptors[4];
-}
-bool WorldRoutineTypeCloseNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 3519:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const WorldRoutineTypeCloseNotify_CmdId WorldRoutineTypeCloseNotify::NONE;
-const WorldRoutineTypeCloseNotify_CmdId WorldRoutineTypeCloseNotify::CMD_ID;
-const WorldRoutineTypeCloseNotify_CmdId WorldRoutineTypeCloseNotify::ENET_CHANNEL_ID;
-const WorldRoutineTypeCloseNotify_CmdId WorldRoutineTypeCloseNotify::ENET_IS_RELIABLE;
-const WorldRoutineTypeCloseNotify_CmdId WorldRoutineTypeCloseNotify::CmdId_MIN;
-const WorldRoutineTypeCloseNotify_CmdId WorldRoutineTypeCloseNotify::CmdId_MAX;
-const int WorldRoutineTypeCloseNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int PlayerRoutineInfo::kRoutineTypeFieldNumber;
-const int PlayerRoutineInfo::kFinishedNumFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-PlayerRoutineInfo::PlayerRoutineInfo()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5froutine_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.PlayerRoutineInfo)
-}
-PlayerRoutineInfo::PlayerRoutineInfo(const PlayerRoutineInfo& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&routine_type_, &from.routine_type_,
-    static_cast<size_t>(reinterpret_cast<char*>(&finished_num_) -
-    reinterpret_cast<char*>(&routine_type_)) + sizeof(finished_num_));
-  // @@protoc_insertion_point(copy_constructor:proto.PlayerRoutineInfo)
-}
-
-void PlayerRoutineInfo::SharedCtor() {
-  ::memset(&routine_type_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&finished_num_) -
-      reinterpret_cast<char*>(&routine_type_)) + sizeof(finished_num_));
-  _cached_size_ = 0;
-}
-
-PlayerRoutineInfo::~PlayerRoutineInfo() {
-  // @@protoc_insertion_point(destructor:proto.PlayerRoutineInfo)
-  SharedDtor();
-}
-
-void PlayerRoutineInfo::SharedDtor() {
-}
-
-void PlayerRoutineInfo::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* PlayerRoutineInfo::descriptor() {
-  protobuf_cmd_2fcmd_5froutine_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5froutine_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const PlayerRoutineInfo& PlayerRoutineInfo::default_instance() {
-  protobuf_cmd_2fcmd_5froutine_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-PlayerRoutineInfo* PlayerRoutineInfo::New(::google::protobuf::Arena* arena) const {
-  PlayerRoutineInfo* n = new PlayerRoutineInfo;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void PlayerRoutineInfo::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.PlayerRoutineInfo)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&routine_type_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&finished_num_) -
-      reinterpret_cast<char*>(&routine_type_)) + sizeof(finished_num_));
-  _internal_metadata_.Clear();
-}
-
 bool PlayerRoutineInfo::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -519,16 +103,18 @@ bool PlayerRoutineInfo::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.PlayerRoutineInfo)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.PlayerRoutineInfo)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -549,9 +135,9 @@ void PlayerRoutineInfo::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(13, this->finished_num(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.PlayerRoutineInfo)
 }
@@ -573,9 +159,9 @@ void PlayerRoutineInfo::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(13, this->finished_num(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.PlayerRoutineInfo)
   return target;
@@ -585,10 +171,10 @@ size_t PlayerRoutineInfo::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.PlayerRoutineInfo)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 routine_type = 2;
   if (this->routine_type() != 0) {
@@ -609,172 +195,6 @@ size_t PlayerRoutineInfo::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void PlayerRoutineInfo::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.PlayerRoutineInfo)
-  GOOGLE_DCHECK_NE(&from, this);
-  const PlayerRoutineInfo* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const PlayerRoutineInfo>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.PlayerRoutineInfo)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.PlayerRoutineInfo)
-    MergeFrom(*source);
-  }
-}
-
-void PlayerRoutineInfo::MergeFrom(const PlayerRoutineInfo& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.PlayerRoutineInfo)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.routine_type() != 0) {
-    set_routine_type(from.routine_type());
-  }
-  if (from.finished_num() != 0) {
-    set_finished_num(from.finished_num());
-  }
-}
-
-void PlayerRoutineInfo::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.PlayerRoutineInfo)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void PlayerRoutineInfo::CopyFrom(const PlayerRoutineInfo& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.PlayerRoutineInfo)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool PlayerRoutineInfo::IsInitialized() const {
-  return true;
-}
-
-void PlayerRoutineInfo::Swap(PlayerRoutineInfo* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void PlayerRoutineInfo::InternalSwap(PlayerRoutineInfo* other) {
-  using std::swap;
-  swap(routine_type_, other->routine_type_);
-  swap(finished_num_, other->finished_num_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata PlayerRoutineInfo::GetMetadata() const {
-  protobuf_cmd_2fcmd_5froutine_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5froutine_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// PlayerRoutineInfo
-
-// uint32 routine_type = 2;
-void PlayerRoutineInfo::clear_routine_type() {
-  routine_type_ = 0u;
-}
-::google::protobuf::uint32 PlayerRoutineInfo::routine_type() const {
-  // @@protoc_insertion_point(field_get:proto.PlayerRoutineInfo.routine_type)
-  return routine_type_;
-}
-void PlayerRoutineInfo::set_routine_type(::google::protobuf::uint32 value) {
-  
-  routine_type_ = value;
-  // @@protoc_insertion_point(field_set:proto.PlayerRoutineInfo.routine_type)
-}
-
-// uint32 finished_num = 13;
-void PlayerRoutineInfo::clear_finished_num() {
-  finished_num_ = 0u;
-}
-::google::protobuf::uint32 PlayerRoutineInfo::finished_num() const {
-  // @@protoc_insertion_point(field_get:proto.PlayerRoutineInfo.finished_num)
-  return finished_num_;
-}
-void PlayerRoutineInfo::set_finished_num(::google::protobuf::uint32 value) {
-  
-  finished_num_ = value;
-  // @@protoc_insertion_point(field_set:proto.PlayerRoutineInfo.finished_num)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int PlayerRoutineDataNotify::kRoutineInfoListFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-PlayerRoutineDataNotify::PlayerRoutineDataNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5froutine_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.PlayerRoutineDataNotify)
-}
-PlayerRoutineDataNotify::PlayerRoutineDataNotify(const PlayerRoutineDataNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      routine_info_list_(from.routine_info_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  // @@protoc_insertion_point(copy_constructor:proto.PlayerRoutineDataNotify)
-}
-
-void PlayerRoutineDataNotify::SharedCtor() {
-  _cached_size_ = 0;
-}
-
-PlayerRoutineDataNotify::~PlayerRoutineDataNotify() {
-  // @@protoc_insertion_point(destructor:proto.PlayerRoutineDataNotify)
-  SharedDtor();
-}
-
-void PlayerRoutineDataNotify::SharedDtor() {
-}
-
-void PlayerRoutineDataNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* PlayerRoutineDataNotify::descriptor() {
-  protobuf_cmd_2fcmd_5froutine_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5froutine_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const PlayerRoutineDataNotify& PlayerRoutineDataNotify::default_instance() {
-  protobuf_cmd_2fcmd_5froutine_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-PlayerRoutineDataNotify* PlayerRoutineDataNotify::New(::google::protobuf::Arena* arena) const {
-  PlayerRoutineDataNotify* n = new PlayerRoutineDataNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void PlayerRoutineDataNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.PlayerRoutineDataNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  routine_info_list_.Clear();
-  _internal_metadata_.Clear();
 }
 
 bool PlayerRoutineDataNotify::MergePartialFromCodedStream(
@@ -805,16 +225,18 @@ bool PlayerRoutineDataNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.PlayerRoutineDataNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.PlayerRoutineDataNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -832,9 +254,9 @@ void PlayerRoutineDataNotify::SerializeWithCachedSizes(
       12, this->routine_info_list(static_cast<int>(i)), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.PlayerRoutineDataNotify)
 }
@@ -854,9 +276,9 @@ void PlayerRoutineDataNotify::SerializeWithCachedSizes(
         12, this->routine_info_list(static_cast<int>(i)), deterministic, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.PlayerRoutineDataNotify)
   return target;
@@ -866,10 +288,10 @@ size_t PlayerRoutineDataNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.PlayerRoutineDataNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated .proto.PlayerRoutineInfo routine_info_list = 12;
   {
@@ -887,178 +309,6 @@ size_t PlayerRoutineDataNotify::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void PlayerRoutineDataNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.PlayerRoutineDataNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const PlayerRoutineDataNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const PlayerRoutineDataNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.PlayerRoutineDataNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.PlayerRoutineDataNotify)
-    MergeFrom(*source);
-  }
-}
-
-void PlayerRoutineDataNotify::MergeFrom(const PlayerRoutineDataNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.PlayerRoutineDataNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  routine_info_list_.MergeFrom(from.routine_info_list_);
-}
-
-void PlayerRoutineDataNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.PlayerRoutineDataNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void PlayerRoutineDataNotify::CopyFrom(const PlayerRoutineDataNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.PlayerRoutineDataNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool PlayerRoutineDataNotify::IsInitialized() const {
-  return true;
-}
-
-void PlayerRoutineDataNotify::Swap(PlayerRoutineDataNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void PlayerRoutineDataNotify::InternalSwap(PlayerRoutineDataNotify* other) {
-  using std::swap;
-  routine_info_list_.InternalSwap(&other->routine_info_list_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata PlayerRoutineDataNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5froutine_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5froutine_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// PlayerRoutineDataNotify
-
-// repeated .proto.PlayerRoutineInfo routine_info_list = 12;
-int PlayerRoutineDataNotify::routine_info_list_size() const {
-  return routine_info_list_.size();
-}
-void PlayerRoutineDataNotify::clear_routine_info_list() {
-  routine_info_list_.Clear();
-}
-const ::proto::PlayerRoutineInfo& PlayerRoutineDataNotify::routine_info_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.PlayerRoutineDataNotify.routine_info_list)
-  return routine_info_list_.Get(index);
-}
-::proto::PlayerRoutineInfo* PlayerRoutineDataNotify::mutable_routine_info_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.PlayerRoutineDataNotify.routine_info_list)
-  return routine_info_list_.Mutable(index);
-}
-::proto::PlayerRoutineInfo* PlayerRoutineDataNotify::add_routine_info_list() {
-  // @@protoc_insertion_point(field_add:proto.PlayerRoutineDataNotify.routine_info_list)
-  return routine_info_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::PlayerRoutineInfo >*
-PlayerRoutineDataNotify::mutable_routine_info_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.PlayerRoutineDataNotify.routine_info_list)
-  return &routine_info_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::PlayerRoutineInfo >&
-PlayerRoutineDataNotify::routine_info_list() const {
-  // @@protoc_insertion_point(field_list:proto.PlayerRoutineDataNotify.routine_info_list)
-  return routine_info_list_;
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int WorldRoutineInfo::kProgressFieldNumber;
-const int WorldRoutineInfo::kIsFinishedFieldNumber;
-const int WorldRoutineInfo::kFinishProgressFieldNumber;
-const int WorldRoutineInfo::kRoutineIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-WorldRoutineInfo::WorldRoutineInfo()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5froutine_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.WorldRoutineInfo)
-}
-WorldRoutineInfo::WorldRoutineInfo(const WorldRoutineInfo& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&routine_id_, &from.routine_id_,
-    static_cast<size_t>(reinterpret_cast<char*>(&finish_progress_) -
-    reinterpret_cast<char*>(&routine_id_)) + sizeof(finish_progress_));
-  // @@protoc_insertion_point(copy_constructor:proto.WorldRoutineInfo)
-}
-
-void WorldRoutineInfo::SharedCtor() {
-  ::memset(&routine_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&finish_progress_) -
-      reinterpret_cast<char*>(&routine_id_)) + sizeof(finish_progress_));
-  _cached_size_ = 0;
-}
-
-WorldRoutineInfo::~WorldRoutineInfo() {
-  // @@protoc_insertion_point(destructor:proto.WorldRoutineInfo)
-  SharedDtor();
-}
-
-void WorldRoutineInfo::SharedDtor() {
-}
-
-void WorldRoutineInfo::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* WorldRoutineInfo::descriptor() {
-  protobuf_cmd_2fcmd_5froutine_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5froutine_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const WorldRoutineInfo& WorldRoutineInfo::default_instance() {
-  protobuf_cmd_2fcmd_5froutine_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-WorldRoutineInfo* WorldRoutineInfo::New(::google::protobuf::Arena* arena) const {
-  WorldRoutineInfo* n = new WorldRoutineInfo;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void WorldRoutineInfo::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.WorldRoutineInfo)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&routine_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&finish_progress_) -
-      reinterpret_cast<char*>(&routine_id_)) + sizeof(finish_progress_));
-  _internal_metadata_.Clear();
 }
 
 bool WorldRoutineInfo::MergePartialFromCodedStream(
@@ -1133,16 +383,18 @@ bool WorldRoutineInfo::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.WorldRoutineInfo)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.WorldRoutineInfo)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -1173,9 +425,9 @@ void WorldRoutineInfo::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(15, this->finish_progress(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.WorldRoutineInfo)
 }
@@ -1207,9 +459,9 @@ void WorldRoutineInfo::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(15, this->finish_progress(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.WorldRoutineInfo)
   return target;
@@ -1219,10 +471,10 @@ size_t WorldRoutineInfo::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.WorldRoutineInfo)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 routine_id = 4;
   if (this->routine_id() != 0) {
@@ -1255,219 +507,6 @@ size_t WorldRoutineInfo::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void WorldRoutineInfo::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.WorldRoutineInfo)
-  GOOGLE_DCHECK_NE(&from, this);
-  const WorldRoutineInfo* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const WorldRoutineInfo>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.WorldRoutineInfo)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.WorldRoutineInfo)
-    MergeFrom(*source);
-  }
-}
-
-void WorldRoutineInfo::MergeFrom(const WorldRoutineInfo& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.WorldRoutineInfo)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.routine_id() != 0) {
-    set_routine_id(from.routine_id());
-  }
-  if (from.progress() != 0) {
-    set_progress(from.progress());
-  }
-  if (from.is_finished() != 0) {
-    set_is_finished(from.is_finished());
-  }
-  if (from.finish_progress() != 0) {
-    set_finish_progress(from.finish_progress());
-  }
-}
-
-void WorldRoutineInfo::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.WorldRoutineInfo)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void WorldRoutineInfo::CopyFrom(const WorldRoutineInfo& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.WorldRoutineInfo)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool WorldRoutineInfo::IsInitialized() const {
-  return true;
-}
-
-void WorldRoutineInfo::Swap(WorldRoutineInfo* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void WorldRoutineInfo::InternalSwap(WorldRoutineInfo* other) {
-  using std::swap;
-  swap(routine_id_, other->routine_id_);
-  swap(progress_, other->progress_);
-  swap(is_finished_, other->is_finished_);
-  swap(finish_progress_, other->finish_progress_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata WorldRoutineInfo::GetMetadata() const {
-  protobuf_cmd_2fcmd_5froutine_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5froutine_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// WorldRoutineInfo
-
-// uint32 progress = 5;
-void WorldRoutineInfo::clear_progress() {
-  progress_ = 0u;
-}
-::google::protobuf::uint32 WorldRoutineInfo::progress() const {
-  // @@protoc_insertion_point(field_get:proto.WorldRoutineInfo.progress)
-  return progress_;
-}
-void WorldRoutineInfo::set_progress(::google::protobuf::uint32 value) {
-  
-  progress_ = value;
-  // @@protoc_insertion_point(field_set:proto.WorldRoutineInfo.progress)
-}
-
-// bool is_finished = 9;
-void WorldRoutineInfo::clear_is_finished() {
-  is_finished_ = false;
-}
-bool WorldRoutineInfo::is_finished() const {
-  // @@protoc_insertion_point(field_get:proto.WorldRoutineInfo.is_finished)
-  return is_finished_;
-}
-void WorldRoutineInfo::set_is_finished(bool value) {
-  
-  is_finished_ = value;
-  // @@protoc_insertion_point(field_set:proto.WorldRoutineInfo.is_finished)
-}
-
-// uint32 finish_progress = 15;
-void WorldRoutineInfo::clear_finish_progress() {
-  finish_progress_ = 0u;
-}
-::google::protobuf::uint32 WorldRoutineInfo::finish_progress() const {
-  // @@protoc_insertion_point(field_get:proto.WorldRoutineInfo.finish_progress)
-  return finish_progress_;
-}
-void WorldRoutineInfo::set_finish_progress(::google::protobuf::uint32 value) {
-  
-  finish_progress_ = value;
-  // @@protoc_insertion_point(field_set:proto.WorldRoutineInfo.finish_progress)
-}
-
-// uint32 routine_id = 4;
-void WorldRoutineInfo::clear_routine_id() {
-  routine_id_ = 0u;
-}
-::google::protobuf::uint32 WorldRoutineInfo::routine_id() const {
-  // @@protoc_insertion_point(field_get:proto.WorldRoutineInfo.routine_id)
-  return routine_id_;
-}
-void WorldRoutineInfo::set_routine_id(::google::protobuf::uint32 value) {
-  
-  routine_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.WorldRoutineInfo.routine_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int WorldRoutineTypeInfo::kRoutineTypeFieldNumber;
-const int WorldRoutineTypeInfo::kNextRefreshTimeFieldNumber;
-const int WorldRoutineTypeInfo::kWorldRoutineInfoListFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-WorldRoutineTypeInfo::WorldRoutineTypeInfo()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5froutine_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.WorldRoutineTypeInfo)
-}
-WorldRoutineTypeInfo::WorldRoutineTypeInfo(const WorldRoutineTypeInfo& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      world_routine_info_list_(from.world_routine_info_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&routine_type_, &from.routine_type_,
-    static_cast<size_t>(reinterpret_cast<char*>(&next_refresh_time_) -
-    reinterpret_cast<char*>(&routine_type_)) + sizeof(next_refresh_time_));
-  // @@protoc_insertion_point(copy_constructor:proto.WorldRoutineTypeInfo)
-}
-
-void WorldRoutineTypeInfo::SharedCtor() {
-  ::memset(&routine_type_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&next_refresh_time_) -
-      reinterpret_cast<char*>(&routine_type_)) + sizeof(next_refresh_time_));
-  _cached_size_ = 0;
-}
-
-WorldRoutineTypeInfo::~WorldRoutineTypeInfo() {
-  // @@protoc_insertion_point(destructor:proto.WorldRoutineTypeInfo)
-  SharedDtor();
-}
-
-void WorldRoutineTypeInfo::SharedDtor() {
-}
-
-void WorldRoutineTypeInfo::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* WorldRoutineTypeInfo::descriptor() {
-  protobuf_cmd_2fcmd_5froutine_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5froutine_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const WorldRoutineTypeInfo& WorldRoutineTypeInfo::default_instance() {
-  protobuf_cmd_2fcmd_5froutine_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-WorldRoutineTypeInfo* WorldRoutineTypeInfo::New(::google::protobuf::Arena* arena) const {
-  WorldRoutineTypeInfo* n = new WorldRoutineTypeInfo;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void WorldRoutineTypeInfo::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.WorldRoutineTypeInfo)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  world_routine_info_list_.Clear();
-  ::memset(&routine_type_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&next_refresh_time_) -
-      reinterpret_cast<char*>(&routine_type_)) + sizeof(next_refresh_time_));
-  _internal_metadata_.Clear();
 }
 
 bool WorldRoutineTypeInfo::MergePartialFromCodedStream(
@@ -1526,16 +565,18 @@ bool WorldRoutineTypeInfo::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.WorldRoutineTypeInfo)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.WorldRoutineTypeInfo)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -1563,9 +604,9 @@ void WorldRoutineTypeInfo::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(15, this->next_refresh_time(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.WorldRoutineTypeInfo)
 }
@@ -1595,9 +636,9 @@ void WorldRoutineTypeInfo::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(15, this->next_refresh_time(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.WorldRoutineTypeInfo)
   return target;
@@ -1607,10 +648,10 @@ size_t WorldRoutineTypeInfo::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.WorldRoutineTypeInfo)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated .proto.WorldRoutineInfo world_routine_info_list = 6;
   {
@@ -1644,204 +685,6 @@ size_t WorldRoutineTypeInfo::ByteSizeLong() const {
   return total_size;
 }
 
-void WorldRoutineTypeInfo::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.WorldRoutineTypeInfo)
-  GOOGLE_DCHECK_NE(&from, this);
-  const WorldRoutineTypeInfo* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const WorldRoutineTypeInfo>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.WorldRoutineTypeInfo)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.WorldRoutineTypeInfo)
-    MergeFrom(*source);
-  }
-}
-
-void WorldRoutineTypeInfo::MergeFrom(const WorldRoutineTypeInfo& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.WorldRoutineTypeInfo)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  world_routine_info_list_.MergeFrom(from.world_routine_info_list_);
-  if (from.routine_type() != 0) {
-    set_routine_type(from.routine_type());
-  }
-  if (from.next_refresh_time() != 0) {
-    set_next_refresh_time(from.next_refresh_time());
-  }
-}
-
-void WorldRoutineTypeInfo::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.WorldRoutineTypeInfo)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void WorldRoutineTypeInfo::CopyFrom(const WorldRoutineTypeInfo& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.WorldRoutineTypeInfo)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool WorldRoutineTypeInfo::IsInitialized() const {
-  return true;
-}
-
-void WorldRoutineTypeInfo::Swap(WorldRoutineTypeInfo* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void WorldRoutineTypeInfo::InternalSwap(WorldRoutineTypeInfo* other) {
-  using std::swap;
-  world_routine_info_list_.InternalSwap(&other->world_routine_info_list_);
-  swap(routine_type_, other->routine_type_);
-  swap(next_refresh_time_, other->next_refresh_time_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata WorldRoutineTypeInfo::GetMetadata() const {
-  protobuf_cmd_2fcmd_5froutine_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5froutine_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// WorldRoutineTypeInfo
-
-// uint32 routine_type = 13;
-void WorldRoutineTypeInfo::clear_routine_type() {
-  routine_type_ = 0u;
-}
-::google::protobuf::uint32 WorldRoutineTypeInfo::routine_type() const {
-  // @@protoc_insertion_point(field_get:proto.WorldRoutineTypeInfo.routine_type)
-  return routine_type_;
-}
-void WorldRoutineTypeInfo::set_routine_type(::google::protobuf::uint32 value) {
-  
-  routine_type_ = value;
-  // @@protoc_insertion_point(field_set:proto.WorldRoutineTypeInfo.routine_type)
-}
-
-// uint32 next_refresh_time = 15;
-void WorldRoutineTypeInfo::clear_next_refresh_time() {
-  next_refresh_time_ = 0u;
-}
-::google::protobuf::uint32 WorldRoutineTypeInfo::next_refresh_time() const {
-  // @@protoc_insertion_point(field_get:proto.WorldRoutineTypeInfo.next_refresh_time)
-  return next_refresh_time_;
-}
-void WorldRoutineTypeInfo::set_next_refresh_time(::google::protobuf::uint32 value) {
-  
-  next_refresh_time_ = value;
-  // @@protoc_insertion_point(field_set:proto.WorldRoutineTypeInfo.next_refresh_time)
-}
-
-// repeated .proto.WorldRoutineInfo world_routine_info_list = 6;
-int WorldRoutineTypeInfo::world_routine_info_list_size() const {
-  return world_routine_info_list_.size();
-}
-void WorldRoutineTypeInfo::clear_world_routine_info_list() {
-  world_routine_info_list_.Clear();
-}
-const ::proto::WorldRoutineInfo& WorldRoutineTypeInfo::world_routine_info_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.WorldRoutineTypeInfo.world_routine_info_list)
-  return world_routine_info_list_.Get(index);
-}
-::proto::WorldRoutineInfo* WorldRoutineTypeInfo::mutable_world_routine_info_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.WorldRoutineTypeInfo.world_routine_info_list)
-  return world_routine_info_list_.Mutable(index);
-}
-::proto::WorldRoutineInfo* WorldRoutineTypeInfo::add_world_routine_info_list() {
-  // @@protoc_insertion_point(field_add:proto.WorldRoutineTypeInfo.world_routine_info_list)
-  return world_routine_info_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::WorldRoutineInfo >*
-WorldRoutineTypeInfo::mutable_world_routine_info_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.WorldRoutineTypeInfo.world_routine_info_list)
-  return &world_routine_info_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::WorldRoutineInfo >&
-WorldRoutineTypeInfo::world_routine_info_list() const {
-  // @@protoc_insertion_point(field_list:proto.WorldRoutineTypeInfo.world_routine_info_list)
-  return world_routine_info_list_;
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int WorldAllRoutineTypeNotify::kWorldRoutineTypeListFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-WorldAllRoutineTypeNotify::WorldAllRoutineTypeNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5froutine_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.WorldAllRoutineTypeNotify)
-}
-WorldAllRoutineTypeNotify::WorldAllRoutineTypeNotify(const WorldAllRoutineTypeNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      world_routine_type_list_(from.world_routine_type_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  // @@protoc_insertion_point(copy_constructor:proto.WorldAllRoutineTypeNotify)
-}
-
-void WorldAllRoutineTypeNotify::SharedCtor() {
-  _cached_size_ = 0;
-}
-
-WorldAllRoutineTypeNotify::~WorldAllRoutineTypeNotify() {
-  // @@protoc_insertion_point(destructor:proto.WorldAllRoutineTypeNotify)
-  SharedDtor();
-}
-
-void WorldAllRoutineTypeNotify::SharedDtor() {
-}
-
-void WorldAllRoutineTypeNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* WorldAllRoutineTypeNotify::descriptor() {
-  protobuf_cmd_2fcmd_5froutine_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5froutine_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const WorldAllRoutineTypeNotify& WorldAllRoutineTypeNotify::default_instance() {
-  protobuf_cmd_2fcmd_5froutine_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-WorldAllRoutineTypeNotify* WorldAllRoutineTypeNotify::New(::google::protobuf::Arena* arena) const {
-  WorldAllRoutineTypeNotify* n = new WorldAllRoutineTypeNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void WorldAllRoutineTypeNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.WorldAllRoutineTypeNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  world_routine_type_list_.Clear();
-  _internal_metadata_.Clear();
-}
-
 bool WorldAllRoutineTypeNotify::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -1870,16 +713,18 @@ bool WorldAllRoutineTypeNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.WorldAllRoutineTypeNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.WorldAllRoutineTypeNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -1897,9 +742,9 @@ void WorldAllRoutineTypeNotify::SerializeWithCachedSizes(
       4, this->world_routine_type_list(static_cast<int>(i)), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.WorldAllRoutineTypeNotify)
 }
@@ -1919,9 +764,9 @@ void WorldAllRoutineTypeNotify::SerializeWithCachedSizes(
         4, this->world_routine_type_list(static_cast<int>(i)), deterministic, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.WorldAllRoutineTypeNotify)
   return target;
@@ -1931,10 +776,10 @@ size_t WorldAllRoutineTypeNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.WorldAllRoutineTypeNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated .proto.WorldRoutineTypeInfo world_routine_type_list = 4;
   {
@@ -1952,177 +797,6 @@ size_t WorldAllRoutineTypeNotify::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void WorldAllRoutineTypeNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.WorldAllRoutineTypeNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const WorldAllRoutineTypeNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const WorldAllRoutineTypeNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.WorldAllRoutineTypeNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.WorldAllRoutineTypeNotify)
-    MergeFrom(*source);
-  }
-}
-
-void WorldAllRoutineTypeNotify::MergeFrom(const WorldAllRoutineTypeNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.WorldAllRoutineTypeNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  world_routine_type_list_.MergeFrom(from.world_routine_type_list_);
-}
-
-void WorldAllRoutineTypeNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.WorldAllRoutineTypeNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void WorldAllRoutineTypeNotify::CopyFrom(const WorldAllRoutineTypeNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.WorldAllRoutineTypeNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool WorldAllRoutineTypeNotify::IsInitialized() const {
-  return true;
-}
-
-void WorldAllRoutineTypeNotify::Swap(WorldAllRoutineTypeNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void WorldAllRoutineTypeNotify::InternalSwap(WorldAllRoutineTypeNotify* other) {
-  using std::swap;
-  world_routine_type_list_.InternalSwap(&other->world_routine_type_list_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata WorldAllRoutineTypeNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5froutine_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5froutine_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// WorldAllRoutineTypeNotify
-
-// repeated .proto.WorldRoutineTypeInfo world_routine_type_list = 4;
-int WorldAllRoutineTypeNotify::world_routine_type_list_size() const {
-  return world_routine_type_list_.size();
-}
-void WorldAllRoutineTypeNotify::clear_world_routine_type_list() {
-  world_routine_type_list_.Clear();
-}
-const ::proto::WorldRoutineTypeInfo& WorldAllRoutineTypeNotify::world_routine_type_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.WorldAllRoutineTypeNotify.world_routine_type_list)
-  return world_routine_type_list_.Get(index);
-}
-::proto::WorldRoutineTypeInfo* WorldAllRoutineTypeNotify::mutable_world_routine_type_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.WorldAllRoutineTypeNotify.world_routine_type_list)
-  return world_routine_type_list_.Mutable(index);
-}
-::proto::WorldRoutineTypeInfo* WorldAllRoutineTypeNotify::add_world_routine_type_list() {
-  // @@protoc_insertion_point(field_add:proto.WorldAllRoutineTypeNotify.world_routine_type_list)
-  return world_routine_type_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::WorldRoutineTypeInfo >*
-WorldAllRoutineTypeNotify::mutable_world_routine_type_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.WorldAllRoutineTypeNotify.world_routine_type_list)
-  return &world_routine_type_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::WorldRoutineTypeInfo >&
-WorldAllRoutineTypeNotify::world_routine_type_list() const {
-  // @@protoc_insertion_point(field_list:proto.WorldAllRoutineTypeNotify.world_routine_type_list)
-  return world_routine_type_list_;
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int WorldRoutineTypeRefreshNotify::kWorldRoutineTypeFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-WorldRoutineTypeRefreshNotify::WorldRoutineTypeRefreshNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5froutine_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.WorldRoutineTypeRefreshNotify)
-}
-WorldRoutineTypeRefreshNotify::WorldRoutineTypeRefreshNotify(const WorldRoutineTypeRefreshNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  if (from.has_world_routine_type()) {
-    world_routine_type_ = new ::proto::WorldRoutineTypeInfo(*from.world_routine_type_);
-  } else {
-    world_routine_type_ = NULL;
-  }
-  // @@protoc_insertion_point(copy_constructor:proto.WorldRoutineTypeRefreshNotify)
-}
-
-void WorldRoutineTypeRefreshNotify::SharedCtor() {
-  world_routine_type_ = NULL;
-  _cached_size_ = 0;
-}
-
-WorldRoutineTypeRefreshNotify::~WorldRoutineTypeRefreshNotify() {
-  // @@protoc_insertion_point(destructor:proto.WorldRoutineTypeRefreshNotify)
-  SharedDtor();
-}
-
-void WorldRoutineTypeRefreshNotify::SharedDtor() {
-  if (this != internal_default_instance()) delete world_routine_type_;
-}
-
-void WorldRoutineTypeRefreshNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* WorldRoutineTypeRefreshNotify::descriptor() {
-  protobuf_cmd_2fcmd_5froutine_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5froutine_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const WorldRoutineTypeRefreshNotify& WorldRoutineTypeRefreshNotify::default_instance() {
-  protobuf_cmd_2fcmd_5froutine_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-WorldRoutineTypeRefreshNotify* WorldRoutineTypeRefreshNotify::New(::google::protobuf::Arena* arena) const {
-  WorldRoutineTypeRefreshNotify* n = new WorldRoutineTypeRefreshNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void WorldRoutineTypeRefreshNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.WorldRoutineTypeRefreshNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  if (GetArenaNoVirtual() == NULL && world_routine_type_ != NULL) {
-    delete world_routine_type_;
-  }
-  world_routine_type_ = NULL;
-  _internal_metadata_.Clear();
 }
 
 bool WorldRoutineTypeRefreshNotify::MergePartialFromCodedStream(
@@ -2153,16 +827,18 @@ bool WorldRoutineTypeRefreshNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.WorldRoutineTypeRefreshNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.WorldRoutineTypeRefreshNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -2179,9 +855,9 @@ void WorldRoutineTypeRefreshNotify::SerializeWithCachedSizes(
       15, *this->world_routine_type_, output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.WorldRoutineTypeRefreshNotify)
 }
@@ -2200,9 +876,9 @@ void WorldRoutineTypeRefreshNotify::SerializeWithCachedSizes(
         15, *this->world_routine_type_, deterministic, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.WorldRoutineTypeRefreshNotify)
   return target;
@@ -2212,10 +888,10 @@ size_t WorldRoutineTypeRefreshNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.WorldRoutineTypeRefreshNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // .proto.WorldRoutineTypeInfo world_routine_type = 15;
   if (this->has_world_routine_type()) {
@@ -2229,194 +905,6 @@ size_t WorldRoutineTypeRefreshNotify::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void WorldRoutineTypeRefreshNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.WorldRoutineTypeRefreshNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const WorldRoutineTypeRefreshNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const WorldRoutineTypeRefreshNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.WorldRoutineTypeRefreshNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.WorldRoutineTypeRefreshNotify)
-    MergeFrom(*source);
-  }
-}
-
-void WorldRoutineTypeRefreshNotify::MergeFrom(const WorldRoutineTypeRefreshNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.WorldRoutineTypeRefreshNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.has_world_routine_type()) {
-    mutable_world_routine_type()->::proto::WorldRoutineTypeInfo::MergeFrom(from.world_routine_type());
-  }
-}
-
-void WorldRoutineTypeRefreshNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.WorldRoutineTypeRefreshNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void WorldRoutineTypeRefreshNotify::CopyFrom(const WorldRoutineTypeRefreshNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.WorldRoutineTypeRefreshNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool WorldRoutineTypeRefreshNotify::IsInitialized() const {
-  return true;
-}
-
-void WorldRoutineTypeRefreshNotify::Swap(WorldRoutineTypeRefreshNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void WorldRoutineTypeRefreshNotify::InternalSwap(WorldRoutineTypeRefreshNotify* other) {
-  using std::swap;
-  swap(world_routine_type_, other->world_routine_type_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata WorldRoutineTypeRefreshNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5froutine_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5froutine_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// WorldRoutineTypeRefreshNotify
-
-// .proto.WorldRoutineTypeInfo world_routine_type = 15;
-bool WorldRoutineTypeRefreshNotify::has_world_routine_type() const {
-  return this != internal_default_instance() && world_routine_type_ != NULL;
-}
-void WorldRoutineTypeRefreshNotify::clear_world_routine_type() {
-  if (GetArenaNoVirtual() == NULL && world_routine_type_ != NULL) delete world_routine_type_;
-  world_routine_type_ = NULL;
-}
-const ::proto::WorldRoutineTypeInfo& WorldRoutineTypeRefreshNotify::world_routine_type() const {
-  const ::proto::WorldRoutineTypeInfo* p = world_routine_type_;
-  // @@protoc_insertion_point(field_get:proto.WorldRoutineTypeRefreshNotify.world_routine_type)
-  return p != NULL ? *p : *reinterpret_cast<const ::proto::WorldRoutineTypeInfo*>(
-      &::proto::_WorldRoutineTypeInfo_default_instance_);
-}
-::proto::WorldRoutineTypeInfo* WorldRoutineTypeRefreshNotify::mutable_world_routine_type() {
-  
-  if (world_routine_type_ == NULL) {
-    world_routine_type_ = new ::proto::WorldRoutineTypeInfo;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.WorldRoutineTypeRefreshNotify.world_routine_type)
-  return world_routine_type_;
-}
-::proto::WorldRoutineTypeInfo* WorldRoutineTypeRefreshNotify::release_world_routine_type() {
-  // @@protoc_insertion_point(field_release:proto.WorldRoutineTypeRefreshNotify.world_routine_type)
-  
-  ::proto::WorldRoutineTypeInfo* temp = world_routine_type_;
-  world_routine_type_ = NULL;
-  return temp;
-}
-void WorldRoutineTypeRefreshNotify::set_allocated_world_routine_type(::proto::WorldRoutineTypeInfo* world_routine_type) {
-  delete world_routine_type_;
-  world_routine_type_ = world_routine_type;
-  if (world_routine_type) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.WorldRoutineTypeRefreshNotify.world_routine_type)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int WorldRoutineChangeNotify::kRoutineInfoFieldNumber;
-const int WorldRoutineChangeNotify::kRoutineTypeFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-WorldRoutineChangeNotify::WorldRoutineChangeNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5froutine_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.WorldRoutineChangeNotify)
-}
-WorldRoutineChangeNotify::WorldRoutineChangeNotify(const WorldRoutineChangeNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  if (from.has_routine_info()) {
-    routine_info_ = new ::proto::WorldRoutineInfo(*from.routine_info_);
-  } else {
-    routine_info_ = NULL;
-  }
-  routine_type_ = from.routine_type_;
-  // @@protoc_insertion_point(copy_constructor:proto.WorldRoutineChangeNotify)
-}
-
-void WorldRoutineChangeNotify::SharedCtor() {
-  ::memset(&routine_info_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&routine_type_) -
-      reinterpret_cast<char*>(&routine_info_)) + sizeof(routine_type_));
-  _cached_size_ = 0;
-}
-
-WorldRoutineChangeNotify::~WorldRoutineChangeNotify() {
-  // @@protoc_insertion_point(destructor:proto.WorldRoutineChangeNotify)
-  SharedDtor();
-}
-
-void WorldRoutineChangeNotify::SharedDtor() {
-  if (this != internal_default_instance()) delete routine_info_;
-}
-
-void WorldRoutineChangeNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* WorldRoutineChangeNotify::descriptor() {
-  protobuf_cmd_2fcmd_5froutine_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5froutine_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const WorldRoutineChangeNotify& WorldRoutineChangeNotify::default_instance() {
-  protobuf_cmd_2fcmd_5froutine_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-WorldRoutineChangeNotify* WorldRoutineChangeNotify::New(::google::protobuf::Arena* arena) const {
-  WorldRoutineChangeNotify* n = new WorldRoutineChangeNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void WorldRoutineChangeNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.WorldRoutineChangeNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  if (GetArenaNoVirtual() == NULL && routine_info_ != NULL) {
-    delete routine_info_;
-  }
-  routine_info_ = NULL;
-  routine_type_ = 0u;
-  _internal_metadata_.Clear();
 }
 
 bool WorldRoutineChangeNotify::MergePartialFromCodedStream(
@@ -2461,16 +949,18 @@ bool WorldRoutineChangeNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.WorldRoutineChangeNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.WorldRoutineChangeNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -2492,9 +982,9 @@ void WorldRoutineChangeNotify::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(11, this->routine_type(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.WorldRoutineChangeNotify)
 }
@@ -2518,9 +1008,9 @@ void WorldRoutineChangeNotify::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(11, this->routine_type(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.WorldRoutineChangeNotify)
   return target;
@@ -2530,10 +1020,10 @@ size_t WorldRoutineChangeNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.WorldRoutineChangeNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // .proto.WorldRoutineInfo routine_info = 2;
   if (this->has_routine_info()) {
@@ -2554,199 +1044,6 @@ size_t WorldRoutineChangeNotify::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void WorldRoutineChangeNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.WorldRoutineChangeNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const WorldRoutineChangeNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const WorldRoutineChangeNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.WorldRoutineChangeNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.WorldRoutineChangeNotify)
-    MergeFrom(*source);
-  }
-}
-
-void WorldRoutineChangeNotify::MergeFrom(const WorldRoutineChangeNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.WorldRoutineChangeNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.has_routine_info()) {
-    mutable_routine_info()->::proto::WorldRoutineInfo::MergeFrom(from.routine_info());
-  }
-  if (from.routine_type() != 0) {
-    set_routine_type(from.routine_type());
-  }
-}
-
-void WorldRoutineChangeNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.WorldRoutineChangeNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void WorldRoutineChangeNotify::CopyFrom(const WorldRoutineChangeNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.WorldRoutineChangeNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool WorldRoutineChangeNotify::IsInitialized() const {
-  return true;
-}
-
-void WorldRoutineChangeNotify::Swap(WorldRoutineChangeNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void WorldRoutineChangeNotify::InternalSwap(WorldRoutineChangeNotify* other) {
-  using std::swap;
-  swap(routine_info_, other->routine_info_);
-  swap(routine_type_, other->routine_type_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata WorldRoutineChangeNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5froutine_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5froutine_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// WorldRoutineChangeNotify
-
-// .proto.WorldRoutineInfo routine_info = 2;
-bool WorldRoutineChangeNotify::has_routine_info() const {
-  return this != internal_default_instance() && routine_info_ != NULL;
-}
-void WorldRoutineChangeNotify::clear_routine_info() {
-  if (GetArenaNoVirtual() == NULL && routine_info_ != NULL) delete routine_info_;
-  routine_info_ = NULL;
-}
-const ::proto::WorldRoutineInfo& WorldRoutineChangeNotify::routine_info() const {
-  const ::proto::WorldRoutineInfo* p = routine_info_;
-  // @@protoc_insertion_point(field_get:proto.WorldRoutineChangeNotify.routine_info)
-  return p != NULL ? *p : *reinterpret_cast<const ::proto::WorldRoutineInfo*>(
-      &::proto::_WorldRoutineInfo_default_instance_);
-}
-::proto::WorldRoutineInfo* WorldRoutineChangeNotify::mutable_routine_info() {
-  
-  if (routine_info_ == NULL) {
-    routine_info_ = new ::proto::WorldRoutineInfo;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.WorldRoutineChangeNotify.routine_info)
-  return routine_info_;
-}
-::proto::WorldRoutineInfo* WorldRoutineChangeNotify::release_routine_info() {
-  // @@protoc_insertion_point(field_release:proto.WorldRoutineChangeNotify.routine_info)
-  
-  ::proto::WorldRoutineInfo* temp = routine_info_;
-  routine_info_ = NULL;
-  return temp;
-}
-void WorldRoutineChangeNotify::set_allocated_routine_info(::proto::WorldRoutineInfo* routine_info) {
-  delete routine_info_;
-  routine_info_ = routine_info;
-  if (routine_info) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.WorldRoutineChangeNotify.routine_info)
-}
-
-// uint32 routine_type = 11;
-void WorldRoutineChangeNotify::clear_routine_type() {
-  routine_type_ = 0u;
-}
-::google::protobuf::uint32 WorldRoutineChangeNotify::routine_type() const {
-  // @@protoc_insertion_point(field_get:proto.WorldRoutineChangeNotify.routine_type)
-  return routine_type_;
-}
-void WorldRoutineChangeNotify::set_routine_type(::google::protobuf::uint32 value) {
-  
-  routine_type_ = value;
-  // @@protoc_insertion_point(field_set:proto.WorldRoutineChangeNotify.routine_type)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int WorldRoutineTypeCloseNotify::kRoutineTypeFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-WorldRoutineTypeCloseNotify::WorldRoutineTypeCloseNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5froutine_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.WorldRoutineTypeCloseNotify)
-}
-WorldRoutineTypeCloseNotify::WorldRoutineTypeCloseNotify(const WorldRoutineTypeCloseNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  routine_type_ = from.routine_type_;
-  // @@protoc_insertion_point(copy_constructor:proto.WorldRoutineTypeCloseNotify)
-}
-
-void WorldRoutineTypeCloseNotify::SharedCtor() {
-  routine_type_ = 0u;
-  _cached_size_ = 0;
-}
-
-WorldRoutineTypeCloseNotify::~WorldRoutineTypeCloseNotify() {
-  // @@protoc_insertion_point(destructor:proto.WorldRoutineTypeCloseNotify)
-  SharedDtor();
-}
-
-void WorldRoutineTypeCloseNotify::SharedDtor() {
-}
-
-void WorldRoutineTypeCloseNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* WorldRoutineTypeCloseNotify::descriptor() {
-  protobuf_cmd_2fcmd_5froutine_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5froutine_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const WorldRoutineTypeCloseNotify& WorldRoutineTypeCloseNotify::default_instance() {
-  protobuf_cmd_2fcmd_5froutine_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-WorldRoutineTypeCloseNotify* WorldRoutineTypeCloseNotify::New(::google::protobuf::Arena* arena) const {
-  WorldRoutineTypeCloseNotify* n = new WorldRoutineTypeCloseNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void WorldRoutineTypeCloseNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.WorldRoutineTypeCloseNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  routine_type_ = 0u;
-  _internal_metadata_.Clear();
 }
 
 bool WorldRoutineTypeCloseNotify::MergePartialFromCodedStream(
@@ -2779,16 +1076,18 @@ bool WorldRoutineTypeCloseNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.WorldRoutineTypeCloseNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.WorldRoutineTypeCloseNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -2804,9 +1103,9 @@ void WorldRoutineTypeCloseNotify::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(7, this->routine_type(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.WorldRoutineTypeCloseNotify)
 }
@@ -2823,9 +1122,9 @@ void WorldRoutineTypeCloseNotify::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(7, this->routine_type(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.WorldRoutineTypeCloseNotify)
   return target;
@@ -2835,10 +1134,10 @@ size_t WorldRoutineTypeCloseNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.WorldRoutineTypeCloseNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 routine_type = 7;
   if (this->routine_type() != 0) {
@@ -2853,86 +1152,6 @@ size_t WorldRoutineTypeCloseNotify::ByteSizeLong() const {
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
 }
-
-void WorldRoutineTypeCloseNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.WorldRoutineTypeCloseNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const WorldRoutineTypeCloseNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const WorldRoutineTypeCloseNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.WorldRoutineTypeCloseNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.WorldRoutineTypeCloseNotify)
-    MergeFrom(*source);
-  }
-}
-
-void WorldRoutineTypeCloseNotify::MergeFrom(const WorldRoutineTypeCloseNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.WorldRoutineTypeCloseNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.routine_type() != 0) {
-    set_routine_type(from.routine_type());
-  }
-}
-
-void WorldRoutineTypeCloseNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.WorldRoutineTypeCloseNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void WorldRoutineTypeCloseNotify::CopyFrom(const WorldRoutineTypeCloseNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.WorldRoutineTypeCloseNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool WorldRoutineTypeCloseNotify::IsInitialized() const {
-  return true;
-}
-
-void WorldRoutineTypeCloseNotify::Swap(WorldRoutineTypeCloseNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void WorldRoutineTypeCloseNotify::InternalSwap(WorldRoutineTypeCloseNotify* other) {
-  using std::swap;
-  swap(routine_type_, other->routine_type_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata WorldRoutineTypeCloseNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5froutine_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5froutine_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// WorldRoutineTypeCloseNotify
-
-// uint32 routine_type = 7;
-void WorldRoutineTypeCloseNotify::clear_routine_type() {
-  routine_type_ = 0u;
-}
-::google::protobuf::uint32 WorldRoutineTypeCloseNotify::routine_type() const {
-  // @@protoc_insertion_point(field_get:proto.WorldRoutineTypeCloseNotify.routine_type)
-  return routine_type_;
-}
-void WorldRoutineTypeCloseNotify::set_routine_type(::google::protobuf::uint32 value) {
-  
-  routine_type_ = value;
-  // @@protoc_insertion_point(field_set:proto.WorldRoutineTypeCloseNotify.routine_type)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
 
 // @@protoc_insertion_point(namespace_scope)
 

@@ -171,7 +171,6 @@ class LIBPROTOBUF_EXPORT Empty : public ::google::protobuf::Message /* @@protoc_
   #pragma GCC diagnostic push
   #pragma GCC diagnostic ignored "-Wstrict-aliasing"
 #endif  // __GNUC__
-// Empty
 
 #ifdef __GNUC__
   #pragma GCC diagnostic pop

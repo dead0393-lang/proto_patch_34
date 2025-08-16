@@ -185,35 +185,6 @@ class LIBPROTOBUF_EXPORT Timestamp : public ::google::protobuf::Message /* @@pro
   #pragma GCC diagnostic push
   #pragma GCC diagnostic ignored "-Wstrict-aliasing"
 #endif  // __GNUC__
-// Timestamp
-
-// int64 seconds = 1;
-inline void Timestamp::clear_seconds() {
-  seconds_ = GOOGLE_LONGLONG(0);
-}
-inline ::google::protobuf::int64 Timestamp::seconds() const {
-  // @@protoc_insertion_point(field_get:google.protobuf.Timestamp.seconds)
-  return seconds_;
-}
-inline void Timestamp::set_seconds(::google::protobuf::int64 value) {
-  
-  seconds_ = value;
-  // @@protoc_insertion_point(field_set:google.protobuf.Timestamp.seconds)
-}
-
-// int32 nanos = 2;
-inline void Timestamp::clear_nanos() {
-  nanos_ = 0;
-}
-inline ::google::protobuf::int32 Timestamp::nanos() const {
-  // @@protoc_insertion_point(field_get:google.protobuf.Timestamp.nanos)
-  return nanos_;
-}
-inline void Timestamp::set_nanos(::google::protobuf::int32 value) {
-  
-  nanos_ = value;
-  // @@protoc_insertion_point(field_set:google.protobuf.Timestamp.nanos)
-}
 
 #ifdef __GNUC__
   #pragma GCC diagnostic pop

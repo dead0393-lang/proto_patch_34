@@ -29,237 +29,6 @@ public:
      _instance;
 } _MonsterSummonTagNotify_default_instance_;
 
-namespace protobuf_cmd_2fcmd_5fmonster_2eproto {
-
-
-namespace {
-
-::google::protobuf::Metadata file_level_metadata[2];
-const ::google::protobuf::EnumDescriptor* file_level_enum_descriptors[1];
-
-}  // namespace
-
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::ParseTableField
-    const TableStruct::entries[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  {0, 0, 0, ::google::protobuf::internal::kInvalidMask, 0, 0},
-};
-
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::AuxillaryParseTableField
-    const TableStruct::aux[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  ::google::protobuf::internal::AuxillaryParseTableField(),
-};
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::ParseTable const
-    TableStruct::schema[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-};
-
-const ::google::protobuf::uint32 TableStruct::offsets[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(MonsterSummonTagNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(MonsterSummonTagNotify, summon_tag_map_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(MonsterSummonTagNotify, monster_entity_id_),
-};
-static const ::google::protobuf::internal::MigrationSchema schemas[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  { 0, -1, sizeof(MonsterSummonTagNotify)},
-};
-
-static ::google::protobuf::Message const * const file_default_instances[] = {
-  reinterpret_cast<const ::google::protobuf::Message*>(&_MonsterSummonTagNotify_SummonTagMapEntry_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_MonsterSummonTagNotify_default_instance_),
-};
-
-namespace {
-
-void protobuf_AssignDescriptors() {
-  AddDescriptors();
-  ::google::protobuf::MessageFactory* factory = NULL;
-  AssignDescriptors(
-      "cmd/cmd_monster.proto", schemas, file_default_instances, TableStruct::offsets, factory,
-      file_level_metadata, file_level_enum_descriptors, NULL);
-file_level_metadata[0].reflection = MonsterSummonTagNotify::MonsterSummonTagNotify_SummonTagMapEntry::CreateReflection(file_level_metadata[0].descriptor, _MonsterSummonTagNotify_SummonTagMapEntry_default_instance_._instance.get_mutable());
-}
-
-void protobuf_AssignDescriptorsOnce() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &protobuf_AssignDescriptors);
-}
-
-void protobuf_RegisterTypes(const ::std::string&) GOOGLE_ATTRIBUTE_COLD;
-void protobuf_RegisterTypes(const ::std::string&) {
-  protobuf_AssignDescriptorsOnce();
-  ::google::protobuf::internal::RegisterAllTypes(file_level_metadata, 2);
-}
-
-}  // namespace
-void TableStruct::InitDefaultsImpl() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
-
-  ::google::protobuf::internal::InitProtobufDefaults();
-  _MonsterSummonTagNotify_SummonTagMapEntry_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_MonsterSummonTagNotify_SummonTagMapEntry_default_instance_);_MonsterSummonTagNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_MonsterSummonTagNotify_default_instance_);_MonsterSummonTagNotify_SummonTagMapEntry_default_instance_._instance.get_mutable()->set_default_instance(_MonsterSummonTagNotify_SummonTagMapEntry_default_instance_._instance.get_mutable());
-  _MonsterSummonTagNotify_SummonTagMapEntry_default_instance_._instance.get_mutable()->InitAsDefaultInstance();
-}
-
-void InitDefaults() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &TableStruct::InitDefaultsImpl);
-}
-namespace {
-void AddDescriptorsImpl() {
-  InitDefaults();
-  static const char descriptor[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-      "\n\025cmd/cmd_monster.proto\022\005proto\"\200\002\n\026Monst"
-      "erSummonTagNotify\022G\n\016summon_tag_map\030\r \003("
-      "\0132/.proto.MonsterSummonTagNotify.SummonT"
-      "agMapEntry\022\031\n\021monster_entity_id\030\003 \001(\r\0323\n"
-      "\021SummonTagMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value"
-      "\030\002 \001(\r:\0028\001\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020"
-      "\231\n\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIA"
-      "BLE\020\001\032\002\020\001B\nZ\010./;protob\006proto3"
-  };
-  ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-      descriptor, 309);
-  ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
-    "cmd/cmd_monster.proto", &protobuf_RegisterTypes);
-}
-} // anonymous namespace
-
-void AddDescriptors() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &AddDescriptorsImpl);
-}
-// Force AddDescriptors() to be called at dynamic initialization time.
-struct StaticDescriptorInitializer {
-  StaticDescriptorInitializer() {
-    AddDescriptors();
-  }
-} static_descriptor_initializer;
-
-}  // namespace protobuf_cmd_2fcmd_5fmonster_2eproto
-
-const ::google::protobuf::EnumDescriptor* MonsterSummonTagNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fmonster_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fmonster_2eproto::file_level_enum_descriptors[0];
-}
-bool MonsterSummonTagNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 1305:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const MonsterSummonTagNotify_CmdId MonsterSummonTagNotify::NONE;
-const MonsterSummonTagNotify_CmdId MonsterSummonTagNotify::CMD_ID;
-const MonsterSummonTagNotify_CmdId MonsterSummonTagNotify::ENET_CHANNEL_ID;
-const MonsterSummonTagNotify_CmdId MonsterSummonTagNotify::ENET_IS_RELIABLE;
-const MonsterSummonTagNotify_CmdId MonsterSummonTagNotify::CmdId_MIN;
-const MonsterSummonTagNotify_CmdId MonsterSummonTagNotify::CmdId_MAX;
-const int MonsterSummonTagNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-// ===================================================================
-
-MonsterSummonTagNotify::MonsterSummonTagNotify_SummonTagMapEntry::MonsterSummonTagNotify_SummonTagMapEntry() {}
-MonsterSummonTagNotify::MonsterSummonTagNotify_SummonTagMapEntry::MonsterSummonTagNotify_SummonTagMapEntry(::google::protobuf::Arena* arena) : SuperType(arena) {}
-::google::protobuf::Metadata MonsterSummonTagNotify::MonsterSummonTagNotify_SummonTagMapEntry::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fmonster_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fmonster_2eproto::file_level_metadata[0];
-}
-void MonsterSummonTagNotify::MonsterSummonTagNotify_SummonTagMapEntry::MergeFrom(
-    const ::google::protobuf::Message& other) {
-  ::google::protobuf::Message::MergeFrom(other);
-}
-void MonsterSummonTagNotify::MonsterSummonTagNotify_SummonTagMapEntry::MergeFrom(const MonsterSummonTagNotify_SummonTagMapEntry& other) {
-  MergeFromInternal(other);
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int MonsterSummonTagNotify::kSummonTagMapFieldNumber;
-const int MonsterSummonTagNotify::kMonsterEntityIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-MonsterSummonTagNotify::MonsterSummonTagNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fmonster_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.MonsterSummonTagNotify)
-}
-MonsterSummonTagNotify::MonsterSummonTagNotify(const MonsterSummonTagNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  summon_tag_map_.MergeFrom(from.summon_tag_map_);
-  monster_entity_id_ = from.monster_entity_id_;
-  // @@protoc_insertion_point(copy_constructor:proto.MonsterSummonTagNotify)
-}
-
-void MonsterSummonTagNotify::SharedCtor() {
-  monster_entity_id_ = 0u;
-  _cached_size_ = 0;
-}
-
-MonsterSummonTagNotify::~MonsterSummonTagNotify() {
-  // @@protoc_insertion_point(destructor:proto.MonsterSummonTagNotify)
-  SharedDtor();
-}
-
-void MonsterSummonTagNotify::SharedDtor() {
-}
-
-void MonsterSummonTagNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* MonsterSummonTagNotify::descriptor() {
-  protobuf_cmd_2fcmd_5fmonster_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fmonster_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const MonsterSummonTagNotify& MonsterSummonTagNotify::default_instance() {
-  protobuf_cmd_2fcmd_5fmonster_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-MonsterSummonTagNotify* MonsterSummonTagNotify::New(::google::protobuf::Arena* arena) const {
-  MonsterSummonTagNotify* n = new MonsterSummonTagNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void MonsterSummonTagNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.MonsterSummonTagNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  summon_tag_map_.Clear();
-  monster_entity_id_ = 0u;
-  _internal_metadata_.Clear();
-}
-
 bool MonsterSummonTagNotify::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -309,16 +78,18 @@ bool MonsterSummonTagNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.MonsterSummonTagNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.MonsterSummonTagNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -373,9 +144,9 @@ void MonsterSummonTagNotify::SerializeWithCachedSizes(
     }
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.MonsterSummonTagNotify)
 }
@@ -435,9 +206,9 @@ void MonsterSummonTagNotify::SerializeWithCachedSizes(
     }
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.MonsterSummonTagNotify)
   return target;
@@ -447,10 +218,10 @@ size_t MonsterSummonTagNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.MonsterSummonTagNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // map<uint32, uint32> summon_tag_map = 13;
   total_size += 1 *
@@ -479,106 +250,6 @@ size_t MonsterSummonTagNotify::ByteSizeLong() const {
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
 }
-
-void MonsterSummonTagNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.MonsterSummonTagNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const MonsterSummonTagNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const MonsterSummonTagNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.MonsterSummonTagNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.MonsterSummonTagNotify)
-    MergeFrom(*source);
-  }
-}
-
-void MonsterSummonTagNotify::MergeFrom(const MonsterSummonTagNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.MonsterSummonTagNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  summon_tag_map_.MergeFrom(from.summon_tag_map_);
-  if (from.monster_entity_id() != 0) {
-    set_monster_entity_id(from.monster_entity_id());
-  }
-}
-
-void MonsterSummonTagNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.MonsterSummonTagNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void MonsterSummonTagNotify::CopyFrom(const MonsterSummonTagNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.MonsterSummonTagNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool MonsterSummonTagNotify::IsInitialized() const {
-  return true;
-}
-
-void MonsterSummonTagNotify::Swap(MonsterSummonTagNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void MonsterSummonTagNotify::InternalSwap(MonsterSummonTagNotify* other) {
-  using std::swap;
-  summon_tag_map_.Swap(&other->summon_tag_map_);
-  swap(monster_entity_id_, other->monster_entity_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata MonsterSummonTagNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fmonster_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fmonster_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// MonsterSummonTagNotify
-
-// map<uint32, uint32> summon_tag_map = 13;
-int MonsterSummonTagNotify::summon_tag_map_size() const {
-  return summon_tag_map_.size();
-}
-void MonsterSummonTagNotify::clear_summon_tag_map() {
-  summon_tag_map_.Clear();
-}
- const ::google::protobuf::Map< ::google::protobuf::uint32, ::google::protobuf::uint32 >&
-MonsterSummonTagNotify::summon_tag_map() const {
-  // @@protoc_insertion_point(field_map:proto.MonsterSummonTagNotify.summon_tag_map)
-  return summon_tag_map_.GetMap();
-}
- ::google::protobuf::Map< ::google::protobuf::uint32, ::google::protobuf::uint32 >*
-MonsterSummonTagNotify::mutable_summon_tag_map() {
-  // @@protoc_insertion_point(field_mutable_map:proto.MonsterSummonTagNotify.summon_tag_map)
-  return summon_tag_map_.MutableMap();
-}
-
-// uint32 monster_entity_id = 3;
-void MonsterSummonTagNotify::clear_monster_entity_id() {
-  monster_entity_id_ = 0u;
-}
-::google::protobuf::uint32 MonsterSummonTagNotify::monster_entity_id() const {
-  // @@protoc_insertion_point(field_get:proto.MonsterSummonTagNotify.monster_entity_id)
-  return monster_entity_id_;
-}
-void MonsterSummonTagNotify::set_monster_entity_id(::google::protobuf::uint32 value) {
-  
-  monster_entity_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.MonsterSummonTagNotify.monster_entity_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
 
 // @@protoc_insertion_point(namespace_scope)
 

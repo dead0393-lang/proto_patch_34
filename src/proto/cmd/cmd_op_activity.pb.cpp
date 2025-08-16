@@ -50,401 +50,6 @@ public:
      _instance;
 } _OpActivityUpdateNotify_default_instance_;
 
-namespace protobuf_cmd_2fcmd_5fop_5factivity_2eproto {
-
-
-namespace {
-
-::google::protobuf::Metadata file_level_metadata[6];
-const ::google::protobuf::EnumDescriptor* file_level_enum_descriptors[4];
-
-}  // namespace
-
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::ParseTableField
-    const TableStruct::entries[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  {0, 0, 0, ::google::protobuf::internal::kInvalidMask, 0, 0},
-};
-
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::AuxillaryParseTableField
-    const TableStruct::aux[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  ::google::protobuf::internal::AuxillaryParseTableField(),
-};
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::ParseTable const
-    TableStruct::schema[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-};
-
-const ::google::protobuf::uint32 TableStruct::offsets[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(OpActivityInfo, _internal_metadata_),
-  ~0u,  // no _extensions_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(OpActivityInfo, _oneof_case_[0]),
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(OpActivityInfo, activity_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(OpActivityInfo, end_time_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(OpActivityInfo, begin_time_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(OpActivityInfo, is_has_change_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(OpActivityInfo, schedule_id_),
-  offsetof(OpActivityInfoDefaultTypeInternal, bonus_info_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(OpActivityInfo, detail_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(BonusOpActivityInfo, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(BonusOpActivityInfo, left_bonus_count_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GetOpActivityInfoReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GetOpActivityInfoRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GetOpActivityInfoRsp, retcode_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GetOpActivityInfoRsp, op_activity_info_list_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(OpActivityDataNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(OpActivityDataNotify, op_activity_info_list_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(OpActivityUpdateNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(OpActivityUpdateNotify, op_activity_info_),
-};
-static const ::google::protobuf::internal::MigrationSchema schemas[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  { 0, -1, sizeof(OpActivityInfo)},
-  { 12, -1, sizeof(BonusOpActivityInfo)},
-  { 18, -1, sizeof(GetOpActivityInfoReq)},
-  { 23, -1, sizeof(GetOpActivityInfoRsp)},
-  { 30, -1, sizeof(OpActivityDataNotify)},
-  { 36, -1, sizeof(OpActivityUpdateNotify)},
-};
-
-static ::google::protobuf::Message const * const file_default_instances[] = {
-  reinterpret_cast<const ::google::protobuf::Message*>(&_OpActivityInfo_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_BonusOpActivityInfo_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_GetOpActivityInfoReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_GetOpActivityInfoRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_OpActivityDataNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_OpActivityUpdateNotify_default_instance_),
-};
-
-namespace {
-
-void protobuf_AssignDescriptors() {
-  AddDescriptors();
-  ::google::protobuf::MessageFactory* factory = NULL;
-  AssignDescriptors(
-      "cmd/cmd_op_activity.proto", schemas, file_default_instances, TableStruct::offsets, factory,
-      file_level_metadata, file_level_enum_descriptors, NULL);
-}
-
-void protobuf_AssignDescriptorsOnce() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &protobuf_AssignDescriptors);
-}
-
-void protobuf_RegisterTypes(const ::std::string&) GOOGLE_ATTRIBUTE_COLD;
-void protobuf_RegisterTypes(const ::std::string&) {
-  protobuf_AssignDescriptorsOnce();
-  ::google::protobuf::internal::RegisterAllTypes(file_level_metadata, 6);
-}
-
-}  // namespace
-void TableStruct::InitDefaultsImpl() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
-
-  ::google::protobuf::internal::InitProtobufDefaults();
-  _OpActivityInfo_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_OpActivityInfo_default_instance_);_BonusOpActivityInfo_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_BonusOpActivityInfo_default_instance_);_GetOpActivityInfoReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_GetOpActivityInfoReq_default_instance_);_GetOpActivityInfoRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_GetOpActivityInfoRsp_default_instance_);_OpActivityDataNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_OpActivityDataNotify_default_instance_);_OpActivityUpdateNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_OpActivityUpdateNotify_default_instance_);_OpActivityInfo_default_instance_.bonus_info_ = const_cast< ::proto::BonusOpActivityInfo*>(
-      ::proto::BonusOpActivityInfo::internal_default_instance());
-  _OpActivityUpdateNotify_default_instance_._instance.get_mutable()->op_activity_info_ = const_cast< ::proto::OpActivityInfo*>(
-      ::proto::OpActivityInfo::internal_default_instance());
-}
-
-void InitDefaults() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &TableStruct::InitDefaultsImpl);
-}
-namespace {
-void AddDescriptorsImpl() {
-  InitDefaults();
-  static const char descriptor[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-      "\n\031cmd/cmd_op_activity.proto\022\005proto\"\263\001\n\016O"
-      "pActivityInfo\022\023\n\013activity_id\030\017 \001(\r\022\020\n\010en"
-      "d_time\030\n \001(\r\022\022\n\nbegin_time\030\010 \001(\r\022\025\n\ris_h"
-      "as_change\030\003 \001(\010\022\023\n\013schedule_id\030\001 \001(\r\0220\n\n"
-      "bonus_info\030\013 \001(\0132\032.proto.BonusOpActivity"
-      "InfoH\000B\010\n\006detail\"/\n\023BonusOpActivityInfo\022"
-      "\030\n\020left_bonus_count\030\r \001(\r\"z\n\024GetOpActivi"
-      "tyInfoReq\"b\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\361"
-      "\'\022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIAB"
-      "LE\020\001\022\023\n\017IS_ALLOW_CLIENT\020\001\032\002\020\001\"\254\001\n\024GetOpA"
-      "ctivityInfoRsp\022\017\n\007retcode\030\016 \001(\005\0224\n\025op_ac"
-      "tivity_info_list\030\013 \003(\0132\025.proto.OpActivit"
-      "yInfo\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\243(\022\023\n"
-      "\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001"
-      "\032\002\020\001\"\233\001\n\024OpActivityDataNotify\0224\n\025op_acti"
-      "vity_info_list\030\r \003(\0132\025.proto.OpActivityI"
-      "nfo\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\303(\022\023\n\017E"
-      "NET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002"
-      "\020\001\"\230\001\n\026OpActivityUpdateNotify\022/\n\020op_acti"
-      "vity_info\030\017 \001(\0132\025.proto.OpActivityInfo\"M"
-      "\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\316(\022\023\n\017ENET_C"
-      "HANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001B\nZ"
-      "\010./;protob\006proto3"
-  };
-  ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-      descriptor, 897);
-  ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
-    "cmd/cmd_op_activity.proto", &protobuf_RegisterTypes);
-}
-} // anonymous namespace
-
-void AddDescriptors() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &AddDescriptorsImpl);
-}
-// Force AddDescriptors() to be called at dynamic initialization time.
-struct StaticDescriptorInitializer {
-  StaticDescriptorInitializer() {
-    AddDescriptors();
-  }
-} static_descriptor_initializer;
-
-}  // namespace protobuf_cmd_2fcmd_5fop_5factivity_2eproto
-
-const ::google::protobuf::EnumDescriptor* GetOpActivityInfoReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fop_5factivity_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fop_5factivity_2eproto::file_level_enum_descriptors[0];
-}
-bool GetOpActivityInfoReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 5105:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const GetOpActivityInfoReq_CmdId GetOpActivityInfoReq::NONE;
-const GetOpActivityInfoReq_CmdId GetOpActivityInfoReq::CMD_ID;
-const GetOpActivityInfoReq_CmdId GetOpActivityInfoReq::ENET_CHANNEL_ID;
-const GetOpActivityInfoReq_CmdId GetOpActivityInfoReq::ENET_IS_RELIABLE;
-const GetOpActivityInfoReq_CmdId GetOpActivityInfoReq::IS_ALLOW_CLIENT;
-const GetOpActivityInfoReq_CmdId GetOpActivityInfoReq::CmdId_MIN;
-const GetOpActivityInfoReq_CmdId GetOpActivityInfoReq::CmdId_MAX;
-const int GetOpActivityInfoReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* GetOpActivityInfoRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fop_5factivity_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fop_5factivity_2eproto::file_level_enum_descriptors[1];
-}
-bool GetOpActivityInfoRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 5155:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const GetOpActivityInfoRsp_CmdId GetOpActivityInfoRsp::NONE;
-const GetOpActivityInfoRsp_CmdId GetOpActivityInfoRsp::CMD_ID;
-const GetOpActivityInfoRsp_CmdId GetOpActivityInfoRsp::ENET_CHANNEL_ID;
-const GetOpActivityInfoRsp_CmdId GetOpActivityInfoRsp::ENET_IS_RELIABLE;
-const GetOpActivityInfoRsp_CmdId GetOpActivityInfoRsp::CmdId_MIN;
-const GetOpActivityInfoRsp_CmdId GetOpActivityInfoRsp::CmdId_MAX;
-const int GetOpActivityInfoRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* OpActivityDataNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fop_5factivity_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fop_5factivity_2eproto::file_level_enum_descriptors[2];
-}
-bool OpActivityDataNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 5187:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const OpActivityDataNotify_CmdId OpActivityDataNotify::NONE;
-const OpActivityDataNotify_CmdId OpActivityDataNotify::CMD_ID;
-const OpActivityDataNotify_CmdId OpActivityDataNotify::ENET_CHANNEL_ID;
-const OpActivityDataNotify_CmdId OpActivityDataNotify::ENET_IS_RELIABLE;
-const OpActivityDataNotify_CmdId OpActivityDataNotify::CmdId_MIN;
-const OpActivityDataNotify_CmdId OpActivityDataNotify::CmdId_MAX;
-const int OpActivityDataNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* OpActivityUpdateNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fop_5factivity_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fop_5factivity_2eproto::file_level_enum_descriptors[3];
-}
-bool OpActivityUpdateNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 5198:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const OpActivityUpdateNotify_CmdId OpActivityUpdateNotify::NONE;
-const OpActivityUpdateNotify_CmdId OpActivityUpdateNotify::CMD_ID;
-const OpActivityUpdateNotify_CmdId OpActivityUpdateNotify::ENET_CHANNEL_ID;
-const OpActivityUpdateNotify_CmdId OpActivityUpdateNotify::ENET_IS_RELIABLE;
-const OpActivityUpdateNotify_CmdId OpActivityUpdateNotify::CmdId_MIN;
-const OpActivityUpdateNotify_CmdId OpActivityUpdateNotify::CmdId_MAX;
-const int OpActivityUpdateNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int OpActivityInfo::kActivityIdFieldNumber;
-const int OpActivityInfo::kEndTimeFieldNumber;
-const int OpActivityInfo::kBeginTimeFieldNumber;
-const int OpActivityInfo::kIsHasChangeFieldNumber;
-const int OpActivityInfo::kScheduleIdFieldNumber;
-const int OpActivityInfo::kBonusInfoFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-OpActivityInfo::OpActivityInfo()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fop_5factivity_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.OpActivityInfo)
-}
-OpActivityInfo::OpActivityInfo(const OpActivityInfo& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&schedule_id_, &from.schedule_id_,
-    static_cast<size_t>(reinterpret_cast<char*>(&end_time_) -
-    reinterpret_cast<char*>(&schedule_id_)) + sizeof(end_time_));
-  clear_has_detail();
-  switch (from.detail_case()) {
-    case kBonusInfo: {
-      mutable_bonus_info()->::proto::BonusOpActivityInfo::MergeFrom(from.bonus_info());
-      break;
-    }
-    case DETAIL_NOT_SET: {
-      break;
-    }
-  }
-  // @@protoc_insertion_point(copy_constructor:proto.OpActivityInfo)
-}
-
-void OpActivityInfo::SharedCtor() {
-  ::memset(&schedule_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&end_time_) -
-      reinterpret_cast<char*>(&schedule_id_)) + sizeof(end_time_));
-  clear_has_detail();
-  _cached_size_ = 0;
-}
-
-OpActivityInfo::~OpActivityInfo() {
-  // @@protoc_insertion_point(destructor:proto.OpActivityInfo)
-  SharedDtor();
-}
-
-void OpActivityInfo::SharedDtor() {
-  if (has_detail()) {
-    clear_detail();
-  }
-}
-
-void OpActivityInfo::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* OpActivityInfo::descriptor() {
-  protobuf_cmd_2fcmd_5fop_5factivity_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fop_5factivity_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const OpActivityInfo& OpActivityInfo::default_instance() {
-  protobuf_cmd_2fcmd_5fop_5factivity_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-OpActivityInfo* OpActivityInfo::New(::google::protobuf::Arena* arena) const {
-  OpActivityInfo* n = new OpActivityInfo;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void OpActivityInfo::clear_detail() {
-// @@protoc_insertion_point(one_of_clear_start:proto.OpActivityInfo)
-  switch (detail_case()) {
-    case kBonusInfo: {
-      delete detail_.bonus_info_;
-      break;
-    }
-    case DETAIL_NOT_SET: {
-      break;
-    }
-  }
-  _oneof_case_[0] = DETAIL_NOT_SET;
-}
-
-
-void OpActivityInfo::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.OpActivityInfo)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&schedule_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&end_time_) -
-      reinterpret_cast<char*>(&schedule_id_)) + sizeof(end_time_));
-  clear_detail();
-  _internal_metadata_.Clear();
-}
-
 bool OpActivityInfo::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -543,16 +148,18 @@ bool OpActivityInfo::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.OpActivityInfo)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.OpActivityInfo)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -594,9 +201,9 @@ void OpActivityInfo::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(15, this->activity_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.OpActivityInfo)
 }
@@ -640,9 +247,9 @@ void OpActivityInfo::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(15, this->activity_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.OpActivityInfo)
   return target;
@@ -652,10 +259,10 @@ size_t OpActivityInfo::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.OpActivityInfo)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 schedule_id = 1;
   if (this->schedule_id() != 0) {
@@ -709,295 +316,6 @@ size_t OpActivityInfo::ByteSizeLong() const {
   return total_size;
 }
 
-void OpActivityInfo::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.OpActivityInfo)
-  GOOGLE_DCHECK_NE(&from, this);
-  const OpActivityInfo* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const OpActivityInfo>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.OpActivityInfo)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.OpActivityInfo)
-    MergeFrom(*source);
-  }
-}
-
-void OpActivityInfo::MergeFrom(const OpActivityInfo& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.OpActivityInfo)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.schedule_id() != 0) {
-    set_schedule_id(from.schedule_id());
-  }
-  if (from.is_has_change() != 0) {
-    set_is_has_change(from.is_has_change());
-  }
-  if (from.activity_id() != 0) {
-    set_activity_id(from.activity_id());
-  }
-  if (from.begin_time() != 0) {
-    set_begin_time(from.begin_time());
-  }
-  if (from.end_time() != 0) {
-    set_end_time(from.end_time());
-  }
-  switch (from.detail_case()) {
-    case kBonusInfo: {
-      mutable_bonus_info()->::proto::BonusOpActivityInfo::MergeFrom(from.bonus_info());
-      break;
-    }
-    case DETAIL_NOT_SET: {
-      break;
-    }
-  }
-}
-
-void OpActivityInfo::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.OpActivityInfo)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void OpActivityInfo::CopyFrom(const OpActivityInfo& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.OpActivityInfo)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool OpActivityInfo::IsInitialized() const {
-  return true;
-}
-
-void OpActivityInfo::Swap(OpActivityInfo* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void OpActivityInfo::InternalSwap(OpActivityInfo* other) {
-  using std::swap;
-  swap(schedule_id_, other->schedule_id_);
-  swap(is_has_change_, other->is_has_change_);
-  swap(activity_id_, other->activity_id_);
-  swap(begin_time_, other->begin_time_);
-  swap(end_time_, other->end_time_);
-  swap(detail_, other->detail_);
-  swap(_oneof_case_[0], other->_oneof_case_[0]);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata OpActivityInfo::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fop_5factivity_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fop_5factivity_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// OpActivityInfo
-
-// uint32 activity_id = 15;
-void OpActivityInfo::clear_activity_id() {
-  activity_id_ = 0u;
-}
-::google::protobuf::uint32 OpActivityInfo::activity_id() const {
-  // @@protoc_insertion_point(field_get:proto.OpActivityInfo.activity_id)
-  return activity_id_;
-}
-void OpActivityInfo::set_activity_id(::google::protobuf::uint32 value) {
-  
-  activity_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.OpActivityInfo.activity_id)
-}
-
-// uint32 end_time = 10;
-void OpActivityInfo::clear_end_time() {
-  end_time_ = 0u;
-}
-::google::protobuf::uint32 OpActivityInfo::end_time() const {
-  // @@protoc_insertion_point(field_get:proto.OpActivityInfo.end_time)
-  return end_time_;
-}
-void OpActivityInfo::set_end_time(::google::protobuf::uint32 value) {
-  
-  end_time_ = value;
-  // @@protoc_insertion_point(field_set:proto.OpActivityInfo.end_time)
-}
-
-// uint32 begin_time = 8;
-void OpActivityInfo::clear_begin_time() {
-  begin_time_ = 0u;
-}
-::google::protobuf::uint32 OpActivityInfo::begin_time() const {
-  // @@protoc_insertion_point(field_get:proto.OpActivityInfo.begin_time)
-  return begin_time_;
-}
-void OpActivityInfo::set_begin_time(::google::protobuf::uint32 value) {
-  
-  begin_time_ = value;
-  // @@protoc_insertion_point(field_set:proto.OpActivityInfo.begin_time)
-}
-
-// bool is_has_change = 3;
-void OpActivityInfo::clear_is_has_change() {
-  is_has_change_ = false;
-}
-bool OpActivityInfo::is_has_change() const {
-  // @@protoc_insertion_point(field_get:proto.OpActivityInfo.is_has_change)
-  return is_has_change_;
-}
-void OpActivityInfo::set_is_has_change(bool value) {
-  
-  is_has_change_ = value;
-  // @@protoc_insertion_point(field_set:proto.OpActivityInfo.is_has_change)
-}
-
-// uint32 schedule_id = 1;
-void OpActivityInfo::clear_schedule_id() {
-  schedule_id_ = 0u;
-}
-::google::protobuf::uint32 OpActivityInfo::schedule_id() const {
-  // @@protoc_insertion_point(field_get:proto.OpActivityInfo.schedule_id)
-  return schedule_id_;
-}
-void OpActivityInfo::set_schedule_id(::google::protobuf::uint32 value) {
-  
-  schedule_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.OpActivityInfo.schedule_id)
-}
-
-// .proto.BonusOpActivityInfo bonus_info = 11;
-bool OpActivityInfo::has_bonus_info() const {
-  return detail_case() == kBonusInfo;
-}
-void OpActivityInfo::set_has_bonus_info() {
-  _oneof_case_[0] = kBonusInfo;
-}
-void OpActivityInfo::clear_bonus_info() {
-  if (has_bonus_info()) {
-    delete detail_.bonus_info_;
-    clear_has_detail();
-  }
-}
- const ::proto::BonusOpActivityInfo& OpActivityInfo::bonus_info() const {
-  // @@protoc_insertion_point(field_get:proto.OpActivityInfo.bonus_info)
-  return has_bonus_info()
-      ? *detail_.bonus_info_
-      : ::proto::BonusOpActivityInfo::default_instance();
-}
-::proto::BonusOpActivityInfo* OpActivityInfo::mutable_bonus_info() {
-  if (!has_bonus_info()) {
-    clear_detail();
-    set_has_bonus_info();
-    detail_.bonus_info_ = new ::proto::BonusOpActivityInfo;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.OpActivityInfo.bonus_info)
-  return detail_.bonus_info_;
-}
-::proto::BonusOpActivityInfo* OpActivityInfo::release_bonus_info() {
-  // @@protoc_insertion_point(field_release:proto.OpActivityInfo.bonus_info)
-  if (has_bonus_info()) {
-    clear_has_detail();
-    ::proto::BonusOpActivityInfo* temp = detail_.bonus_info_;
-    detail_.bonus_info_ = NULL;
-    return temp;
-  } else {
-    return NULL;
-  }
-}
-void OpActivityInfo::set_allocated_bonus_info(::proto::BonusOpActivityInfo* bonus_info) {
-  clear_detail();
-  if (bonus_info) {
-    set_has_bonus_info();
-    detail_.bonus_info_ = bonus_info;
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.OpActivityInfo.bonus_info)
-}
-
-bool OpActivityInfo::has_detail() const {
-  return detail_case() != DETAIL_NOT_SET;
-}
-void OpActivityInfo::clear_has_detail() {
-  _oneof_case_[0] = DETAIL_NOT_SET;
-}
-OpActivityInfo::DetailCase OpActivityInfo::detail_case() const {
-  return OpActivityInfo::DetailCase(_oneof_case_[0]);
-}
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int BonusOpActivityInfo::kLeftBonusCountFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-BonusOpActivityInfo::BonusOpActivityInfo()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fop_5factivity_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.BonusOpActivityInfo)
-}
-BonusOpActivityInfo::BonusOpActivityInfo(const BonusOpActivityInfo& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  left_bonus_count_ = from.left_bonus_count_;
-  // @@protoc_insertion_point(copy_constructor:proto.BonusOpActivityInfo)
-}
-
-void BonusOpActivityInfo::SharedCtor() {
-  left_bonus_count_ = 0u;
-  _cached_size_ = 0;
-}
-
-BonusOpActivityInfo::~BonusOpActivityInfo() {
-  // @@protoc_insertion_point(destructor:proto.BonusOpActivityInfo)
-  SharedDtor();
-}
-
-void BonusOpActivityInfo::SharedDtor() {
-}
-
-void BonusOpActivityInfo::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* BonusOpActivityInfo::descriptor() {
-  protobuf_cmd_2fcmd_5fop_5factivity_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fop_5factivity_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const BonusOpActivityInfo& BonusOpActivityInfo::default_instance() {
-  protobuf_cmd_2fcmd_5fop_5factivity_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-BonusOpActivityInfo* BonusOpActivityInfo::New(::google::protobuf::Arena* arena) const {
-  BonusOpActivityInfo* n = new BonusOpActivityInfo;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void BonusOpActivityInfo::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.BonusOpActivityInfo)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  left_bonus_count_ = 0u;
-  _internal_metadata_.Clear();
-}
-
 bool BonusOpActivityInfo::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -1028,16 +346,18 @@ bool BonusOpActivityInfo::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.BonusOpActivityInfo)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.BonusOpActivityInfo)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -1053,9 +373,9 @@ void BonusOpActivityInfo::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(13, this->left_bonus_count(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.BonusOpActivityInfo)
 }
@@ -1072,9 +392,9 @@ void BonusOpActivityInfo::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(13, this->left_bonus_count(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.BonusOpActivityInfo)
   return target;
@@ -1084,10 +404,10 @@ size_t BonusOpActivityInfo::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.BonusOpActivityInfo)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 left_bonus_count = 13;
   if (this->left_bonus_count() != 0) {
@@ -1101,151 +421,6 @@ size_t BonusOpActivityInfo::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void BonusOpActivityInfo::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.BonusOpActivityInfo)
-  GOOGLE_DCHECK_NE(&from, this);
-  const BonusOpActivityInfo* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const BonusOpActivityInfo>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.BonusOpActivityInfo)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.BonusOpActivityInfo)
-    MergeFrom(*source);
-  }
-}
-
-void BonusOpActivityInfo::MergeFrom(const BonusOpActivityInfo& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.BonusOpActivityInfo)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.left_bonus_count() != 0) {
-    set_left_bonus_count(from.left_bonus_count());
-  }
-}
-
-void BonusOpActivityInfo::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.BonusOpActivityInfo)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void BonusOpActivityInfo::CopyFrom(const BonusOpActivityInfo& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.BonusOpActivityInfo)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool BonusOpActivityInfo::IsInitialized() const {
-  return true;
-}
-
-void BonusOpActivityInfo::Swap(BonusOpActivityInfo* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void BonusOpActivityInfo::InternalSwap(BonusOpActivityInfo* other) {
-  using std::swap;
-  swap(left_bonus_count_, other->left_bonus_count_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata BonusOpActivityInfo::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fop_5factivity_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fop_5factivity_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// BonusOpActivityInfo
-
-// uint32 left_bonus_count = 13;
-void BonusOpActivityInfo::clear_left_bonus_count() {
-  left_bonus_count_ = 0u;
-}
-::google::protobuf::uint32 BonusOpActivityInfo::left_bonus_count() const {
-  // @@protoc_insertion_point(field_get:proto.BonusOpActivityInfo.left_bonus_count)
-  return left_bonus_count_;
-}
-void BonusOpActivityInfo::set_left_bonus_count(::google::protobuf::uint32 value) {
-  
-  left_bonus_count_ = value;
-  // @@protoc_insertion_point(field_set:proto.BonusOpActivityInfo.left_bonus_count)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-GetOpActivityInfoReq::GetOpActivityInfoReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fop_5factivity_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.GetOpActivityInfoReq)
-}
-GetOpActivityInfoReq::GetOpActivityInfoReq(const GetOpActivityInfoReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  // @@protoc_insertion_point(copy_constructor:proto.GetOpActivityInfoReq)
-}
-
-void GetOpActivityInfoReq::SharedCtor() {
-  _cached_size_ = 0;
-}
-
-GetOpActivityInfoReq::~GetOpActivityInfoReq() {
-  // @@protoc_insertion_point(destructor:proto.GetOpActivityInfoReq)
-  SharedDtor();
-}
-
-void GetOpActivityInfoReq::SharedDtor() {
-}
-
-void GetOpActivityInfoReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* GetOpActivityInfoReq::descriptor() {
-  protobuf_cmd_2fcmd_5fop_5factivity_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fop_5factivity_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const GetOpActivityInfoReq& GetOpActivityInfoReq::default_instance() {
-  protobuf_cmd_2fcmd_5fop_5factivity_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-GetOpActivityInfoReq* GetOpActivityInfoReq::New(::google::protobuf::Arena* arena) const {
-  GetOpActivityInfoReq* n = new GetOpActivityInfoReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void GetOpActivityInfoReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.GetOpActivityInfoReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  _internal_metadata_.Clear();
 }
 
 bool GetOpActivityInfoReq::MergePartialFromCodedStream(
@@ -1262,13 +437,15 @@ bool GetOpActivityInfoReq::MergePartialFromCodedStream(
       goto success;
     }
     DO_(::google::protobuf::internal::WireFormat::SkipField(
-          input, tag, _internal_metadata_.mutable_unknown_fields()));
+          input, tag, nullptr));
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.GetOpActivityInfoReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.GetOpActivityInfoReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -1279,9 +456,9 @@ void GetOpActivityInfoReq::SerializeWithCachedSizes(
   ::google::protobuf::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.GetOpActivityInfoReq)
 }
@@ -1293,9 +470,9 @@ void GetOpActivityInfoReq::SerializeWithCachedSizes(
   ::google::protobuf::uint32 cached_has_bits = 0;
   (void) cached_has_bits;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.GetOpActivityInfoReq)
   return target;
@@ -1305,150 +482,16 @@ size_t GetOpActivityInfoReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.GetOpActivityInfoReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
   GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void GetOpActivityInfoReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.GetOpActivityInfoReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const GetOpActivityInfoReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const GetOpActivityInfoReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.GetOpActivityInfoReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.GetOpActivityInfoReq)
-    MergeFrom(*source);
-  }
-}
-
-void GetOpActivityInfoReq::MergeFrom(const GetOpActivityInfoReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.GetOpActivityInfoReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-}
-
-void GetOpActivityInfoReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.GetOpActivityInfoReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void GetOpActivityInfoReq::CopyFrom(const GetOpActivityInfoReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.GetOpActivityInfoReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool GetOpActivityInfoReq::IsInitialized() const {
-  return true;
-}
-
-void GetOpActivityInfoReq::Swap(GetOpActivityInfoReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void GetOpActivityInfoReq::InternalSwap(GetOpActivityInfoReq* other) {
-  using std::swap;
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata GetOpActivityInfoReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fop_5factivity_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fop_5factivity_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// GetOpActivityInfoReq
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int GetOpActivityInfoRsp::kRetcodeFieldNumber;
-const int GetOpActivityInfoRsp::kOpActivityInfoListFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-GetOpActivityInfoRsp::GetOpActivityInfoRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fop_5factivity_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.GetOpActivityInfoRsp)
-}
-GetOpActivityInfoRsp::GetOpActivityInfoRsp(const GetOpActivityInfoRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      op_activity_info_list_(from.op_activity_info_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  retcode_ = from.retcode_;
-  // @@protoc_insertion_point(copy_constructor:proto.GetOpActivityInfoRsp)
-}
-
-void GetOpActivityInfoRsp::SharedCtor() {
-  retcode_ = 0;
-  _cached_size_ = 0;
-}
-
-GetOpActivityInfoRsp::~GetOpActivityInfoRsp() {
-  // @@protoc_insertion_point(destructor:proto.GetOpActivityInfoRsp)
-  SharedDtor();
-}
-
-void GetOpActivityInfoRsp::SharedDtor() {
-}
-
-void GetOpActivityInfoRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* GetOpActivityInfoRsp::descriptor() {
-  protobuf_cmd_2fcmd_5fop_5factivity_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fop_5factivity_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const GetOpActivityInfoRsp& GetOpActivityInfoRsp::default_instance() {
-  protobuf_cmd_2fcmd_5fop_5factivity_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-GetOpActivityInfoRsp* GetOpActivityInfoRsp::New(::google::protobuf::Arena* arena) const {
-  GetOpActivityInfoRsp* n = new GetOpActivityInfoRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void GetOpActivityInfoRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.GetOpActivityInfoRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  op_activity_info_list_.Clear();
-  retcode_ = 0;
-  _internal_metadata_.Clear();
 }
 
 bool GetOpActivityInfoRsp::MergePartialFromCodedStream(
@@ -1493,16 +536,18 @@ bool GetOpActivityInfoRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.GetOpActivityInfoRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.GetOpActivityInfoRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -1525,9 +570,9 @@ void GetOpActivityInfoRsp::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteInt32(14, this->retcode(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.GetOpActivityInfoRsp)
 }
@@ -1552,9 +597,9 @@ void GetOpActivityInfoRsp::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(14, this->retcode(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.GetOpActivityInfoRsp)
   return target;
@@ -1564,10 +609,10 @@ size_t GetOpActivityInfoRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.GetOpActivityInfoRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated .proto.OpActivityInfo op_activity_info_list = 11;
   {
@@ -1592,186 +637,6 @@ size_t GetOpActivityInfoRsp::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void GetOpActivityInfoRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.GetOpActivityInfoRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const GetOpActivityInfoRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const GetOpActivityInfoRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.GetOpActivityInfoRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.GetOpActivityInfoRsp)
-    MergeFrom(*source);
-  }
-}
-
-void GetOpActivityInfoRsp::MergeFrom(const GetOpActivityInfoRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.GetOpActivityInfoRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  op_activity_info_list_.MergeFrom(from.op_activity_info_list_);
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-}
-
-void GetOpActivityInfoRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.GetOpActivityInfoRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void GetOpActivityInfoRsp::CopyFrom(const GetOpActivityInfoRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.GetOpActivityInfoRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool GetOpActivityInfoRsp::IsInitialized() const {
-  return true;
-}
-
-void GetOpActivityInfoRsp::Swap(GetOpActivityInfoRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void GetOpActivityInfoRsp::InternalSwap(GetOpActivityInfoRsp* other) {
-  using std::swap;
-  op_activity_info_list_.InternalSwap(&other->op_activity_info_list_);
-  swap(retcode_, other->retcode_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata GetOpActivityInfoRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fop_5factivity_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fop_5factivity_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// GetOpActivityInfoRsp
-
-// int32 retcode = 14;
-void GetOpActivityInfoRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 GetOpActivityInfoRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.GetOpActivityInfoRsp.retcode)
-  return retcode_;
-}
-void GetOpActivityInfoRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.GetOpActivityInfoRsp.retcode)
-}
-
-// repeated .proto.OpActivityInfo op_activity_info_list = 11;
-int GetOpActivityInfoRsp::op_activity_info_list_size() const {
-  return op_activity_info_list_.size();
-}
-void GetOpActivityInfoRsp::clear_op_activity_info_list() {
-  op_activity_info_list_.Clear();
-}
-const ::proto::OpActivityInfo& GetOpActivityInfoRsp::op_activity_info_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.GetOpActivityInfoRsp.op_activity_info_list)
-  return op_activity_info_list_.Get(index);
-}
-::proto::OpActivityInfo* GetOpActivityInfoRsp::mutable_op_activity_info_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.GetOpActivityInfoRsp.op_activity_info_list)
-  return op_activity_info_list_.Mutable(index);
-}
-::proto::OpActivityInfo* GetOpActivityInfoRsp::add_op_activity_info_list() {
-  // @@protoc_insertion_point(field_add:proto.GetOpActivityInfoRsp.op_activity_info_list)
-  return op_activity_info_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::OpActivityInfo >*
-GetOpActivityInfoRsp::mutable_op_activity_info_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.GetOpActivityInfoRsp.op_activity_info_list)
-  return &op_activity_info_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::OpActivityInfo >&
-GetOpActivityInfoRsp::op_activity_info_list() const {
-  // @@protoc_insertion_point(field_list:proto.GetOpActivityInfoRsp.op_activity_info_list)
-  return op_activity_info_list_;
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int OpActivityDataNotify::kOpActivityInfoListFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-OpActivityDataNotify::OpActivityDataNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fop_5factivity_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.OpActivityDataNotify)
-}
-OpActivityDataNotify::OpActivityDataNotify(const OpActivityDataNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      op_activity_info_list_(from.op_activity_info_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  // @@protoc_insertion_point(copy_constructor:proto.OpActivityDataNotify)
-}
-
-void OpActivityDataNotify::SharedCtor() {
-  _cached_size_ = 0;
-}
-
-OpActivityDataNotify::~OpActivityDataNotify() {
-  // @@protoc_insertion_point(destructor:proto.OpActivityDataNotify)
-  SharedDtor();
-}
-
-void OpActivityDataNotify::SharedDtor() {
-}
-
-void OpActivityDataNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* OpActivityDataNotify::descriptor() {
-  protobuf_cmd_2fcmd_5fop_5factivity_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fop_5factivity_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const OpActivityDataNotify& OpActivityDataNotify::default_instance() {
-  protobuf_cmd_2fcmd_5fop_5factivity_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-OpActivityDataNotify* OpActivityDataNotify::New(::google::protobuf::Arena* arena) const {
-  OpActivityDataNotify* n = new OpActivityDataNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void OpActivityDataNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.OpActivityDataNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  op_activity_info_list_.Clear();
-  _internal_metadata_.Clear();
 }
 
 bool OpActivityDataNotify::MergePartialFromCodedStream(
@@ -1802,16 +667,18 @@ bool OpActivityDataNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.OpActivityDataNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.OpActivityDataNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -1829,9 +696,9 @@ void OpActivityDataNotify::SerializeWithCachedSizes(
       13, this->op_activity_info_list(static_cast<int>(i)), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.OpActivityDataNotify)
 }
@@ -1851,9 +718,9 @@ void OpActivityDataNotify::SerializeWithCachedSizes(
         13, this->op_activity_info_list(static_cast<int>(i)), deterministic, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.OpActivityDataNotify)
   return target;
@@ -1863,10 +730,10 @@ size_t OpActivityDataNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.OpActivityDataNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated .proto.OpActivityInfo op_activity_info_list = 13;
   {
@@ -1884,177 +751,6 @@ size_t OpActivityDataNotify::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void OpActivityDataNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.OpActivityDataNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const OpActivityDataNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const OpActivityDataNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.OpActivityDataNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.OpActivityDataNotify)
-    MergeFrom(*source);
-  }
-}
-
-void OpActivityDataNotify::MergeFrom(const OpActivityDataNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.OpActivityDataNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  op_activity_info_list_.MergeFrom(from.op_activity_info_list_);
-}
-
-void OpActivityDataNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.OpActivityDataNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void OpActivityDataNotify::CopyFrom(const OpActivityDataNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.OpActivityDataNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool OpActivityDataNotify::IsInitialized() const {
-  return true;
-}
-
-void OpActivityDataNotify::Swap(OpActivityDataNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void OpActivityDataNotify::InternalSwap(OpActivityDataNotify* other) {
-  using std::swap;
-  op_activity_info_list_.InternalSwap(&other->op_activity_info_list_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata OpActivityDataNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fop_5factivity_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fop_5factivity_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// OpActivityDataNotify
-
-// repeated .proto.OpActivityInfo op_activity_info_list = 13;
-int OpActivityDataNotify::op_activity_info_list_size() const {
-  return op_activity_info_list_.size();
-}
-void OpActivityDataNotify::clear_op_activity_info_list() {
-  op_activity_info_list_.Clear();
-}
-const ::proto::OpActivityInfo& OpActivityDataNotify::op_activity_info_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.OpActivityDataNotify.op_activity_info_list)
-  return op_activity_info_list_.Get(index);
-}
-::proto::OpActivityInfo* OpActivityDataNotify::mutable_op_activity_info_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.OpActivityDataNotify.op_activity_info_list)
-  return op_activity_info_list_.Mutable(index);
-}
-::proto::OpActivityInfo* OpActivityDataNotify::add_op_activity_info_list() {
-  // @@protoc_insertion_point(field_add:proto.OpActivityDataNotify.op_activity_info_list)
-  return op_activity_info_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::OpActivityInfo >*
-OpActivityDataNotify::mutable_op_activity_info_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.OpActivityDataNotify.op_activity_info_list)
-  return &op_activity_info_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::OpActivityInfo >&
-OpActivityDataNotify::op_activity_info_list() const {
-  // @@protoc_insertion_point(field_list:proto.OpActivityDataNotify.op_activity_info_list)
-  return op_activity_info_list_;
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int OpActivityUpdateNotify::kOpActivityInfoFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-OpActivityUpdateNotify::OpActivityUpdateNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fop_5factivity_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.OpActivityUpdateNotify)
-}
-OpActivityUpdateNotify::OpActivityUpdateNotify(const OpActivityUpdateNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  if (from.has_op_activity_info()) {
-    op_activity_info_ = new ::proto::OpActivityInfo(*from.op_activity_info_);
-  } else {
-    op_activity_info_ = NULL;
-  }
-  // @@protoc_insertion_point(copy_constructor:proto.OpActivityUpdateNotify)
-}
-
-void OpActivityUpdateNotify::SharedCtor() {
-  op_activity_info_ = NULL;
-  _cached_size_ = 0;
-}
-
-OpActivityUpdateNotify::~OpActivityUpdateNotify() {
-  // @@protoc_insertion_point(destructor:proto.OpActivityUpdateNotify)
-  SharedDtor();
-}
-
-void OpActivityUpdateNotify::SharedDtor() {
-  if (this != internal_default_instance()) delete op_activity_info_;
-}
-
-void OpActivityUpdateNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* OpActivityUpdateNotify::descriptor() {
-  protobuf_cmd_2fcmd_5fop_5factivity_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fop_5factivity_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const OpActivityUpdateNotify& OpActivityUpdateNotify::default_instance() {
-  protobuf_cmd_2fcmd_5fop_5factivity_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-OpActivityUpdateNotify* OpActivityUpdateNotify::New(::google::protobuf::Arena* arena) const {
-  OpActivityUpdateNotify* n = new OpActivityUpdateNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void OpActivityUpdateNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.OpActivityUpdateNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  if (GetArenaNoVirtual() == NULL && op_activity_info_ != NULL) {
-    delete op_activity_info_;
-  }
-  op_activity_info_ = NULL;
-  _internal_metadata_.Clear();
 }
 
 bool OpActivityUpdateNotify::MergePartialFromCodedStream(
@@ -2085,16 +781,18 @@ bool OpActivityUpdateNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.OpActivityUpdateNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.OpActivityUpdateNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -2111,9 +809,9 @@ void OpActivityUpdateNotify::SerializeWithCachedSizes(
       15, *this->op_activity_info_, output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.OpActivityUpdateNotify)
 }
@@ -2132,9 +830,9 @@ void OpActivityUpdateNotify::SerializeWithCachedSizes(
         15, *this->op_activity_info_, deterministic, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.OpActivityUpdateNotify)
   return target;
@@ -2144,10 +842,10 @@ size_t OpActivityUpdateNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.OpActivityUpdateNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // .proto.OpActivityInfo op_activity_info = 15;
   if (this->has_op_activity_info()) {
@@ -2162,112 +860,6 @@ size_t OpActivityUpdateNotify::ByteSizeLong() const {
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
 }
-
-void OpActivityUpdateNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.OpActivityUpdateNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const OpActivityUpdateNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const OpActivityUpdateNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.OpActivityUpdateNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.OpActivityUpdateNotify)
-    MergeFrom(*source);
-  }
-}
-
-void OpActivityUpdateNotify::MergeFrom(const OpActivityUpdateNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.OpActivityUpdateNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.has_op_activity_info()) {
-    mutable_op_activity_info()->::proto::OpActivityInfo::MergeFrom(from.op_activity_info());
-  }
-}
-
-void OpActivityUpdateNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.OpActivityUpdateNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void OpActivityUpdateNotify::CopyFrom(const OpActivityUpdateNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.OpActivityUpdateNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool OpActivityUpdateNotify::IsInitialized() const {
-  return true;
-}
-
-void OpActivityUpdateNotify::Swap(OpActivityUpdateNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void OpActivityUpdateNotify::InternalSwap(OpActivityUpdateNotify* other) {
-  using std::swap;
-  swap(op_activity_info_, other->op_activity_info_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata OpActivityUpdateNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fop_5factivity_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fop_5factivity_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// OpActivityUpdateNotify
-
-// .proto.OpActivityInfo op_activity_info = 15;
-bool OpActivityUpdateNotify::has_op_activity_info() const {
-  return this != internal_default_instance() && op_activity_info_ != NULL;
-}
-void OpActivityUpdateNotify::clear_op_activity_info() {
-  if (GetArenaNoVirtual() == NULL && op_activity_info_ != NULL) delete op_activity_info_;
-  op_activity_info_ = NULL;
-}
-const ::proto::OpActivityInfo& OpActivityUpdateNotify::op_activity_info() const {
-  const ::proto::OpActivityInfo* p = op_activity_info_;
-  // @@protoc_insertion_point(field_get:proto.OpActivityUpdateNotify.op_activity_info)
-  return p != NULL ? *p : *reinterpret_cast<const ::proto::OpActivityInfo*>(
-      &::proto::_OpActivityInfo_default_instance_);
-}
-::proto::OpActivityInfo* OpActivityUpdateNotify::mutable_op_activity_info() {
-  
-  if (op_activity_info_ == NULL) {
-    op_activity_info_ = new ::proto::OpActivityInfo;
-  }
-  // @@protoc_insertion_point(field_mutable:proto.OpActivityUpdateNotify.op_activity_info)
-  return op_activity_info_;
-}
-::proto::OpActivityInfo* OpActivityUpdateNotify::release_op_activity_info() {
-  // @@protoc_insertion_point(field_release:proto.OpActivityUpdateNotify.op_activity_info)
-  
-  ::proto::OpActivityInfo* temp = op_activity_info_;
-  op_activity_info_ = NULL;
-  return temp;
-}
-void OpActivityUpdateNotify::set_allocated_op_activity_info(::proto::OpActivityInfo* op_activity_info) {
-  delete op_activity_info_;
-  op_activity_info_ = op_activity_info;
-  if (op_activity_info) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:proto.OpActivityUpdateNotify.op_activity_info)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
 
 // @@protoc_insertion_point(namespace_scope)
 

@@ -185,35 +185,6 @@ class LIBPROTOBUF_EXPORT Duration : public ::google::protobuf::Message /* @@prot
   #pragma GCC diagnostic push
   #pragma GCC diagnostic ignored "-Wstrict-aliasing"
 #endif  // __GNUC__
-// Duration
-
-// int64 seconds = 1;
-inline void Duration::clear_seconds() {
-  seconds_ = GOOGLE_LONGLONG(0);
-}
-inline ::google::protobuf::int64 Duration::seconds() const {
-  // @@protoc_insertion_point(field_get:google.protobuf.Duration.seconds)
-  return seconds_;
-}
-inline void Duration::set_seconds(::google::protobuf::int64 value) {
-  
-  seconds_ = value;
-  // @@protoc_insertion_point(field_set:google.protobuf.Duration.seconds)
-}
-
-// int32 nanos = 2;
-inline void Duration::clear_nanos() {
-  nanos_ = 0;
-}
-inline ::google::protobuf::int32 Duration::nanos() const {
-  // @@protoc_insertion_point(field_get:google.protobuf.Duration.nanos)
-  return nanos_;
-}
-inline void Duration::set_nanos(::google::protobuf::int32 value) {
-  
-  nanos_ = value;
-  // @@protoc_insertion_point(field_set:google.protobuf.Duration.nanos)
-}
 
 #ifdef __GNUC__
   #pragma GCC diagnostic pop

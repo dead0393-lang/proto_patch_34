@@ -69,560 +69,6 @@ public:
      _instance;
 } _SetCodexPushtipsReadRsp_default_instance_;
 
-namespace protobuf_cmd_2fcmd_5fcodex_2eproto {
-
-
-namespace {
-
-::google::protobuf::Metadata file_level_metadata[10];
-const ::google::protobuf::EnumDescriptor* file_level_enum_descriptors[8];
-
-}  // namespace
-
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::ParseTableField
-    const TableStruct::entries[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  {0, 0, 0, ::google::protobuf::internal::kInvalidMask, 0, 0},
-};
-
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::AuxillaryParseTableField
-    const TableStruct::aux[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  ::google::protobuf::internal::AuxillaryParseTableField(),
-};
-PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::ParseTable const
-    TableStruct::schema[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
-};
-
-const ::google::protobuf::uint32 TableStruct::offsets[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CodexTypeData, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CodexTypeData, codex_id_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CodexTypeData, weapon_max_promote_level_map_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CodexTypeData, type_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CodexTypeData, have_viewed_list_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CodexDataFullNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CodexDataFullNotify, last_read_pushtips_codex_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CodexDataFullNotify, recent_viewed_pushtips_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CodexDataFullNotify, last_read_pushtips_type_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CodexDataFullNotify, type_data_list_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CodexDataUpdateNotify, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CodexDataUpdateNotify, id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CodexDataUpdateNotify, weapon_max_promote_level_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CodexDataUpdateNotify, type_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(QueryCodexMonsterBeKilledNumReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(QueryCodexMonsterBeKilledNumReq, codex_id_list_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(QueryCodexMonsterBeKilledNumRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(QueryCodexMonsterBeKilledNumRsp, codex_id_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(QueryCodexMonsterBeKilledNumRsp, be_captured_num_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(QueryCodexMonsterBeKilledNumRsp, be_killed_num_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(QueryCodexMonsterBeKilledNumRsp, retcode_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ViewCodexReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ViewCodexReq, type_data_list_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ViewCodexRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ViewCodexRsp, retcode_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ViewCodexRsp, push_tips_reward_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ViewCodexRsp, recent_viewed_pushtips_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ViewCodexRsp, type_data_list_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ViewCodexRsp, push_tips_read_list_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SetCodexPushtipsReadReq, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SetCodexPushtipsReadReq, type_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SetCodexPushtipsReadReq, codex_id_),
-  ~0u,  // no _has_bits_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SetCodexPushtipsReadRsp, _internal_metadata_),
-  ~0u,  // no _extensions_
-  ~0u,  // no _oneof_case_
-  ~0u,  // no _weak_field_map_
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SetCodexPushtipsReadRsp, retcode_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SetCodexPushtipsReadRsp, type_id_),
-  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SetCodexPushtipsReadRsp, codex_id_),
-};
-static const ::google::protobuf::internal::MigrationSchema schemas[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-  { 0, -1, sizeof(CodexTypeData)},
-  { 9, -1, sizeof(CodexDataFullNotify)},
-  { 18, -1, sizeof(CodexDataUpdateNotify)},
-  { 26, -1, sizeof(QueryCodexMonsterBeKilledNumReq)},
-  { 32, -1, sizeof(QueryCodexMonsterBeKilledNumRsp)},
-  { 41, -1, sizeof(ViewCodexReq)},
-  { 47, -1, sizeof(ViewCodexRsp)},
-  { 57, -1, sizeof(SetCodexPushtipsReadReq)},
-  { 64, -1, sizeof(SetCodexPushtipsReadRsp)},
-};
-
-static ::google::protobuf::Message const * const file_default_instances[] = {
-  reinterpret_cast<const ::google::protobuf::Message*>(&_CodexTypeData_WeaponMaxPromoteLevelMapEntry_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_CodexTypeData_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_CodexDataFullNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_CodexDataUpdateNotify_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_QueryCodexMonsterBeKilledNumReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_QueryCodexMonsterBeKilledNumRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_ViewCodexReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_ViewCodexRsp_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_SetCodexPushtipsReadReq_default_instance_),
-  reinterpret_cast<const ::google::protobuf::Message*>(&_SetCodexPushtipsReadRsp_default_instance_),
-};
-
-namespace {
-
-void protobuf_AssignDescriptors() {
-  AddDescriptors();
-  ::google::protobuf::MessageFactory* factory = NULL;
-  AssignDescriptors(
-      "cmd/cmd_codex.proto", schemas, file_default_instances, TableStruct::offsets, factory,
-      file_level_metadata, file_level_enum_descriptors, NULL);
-file_level_metadata[0].reflection = CodexTypeData::CodexTypeData_WeaponMaxPromoteLevelMapEntry::CreateReflection(file_level_metadata[0].descriptor, _CodexTypeData_WeaponMaxPromoteLevelMapEntry_default_instance_._instance.get_mutable());
-}
-
-void protobuf_AssignDescriptorsOnce() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &protobuf_AssignDescriptors);
-}
-
-void protobuf_RegisterTypes(const ::std::string&) GOOGLE_ATTRIBUTE_COLD;
-void protobuf_RegisterTypes(const ::std::string&) {
-  protobuf_AssignDescriptorsOnce();
-  ::google::protobuf::internal::RegisterAllTypes(file_level_metadata, 10);
-}
-
-}  // namespace
-void TableStruct::InitDefaultsImpl() {
-  GOOGLE_PROTOBUF_VERIFY_VERSION;
-
-  ::google::protobuf::internal::InitProtobufDefaults();
-  ::proto::protobuf_define_2eproto::InitDefaults();
-  _CodexTypeData_WeaponMaxPromoteLevelMapEntry_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_CodexTypeData_WeaponMaxPromoteLevelMapEntry_default_instance_);_CodexTypeData_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_CodexTypeData_default_instance_);_CodexDataFullNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_CodexDataFullNotify_default_instance_);_CodexDataUpdateNotify_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_CodexDataUpdateNotify_default_instance_);_QueryCodexMonsterBeKilledNumReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_QueryCodexMonsterBeKilledNumReq_default_instance_);_QueryCodexMonsterBeKilledNumRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_QueryCodexMonsterBeKilledNumRsp_default_instance_);_ViewCodexReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_ViewCodexReq_default_instance_);_ViewCodexRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_ViewCodexRsp_default_instance_);_SetCodexPushtipsReadReq_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_SetCodexPushtipsReadReq_default_instance_);_SetCodexPushtipsReadRsp_default_instance_._instance.DefaultConstruct();
-  ::google::protobuf::internal::OnShutdownDestroyMessage(
-      &_SetCodexPushtipsReadRsp_default_instance_);_CodexTypeData_WeaponMaxPromoteLevelMapEntry_default_instance_._instance.get_mutable()->set_default_instance(_CodexTypeData_WeaponMaxPromoteLevelMapEntry_default_instance_._instance.get_mutable());
-  _CodexTypeData_WeaponMaxPromoteLevelMapEntry_default_instance_._instance.get_mutable()->InitAsDefaultInstance();
-}
-
-void InitDefaults() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &TableStruct::InitDefaultsImpl);
-}
-namespace {
-void AddDescriptorsImpl() {
-  InitDefaults();
-  static const char descriptor[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
-      "\n\023cmd/cmd_codex.proto\022\005proto\032\014define.pro"
-      "to\"\373\001\n\rCodexTypeData\022\025\n\rcodex_id_list\030\004 "
-      "\003(\r\022X\n\034weapon_max_promote_level_map\030\003 \003("
-      "\01322.proto.CodexTypeData.WeaponMaxPromote"
-      "LevelMapEntry\022\036\n\004type\030\016 \001(\0162\020.proto.Code"
-      "xType\022\030\n\020have_viewed_list\030\010 \003(\010\032\?\n\035Weapo"
-      "nMaxPromoteLevelMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n"
-      "\005value\030\002 \001(\r:\0028\001\"\200\002\n\023CodexDataFullNotify"
-      "\022#\n\033last_read_pushtips_codex_id\030\013 \001(\r\022#\n"
-      "\033recent_viewed_pushtips_list\030\001 \003(\r\022\"\n\032la"
-      "st_read_pushtips_type_id\030\n \001(\r\022,\n\016type_d"
-      "ata_list\030\010 \003(\0132\024.proto.CodexTypeData\"M\n\005"
-      "CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\357 \022\023\n\017ENET_CHA"
-      "NNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001\"\264\001\n\025"
-      "CodexDataUpdateNotify\022\n\n\002id\030\006 \001(\r\022 \n\030wea"
-      "pon_max_promote_level\030\001 \001(\r\022\036\n\004type\030\017 \001("
-      "\0162\020.proto.CodexType\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013"
-      "\n\006CMD_ID\020\352 \022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET"
-      "_IS_RELIABLE\020\001\032\002\020\001\"\234\001\n\037QueryCodexMonster"
-      "BeKilledNumReq\022\025\n\rcodex_id_list\030\001 \003(\r\"b\n"
-      "\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\356 \022\023\n\017ENET_CH"
-      "ANNEL_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\022\023\n\017IS_A"
-      "LLOW_CLIENT\020\001\032\002\020\001\"\322\001\n\037QueryCodexMonsterB"
-      "eKilledNumRsp\022\025\n\rcodex_id_list\030\004 \003(\r\022\034\n\024"
-      "be_captured_num_list\030\005 \003(\r\022\032\n\022be_killed_"
-      "num_list\030\016 \003(\r\022\017\n\007retcode\030\006 \001(\005\"M\n\005CmdId"
-      "\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\355 \022\023\n\017ENET_CHANNEL_"
-      "ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\032\002\020\001\"\240\001\n\014ViewC"
-      "odexReq\022,\n\016type_data_list\030\t \003(\0132\024.proto."
-      "CodexTypeData\"b\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_"
-      "ID\020\353 \022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RE"
-      "LIABLE\020\001\022\023\n\017IS_ALLOW_CLIENT\020\001\032\002\020\001\"\375\001\n\014Vi"
-      "ewCodexRsp\022\017\n\007retcode\030\n \001(\005\022\035\n\025push_tips"
-      "_reward_list\030\016 \003(\r\022#\n\033recent_viewed_push"
-      "tips_list\030\r \003(\r\022,\n\016type_data_list\030\010 \003(\0132"
-      "\024.proto.CodexTypeData\022\033\n\023push_tips_read_"
-      "list\030\007 \003(\r\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020"
-      "\361 \022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_RELIA"
-      "BLE\020\001\032\002\020\001\"\240\001\n\027SetCodexPushtipsReadReq\022\017\n"
-      "\007type_id\030\n \001(\r\022\020\n\010codex_id\030\002 \001(\r\"b\n\005CmdI"
-      "d\022\010\n\004NONE\020\000\022\013\n\006CMD_ID\020\354 \022\023\n\017ENET_CHANNEL"
-      "_ID\020\000\022\024\n\020ENET_IS_RELIABLE\020\001\022\023\n\017IS_ALLOW_"
-      "CLIENT\020\001\032\002\020\001\"\234\001\n\027SetCodexPushtipsReadRsp"
-      "\022\017\n\007retcode\030\013 \001(\005\022\017\n\007type_id\030\004 \001(\r\022\020\n\010co"
-      "dex_id\030\016 \001(\r\"M\n\005CmdId\022\010\n\004NONE\020\000\022\013\n\006CMD_I"
-      "D\020\362 \022\023\n\017ENET_CHANNEL_ID\020\000\022\024\n\020ENET_IS_REL"
-      "IABLE\020\001\032\002\020\001B\nZ\010./;protob\006proto3"
-  };
-  ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-      descriptor, 1871);
-  ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
-    "cmd/cmd_codex.proto", &protobuf_RegisterTypes);
-  ::proto::protobuf_define_2eproto::AddDescriptors();
-}
-} // anonymous namespace
-
-void AddDescriptors() {
-  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
-  ::google::protobuf::GoogleOnceInit(&once, &AddDescriptorsImpl);
-}
-// Force AddDescriptors() to be called at dynamic initialization time.
-struct StaticDescriptorInitializer {
-  StaticDescriptorInitializer() {
-    AddDescriptors();
-  }
-} static_descriptor_initializer;
-
-}  // namespace protobuf_cmd_2fcmd_5fcodex_2eproto
-
-const ::google::protobuf::EnumDescriptor* CodexDataFullNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fcodex_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fcodex_2eproto::file_level_enum_descriptors[0];
-}
-bool CodexDataFullNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 4207:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const CodexDataFullNotify_CmdId CodexDataFullNotify::NONE;
-const CodexDataFullNotify_CmdId CodexDataFullNotify::CMD_ID;
-const CodexDataFullNotify_CmdId CodexDataFullNotify::ENET_CHANNEL_ID;
-const CodexDataFullNotify_CmdId CodexDataFullNotify::ENET_IS_RELIABLE;
-const CodexDataFullNotify_CmdId CodexDataFullNotify::CmdId_MIN;
-const CodexDataFullNotify_CmdId CodexDataFullNotify::CmdId_MAX;
-const int CodexDataFullNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* CodexDataUpdateNotify_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fcodex_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fcodex_2eproto::file_level_enum_descriptors[1];
-}
-bool CodexDataUpdateNotify_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 4202:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const CodexDataUpdateNotify_CmdId CodexDataUpdateNotify::NONE;
-const CodexDataUpdateNotify_CmdId CodexDataUpdateNotify::CMD_ID;
-const CodexDataUpdateNotify_CmdId CodexDataUpdateNotify::ENET_CHANNEL_ID;
-const CodexDataUpdateNotify_CmdId CodexDataUpdateNotify::ENET_IS_RELIABLE;
-const CodexDataUpdateNotify_CmdId CodexDataUpdateNotify::CmdId_MIN;
-const CodexDataUpdateNotify_CmdId CodexDataUpdateNotify::CmdId_MAX;
-const int CodexDataUpdateNotify::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* QueryCodexMonsterBeKilledNumReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fcodex_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fcodex_2eproto::file_level_enum_descriptors[2];
-}
-bool QueryCodexMonsterBeKilledNumReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 4206:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const QueryCodexMonsterBeKilledNumReq_CmdId QueryCodexMonsterBeKilledNumReq::NONE;
-const QueryCodexMonsterBeKilledNumReq_CmdId QueryCodexMonsterBeKilledNumReq::CMD_ID;
-const QueryCodexMonsterBeKilledNumReq_CmdId QueryCodexMonsterBeKilledNumReq::ENET_CHANNEL_ID;
-const QueryCodexMonsterBeKilledNumReq_CmdId QueryCodexMonsterBeKilledNumReq::ENET_IS_RELIABLE;
-const QueryCodexMonsterBeKilledNumReq_CmdId QueryCodexMonsterBeKilledNumReq::IS_ALLOW_CLIENT;
-const QueryCodexMonsterBeKilledNumReq_CmdId QueryCodexMonsterBeKilledNumReq::CmdId_MIN;
-const QueryCodexMonsterBeKilledNumReq_CmdId QueryCodexMonsterBeKilledNumReq::CmdId_MAX;
-const int QueryCodexMonsterBeKilledNumReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* QueryCodexMonsterBeKilledNumRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fcodex_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fcodex_2eproto::file_level_enum_descriptors[3];
-}
-bool QueryCodexMonsterBeKilledNumRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 4205:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const QueryCodexMonsterBeKilledNumRsp_CmdId QueryCodexMonsterBeKilledNumRsp::NONE;
-const QueryCodexMonsterBeKilledNumRsp_CmdId QueryCodexMonsterBeKilledNumRsp::CMD_ID;
-const QueryCodexMonsterBeKilledNumRsp_CmdId QueryCodexMonsterBeKilledNumRsp::ENET_CHANNEL_ID;
-const QueryCodexMonsterBeKilledNumRsp_CmdId QueryCodexMonsterBeKilledNumRsp::ENET_IS_RELIABLE;
-const QueryCodexMonsterBeKilledNumRsp_CmdId QueryCodexMonsterBeKilledNumRsp::CmdId_MIN;
-const QueryCodexMonsterBeKilledNumRsp_CmdId QueryCodexMonsterBeKilledNumRsp::CmdId_MAX;
-const int QueryCodexMonsterBeKilledNumRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* ViewCodexReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fcodex_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fcodex_2eproto::file_level_enum_descriptors[4];
-}
-bool ViewCodexReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 4203:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const ViewCodexReq_CmdId ViewCodexReq::NONE;
-const ViewCodexReq_CmdId ViewCodexReq::CMD_ID;
-const ViewCodexReq_CmdId ViewCodexReq::ENET_CHANNEL_ID;
-const ViewCodexReq_CmdId ViewCodexReq::ENET_IS_RELIABLE;
-const ViewCodexReq_CmdId ViewCodexReq::IS_ALLOW_CLIENT;
-const ViewCodexReq_CmdId ViewCodexReq::CmdId_MIN;
-const ViewCodexReq_CmdId ViewCodexReq::CmdId_MAX;
-const int ViewCodexReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* ViewCodexRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fcodex_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fcodex_2eproto::file_level_enum_descriptors[5];
-}
-bool ViewCodexRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 4209:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const ViewCodexRsp_CmdId ViewCodexRsp::NONE;
-const ViewCodexRsp_CmdId ViewCodexRsp::CMD_ID;
-const ViewCodexRsp_CmdId ViewCodexRsp::ENET_CHANNEL_ID;
-const ViewCodexRsp_CmdId ViewCodexRsp::ENET_IS_RELIABLE;
-const ViewCodexRsp_CmdId ViewCodexRsp::CmdId_MIN;
-const ViewCodexRsp_CmdId ViewCodexRsp::CmdId_MAX;
-const int ViewCodexRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* SetCodexPushtipsReadReq_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fcodex_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fcodex_2eproto::file_level_enum_descriptors[6];
-}
-bool SetCodexPushtipsReadReq_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 4204:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const SetCodexPushtipsReadReq_CmdId SetCodexPushtipsReadReq::NONE;
-const SetCodexPushtipsReadReq_CmdId SetCodexPushtipsReadReq::CMD_ID;
-const SetCodexPushtipsReadReq_CmdId SetCodexPushtipsReadReq::ENET_CHANNEL_ID;
-const SetCodexPushtipsReadReq_CmdId SetCodexPushtipsReadReq::ENET_IS_RELIABLE;
-const SetCodexPushtipsReadReq_CmdId SetCodexPushtipsReadReq::IS_ALLOW_CLIENT;
-const SetCodexPushtipsReadReq_CmdId SetCodexPushtipsReadReq::CmdId_MIN;
-const SetCodexPushtipsReadReq_CmdId SetCodexPushtipsReadReq::CmdId_MAX;
-const int SetCodexPushtipsReadReq::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* SetCodexPushtipsReadRsp_CmdId_descriptor() {
-  protobuf_cmd_2fcmd_5fcodex_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fcodex_2eproto::file_level_enum_descriptors[7];
-}
-bool SetCodexPushtipsReadRsp_CmdId_IsValid(int value) {
-  switch (value) {
-    case 0:
-    case 1:
-    case 4210:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const SetCodexPushtipsReadRsp_CmdId SetCodexPushtipsReadRsp::NONE;
-const SetCodexPushtipsReadRsp_CmdId SetCodexPushtipsReadRsp::CMD_ID;
-const SetCodexPushtipsReadRsp_CmdId SetCodexPushtipsReadRsp::ENET_CHANNEL_ID;
-const SetCodexPushtipsReadRsp_CmdId SetCodexPushtipsReadRsp::ENET_IS_RELIABLE;
-const SetCodexPushtipsReadRsp_CmdId SetCodexPushtipsReadRsp::CmdId_MIN;
-const SetCodexPushtipsReadRsp_CmdId SetCodexPushtipsReadRsp::CmdId_MAX;
-const int SetCodexPushtipsReadRsp::CmdId_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-// ===================================================================
-
-CodexTypeData::CodexTypeData_WeaponMaxPromoteLevelMapEntry::CodexTypeData_WeaponMaxPromoteLevelMapEntry() {}
-CodexTypeData::CodexTypeData_WeaponMaxPromoteLevelMapEntry::CodexTypeData_WeaponMaxPromoteLevelMapEntry(::google::protobuf::Arena* arena) : SuperType(arena) {}
-::google::protobuf::Metadata CodexTypeData::CodexTypeData_WeaponMaxPromoteLevelMapEntry::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fcodex_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fcodex_2eproto::file_level_metadata[0];
-}
-void CodexTypeData::CodexTypeData_WeaponMaxPromoteLevelMapEntry::MergeFrom(
-    const ::google::protobuf::Message& other) {
-  ::google::protobuf::Message::MergeFrom(other);
-}
-void CodexTypeData::CodexTypeData_WeaponMaxPromoteLevelMapEntry::MergeFrom(const CodexTypeData_WeaponMaxPromoteLevelMapEntry& other) {
-  MergeFromInternal(other);
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int CodexTypeData::kCodexIdListFieldNumber;
-const int CodexTypeData::kWeaponMaxPromoteLevelMapFieldNumber;
-const int CodexTypeData::kTypeFieldNumber;
-const int CodexTypeData::kHaveViewedListFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-CodexTypeData::CodexTypeData()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fcodex_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.CodexTypeData)
-}
-CodexTypeData::CodexTypeData(const CodexTypeData& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      codex_id_list_(from.codex_id_list_),
-      have_viewed_list_(from.have_viewed_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  weapon_max_promote_level_map_.MergeFrom(from.weapon_max_promote_level_map_);
-  type_ = from.type_;
-  // @@protoc_insertion_point(copy_constructor:proto.CodexTypeData)
-}
-
-void CodexTypeData::SharedCtor() {
-  type_ = 0;
-  _cached_size_ = 0;
-}
-
-CodexTypeData::~CodexTypeData() {
-  // @@protoc_insertion_point(destructor:proto.CodexTypeData)
-  SharedDtor();
-}
-
-void CodexTypeData::SharedDtor() {
-}
-
-void CodexTypeData::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* CodexTypeData::descriptor() {
-  protobuf_cmd_2fcmd_5fcodex_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fcodex_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const CodexTypeData& CodexTypeData::default_instance() {
-  protobuf_cmd_2fcmd_5fcodex_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-CodexTypeData* CodexTypeData::New(::google::protobuf::Arena* arena) const {
-  CodexTypeData* n = new CodexTypeData;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void CodexTypeData::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.CodexTypeData)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  weapon_max_promote_level_map_.Clear();
-  codex_id_list_.Clear();
-  have_viewed_list_.Clear();
-  type_ = 0;
-  _internal_metadata_.Clear();
-}
-
 bool CodexTypeData::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -711,16 +157,18 @@ bool CodexTypeData::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.CodexTypeData)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.CodexTypeData)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -796,9 +244,9 @@ void CodexTypeData::SerializeWithCachedSizes(
       14, this->type(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.CodexTypeData)
 }
@@ -885,9 +333,9 @@ void CodexTypeData::SerializeWithCachedSizes(
       14, this->type(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.CodexTypeData)
   return target;
@@ -897,10 +345,10 @@ size_t CodexTypeData::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.CodexTypeData)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // map<uint32, uint32> weapon_max_promote_level_map = 3;
   total_size += 1 *
@@ -959,252 +407,6 @@ size_t CodexTypeData::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void CodexTypeData::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.CodexTypeData)
-  GOOGLE_DCHECK_NE(&from, this);
-  const CodexTypeData* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const CodexTypeData>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.CodexTypeData)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.CodexTypeData)
-    MergeFrom(*source);
-  }
-}
-
-void CodexTypeData::MergeFrom(const CodexTypeData& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.CodexTypeData)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  weapon_max_promote_level_map_.MergeFrom(from.weapon_max_promote_level_map_);
-  codex_id_list_.MergeFrom(from.codex_id_list_);
-  have_viewed_list_.MergeFrom(from.have_viewed_list_);
-  if (from.type() != 0) {
-    set_type(from.type());
-  }
-}
-
-void CodexTypeData::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.CodexTypeData)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void CodexTypeData::CopyFrom(const CodexTypeData& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.CodexTypeData)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool CodexTypeData::IsInitialized() const {
-  return true;
-}
-
-void CodexTypeData::Swap(CodexTypeData* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void CodexTypeData::InternalSwap(CodexTypeData* other) {
-  using std::swap;
-  weapon_max_promote_level_map_.Swap(&other->weapon_max_promote_level_map_);
-  codex_id_list_.InternalSwap(&other->codex_id_list_);
-  have_viewed_list_.InternalSwap(&other->have_viewed_list_);
-  swap(type_, other->type_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata CodexTypeData::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fcodex_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fcodex_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// CodexTypeData
-
-// repeated uint32 codex_id_list = 4;
-int CodexTypeData::codex_id_list_size() const {
-  return codex_id_list_.size();
-}
-void CodexTypeData::clear_codex_id_list() {
-  codex_id_list_.Clear();
-}
-::google::protobuf::uint32 CodexTypeData::codex_id_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.CodexTypeData.codex_id_list)
-  return codex_id_list_.Get(index);
-}
-void CodexTypeData::set_codex_id_list(int index, ::google::protobuf::uint32 value) {
-  codex_id_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.CodexTypeData.codex_id_list)
-}
-void CodexTypeData::add_codex_id_list(::google::protobuf::uint32 value) {
-  codex_id_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.CodexTypeData.codex_id_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint32 >&
-CodexTypeData::codex_id_list() const {
-  // @@protoc_insertion_point(field_list:proto.CodexTypeData.codex_id_list)
-  return codex_id_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint32 >*
-CodexTypeData::mutable_codex_id_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.CodexTypeData.codex_id_list)
-  return &codex_id_list_;
-}
-
-// map<uint32, uint32> weapon_max_promote_level_map = 3;
-int CodexTypeData::weapon_max_promote_level_map_size() const {
-  return weapon_max_promote_level_map_.size();
-}
-void CodexTypeData::clear_weapon_max_promote_level_map() {
-  weapon_max_promote_level_map_.Clear();
-}
- const ::google::protobuf::Map< ::google::protobuf::uint32, ::google::protobuf::uint32 >&
-CodexTypeData::weapon_max_promote_level_map() const {
-  // @@protoc_insertion_point(field_map:proto.CodexTypeData.weapon_max_promote_level_map)
-  return weapon_max_promote_level_map_.GetMap();
-}
- ::google::protobuf::Map< ::google::protobuf::uint32, ::google::protobuf::uint32 >*
-CodexTypeData::mutable_weapon_max_promote_level_map() {
-  // @@protoc_insertion_point(field_mutable_map:proto.CodexTypeData.weapon_max_promote_level_map)
-  return weapon_max_promote_level_map_.MutableMap();
-}
-
-// .proto.CodexType type = 14;
-void CodexTypeData::clear_type() {
-  type_ = 0;
-}
-::proto::CodexType CodexTypeData::type() const {
-  // @@protoc_insertion_point(field_get:proto.CodexTypeData.type)
-  return static_cast< ::proto::CodexType >(type_);
-}
-void CodexTypeData::set_type(::proto::CodexType value) {
-  
-  type_ = value;
-  // @@protoc_insertion_point(field_set:proto.CodexTypeData.type)
-}
-
-// repeated bool have_viewed_list = 8;
-int CodexTypeData::have_viewed_list_size() const {
-  return have_viewed_list_.size();
-}
-void CodexTypeData::clear_have_viewed_list() {
-  have_viewed_list_.Clear();
-}
-bool CodexTypeData::have_viewed_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.CodexTypeData.have_viewed_list)
-  return have_viewed_list_.Get(index);
-}
-void CodexTypeData::set_have_viewed_list(int index, bool value) {
-  have_viewed_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.CodexTypeData.have_viewed_list)
-}
-void CodexTypeData::add_have_viewed_list(bool value) {
-  have_viewed_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.CodexTypeData.have_viewed_list)
-}
-const ::google::protobuf::RepeatedField< bool >&
-CodexTypeData::have_viewed_list() const {
-  // @@protoc_insertion_point(field_list:proto.CodexTypeData.have_viewed_list)
-  return have_viewed_list_;
-}
-::google::protobuf::RepeatedField< bool >*
-CodexTypeData::mutable_have_viewed_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.CodexTypeData.have_viewed_list)
-  return &have_viewed_list_;
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int CodexDataFullNotify::kLastReadPushtipsCodexIdFieldNumber;
-const int CodexDataFullNotify::kRecentViewedPushtipsListFieldNumber;
-const int CodexDataFullNotify::kLastReadPushtipsTypeIdFieldNumber;
-const int CodexDataFullNotify::kTypeDataListFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-CodexDataFullNotify::CodexDataFullNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fcodex_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.CodexDataFullNotify)
-}
-CodexDataFullNotify::CodexDataFullNotify(const CodexDataFullNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      recent_viewed_pushtips_list_(from.recent_viewed_pushtips_list_),
-      type_data_list_(from.type_data_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&last_read_pushtips_type_id_, &from.last_read_pushtips_type_id_,
-    static_cast<size_t>(reinterpret_cast<char*>(&last_read_pushtips_codex_id_) -
-    reinterpret_cast<char*>(&last_read_pushtips_type_id_)) + sizeof(last_read_pushtips_codex_id_));
-  // @@protoc_insertion_point(copy_constructor:proto.CodexDataFullNotify)
-}
-
-void CodexDataFullNotify::SharedCtor() {
-  ::memset(&last_read_pushtips_type_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&last_read_pushtips_codex_id_) -
-      reinterpret_cast<char*>(&last_read_pushtips_type_id_)) + sizeof(last_read_pushtips_codex_id_));
-  _cached_size_ = 0;
-}
-
-CodexDataFullNotify::~CodexDataFullNotify() {
-  // @@protoc_insertion_point(destructor:proto.CodexDataFullNotify)
-  SharedDtor();
-}
-
-void CodexDataFullNotify::SharedDtor() {
-}
-
-void CodexDataFullNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* CodexDataFullNotify::descriptor() {
-  protobuf_cmd_2fcmd_5fcodex_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fcodex_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const CodexDataFullNotify& CodexDataFullNotify::default_instance() {
-  protobuf_cmd_2fcmd_5fcodex_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-CodexDataFullNotify* CodexDataFullNotify::New(::google::protobuf::Arena* arena) const {
-  CodexDataFullNotify* n = new CodexDataFullNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void CodexDataFullNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.CodexDataFullNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  recent_viewed_pushtips_list_.Clear();
-  type_data_list_.Clear();
-  ::memset(&last_read_pushtips_type_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&last_read_pushtips_codex_id_) -
-      reinterpret_cast<char*>(&last_read_pushtips_type_id_)) + sizeof(last_read_pushtips_codex_id_));
-  _internal_metadata_.Clear();
 }
 
 bool CodexDataFullNotify::MergePartialFromCodedStream(
@@ -1282,16 +484,18 @@ bool CodexDataFullNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.CodexDataFullNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.CodexDataFullNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -1330,9 +534,9 @@ void CodexDataFullNotify::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(11, this->last_read_pushtips_codex_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.CodexDataFullNotify)
 }
@@ -1375,9 +579,9 @@ void CodexDataFullNotify::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(11, this->last_read_pushtips_codex_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.CodexDataFullNotify)
   return target;
@@ -1387,10 +591,10 @@ size_t CodexDataFullNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.CodexDataFullNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated uint32 recent_viewed_pushtips_list = 1;
   {
@@ -1438,245 +642,6 @@ size_t CodexDataFullNotify::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void CodexDataFullNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.CodexDataFullNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const CodexDataFullNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const CodexDataFullNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.CodexDataFullNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.CodexDataFullNotify)
-    MergeFrom(*source);
-  }
-}
-
-void CodexDataFullNotify::MergeFrom(const CodexDataFullNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.CodexDataFullNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  recent_viewed_pushtips_list_.MergeFrom(from.recent_viewed_pushtips_list_);
-  type_data_list_.MergeFrom(from.type_data_list_);
-  if (from.last_read_pushtips_type_id() != 0) {
-    set_last_read_pushtips_type_id(from.last_read_pushtips_type_id());
-  }
-  if (from.last_read_pushtips_codex_id() != 0) {
-    set_last_read_pushtips_codex_id(from.last_read_pushtips_codex_id());
-  }
-}
-
-void CodexDataFullNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.CodexDataFullNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void CodexDataFullNotify::CopyFrom(const CodexDataFullNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.CodexDataFullNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool CodexDataFullNotify::IsInitialized() const {
-  return true;
-}
-
-void CodexDataFullNotify::Swap(CodexDataFullNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void CodexDataFullNotify::InternalSwap(CodexDataFullNotify* other) {
-  using std::swap;
-  recent_viewed_pushtips_list_.InternalSwap(&other->recent_viewed_pushtips_list_);
-  type_data_list_.InternalSwap(&other->type_data_list_);
-  swap(last_read_pushtips_type_id_, other->last_read_pushtips_type_id_);
-  swap(last_read_pushtips_codex_id_, other->last_read_pushtips_codex_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata CodexDataFullNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fcodex_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fcodex_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// CodexDataFullNotify
-
-// uint32 last_read_pushtips_codex_id = 11;
-void CodexDataFullNotify::clear_last_read_pushtips_codex_id() {
-  last_read_pushtips_codex_id_ = 0u;
-}
-::google::protobuf::uint32 CodexDataFullNotify::last_read_pushtips_codex_id() const {
-  // @@protoc_insertion_point(field_get:proto.CodexDataFullNotify.last_read_pushtips_codex_id)
-  return last_read_pushtips_codex_id_;
-}
-void CodexDataFullNotify::set_last_read_pushtips_codex_id(::google::protobuf::uint32 value) {
-  
-  last_read_pushtips_codex_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.CodexDataFullNotify.last_read_pushtips_codex_id)
-}
-
-// repeated uint32 recent_viewed_pushtips_list = 1;
-int CodexDataFullNotify::recent_viewed_pushtips_list_size() const {
-  return recent_viewed_pushtips_list_.size();
-}
-void CodexDataFullNotify::clear_recent_viewed_pushtips_list() {
-  recent_viewed_pushtips_list_.Clear();
-}
-::google::protobuf::uint32 CodexDataFullNotify::recent_viewed_pushtips_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.CodexDataFullNotify.recent_viewed_pushtips_list)
-  return recent_viewed_pushtips_list_.Get(index);
-}
-void CodexDataFullNotify::set_recent_viewed_pushtips_list(int index, ::google::protobuf::uint32 value) {
-  recent_viewed_pushtips_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.CodexDataFullNotify.recent_viewed_pushtips_list)
-}
-void CodexDataFullNotify::add_recent_viewed_pushtips_list(::google::protobuf::uint32 value) {
-  recent_viewed_pushtips_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.CodexDataFullNotify.recent_viewed_pushtips_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint32 >&
-CodexDataFullNotify::recent_viewed_pushtips_list() const {
-  // @@protoc_insertion_point(field_list:proto.CodexDataFullNotify.recent_viewed_pushtips_list)
-  return recent_viewed_pushtips_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint32 >*
-CodexDataFullNotify::mutable_recent_viewed_pushtips_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.CodexDataFullNotify.recent_viewed_pushtips_list)
-  return &recent_viewed_pushtips_list_;
-}
-
-// uint32 last_read_pushtips_type_id = 10;
-void CodexDataFullNotify::clear_last_read_pushtips_type_id() {
-  last_read_pushtips_type_id_ = 0u;
-}
-::google::protobuf::uint32 CodexDataFullNotify::last_read_pushtips_type_id() const {
-  // @@protoc_insertion_point(field_get:proto.CodexDataFullNotify.last_read_pushtips_type_id)
-  return last_read_pushtips_type_id_;
-}
-void CodexDataFullNotify::set_last_read_pushtips_type_id(::google::protobuf::uint32 value) {
-  
-  last_read_pushtips_type_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.CodexDataFullNotify.last_read_pushtips_type_id)
-}
-
-// repeated .proto.CodexTypeData type_data_list = 8;
-int CodexDataFullNotify::type_data_list_size() const {
-  return type_data_list_.size();
-}
-void CodexDataFullNotify::clear_type_data_list() {
-  type_data_list_.Clear();
-}
-const ::proto::CodexTypeData& CodexDataFullNotify::type_data_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.CodexDataFullNotify.type_data_list)
-  return type_data_list_.Get(index);
-}
-::proto::CodexTypeData* CodexDataFullNotify::mutable_type_data_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.CodexDataFullNotify.type_data_list)
-  return type_data_list_.Mutable(index);
-}
-::proto::CodexTypeData* CodexDataFullNotify::add_type_data_list() {
-  // @@protoc_insertion_point(field_add:proto.CodexDataFullNotify.type_data_list)
-  return type_data_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::CodexTypeData >*
-CodexDataFullNotify::mutable_type_data_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.CodexDataFullNotify.type_data_list)
-  return &type_data_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::CodexTypeData >&
-CodexDataFullNotify::type_data_list() const {
-  // @@protoc_insertion_point(field_list:proto.CodexDataFullNotify.type_data_list)
-  return type_data_list_;
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int CodexDataUpdateNotify::kIdFieldNumber;
-const int CodexDataUpdateNotify::kWeaponMaxPromoteLevelFieldNumber;
-const int CodexDataUpdateNotify::kTypeFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-CodexDataUpdateNotify::CodexDataUpdateNotify()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fcodex_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.CodexDataUpdateNotify)
-}
-CodexDataUpdateNotify::CodexDataUpdateNotify(const CodexDataUpdateNotify& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&weapon_max_promote_level_, &from.weapon_max_promote_level_,
-    static_cast<size_t>(reinterpret_cast<char*>(&type_) -
-    reinterpret_cast<char*>(&weapon_max_promote_level_)) + sizeof(type_));
-  // @@protoc_insertion_point(copy_constructor:proto.CodexDataUpdateNotify)
-}
-
-void CodexDataUpdateNotify::SharedCtor() {
-  ::memset(&weapon_max_promote_level_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&type_) -
-      reinterpret_cast<char*>(&weapon_max_promote_level_)) + sizeof(type_));
-  _cached_size_ = 0;
-}
-
-CodexDataUpdateNotify::~CodexDataUpdateNotify() {
-  // @@protoc_insertion_point(destructor:proto.CodexDataUpdateNotify)
-  SharedDtor();
-}
-
-void CodexDataUpdateNotify::SharedDtor() {
-}
-
-void CodexDataUpdateNotify::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* CodexDataUpdateNotify::descriptor() {
-  protobuf_cmd_2fcmd_5fcodex_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fcodex_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const CodexDataUpdateNotify& CodexDataUpdateNotify::default_instance() {
-  protobuf_cmd_2fcmd_5fcodex_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-CodexDataUpdateNotify* CodexDataUpdateNotify::New(::google::protobuf::Arena* arena) const {
-  CodexDataUpdateNotify* n = new CodexDataUpdateNotify;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void CodexDataUpdateNotify::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.CodexDataUpdateNotify)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&weapon_max_promote_level_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&type_) -
-      reinterpret_cast<char*>(&weapon_max_promote_level_)) + sizeof(type_));
-  _internal_metadata_.Clear();
 }
 
 bool CodexDataUpdateNotify::MergePartialFromCodedStream(
@@ -1738,16 +703,18 @@ bool CodexDataUpdateNotify::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.CodexDataUpdateNotify)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.CodexDataUpdateNotify)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -1774,9 +741,9 @@ void CodexDataUpdateNotify::SerializeWithCachedSizes(
       15, this->type(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.CodexDataUpdateNotify)
 }
@@ -1804,9 +771,9 @@ void CodexDataUpdateNotify::SerializeWithCachedSizes(
       15, this->type(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.CodexDataUpdateNotify)
   return target;
@@ -1816,10 +783,10 @@ size_t CodexDataUpdateNotify::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.CodexDataUpdateNotify)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 weapon_max_promote_level = 1;
   if (this->weapon_max_promote_level() != 0) {
@@ -1846,190 +813,6 @@ size_t CodexDataUpdateNotify::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void CodexDataUpdateNotify::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.CodexDataUpdateNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  const CodexDataUpdateNotify* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const CodexDataUpdateNotify>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.CodexDataUpdateNotify)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.CodexDataUpdateNotify)
-    MergeFrom(*source);
-  }
-}
-
-void CodexDataUpdateNotify::MergeFrom(const CodexDataUpdateNotify& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.CodexDataUpdateNotify)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.weapon_max_promote_level() != 0) {
-    set_weapon_max_promote_level(from.weapon_max_promote_level());
-  }
-  if (from.id() != 0) {
-    set_id(from.id());
-  }
-  if (from.type() != 0) {
-    set_type(from.type());
-  }
-}
-
-void CodexDataUpdateNotify::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.CodexDataUpdateNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void CodexDataUpdateNotify::CopyFrom(const CodexDataUpdateNotify& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.CodexDataUpdateNotify)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool CodexDataUpdateNotify::IsInitialized() const {
-  return true;
-}
-
-void CodexDataUpdateNotify::Swap(CodexDataUpdateNotify* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void CodexDataUpdateNotify::InternalSwap(CodexDataUpdateNotify* other) {
-  using std::swap;
-  swap(weapon_max_promote_level_, other->weapon_max_promote_level_);
-  swap(id_, other->id_);
-  swap(type_, other->type_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata CodexDataUpdateNotify::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fcodex_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fcodex_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// CodexDataUpdateNotify
-
-// uint32 id = 6;
-void CodexDataUpdateNotify::clear_id() {
-  id_ = 0u;
-}
-::google::protobuf::uint32 CodexDataUpdateNotify::id() const {
-  // @@protoc_insertion_point(field_get:proto.CodexDataUpdateNotify.id)
-  return id_;
-}
-void CodexDataUpdateNotify::set_id(::google::protobuf::uint32 value) {
-  
-  id_ = value;
-  // @@protoc_insertion_point(field_set:proto.CodexDataUpdateNotify.id)
-}
-
-// uint32 weapon_max_promote_level = 1;
-void CodexDataUpdateNotify::clear_weapon_max_promote_level() {
-  weapon_max_promote_level_ = 0u;
-}
-::google::protobuf::uint32 CodexDataUpdateNotify::weapon_max_promote_level() const {
-  // @@protoc_insertion_point(field_get:proto.CodexDataUpdateNotify.weapon_max_promote_level)
-  return weapon_max_promote_level_;
-}
-void CodexDataUpdateNotify::set_weapon_max_promote_level(::google::protobuf::uint32 value) {
-  
-  weapon_max_promote_level_ = value;
-  // @@protoc_insertion_point(field_set:proto.CodexDataUpdateNotify.weapon_max_promote_level)
-}
-
-// .proto.CodexType type = 15;
-void CodexDataUpdateNotify::clear_type() {
-  type_ = 0;
-}
-::proto::CodexType CodexDataUpdateNotify::type() const {
-  // @@protoc_insertion_point(field_get:proto.CodexDataUpdateNotify.type)
-  return static_cast< ::proto::CodexType >(type_);
-}
-void CodexDataUpdateNotify::set_type(::proto::CodexType value) {
-  
-  type_ = value;
-  // @@protoc_insertion_point(field_set:proto.CodexDataUpdateNotify.type)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int QueryCodexMonsterBeKilledNumReq::kCodexIdListFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-QueryCodexMonsterBeKilledNumReq::QueryCodexMonsterBeKilledNumReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fcodex_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.QueryCodexMonsterBeKilledNumReq)
-}
-QueryCodexMonsterBeKilledNumReq::QueryCodexMonsterBeKilledNumReq(const QueryCodexMonsterBeKilledNumReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      codex_id_list_(from.codex_id_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  // @@protoc_insertion_point(copy_constructor:proto.QueryCodexMonsterBeKilledNumReq)
-}
-
-void QueryCodexMonsterBeKilledNumReq::SharedCtor() {
-  _cached_size_ = 0;
-}
-
-QueryCodexMonsterBeKilledNumReq::~QueryCodexMonsterBeKilledNumReq() {
-  // @@protoc_insertion_point(destructor:proto.QueryCodexMonsterBeKilledNumReq)
-  SharedDtor();
-}
-
-void QueryCodexMonsterBeKilledNumReq::SharedDtor() {
-}
-
-void QueryCodexMonsterBeKilledNumReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* QueryCodexMonsterBeKilledNumReq::descriptor() {
-  protobuf_cmd_2fcmd_5fcodex_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fcodex_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const QueryCodexMonsterBeKilledNumReq& QueryCodexMonsterBeKilledNumReq::default_instance() {
-  protobuf_cmd_2fcmd_5fcodex_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-QueryCodexMonsterBeKilledNumReq* QueryCodexMonsterBeKilledNumReq::New(::google::protobuf::Arena* arena) const {
-  QueryCodexMonsterBeKilledNumReq* n = new QueryCodexMonsterBeKilledNumReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void QueryCodexMonsterBeKilledNumReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.QueryCodexMonsterBeKilledNumReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  codex_id_list_.Clear();
-  _internal_metadata_.Clear();
 }
 
 bool QueryCodexMonsterBeKilledNumReq::MergePartialFromCodedStream(
@@ -2067,16 +850,18 @@ bool QueryCodexMonsterBeKilledNumReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.QueryCodexMonsterBeKilledNumReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.QueryCodexMonsterBeKilledNumReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -2098,9 +883,9 @@ void QueryCodexMonsterBeKilledNumReq::SerializeWithCachedSizes(
       this->codex_id_list(i), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.QueryCodexMonsterBeKilledNumReq)
 }
@@ -2125,9 +910,9 @@ void QueryCodexMonsterBeKilledNumReq::SerializeWithCachedSizes(
       WriteUInt32NoTagToArray(this->codex_id_list_, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.QueryCodexMonsterBeKilledNumReq)
   return target;
@@ -2137,10 +922,10 @@ size_t QueryCodexMonsterBeKilledNumReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.QueryCodexMonsterBeKilledNumReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated uint32 codex_id_list = 1;
   {
@@ -2163,178 +948,6 @@ size_t QueryCodexMonsterBeKilledNumReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void QueryCodexMonsterBeKilledNumReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.QueryCodexMonsterBeKilledNumReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const QueryCodexMonsterBeKilledNumReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const QueryCodexMonsterBeKilledNumReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.QueryCodexMonsterBeKilledNumReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.QueryCodexMonsterBeKilledNumReq)
-    MergeFrom(*source);
-  }
-}
-
-void QueryCodexMonsterBeKilledNumReq::MergeFrom(const QueryCodexMonsterBeKilledNumReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.QueryCodexMonsterBeKilledNumReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  codex_id_list_.MergeFrom(from.codex_id_list_);
-}
-
-void QueryCodexMonsterBeKilledNumReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.QueryCodexMonsterBeKilledNumReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void QueryCodexMonsterBeKilledNumReq::CopyFrom(const QueryCodexMonsterBeKilledNumReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.QueryCodexMonsterBeKilledNumReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool QueryCodexMonsterBeKilledNumReq::IsInitialized() const {
-  return true;
-}
-
-void QueryCodexMonsterBeKilledNumReq::Swap(QueryCodexMonsterBeKilledNumReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void QueryCodexMonsterBeKilledNumReq::InternalSwap(QueryCodexMonsterBeKilledNumReq* other) {
-  using std::swap;
-  codex_id_list_.InternalSwap(&other->codex_id_list_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata QueryCodexMonsterBeKilledNumReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fcodex_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fcodex_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// QueryCodexMonsterBeKilledNumReq
-
-// repeated uint32 codex_id_list = 1;
-int QueryCodexMonsterBeKilledNumReq::codex_id_list_size() const {
-  return codex_id_list_.size();
-}
-void QueryCodexMonsterBeKilledNumReq::clear_codex_id_list() {
-  codex_id_list_.Clear();
-}
-::google::protobuf::uint32 QueryCodexMonsterBeKilledNumReq::codex_id_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.QueryCodexMonsterBeKilledNumReq.codex_id_list)
-  return codex_id_list_.Get(index);
-}
-void QueryCodexMonsterBeKilledNumReq::set_codex_id_list(int index, ::google::protobuf::uint32 value) {
-  codex_id_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.QueryCodexMonsterBeKilledNumReq.codex_id_list)
-}
-void QueryCodexMonsterBeKilledNumReq::add_codex_id_list(::google::protobuf::uint32 value) {
-  codex_id_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.QueryCodexMonsterBeKilledNumReq.codex_id_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint32 >&
-QueryCodexMonsterBeKilledNumReq::codex_id_list() const {
-  // @@protoc_insertion_point(field_list:proto.QueryCodexMonsterBeKilledNumReq.codex_id_list)
-  return codex_id_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint32 >*
-QueryCodexMonsterBeKilledNumReq::mutable_codex_id_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.QueryCodexMonsterBeKilledNumReq.codex_id_list)
-  return &codex_id_list_;
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int QueryCodexMonsterBeKilledNumRsp::kCodexIdListFieldNumber;
-const int QueryCodexMonsterBeKilledNumRsp::kBeCapturedNumListFieldNumber;
-const int QueryCodexMonsterBeKilledNumRsp::kBeKilledNumListFieldNumber;
-const int QueryCodexMonsterBeKilledNumRsp::kRetcodeFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-QueryCodexMonsterBeKilledNumRsp::QueryCodexMonsterBeKilledNumRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fcodex_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.QueryCodexMonsterBeKilledNumRsp)
-}
-QueryCodexMonsterBeKilledNumRsp::QueryCodexMonsterBeKilledNumRsp(const QueryCodexMonsterBeKilledNumRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      codex_id_list_(from.codex_id_list_),
-      be_captured_num_list_(from.be_captured_num_list_),
-      be_killed_num_list_(from.be_killed_num_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  retcode_ = from.retcode_;
-  // @@protoc_insertion_point(copy_constructor:proto.QueryCodexMonsterBeKilledNumRsp)
-}
-
-void QueryCodexMonsterBeKilledNumRsp::SharedCtor() {
-  retcode_ = 0;
-  _cached_size_ = 0;
-}
-
-QueryCodexMonsterBeKilledNumRsp::~QueryCodexMonsterBeKilledNumRsp() {
-  // @@protoc_insertion_point(destructor:proto.QueryCodexMonsterBeKilledNumRsp)
-  SharedDtor();
-}
-
-void QueryCodexMonsterBeKilledNumRsp::SharedDtor() {
-}
-
-void QueryCodexMonsterBeKilledNumRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* QueryCodexMonsterBeKilledNumRsp::descriptor() {
-  protobuf_cmd_2fcmd_5fcodex_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fcodex_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const QueryCodexMonsterBeKilledNumRsp& QueryCodexMonsterBeKilledNumRsp::default_instance() {
-  protobuf_cmd_2fcmd_5fcodex_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-QueryCodexMonsterBeKilledNumRsp* QueryCodexMonsterBeKilledNumRsp::New(::google::protobuf::Arena* arena) const {
-  QueryCodexMonsterBeKilledNumRsp* n = new QueryCodexMonsterBeKilledNumRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void QueryCodexMonsterBeKilledNumRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.QueryCodexMonsterBeKilledNumRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  codex_id_list_.Clear();
-  be_captured_num_list_.Clear();
-  be_killed_num_list_.Clear();
-  retcode_ = 0;
-  _internal_metadata_.Clear();
 }
 
 bool QueryCodexMonsterBeKilledNumRsp::MergePartialFromCodedStream(
@@ -2424,16 +1037,18 @@ bool QueryCodexMonsterBeKilledNumRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.QueryCodexMonsterBeKilledNumRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.QueryCodexMonsterBeKilledNumRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -2482,9 +1097,9 @@ void QueryCodexMonsterBeKilledNumRsp::SerializeWithCachedSizes(
       this->be_killed_num_list(i), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.QueryCodexMonsterBeKilledNumRsp)
 }
@@ -2540,9 +1155,9 @@ void QueryCodexMonsterBeKilledNumRsp::SerializeWithCachedSizes(
       WriteUInt32NoTagToArray(this->be_killed_num_list_, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.QueryCodexMonsterBeKilledNumRsp)
   return target;
@@ -2552,10 +1167,10 @@ size_t QueryCodexMonsterBeKilledNumRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.QueryCodexMonsterBeKilledNumRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated uint32 codex_id_list = 4;
   {
@@ -2619,250 +1234,6 @@ size_t QueryCodexMonsterBeKilledNumRsp::ByteSizeLong() const {
   return total_size;
 }
 
-void QueryCodexMonsterBeKilledNumRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.QueryCodexMonsterBeKilledNumRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const QueryCodexMonsterBeKilledNumRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const QueryCodexMonsterBeKilledNumRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.QueryCodexMonsterBeKilledNumRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.QueryCodexMonsterBeKilledNumRsp)
-    MergeFrom(*source);
-  }
-}
-
-void QueryCodexMonsterBeKilledNumRsp::MergeFrom(const QueryCodexMonsterBeKilledNumRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.QueryCodexMonsterBeKilledNumRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  codex_id_list_.MergeFrom(from.codex_id_list_);
-  be_captured_num_list_.MergeFrom(from.be_captured_num_list_);
-  be_killed_num_list_.MergeFrom(from.be_killed_num_list_);
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-}
-
-void QueryCodexMonsterBeKilledNumRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.QueryCodexMonsterBeKilledNumRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void QueryCodexMonsterBeKilledNumRsp::CopyFrom(const QueryCodexMonsterBeKilledNumRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.QueryCodexMonsterBeKilledNumRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool QueryCodexMonsterBeKilledNumRsp::IsInitialized() const {
-  return true;
-}
-
-void QueryCodexMonsterBeKilledNumRsp::Swap(QueryCodexMonsterBeKilledNumRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void QueryCodexMonsterBeKilledNumRsp::InternalSwap(QueryCodexMonsterBeKilledNumRsp* other) {
-  using std::swap;
-  codex_id_list_.InternalSwap(&other->codex_id_list_);
-  be_captured_num_list_.InternalSwap(&other->be_captured_num_list_);
-  be_killed_num_list_.InternalSwap(&other->be_killed_num_list_);
-  swap(retcode_, other->retcode_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata QueryCodexMonsterBeKilledNumRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fcodex_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fcodex_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// QueryCodexMonsterBeKilledNumRsp
-
-// repeated uint32 codex_id_list = 4;
-int QueryCodexMonsterBeKilledNumRsp::codex_id_list_size() const {
-  return codex_id_list_.size();
-}
-void QueryCodexMonsterBeKilledNumRsp::clear_codex_id_list() {
-  codex_id_list_.Clear();
-}
-::google::protobuf::uint32 QueryCodexMonsterBeKilledNumRsp::codex_id_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.QueryCodexMonsterBeKilledNumRsp.codex_id_list)
-  return codex_id_list_.Get(index);
-}
-void QueryCodexMonsterBeKilledNumRsp::set_codex_id_list(int index, ::google::protobuf::uint32 value) {
-  codex_id_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.QueryCodexMonsterBeKilledNumRsp.codex_id_list)
-}
-void QueryCodexMonsterBeKilledNumRsp::add_codex_id_list(::google::protobuf::uint32 value) {
-  codex_id_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.QueryCodexMonsterBeKilledNumRsp.codex_id_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint32 >&
-QueryCodexMonsterBeKilledNumRsp::codex_id_list() const {
-  // @@protoc_insertion_point(field_list:proto.QueryCodexMonsterBeKilledNumRsp.codex_id_list)
-  return codex_id_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint32 >*
-QueryCodexMonsterBeKilledNumRsp::mutable_codex_id_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.QueryCodexMonsterBeKilledNumRsp.codex_id_list)
-  return &codex_id_list_;
-}
-
-// repeated uint32 be_captured_num_list = 5;
-int QueryCodexMonsterBeKilledNumRsp::be_captured_num_list_size() const {
-  return be_captured_num_list_.size();
-}
-void QueryCodexMonsterBeKilledNumRsp::clear_be_captured_num_list() {
-  be_captured_num_list_.Clear();
-}
-::google::protobuf::uint32 QueryCodexMonsterBeKilledNumRsp::be_captured_num_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.QueryCodexMonsterBeKilledNumRsp.be_captured_num_list)
-  return be_captured_num_list_.Get(index);
-}
-void QueryCodexMonsterBeKilledNumRsp::set_be_captured_num_list(int index, ::google::protobuf::uint32 value) {
-  be_captured_num_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.QueryCodexMonsterBeKilledNumRsp.be_captured_num_list)
-}
-void QueryCodexMonsterBeKilledNumRsp::add_be_captured_num_list(::google::protobuf::uint32 value) {
-  be_captured_num_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.QueryCodexMonsterBeKilledNumRsp.be_captured_num_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint32 >&
-QueryCodexMonsterBeKilledNumRsp::be_captured_num_list() const {
-  // @@protoc_insertion_point(field_list:proto.QueryCodexMonsterBeKilledNumRsp.be_captured_num_list)
-  return be_captured_num_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint32 >*
-QueryCodexMonsterBeKilledNumRsp::mutable_be_captured_num_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.QueryCodexMonsterBeKilledNumRsp.be_captured_num_list)
-  return &be_captured_num_list_;
-}
-
-// repeated uint32 be_killed_num_list = 14;
-int QueryCodexMonsterBeKilledNumRsp::be_killed_num_list_size() const {
-  return be_killed_num_list_.size();
-}
-void QueryCodexMonsterBeKilledNumRsp::clear_be_killed_num_list() {
-  be_killed_num_list_.Clear();
-}
-::google::protobuf::uint32 QueryCodexMonsterBeKilledNumRsp::be_killed_num_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.QueryCodexMonsterBeKilledNumRsp.be_killed_num_list)
-  return be_killed_num_list_.Get(index);
-}
-void QueryCodexMonsterBeKilledNumRsp::set_be_killed_num_list(int index, ::google::protobuf::uint32 value) {
-  be_killed_num_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.QueryCodexMonsterBeKilledNumRsp.be_killed_num_list)
-}
-void QueryCodexMonsterBeKilledNumRsp::add_be_killed_num_list(::google::protobuf::uint32 value) {
-  be_killed_num_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.QueryCodexMonsterBeKilledNumRsp.be_killed_num_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint32 >&
-QueryCodexMonsterBeKilledNumRsp::be_killed_num_list() const {
-  // @@protoc_insertion_point(field_list:proto.QueryCodexMonsterBeKilledNumRsp.be_killed_num_list)
-  return be_killed_num_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint32 >*
-QueryCodexMonsterBeKilledNumRsp::mutable_be_killed_num_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.QueryCodexMonsterBeKilledNumRsp.be_killed_num_list)
-  return &be_killed_num_list_;
-}
-
-// int32 retcode = 6;
-void QueryCodexMonsterBeKilledNumRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 QueryCodexMonsterBeKilledNumRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.QueryCodexMonsterBeKilledNumRsp.retcode)
-  return retcode_;
-}
-void QueryCodexMonsterBeKilledNumRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.QueryCodexMonsterBeKilledNumRsp.retcode)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int ViewCodexReq::kTypeDataListFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-ViewCodexReq::ViewCodexReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fcodex_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.ViewCodexReq)
-}
-ViewCodexReq::ViewCodexReq(const ViewCodexReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      type_data_list_(from.type_data_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  // @@protoc_insertion_point(copy_constructor:proto.ViewCodexReq)
-}
-
-void ViewCodexReq::SharedCtor() {
-  _cached_size_ = 0;
-}
-
-ViewCodexReq::~ViewCodexReq() {
-  // @@protoc_insertion_point(destructor:proto.ViewCodexReq)
-  SharedDtor();
-}
-
-void ViewCodexReq::SharedDtor() {
-}
-
-void ViewCodexReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* ViewCodexReq::descriptor() {
-  protobuf_cmd_2fcmd_5fcodex_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fcodex_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const ViewCodexReq& ViewCodexReq::default_instance() {
-  protobuf_cmd_2fcmd_5fcodex_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-ViewCodexReq* ViewCodexReq::New(::google::protobuf::Arena* arena) const {
-  ViewCodexReq* n = new ViewCodexReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void ViewCodexReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.ViewCodexReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  type_data_list_.Clear();
-  _internal_metadata_.Clear();
-}
-
 bool ViewCodexReq::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -2891,16 +1262,18 @@ bool ViewCodexReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.ViewCodexReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.ViewCodexReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -2918,9 +1291,9 @@ void ViewCodexReq::SerializeWithCachedSizes(
       9, this->type_data_list(static_cast<int>(i)), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.ViewCodexReq)
 }
@@ -2940,9 +1313,9 @@ void ViewCodexReq::SerializeWithCachedSizes(
         9, this->type_data_list(static_cast<int>(i)), deterministic, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.ViewCodexReq)
   return target;
@@ -2952,10 +1325,10 @@ size_t ViewCodexReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.ViewCodexReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated .proto.CodexTypeData type_data_list = 9;
   {
@@ -2973,181 +1346,6 @@ size_t ViewCodexReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void ViewCodexReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.ViewCodexReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const ViewCodexReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const ViewCodexReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.ViewCodexReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.ViewCodexReq)
-    MergeFrom(*source);
-  }
-}
-
-void ViewCodexReq::MergeFrom(const ViewCodexReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.ViewCodexReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  type_data_list_.MergeFrom(from.type_data_list_);
-}
-
-void ViewCodexReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.ViewCodexReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void ViewCodexReq::CopyFrom(const ViewCodexReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.ViewCodexReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool ViewCodexReq::IsInitialized() const {
-  return true;
-}
-
-void ViewCodexReq::Swap(ViewCodexReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void ViewCodexReq::InternalSwap(ViewCodexReq* other) {
-  using std::swap;
-  type_data_list_.InternalSwap(&other->type_data_list_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata ViewCodexReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fcodex_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fcodex_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// ViewCodexReq
-
-// repeated .proto.CodexTypeData type_data_list = 9;
-int ViewCodexReq::type_data_list_size() const {
-  return type_data_list_.size();
-}
-void ViewCodexReq::clear_type_data_list() {
-  type_data_list_.Clear();
-}
-const ::proto::CodexTypeData& ViewCodexReq::type_data_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.ViewCodexReq.type_data_list)
-  return type_data_list_.Get(index);
-}
-::proto::CodexTypeData* ViewCodexReq::mutable_type_data_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.ViewCodexReq.type_data_list)
-  return type_data_list_.Mutable(index);
-}
-::proto::CodexTypeData* ViewCodexReq::add_type_data_list() {
-  // @@protoc_insertion_point(field_add:proto.ViewCodexReq.type_data_list)
-  return type_data_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::CodexTypeData >*
-ViewCodexReq::mutable_type_data_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.ViewCodexReq.type_data_list)
-  return &type_data_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::CodexTypeData >&
-ViewCodexReq::type_data_list() const {
-  // @@protoc_insertion_point(field_list:proto.ViewCodexReq.type_data_list)
-  return type_data_list_;
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int ViewCodexRsp::kRetcodeFieldNumber;
-const int ViewCodexRsp::kPushTipsRewardListFieldNumber;
-const int ViewCodexRsp::kRecentViewedPushtipsListFieldNumber;
-const int ViewCodexRsp::kTypeDataListFieldNumber;
-const int ViewCodexRsp::kPushTipsReadListFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-ViewCodexRsp::ViewCodexRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fcodex_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.ViewCodexRsp)
-}
-ViewCodexRsp::ViewCodexRsp(const ViewCodexRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      push_tips_read_list_(from.push_tips_read_list_),
-      type_data_list_(from.type_data_list_),
-      recent_viewed_pushtips_list_(from.recent_viewed_pushtips_list_),
-      push_tips_reward_list_(from.push_tips_reward_list_),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  retcode_ = from.retcode_;
-  // @@protoc_insertion_point(copy_constructor:proto.ViewCodexRsp)
-}
-
-void ViewCodexRsp::SharedCtor() {
-  retcode_ = 0;
-  _cached_size_ = 0;
-}
-
-ViewCodexRsp::~ViewCodexRsp() {
-  // @@protoc_insertion_point(destructor:proto.ViewCodexRsp)
-  SharedDtor();
-}
-
-void ViewCodexRsp::SharedDtor() {
-}
-
-void ViewCodexRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* ViewCodexRsp::descriptor() {
-  protobuf_cmd_2fcmd_5fcodex_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fcodex_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const ViewCodexRsp& ViewCodexRsp::default_instance() {
-  protobuf_cmd_2fcmd_5fcodex_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-ViewCodexRsp* ViewCodexRsp::New(::google::protobuf::Arena* arena) const {
-  ViewCodexRsp* n = new ViewCodexRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void ViewCodexRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.ViewCodexRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  push_tips_read_list_.Clear();
-  type_data_list_.Clear();
-  recent_viewed_pushtips_list_.Clear();
-  push_tips_reward_list_.Clear();
-  retcode_ = 0;
-  _internal_metadata_.Clear();
 }
 
 bool ViewCodexRsp::MergePartialFromCodedStream(
@@ -3249,16 +1447,18 @@ bool ViewCodexRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.ViewCodexRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.ViewCodexRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -3314,9 +1514,9 @@ void ViewCodexRsp::SerializeWithCachedSizes(
       this->push_tips_reward_list(i), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.ViewCodexRsp)
 }
@@ -3380,9 +1580,9 @@ void ViewCodexRsp::SerializeWithCachedSizes(
       WriteUInt32NoTagToArray(this->push_tips_reward_list_, target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.ViewCodexRsp)
   return target;
@@ -3392,10 +1592,10 @@ size_t ViewCodexRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.ViewCodexRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // repeated uint32 push_tips_read_list = 7;
   {
@@ -3470,290 +1670,6 @@ size_t ViewCodexRsp::ByteSizeLong() const {
   return total_size;
 }
 
-void ViewCodexRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.ViewCodexRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const ViewCodexRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const ViewCodexRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.ViewCodexRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.ViewCodexRsp)
-    MergeFrom(*source);
-  }
-}
-
-void ViewCodexRsp::MergeFrom(const ViewCodexRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.ViewCodexRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  push_tips_read_list_.MergeFrom(from.push_tips_read_list_);
-  type_data_list_.MergeFrom(from.type_data_list_);
-  recent_viewed_pushtips_list_.MergeFrom(from.recent_viewed_pushtips_list_);
-  push_tips_reward_list_.MergeFrom(from.push_tips_reward_list_);
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-}
-
-void ViewCodexRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.ViewCodexRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void ViewCodexRsp::CopyFrom(const ViewCodexRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.ViewCodexRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool ViewCodexRsp::IsInitialized() const {
-  return true;
-}
-
-void ViewCodexRsp::Swap(ViewCodexRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void ViewCodexRsp::InternalSwap(ViewCodexRsp* other) {
-  using std::swap;
-  push_tips_read_list_.InternalSwap(&other->push_tips_read_list_);
-  type_data_list_.InternalSwap(&other->type_data_list_);
-  recent_viewed_pushtips_list_.InternalSwap(&other->recent_viewed_pushtips_list_);
-  push_tips_reward_list_.InternalSwap(&other->push_tips_reward_list_);
-  swap(retcode_, other->retcode_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata ViewCodexRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fcodex_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fcodex_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// ViewCodexRsp
-
-// int32 retcode = 10;
-void ViewCodexRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 ViewCodexRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.ViewCodexRsp.retcode)
-  return retcode_;
-}
-void ViewCodexRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.ViewCodexRsp.retcode)
-}
-
-// repeated uint32 push_tips_reward_list = 14;
-int ViewCodexRsp::push_tips_reward_list_size() const {
-  return push_tips_reward_list_.size();
-}
-void ViewCodexRsp::clear_push_tips_reward_list() {
-  push_tips_reward_list_.Clear();
-}
-::google::protobuf::uint32 ViewCodexRsp::push_tips_reward_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.ViewCodexRsp.push_tips_reward_list)
-  return push_tips_reward_list_.Get(index);
-}
-void ViewCodexRsp::set_push_tips_reward_list(int index, ::google::protobuf::uint32 value) {
-  push_tips_reward_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.ViewCodexRsp.push_tips_reward_list)
-}
-void ViewCodexRsp::add_push_tips_reward_list(::google::protobuf::uint32 value) {
-  push_tips_reward_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.ViewCodexRsp.push_tips_reward_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint32 >&
-ViewCodexRsp::push_tips_reward_list() const {
-  // @@protoc_insertion_point(field_list:proto.ViewCodexRsp.push_tips_reward_list)
-  return push_tips_reward_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint32 >*
-ViewCodexRsp::mutable_push_tips_reward_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.ViewCodexRsp.push_tips_reward_list)
-  return &push_tips_reward_list_;
-}
-
-// repeated uint32 recent_viewed_pushtips_list = 13;
-int ViewCodexRsp::recent_viewed_pushtips_list_size() const {
-  return recent_viewed_pushtips_list_.size();
-}
-void ViewCodexRsp::clear_recent_viewed_pushtips_list() {
-  recent_viewed_pushtips_list_.Clear();
-}
-::google::protobuf::uint32 ViewCodexRsp::recent_viewed_pushtips_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.ViewCodexRsp.recent_viewed_pushtips_list)
-  return recent_viewed_pushtips_list_.Get(index);
-}
-void ViewCodexRsp::set_recent_viewed_pushtips_list(int index, ::google::protobuf::uint32 value) {
-  recent_viewed_pushtips_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.ViewCodexRsp.recent_viewed_pushtips_list)
-}
-void ViewCodexRsp::add_recent_viewed_pushtips_list(::google::protobuf::uint32 value) {
-  recent_viewed_pushtips_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.ViewCodexRsp.recent_viewed_pushtips_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint32 >&
-ViewCodexRsp::recent_viewed_pushtips_list() const {
-  // @@protoc_insertion_point(field_list:proto.ViewCodexRsp.recent_viewed_pushtips_list)
-  return recent_viewed_pushtips_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint32 >*
-ViewCodexRsp::mutable_recent_viewed_pushtips_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.ViewCodexRsp.recent_viewed_pushtips_list)
-  return &recent_viewed_pushtips_list_;
-}
-
-// repeated .proto.CodexTypeData type_data_list = 8;
-int ViewCodexRsp::type_data_list_size() const {
-  return type_data_list_.size();
-}
-void ViewCodexRsp::clear_type_data_list() {
-  type_data_list_.Clear();
-}
-const ::proto::CodexTypeData& ViewCodexRsp::type_data_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.ViewCodexRsp.type_data_list)
-  return type_data_list_.Get(index);
-}
-::proto::CodexTypeData* ViewCodexRsp::mutable_type_data_list(int index) {
-  // @@protoc_insertion_point(field_mutable:proto.ViewCodexRsp.type_data_list)
-  return type_data_list_.Mutable(index);
-}
-::proto::CodexTypeData* ViewCodexRsp::add_type_data_list() {
-  // @@protoc_insertion_point(field_add:proto.ViewCodexRsp.type_data_list)
-  return type_data_list_.Add();
-}
-::google::protobuf::RepeatedPtrField< ::proto::CodexTypeData >*
-ViewCodexRsp::mutable_type_data_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.ViewCodexRsp.type_data_list)
-  return &type_data_list_;
-}
-const ::google::protobuf::RepeatedPtrField< ::proto::CodexTypeData >&
-ViewCodexRsp::type_data_list() const {
-  // @@protoc_insertion_point(field_list:proto.ViewCodexRsp.type_data_list)
-  return type_data_list_;
-}
-
-// repeated uint32 push_tips_read_list = 7;
-int ViewCodexRsp::push_tips_read_list_size() const {
-  return push_tips_read_list_.size();
-}
-void ViewCodexRsp::clear_push_tips_read_list() {
-  push_tips_read_list_.Clear();
-}
-::google::protobuf::uint32 ViewCodexRsp::push_tips_read_list(int index) const {
-  // @@protoc_insertion_point(field_get:proto.ViewCodexRsp.push_tips_read_list)
-  return push_tips_read_list_.Get(index);
-}
-void ViewCodexRsp::set_push_tips_read_list(int index, ::google::protobuf::uint32 value) {
-  push_tips_read_list_.Set(index, value);
-  // @@protoc_insertion_point(field_set:proto.ViewCodexRsp.push_tips_read_list)
-}
-void ViewCodexRsp::add_push_tips_read_list(::google::protobuf::uint32 value) {
-  push_tips_read_list_.Add(value);
-  // @@protoc_insertion_point(field_add:proto.ViewCodexRsp.push_tips_read_list)
-}
-const ::google::protobuf::RepeatedField< ::google::protobuf::uint32 >&
-ViewCodexRsp::push_tips_read_list() const {
-  // @@protoc_insertion_point(field_list:proto.ViewCodexRsp.push_tips_read_list)
-  return push_tips_read_list_;
-}
-::google::protobuf::RepeatedField< ::google::protobuf::uint32 >*
-ViewCodexRsp::mutable_push_tips_read_list() {
-  // @@protoc_insertion_point(field_mutable_list:proto.ViewCodexRsp.push_tips_read_list)
-  return &push_tips_read_list_;
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int SetCodexPushtipsReadReq::kTypeIdFieldNumber;
-const int SetCodexPushtipsReadReq::kCodexIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-SetCodexPushtipsReadReq::SetCodexPushtipsReadReq()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fcodex_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.SetCodexPushtipsReadReq)
-}
-SetCodexPushtipsReadReq::SetCodexPushtipsReadReq(const SetCodexPushtipsReadReq& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&codex_id_, &from.codex_id_,
-    static_cast<size_t>(reinterpret_cast<char*>(&type_id_) -
-    reinterpret_cast<char*>(&codex_id_)) + sizeof(type_id_));
-  // @@protoc_insertion_point(copy_constructor:proto.SetCodexPushtipsReadReq)
-}
-
-void SetCodexPushtipsReadReq::SharedCtor() {
-  ::memset(&codex_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&type_id_) -
-      reinterpret_cast<char*>(&codex_id_)) + sizeof(type_id_));
-  _cached_size_ = 0;
-}
-
-SetCodexPushtipsReadReq::~SetCodexPushtipsReadReq() {
-  // @@protoc_insertion_point(destructor:proto.SetCodexPushtipsReadReq)
-  SharedDtor();
-}
-
-void SetCodexPushtipsReadReq::SharedDtor() {
-}
-
-void SetCodexPushtipsReadReq::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* SetCodexPushtipsReadReq::descriptor() {
-  protobuf_cmd_2fcmd_5fcodex_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fcodex_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const SetCodexPushtipsReadReq& SetCodexPushtipsReadReq::default_instance() {
-  protobuf_cmd_2fcmd_5fcodex_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-SetCodexPushtipsReadReq* SetCodexPushtipsReadReq::New(::google::protobuf::Arena* arena) const {
-  SetCodexPushtipsReadReq* n = new SetCodexPushtipsReadReq;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void SetCodexPushtipsReadReq::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.SetCodexPushtipsReadReq)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&codex_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&type_id_) -
-      reinterpret_cast<char*>(&codex_id_)) + sizeof(type_id_));
-  _internal_metadata_.Clear();
-}
-
 bool SetCodexPushtipsReadReq::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
@@ -3798,16 +1714,18 @@ bool SetCodexPushtipsReadReq::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.SetCodexPushtipsReadReq)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.SetCodexPushtipsReadReq)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -3828,9 +1746,9 @@ void SetCodexPushtipsReadReq::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(10, this->type_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.SetCodexPushtipsReadReq)
 }
@@ -3852,9 +1770,9 @@ void SetCodexPushtipsReadReq::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(10, this->type_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.SetCodexPushtipsReadReq)
   return target;
@@ -3864,10 +1782,10 @@ size_t SetCodexPushtipsReadReq::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.SetCodexPushtipsReadReq)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 codex_id = 2;
   if (this->codex_id() != 0) {
@@ -3888,181 +1806,6 @@ size_t SetCodexPushtipsReadReq::ByteSizeLong() const {
   _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
-}
-
-void SetCodexPushtipsReadReq::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.SetCodexPushtipsReadReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  const SetCodexPushtipsReadReq* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const SetCodexPushtipsReadReq>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.SetCodexPushtipsReadReq)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.SetCodexPushtipsReadReq)
-    MergeFrom(*source);
-  }
-}
-
-void SetCodexPushtipsReadReq::MergeFrom(const SetCodexPushtipsReadReq& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.SetCodexPushtipsReadReq)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.codex_id() != 0) {
-    set_codex_id(from.codex_id());
-  }
-  if (from.type_id() != 0) {
-    set_type_id(from.type_id());
-  }
-}
-
-void SetCodexPushtipsReadReq::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.SetCodexPushtipsReadReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void SetCodexPushtipsReadReq::CopyFrom(const SetCodexPushtipsReadReq& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.SetCodexPushtipsReadReq)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool SetCodexPushtipsReadReq::IsInitialized() const {
-  return true;
-}
-
-void SetCodexPushtipsReadReq::Swap(SetCodexPushtipsReadReq* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void SetCodexPushtipsReadReq::InternalSwap(SetCodexPushtipsReadReq* other) {
-  using std::swap;
-  swap(codex_id_, other->codex_id_);
-  swap(type_id_, other->type_id_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata SetCodexPushtipsReadReq::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fcodex_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fcodex_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// SetCodexPushtipsReadReq
-
-// uint32 type_id = 10;
-void SetCodexPushtipsReadReq::clear_type_id() {
-  type_id_ = 0u;
-}
-::google::protobuf::uint32 SetCodexPushtipsReadReq::type_id() const {
-  // @@protoc_insertion_point(field_get:proto.SetCodexPushtipsReadReq.type_id)
-  return type_id_;
-}
-void SetCodexPushtipsReadReq::set_type_id(::google::protobuf::uint32 value) {
-  
-  type_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.SetCodexPushtipsReadReq.type_id)
-}
-
-// uint32 codex_id = 2;
-void SetCodexPushtipsReadReq::clear_codex_id() {
-  codex_id_ = 0u;
-}
-::google::protobuf::uint32 SetCodexPushtipsReadReq::codex_id() const {
-  // @@protoc_insertion_point(field_get:proto.SetCodexPushtipsReadReq.codex_id)
-  return codex_id_;
-}
-void SetCodexPushtipsReadReq::set_codex_id(::google::protobuf::uint32 value) {
-  
-  codex_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.SetCodexPushtipsReadReq.codex_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
-
-// ===================================================================
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int SetCodexPushtipsReadRsp::kRetcodeFieldNumber;
-const int SetCodexPushtipsReadRsp::kTypeIdFieldNumber;
-const int SetCodexPushtipsReadRsp::kCodexIdFieldNumber;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-
-SetCodexPushtipsReadRsp::SetCodexPushtipsReadRsp()
-  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
-  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
-    protobuf_cmd_2fcmd_5fcodex_2eproto::InitDefaults();
-  }
-  SharedCtor();
-  // @@protoc_insertion_point(constructor:proto.SetCodexPushtipsReadRsp)
-}
-SetCodexPushtipsReadRsp::SetCodexPushtipsReadRsp(const SetCodexPushtipsReadRsp& from)
-  : ::google::protobuf::Message(),
-      _internal_metadata_(NULL),
-      _cached_size_(0) {
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::memcpy(&codex_id_, &from.codex_id_,
-    static_cast<size_t>(reinterpret_cast<char*>(&retcode_) -
-    reinterpret_cast<char*>(&codex_id_)) + sizeof(retcode_));
-  // @@protoc_insertion_point(copy_constructor:proto.SetCodexPushtipsReadRsp)
-}
-
-void SetCodexPushtipsReadRsp::SharedCtor() {
-  ::memset(&codex_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&retcode_) -
-      reinterpret_cast<char*>(&codex_id_)) + sizeof(retcode_));
-  _cached_size_ = 0;
-}
-
-SetCodexPushtipsReadRsp::~SetCodexPushtipsReadRsp() {
-  // @@protoc_insertion_point(destructor:proto.SetCodexPushtipsReadRsp)
-  SharedDtor();
-}
-
-void SetCodexPushtipsReadRsp::SharedDtor() {
-}
-
-void SetCodexPushtipsReadRsp::SetCachedSize(int size) const {
-  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = size;
-  GOOGLE_SAFE_CONCURRENT_WRITES_END();
-}
-const ::google::protobuf::Descriptor* SetCodexPushtipsReadRsp::descriptor() {
-  protobuf_cmd_2fcmd_5fcodex_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fcodex_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
-}
-
-const SetCodexPushtipsReadRsp& SetCodexPushtipsReadRsp::default_instance() {
-  protobuf_cmd_2fcmd_5fcodex_2eproto::InitDefaults();
-  return *internal_default_instance();
-}
-
-SetCodexPushtipsReadRsp* SetCodexPushtipsReadRsp::New(::google::protobuf::Arena* arena) const {
-  SetCodexPushtipsReadRsp* n = new SetCodexPushtipsReadRsp;
-  if (arena != NULL) {
-    arena->Own(n);
-  }
-  return n;
-}
-
-void SetCodexPushtipsReadRsp::Clear() {
-// @@protoc_insertion_point(message_clear_start:proto.SetCodexPushtipsReadRsp)
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  // Prevent compiler warnings about cached_has_bits being unused
-  (void) cached_has_bits;
-
-  ::memset(&codex_id_, 0, static_cast<size_t>(
-      reinterpret_cast<char*>(&retcode_) -
-      reinterpret_cast<char*>(&codex_id_)) + sizeof(retcode_));
-  _internal_metadata_.Clear();
 }
 
 bool SetCodexPushtipsReadRsp::MergePartialFromCodedStream(
@@ -4123,16 +1866,18 @@ bool SetCodexPushtipsReadRsp::MergePartialFromCodedStream(
           goto success;
         }
         DO_(::google::protobuf::internal::WireFormat::SkipField(
-              input, tag, _internal_metadata_.mutable_unknown_fields()));
+              input, tag, nullptr));
         break;
       }
     }
   }
 success:
   // @@protoc_insertion_point(parse_success:proto.SetCodexPushtipsReadRsp)
+  DiscardUnknownFields();
   return true;
 failure:
   // @@protoc_insertion_point(parse_failure:proto.SetCodexPushtipsReadRsp)
+  DiscardUnknownFields();
   return false;
 #undef DO_
 }
@@ -4158,9 +1903,9 @@ void SetCodexPushtipsReadRsp::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(14, this->codex_id(), output);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
   // @@protoc_insertion_point(serialize_end:proto.SetCodexPushtipsReadRsp)
 }
@@ -4187,9 +1932,9 @@ void SetCodexPushtipsReadRsp::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(14, this->codex_id(), target);
   }
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
   // @@protoc_insertion_point(serialize_to_array_end:proto.SetCodexPushtipsReadRsp)
   return target;
@@ -4199,10 +1944,10 @@ size_t SetCodexPushtipsReadRsp::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:proto.SetCodexPushtipsReadRsp)
   size_t total_size = 0;
 
-  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+  if ((_internal_metadata_.have_unknown_fields() &&  false)) {
     total_size +=
       ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
-        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+        (false   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
   // uint32 codex_id = 14;
   if (this->codex_id() != 0) {
@@ -4231,122 +1976,6 @@ size_t SetCodexPushtipsReadRsp::ByteSizeLong() const {
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
 }
-
-void SetCodexPushtipsReadRsp::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:proto.SetCodexPushtipsReadRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  const SetCodexPushtipsReadRsp* source =
-      ::google::protobuf::internal::DynamicCastToGenerated<const SetCodexPushtipsReadRsp>(
-          &from);
-  if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:proto.SetCodexPushtipsReadRsp)
-    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
-  } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:proto.SetCodexPushtipsReadRsp)
-    MergeFrom(*source);
-  }
-}
-
-void SetCodexPushtipsReadRsp::MergeFrom(const SetCodexPushtipsReadRsp& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:proto.SetCodexPushtipsReadRsp)
-  GOOGLE_DCHECK_NE(&from, this);
-  _internal_metadata_.MergeFrom(from._internal_metadata_);
-  ::google::protobuf::uint32 cached_has_bits = 0;
-  (void) cached_has_bits;
-
-  if (from.codex_id() != 0) {
-    set_codex_id(from.codex_id());
-  }
-  if (from.type_id() != 0) {
-    set_type_id(from.type_id());
-  }
-  if (from.retcode() != 0) {
-    set_retcode(from.retcode());
-  }
-}
-
-void SetCodexPushtipsReadRsp::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:proto.SetCodexPushtipsReadRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-void SetCodexPushtipsReadRsp::CopyFrom(const SetCodexPushtipsReadRsp& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:proto.SetCodexPushtipsReadRsp)
-  if (&from == this) return;
-  Clear();
-  MergeFrom(from);
-}
-
-bool SetCodexPushtipsReadRsp::IsInitialized() const {
-  return true;
-}
-
-void SetCodexPushtipsReadRsp::Swap(SetCodexPushtipsReadRsp* other) {
-  if (other == this) return;
-  InternalSwap(other);
-}
-void SetCodexPushtipsReadRsp::InternalSwap(SetCodexPushtipsReadRsp* other) {
-  using std::swap;
-  swap(codex_id_, other->codex_id_);
-  swap(type_id_, other->type_id_);
-  swap(retcode_, other->retcode_);
-  _internal_metadata_.Swap(&other->_internal_metadata_);
-  swap(_cached_size_, other->_cached_size_);
-}
-
-::google::protobuf::Metadata SetCodexPushtipsReadRsp::GetMetadata() const {
-  protobuf_cmd_2fcmd_5fcodex_2eproto::protobuf_AssignDescriptorsOnce();
-  return protobuf_cmd_2fcmd_5fcodex_2eproto::file_level_metadata[kIndexInFileMessages];
-}
-
-#if PROTOBUF_INLINE_NOT_IN_HEADERS
-// SetCodexPushtipsReadRsp
-
-// int32 retcode = 11;
-void SetCodexPushtipsReadRsp::clear_retcode() {
-  retcode_ = 0;
-}
-::google::protobuf::int32 SetCodexPushtipsReadRsp::retcode() const {
-  // @@protoc_insertion_point(field_get:proto.SetCodexPushtipsReadRsp.retcode)
-  return retcode_;
-}
-void SetCodexPushtipsReadRsp::set_retcode(::google::protobuf::int32 value) {
-  
-  retcode_ = value;
-  // @@protoc_insertion_point(field_set:proto.SetCodexPushtipsReadRsp.retcode)
-}
-
-// uint32 type_id = 4;
-void SetCodexPushtipsReadRsp::clear_type_id() {
-  type_id_ = 0u;
-}
-::google::protobuf::uint32 SetCodexPushtipsReadRsp::type_id() const {
-  // @@protoc_insertion_point(field_get:proto.SetCodexPushtipsReadRsp.type_id)
-  return type_id_;
-}
-void SetCodexPushtipsReadRsp::set_type_id(::google::protobuf::uint32 value) {
-  
-  type_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.SetCodexPushtipsReadRsp.type_id)
-}
-
-// uint32 codex_id = 14;
-void SetCodexPushtipsReadRsp::clear_codex_id() {
-  codex_id_ = 0u;
-}
-::google::protobuf::uint32 SetCodexPushtipsReadRsp::codex_id() const {
-  // @@protoc_insertion_point(field_get:proto.SetCodexPushtipsReadRsp.codex_id)
-  return codex_id_;
-}
-void SetCodexPushtipsReadRsp::set_codex_id(::google::protobuf::uint32 value) {
-  
-  codex_id_ = value;
-  // @@protoc_insertion_point(field_set:proto.SetCodexPushtipsReadRsp.codex_id)
-}
-
-#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
 
 // @@protoc_insertion_point(namespace_scope)
 
