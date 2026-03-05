@@ -1,0 +1,56 @@
+name: Build libhook.so for Debian 11 compatibility
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+
+    runs-on: ubuntu-20.04   # ← ключевой момент: Ubuntu 20.04 (GCC 9 по умолчанию)
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Install dependencies (GCC 10 + build tools)
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y \
+          build-essential \
+          g++-10 \
+          git \
+          cmake \
+          libprotobuf-dev \
+          protobuf-compiler \
+          zlib1g-dev \
+          libssl-dev
+
+    - name: Set GCC 10 as default
+      run: |
+        sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-10 100 \
+          --slave /usr/bin/g++ g++ /usr/bin/g++-10 \
+          --slave /usr/bin/gcov gcov /usr/bin/gcov-10
+        sudo update-alternatives --set gcc /usr/bin/gcc-10
+        gcc --version
+        g++ --version
+
+    - name: Build project
+      run: |
+        make clean || true
+        make
+
+    - name: Find the built .so file
+      run: |
+        find . -name "*.so" -type f
+
+    - name: Upload artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: libhook-so
+        path: |
+          **/*.so
+        if-no-files-found: error
