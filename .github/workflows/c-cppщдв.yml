@@ -16,7 +16,8 @@ jobs:
       image: debian:11
 
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout repository
+      uses: actions/checkout@v4
 
     - name: Install dependencies (protobuf from Debian 11 repos)
       run: |
@@ -27,7 +28,6 @@ jobs:
           cmake \
           libprotobuf-dev \
           protobuf-compiler \
-          libprotobuf-lite-dev \
           zlib1g-dev \
           libssl-dev \
           pkg-config \
@@ -36,17 +36,21 @@ jobs:
     - name: Verify protobuf version
       run: |
         protoc --version
-        dpkg -l | grep protobuf
+        dpkg -l | grep protobuf || echo "No protobuf packages found"
 
     - name: Build projecthook
       run: |
         make clean || true
         make
 
-    - name: List .so files
-      run: find . -name "*.so" -exec ls -l {} \;
+    - name: List built .so files (debug)
+      run: |
+        find . -name "*.so" -type f -exec ls -l {} \; || true
 
-    - uses: actions/upload-artifact@v4
+    - name: Upload artifact
+      uses: actions/upload-artifact@v4
       with:
-        name: libhook-proto-3.12
-        path: '**/*.so'
+        name: libhook-proto-3.12.4
+        path: |
+          **/*.so
+        if-no-files-found: error
