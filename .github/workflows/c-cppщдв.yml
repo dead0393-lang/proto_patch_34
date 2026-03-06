@@ -1,4 +1,4 @@
-name: Build libhook.so for Debian 11 (Bullseye)
+name: Build libhook.so with Debian 11 protobuf (3.12.4)
 
 on:
   push:
@@ -10,16 +10,15 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-22.04  # хост-раннер любой, но внутри используем debian:11
+    runs-on: ubuntu-22.04
 
     container:
-      image: debian:11  # ← ключ: сборка внутри чистого Debian 11 контейнера
+      image: debian:11
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
+    - uses: actions/checkout@v4
 
-    - name: Install build dependencies inside Debian 11
+    - name: Install dependencies (protobuf from Debian 11 repos)
       run: |
         apt-get update -qq
         apt-get install -y -qq \
@@ -28,25 +27,26 @@ jobs:
           cmake \
           libprotobuf-dev \
           protobuf-compiler \
+          libprotobuf-lite-dev \
           zlib1g-dev \
           libssl-dev \
           pkg-config \
-          libcurl4-openssl-dev  # для httplib, если нужно
+          libcurl4-openssl-dev
 
-    - name: Build project
+    - name: Verify protobuf version
+      run: |
+        protoc --version
+        dpkg -l | grep protobuf
+
+    - name: Build projecthook
       run: |
         make clean || true
         make
 
-    - name: List built files for debug
-      run: |
-        ls -la . || true
-        find . -name "*.so" -type f -exec ls -l {} \; || true
+    - name: List .so files
+      run: find . -name "*.so" -exec ls -l {} \;
 
-    - name: Upload the .so artifact
-      uses: actions/upload-artifact@v4
+    - uses: actions/upload-artifact@v4
       with:
-        name: libhook-debian11
-        path: |
-          **/*.so
-        if-no-files-found: error
+        name: libhook-proto-3.12
+        path: '**/*.so'
