@@ -1,4 +1,4 @@
-name: Build libhook.so for Debian 11 compatibility
+name: Build libhook.so for Debian 11 (Bullseye)
 
 on:
   push:
@@ -10,16 +10,19 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-22.04   # ← это работает, GCC 11 по умолчанию
+    runs-on: ubuntu-22.04  # хост-раннер любой, но внутри используем debian:11
+
+    container:
+      image: debian:11  # ← ключ: сборка внутри чистого Debian 11 контейнера
 
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    - name: Install dependencies
+    - name: Install build dependencies inside Debian 11
       run: |
-        sudo apt-get update
-        sudo apt-get install -y \
+        apt-get update -qq
+        apt-get install -y -qq \
           build-essential \
           git \
           cmake \
@@ -28,21 +31,22 @@ jobs:
           zlib1g-dev \
           libssl-dev \
           pkg-config \
-          libcurl4-openssl-dev  # если httplib требует curl
+          libcurl4-openssl-dev  # для httplib, если нужно
 
     - name: Build project
       run: |
         make clean || true
         make
 
-    - name: Find and list built .so files
+    - name: List built files for debug
       run: |
-        find . -name "*.so" -type f -exec ls -l {} \;
+        ls -la . || true
+        find . -name "*.so" -type f -exec ls -l {} \; || true
 
-    - name: Upload artifact
+    - name: Upload the .so artifact
       uses: actions/upload-artifact@v4
       with:
-        name: libhook-so
+        name: libhook-debian11
         path: |
           **/*.so
         if-no-files-found: error
